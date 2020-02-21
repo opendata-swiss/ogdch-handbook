@@ -3,11 +3,64 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. container:: custom-breadcrumbs
+
+   - :fa:`home` Handbuch
+
 **********
 Willkommen
 **********
 
-Hier entsteht das neue Handbuch von Opendata.swiss
+Schön, dass Sie Daten publizieren möchten! Wir unterstützen Sie dabei.
+======================================================================
+
+Dieses Handbuch hilft Personen und Organisationen dabei, Daten als
+:term:`Open Government Data` zu veröffentlichen.
+Es wird vom Bundesamt für Statistik betrieben und hat das Ziel,
+den Prozess rund um das Publizieren von Daten zu vereinfachen
+und somit die Veröffentlichung und Nutzung von Daten zu fördern.
+
+Wie nutze ich dieses Handbuch?
+==============================
+
+Alle Inhalte sind analog zum Publikationsprozess und passend zu
+Ihrem Bedürfnis gegliedert: :doc:`Daten vorbereiten <content/vorbereiten/vorbereiten>`,
+:doc:`Daten publizieren <content/publizieren/publizieren>`,
+:doc:`Daten pflegen <content/pflegen/pflegen>`. In den einzelnen Kapiteln finden Sie praxisnahe
+Anleitungen, die Sie durch den Prozess führen; vertiefte
+Informationen stehen Ihnen jeweils am Ende jeder Seite in Form von
+pdfs und Links sowie gesammelt in
+unserer Bibliothek zur Verfügung.
+Das :doc:`Glossar <content/glossar/begriffe>` enthält Definitionen der
+wichtigsten Begriffe.
+
+Vor dem Start
+-------------
+
+Erstnutzerinnen und -nutzern empfehlen wir, sich vorab mit Opendata.swiss vertraut zu machen.
+In unserer kurzen :doc:`Einführung für Erst-Publizierende <content/vorbereiten/erstpublizierende>`
+erhalten Sie grundlegende Informationen zum Prozess und praktische Hilfestellung,
+geeignete Daten in Ihrer Organisation zu identifizieren.
+
+Wie möchten Sie beginnen?
+-------------------------
+
+- :doc:`Opendata verstehen – Für Erstnutzerinnen und -nutzer <content/vorbereiten/erstpublizierende/opendata-swiss-verstehen>`
+- :doc:`Daten vorbereiten – Zu den Checks <content/vorbereiten/datensatz/rechtlicher-und-nutzungs-check>`
+- :doc:`Daten publizieren <content/publizieren/publizieren>`
+
+Sie möchten keine Daten publizieren, sondern nutzen?
+----------------------------------------------------
+
+- :doc:`Daten nutzen <content/nutzen/nutzen>`
+
+Wir unterstützen Sie. Unterstützen Sie auch uns.
+================================================
+
+Dieses Handbuch lebt vom Feedback seiner Nutzerinnen und Nutzern,
+damit es sich kontinuierlich verbessert. Haben Sie Anregungen zu
+Inhalten oder Erfahrungen, die Sie gerne mit uns teilen möchten?
+:email-to-bfs:`Schreiben Sie uns <>`.
 
 .. toctree::
    :maxdepth: 2

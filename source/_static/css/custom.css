@@ -117,3 +117,29 @@ a, a:hover, a:visited, a:active {
     margin-top: 30px;
     font-weight: 600;
 }
+
+.rst-content h3 {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/*=======================================*/
+/* Breadcrumbs                           */
+/*=======================================*/
+
+.custom-breadcrumbs {
+    padding-bottom: 50px;
+}
+
+.custom-breadcrumbs ul {
+    display: inline;
+}
+
+.custom-breadcrumbs li {
+    display: inline;
+}
+
+.custom-breadcrumbs li p {
+    display: inline;
+}

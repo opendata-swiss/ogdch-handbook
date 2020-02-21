@@ -35,7 +35,61 @@ pygments_style = 'monokai'
 extensions = [
     'sphinx_rtd_theme',
     'sphinx_fontawesome',
+    'sphinx.ext.extlinks',
 ]
+
+extlinks = {
+    'bfs-library':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.html/%s', ''),
+    'bfs-m9-textbausteine-fuer-standardformulierungen':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147090.html/%s', ''),
+    'bfs-m7-arbeitshilfe-behoerden-publikation-ogd':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html/%s', ''),
+    'bfs-m5-abgrenzung-kundenspezifische-leistungen-ogd':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147081.html/%s', ''),
+    'bfs-m4-bericht-datenbestaende-bund':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147084.html/%s', ''),
+    'bfs-m1-rechtliche-rahmenbedingungen':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147095.html/%s', ''),
+    'bfs-opengovernmentdata-grundlagenstudie-schweiz':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147076.html/%s', ''),
+    'bfs-ogd-strategischer-schwerpunkt-im-egovernment':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147073.html/%s', ''),
+    'bfs-wirtschaftliche-auswirkungen-ogd':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147089.html/%s', ''),
+    'bfs-massnahmen-aufbau-ogd-kultur':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147079.html/%s', ''),
+    'bfs-bericht-ogd-international':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147056.html/%s', ''),
+    'bfs-strategieumsetzung-ogd-schweiz-pruefung':
+        ('https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147034.html/%s', ''),
+    'email-to-bfs':
+        ('mailto:opendata@bfs.admin.ch/%s', ''),
+    'federal-gazette-ogd-strategie-2014-2018':
+        ('https://www.admin.ch/opc/de/federal-gazette/2014/3493.pdf/%s', ''),
+    'federal-gazette-ogd-strategie-2019-2023':
+        ('https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf/%s', ''),
+    'ech-0200-dcat':
+        ('https://www.ech.ch/de/standards/39919/%s', ''),
+    'opendata-swiss-portal':
+        ('https://opendata.swiss/%s', ''),
+    'opendata-swiss-terms-of-use':
+        ('https://opendata.swiss/de/terms-of-use/%s', ''),
+    'geocat-startseite':
+        ('https://www.geocat.admin.ch/de/startseite.html/%s', ''),
+    'geocat-gm03':
+        ('https://www.geocat.admin.ch/de/dokumentation/gm03.html/%s', ''),
+    'geocat-xml-example':
+        ('https://www.geocat.ch/geonetwork/srv/ger/xml.metadata.get?uuid=c5bc9d6b-cafb-4617-97d7-868ab4cd5506/%s', ''),
+    'geocat-anleitung-publikation-auf-opendata-swiss':
+        ('https://www.geocat.admin.ch/de/dokumentation/opendata.html/%s', ''),
+    'geocat-portal':
+        ('http://www.geocat.ch/%s', ''),
+    'geoadmin-bgdi':
+        ('https://www.geo.admin.ch/de/about-swiss-geoportal/task-and-responsabilities/bundes-geodaten-infrastruktur.html/%s', ''),
+    'wikipedia-iso8601':
+        ('https://en.wikipedia.org/wiki/ISO_8601/%s', ''),
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
