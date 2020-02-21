@@ -1,3 +1,9 @@
+.. container:: custom-breadcrumbs
+
+   - :fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`
+   - Glossar :fa:`chevron-right`
+   - Bibliothek
+
 **********
 Bibliothek
 **********

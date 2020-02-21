@@ -109,3 +109,24 @@ Inhalten oder Erfahrungen, die Sie gerne mit uns teilen möchten?
    content/ueberdashandbuch/ueber-ods
    content/ueberdashandbuch/kontakt
    content/ueberdashandbuch/rechtliche-hinweise
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: (Versteckt):
+
+   content/vorbereiten/erstpublizierende/opendata-swiss-verstehen
+   content/vorbereiten/erstpublizierende/bestand-pruefen
+   content/vorbereiten/datensatz/rechtlicher-und-nutzungs-check
+   content/vorbereiten/datensatz/technischer-check
+   content/publizieren/erstpublizierende/kontakt-bfs
+   content/publizieren/erstpublizierende/organisation-einrichten
+   content/publizieren/erstpublizierende/profil-einrichten
+   content/publizieren/publikationsvarianten/metadaten-manuell-erfassen
+   content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen
+   content/publizieren/publikationsvarianten/harvesting
+   content/publizieren/publikationsvarianten/geodaten
+   content/glossar/standards/dcat-mapping
+   content/glossar/standards/geocat-mapping
+   content/glossar/standards/linked-open-data
+   content/glossar/standards/dateiformate
