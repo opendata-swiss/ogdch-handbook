@@ -1,3 +1,119 @@
 /*=======================================*/
 /* custom css for opendat.swiss.handbook */
 /*=======================================*/
+
+/*=======================================*/
+/* general presets                       */
+/*=======================================*/
+
+/* font family */
+
+body {
+   font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+}
+
+.rst-content .toctree-wrapper p.caption, h1, h2, h3, h4, h5, h6, legend {
+   font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+}
+
+/* link color */
+
+a, a:hover, a:visited, a:active {
+    color: #009688;
+}
+
+/* background color */
+
+.wy-body-for-nav {
+    background: white;
+}
+
+/*=======================================*/
+/* Search Windo with Logo                */
+/*=======================================*/
+
+/* the search window should have a white background */
+
+.wy-side-nav-search {
+   background: white;
+}
+
+/* Logo */
+
+.wy-side-nav-search .wy-dropdown>a img.logo, .wy-side-nav-search>a img.logo {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: auto;
+    border-radius: 0;
+    max-width: 100%;
+    background: transparent;
+}
+
+/*=======================================*/
+/* Sidebar                               */
+/*=======================================*/
+
+/* sidebar should have a white background */
+
+.wy-nav-side {
+   background: white;
+}
+
+/* Headers of the content sections in the sidebar */
+
+.wy-menu-vertical p.caption {
+    color: #070707;
+    text-transform: none;
+    font-size: 18px;
+    padding-left: 26px;
+}
+
+/* color of links in the sidebar */
+
+.wy-menu-vertical li.current {
+    color: #009688;
+}
+
+.wy-menu-vertical a {
+    color: #009688;
+    padding-left: 26px;
+}
+
+.wy-menu-vertical a:hover {
+    background: whitesmoke;
+    border-left: 6px solid #00A093;
+    padding-left:20px;
+}
+
+.wy-menu-vertical li.toctree-l1.current>a {
+    background: whitesmoke;
+    border-left: 6px solid #00A093;
+    padding-left:20px;
+    color:black;
+    border-bottom:none;
+    border-top:none;
+}
+
+/*=======================================*/
+/* Content page                          */
+/*=======================================*/
+
+/* don't show the content tree on the index page */
+
+.wy-nav-content .toctree-wrapper {
+   display: none;
+}
+
+/* header h1 at the top of the page */
+
+.rst-content h1 {
+    font-size: 18px;
+}
+
+/* header h2 at the top of the page */
+
+.rst-content h2 {
+    margin-top: 30px;
+    font-weight: 600;
+}
