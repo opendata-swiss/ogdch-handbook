@@ -232,3 +232,26 @@ div.container.content-divider {
 div.container.content-divider p {
     display:none;
 }
+
+/*=======================================*/
+/* Container jumpbox                     */
+/*=======================================*/
+
+.ogdch-jumpbox {
+    padding-bottom:40px;
+}
+
+/*=======================================*/
+/* field lists                           */
+/*=======================================*/
+
+.rst-content dl:not(.docutils) dt {
+    border-top:none;
+    color: inherit;
+    background: inherit;
+    font-size:16px;
+}
+
+.rst-content dl:not(.docutils) dt a {
+    font-size:16px;
+}
