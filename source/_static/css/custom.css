@@ -87,12 +87,29 @@ a, a:hover, a:visited, a:active {
 }
 
 .wy-menu-vertical li.toctree-l1.current>a {
-    background: whitesmoke;
-    border-left: 6px solid #00A093;
     padding-left:20px;
     color:black;
     border-bottom:none;
     border-top:none;
+    font-weight: normal;
+    background: whitesmoke;
+}
+
+.wy-menu-vertical li.toctree-l1.current {
+    border-left: 6px solid #00A093;
+    background: whitesmoke;
+}
+
+.wy-menu-vertical li.toctree-l1 > a.custom-breadcrumb-upper {
+    color:#099;
+}
+
+.custom-breadcrumb-sub {
+    padding-left: 20px;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 5px;
 }
 
 /*=======================================*/
