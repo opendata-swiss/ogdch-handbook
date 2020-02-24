@@ -143,3 +143,92 @@ a, a:hover, a:visited, a:active {
 .custom-breadcrumbs li p {
     display: inline;
 }
+
+/*=======================================*/
+/* Container intro                       */
+/*=======================================*/
+
+div.container.intro {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+div.container.intro p {
+    font-size: 18px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+div.container.intro ul {
+    margin-bottom: 0
+}
+
+/*=======================================*/
+/* Container teaser                      */
+/*=======================================*/
+
+div.container.teaser {
+    background-size: 120px;
+    background-repeat: no-repeat;
+    height: 30px;
+    background-image: url("../../_static/images/branding/arrow-on.png");
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+div.container.teaser p {
+    padding-top: 0;
+    padding-left: 125px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/*=======================================*/
+/* Container materialien                 */
+/*=======================================*/
+
+div.container.materialien {
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-image: url("../../_static/images/branding/category-identify.png");
+    height: 40px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+div.container.materialien p {
+    padding-top: 7px;
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/*=======================================*/
+/* Container support                     */
+/*=======================================*/
+
+div.container.support {
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-image: url("../../_static/images/branding/category-support.png");
+    height: 40px;
+    margin-bottom:10px;
+}
+
+div.container.support p {
+    display:none;
+}
+
+/*=======================================*/
+/* Container content-divider             */
+/*=======================================*/
+
+div.container.content-divider {
+    background-size: 40px;
+    height: 40px;
+    margin-bottom:10px;
+}
+
+div.container.content-divider p {
+    display:none;
+}
