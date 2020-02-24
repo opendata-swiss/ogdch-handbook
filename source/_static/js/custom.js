@@ -10,7 +10,6 @@
 // and subheader "Begriffe erklärt" if these headers change
 // the ids below must be changed accordingly
 // ---------------------------------------------------------------
-
 $(document).ready(function(){
   var ogdchActivePage;
   ogdchActivePage = $('.custom-breadcrumbs ul li:nth-child(2) p').text();
@@ -33,26 +32,40 @@ $(document).ready(function(){
   }
 });
 
+// ---------------------------------------------------------------
+// Show active chapter in sidebar even on subpages
+// ---------------------------------------------------------------
 // This takes from the custom-breadcrumbs directive which chapter is currently active
 // For this to work: chapters that are in the sidebar must have unique names
-
+// ---------------------------------------------------------------
 $(document).ready(function(){
   var ogdchActiveBreadcrumb;
   var ogdchActiveText;
-  ogdchActiveBreadcrumb = $('.custom-breadcrumbs ul li:nth-child(3) a.internal').attr('href');
-  ogdchActiveText = $('.custom-breadcrumbs ul li:nth-child(4) p').text();
-
+  var crumb3rd = $('.custom-breadcrumbs ul li:nth-child(3) a.internal').attr('href');
+  var crumb2nd = $('.custom-breadcrumbs ul li:nth-child(2) a.internal').attr('href');
+  if (crumb3rd) {
+      ogdchActiveBreadcrumb = crumb3rd;
+      ogdchActiveText = $('.custom-breadcrumbs ul li:nth-child(4) p').text();
+  } else if (crumb2nd) {
+      ogdchActiveBreadcrumb = crumb2nd;
+      ogdchActiveText = $('.custom-breadcrumbs ul li:nth-child(3) p').text();
+  }
   $('.wy-menu-vertical ul li a.internal').each(function () {
     if ($(this).attr('href') === ogdchActiveBreadcrumb) {
       $(this).addClass("current custom-breadcrumb-upper");
       $(this).parent().addClass("current");
-      $(this).parent().append("<ul class='custom-breadcrumb-sub'><li class='custom-breadcrumb-sub'>" + ogdchActiveText+ "</li></ul>");
+      $(this).parent().append("<ul class='custom-breadcrumb-sub'>" +
+          "<li class='custom-breadcrumb-sub'>" + ogdchActiveText + "</li></ul>");
     }
   });
 });
 
-// Attribute definitions toggle
-
+// ---------------------------------------------------------------
+// Toggle container attribute
+// ---------------------------------------------------------------
+// toggle so that attribute definitions are not shown
+// initially but can be revealed on demand
+// ---------------------------------------------------------------
 $(document).ready(function(){
   var attributeHeader = $('.attribute');
   attributeHeader.each(function() {
