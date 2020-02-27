@@ -23,14 +23,14 @@ Wie publiziere ich Geodaten?
 Geodaten auf Geocat publizieren
 --------------------------------
 Geocat bietet Ihnen dazu eine
-:geocat-anleitung-publikation-auf-opendata-swiss:`Anleitung <>`, wie Sie Ihre Daten
+`Anleitung <https://www.geocat.admin.ch/de/dokumentation/opendata.html>`__, wie Sie Ihre Daten
 auf geocat publizieren können.
 
 Harvesting von Geodaten
 ------------------------
 Für das Einrichten des Harvesters benötigen Sie einen sogenannten
-CSW-Endpoint auf geocat.ch. Senden Sie dazu eine entsprechende `Anfrage an
-das Team von Geocat <geocat@swisstopo.ch>`__. Ist der Endpunkt eingerichtet,
+CSW-Endpoint auf geocat.ch. Senden Sie dazu eine entsprechende
+`Anfrage an das Team von Geocat <geocat@swisstopo.ch>`__. Ist der Endpunkt eingerichtet,
 :email-to-bfs:`teilen Sie uns diesen gerne mit <>` und wir
 können den Harvester für Sie einrichten und testen.
 
@@ -46,8 +46,7 @@ der auf den von opendata.swiss genutzten
    Support
 
 Sie haben eine Frage zum Publizieren von Geodaten? Wenden Sie sich direkt
-an das Team von Geocat `Wenden Sie sich direkt
-an das Team von Geocat <geocat@swisstopo.ch>`__. Falls Sie Fragen
+an das Team von Geocat `Wenden Sie sich direkt an das Team von Geocat <geocat@swisstopo.ch>`__. Falls Sie Fragen
 zum Harvesten Ihrer Geodaten haben, :email-to-bfs:`melden Sie sich
 gerne bei uns <>`.
 
