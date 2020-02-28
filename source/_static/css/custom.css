@@ -29,7 +29,7 @@ a, a:hover, a:visited, a:active {
 }
 
 /*=======================================*/
-/* Search Windo with Logo                */
+/* Search Window with Logo                */
 /*=======================================*/
 
 /* the search window should have a white background */
@@ -48,6 +48,18 @@ a, a:hover, a:visited, a:active {
     border-radius: 0;
     max-width: 100%;
     background: transparent;
+}
+
+/* top navbar appears on small screens */
+
+.wy-nav-top {
+    background: white;
+}
+
+/* menu icon on small screens */
+
+.wy-nav-top i {
+    color: #099;
 }
 
 /*=======================================*/
