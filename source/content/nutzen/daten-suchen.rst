@@ -25,7 +25,7 @@ Technical background
 
 opendata.swiss has a very powerful search engine, that can help you to
 find exactly the datasets you want. The search is provided by the open
-source component `Apache Lucene/Solr <http://lucene.apache.org/solr/>`__.
+source component `Apache Lucene/Solr <https://lucene.apache.org/solr/>`__.
 Every dataset is
 indexed by Solr when it gets updated, and if you perform a search on the
 portal, this index is queried to efficiently deliver results.
@@ -76,7 +76,7 @@ All other files (e.g. ``stopwords.txt``) are provided by Solr.
 Query syntax
 ------------
 
-Solr has its own `query syntax <http://lucene.apache.org/core/3_6_0/queryparsersyntax.html>`__
+Solr has its own `query syntax <https://lucene.apache.org/core/3_6_0/queryparsersyntax.html>`__
 to write complex queries. Depending on the query, Solr uses a different
 query parser to determine what to do.
 

@@ -25,7 +25,7 @@ Unsere Datenpublizierenden stehen Ihnen übrigens gerne für
 Fragen zur Verfügung. Kontaktangaben finden Sie jeweils im
 Datensatz unter “Zusätzliche Information”.
 Bei Fragen zu opendata.swiss freuen wir uns über
-:email-to-bfs:`Ihre Anfrage <>`.
+`Ihre Anfrage <mailto:opendata@bfs.admin.ch>`__.
 
 - :doc:`In den Daten suchen <daten-suchen>`
 - :doc:`Daten über das API nutzen <api-nutzen>`

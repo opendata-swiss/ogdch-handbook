@@ -62,7 +62,8 @@ Bewegung, an der auch Schweizer Behörden partizipieren.
 
    Mehr zum Thema
 
-- :bfs-m4-bericht-datenbestaende-bund:`Bericht über Datenbestände des Bundes (pdf) <>` – Das Dokument liefert einen ersten Überblick über die Daten beim Bund, zeigt Schwierigkeiten auf und schlägt Varianten für das weitere Vorgehen vor (Stand 2015).
+- `Bericht über Datenbestände des Bundes (pdf) <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147084.html>`__ –
+  Das Dokument liefert einen ersten Überblick über die Daten beim Bund, zeigt Schwierigkeiten auf und schlägt Varianten für das weitere Vorgehen vor (Stand 2015).
 
 .. container:: teaser
 

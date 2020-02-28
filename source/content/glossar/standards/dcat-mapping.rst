@@ -14,7 +14,7 @@ Der Schweizer Datenstandard
 .. container:: Intro
 
     DCAT-AP-CH ist der Schweizer Datenstandard, der derzeit auf
-    :opendata-swiss-portal:`opendata.swiss <>`
+    `opendata.swiss <https://opendata.swiss/de/>`__
     implementiert ist. Er basiert auf dem internationalen DCAT-AP-Standard.
     Sämtliche Datensätze, die auf opendata.swiss publiziert werden, müssen
     in diesem Format vorliegen. Hier erklären wir Ihnen, was es beim DCAT-AP-CH
@@ -265,7 +265,7 @@ Dataset
 
     dct:issued 0..n
 
-    :Type: Date and time in :wikipedia-iso8601:`ISO-8601 <>` format
+    :Type: Date and time in `ISO-8601 <https://en.wikipedia.org/wiki/ISO_8601>`__ format
     :Mandatory:  Can be left out if there is no :ref:`distribution <dcat-ap-ch-distribution>`
     :Cardinality: 0..1
     :Attributes: - Name: ``rdf:datatype``
@@ -282,7 +282,7 @@ Dataset
 
     dct:modified 0..1
 
-    :Type: Date and time in :wikipedia-iso8601:`ISO-8601 <>` format
+    :Type: Date and time in `ISO-8601 <https://en.wikipedia.org/wiki/ISO_8601>`__ format
     :Mandatory:  Only when the dataset has changed since the first publication
     :Cardinality: 0..1
     :Attributes: - Name: ``rdf:datatype``

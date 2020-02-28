@@ -67,7 +67,7 @@ angepasst haben, desto schneller wird der Harvester Ihre Daten importieren könn
 Katalog-Endpunkt übergeben
 ---------------------------
 
-:email-to-bfs:`Senden Sie uns hierfür eine E-Mail <>` mit der URL,
+`Senden Sie uns hierfür eine E-Mail <mailto:opendata@bfs.admin.ch>`__ mit der URL,
 unter der wir Ihren Datenkatalog herunterladen können.
 Diese URL ist gleichzeitig ein RDF-Endpunkt.
 
@@ -93,7 +93,7 @@ Falls Ihr Datenkatalog zu gross ist und nicht in einer einzigen Anfrage
 übermittelt werden kann, besteht die Möglichkeit, ihn seitenweise zu übergeben.
 Dafür empfehlen wir die Paginierung mit dem
 `Hydra Vocabulary <https://www.hydra-cg.com/spec/latest/core/>`__ zu
-implementieren. :email-to-bfs:`Senden Sie uns abschliessend eine E-Mail <>`
+implementieren. `Senden Sie uns abschliessend eine E-Mail <mailto:opendata@bfs.admin.ch>`
 mit der entsprechenden URL.
 
 .. _harvesting-testen:
@@ -105,7 +105,7 @@ Das Harvesting wird von uns für Sie getestet. Nachdem wir Ihre URL
 erhalten und den Harvester eingerichtet haben, lassen wir ihn auf Ihrem
 Endpunkt laufen. Bei allfälligen Fehlern melden wir uns bei Ihnen, sodass Sie
 diese an Ihrem Katalog-Endpunkt korrigieren können.
-:email-to-bfs:`Geben Sie uns Bescheid <>` , sobald die Fehler behoben
+`Geben Sie uns Bescheid <mailto:opendata@bfs.admin.ch>`__ , sobald die Fehler behoben
 sind und schon beginnt unser nächster Testlauf.
 
 .. _harvesting-vorschau:
@@ -117,7 +117,7 @@ Vorschau des Datensatz prüfen
    :alt: xml hochladen
 
 Im letzten Schritt kontrollieren Sie die Datensätze. Dafür loggen Sie sich
-in die `Abnahme-Umgebung <http://ogdch-abnahme.clients.liip.ch/>`__ ein und
+in die `Abnahme-Umgebung <http://ogdch-abnahme.clients.liip.ch/de>`__ ein und
 lassen sich unter “Organisation” mit nur einem Klick unter
 “Organisation anzeigen” eine Vorschau der Seite anzeigen.
 Nun können Sie alle Datensätze und Ressourcen überprüfen.
@@ -127,7 +127,7 @@ Nun können Sie alle Datensätze und Ressourcen überprüfen.
    Support
 
 Sie haben eine Frage zum Harvester?
-:email-to-bfs:`Schreiben Sie uns <>`
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
 und wir helfen Ihnen gerne weiter.
 
 .. container:: materialien

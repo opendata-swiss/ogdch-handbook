@@ -29,4 +29,4 @@ Lore Ipsum
    Support
 
 Sie haben eine Frage?
-:email-to-bfs:`Schreiben Sie uns <>` und wir helfen Ihnen gerne weiter.
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter.

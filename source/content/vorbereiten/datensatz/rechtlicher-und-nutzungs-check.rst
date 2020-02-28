@@ -24,7 +24,7 @@ Der folgende Test hilft Ihnen, die rechtlichen Rahmenbedingungen
 für Ihren Datensatz zu klären. Beantworten Sie die Fragen und
 erhalten Sie eine direkte Einschätzung. Nähere Erläuterungen zu den
 einzelnen Fragen finden Sie in unserer begleitenden
-:bfs-m7-arbeitshilfe-behoerden-publikation-ogd:`Arbeitshilfe <>`.
+`Arbeitshilfe <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__.
 
 .. figure:: ../../../_static/images/vorbereiten/chart-arbeitshilfe-publikation-de.png
    :alt: Schema Arbeitshilfe-Publikation
@@ -34,8 +34,9 @@ einzelnen Fragen finden Sie in unserer begleitenden
    Support
 
 Sie können eine Frage nicht klar beantworten? Werfen Sie einen
-Blick in unsere :bfs-m7-arbeitshilfe-behoerden-publikation-ogd:`Arbeitshilfe <>`.
-Falls Sie immer noch nicht weiter wissen, :email-to-bfs:`schreiben Sie uns <>`.
+Blick in unsere
+`Arbeitshilfe <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__.
+Falls Sie immer noch nicht weiter wissen, `schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: content-divider
 
@@ -61,15 +62,18 @@ die Metadaten Ihrer Datensätze erfassen möchten.
    Support
 
 Sie sind sich unsicher, ob Sie die richtige Nutzungsbedingung
-ausgewählt haben? :email-to-bfs:`Sprechen Sie mit uns darüber <>`.
+ausgewählt haben? `Sprechen Sie mit uns darüber <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 
    Mehr zum Thema
 
-- :bfs-m7-arbeitshilfe-behoerden-publikation-ogd:`Arbeitshilfe für Behörden zur Publikation von Daten als OGD (pdf) <>` – Das Dokument erläutert sämtliche Fragen des rechtlichen Checks und trägt so zur Entscheidungsfindung bei.
-- :bfs-m1-rechtliche-rahmenbedingungen:`Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data (OGD) (pdf) <>` – Das Dokument erläutert den rechtlichen Rahmen für die Umsetzung der OGD Strategie, erarbeitet von der Arbeitsgruppe Recht OGD.
-- :opendata-swiss-terms-of-use:`Nutzungsbedingungen (Link) <>` – Die Website fasst sämtliche Nutzungsbedingungen für OGD übersichtlich erklärt zusammen.
+- `Arbeitshilfe für Behörden zur Publikation von Daten als OGD (pdf) <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__ –
+  Das Dokument erläutert sämtliche Fragen des rechtlichen Checks und trägt so zur Entscheidungsfindung bei.
+- `Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data (OGD) (pdf) <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147095.html>`__ –
+  Das Dokument erläutert den rechtlichen Rahmen für die Umsetzung der OGD Strategie, erarbeitet von der Arbeitsgruppe Recht OGD.
+- `Nutzungsbedingungen (Link) <https://opendata.swiss/de/terms-of-use>`__ –
+  Die Website fasst sämtliche Nutzungsbedingungen für OGD übersichtlich erklärt zusammen.
 
 .. container:: teaser
 

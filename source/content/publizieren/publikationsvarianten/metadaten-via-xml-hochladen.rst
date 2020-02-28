@@ -45,7 +45,7 @@ Datenkatalog importieren
    :alt: xml hochladen
 
 Loggen Sie sich auf der
-`Abnahme-Umgebung <http://ogdch-abnahme.clients.liip.ch/>`__ ein und klicken Sie auf das
+`Abnahme-Umgebung <http://ogdch-abnahme.clients.liip.ch/de>`__ ein und klicken Sie auf das
 Feld “Datensätze importieren”. In der Upload-Maske können Sie Ihren
 Datenkatalog als XML-Datei von Ihrem PC auswählen und hochladen.
 
@@ -112,7 +112,7 @@ unserer Beispielansicht, kann der Datensatz veröffentlicht werden.
    Support
 
 Sie haben eine Frage zum Import Ihres Datensatzes als XML?
-Schreiben Sie uns :email-to-bfs:`Schreiben Sie uns <>`
+Schreiben Sie uns `Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
 und wir helfen Ihnen gerne weiter.
 
 .. container:: materialien

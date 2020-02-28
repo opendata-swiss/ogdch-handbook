@@ -14,9 +14,9 @@ Wie publiziere ich Geodaten?
 
 .. container:: Intro
 
-    Geodaten sind ein Spezialfall. Um sie auf :opendata-swiss-portal:`opendata.swiss <>`
+    Geodaten sind ein Spezialfall. Um sie auf `opendata.swiss <https://opendata.swiss/de/>`__
     zu publizieren,
-    müssen die Metadaten zuerst im Katalog für Geometadaten :geocat-portal:`geocat.ch <>`
+    müssen die Metadaten zuerst im Katalog für Geometadaten `geocat.ch <http://www.geocat.ch>`__
     publiziert werden. Von dort werden die benötigten
     Attribute dann durch einen automatisierten Prozess zu uns überführt.
 
@@ -30,8 +30,8 @@ Harvesting von Geodaten
 ------------------------
 Für das Einrichten des Harvesters benötigen Sie einen sogenannten
 CSW-Endpoint auf geocat.ch. Senden Sie dazu eine entsprechende
-`Anfrage an das Team von Geocat <geocat@swisstopo.ch>`__. Ist der Endpunkt eingerichtet,
-:email-to-bfs:`teilen Sie uns diesen gerne mit <>` und wir
+`Anfrage an das Team von Geocat <gecat@swisstopo.ch>`__. Ist der Endpunkt eingerichtet,
+`teilen Sie uns diesen gerne mit <mailto:opendata@bfs.admin.ch>`__ und wir
 können den Harvester für Sie einrichten und testen.
 
 **Wichtig:** Geodaten müssen im Standard
@@ -47,8 +47,8 @@ der auf den von opendata.swiss genutzten
 
 Sie haben eine Frage zum Publizieren von Geodaten? Wenden Sie sich direkt
 an das Team von Geocat `Wenden Sie sich direkt an das Team von Geocat <geocat@swisstopo.ch>`__. Falls Sie Fragen
-zum Harvesten Ihrer Geodaten haben, :email-to-bfs:`melden Sie sich
-gerne bei uns <>`.
+zum Harvesten Ihrer Geodaten haben,
+`melden Sie sich gerne bei uns <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 

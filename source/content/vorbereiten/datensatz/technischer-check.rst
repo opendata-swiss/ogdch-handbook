@@ -82,7 +82,7 @@ Datensatz bereit für die Publikation.
    Support
 
 Sie haben noch Fragen zu Formaten und technischen Anforderungen?
-:email-to-bfs:`Schreiben Sie uns <>`.
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 

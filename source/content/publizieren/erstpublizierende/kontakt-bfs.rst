@@ -56,7 +56,7 @@ Ihrer Organisation publizieren möchten, benötigen:
 
    Support
 
-:email-to-bfs:`Jetzt Zugang anfordern <>`.
+`Jetzt Zugang anfordern <mailto:opendata@bfs.admin.ch>`__.
 
 Wir benötigen durchschnittlich 5 Werktage, um Ihre Anfrage zu bearbeiten.
 

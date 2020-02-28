@@ -44,7 +44,7 @@ Diesen Prozess müssen Sie für jeden weiteren Datensatz wiederholen.
    Support
 
 Fühlen Sie sich noch unsicher oder haben Sie Fragen?
-:email-to-bfs:`Schreiben Sie uns <>` und wir helfen Ihnen gerne weiter.
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter.
 
 Beispiele für OGD
 -----------------

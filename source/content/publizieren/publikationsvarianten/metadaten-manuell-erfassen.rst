@@ -55,7 +55,7 @@ Datensatz erstellen
    :alt: Webformular von opendata.swiss für einen Datensatz
 
 Loggen Sie sich in die
-`Abnahme-Plattform <http://ogdch-abnahme.clients.liip.ch/>`__  ein. Klicken Sie
+`Abnahme-Plattform <http://ogdch-abnahme.clients.liip.ch/de>`__  ein. Klicken Sie
 dort via “Datensätze” auf “Datensatz erstellen” im Backend von opendata.swiss.
 Als erstes müssen Sie Ihrem Datensatz einen Titel geben. Aus ihm wird
 der Permalink des Datensatzes gebildet.
@@ -214,5 +214,5 @@ Aktualisieren: Haben Sie Metadaten eines Datensatzes bearbeitet, der bereits pub
    Support
 
 Sie haben eine Frage zum manuelle Erfassen Ihres Datensatzes?
-:email-to-bfs:`Schreiben Sie uns <>` und wir
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__ und wir
 helfen Ihnen gerne weiter.

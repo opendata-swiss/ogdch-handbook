@@ -13,7 +13,7 @@ Wie programmiere ich in Applikationen den Zugriff auf die Daten von opendata.swi
 
 .. container:: Intro
 
-    opendata.swiss basiert auf dem Open-Source-Projekt `CKAN <http://ckan.org>`__ .
+    opendata.swiss basiert auf dem Open-Source-Projekt `CKAN <https://ckan.org>`__ .
     CKAN stellt eine
     umfangreiche API für die Metadaten des offenen Datenkatalogs zur Verfügung,
     die Applikationsentwickler nutzen können. In diesem Kapitel erklären wir
@@ -28,7 +28,7 @@ Nutzung der API – so funktioniert’s
 
 Hier geben wir Ihnen eine kurze Einführung über API-Zugriffe auf opendata.swiss,
 für den vollen Umfang an Möglichkeiten des API lesen Sie bitte in der
-`CKAN API-Dokumentation <http://docs.ckan.org/en/latest/api/>`__ nach.
+`CKAN API-Dokumentation <https://docs.ckan.org/en/latest/api/>`__ nach.
 
 - :ref:`Zugriffsmöglichkeiten <api-nutzen-zugriffsmoeglichkeiten>`
 - :ref:`Action-Api <api-nutzen-action-api>`
@@ -67,7 +67,7 @@ Wenn Sie diese Zugriffe ansehen fällt Ihnen vielleicht auf, dass hier überall 
 Wort ``action`` vorkommt. Fast alles was sich in CKAN mit Daten
 anstellen lässt ist als ``action`` programmiert es kann
 über das API angestossen werden. Genaueres dazu lesen Sie am besten im
-`Action-API von CKAN <http://docs.ckan.org/en/latest/api/#action-api-reference>`__. nach.
+`Action-API von CKAN <https://docs.ckan.org/en/latest/api/#action-api-reference>`__. nach.
 
 .. _api-nutzen-terminologie:
 
@@ -138,7 +138,7 @@ auf opendata.swiss zuzugreifen.
 Was ist wenn ich Rückfragen zu einem Datensatz habe?
 ----------------------------------------------------
 Haben Sie Fragen zu unserer AP?
-Dann :email-to-bfs:`nehmen Sie mit uns Kontakt auf <>` .
+Dann `nehmen Sie mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__.
 Bei Fragen zu einzelnen Datensätzen, wenden Sie sich direkt an die Datenpublizierenden.
 Ihre Kontaktangaben finden Sie jeweils jeweils im Datensatz unter “Zusätzliche Information”.
 
@@ -146,5 +146,5 @@ Ihre Kontaktangaben finden Sie jeweils jeweils im Datensatz unter “Zusätzlich
 
     Mehr zum Thema
 
-- `CKAN-API-Guide <http://docs.ckan.org/en/latest/api/#action-api-reference>`__  –
+- `CKAN-API-Guide <https://docs.ckan.org/en/latest/api/#action-api-reference>`__  –
   Guidelines zur Nutzung der CKAN API

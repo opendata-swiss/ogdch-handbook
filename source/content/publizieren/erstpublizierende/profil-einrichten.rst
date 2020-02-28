@@ -36,7 +36,7 @@ etc.
 
 Sie können alle Angaben selbst verwalten, bis auf den Benutzernamen.
 Um diesen zu ändern oder auch, um weitere Benutzer zu erstellen,
-wenden Sie sich bitte direkt an :email-to-bfs:`uns <>`.
+wenden Sie sich bitte direkt an `uns <mailto:opendata@bfs.admin.ch>`__.
 
 Kontaktinfo
 ^^^^^^^^^^^

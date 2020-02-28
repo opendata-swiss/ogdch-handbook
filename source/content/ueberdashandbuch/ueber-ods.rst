@@ -43,5 +43,5 @@ Unterstützen Sie uns
 Dieses Handbuch lebt vom Feedback seiner Nutzerinnen und Nutzern, damit es sich
 kontinuierlich verbessert. Haben Sie Anregungen zu Inhalten oder Erfahrungen,
 die Sie gerne mit uns teilen möchten?
-:email-to-bfs:`Schreiben Sie uns <>`.
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
 

@@ -89,4 +89,5 @@ enthaltenen Informationen werden der Öffentlichkeit zugänglich gemacht.
 
    Mehr zum Thema
 
-- :bfs-m1-rechtliche-rahmenbedingungen:`Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data (OGD) (pdf) <>` – Das Dokument erläutert den rechtlichen Rahmen für die Umsetzung der OGD Strategie, erarbeitet von der Arbeitsgruppe Recht OGD.
+- `Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data (OGD) (pdf) <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147095.html>`__ –
+  Das Dokument erläutert den rechtlichen Rahmen für die Umsetzung der OGD Strategie, erarbeitet von der Arbeitsgruppe Recht OGD.

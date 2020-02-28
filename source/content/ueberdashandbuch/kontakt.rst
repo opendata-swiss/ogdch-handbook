@@ -16,5 +16,5 @@ Government Data, helfen wir, das Team vom Bundesamt f
 ür Statistik, Ihnen gerne weiter.
 
 Schreiben sie uns unter
-:email-to-bfs:`opendata@bfs.admin.ch <>`.
+`opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__.
 

@@ -69,7 +69,7 @@ Vorschau der Seite anzeigen lassen.
 Weshalb erscheint meine Organisation nicht in meinem Profil?
 Auf opendata.swiss gibt es unterschiedliche Rollen mit unterschiedlichen Zugriffsrechten.
 Vermutlich verfügen Sie aktuell nicht über die entsprechenden Zugriffsrechte.
-Melden Sie sich bei uns :email-to-bfs:`Melden Sie sich bei uns <>`
+Melden Sie sich bei uns `Melden Sie sich bei uns <mailto:opendata@bfs.admin.ch>`__
 und wir helfen Ihnen weiter.
 
 .. container:: teaser

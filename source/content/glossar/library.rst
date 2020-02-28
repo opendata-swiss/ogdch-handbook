@@ -11,7 +11,7 @@ Wo finde ich Zusatzmaterialien zu Open Government Data?
 =======================================================
 
 Wissenswertes rund um OGD finden Sie in der
-:bfs-library:`Bibliothek des Bundesamts für Statistik <>`.
+`Bibliothek des Bundesamts für Statistik <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.html>`__.
 
 Standards für Daten
 -------------------

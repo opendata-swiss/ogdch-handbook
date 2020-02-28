@@ -43,5 +43,5 @@ Geodaten
     Sie können Ihre Publikationsvariante jederzeit ändern. Dies ist häufig der Fall,
     wenn das manuelle Erfassen und Aktualisieren zu aufwendig werden und sich
     das automatische Hochladen per Harvester anbietet. Falls Sie Ihre
-    Publikationsvariante ändern möchten, :email-to-bfs:`teilen Sie uns dies
-    bitte mit <>`.
+    Publikationsvariante ändern möchten, `teilen Sie uns dies
+    bitte mit <mailto:opendata@bfs.admin.ch>`__.
