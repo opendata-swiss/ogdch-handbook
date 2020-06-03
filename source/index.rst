@@ -130,3 +130,4 @@ Inhalten oder Erfahrungen, die Sie gerne mit uns teilen möchten?
    content/glossar/standards/geocat-mapping
    content/glossar/standards/linked-open-data
    content/glossar/standards/dateiformate
+   content/branding/images
