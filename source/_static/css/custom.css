@@ -318,3 +318,42 @@ div.container.attribute {
     background: white;
     margin-top:50px;
 }
+
+/*=======================================*/
+/* Footer                                */
+/*=======================================*/
+
+footer {
+    font-size: .8em;
+}
+
+#ogdch-footer
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 77px;
+}
+
+#ogdch-footer .logo-footer {
+    padding:20px;
+    height: 100px;
+}
+
+#ogdch-footer .ogdch-logo {
+    height: 20px;
+}
+
+/*=======================================*/
+/* Header                                */
+/*=======================================*/
+
+#ogdch-header {
+    height: 50px;
+}
+
+#ogdch-header .ogdch-logo {
+    float:right;
+    height: 25px;
+
+}
+
