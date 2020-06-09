@@ -122,8 +122,9 @@ Was ist was bei Open Data?
     lore ipsum
 
   Open Government Data
-    Unter Open Government Data versteht man sämtliche Behördendaten, die kostenfrei, digital und häufig ohne Lizenzbeschränkungen für die Öffentlichkeit
-    zugänglich gemacht werden.
+    Maschinenlesbare, offene und wiederverwendbare
+    Verwaltungsdaten.
+    `Mehr Informationen <https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__
 
   Open By Default
     Neue Initiative des Bundes: ab 2020 sollen Behördendaten by default offen sein

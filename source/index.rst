@@ -11,42 +11,50 @@
 Willkommen
 **********
 
-Schön, dass Sie Daten publizieren möchten! Wir unterstützen Sie dabei.
-======================================================================
+Schön, dass Sie Open Government Data publizieren möchten! Wir unterstützen Sie dabei.
+=====================================================================================
 
 Dieses Handbuch hilft Personen und Organisationen dabei, Daten als
-:term:`Open Government Data` zu veröffentlichen.
-Es wird vom Bundesamt für Statistik betrieben und hat das Ziel,
-den Prozess rund um das Publizieren von Daten zu vereinfachen
-und somit die Veröffentlichung und Nutzung von Daten zu fördern.
+:term:`Open Government Data (OGD) <Open Government Data>`
+zu veröffentlichen. Es wird von der Geschäftsstelle OGD beim
+Bundesamt für Statistik (BFS) als Massnahme zur Umsetzung der
+Strategie
+`«Open Government Data 2019-2023» <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie.html>`__
+betrieben und hat zum Ziel, den Prozess rund um das Publizieren
+von Daten zu vereinfachen und die Veröffentlichung von Daten
+als Open Government Data zu fördern. Dieses Handbuch ist
+als dynamisches Dokument zu verstehen: Es wird kontinuierlich
+aktualisiert und überarbeitet.
 
 Wie nutze ich dieses Handbuch?
 ==============================
 
-Alle Inhalte sind analog zum Publikationsprozess und passend zu
-Ihrem Bedürfnis gegliedert: :doc:`Daten vorbereiten <content/vorbereiten/vorbereiten>`,
-:doc:`Daten publizieren <content/publizieren/publizieren>`,
-:doc:`Daten pflegen <content/pflegen/pflegen>`. In den einzelnen Kapiteln finden Sie praxisnahe
-Anleitungen, die Sie durch den Prozess führen; vertiefte
-Informationen stehen Ihnen jeweils am Ende jeder Seite in Form von
-pdfs und Links sowie gesammelt in
-unserer Bibliothek zur Verfügung.
-Das :doc:`Glossar <content/glossar/begriffe>` enthält Definitionen der
-wichtigsten Begriffe.
+Alle Inhalte sind nach unserem Publikationsprozess gegliedert:
+Zuerst werden die Datasets für die Publikation vorbereitet,
+danach werden sie publiziert. Die kontinuierliche Pflege der
+veröffentlichten Daten gehört ebenfalls zum Prozess. In den
+einzelnen Kapiteln finden Sie praxisnahe Anleitungen, die Sie
+durch den Prozess führen; vertiefte Informationen stehen Ihnen
+jeweils am Ende jeder Seite in Form von pdfs und Links zur
+Verfügung. Das :doc:`Glossar <content/glossar/begriffe>` enthält
+Definitionen der wichtigsten Begriffe.
 
 Vor dem Start
 -------------
 
-Erstnutzerinnen und -nutzern empfehlen wir, sich vorab mit Opendata.swiss vertraut zu machen.
-In unserer kurzen :doc:`Einführung für Erst-Publizierende <content/vorbereiten/erstpublizierende>`
-erhalten Sie grundlegende Informationen zum Prozess und praktische Hilfestellung,
-geeignete Daten in Ihrer Organisation zu identifizieren.
+Erstpublizierenden empfehlen wir, sich vorab mit opendata.swiss
+vertraut zu machen. In unserer
+:doc:`kurzen Einführung für Erst-Publizierende <content/vorbereiten/erstpublizierende>`
+erhalten Sie grundlegende Informationen zum Prozess und praktische
+Hilfestellung, um beispielsweise geeignete Daten in
+Ihrer Organisation zu identifizieren. Erfahrene Datenpublizierende
+können direkt mit dem Publikationsprozess starten.
 
 Wie möchten Sie beginnen?
 -------------------------
 
-- :doc:`Opendata verstehen – Für Erstnutzerinnen und -nutzer <content/vorbereiten/erstpublizierende/opendata-swiss-verstehen>`
-- :doc:`Daten vorbereiten – Zu den Checks <content/vorbereiten/datensatz/rechtlicher-und-nutzungs-check>`
+- :doc:`opendata.swiss verstehen – Für Erstpublizierende <content/vorbereiten/erstpublizierende/opendata-swiss-verstehen>`
+- :doc:`Daten vorbereiten – Zu den Prüfungen für jedes Dataset <content/vorbereiten/datensatz/rechtlicher-und-nutzungs-check>`
 - :doc:`Daten publizieren <content/publizieren/publizieren>`
 
 Sie möchten keine Daten publizieren, sondern nutzen?
@@ -54,13 +62,15 @@ Sie möchten keine Daten publizieren, sondern nutzen?
 
 - :doc:`Daten nutzen <content/nutzen/nutzen>`
 
-Wir unterstützen Sie. Unterstützen Sie auch uns.
+Wir unterstützen Sie. Unterstützen auch Sie uns.
 ================================================
 
-Dieses Handbuch lebt vom Feedback seiner Nutzerinnen und Nutzern,
-damit es sich kontinuierlich verbessert. Haben Sie Anregungen zu
-Inhalten oder Erfahrungen, die Sie gerne mit uns teilen möchten?
-`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
+Dieses Handbuch ist ein dynamisches Dokument, das sich
+kontinuierlich weiterentwickelt. Ihr Feedback, liebe
+Nutzerinnen und Nutzer, ist dafür wesentlich. Haben Sie
+Anregungen zu Inhalten oder Erfahrungen, die Sie gerne
+mit uns teilen möchten?
+`Schreiben Sie uns. <mailto:opendata@bfs.admin.ch>`__
 
 .. toctree::
    :maxdepth: 2
