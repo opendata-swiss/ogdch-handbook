@@ -11,10 +11,8 @@ So erreichen Sie uns
 ====================
 
 Bei Fragen zum Handbuch, zum Publikationsprozess auf opendata.swiss
-oder zur Nutzung von Open
-Government Data, helfen wir, das Team vom Bundesamt f
-ür Statistik, Ihnen gerne weiter.
+oder allgemeinen Fragen zu Open Government Data helfen wir von der
+Geschäftsstelle Open Government Data Ihnen gerne weiter.
 
 Schreiben sie uns unter
 `opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__.
-

@@ -116,7 +116,7 @@ mit uns teilen möchten?
    :maxdepth: 1
    :caption: Über das Handbuch:
 
-   content/ueberdashandbuch/ueber-opendata-swiss
+   content/ueberdashandbuch/ueber-das-handbuch
    content/ueberdashandbuch/kontakt
    content/ueberdashandbuch/rechtliche-hinweise
 
