@@ -94,7 +94,7 @@ mit uns teilen möchten?
    :caption: Pflegen:
 
    content/pflegen/pflegen
-   content/pflegen/daten-updaten
+   content/pflegen/datasets-updaten
    content/pflegen/auskunft-geben
 
 .. toctree::
@@ -127,9 +127,9 @@ mit uns teilen möchten?
 
    content/vorbereiten/erstpublizierende/opendata-swiss-verstehen
    content/vorbereiten/erstpublizierende/dateninventar-erstellen
-   content/vorbereiten/datensatz/rechtlicher-check
-   content/vorbereiten/datensatz/technischer-check
-   content/vorbereiten/datensatz/organisatorischer-check
+   content/vorbereiten/dataset/rechtlicher-check
+   content/vorbereiten/dataset/technischer-check
+   content/vorbereiten/dataset/organisatorischer-check
    content/publizieren/erstpublizierende/kontakt-bfs
    content/publizieren/erstpublizierende/organisation-einrichten
    content/publizieren/erstpublizierende/profil-einrichten

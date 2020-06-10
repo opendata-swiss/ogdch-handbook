@@ -2,26 +2,35 @@
 
    - :fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`
    - :doc:`Pflegen <pflegen>` :fa:`chevron-right`
-   - Daten updaten
+   - Datasets updaten
 
-*************
-Daten updaten
-*************
+****************
+Datasets updaten
+****************
 
-Wie halte ich meine Daten nach der Veröffentlichung aktuell?
-============================================================
+Wie halte ich meine Datasets nach der Veröffentlichung aktuell?
+===============================================================
 
 .. container:: Intro
 
-     Nach der Veröffentlichen wird es auf Ihrer Seite immer wieder
-     Änderungen an Ihren Daten und Resourcen geben. Diese Änderungen müssen an
-     opendata.swiss übermittelt werden. Die Aktualisierung Ihrer Daten bei
-     Opendata.swiss hängt von Ihrer gewählten Publikationsvariante ab. Wenn Sie
-     Ihre Daten manuell erfasst haben, müssen Sie die Daten auch bei jeder Änderung
-     manuell aktualisieren. Wenn Sie hingegen Ihre Daten harvesten lassen,
-     geschieht das Aktualisieren automatisch durch uns. Sie sollten dann nur
-     gelegentlich prüfen, ob Ihre Daten richtig bei uns ankommen. Gehen Sie
-     dazu auf opendata.swiss und checken Sie die Seite Ihrer Organisation mit Ihren Daten.
+    Nach der Veröffentlichung kann es immer mal wieder zu Änderungen und Aktualisierungen
+    Ihrer Metadaten kommen, beispielsweise durch die Publikation von neuen Ressourcen
+    oder die Änderung der URL. Solche Änderungen der Metadaten müssen Sie im Backend
+    der :term:`Produktionsumgebung <Produktionsumgebung>` von opendata.swiss nachführen.
+    Änderungen an Ihren physischen Daten müssen Sie uns nicht melden.
+
+Die Aktualisierung von Einträgen auf opendata.swiss hängt von Ihrer gewählten
+Publikationsvariante ab. Wenn Sie Ihre Metadaten manuell erfasst haben, müssen
+Sie die Metadaten auch bei jeder Änderung manuell aktualisieren. Wenn Sie hingegen
+Ihre Metadaten harvesten lassen, geschieht das Aktualisieren automatisch durch uns.
+Wir bitten Sie ausserdem regelmässig zu prüfen, ob Ihre Metadaten richtig bei uns
+ankommen. Gehen Sie dazu auf opendata.swiss und prüfen Sie die Seite Ihrer
+Organisation mitsamt Datasets.
+
+**Wichtig: Bei jeder Anpassung der Metadaten sollte geprüft werden, ob auch eine Anpassung
+des Änderungsdatums sinnvoll ist. Dies ist der Fall, wenn sich entweder die Metadaten
+oder auch die Originaldaten selbst geändert haben. So können Nutzerinnen und -nutzer
+Ihrer Daten erkennen, dass eine Aktualisierung vorliegt.**
 
 .. container:: support
 
