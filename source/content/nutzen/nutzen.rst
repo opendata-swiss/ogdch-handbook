@@ -1,7 +1,7 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`
-   - Nutzen
+   - Daten nutzen
 
 ***************
 Auf einen Blick
@@ -10,28 +10,37 @@ Auf einen Blick
 Daten nutzen
 ============
 
-Wir freuen uns, dass Sie Daten von opendata.swiss nutzen möchten.
-Das Wichtigste vorweg: Es gibt verschiedene
-`Nutzungsrechte <https://opendata.swiss/de/terms-of-use/>`__,
-die Sie kennen sollten und beachten müssen.
+.. container:: Intro
 
-Darüber hinaus möchten wir Ihnen hier Hilfestellungen zur
-:doc:`Datensuche <daten-suchen>`
-und zur :doc:`Nutzung unserer API <api-nutzen>` geben.
-Bitte beachten Sie, dass die Informationen zur Datensuche aktuell
-nur in Englisch vorliegen.
+    Wir freuen uns, dass Sie Daten von opendata.swiss nutzen möchten.
+    Hier finden Sie alles rund um die Nutzung von OGD.
 
-Unsere Datenpublizierenden stehen Ihnen übrigens gerne für
+Wir möchten Ihnen hier Hilfestellungen zur
+:doc:`Datensuche <daten-suchen>` und zur
+:doc:`Nutzung unserer API <api-nutzen>` anbieten. Bitte beachten Sie,
+dass die Informationen zur Datensuche aktuell nur in Englisch vorliegen.
+
+
+Die Datenpublizierenden stehen Ihnen übrigens gerne für
 Fragen zur Verfügung. Kontaktangaben finden Sie jeweils im
-Datensatz unter “Zusätzliche Information”.
-Bei Fragen zu opendata.swiss freuen wir uns über
-`Ihre Anfrage <mailto:opendata@bfs.admin.ch>`__.
+Dataset unter «Zusätzliche Information».
+Bei Fragen zu opendata.swiss oder allgemeinen Fragen zur Initiative
+Open Government Data freuen wir von der Geschäftsstelle OGD uns
+über `Ihre Anfrage <mailto:opendata@bfs.admin.ch>`__.
 
-- :doc:`In den Daten suchen <daten-suchen>`
-- :doc:`Daten über das API nutzen <api-nutzen>`
+Wollen Sie ein Projekt oder eine Initiative im Bereich Open Data initiieren?
+Der Verein opendata.ch freut sich, Sie dabei zu unterstützen.
+`Nehmen Sie Kontakt auf <mailto:info@opendata.ch>`__.
+
+- :doc:`Daten suchen <daten-suchen>`
+- :doc:`API nutzen <api-nutzen>`
 
 .. container:: materialien
 
    Mehr zum Thema
 
-- `Nutzungsbedingungen <https://opendata.swiss/de/terms-of-use/>`__,
+- `Nutzungsbedingungen (Link) <https://opendata.swiss/de/terms-of-use/>`__,
+
+.. container:: Construction
+
+    Work in progress: Dieser Inhalt wird aktuell überarbeitet.

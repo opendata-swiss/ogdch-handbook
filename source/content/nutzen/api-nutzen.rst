@@ -2,46 +2,47 @@
 
    - :fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`
    - :doc:`Nutzen <nutzen>` :fa:`chevron-right`
-   - API nutzen
+   - opendata.swiss API nutzen
 
-**********
-API nutzen
-**********
+*************************
+opendata.swiss API nutzen
+*************************
 
-Wie programmiere ich in Applikationen den Zugriff auf die Daten von opendata.swiss?
-===================================================================================
+Wie programmiere ich den Zugriff auf die Daten von opendata.swiss?
+==================================================================
 
 .. container:: Intro
 
-    opendata.swiss basiert auf dem Open-Source-Projekt `CKAN <https://ckan.org>`__ .
-    CKAN stellt eine
-    umfangreiche API für die Metadaten des offenen Datenkatalogs zur Verfügung,
-    die Applikationsentwickler nutzen können. In diesem Kapitel erklären wir
-    Ihnen, wie Sie mittels API auf die Daten von opendata.swiss zugreifen können.
-    Werfen Sie auch einen Blick auf
-    aktuelle `Anwendungen <https://opendata.swiss/de/app/>`__.
+opendata.swiss basiert auf dem Open-Source-Projekt CKAN. CKAN stellt
+eine umfangreiche API für die Metadaten des offenen Datenkatalogs zur Verfügung,
+die Applikationsentwickler nutzen können. In diesem Kapitel erklären wir Ihnen,
+wie Sie mittels API auf die Daten von opendata.swiss zugreifen können. Werfen
+Sie auch einen Blick in
+`aktuelle Beispiele, wie OGD in Anwendungen genutzt wird <https://opendata.swiss/de/showcase/>`__.
 
 .. _api-nutzen-ckan-api:
 
 Nutzung der API – so funktioniert’s
------------------------------------
-
-Hier geben wir Ihnen eine kurze Einführung über API-Zugriffe auf opendata.swiss,
-für den vollen Umfang an Möglichkeiten des API lesen Sie bitte in der
-`CKAN API-Dokumentation <https://docs.ckan.org/en/latest/api/>`__ nach.
+------------------------------------
 
 - :ref:`Zugriffsmöglichkeiten <api-nutzen-zugriffsmoeglichkeiten>`
 - :ref:`Action-Api <api-nutzen-action-api>`
 - :ref:`Terminologie <api-nutzen-terminologie>`
 - :ref:`Beispiele <api-nutzen-beispiele>`
 
+((Box))
+Gut zu wissen
+Hier geben wir Ihnen eine kompakte Einführung zur Nutzung der API
+von opendata.swiss. Eine ausführliche Dokumentation zur CKAN API
+finden Sie in der
+`CKAN API Dokumentation <https://docs.ckan.org/en/latest/api/>`__.
+
 .. _api-nutzen-zugriffsmoeglichkeiten:
 
 Zugriffsmöglichkeiten
 ^^^^^^^^^^^^^^^^^^^^^
 
-CKAN beschreibt in seiner Dokumentation drei Zugriffsarten, die Ihnen bei opendata.swiss
-dann ebenfalls zur Verfügung stehen:
+Es gibt 3 Zugriffsarten, die Ihnen bei opendata.swiss zur Verfügung stehen:
 
 .. code-block::
    :caption: Api Zugriff über den Browser
@@ -63,37 +64,36 @@ dann ebenfalls zur Verfügung stehen:
 Action-API
 ^^^^^^^^^^
 
-Wenn Sie diese Zugriffe ansehen fällt Ihnen vielleicht auf, dass hier überall das
-Wort ``action`` vorkommt. Fast alles was sich in CKAN mit Daten
-anstellen lässt ist als ``action`` programmiert es kann
-über das API angestossen werden. Genaueres dazu lesen Sie am besten im
-`Action-API von CKAN <https://docs.ckan.org/en/latest/api/#action-api-reference>`__. nach.
+Alle Zugriffe verwenden das Wort «action», wie in den Beispielen
+oben zu beobachten ist. Grundsätzlich sind die meisten Funktionen in
+CKAN als «action» programmiert, sodass sie über die API angestossen werden
+können. Mehr dazu lesen Sie im Abschnitt
+`Action-API in der CKAN Dokumentation <https://docs.ckan.org/en/latest/api/#action-api-reference>`__.
 
 .. _api-nutzen-terminologie:
 
 Terminologie von CKAN in opendata.swiss
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Alle Objekte von opendata.swiss sind auch in CKAN vertreten.
-Für Ihre API-Zugriffe müssen Sie wissen, mit welcher Terminologie
-Sie welche Einheiten in opendata.swiss erreichen können. Die
-folgende Liste enthält diese Entsprechungen:
+Alle Objekte von opendata.swiss sind auch in CKAN vertreten. Damit der API-Zugriff reibungslos
+funktioniert, erklären wir Ihnen in der folgenden Auflistung, mit welcher Terminologie Sie welche
+Einheiten in opendata.swiss erreichen können:
 
 ``package``, ``dataset``
-   entspricht einem :term:`dataset <Datensatz>` bei opendata.swiss: das sind die Metadaten
-   zu einem Bündel von Resourcen
+   Entspricht einem :term:`Dataset <Dataset>` bei opendata.swiss. Damit gemeint sind die Metadaten
+   zu einem Bündel von Ressourcen.
 ``resource``
-   entspricht einer Resource bei Opendata.swiss. Opendata.swiss hostet
-   selbst keinen Resourcen. Stellt aber ``downloadUrls`` oder ``accesssUrls``
-   und eventuell sogar Datenpreviews zur Verfügung
+   Entspricht einer Ressource bei Opendata.swiss. Die Plattform opendata.swiss hostet
+   selbst keinen Ressourcen, stellt aber «downloadUrls» oder «accesssUrls»
+   und teilweise auch Daten Previews zur Verfügung.
+   Ressourcen in CKAN entsprechen dcat:Distribution im :doc:`DCAT AP Standard <../../glossar/bibliothek/dcat-ap-ch>`
 ``group``
-   in opendata.swiss sind das die Kategorien. Ein dataset kann mehreren
-   Kategorien angehören.
+   Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören.
 ``organization``
-   die datenpublizierende Stelle. Jedes Dataset wird von genau einer
-   Organisation publiziert.
+   Entspricht den Datenpublizierenden, egal ob Person oder Organisation.
+   Jedes Dataset wird von genau einer Organisation publiziert.
 ``id``
-   damit ist im api der :term:`slug` des Datensatzes gemeint
+   Entspricht im API dem :term:`Slug <Slug>` des Datasets.
 
 .. _api-nutzen-beispiele:
 
@@ -121,30 +121,37 @@ Beispiele
 
    curl https://opendata.swiss/api/3/action/package_search?q=switzerland&fq=+keywords_en:geology'
 
-Die Suchsyntax dabei entspricht Apache Lucene, da CKAN Solr als Suchmaschine benutzt und
-ist ebenfalls in der
+Die Suchsyntax entspricht dabei Apache Lucene, da CKAN Solr als
+Suchmaschine benutzt. Dies ist ebenfalls in der
 `CKAN-Dokumentation <https://docs.ckan.org/en/latest/user-guide.html#search-in-detail>`__
-ausführlich beschrieben
+ausführlich beschrieben.
 
 Fetch-API
 ---------
 
-Es ist auch möglich über ein
+Es ist auch möglich über
 `Fetch-API <https://developers.google.com/web/updates/2015/03/introduction-to-fetch>`__
 auf opendata.swiss zuzugreifen.
 
 .. _api-nutzen-fragen:
 
-Was ist wenn ich Rückfragen zu einem Datensatz habe?
-----------------------------------------------------
-Haben Sie Fragen zu unserer AP?
-Dann `nehmen Sie mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__.
-Bei Fragen zu einzelnen Datensätzen, wenden Sie sich direkt an die Datenpublizierenden.
-Ihre Kontaktangaben finden Sie jeweils jeweils im Datensatz unter “Zusätzliche Information”.
+.. container:: support
+
+   Support
+
+Noch Fragen?
+Haben Sie noch Fragen zur Nutzung unserer API? Dann
+`nehmen Sie mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__.
+Bei Rückfragen zu einzelnen Datasets wenden Sie sich bitte direkt an die
+Datenpublizierenden. Die jeweiligen Kontaktangaben finden
+Sie im Dataset unter «Zusätzliche Information».
+
+Haben Sie ein interessantes Nutzungsbeispiel? Wir würden uns
+sehr freuen, davon zu erfahren und Ihr Projekt in unsere Galerie von
+Beispielanwendungen aufzunehmen. `Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 
     Mehr zum Thema
 
-- `CKAN-API-Guide <https://docs.ckan.org/en/latest/api/#action-api-reference>`__  –
-  Guidelines zur Nutzung der CKAN API
+- `CKAN-API-Guide (Link) <https://docs.ckan.org/en/latest/api/#action-api-reference>`__  – Guidelines zur Nutzung der CKAN API
