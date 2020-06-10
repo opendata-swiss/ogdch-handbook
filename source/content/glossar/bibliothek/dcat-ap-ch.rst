@@ -2,23 +2,36 @@
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
    - :doc:`Bibliothek <../library>` :fa:`chevron-right`
-   - DCAT-AP-CH
+   - DCAT-AP Switzerland
 
 **********
 DCAT-AP-CH
 **********
 
-Der Schweizer Datenstandard
-===========================
+Der Schweizer Metadaten-Datenstandard
+=====================================
 
 .. container:: Intro
 
     DCAT-AP-CH ist der Schweizer Datenstandard, der derzeit auf
     `opendata.swiss <https://opendata.swiss/de/>`__
-    implementiert ist. Er basiert auf dem internationalen DCAT-AP-Standard.
-    Sämtliche Datensätze, die auf opendata.swiss publiziert werden, müssen
-    in diesem Format vorliegen. Hier erklären wir Ihnen, was es beim DCAT-AP-CH
-    Standard zu beachten gibt. Die Einführung ist derzeit nur in Englisch verfügbar ist.
+    implementiert ist. Er basiert auf dem internationalen DCAT-AP Standard.
+
+    Datasets, die auf opendata.swiss geharvestet werden oder per XML-Upload auf
+    die Plattform importiert werden, werden in diesem Format erwartet. DCAT-AP
+    ist ein offener Standard. Ihre Datasets können also auch Felder enthalten,
+    die über diesen Standard hinausgehen. Diese werden bei uns nicht berücksichtigt
+    und auch nicht angezeigt. Auf der anderen Seite haben wir Mindest-Erwartungen
+    an Ihre Metadaten, die hier beschrieben sind. Ebenso finden Sie hier eine Beschreibung
+    optionaler Felder, die von opendata.swiss unterstützt werden.
+    Der DCAT-AP ist in ständiger Weiterentwicklung. Das gilt auch für den DCAT-AP-CH
+    und für den Daten-Standard, der auf opendata.swiss implementiert ist.
+    Daher gibt es teilweise Abweichungen zwischen diesen Datenstandards.
+    Sollten Sie solche feststellen,
+    `wenden Sie sich mit Ihren Fragen gerne an uns <mailto:opendata@bfs.admin.ch>`__.
+
+    Diese Dokumentation ist derzeit nur in Englisch verfügbar.
+
 
 DCAT-AP-CH Standard Overview
 ----------------------------

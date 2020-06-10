@@ -4,9 +4,20 @@
    - :doc:`Bibliothek <../library>` :fa:`chevron-right`
    - Hosting
 
-*******
+***
+Q&A
+***
+
 Hosting
-*******
+=======
+
+.. container:: Intro
+
+    Das Hosting von Daten ist Grundvoraussetzung, um OGD auf opendata.swiss zu veröffentlichen.
+    Die Verantwortung dafür liegt bei den Datenpublizierenden selbst.
+
+    Hier sind die wichtigsten Fragen und Antworten rund um das Thema Daten Hosting
+    zusammengefasst. Die Fragen und Antworten sind derzeit nur in Englisch verfügbar.
 
 Intro
 ------

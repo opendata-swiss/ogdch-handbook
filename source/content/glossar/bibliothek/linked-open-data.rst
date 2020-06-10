@@ -8,16 +8,15 @@
 Linked Open Data
 ****************
 
-Einführung in das Thema Linked Open Data
-========================================
+Einführung in Linked Open Data
+==============================
 
 .. container:: Intro
 
-    opendata.swiss unterstützt Linked Open Data. Ziel der von Tim Berners-Lee
-    entwickelten Bewertungsgrundlage für Daten ist es, dass Daten vernetzt
-    und selbst erklärend sind und von Mensch und Maschine korrekt interpretiert
-    werden können.Hier möchten wir Ihnen das Konzept näher vorstellen. Der Text
-    ist derzeit nur in Englisch verfügbar.
+    opendata.swiss unterstützt Linked Open Data. Ziel der von Tim Berners-Lee entwickelten
+    Bewertungsgrundlage für Daten ist es, dass Datasets vernetzt, selbsterklärend und von
+    Mensch und Maschine korrekt interpretierbar sind. Hier möchten wir Ihnen das Konzept
+    näher vorstellen. Der Text ist derzeit nur in Englisch verfügbar.
 
 Today we are surrounded by vast quantities of data playing an
 increasingly central role in our lives, and driving the emergence of a

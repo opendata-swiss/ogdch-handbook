@@ -2,10 +2,10 @@
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
    - :doc:`Bibliothek <../library>` :fa:`chevron-right`
-   - Formate für Resourcen
+   - Formate für Ressourcen
 
 *********************
-Formate für Resourcen
+Formate für Ressourcen
 *********************
 
 Zulässige Dateiformate für Ressourcen
@@ -15,7 +15,9 @@ Zulässige Dateiformate für Ressourcen
 
     Auf opendata.swiss unterstützen wir eine Auswahl an Dateiformaten.
     Hier finden Sie eine Auflistung aller zulässigen Dateiformate.
-
+    Falls Sie Ihr Format in dieser Liste nicht wiederfinden,
+    `können Sie sich an uns wenden <mailto:opendata@bfs.admin.ch>`__
+    und wir fügen es gerne hinzu.
 
 Strukturierte Daten
 ^^^^^^^^^^^^^^^^^^^

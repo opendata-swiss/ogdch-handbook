@@ -142,4 +142,5 @@ mit uns teilen möchten?
    content/glossar/bibliothek/linked-open-data
    content/glossar/bibliothek/hosting
    content/glossar/bibliothek/formate-ressourcen
+   content/glossar/bibliothek/leitfaden-geodaten
    content/branding/images
