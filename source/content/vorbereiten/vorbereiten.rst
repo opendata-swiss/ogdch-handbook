@@ -10,27 +10,33 @@ Auf einen Blick
 Daten vorbereiten
 =================
 
-Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten
-auf opendata.swiss publizieren können, müssen zwei
-Fragen geklärt sein: Welche rechtlichen Nutzungsbedingungen
-gelten für Ihre Daten? Erfüllen Ihre Daten die technischen Anforderungen?
+Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Open
+Government Data publizieren können, müssen Sie sicherstellen,
+dass die Anforderungen für eine Publikation der OGD erfüllt sind.
+Die Anforderungen lassen sich in drei Kategorien einteilen:
+Rechtliche Anforderungen, technische Anforderungen und
+organisatorische Anforderungen.
+Diese Anforderungen sind wichtig, damit die reibungslose
+Verwendung der Daten durch Dritte gewährleistet ist.
 
-In diesem Kapitel unterstützen wir Publizierende dabei, die richtigen
-Nutzungsbedingungen auszuwählen und geben Ihnen eine Checkliste mit
-technischen Anforderungen für Ihre Daten an die Hand.
+In diesem Kapitel unterstützen wir Sie dabei zu prüfen, ob diese
+Anforderungen erfüllt werden – passend zu Ihren jeweiligen Daten
+und mit so wenig Aufwand wie möglich.
 
 Sie haben noch keine Daten auf opendata.swiss veröffentlicht?
-Als Erstpublizierende erklären wir Ihnen das Wichtigste rund um den
-Prozess und unterstützen Sie bei der Identifikation von geeigneten Daten.
+Als Erst-Publizierende erklären wir Ihnen das Wichtigste
+rund um den Prozess und unterstützen Sie bei der Identifikation
+von geeigneten Daten.
 
-:doc:`Für Erstpublizierende <erstpublizierende>`
+:doc:`Für Erst-Publizierende <erstpublizierende>`
 --------------------------------------------------------------
 
     - :doc:`opendata.swiss verstehen <erstpublizierende/opendata-swiss-verstehen>`
-    - :doc:`Bestand prüfen <erstpublizierende/bestand-pruefen>`
+    - :doc:`Dateninventar erstellen <erstpublizierende/dateninventar-erstellen>`
 
-:doc:`Für jeden Datensatz <datensatz>`
+:doc:`Für jedes Dataset <dataset>`
 -------------------------------------------------------------
 
-    - :doc:`Rechtliche Nutzung prüfen <datensatz/rechtlicher-und-nutzungs-check>`
-    - :doc:`Technische Anforderungen prüfen <datensatz/technischer-check>`
+    - :doc:`Rechtliche Anforderungen prüfen <dataset/rechtlicher-check>`
+    - :doc:`Technische Anforderungen prüfen <dataset/technischer-check>`
+    - :doc:`Organisatorische Anforderungen prüfen <dataset/organisatorischer-check>`

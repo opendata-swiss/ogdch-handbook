@@ -151,7 +151,7 @@ Pflichtfeld “Erstellt” das Datum der Veröffentlichung der Ressource angeben
 
 **Wichtig:** Unter “Nutzungsbedingungen” müssen Sie nun hier die
 Bedingung auswählen, die Sie im Kapitel
-:doc:`“Rechtliche Nutzung prüfen” <../../vorbereiten/datensatz/rechtlicher-und-nutzungs-check>`
+:doc:`“Rechtliche Nutzung prüfen” <../../vorbereiten/dataset/rechtlicher-check>`
 ermittelt haben.**
 
 

@@ -54,7 +54,7 @@ Wie möchten Sie beginnen?
 -------------------------
 
 - :doc:`opendata.swiss verstehen – Für Erstpublizierende <content/vorbereiten/erstpublizierende/opendata-swiss-verstehen>`
-- :doc:`Daten vorbereiten – Zu den Prüfungen für jedes Dataset <content/vorbereiten/datensatz/rechtlicher-und-nutzungs-check>`
+- :doc:`Daten vorbereiten – Zu den Prüfungen für jedes Dataset <content/vorbereiten/dataset/rechtlicher-check>`
 - :doc:`Daten publizieren <content/publizieren/publizieren>`
 
 Sie möchten keine Daten publizieren, sondern nutzen?
@@ -78,7 +78,7 @@ mit uns teilen möchten?
 
    content/vorbereiten/vorbereiten
    content/vorbereiten/erstpublizierende
-   content/vorbereiten/datensatz
+   content/vorbereiten/dataset
 
 .. toctree::
    :maxdepth: 2
@@ -95,7 +95,7 @@ mit uns teilen möchten?
 
    content/pflegen/pflegen
    content/pflegen/daten-updaten
-   content/pflegen/auskunft-zu-daten-geben
+   content/pflegen/auskunft-geben
 
 .. toctree::
    :maxdepth: 1
@@ -109,14 +109,14 @@ mit uns teilen möchten?
    :maxdepth: 1
    :caption: Glossar:
 
-   content/glossar/library
+   content/glossar/bibliothek
    content/glossar/begriffe
 
 .. toctree::
    :maxdepth: 1
    :caption: Über das Handbuch:
 
-   content/ueberdashandbuch/ueber-ods
+   content/ueberdashandbuch/ueber-opendata-swiss
    content/ueberdashandbuch/kontakt
    content/ueberdashandbuch/rechtliche-hinweise
 
@@ -126,9 +126,10 @@ mit uns teilen möchten?
    :caption: (Versteckt):
 
    content/vorbereiten/erstpublizierende/opendata-swiss-verstehen
-   content/vorbereiten/erstpublizierende/bestand-pruefen
-   content/vorbereiten/datensatz/rechtlicher-und-nutzungs-check
+   content/vorbereiten/erstpublizierende/dateninventar-erstellen
+   content/vorbereiten/datensatz/rechtlicher-check
    content/vorbereiten/datensatz/technischer-check
+   content/vorbereiten/datensatz/organisatorischer-check
    content/publizieren/erstpublizierende/kontakt-bfs
    content/publizieren/erstpublizierende/organisation-einrichten
    content/publizieren/erstpublizierende/profil-einrichten
@@ -136,8 +137,9 @@ mit uns teilen möchten?
    content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen
    content/publizieren/publikationsvarianten/harvesting
    content/publizieren/publikationsvarianten/geodaten
-   content/glossar/standards/dcat-mapping
-   content/glossar/standards/geocat-mapping
-   content/glossar/standards/linked-open-data
-   content/glossar/standards/dateiformate
+   content/glossar/bibliothek/dcat-ap-ch
+   content/glossar/bibliothek/geocat-mapping
+   content/glossar/bibliothek/linked-open-data
+   content/glossar/bibliothek/hosting
+   content/glossar/bibliothek/formate-ressourcen
    content/branding/images
