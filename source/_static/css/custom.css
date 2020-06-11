@@ -202,14 +202,14 @@ div.container.teaser {
     height: 30px;
     background-image: url("../../_static/images/branding/arrow-on.png");
     margin-bottom:10px;
-    margin-top:10px;
+    margin-top:40px;
 }
 
 div.container.teaser p {
     padding-top: 0;
     padding-left: 125px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*=======================================*/
@@ -246,6 +246,30 @@ div.container.support {
 
 div.container.support p {
     display:none;
+}
+
+/*=======================================*/
+/* Container important                   */
+/*=======================================*/
+
+div.container.important {
+    font-weight: bold;
+    background: white;
+}
+
+div.container.important p {
+    font-weight: bold;
+}
+
+/*=======================================*/
+/* Container construction                 */
+/*=======================================*/
+
+div.container.construction {
+    background: yellow;
+}
+
+div.container.construction p {
 }
 
 /*=======================================*/
@@ -343,6 +367,10 @@ footer {
     height: 20px;
 }
 
+.copyright p {
+    font-size: 12.8px;
+}
+
 /*=======================================*/
 /* Header                                */
 /*=======================================*/
@@ -354,6 +382,8 @@ footer {
 #ogdch-header .ogdch-logo {
     float:right;
     height: 25px;
-
 }
 
+footer {
+    padding-top: 40px;
+}
