@@ -5,57 +5,62 @@
    - :doc:`Publikationsvariante <../publikationsvariante>` :fa:`chevron-right`
    - Geodaten
 
-********************************
-Metadaten via Geocat publizieren
-********************************
+***********************************
+Metadaten via geocat.ch publizieren
+***********************************
 
-Wie publiziere ich Geodaten?
-============================
+Wie publiziere ich Geo-Metadaten?
+=================================
 
 .. container:: Intro
 
-    Geodaten sind ein Spezialfall. Um sie auf `opendata.swiss <https://opendata.swiss/de/>`__
-    zu publizieren,
-    müssen die Metadaten zuerst im Katalog für Geometadaten `geocat.ch <http://www.geocat.ch>`__
-    publiziert werden. Von dort werden die benötigten
-    Attribute dann durch einen automatisierten Prozess zu uns überführt.
+    Geodaten sind ein Spezialfall. Um Geo-Metadaten auf opendata.swiss zu publizieren,
+    müssen die Metadaten zuerst im geografischen Datenkatalog der Schweiz, dem Katalog
+    für Geometadaten `geocat.ch <http://www.geocat.ch>`__, publiziert werden.
+    Von dort werden die benötigten Attribute dann durch einen automatisierten
+    Prozess zu opendata.swiss überführt.
 
-Geodaten auf Geocat publizieren
---------------------------------
-Geocat bietet Ihnen dazu eine
-`Anleitung <https://www.geocat.admin.ch/de/dokumentation/opendata.html>`__, wie Sie Ihre Daten
-auf geocat publizieren können.
+Geo-Metadaten auf geocat.ch publizieren
+---------------------------------------
+Unter dem folgenden Link finden Sie eine
+`Anleitung <https://www.geocat.admin.ch/de/dokumentation/opendata.html>`__, wie Sie Ihre Metadaten
+auf geocat.ch publizieren können
 
 Harvesting von Geodaten
-------------------------
-Für das Einrichten des Harvesters benötigen Sie einen sogenannten
-CSW-Endpoint auf geocat.ch. Senden Sie dazu eine entsprechende
-`Anfrage an das Team von Geocat <gecat@swisstopo.ch>`__. Ist der Endpunkt eingerichtet,
-`teilen Sie uns diesen gerne mit <mailto:opendata@bfs.admin.ch>`__ und wir
-können den Harvester für Sie einrichten und testen.
+-----------------------
+Für das Einrichten des Harvesters benötigen Sie einen sogenannten CSW-Endpoint
+auf geocat.ch. Senden Sie dazu eine entsprechende
+`Anfrage an das geocat.ch-Team <geocat@swisstopo.ch>`__.
+Sobald der csw-Endpoint eingerichtet ist, werden vom geocat.ch-Team in
+Absprache mit Ihnen die Harvesting-Tests durchgeführt.
+Gerne erinnern wir Sie daran, dass die Registrierung Ihrer Organisation
+auf opendata.swiss weiterhin eine Voraussetzung bleibt.
+Falls Ihre Organisation noch nicht eingerichtet ist,
+`kontaktieren Sie uns gern <mailto:opendata@bfs.admin.ch>`__.
 
-**Wichtig:** Geodaten müssen im Standard
-:doc:`ISO-19139_che <../../glossar/standards/geocat-mapping>`
-vorliegen vorliegen.
-Dies ist ein an opendata.swiss angepasster Datenstandard für Geodaten,
-der auf den von opendata.swiss genutzten
-:doc:`DCAT-AP-CH <../../glossar/standards/dcat-mapping>` abgebildet werden kann.
+**Wichtig:** Die verschiedenen
+:doc:`rechtlichen, technischen und organisatorischen Anforderungen <../../vorbereiten/dataset>`
+müssen weiterhin erfüllt werden.
+
+**Wichtig:** Geo-Metadaten müssen gemäss
+:doc:`Standard ISO-19139_che <../../glossar/standards/geocat-mapping>`
+vorliegen. Dabei handelt es sich um einen auf der internationalen
+Norm ISO-19139 basierenden Standard, der mit den Schweizer
+Erweiterungen der Norm GM03 ergänzt wurde.
 
 .. container:: support
 
    Support
 
-Sie haben eine Frage zum Publizieren von Geodaten? Wenden Sie sich direkt
-an das Team von Geocat `Wenden Sie sich direkt an das Team von Geocat <geocat@swisstopo.ch>`__. Falls Sie Fragen
-zum Harvesten Ihrer Geodaten haben,
+Sie haben eine Frage zum Publizieren von Geo-Metadaten?
+Wenden Sie sich bitte direkt an das
+`Wenden Sie sich bitte direkt an das geocat.ch-Team <geocat@swisstopo.ch>`__.
+Bei weiteren Fragen beispielweise zu den allgemeinen OGD-Anforderungen
 `melden Sie sich gerne bei uns <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 
    Mehr zum Thema
 
-- :doc:`ISO-19139_che <../../glossar/standards/geocat-mapping>` – Beschreibung des Geodaten-Standards, der
-  auf den von opendata.swiss genutzten Standard DCAT-AP-CH angepasst werden kann.
-
-- `GM03 <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ –
-  Beschreibung des Datenstandards von Geodaten, der von geocat genutzt wird
+- :doc:`ISO-19139_che <../../glossar/standards/geocat-mapping>` – Beschreibung des Geo-Metadaten-Standards, der auf den von opendata.swiss genutzten Standard DCAT-AP-CH angepasst werden kann.
+- `GM03 <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ – Beschreibung des Datenstandards von Geodaten, der von geocat.ch genutzt wird.

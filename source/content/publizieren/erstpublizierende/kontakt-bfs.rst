@@ -3,43 +3,51 @@
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
    - :doc:`Publizieren <../publizieren>` :fa:`chevron-right`
    - :doc:`Erst-Publizierende <../erstpublizierende>` :fa:`chevron-right`
-   - Kontakt & Rollen
+   - Organisation und Benutzer/innen erfassen und verwalten
 
-
-***********************************
-Rollen vergeben & Kontakt aufnehmen
-***********************************
+******************************************************
+Organisation und Benutzer/innen erfassen und verwalten
+******************************************************
 
 Was muss ich tun, wenn ich zum ersten Mal Daten publizieren möchte?
 ===================================================================
 
 .. container:: Intro
 
-    Als Erstes benötigen Sie ein Profil, um sich einloggen zu können.
-    Dafür müssen Sie intern Verantwortlichkeiten klären und mit uns Kontakt
-    aufnehmen – am besten so früh wie möglich, damit wir Ihre Anfrage rasch
-    bearbeiten können.
+    Als Erstes benötigen Sie ein Profil, um sich auf opendata.swiss einloggen zu können.
+    Als Betreiber von opendata.swiss stellen wir das User-Management sicher.
+    Nehmen Sie für die Aktivierung Ihrer Organisation
+    und Ihres Profils mit uns `Kontakt <mailto:opendata@bfs.admin.ch>`__
+    auf – am besten so früh wie möglich, damit wir Ihre Anfrage rasch bearbeiten können.
+    Melden Sie uns dafür den Namen der Organisation, die Daten publizieren wird,
+    sowie auch die E-Mail-Adresse der Benutzerinnen und Benutzer,
+    die Metadaten erfassen und verwalten werden. Verwenden
+    Sie dafür bitte keine generischen,
+    unpersönlichen Adressen wie opendata@bfs.admin.ch.
 
+Erste Aktivierung von Organisation und Benutzer
+-----------------------------------------------
 
-Rollen und Verantwortlichkeiten definieren
-------------------------------------------
+Für die erste Aktivierung stellen Sie uns bitte folgende
+`Informationen <mailto:opendata@bfs.admin.ch>`__ zur Verfügung:
 
-Bevor Sie mit uns Kontakt aufnehmen, sollten Sie in Ihrer
-Organisation die Zuständigkeiten für Ihre Daten klären und
-folgende Rollen zuteilen. Es ist möglich, dass beide Rollen von
-der gleichen Person übernommen werden:
+- Name und URL zur Webseite der Organisation, die Daten publizieren wird.
+  Genauere Angaben zur Organisation können später hinzugefügt werden.
+- E-Mail-Adresse der Benutzerinnen und Benutzer, die
+  Metadaten erfassen und verwalten werden. Verwenden Sie bitte für
+  die Registrierung keine unpersönlichen Adressen
+  wie zum Beispiel statistik@bfs.admin.ch, da diese das User-Management erschweren.
+- Eine kurze Übersicht der Daten (z.B. in Form einer Liste),
+  die Sie voraussichtlich publizieren werden, hilft uns, die Publikation optimal zu planen.
+- Alle Benutzerinnen und Benutzer erhalten dann die Möglichkeit,
+  über das :term:`Backend <Backend>` von opendata.swiss Daten
+  Ihrer Organisation zu verwalten oder neue Daten zu erfassen.
+- Wir bitten Sie, uns proaktiv zu kontaktieren,
+  wenn Profile deaktiviert werden sollen.
 
-:Datenbesitzer: **Wer ist in Ihrer Organisation verantwortlich für die Daten
-                und deren Publikation?**
-                Diese Person wird unsere Kontaktperson sein.
-                Sie sollte ebenfalls die Qualitätssicherung
-                Garantieren und Rückfragen zu Datenbeständen koordinieren.
+.. container:: support
 
-:Datenlieferant: **Wer hat die technische Verantwortung für die Daten?**
-                 Diese Person kümmert sich um die technischen Prozesse,
-                 zum Beispiel das Erfassen der
-                 Metadaten, die Tests auf der Abnahmeumgebung oder
-                 Aktualisierungen von Daten.
+   Support
 
 Zugang anfordern
 ----------------
@@ -47,25 +55,20 @@ Zugang anfordern
 Was wir für die Registrierung von Ihnen bzw. allen Personen, die Daten
 Ihrer Organisation publizieren möchten, benötigen:
 
-    - Name
-    - E-mail Adresse
-    - Organisation
-    - Welche Daten möchten Sie auf opendata.swiss publizieren?
-
-.. container:: support
-
-   Support
-
-`Jetzt Zugang anfordern <mailto:opendata@bfs.admin.ch>`__.
+– Name
+– E-mail Adresse
+– Name der Organisation
+– URL der Organisation
+– Übersicht der zu publizierenden Daten (kurze Liste)
 
 Wir benötigen durchschnittlich 5 Werktage, um Ihre Anfrage zu bearbeiten.
+`Jetzt Zugang anfordern <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: teaser
 
-   Nächster Schritt: Profil ausfüllen
+   Nächster Schritt: Profil verwalten
 
-Sobald wir Ihnen Ihr persönliches Log-in zugestellt haben,
-können Sie Ihr Profil ausfüllen und Informationen zu Ihrer
-Organisation ergänzen.
+Sobald wir Ihnen Ihr persönliches Log-in zugestellt haben, können
+Sie Ihr Profil ausfüllen und danach Informationen zu Ihrer Organisation ergänzen.
 
-- :doc:`Profil ausfüllen <profil-einrichten>`
+- :doc:`Profil verwalten <profil-einrichten>`

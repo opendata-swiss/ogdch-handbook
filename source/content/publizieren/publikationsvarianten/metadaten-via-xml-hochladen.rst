@@ -3,35 +3,45 @@
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
    - :doc:`Publizieren <../publizieren>` :fa:`chevron-right`
    - :doc:`Publikationsvariante <../publikationsvariante>` :fa:`chevron-right`
-   - Manuelle Datenerfassung
+   - XML-Import
 
-************************************
+*****************************
 Metadaten als XML importieren
-************************************
+*****************************
 
 Wie importiere ich meine Metadaten als XML-Datei?
 =================================================
 
 .. container:: Intro
 
-    Wenn Sie mehr als 10 Datensätze importieren möchten, die regelmässig
-    aktualisiert werden müssen, bietet sich der Import als XML-Datei an.
-    Wir zeigen Ihnen hier Schritt für Schritt, wie das funktioniert.
+    Wenn Sie mehr als 5 Datasets importieren möchten, die regelmässig aktualisiert
+    werden müssen, empfehlen wir die Variante Import als XML-Datei.
+    Voraussetzung dafür ist, dass
+    :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs.rst>`.
+    Dies erfolgt in Absprache mit der Geschäftsstelle OGD. Wir zeigen Ihnen
+    hier Schritt für Schritt, wie das funktioniert.
 
 Die Schritte auf einen Blick
---------------------------------------------
+----------------------------
 
 - :ref:`Datenkatalog importieren <xml_datenkatalog_hochladen>`
-- :ref:`Datensätze prüfen und freischalten <xml_datensaetze_pruefen>`
-- :ref:`Schlagworte kontrollieren <xml_schlagworte_pruefen>`
-- :ref:`Ergebnis im Frontend ansehen <xml_datensaetze_ansehen>`
+- :ref:`Dataset prüfen <xml_datensaetze_pruefen>`
+- :ref:`Schlagwörter kontrollieren <xml_schlagworte_pruefen>`
+- :ref:`Vorschau des Datasets prüfen <xml_datensaetze_ansehen>`
+- :ref:`Dataset veröffentlichen <xml_datensaetze_veroeffentlichen>`
 
 .. figure:: ../../../_static/images/publizieren/xm-hochladen-frontend.png
    :alt: xml hochladen
 
 .. container:: bildunterschrift
 
-   Beispielansicht eines publizierten Datensatzes
+   Beispielansicht eines publizierten Datasets
+
+.. admonition:: Gut zu wissen
+
+    Sollten Sie zum ersten Mal Daten publizieren, führen wir Sie
+    durch den Prozess und unterstützen Sie dabei, die korrekte Übermittlung
+    und Darstellung Ihrer Daten sicherzustellen, unabhängig von der Publikationsvariante.
 
 Alle Schritte im Detail
 -----------------------
@@ -44,36 +54,42 @@ Datenkatalog importieren
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-upload.png
    :alt: xml hochladen
 
-Loggen Sie sich auf der
-`Abnahme-Umgebung <http://ogdch-abnahme.clients.liip.ch/de>`__ ein und klicken Sie auf das
-Feld “Datensätze importieren”. In der Upload-Maske können Sie Ihren
-Datenkatalog als XML-Datei von Ihrem PC auswählen und hochladen.
+Loggen Sie sich im Backend von opendata.swiss ein. Handelt es sich
+um eine Erstpublikation oder möchten Sie eine neue oder
+besonders komplexe Veröffentlichung testweise durchführen,
+ist die :term:`Abnahmeumgebung <Abahmeumgebung>` dafür die richtige Wahl.
+Handelt es um eine wiederholte Publikation und Sie möchten
+Ihre Datasets direkt veröffentlichen,
+können Sie sich in die :term:`Produktionsumgebung <Produktionsumgebung>`
+einloggen. Klicken Sie dann auf das Feld «Datensatz importieren».
+In der Upload-Maske können Sie einen Datenkatalog als
+XML-Datei von Ihrem PC auswählen und hochladen.
 
-**Wichtig:** Der Datenkatalog muss im Format
-:doc:`DCAT-AP-CH <../../glossar/standards/dcat-mapping>` vorliegen.
-
+**Wichtig**: Der Datenkatalog muss im
+Format :doc:`DCAT-AP-CH <../../glossar/standards/dcat-mapping>` vorliegen.
 
 .. _xml_datensaetze_pruefen:
 
-Datensätze prüfen
-------------------
+Datensets prüfen
+----------------
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-fehler-nach-import.png
    :alt: xml hochladen
 
-Ihre Datensätze werden Ihnen nach erfolgreichem Import direkt
-angezeigt (grüne Erfolgsmeldung). Sie erscheinen ausserdem auch
-unter “Alle Datensätze”. Sollte sich noch ein Fehler im Datensatz befinden,
-wird Ihnen dies schon hier angezeigt (rote Error-Meldung). Allfällige Fehler
-können Sie dann im Datensatz selbst korrigieren.
+Ihre Datasets werden Ihnen nach erfolgreichem Import
+direkt angezeigt (grüne Erfolgsmeldung). Sie erscheinen
+ausserdem auch unter «Alle Datensätze». Sollte sich noch ein Fehler im
+Dataset befinden, wird Ihnen dies bereits hier angezeigt (rote Error-Meldung).
+Allfällige Fehler können Sie entweder im Dataset selbst oder
+direkt in Ihrem Datenkatalog korrigieren und diesen
+anschliessend noch einmal neu hochladen.
 
 Fehlermeldung
 -------------
 
 Bei allfälligen Fehlern erscheint eine Fehlermeldung, der Status ist rot.
-Bitte korrigieren Sie die markierten Felder im jeweiligen Datensatz. Sobald Sie
-alle Fehler behoben haben, stellt der Status auf grün. Nun können Sie Ihren
-Datensatz publizieren.
+Bitte korrigieren Sie die markierten Felder. Sobald Sie alle Fehler
+behoben haben, stellt der Status auf grün. Nun können Sie Ihr Dataset publizieren.
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-dataset-nok.png
    :alt: xml hochladen
@@ -83,12 +99,11 @@ Datensatz publizieren.
 
 .. _xml_schlagworte_pruefen:
 
-Schlagworte kontrollieren
--------------------------
+Schlagwörter kontrollieren
+--------------------------
 
-Beim Import werden automatisch Schlagwörter für Ihren Datensatz
-ausgewählt. Kontrollieren Sie diese und fügen bei Bedarf
-noch weitere Schlagwörter hinzu.
+Beim Import als XML-Datei werden automatisch Schlagwörter für
+Ihr Dataset ausgewählt. Sie müssen diese nur noch kontrollieren.
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-schlagworte.png
    :alt: xml hochladen
@@ -96,29 +111,59 @@ noch weitere Schlagwörter hinzu.
 
 .. _xml_datensaetze_ansehen:
 
-Vorschau des Datensatz prüfen
-------------------------------
+Vorschau des Datasets prüfen
+----------------------------
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-dataset-preview.png
    :alt: xml hochladen
 
-Nachdem Sie alle Fehler korrigiert und Schlagwörter überprüft haben, können
-Sie sich eine Vorschau Ihres Datensatzes anzeigen lassen. Dafür klicken Sie
-oben in der Menüleiste auf “Datensatz anzeigen”. Sieht alles so aus wie in
-unserer Beispielansicht, kann der Datensatz veröffentlicht werden.
+Nachdem Sie alle Fehler korrigiert und Schlagwörter überprüft haben,
+können Sie sich eine Vorschau Ihres Datasets anzeigen lassen. Dafür klicken
+Sie oben in der Menüleiste auf «Datensatz anzeigen». Sie sehen
+Ihr Dataset nun so, wie es im Frontend erscheint – egal, ob Sie
+sich in der :term:`Abnahmeumgebung <Abahmeumgebung>` oder
+:term:`Produktionsumgebung <Produktionsumgebung>` befinden.
+Sieht alles so aus wie in unserer Beispielansicht,
+kann das Dataset veröffentlicht werden.
+
+.. _datensaetze_veroeffentlichen:
+
+Dataset veröffentlichen
+-----------------------
+
+Im Bearbeitungsmodus wird Ihnen ganz oben rechts der Status
+Ihres Datasets angezeigt: «Entwurf» bedeutet, Sie bearbeiten
+die Metadaten des Datasets noch weiter. In diesem Zustand ist
+Ihr Dataset im Frontend der Abnahmeumgebung mit dem Vermerk «privat»
+und einem Schlosssymbol markiert. «Veröffentlicht» gibt an,
+dass das Dataset in der Abnahmeumgebung publiziert ist.
+
+In der Produktionsumgebung haben Sie hier Sie ausserdem die Möglichkeit,
+die Veröffentlichung Ihres Datasets zu terminieren.
+Unter «Veröffentlichung planen» können Sie die Datums- und Zeitangabe nutzen,
+um eine Publikation in der Zukunft festzulegen und bestätigen
+dies mit einem Klick auf «Planen». Die Veröffentlichung lässt
+sich verlässlich auf ein bestimmtes Datum planen, die Festlegung
+der Uhrzeit kann um ± eine Stunde von der effektiven Publikation abweichen.
+
+Sollten Sie zum ersten Mal Daten publizieren, muss Ihr Dataset
+von der Abnahmeumgebung noch auf die Produktionsumgebung übertragen werden.
+Dies übernehmen wir für Sie,
+geben Sie uns einfach per E-Mail Bescheid <mailto:opendata@bfs.admin.ch>`__.
+
+**Wichtig**: Vergessen Sie nicht nach jeder Änderung von bereits
+publizierten Daten auf «Aktualisieren» zu klicken.
 
 .. container:: support
 
    Support
 
-Sie haben eine Frage zum Import Ihres Datensatzes als XML?
-Schreiben Sie uns `Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
+Sie haben eine Frage zum Import Ihres Datasets als XML?
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
 und wir helfen Ihnen gerne weiter.
 
 .. container:: materialien
 
     Mehr zum Thema
 
-- :doc:`DCAT-AP-CH <../../glossar/standards/dcat-mapping>` – Beschreibung des
-  aktuell von opendata.swiss genutzte Datenstandards DCAT-AP-CH
-
+- :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/standards/dcat-mapping>` – Beschreibung des aktuell von opendata.swiss genutzte Datenstandards DCAT-AP-CH

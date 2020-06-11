@@ -13,3 +13,7 @@ Images
 .. image:: ../../_static/images/branding/logo_horizontal.png
    :alt: Logo opendata.swiss
 
+.. image:: ../../_static/images/branding/handbuch_logo.svg
+   :alt: Logo handbook.opendata.swiss
+   :width: 10%
+

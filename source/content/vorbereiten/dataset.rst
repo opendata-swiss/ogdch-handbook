@@ -17,6 +17,6 @@ Welche Schritte sind vor der Publikation eines Datasets nötig?
     sicherstellen, dass die Anforderungen für die Publikation von OGD erfüllt werden.
     Dies gilt für jedes einzelne Dataset:
 
-    - :doc:`Rechtliche Anforderungen prüfen <datensatz/rechtlicher-check>`
-    - :doc:`Technische Anforderungen prüfen <datensatz/technischer-check>`
-    - :doc:`Organisatorische Anforderungen prüfen <dataset/organisatorischer-check>
+    - :doc:`Rechtliche Anforderungen prüfen <dataset/rechtlicher-check>`
+    - :doc:`Technische Anforderungen prüfen <dataset/technischer-check>`
+    - :doc:`Organisatorische Anforderungen prüfen <dataset/organisatorischer-check>`
