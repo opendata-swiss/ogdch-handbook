@@ -13,12 +13,12 @@ Wie programmiere ich den Zugriff auf die Daten von opendata.swiss?
 
 .. container:: Intro
 
-opendata.swiss basiert auf dem Open-Source-Projekt CKAN. CKAN stellt
-eine umfangreiche API für die Metadaten des offenen Datenkatalogs zur Verfügung,
-die Applikationsentwickler nutzen können. In diesem Kapitel erklären wir Ihnen,
-wie Sie mittels API auf die Daten von opendata.swiss zugreifen können. Werfen
-Sie auch einen Blick in
-`aktuelle Beispiele, wie OGD in Anwendungen genutzt wird <https://opendata.swiss/de/showcase/>`__.
+   opendata.swiss basiert auf dem Open-Source-Projekt CKAN. CKAN stellt
+   eine umfangreiche API für die Metadaten des offenen Datenkatalogs zur Verfügung,
+   die Applikationsentwickler nutzen können. In diesem Kapitel erklären wir Ihnen,
+   wie Sie mittels API auf die Daten von opendata.swiss zugreifen können. Werfen
+   Sie auch einen Blick in
+   `aktuelle Beispiele, wie OGD in Anwendungen genutzt wird <https://opendata.swiss/de/showcase/>`__.
 
 .. _api-nutzen-ckan-api:
 
@@ -26,16 +26,16 @@ Nutzung der API – so funktioniert’s
 ------------------------------------
 
 - :ref:`Zugriffsmöglichkeiten <api-nutzen-zugriffsmoeglichkeiten>`
-- :ref:`Action-Api <api-nutzen-action-api>`
+- :ref:`Action-API <api-nutzen-action-api>`
 - :ref:`Terminologie <api-nutzen-terminologie>`
 - :ref:`Beispiele <api-nutzen-beispiele>`
 
-((Box))
-Gut zu wissen
-Hier geben wir Ihnen eine kompakte Einführung zur Nutzung der API
-von opendata.swiss. Eine ausführliche Dokumentation zur CKAN API
-finden Sie in der
-`CKAN API Dokumentation <https://docs.ckan.org/en/latest/api/>`__.
+.. admonition:: Gut zu wissen
+
+   Hier geben wir Ihnen eine kompakte Einführung zur Nutzung der API
+   von opendata.swiss. Eine ausführliche Dokumentation zur CKAN API
+   finden Sie in der
+   `CKAN API Dokumentation <https://docs.ckan.org/en/latest/api/>`__.
 
 .. _api-nutzen-zugriffsmoeglichkeiten:
 
@@ -45,7 +45,7 @@ Zugriffsmöglichkeiten
 Es gibt 3 Zugriffsarten, die Ihnen bei opendata.swiss zur Verfügung stehen:
 
 .. code-block::
-   :caption: Api Zugriff über den Browser
+   :caption: API Zugriff über den Browser
 
    https://opendata.swiss/api/3/action/package_search?fq=tags:economy
 
@@ -140,13 +140,15 @@ auf opendata.swiss zuzugreifen.
    Support
 
 Noch Fragen?
+------------
+
 Haben Sie noch Fragen zur Nutzung unserer API? Dann
 `nehmen Sie mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__.
 Bei Rückfragen zu einzelnen Datasets wenden Sie sich bitte direkt an die
 Datenpublizierenden. Die jeweiligen Kontaktangaben finden
 Sie im Dataset unter «Zusätzliche Information».
 
-Haben Sie ein interessantes Nutzungsbeispiel? Wir würden uns
+**Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns
 sehr freuen, davon zu erfahren und Ihr Projekt in unsere Galerie von
 Beispielanwendungen aufzunehmen. `Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
 

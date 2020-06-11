@@ -24,10 +24,10 @@ Was muss ich über den Publikationsprozess wissen?
     Sie dies direkt in der Produktionsumgebung tun.
 
 Daten publizieren – So funktioniert’s:
---------------------------------------
+======================================
 
 1. Schritt: Publikationsvariante auswählen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------------
 
 Es gibt vier verschiedene
 :doc:`Publikationsvarianten  <publikationsvariante>`,
@@ -43,7 +43,7 @@ einerseits Ihren Aufwand bei der Publikation zu minimieren und andererseits eine
 publizierten Einträge zu gewährleisten.
 
 2. Schritt: Metadaten Import durchführen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------
 
 Die Metadaten zu Ihren Daten werden auf opendata.swiss importiert,
 um diese den Nutzenden zur Verfügung zu stellen, so dass die publizierten
@@ -57,7 +57,7 @@ dazu finden Sie im
 Kapitel :doc:`Publikationsvariante auswählen <publikationsvariante>`.
 
 3. Schritt: Prüfung der Daten
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------
 
 Nachdem Sie alle erforderlichen Metadaten erfasst haben, ist es Zeit für Qualitätssicherung.
 Bei der Erstpublikation stellen wir gemeinsam sicher, dass alle Daten, Metadaten und
@@ -67,7 +67,8 @@ um die Prüfung der Daten zu planen. Durchschnittlich benötigen wir 5 Werktage,
 um die Daten und Metadaten zu prüfen.
 
 4. Schritt: Freigabe und Veröffentlichung
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------------
+
 Nachdem Sie Ihr finales Einverständnis gegeben haben, werden die Daten durch uns auf
 opendata.swiss am gemeinsam definierten Go-Live Datum veröffentlicht. Dies gilt
 grundsätzlich nur bei der Erstpublikation. Bei wiederholten Publikationen können
@@ -80,5 +81,5 @@ selbstverständlich jederzeit `kontaktieren <mailto:opendata@bfs.admin.ch>`__.
     Bevor Sie mit dem Publikationsprozess starten, ist es wichtig, dass Sie die
     Rechtsgrundlage Ihrer Daten geprüft und die Nutzungsbedingung festgelegt haben.
     Sie haben diesen Schritt verpasst? Kein Problem, mit einem Klick können Sie
-    dies nachholen und
-    :doc:`Ihre Daten hier vorbereiten <../vorbereiten/datensatz>`.
+    dies nachholen und Ihre
+    :doc:`Daten hier vorbereiten <../vorbereiten/dataset>`.

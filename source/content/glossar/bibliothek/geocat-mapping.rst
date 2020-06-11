@@ -886,13 +886,3 @@ Distribution
 
     :Display name on opendata.swiss: Currently not implemented
     :ISO-19139_che XPath:
-
-.. container:: materialien
-
-   Mehr zum Thema
-
-   - `XPATH Syntax <https://www.w3schools.com/xml/xpath_syntax.asp>`__
-
-.. container:: space
-
-   space

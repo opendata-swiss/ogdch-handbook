@@ -32,14 +32,10 @@ der Abnahmeumgebung. Aus diesem internen Titel generiert
 sich der sogenannte :term:`Name/Slug <Slug>` Ihrer Organisation.
 Dieser Name/Slug sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer Organisation.
 
-**Wichtig**: Der interne Organisations-Titel darf nicht mehr verändert werden,
-sobald Sie Datasets veröffentlicht haben.
+.. container:: important
 
-2) Organisation-Informationen
-Titel (EN) (DE) (FR) (IT)
-Bitte geben Sie einen Titel respektive den offiziellen Namen
-
-
+    Wichtig: Der interne Organisations-Titel darf nicht mehr verändert werden,
+    sobald Sie Datasets veröffentlicht haben.
 
 2) Organisation-Informationen
 -----------------------------

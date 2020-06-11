@@ -93,7 +93,7 @@ html_theme_options = {
 html_favicon = '_static/images/branding/favicon.ico'
 
 
-html_logo = '_static/images/branding/handbook_logo.svg'
+html_logo = '_static/images/branding/handbook_logo.png'
 
 # check links
 nitpicky = True

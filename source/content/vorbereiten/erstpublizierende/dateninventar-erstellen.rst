@@ -23,7 +23,7 @@ Welche Daten gibt es in meiner Organisation?
     werden sollen.
 
 Dateninventarisierung
----------------------
+=====================
 
 Ziel dieses Prozesses ist zu identifizieren, welche Daten ohne
 Einschränkungen publiziert werden können (Open Data),
@@ -74,7 +74,7 @@ und wir helfen Ihnen gerne weiter.
 
 .. container:: teaser
 
-    Die passende Nutzungsbedingung für meine Datasets auswählen
+    :doc:`Die passende Nutzungsbedingung für meine Datasets auswählen <../dataset/rechtlicher-check>`
 
 Die Nutzungsbedingungen dienen als «Übersetzung» der bestehenden
 rechtlichen Grundlagen und vermitteln den Datennutzenden eine
@@ -83,6 +83,4 @@ gemacht werden? Der erste Schritt für die Publikation von
 Open Government Data ist daher die Auswahl und Anwendung
 von offenen Nutzungsbedingungen auf Ihre Daten.
 Wir unterstützen Sie mit einer zweistufigen Überprüfung dabei,
-die richtige Nutzungsbedingung auszuwählen:
-
-  - :doc:`Erster Schritt: Rechtliche Anforderungen prüfen <../dataset/rechtlicher-check>`.
+die richtige Nutzungsbedingung auszuwählen.

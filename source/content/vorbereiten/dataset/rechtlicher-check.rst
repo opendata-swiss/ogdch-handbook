@@ -58,40 +58,49 @@ werden, die in Form von Symbolen dargestellt sind. Die Auswahl der richtigen
 Nutzungsbedingung erfolgt aufgrund der gesetzlichen Grundlage. Folgende Varianten
 sind möglich, die den Datennutzenden angezeigt werden:
 
-.. figure:: ../../../_static/images/vorbereiten/prepare-terms-overview.png
-   :alt: Schema Rechtlicher Rahmen impliziert Nutzungsbedingungen
+.. figure:: ../../../_static/images/vorbereiten/terms_open.png
+    :alt: Freie Nutzung
+    :height: 50px
 
-.. figure:: ../../../_static/images/vorbereiten/terms_open.svg
-   :alt: Freie Nutzung
-   :width: 10%
+Freie Nutzung
+^^^^^^^^^^^^^
 
-Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
-Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen.
-Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz).
+- Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
+- Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen.
+- Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz).
 
-.. figure:: ../../../_static/images/vorbereiten/terms_by.svg
-   :alt: Freie Nutzung. Quellenangabe ist Pflicht.
-   :width: 10%
+.. figure:: ../../../_static/images/vorbereiten/terms_by.png
+    :alt: Freie Nutzung. Quellenangabe ist Pflicht.
+    :height: 50px
 
-Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
-Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen.
-Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz).
+Freie Nutzung. Quellenangabe ist Pflicht.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../../_static/images/vorbereiten/terms_ask.svg
-   :alt: Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
-   :width: 10%
+- Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
+- Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen.
+- Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz).
 
-Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
-Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben.
-Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz).
+.. figure:: ../../../_static/images/vorbereiten/terms_ask.png
+    :alt: Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
+    :height: 50px
 
-.. figure:: ../../../_static/images/vorbereiten/terms_by-ask.svg
-   :alt: Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
-   :width: 10%
+Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
-Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben.
-Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz).
+- Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
+- Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben.
+- Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz).
+
+.. figure:: ../../../_static/images/vorbereiten/terms_by-ask.png
+    :alt: Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
+    :height: 50px
+
+Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
+- Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben.
+- Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz).
 
 Bestimmend für die Auswahl der Nutzungsbedingung ist die gesetzliche
 Grundlage ((Link to: Rechtliche Anforderungen prüfen)).
@@ -120,10 +129,8 @@ Sie sind sich unsicher, ob Sie die richtige Nutzungsbedingung ausgewählt haben?
 
 .. container:: teaser
 
-   Nächster Schritt: Technische Anforderungen prüfen
+   :doc:`Nächster Schritt: Technische Anforderungen prüfen <technischer-check>`
 
 Nachdem Sie die richtige Nutzungsbedingung ausgewählt haben, geht es
 im zweiten Schritt um die technischen Anforderungen, die die Ihr
 Dataset erfüllen muss.
-
-  - :doc:`Zweiter Schritt: Technische Anforderungen prüfen <technischer-check>`

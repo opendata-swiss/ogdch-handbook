@@ -55,20 +55,18 @@ Zugang anfordern
 Was wir für die Registrierung von Ihnen bzw. allen Personen, die Daten
 Ihrer Organisation publizieren möchten, benötigen:
 
-– Name
-– E-mail Adresse
-– Name der Organisation
-– URL der Organisation
-– Übersicht der zu publizierenden Daten (kurze Liste)
+- Name
+- E-mail Adresse
+- Name der Organisation
+- URL der Organisation
+- Übersicht der zu publizierenden Daten (kurze Liste)
 
 Wir benötigen durchschnittlich 5 Werktage, um Ihre Anfrage zu bearbeiten.
 `Jetzt Zugang anfordern <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: teaser
 
-   Nächster Schritt: Profil verwalten
+   :doc:`Nächster Schritt: Profil verwalten <profil-einrichten>`
 
 Sobald wir Ihnen Ihr persönliches Log-in zugestellt haben, können
 Sie Ihr Profil ausfüllen und danach Informationen zu Ihrer Organisation ergänzen.
-
-- :doc:`Profil verwalten <profil-einrichten>`

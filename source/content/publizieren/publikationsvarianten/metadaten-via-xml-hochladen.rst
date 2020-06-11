@@ -30,13 +30,6 @@ Die Schritte auf einen Blick
 - :ref:`Vorschau des Datasets prüfen <xml_datensaetze_ansehen>`
 - :ref:`Dataset veröffentlichen <xml_datensaetze_veroeffentlichen>`
 
-.. figure:: ../../../_static/images/publizieren/xm-hochladen-frontend.png
-   :alt: xml hochladen
-
-.. container:: bildunterschrift
-
-   Beispielansicht eines publizierten Datasets
-
 .. admonition:: Gut zu wissen
 
     Sollten Sie zum ersten Mal Daten publizieren, führen wir Sie
@@ -44,7 +37,7 @@ Die Schritte auf einen Blick
     und Darstellung Ihrer Daten sicherzustellen, unabhängig von der Publikationsvariante.
 
 Alle Schritte im Detail
------------------------
+=======================
 
 .. _xml_datenkatalog_hochladen:
 
@@ -65,8 +58,10 @@ einloggen. Klicken Sie dann auf das Feld «Datensatz importieren».
 In der Upload-Maske können Sie einen Datenkatalog als
 XML-Datei von Ihrem PC auswählen und hochladen.
 
-**Wichtig**: Der Datenkatalog muss im
-Format :doc:`DCAT-AP-CH <../../glossar/standards/dcat-mapping>` vorliegen.
+.. container:: important
+
+    Wichtig: Der Datenkatalog muss im
+    Format :doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>` vorliegen.
 
 .. _xml_datensaetze_pruefen:
 
@@ -126,7 +121,7 @@ sich in der :term:`Abnahmeumgebung <Abahmeumgebung>` oder
 Sieht alles so aus wie in unserer Beispielansicht,
 kann das Dataset veröffentlicht werden.
 
-.. _datensaetze_veroeffentlichen:
+.. _xml_datensaetze_veroeffentlichen:
 
 Dataset veröffentlichen
 -----------------------
@@ -149,10 +144,19 @@ der Uhrzeit kann um ± eine Stunde von der effektiven Publikation abweichen.
 Sollten Sie zum ersten Mal Daten publizieren, muss Ihr Dataset
 von der Abnahmeumgebung noch auf die Produktionsumgebung übertragen werden.
 Dies übernehmen wir für Sie,
-geben Sie uns einfach per E-Mail Bescheid <mailto:opendata@bfs.admin.ch>`__.
+geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata@bfs.admin.ch>`__.
 
-**Wichtig**: Vergessen Sie nicht nach jeder Änderung von bereits
-publizierten Daten auf «Aktualisieren» zu klicken.
+.. container:: important
+
+    Wichtig: Vergessen Sie nicht nach jeder Änderung von bereits
+    publizierten Daten auf «Aktualisieren» zu klicken.
+
+.. figure:: ../../../_static/images/publizieren/xm-hochladen-frontend.png
+   :alt: xml hochladen
+
+.. container:: bildunterschrift
+
+   Beispielansicht eines publizierten Datasets
 
 .. container:: support
 
@@ -166,4 +170,4 @@ und wir helfen Ihnen gerne weiter.
 
     Mehr zum Thema
 
-- :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/standards/dcat-mapping>` – Beschreibung des aktuell von opendata.swiss genutzte Datenstandards DCAT-AP-CH
+- :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` – Beschreibung des aktuell von opendata.swiss genutzte Datenstandards DCAT-AP-CH

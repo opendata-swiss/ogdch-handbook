@@ -14,13 +14,13 @@ Wie lade ich meine Metadaten mittels Harvester hoch?
 
 .. container:: Intro
 
-Mit einem Harvester lassen sich grössere Datenmengen einfach und schnell publizieren.
-Es bedeutet, dass Ihre Datasets automatisch durch opendata.swiss angezogen und
-aktualisiert werden können, der Aufwand für die :doc:`Datenpflege <../../pflegen/pflegen>`
-reduziert sich für Sie. Voraussetzung dafür ist, dass
-:doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs.rst>`.
-Dies erfolgt in Absprache mit der Geschäftsstelle OGD. Wir erklären Ihnen hier,
-wie das sogenannte Harvesting funktioniert.
+    Mit einem Harvester lassen sich grössere Datenmengen einfach und schnell publizieren.
+    Es bedeutet, dass Ihre Datasets automatisch durch opendata.swiss angezogen und
+    aktualisiert werden können, der Aufwand für die :doc:`Datenpflege <../../pflegen/pflegen>`
+    reduziert sich für Sie. Voraussetzung dafür ist, dass
+    :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs.rst>`.
+    Dies erfolgt in Absprache mit der Geschäftsstelle OGD. Wir erklären Ihnen hier,
+    wie das sogenannte Harvesting funktioniert.
 
 Die Schritte auf einen Blick
 -----------------------------
@@ -30,13 +30,6 @@ Die Schritte auf einen Blick
 - :ref:`Katalog-Endpunkt mit Paginierung übergeben <harvesting-paginierung>`
 - :ref:`Harvesting testen <harvesting-testen>`
 - :ref:`Datenkatalog veröffentlichen <harvesting-veroeffentlichen>`
-
-.. figure:: ../../../_static/images/publizieren/xm-hochladen-frontend.png
-   :alt: xml hochladen
-
-.. container:: bildunterschrift
-
-   Beispielansicht eines publizierten Datasets
 
 .. admonition:: Gut zu wissen
 
@@ -80,8 +73,10 @@ Katalog-Endpunkt übergeben
 unter der wir Ihren Datenkatalog herunterladen können.
 Diese URL ist gleichzeitig ein RDF-Endpunkt.
 
-**Wichtig:** Der Datenkatalog muss im Format
-:doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-mapping>` vorliegen.
+.. container:: important
+
+    Wichtig: Der Datenkatalog muss im Format
+    :doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-mapping>` vorliegen.
 
 .. _harvesting-paginierung:
 
@@ -102,7 +97,7 @@ Falls Ihr Datenkatalog zu gross ist und nicht in einer einzigen
 Anfrage übermittelt werden kann, besteht die Möglichkeit,
 ihn seitenweise zu übergeben. Dafür empfehlen wir die Paginierung
 mit dem `Hydra Vocabulary <https://www.hydra-cg.com/spec/latest/core/>`__
-zu implementieren. `Senden Sie uns abschliessend eine E-Mail <mailto:opendata@bfs.admin.ch>`
+zu implementieren. `Senden Sie uns abschliessend eine E-Mail <mailto:opendata@bfs.admin.ch>`__
 mit der entsprechenden URL.
 
 .. _harvesting-testen:
@@ -132,6 +127,13 @@ Nach einer abschliessenden Prüfung Ihrer Datasets richten wir das Harvesting
 für Sie in der Produktionsumgebung ein.
 `Kontaktieren Sie uns <mailto:opendata@bfs.admin.ch>`__,
 um das Go-Live gemeinsam zu planen.
+
+.. figure:: ../../../_static/images/publizieren/xm-hochladen-frontend.png
+   :alt: xml hochladen
+
+.. container:: bildunterschrift
+
+   Beispielansicht eines publizierten Datasets
 
 .. container:: support
 

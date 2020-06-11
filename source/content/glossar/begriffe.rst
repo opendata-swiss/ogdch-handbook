@@ -78,7 +78,9 @@ Was ist was bei Open Data?
     der Klasse dcat:Dataset (Dataset-Metadaten-Record) und
     beschreibt ein einzelnes, thematisch geschlossenes Dataset.
     Beispiel:
+
     `Dataset: Statistiken Dienst Überwachung Post- und Fernmeldeverkehr ÜPF <https://opendata.swiss/de/dataset/statistiken-dienst-ueberwachung-post-und-fernmeldeverkehr-uepf>`__
+
     `Ressource: Detaillierte Statistik 2011 <https://opendata.swiss/de/dataset/statistiken-dienst-ueberwachung-post-und-fernmeldeverkehr-uepf/resource/fffbd06f-ddc3-43b6-9873-e4aef316e4d0>`__
 
   Datenpublizierende
@@ -174,7 +176,7 @@ Was ist was bei Open Data?
     und werden somit auf opendata.swiss referenziert.
     Sollten Sie Fragen zum Thema haben oder möchten Sie
     Ihre Daten als Linked Open Data publizieren,
-    kontaktieren Sie bitte `support-lindas@bar.admin.ch <mailto:support-lindas@bar.admin.ch>`__ .
+    kontaktieren Sie bitte `support-lindas@bar.admin.ch <mailto:support-lindas@bar.admin.ch>`__.
 
 `O`_
 -----

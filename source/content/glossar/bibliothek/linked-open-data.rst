@@ -18,6 +18,9 @@ Einführung in Linked Open Data
     Mensch und Maschine korrekt interpretierbar sind. Hier möchten wir Ihnen das Konzept
     näher vorstellen. Der Text ist derzeit nur in Englisch verfügbar.
 
+Linked Open Data
+================
+
 Today we are surrounded by vast quantities of data playing an
 increasingly central role in our lives, and driving the emergence of a
 data economy [1]_. At greater quantities, we are

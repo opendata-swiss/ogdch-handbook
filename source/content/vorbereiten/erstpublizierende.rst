@@ -14,7 +14,7 @@ Wissenswertes vor dem Start
 .. container:: Intro
 
     Zunächst einmal: Danke, dass Sie OGD publizieren möchten.
-    In diesem Handbuch unterstützen wir dabei.
+    In diesem Handbuch unterstützen wir Sie dabei.
     Als Erst-Publizierende empfehlen wir Ihnen, sich vorab mit den
     Prozessen von opendata.swiss vertraut zu machen.
     Ausserdem geben wir Ihnen Hilfestellung zur Frage,

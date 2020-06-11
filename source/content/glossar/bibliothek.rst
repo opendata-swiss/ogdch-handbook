@@ -27,11 +27,11 @@ Standards für Daten
 
 - :doc:`DCAT-AP-CH <bibliothek/dcat-ap-ch>` dokumentiert den DCAT-AP-CH Standard, der auf opendata.swiss implementiert ist.
 - :doc:`ISO-19139_che zu DCAT-AP-CH <bibliothek/geocat-mapping>` dokumentiert die Umwandlung des GM03-Standards, der für Geodaten genutzt wird, auf den DCAT-AP-CH Standard, der auf opendata.swiss implementiert ist.
+- :doc:`Linked Open Data <bibliothek/linked-open-data>` führt Sie in das Thema Linked Open Data ein.
 - :doc:`Standard-Formate für Ressourcen <bibliothek/formate-ressourcen>` dokumentiert alle gängigen Formate und enthält Links zu Ihren Definitionen.
 
 Anderes:
 --------
 
-- :doc:`Linked Open Data <bibliothek/linked-open-data>` führt Sie in das Thema Linked Open Data ein.
 - :doc:`Q&A Hosting <bibliothek/hosting>` enthält Fragen und Antworten zum Thema Hosting von Daten.
 - :doc:`Leitfaden OGD für Geodaten <bibliothek/leitfaden-geodaten>` dient als Orientierung für die Behandlung von Geodaten.

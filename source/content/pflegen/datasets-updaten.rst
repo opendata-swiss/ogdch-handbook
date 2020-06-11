@@ -27,10 +27,12 @@ Wir bitten Sie ausserdem regelmässig zu prüfen, ob Ihre Metadaten richtig bei 
 ankommen. Gehen Sie dazu auf opendata.swiss und prüfen Sie die Seite Ihrer
 Organisation mitsamt Datasets.
 
-**Wichtig: Bei jeder Anpassung der Metadaten sollte geprüft werden, ob auch eine Anpassung
-des Änderungsdatums sinnvoll ist. Dies ist der Fall, wenn sich entweder die Metadaten
-oder auch die Originaldaten selbst geändert haben. So können Nutzerinnen und -nutzer
-Ihrer Daten erkennen, dass eine Aktualisierung vorliegt.**
+.. container:: important
+
+    Wichtig: Bei jeder Anpassung der Metadaten sollte geprüft werden, ob auch eine Anpassung
+    des Änderungsdatums sinnvoll ist. Dies ist der Fall, wenn sich entweder die Metadaten
+    oder auch die Originaldaten selbst geändert haben. So können Nutzerinnen und -nutzer
+    Ihrer Daten erkennen, dass eine Aktualisierung vorliegt.
 
 .. container:: support
 

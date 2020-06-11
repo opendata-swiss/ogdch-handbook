@@ -17,7 +17,6 @@ Welche organisatorischen Aspekte sollte ich bei der Publikation von OGD beachten
     Um eine nachhaltige Publikation von Open Government Data zu ermöglichen sind
     folgende Aspekte besonders zu berücksichtigen:
 
-
     - **Prozess zur Behandlung und Verwertung der Rückmeldungen definieren**
       Der Dialog zwischen den publizierenden Organisationen und den Nutzenden
       ist bei der Publikation von Open Government Data wesentlich. Jegliche
@@ -40,7 +39,7 @@ Welche organisatorischen Aspekte sollte ich bei der Publikation von OGD beachten
       involviert (beispielsweise zwei oder mehrere Bundesstellen oder Kantone),
       müssen die involvierten Stellen abklären, welche Organisation für die Publikation
       als Open Government Data zuständig ist.
-    • **Feedback teilen**
+    - **Feedback teilen**
       Alle Datenpublizierende sind eingeladen, ihre Erfahrungen mit weiteren
       datenpublizierenden Organisationen zu teilen. Wir bitte Sie insbesondere Vorschläge
       für die Weiterentwicklung des Portals opendata.swiss und dessen Vorgaben zu
@@ -55,11 +54,9 @@ Sie haben noch Fragen zum Thema Organisation und Prozesse?
 
 .. container:: teaser
 
-   Nächster Schritt: Daten publizieren
+   `Nächster Schritt: Daten publizieren <../../publizieren/publizieren>`
 
 Sie haben die Nutzungsbedingung ausgewählt, die technischen Anforderungen
 Ihres Datasets geklärt und die organisatorischen Aspekte berücksichtigt.
 Die Vorbereitung ist damit abgeschlossen,
 nun können Sie Ihr Dataset publizieren.
-
-- :doc:`Nächster Schritt: Daten publizieren <../../publizieren/publizieren>`

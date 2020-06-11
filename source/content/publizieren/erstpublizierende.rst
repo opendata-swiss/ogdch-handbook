@@ -21,6 +21,6 @@ Die erforderlichen Schritte im Überblick
     Organisation vervollständigen und mit der Publikation der Datasets loslegen.
     Das User-Management wird von der Geschäftsstelle OGD sichergestellt.
 
-    - :doc:`Benutzer/innen erfassen und verwalten <erstpublizierende/kontakt-bfs>`
+    - :doc:`Organisation und Benutzer/innen erfassen und verwalten <erstpublizierende/kontakt-bfs>`
     - :doc:`Profil verwalten <erstpublizierende/profil-einrichten>`
     - :doc:`Informationen zur Organisation ergänzen <erstpublizierende/organisation-einrichten>`

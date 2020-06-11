@@ -21,9 +21,6 @@ Welche Publikationsvarianten ist die richtige für meine Daten?
     `sprechen Sie mit uns darüber <mailto:opendata@bfs.admin.ch>`__.
     Hier finden Sie einige Richtwerte, die Ihnen bei der Wahl der Publikationsvariante helfen:
 
-Optionen für die Publikation
-----------------------------
-
 Wenig Daten, seltene Aktualisierung:
   :doc:`Metadaten manuell via Webformular erfassen <publikationsvarianten/metadaten-manuell-erfassen>`
 Mehr als 10 Datasets, regelmässige Aktualisierung:
@@ -31,7 +28,7 @@ Mehr als 10 Datasets, regelmässige Aktualisierung:
 Grosse Anzahl Datasets, häufige Aktualisierung:
   :doc:`Metadaten mit Harvester automatisch hochladen <publikationsvarianten/harvesting>`
 Geodaten
-  Um Geodaten publizieren zu können, müssen die Metadaten im
+  Geodaten sind ein Spezialfall. Um Geodaten publizieren zu können, müssen die Metadaten im
   Schweizer Geometadaten-Katalog geocat.ch erfasst sein.
   :doc:`Metadaten via geocat.ch publizieren <publikationsvarianten/geodaten>`
 

@@ -41,22 +41,8 @@ Die Schritte auf einen Blick
     `Termin für die Einführung zur Publikation auf opendata.swiss <mailto:opendata@bfs.admin.ch>`__
     zu vereinbaren.
 
-.. figure:: ../../../_static/images/publizieren/dataset-frontend.png
-   :alt: Screenshot
-
-.. container:: bildunterschrift
-
-   Beispielansicht eines publizierten Datasets
-
-.. figure:: ../../../_static/images/publizieren/resource-frontend.png
-   :alt: Screenshot
-
-.. container:: bildunterschrift
-
-   Beispielansicht einer publizierten Ressource
-
 Alle Schritte im Detail
------------------------
+=======================
 
 .. _manuell-datensatz-erstellen:
 
@@ -77,9 +63,11 @@ Im Menü links wählen Sie «Datensätze» > «Dataset erstellen».
 Als Erstes müssen Sie Ihrem Dataset einen Titel geben.
 Aus ihm wird der Permalink des Datasets gebildet.
 
-**Wichtig**: Verändern Sie diesen Titel und den Permalink nicht mehr,
-nachdem das Dataset publiziert wurde. Ansonsten können Nutzende,
-die Ihre Daten bereits verwenden, diese nicht mehr erreichen.
+.. container:: important
+
+    Wichtig: Verändern Sie diesen Titel und den Permalink nicht mehr,
+    nachdem das Dataset publiziert wurde. Ansonsten können Nutzende,
+    die Ihre Daten bereits verwenden, diese nicht mehr erreichen.
 
 Metadaten eingeben
 ^^^^^^^^^^^^^^^^^^
@@ -97,8 +85,10 @@ Für eine detaillierte Beschreibung des Inhalts der Metadaten-Felder orientieren
 Sie sich bitte an der
 `Publikation eCH-0200 DCAT-Anwendungsprofil für Datenportale in der Schweiz (DCAT-AP CH) <https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a>`__.
 
-**Wichtig**: Verändern Sie den Identifier nicht mehr, nachdem das Dataset
-publiziert ist. Ansonsten können Ihre Daten nicht mehr eindeutig zugeordnet werden.
+.. container:: important
+
+    Wichtig: Verändern Sie den Identifier nicht mehr, nachdem das Dataset
+    publiziert ist. Ansonsten können Ihre Daten nicht mehr eindeutig zugeordnet werden.
 
 .. figure:: ../../../_static/images/publizieren/dataset-identifier.png
    :alt: dataset identifier
@@ -187,12 +177,16 @@ Falls die Ressource sprachunabhängig ist, wählen Sie unter «Sprache»
 keine Sprache aus. Auch hier müssen Sie unter dem Pflichtfeld «Erstellt»
 das Datum der Veröffentlichung der Ressource angeben.
 
-**Wichtig**: Jedes Dataset muss mindestens 1 Ressource haben.
+.. container:: important
 
-**Wichtig**: Unter «Nutzungsbedingungen» müssen Sie nun hier die
-Bedingung auswählen, die Sie im
-:doc:`Kapitel «Rechtliche Nutzung prüfen» <../../vorbereiten/dataset/rechtlicher-check>
-ermittelt haben.
+    Wichtig: Jedes Dataset muss mindestens 1 Ressource haben.
+
+.. container:: important
+
+    Wichtig: Unter «Nutzungsbedingungen» müssen Sie nun hier die
+    Bedingung auswählen, die Sie im
+    :doc:`Kapitel «Rechtliche Nutzung prüfen» <../../vorbereiten/dataset/rechtlicher-check>
+    ermittelt haben.
 
 Optional können Sie noch unter «Zugangs-URL» eine URL angeben,
 über welche auf die Ressource
@@ -201,9 +195,11 @@ muss die URL auch im Feld «Download-URL» eingetragen werden.
 Ebenfalls optional kann die «Grösse» der Ressource in Bytes angegeben werden.
 Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
 
-**Wichtig**: Bitte berücksichtigen Sie bei der Publikation einer Ressourcen
-:doc:`die technischen Anforderungen <../../vorbereiten/dataset/rechtlicher-check>`
-von opendata.swiss.
+.. container:: important
+
+    Wichtig: Bitte berücksichtigen Sie bei der Publikation einer Ressourcen
+    :doc:`die technischen Anforderungen <../../vorbereiten/dataset/rechtlicher-check>`
+    von opendata.swiss.
 
 .. _manuell-schlagwoerter-definieren:
 
@@ -260,12 +256,28 @@ Ihr Dataset von der Abnahmeumgebung noch auf die Produktionsumgebung
 übertragen werden. Dies übernehmen wir für Sie,
 `geben Sie uns einfach per E-Mail Bescheid <mailto:opendata@bfs.admin.ch>`__.
 
-**Wichtig**: Vergessen Sie nicht nach jeder Änderung
-von bereits publizierten Daten auf «Aktualisieren» zu klicken.
+.. container:: important
+
+    Wichtig: Vergessen Sie nicht nach jeder Änderung
+    von bereits publizierten Daten auf «Aktualisieren» zu klicken.
 
 .. figure:: ../../../_static/images/publizieren/dataset-aktualisieren.png
    :alt: dataset aktualisieren
    :width: 50%
+
+.. figure:: ../../../_static/images/publizieren/dataset-frontend.png
+   :alt: Screenshot
+
+.. container:: bildunterschrift
+
+   Beispielansicht eines publizierten Datasets
+
+.. figure:: ../../../_static/images/publizieren/resource-frontend.png
+   :alt: Screenshot
+
+.. container:: bildunterschrift
+
+   Beispielansicht einer publizierten Ressource
 
 .. container:: support
 

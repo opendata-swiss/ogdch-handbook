@@ -20,7 +20,7 @@ In welchem Format sollte mein Dataset vorliegen?
     unsere Empfehlungen dazu.
 
 Hintergrund
------------
+===========
 
 Ein wichtiges Ziel von opendata.swiss ist es, alle Daten in maschinenlesbaren
 und offenen Formaten zur Verfügung zu stellen. Wir orientieren uns dafür am
@@ -31,6 +31,9 @@ dass sie als CSV-Dateien zur Verfügung gestellt werden sollten, da diese für
 Programmierer einfacher zu verarbeiten sind als Excel-Sheets. Ist dies nicht möglich,
 können die Daten auch als XLS-Dateien angeboten werden, wobei ihre Maschinenlesbarkeit
 garantiert werden muss.
+
+.. figure:: ../../../_static/images/linked-open-data/ld-5stars.png
+   :alt: 5 stars of Open Data
 
 Formate
 =======
@@ -103,11 +106,11 @@ Weitere technische Anforderungen
   einheitlicher Identifikatoren identifizierbar sein.
 
 Best Practices
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 Unter den folgenden Links sind verschiedene Best-Practices zur Publikation von
 OGD definiert.
-`https://www.w3.org/2013/share-psi/bp__
+`https://www.w3.org/2013/share-psi/bp`__
 Opendatahandbook.org
 `https://www.europeandataportal.eu/de/providing-data/goldbook`__
 
@@ -122,18 +125,14 @@ Sie haben noch Fragen zu Formaten und den weiteren technischen Anforderungen?
 
    Mehr zum Thema
 
-- :doc:`Standard-Formate für Ressourcen <../../glossar/standards/dateiformate>` dokumentiert
-  alle gängigen Formate und enthält Links zu Ihren Definitionen.
-- :doc:`Linked Open Data <../../glossar/standards/linked-open-data>` –
-  Eine Einführung in das Thema Linked Open Data
+- :doc:`Linked Open Data <../../glossar/bibliothek/linked-open-data>` – Eine Einführung in das Thema Linked Open Data
+- :doc:`Standard-Formate für Ressourcen <../../glossar/bibliothek/dateiformate>` für Ressourcen dokumentiert alle gängigen Formate und enthält Links zu Ihren Definitionen.
 
 .. container:: teaser
 
-   Ihr nächster Schritt: Organisatorische Anforderungen prüfen
+   :doc:`Nächster Schritt: Organisatorische Anforderungen prüfen <organisatorischer-check>`
 
 Neben rechtlichen und technischen Anforderungen, müssen Sie sicherstellen, dass auch
 organisatorische oder prozessbedingte Anforderungen erfüllt sind.
 Nur so können Sie eine nachhaltige und effiziente Publikation der
 Daten auch in Zukunft gewährleisten.
-
-- :doc:`Dritter Schritt: Organisatorische Anforderungen prüfen <organisatorischer-check>`

@@ -40,7 +40,7 @@ Verfügung. Das :doc:`Glossar <content/glossar/begriffe>` enthält
 Definitionen der wichtigsten Begriffe.
 
 Vor dem Start
--------------
+=============
 
 Erstpublizierenden empfehlen wir, sich vorab mit opendata.swiss
 vertraut zu machen. In unserer
@@ -74,7 +74,7 @@ mit uns teilen möchten?
 
 .. toctree::
    :maxdepth: 2
-   :caption: Vorbereiten:
+   :caption: Vorbereiten
 
    content/vorbereiten/vorbereiten
    content/vorbereiten/erstpublizierende
@@ -82,7 +82,7 @@ mit uns teilen möchten?
 
 .. toctree::
    :maxdepth: 2
-   :caption: Publizieren:
+   :caption: Publizieren
 
    content/publizieren/publizieren
    content/publizieren/erstpublizierende
@@ -91,7 +91,7 @@ mit uns teilen möchten?
 
 .. toctree::
    :maxdepth: 1
-   :caption: Pflegen:
+   :caption: Pflegen
 
    content/pflegen/pflegen
    content/pflegen/datasets-updaten
@@ -99,7 +99,7 @@ mit uns teilen möchten?
 
 .. toctree::
    :maxdepth: 1
-   :caption: Nutzen:
+   :caption: Nutzen
 
    content/nutzen/nutzen
    content/nutzen/daten-suchen
@@ -107,14 +107,14 @@ mit uns teilen möchten?
 
 .. toctree::
    :maxdepth: 1
-   :caption: Glossar:
+   :caption: Glossar
 
    content/glossar/bibliothek
    content/glossar/begriffe
 
 .. toctree::
    :maxdepth: 1
-   :caption: Über das Handbuch:
+   :caption: Über das Handbuch
 
    content/ueberdashandbuch/ueber-das-handbuch
    content/ueberdashandbuch/kontakt

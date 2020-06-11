@@ -38,15 +38,19 @@ auf opendata.swiss weiterhin eine Voraussetzung bleibt.
 Falls Ihre Organisation noch nicht eingerichtet ist,
 `kontaktieren Sie uns gern <mailto:opendata@bfs.admin.ch>`__.
 
-**Wichtig:** Die verschiedenen
-:doc:`rechtlichen, technischen und organisatorischen Anforderungen <../../vorbereiten/dataset>`
-müssen weiterhin erfüllt werden.
+.. container:: important
 
-**Wichtig:** Geo-Metadaten müssen gemäss
-:doc:`Standard ISO-19139_che <../../glossar/standards/geocat-mapping>`
-vorliegen. Dabei handelt es sich um einen auf der internationalen
-Norm ISO-19139 basierenden Standard, der mit den Schweizer
-Erweiterungen der Norm GM03 ergänzt wurde.
+    Wichtig: Die verschiedenen
+    :doc:`rechtlichen, technischen und organisatorischen Anforderungen <../../vorbereiten/dataset>`
+    müssen weiterhin erfüllt werden.
+
+.. container:: important
+
+    Wichtig: Geo-Metadaten müssen gemäss
+    :doc:`Standard ISO-19139_che <../../glossar/bibliothek/geocat-mapping>`
+    vorliegen. Dabei handelt es sich um einen auf der internationalen
+    Norm ISO-19139 basierenden Standard, der mit den Schweizer
+    Erweiterungen der Norm GM03 ergänzt wurde.
 
 .. container:: support
 
@@ -62,5 +66,5 @@ Bei weiteren Fragen beispielweise zu den allgemeinen OGD-Anforderungen
 
    Mehr zum Thema
 
-- :doc:`ISO-19139_che <../../glossar/standards/geocat-mapping>` – Beschreibung des Geo-Metadaten-Standards, der auf den von opendata.swiss genutzten Standard DCAT-AP-CH angepasst werden kann.
+- :doc:`ISO-19139_che <../../glossar/bibliothek/geocat-mapping>` – Beschreibung des Geo-Metadaten-Standards, der auf den von opendata.swiss genutzten Standard DCAT-AP-CH angepasst werden kann.
 - `GM03 <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ – Beschreibung des Datenstandards von Geodaten, der von geocat.ch genutzt wird.

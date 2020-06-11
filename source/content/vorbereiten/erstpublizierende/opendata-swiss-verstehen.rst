@@ -19,7 +19,7 @@ Der Publikationsprozess und das Portal opendata.swiss
     opendata.swiss einführen.
 
 Was ist Open Government Data?
------------------------------
+=============================
 
 Open Government Data (OGD) ist eine weltweite Bewegung, an der
 auch Schweizer Verwaltungen partizipieren. Konkret versteht
@@ -96,10 +96,8 @@ auf opendata.swiss veröffentlicht werden können,
 
 .. container:: teaser
 
-   Geeignete Daten in meiner Organisation identifizieren
+   :doc:`Geeignete Daten in meiner Organisation identifizieren <dateninventar-erstellen>`
 
 Im nächsten Schritt geben wir Ihnen Hilfestellung, um Daten
 in Ihrem Unternehmen zu identifizieren, die sich für die
 Veröffentlichung auf opendata.swiss eignen.
-
-    - :doc:`Weiter zu Dateninventar prüfen <dateninventar-erstellen>`.

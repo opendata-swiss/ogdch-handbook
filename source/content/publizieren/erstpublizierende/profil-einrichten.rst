@@ -23,7 +23,7 @@ Wie kann ich mein Profil editieren?
    :alt: Benutzerprofil
 
 Die wichtigsten Angaben im Überblick
-------------------------------------
+====================================
 
 Benutzerkonten-Verwaltung
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -42,9 +42,7 @@ Nicht vergessen: Bestätigen Sie alle gemachten
 
 .. container:: teaser
 
-   Nächster Schritt: Informationen zur Organisation ergänzen
+   :doc:`Nächster Schritt: Informationen zur Organisation ergänzen <organisation-einrichten>`
 
 Ihr Profil ist nun angelegt und ausgefüllt, jetzt
 können Sie Informationen zu Ihrer Organisation eingeben.
-
-- :doc:`Organisationsinfo einfüllen <organisation-einrichten>`

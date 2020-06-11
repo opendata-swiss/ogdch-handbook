@@ -10,10 +10,12 @@ Auf einen Blick
 Daten nutzen
 ============
 
-.. container:: Intro
+.. container:: construction
 
-    Wir freuen uns, dass Sie Daten von opendata.swiss nutzen möchten.
-    Hier finden Sie alles rund um die Nutzung von OGD.
+    :fa:`wrench` Work in progress: Dieser Inhalt wird aktuell überarbeitet.
+
+Wir freuen uns, dass Sie Daten von opendata.swiss nutzen möchten.
+Hier finden Sie alles rund um die Nutzung von OGD.
 
 Wir möchten Ihnen hier Hilfestellungen zur
 :doc:`Datensuche <daten-suchen>` und zur
@@ -40,7 +42,3 @@ Der Verein opendata.ch freut sich, Sie dabei zu unterstützen.
    Mehr zum Thema
 
 - `Nutzungsbedingungen (Link) <https://opendata.swiss/de/terms-of-use/>`__,
-
-.. container:: Construction
-
-    Work in progress: Dieser Inhalt wird aktuell überarbeitet.
