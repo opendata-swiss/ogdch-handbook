@@ -1,7 +1,7 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Bibliothek <../library>` :fa:`chevron-right`
+   - :doc:`Bibliothek <../bibliothek>` :fa:`chevron-right`
    - Linked Open Data
 
 ****************
@@ -28,7 +28,7 @@ faced with limitations in traditional methods of organizing data. To
 publish machine-friendly data - i.e. in structured form, not as text
 documents in natural language - the usual approach is to generate raw
 data in standardized files (e.g. spreadsheets as CSV and other
-:doc:`dataformats <dateiformate>`), or to provide access to
+:doc:`dataformats <formate-ressourcen>`), or to provide access to
 this data through programming interfaces (:doc:`APIs <../../nutzen/api-nutzen>`).
 
 While these go a long way to help make data available and accessible for
@@ -503,7 +503,7 @@ needed, will create a new one.
 
 This step should include the generation of metadata for that datasets
 (see the official documentation about
-:doc:`DCAT-AP for Switzerland <dcat-mapping>`), and also the links to other datasets,
+:doc:`DCAT-AP for Switzerland <dcat-ap-ch>`), and also the links to other datasets,
 as for instance DBPedia (the Linked Data version of Wikipedia), to make
 the new dataset part of the `Linked Data Cloud <http://lod-cloud.net/>`__.
 

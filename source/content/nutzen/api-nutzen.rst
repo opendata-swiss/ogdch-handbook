@@ -20,8 +20,6 @@ Wie programmiere ich den Zugriff auf die Daten von opendata.swiss?
    Sie auch einen Blick in
    `aktuelle Beispiele, wie OGD in Anwendungen genutzt wird <https://opendata.swiss/de/showcase/>`__.
 
-.. _api-nutzen-ckan-api:
-
 Nutzung der API – so funktioniert’s
 ------------------------------------
 
@@ -86,7 +84,7 @@ Einheiten in opendata.swiss erreichen können:
    Entspricht einer Ressource bei Opendata.swiss. Die Plattform opendata.swiss hostet
    selbst keinen Ressourcen, stellt aber «downloadUrls» oder «accesssUrls»
    und teilweise auch Daten Previews zur Verfügung.
-   Ressourcen in CKAN entsprechen dcat:Distribution im :doc:`DCAT AP Standard <../../glossar/bibliothek/dcat-ap-ch>`
+   Ressourcen in CKAN entsprechen dcat:Distribution im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`
 ``group``
    Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören.
 ``organization``

@@ -1,7 +1,7 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Bibliothek <../library>` :fa:`chevron-right`
+   - :doc:`Bibliothek <../bibliothek>` :fa:`chevron-right`
    - ISO-19139_che zu DCAT-AP-CH
 
 ***************************
@@ -16,7 +16,7 @@ Transformation des Geodaten-Standards für opendata.swiss
     Um Geodaten auf opendata.swiss publizieren zu können, muss der Geodaten-Standard
     ISO-19139_che auf den von opendata.swiss genutzten DCAT-AP-CH abgebildet werden.
     Diese Dokumentation beschreibt die Standard-Transformation von ISO-19139_che
-    nach :doc:`DCAT-AP-CH <dcat-mapping>`,
+    nach :doc:`DCAT-AP-CH <dcat-ap-ch>`,
     so wie sie für das Harvesting von Geodaten auf opendata.swiss
     benötigt wird. Es geht dabei um die XML-Serialisierung durch XPath.
     Diese Dokumentation ist aktuell nur in Englisch verfügbar.

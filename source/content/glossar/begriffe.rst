@@ -127,7 +127,7 @@ Was ist was bei Open Data?
     dient zur Prüfung der Daten und ist daher nahezu
     identisch zum Frontend der Produktionsumgebung aufgebaut.
     Das Frontend der Produktionsumgebung ist
-    `https://opendata.swiss`__.
+    `https://opendata.swiss <https://opendata.swiss>`__.
 
 `G`_
 -----

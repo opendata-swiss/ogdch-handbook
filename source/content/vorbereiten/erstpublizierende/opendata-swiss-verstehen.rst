@@ -89,7 +89,7 @@ auf opendata.swiss veröffentlicht werden können,
     Datenhosting zur Verfügung gestellt. Dies müssen Sie als
     datenpublizierende Organisation oder Person selbst organisieren.
     Hier finden Sie
-    :doc:`Informationen zum Thema Hosting <../../library/hosting>`,
+    :doc:`Informationen zum Thema Hosting <../../glossar/bibliothek/hosting>`,
     die Ihnen dabei helfen. Derzeit liegen sie nur auf Englisch vor.
     Benötigen Sie Unterstützung, um das Hosting zu organisieren?
     `Kontaktieren Sie uns und wir geben Ihnen gerne weitere Empfehlungen <mailto:opendata@bfs.admin.ch>`__.

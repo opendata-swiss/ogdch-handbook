@@ -18,7 +18,7 @@ Wie erfasse ich Metadaten manuell im Webformular?
     Ihre Metadaten im :term:`Backend <Backend>` von opendata.swiss ein.
     Voraussetzung dafür ist, dass Ihre Organisation mitsamt
     Benutzerinnen und Benutzern registriert ist.
-    :doc:`Für die erste Registrierung <../erstpublizierende/kontakt-bfs.rst>`.
+    :doc:`Für die erste Registrierung <../erstpublizierende/kontakt-bfs>`.
     sind wir zuständig. Hier erklären wir Ihnen
     Schritt für Schritt, wie Sie das Webformular ausfüllen müssen.
 
@@ -185,7 +185,7 @@ das Datum der Veröffentlichung der Ressource angeben.
 
     Wichtig: Unter «Nutzungsbedingungen» müssen Sie nun hier die
     Bedingung auswählen, die Sie im
-    :doc:`Kapitel «Rechtliche Nutzung prüfen» <../../vorbereiten/dataset/rechtlicher-check>
+    :doc:`Kapitel «Rechtliche Nutzung prüfen» <../../vorbereiten/dataset/rechtlicher-check>`
     ermittelt haben.
 
 Optional können Sie noch unter «Zugangs-URL» eine URL angeben,
@@ -228,7 +228,7 @@ Vorschau des Datasets prüfen
 Abschliessend können Sie sich eine Vorschau Ihres Datasets anzeigen lassen.
 Dafür klicken Sie oben in der Menüleiste auf «Datensatz anzeigen».
 Sie sehen Ihr Dataset nun so, wie es im Frontend erscheint – egal,
-ob Sie sich in der :term:`Abnahmeumgebung <Abahmeumgebung>`
+ob Sie sich in der :term:`Abnahmeumgebung <Abnahmeumgebung>`
 oder :term:`Produktionsumgebung <Produktionsumgebung>` befinden.
 Sieht alles so aus wie in unserer Beispielansicht, kann das Dataset veröffentlicht werden.
 

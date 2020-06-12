@@ -18,7 +18,7 @@ Wie lade ich meine Metadaten mittels Harvester hoch?
     Es bedeutet, dass Ihre Datasets automatisch durch opendata.swiss angezogen und
     aktualisiert werden können, der Aufwand für die :doc:`Datenpflege <../../pflegen/pflegen>`
     reduziert sich für Sie. Voraussetzung dafür ist, dass
-    :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs.rst>`.
+    :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs>`.
     Dies erfolgt in Absprache mit der Geschäftsstelle OGD. Wir erklären Ihnen hier,
     wie das sogenannte Harvesting funktioniert.
 
@@ -48,7 +48,7 @@ Harvester einrichten
 Wenn Sie Ihre Daten im :doc:`Standard DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>`
 bereitstellen können, übernehmen wir das Einrichten des Harvesters
 für Sie. Sie müssen nichts weiter tun, als uns die
-URL mit dem :term:`Katalog-Endpunkt <Katalog-Endpunkt>`
+URL mit dem :term:`Katalog-Endpunkt <Katalog Endpunkt (Catalogue endpoint)>`
 zu übermitteln.
 In speziellen Fällen, zum Beispiel wenn ein Datenkatalog nicht im DCAT-AP-CH Standard
 geliefert werden kann, kann ein spezifisches Mapping definiert werden.
@@ -76,7 +76,7 @@ Diese URL ist gleichzeitig ein RDF-Endpunkt.
 .. container:: important
 
     Wichtig: Der Datenkatalog muss im Format
-    :doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-mapping>` vorliegen.
+    :doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>` vorliegen.
 
 .. _harvesting-paginierung:
 

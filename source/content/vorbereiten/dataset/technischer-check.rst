@@ -24,7 +24,7 @@ Hintergrund
 
 Ein wichtiges Ziel von opendata.swiss ist es, alle Daten in maschinenlesbaren
 und offenen Formaten zur Verfügung zu stellen. Wir orientieren uns dafür am
-:doc:`5-Sterne-Modell von Tim Berners-Lee <glossar/bibliothek/open-linked-data>`
+:doc:`5-Sterne-Modell von Tim Berners-Lee <../../glossar/bibliothek/linked-open-data>`
 und streben eine Umsetzung in der Kategorie 3 Sterne an. Basis-Anforderung ist die
 Stufe 2 Sterne. Konkret heisst das zum Beispiel für tabellarische Daten,
 dass sie als CSV-Dateien zur Verfügung gestellt werden sollten, da diese für
@@ -53,12 +53,11 @@ Empfehlungen zu berücksichtigen:
 - Die Publikation von Linked Open Data, soll bei Daten, die als Basis- oder
   zentrale Register bezeichnet werden können, besonders geprüft werden. Bei dieser Art von Publikation werden gemeinsam verwendete Datenmodellen bzw. Ontologien verwendet, um Daten über Organisationsgrenzen hinweg miteinander zu verknüpfen. Datennutzende und Datenpublizierende können dabei von wichtigen Netzwerkeffekten profitieren.
 
-Hier finden Sie eine :doc:`Liste der Formate <glossar/bibliothek/formate-ressourcen>`,
+Hier finden Sie eine :doc:`Liste der Formate <../../glossar/bibliothek/formate-ressourcen>`,
 die von opendata.swiss aktuell unterstützt werden. Sollten Sie Ihr Dateiformat nicht
 in dieser Liste finden,
 `nehmen Sie gerne mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__.
-Gerne unterstützen wir Sie dabei,
-das richtige Format zu wählen ((Mail to: opendata(at)bfs.admin.ch)).
+`Gerne unterstützen wir Sie dabei, das richtige Format zu wählen <mailto:opendata@bfs.admin.ch>`__.
 Dies gilt auch, wenn Sie einen Datenservice anbieten, zum Beispiel
 eine API-Schnittstelle, und nicht wissen, wie Sie diesen
 auf Datasets abbilden können.
@@ -83,7 +82,7 @@ Weitere technische Anforderungen
   publizieren, sprich sie sind ausreichend beschrieben, um die Wiederverwendung,
   insbesondere durch Verwaltungsexterne, zu ermöglichen. Dafür werden die
   grundlegenden Metadaten (siehe vor allem
-  :doc:`DCAT-AP-CH Standard <../../glossar/standards/dateiformate>`),
+  :doc:`DCAT-AP-CH Standard <../../glossar/bibliothek/dcat-ap-ch>`),
   sowie auch Formeln und Erklärungen zur Berechnung der
   Daten möglichst in maschinenlesbarer Form mit den Daten publiziert.
 - **Uneingeschränkter Zugang:** Die publizierten Daten sind möglichst
@@ -110,9 +109,10 @@ Best Practices
 
 Unter den folgenden Links sind verschiedene Best-Practices zur Publikation von
 OGD definiert.
-`https://www.w3.org/2013/share-psi/bp`__
-Opendatahandbook.org
-`https://www.europeandataportal.eu/de/providing-data/goldbook`__
+
+- `https://www.w3.org/2013/share-psi/bp <https://www.w3.org/2013/share-psi/bp>`__
+- `Opendatahandbook.org <http://opendatahandbook.org/>`_
+- `https://www.europeandataportal.eu/de/providing-data/goldbook <https://www.europeandataportal.eu/de/providing-data/goldbook>`__
 
 .. container:: support
 
@@ -126,7 +126,7 @@ Sie haben noch Fragen zu Formaten und den weiteren technischen Anforderungen?
    Mehr zum Thema
 
 - :doc:`Linked Open Data <../../glossar/bibliothek/linked-open-data>` – Eine Einführung in das Thema Linked Open Data
-- :doc:`Standard-Formate für Ressourcen <../../glossar/bibliothek/dateiformate>` für Ressourcen dokumentiert alle gängigen Formate und enthält Links zu Ihren Definitionen.
+- :doc:`Standard-Formate für Ressourcen <../../glossar/bibliothek/formate-ressourcen>` für Ressourcen dokumentiert alle gängigen Formate und enthält Links zu Ihren Definitionen.
 
 .. container:: teaser
 

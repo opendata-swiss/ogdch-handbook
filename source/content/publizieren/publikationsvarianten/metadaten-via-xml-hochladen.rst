@@ -17,7 +17,7 @@ Wie importiere ich meine Metadaten als XML-Datei?
     Wenn Sie mehr als 5 Datasets importieren möchten, die regelmässig aktualisiert
     werden müssen, empfehlen wir die Variante Import als XML-Datei.
     Voraussetzung dafür ist, dass
-    :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs.rst>`.
+    :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs>`.
     Dies erfolgt in Absprache mit der Geschäftsstelle OGD. Wir zeigen Ihnen
     hier Schritt für Schritt, wie das funktioniert.
 
@@ -50,7 +50,7 @@ Datenkatalog importieren
 Loggen Sie sich im Backend von opendata.swiss ein. Handelt es sich
 um eine Erstpublikation oder möchten Sie eine neue oder
 besonders komplexe Veröffentlichung testweise durchführen,
-ist die :term:`Abnahmeumgebung <Abahmeumgebung>` dafür die richtige Wahl.
+ist die :term:`Abnahmeumgebung <Abnahmeumgebung>` dafür die richtige Wahl.
 Handelt es um eine wiederholte Publikation und Sie möchten
 Ihre Datasets direkt veröffentlichen,
 können Sie sich in die :term:`Produktionsumgebung <Produktionsumgebung>`
@@ -116,7 +116,7 @@ Nachdem Sie alle Fehler korrigiert und Schlagwörter überprüft haben,
 können Sie sich eine Vorschau Ihres Datasets anzeigen lassen. Dafür klicken
 Sie oben in der Menüleiste auf «Datensatz anzeigen». Sie sehen
 Ihr Dataset nun so, wie es im Frontend erscheint – egal, ob Sie
-sich in der :term:`Abnahmeumgebung <Abahmeumgebung>` oder
+sich in der :term:`Abnahmeumgebung <Abnahmeumgebung>` oder
 :term:`Produktionsumgebung <Produktionsumgebung>` befinden.
 Sieht alles so aus wie in unserer Beispielansicht,
 kann das Dataset veröffentlicht werden.

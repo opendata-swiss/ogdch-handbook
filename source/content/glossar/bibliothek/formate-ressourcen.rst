@@ -1,12 +1,12 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Bibliothek <../library>` :fa:`chevron-right`
+   - :doc:`Bibliothek <../bibliothek>` :fa:`chevron-right`
    - Formate für Ressourcen
 
-*********************
+**********************
 Formate für Ressourcen
-*********************
+**********************
 
 Zulässige Dateiformate für Ressourcen
 =====================================
