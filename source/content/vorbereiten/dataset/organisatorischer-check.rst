@@ -43,7 +43,9 @@ Welche organisatorischen Aspekte sollte ich bei der Publikation von OGD beachten
       Alle Datenpublizierende sind eingeladen, ihre Erfahrungen mit weiteren
       datenpublizierenden Organisationen zu teilen. Wir bitte Sie insbesondere Vorschläge
       für die Weiterentwicklung des Portals opendata.swiss und dessen Vorgaben zu
-      formulieren und der Geschäftsstelle OGD mitzuteilen.
+      formulieren und der
+      :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+      mitzuteilen.
 
 .. container:: support
 

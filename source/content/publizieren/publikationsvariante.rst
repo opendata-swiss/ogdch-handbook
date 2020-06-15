@@ -17,7 +17,9 @@ Welche Publikationsvarianten ist die richtige für meine Daten?
     Daten, den Umfang und das Aktualisierungsintervall an. Grundsätzlich sind
     Sie in Ihrer Wahl frei, allerdings bieten sich bei bestimmten Merkmalen
     bestimmte Varianten besser an. Die richtige Publikationsvariante wird gemeinsam
-    mit uns, der Geschäftsstelle OGD, definiert –
+    mit uns, der
+    :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`,
+    definiert –
     `sprechen Sie mit uns darüber <mailto:opendata@bfs.admin.ch>`__.
     Hier finden Sie einige Richtwerte, die Ihnen bei der Wahl der Publikationsvariante helfen:
 
@@ -37,6 +39,8 @@ Geodaten
     Die Publikationsvariante kann grundsätzlich jederzeit angepasst werden.
     Dies ist häufig der Fall, wenn das manuelle Erfassen und Aktualisieren zu
     aufwendig werden und sich das automatische Hochladen per Harvester anbietet.
-    Die Anpassung muss gemeinsam mit der Geschäftsstelle OGD geplant werden.
+    Die Anpassung muss gemeinsam mit der
+    :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+    geplant werden.
     Falls Sie Ihre Publikationsvariante ändern möchten,
     `kontaktieren Sie uns gerne <mailto:opendata@bfs.admin.ch>`__.

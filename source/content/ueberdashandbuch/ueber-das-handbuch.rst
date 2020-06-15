@@ -13,8 +13,9 @@ Wegleitung zur Nutzung von opendata.swiss
 Das Handbuch von opendata.swiss bietet Ihnen Anleitungen und Richtlinien
 für die Publikation und Nutzung von Daten auf opendata.swiss. Ziel ist es,
 datenpublizierende Personen und Organisationen bei der Publikation von Open
-Government Data zu unterstützen. Es wird von der Geschäftsstelle Open
-Government Data beim Bundesamt für Statistik betrieben. Die Inhalte sind
+Government Data zu unterstützen. Es wird von der
+:term:`Geschäftsstelle Open Government Data <Geschäftsstelle Open Government Data (OGD)>`
+beim Bundesamt für Statistik betrieben. Die Inhalte sind
 entlang des Publikationsprozesses auf opendata.swiss organisiert: Von
 der Identifikation möglicher Open Data in Ihrer Organisation bis zur
 Datenpflege nach erfolgreicher Publikation Ihrer Daten auf opendata.swiss.

@@ -18,7 +18,9 @@ Wie importiere ich meine Metadaten als XML-Datei?
     werden müssen, empfehlen wir die Variante Import als XML-Datei.
     Voraussetzung dafür ist, dass
     :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs>`.
-    Dies erfolgt in Absprache mit der Geschäftsstelle OGD. Wir zeigen Ihnen
+    Dies erfolgt in Absprache mit der
+    :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`.
+    Wir zeigen Ihnen
     hier Schritt für Schritt, wie das funktioniert.
 
 Die Schritte auf einen Blick

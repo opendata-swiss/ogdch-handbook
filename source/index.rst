@@ -16,7 +16,8 @@ Schön, dass Sie Open Government Data publizieren möchten! Wir unterstützen Si
 
 Dieses Handbuch hilft Personen und Organisationen dabei, Daten als
 :term:`Open Government Data (OGD) <Open Government Data>`
-zu veröffentlichen. Es wird von der Geschäftsstelle OGD beim
+zu veröffentlichen. Es wird von der
+:term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` beim
 Bundesamt für Statistik (BFS) als Massnahme zur Umsetzung der
 Strategie
 `«Open Government Data 2019-2023» <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie.html>`__

@@ -19,7 +19,7 @@ Was muss ich über den Publikationsprozess wissen?
     Umgebung, die für Test-Publikationen gedacht ist. Wir sprechen auch
     von :term:`«Abnahmeumgebung» <Abnahmeumgebung>`. Erst nach der finalen
     Freigabe werden die Datasets öffentlich auf opendata.swiss publiziert,
-    auf der sogenannten «Produktionsumgebung» ((Link to: Glossar)).
+    auf der sogenannten :term:`«Produktionsumgebung» <Produktionsumgebung>`.
     Wenn Sie Daten bereits zum wiederholten Male publizieren, können
     Sie dies direkt in der Produktionsumgebung tun.
 
@@ -38,7 +38,9 @@ die Ihnen zur Verfügung stehen:
 - :doc:`Datenkatalog via Harvester erfassen <publikationsvarianten/harvesting>`
 - :doc:`Geodaten via geocat.ch erfassen <publikationsvarianten/geodaten>` (Wichtig: Alle Geodaten müssen nach dieser Methode publiziert werden)
 
-Gemeinsam mit der Geschäftsstelle OGD identifizieren Sie, welche Publikationsvariante sich eignet, um
+Gemeinsam mit der
+:term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+identifizieren Sie, welche Publikationsvariante sich eignet, um
 einerseits Ihren Aufwand bei der Publikation zu minimieren und andererseits eine hohe Qualität der
 publizierten Einträge zu gewährleisten.
 

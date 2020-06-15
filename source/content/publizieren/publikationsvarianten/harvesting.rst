@@ -19,7 +19,9 @@ Wie lade ich meine Metadaten mittels Harvester hoch?
     aktualisiert werden können, der Aufwand für die :doc:`Datenpflege <../../pflegen/pflegen>`
     reduziert sich für Sie. Voraussetzung dafür ist, dass
     :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs>`.
-    Dies erfolgt in Absprache mit der Geschäftsstelle OGD. Wir erklären Ihnen hier,
+    Dies erfolgt in Absprache mit der
+    :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`.
+    Wir erklären Ihnen hier,
     wie das sogenannte Harvesting funktioniert.
 
 Die Schritte auf einen Blick

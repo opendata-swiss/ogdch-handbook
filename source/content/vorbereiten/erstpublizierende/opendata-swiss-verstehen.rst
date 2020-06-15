@@ -32,7 +32,9 @@ gefördert.
 
 Die Prüfung, welche Verwaltungsdaten als Open Government Data
 publiziert werden sollen, und die Publikation liegen bei den
-Verwaltungsstellen selbst. Die Geschäftsstelle OGD hat im Rahmen
+Verwaltungsstellen selbst. Die
+:term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+hat im Rahmen
 der `Open Government Data-Strategie 2019 – 2023 <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__
 den Auftrag erhalten, diese Publikation zu fördern,
 unterstützen und koordinieren.
@@ -71,7 +73,9 @@ selbst tragen. Nach der Veröffentlichung der Daten müssen Sie
 diese selbst regelmässig :doc:`aktualisieren <../../pflegen/datasets-updaten>`,
 sowie den Datenutzerinnen und -nutzern
 :doc:`bei Fragen zur Verfügung stehen <../../pflegen/auskunft-geben>`.
-Die Geschäftsstelle OGD unterstützt Sie bei diesen Aufgaben.
+Die
+:term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+unterstützt Sie bei diesen Aufgaben.
 
 Wer publiziert auf opendata.swiss?
 ----------------------------------

@@ -19,7 +19,9 @@ Die erforderlichen Schritte im Überblick
     und der Benutzerinnen und Benutzer. Nach erfolgter Registrierung
     können Sie über das :term:`Backend <Backend>` die Angaben zur
     Organisation vervollständigen und mit der Publikation der Datasets loslegen.
-    Das User-Management wird von der Geschäftsstelle OGD sichergestellt.
+    Das User-Management wird von der
+    :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+    sichergestellt.
 
     - :doc:`Organisation und Benutzer/innen erfassen und verwalten <erstpublizierende/kontakt-bfs>`
     - :doc:`Profil verwalten <erstpublizierende/profil-einrichten>`

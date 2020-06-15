@@ -25,11 +25,13 @@ Folgende Punkte müssen Sie dabei beachten:
   :term:`«Abnahmeumgebung» <Abnahmeumgebung>` von opendata.swiss durchgeführt.
   Dies gibt datenpublizierenden Organisationen oder Personen die Möglichkeit,
   ihre Datasets und sämtliche weitere Informationen ausgiebig zu prüfen
-  und allfällige Änderungen vorzunehmen. Wir als Geschäftsstelle Open
-  Government Data unterstützen Sie bei der Sicherstellung einer optimalen Publikation.
+  und allfällige Änderungen vorzunehmen. Wir als
+  :term:`Geschäftsstelle Open Government Data <Geschäftsstelle Open Government Data (OGD)>`
+  unterstützen Sie bei der Sicherstellung einer optimalen Publikation.
 - Ab der zweiten Publikation können Datenpublizierende immer wieder
   neue Daten selbstständig publizieren.
-- Die Geschäftsstellen OGD ist für das User-Management verantwortlich.
+- Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+  ist für das User-Management verantwortlich.
   Neue Benutzerinnen und Benutzer oder weitere Anpassungen sind uns daher
   immer zu melden. In der Geschäftsstelle Open Government Data führen wir
   ein allgemeines, nicht-inhaltliches Controlling des Katalogs opendata.swiss durch.
