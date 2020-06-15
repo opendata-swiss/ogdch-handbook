@@ -67,14 +67,12 @@ $(document).ready(function(){
 // initially but can be revealed on demand
 // ---------------------------------------------------------------
 $(document).ready(function(){
-  var attributeHeader = $('.attribute');
+  var attributeHeader = $('.attribute p');
   attributeHeader.each(function() {
-      $(this).children('dl').hide();
-      $(this).children('div').hide();
+      $(this).nextAll().hide();
       $(this).click(showDefinition);
       function showDefinition(event) {
-          $(this).children('dl').toggle();
-          $(this).children('div').toggle();
+          $(this).nextAll().toggle();
       }
   });
 });
