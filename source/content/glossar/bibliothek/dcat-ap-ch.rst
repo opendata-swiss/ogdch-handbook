@@ -146,10 +146,6 @@ as the following example show:
 Catalog
 -------
 
-.. container:: instructions
-
-   Zum Öffnen der Felddefinitionen bitte auf die Container klicken. Pflichtfelder sind fett gedruckt.
-
 .. container:: attribute
 
     **dcat:Catalog** 1..1
