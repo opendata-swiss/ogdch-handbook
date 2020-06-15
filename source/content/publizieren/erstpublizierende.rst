@@ -13,15 +13,15 @@ Die erforderlichen Schritte im Überblick
 
 .. container:: Intro
 
-    Jedes Dataset und alle Benutzerinnen und Benutzer sind auf opendata.swiss
-    einer Organisation zugeteilt. Sollten Sie noch keine Daten auf opendata.swiss
-    publiziert haben, ist der erste Schritt, die Registrierung der Organisation
+    Es freut uns, dass Sie Ihre Daten auf opendata.swiss publizieren wollen!
+    Jeder Eintrag auf opendata.swiss :term:`«Dataset» <Dataset>` sowie sämtliche
+    Benutzerinnen und Benutzer sind einer Organisation
+    zugeteilt. Sollten Sie noch keine Daten auf opendata.swiss publiziert haben,
+    ist deshalb der erste Schritt, die Registrierung der Organisation
     und der Benutzerinnen und Benutzer. Nach erfolgter Registrierung
-    können Sie über das :term:`Backend <Backend>` die Angaben zur
-    Organisation vervollständigen und mit der Publikation der Datasets loslegen.
-    Das User-Management wird von der
-    :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
-    sichergestellt.
+    können Sie über das :term:`Backend <Backend>` die Angaben
+    zur Organisation vervollständigen
+    und mit der Publikation der Datasets loslegen.
 
     - :doc:`Organisation und Benutzer/innen erfassen und verwalten <erstpublizierende/kontakt-bfs>`
     - :doc:`Profil verwalten <erstpublizierende/profil-einrichten>`
