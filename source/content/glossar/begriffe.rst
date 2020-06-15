@@ -142,7 +142,7 @@ Was ist was bei Open Data?
     die Suche nach Geodaten: z.B. Luftbilder, geschützte
     Ortsbilder, Naturgefahren, Erdbeben usw.
 
-  Geschäftsstelle OGD
+  Geschäftsstelle Open Government Data (OGD)
     Die Geschäftsstelle `Open Government Data (OGD) <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__
     beim Bundesamt für Statistik (BFS) koordiniert in enger
     Zusammenarbeit mit dem Eidgenössischen Departement
