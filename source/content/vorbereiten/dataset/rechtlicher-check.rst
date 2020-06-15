@@ -58,49 +58,47 @@ werden, die in Form von Symbolen dargestellt sind. Die Auswahl der richtigen
 Nutzungsbedingung erfolgt aufgrund der gesetzlichen Grundlage. Folgende Varianten
 sind möglich, die den Datennutzenden angezeigt werden:
 
-.. figure:: ../../../_static/images/vorbereiten/terms_open.png
-    :alt: Freie Nutzung
-    :height: 50px
+.. container:: usageconditions
 
-Freie Nutzung
-^^^^^^^^^^^^^
+    .. figure:: ../../../_static/images/vorbereiten/terms_open.png
+        :alt: Freie Nutzung
+        :height: 50px
 
-- Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
-- Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen.
-- Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz).
+    Freie Nutzung
 
-.. figure:: ../../../_static/images/vorbereiten/terms_by.png
-    :alt: Freie Nutzung. Quellenangabe ist Pflicht.
-    :height: 50px
+    - Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
+    - Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen.
+    - Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz).
 
-Freie Nutzung. Quellenangabe ist Pflicht.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    .. figure:: ../../../_static/images/vorbereiten/terms_by.png
+        :alt: Freie Nutzung. Quellenangabe ist Pflicht.
+        :height: 50px
 
-- Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
-- Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen.
-- Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz).
+    Freie Nutzung. Quellenangabe ist Pflicht.
 
-.. figure:: ../../../_static/images/vorbereiten/terms_ask.png
-    :alt: Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
-    :height: 50px
+    - Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
+    - Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen.
+    - Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz).
 
-Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    .. figure:: ../../../_static/images/vorbereiten/terms_ask.png
+        :alt: Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
+        :height: 50px
 
-- Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
-- Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben.
-- Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz).
+    Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
 
-.. figure:: ../../../_static/images/vorbereiten/terms_by-ask.png
-    :alt: Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
-    :height: 50px
+    - Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
+    - Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben.
+    - Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz).
 
-Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    .. figure:: ../../../_static/images/vorbereiten/terms_by-ask.png
+        :alt: Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
+        :height: 50px
 
-- Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
-- Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben.
-- Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz).
+    Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
+
+    - Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen.
+    - Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben.
+    - Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz).
 
 Bestimmend für die Auswahl der Nutzungsbedingung ist die gesetzliche
 Grundlage ((Link to: Rechtliche Anforderungen prüfen)).
