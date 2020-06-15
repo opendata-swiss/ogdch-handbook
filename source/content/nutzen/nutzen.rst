@@ -29,7 +29,7 @@ Dataset unter «Zusätzliche Information».
 Bei Fragen zu opendata.swiss oder allgemeinen Fragen zur Initiative
 Open Government Data freuen wir von der
 :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` uns
-über `Ihre Anfrage <mailto:opendata@bfs.admin.ch>`__.
+über `Ihre Anfrage <mailto:opendata(at)bfs.admin.ch>`__.
 
 Wollen Sie ein Projekt oder eine Initiative im Bereich Open Data initiieren?
 Der Verein opendata.ch freut sich, Sie dabei zu unterstützen.

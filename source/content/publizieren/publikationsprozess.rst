@@ -64,7 +64,7 @@ Kapitel :doc:`Publikationsvariante auswählen <publikationsvariante>`.
 Nachdem Sie alle erforderlichen Metadaten erfasst haben, ist es Zeit für Qualitätssicherung.
 Bei der Erstpublikation stellen wir gemeinsam sicher, dass alle Daten, Metadaten und
 Beschreibungen in der Abnahmeumgebung korrekt erfasst und dargestellt werden.
-`Kontaktieren Sie uns <mailto:opendata@bfs.admin.ch>`__,
+`Kontaktieren Sie uns <mailto:opendata(at)bfs.admin.ch>`__,
 um die Prüfung der Daten zu planen. Durchschnittlich benötigen wir 5 Werktage,
 um die Daten und Metadaten zu prüfen.
 
@@ -76,7 +76,7 @@ opendata.swiss am gemeinsam definierten Go-Live Datum veröffentlicht. Dies gilt
 grundsätzlich nur bei der Erstpublikation. Bei wiederholten Publikationen können
 Sie die Veröffentlichung selbst vornehmen bzw. für ein spezifisches Datum terminieren.
 Benötigen Sie Unterstützung bei einer wiederholten Publikation, können Sie uns
-selbstverständlich jederzeit `kontaktieren <mailto:opendata@bfs.admin.ch>`__.
+selbstverständlich jederzeit `kontaktieren <mailto:opendata(at)bfs.admin.ch>`__.
 
 .. admonition:: Gut zu wissen
 

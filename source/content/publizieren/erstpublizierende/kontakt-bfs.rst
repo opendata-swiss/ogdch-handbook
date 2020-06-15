@@ -17,7 +17,7 @@ Was muss ich tun, wenn ich zum ersten Mal Daten publizieren möchte?
     Als Erstes benötigen Sie ein Profil, um sich auf opendata.swiss einloggen zu können.
     Als Betreiber von opendata.swiss stellen wir das User-Management sicher.
     Nehmen Sie für die Aktivierung Ihrer Organisation
-    und Ihres Profils mit uns `Kontakt <mailto:opendata@bfs.admin.ch>`__
+    und Ihres Profils mit uns `Kontakt <mailto:opendata(at)bfs.admin.ch>`__
     auf – am besten so früh wie möglich, damit wir Ihre Anfrage rasch bearbeiten können.
     Melden Sie uns dafür den Namen der Organisation, die Daten publizieren wird,
     sowie auch die E-Mail-Adresse der Benutzerinnen und Benutzer,
@@ -29,7 +29,7 @@ Erste Aktivierung von Organisation und Benutzer
 -----------------------------------------------
 
 Für die erste Aktivierung stellen Sie uns bitte folgende
-`Informationen <mailto:opendata@bfs.admin.ch>`__ zur Verfügung:
+`Informationen <mailto:opendata(at)bfs.admin.ch>`__ zur Verfügung:
 
 - Name und URL zur Webseite der Organisation, die Daten publizieren wird.
   Genauere Angaben zur Organisation können später hinzugefügt werden.
@@ -62,7 +62,7 @@ Ihrer Organisation publizieren möchten, benötigen:
 - Übersicht der zu publizierenden Daten (kurze Liste)
 
 Wir benötigen durchschnittlich 5 Werktage, um Ihre Anfrage zu bearbeiten.
-`Jetzt Zugang anfordern <mailto:opendata@bfs.admin.ch>`__.
+`Jetzt Zugang anfordern <mailto:opendata(at)bfs.admin.ch>`__.
 
 .. container:: teaser
 

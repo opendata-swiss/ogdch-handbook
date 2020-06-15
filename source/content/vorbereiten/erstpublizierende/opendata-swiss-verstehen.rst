@@ -85,7 +85,7 @@ auch Privatpersonen, die über Daten verfügen, an denen ein
 öffentliches Interesse besteht, publizieren Daten auf
 opendata.swiss. Falls Sie unsicher sind, ob Ihre Daten
 auf opendata.swiss veröffentlicht werden können,
-`nehmen Sie gerne mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__.
+`nehmen Sie gerne mit uns Kontakt auf <mailto:opendata(at)bfs.admin.ch>`__.
 
 .. admonition:: Gut zu wissen
 
@@ -96,7 +96,7 @@ auf opendata.swiss veröffentlicht werden können,
     :doc:`Informationen zum Thema Hosting <../../glossar/bibliothek/hosting>`,
     die Ihnen dabei helfen. Derzeit liegen sie nur auf Englisch vor.
     Benötigen Sie Unterstützung, um das Hosting zu organisieren?
-    `Kontaktieren Sie uns und wir geben Ihnen gerne weitere Empfehlungen <mailto:opendata@bfs.admin.ch>`__.
+    `Kontaktieren Sie uns und wir geben Ihnen gerne weitere Empfehlungen <mailto:opendata(at)bfs.admin.ch>`__.
 
 .. container:: teaser
 

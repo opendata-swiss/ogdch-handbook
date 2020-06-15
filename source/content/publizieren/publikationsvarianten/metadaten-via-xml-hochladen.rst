@@ -146,7 +146,7 @@ der Uhrzeit kann um ± eine Stunde von der effektiven Publikation abweichen.
 Sollten Sie zum ersten Mal Daten publizieren, muss Ihr Dataset
 von der Abnahmeumgebung noch auf die Produktionsumgebung übertragen werden.
 Dies übernehmen wir für Sie,
-geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata@bfs.admin.ch>`__.
+geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata(at)bfs.admin.ch>`__.
 
 .. container:: important
 
@@ -165,7 +165,7 @@ geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata@bfs.admin.ch>`__.
    Support
 
 Sie haben eine Frage zum Import Ihres Datasets als XML?
-`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
+`Schreiben Sie uns <mailto:opendata(at)bfs.admin.ch>`__
 und wir helfen Ihnen gerne weiter.
 
 .. container:: materialien

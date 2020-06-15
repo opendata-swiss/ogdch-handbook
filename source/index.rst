@@ -69,7 +69,7 @@ kontinuierlich weiterentwickelt. Ihr Feedback, liebe
 Nutzerinnen und Nutzer, ist dafür wesentlich. Haben Sie
 Anregungen zu Inhalten oder Erfahrungen, die Sie gerne
 mit uns teilen möchten?
-`Schreiben Sie uns. <mailto:opendata@bfs.admin.ch>`__
+`Schreiben Sie uns. <mailto:opendata(at)bfs.admin.ch>`__
 
 .. toctree::
    :maxdepth: 2

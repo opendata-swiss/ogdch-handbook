@@ -52,7 +52,7 @@ Welche organisatorischen Aspekte sollte ich bei der Publikation von OGD beachten
    Support
 
 Sie haben noch Fragen zum Thema Organisation und Prozesse?
-`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
+`Schreiben Sie uns <mailto:opendata(at)bfs.admin.ch>`__.
 
 .. container:: teaser
 

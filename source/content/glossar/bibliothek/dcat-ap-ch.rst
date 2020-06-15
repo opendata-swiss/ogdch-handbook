@@ -28,7 +28,7 @@ Der Schweizer Metadaten-Datenstandard
     und für den Daten-Standard, der auf opendata.swiss implementiert ist.
     Daher gibt es teilweise Abweichungen zwischen diesen Datenstandards.
     Sollten Sie solche feststellen,
-    `wenden Sie sich mit Ihren Fragen gerne an uns <mailto:opendata@bfs.admin.ch>`__.
+    `wenden Sie sich mit Ihren Fragen gerne an uns <mailto:opendata(at)bfs.admin.ch>`__.
 
     Diese Dokumentation ist derzeit nur in Englisch verfügbar.
 

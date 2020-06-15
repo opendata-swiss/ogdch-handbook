@@ -36,7 +36,7 @@ Absprache mit Ihnen die Harvesting-Tests durchgeführt.
 Gerne erinnern wir Sie daran, dass die Registrierung Ihrer Organisation
 auf opendata.swiss weiterhin eine Voraussetzung bleibt.
 Falls Ihre Organisation noch nicht eingerichtet ist,
-`kontaktieren Sie uns gern <mailto:opendata@bfs.admin.ch>`__.
+`kontaktieren Sie uns gern <mailto:opendata(at)bfs.admin.ch>`__.
 
 .. container:: important
 
@@ -60,7 +60,7 @@ Sie haben eine Frage zum Publizieren von Geo-Metadaten?
 Wenden Sie sich bitte direkt an das
 `Wenden Sie sich bitte direkt an das geocat.ch-Team <geocat@swisstopo.ch>`__.
 Bei weiteren Fragen beispielweise zu den allgemeinen OGD-Anforderungen
-`melden Sie sich gerne bei uns <mailto:opendata@bfs.admin.ch>`__.
+`melden Sie sich gerne bei uns <mailto:opendata(at)bfs.admin.ch>`__.
 
 .. container:: materialien
 

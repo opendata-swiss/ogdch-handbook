@@ -141,14 +141,14 @@ Noch Fragen?
 ------------
 
 Haben Sie noch Fragen zur Nutzung unserer API? Dann
-`nehmen Sie mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__.
+`nehmen Sie mit uns Kontakt auf <mailto:opendata(at)bfs.admin.ch>`__.
 Bei Rückfragen zu einzelnen Datasets wenden Sie sich bitte direkt an die
 Datenpublizierenden. Die jeweiligen Kontaktangaben finden
 Sie im Dataset unter «Zusätzliche Information».
 
 **Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns
 sehr freuen, davon zu erfahren und Ihr Projekt in unsere Galerie von
-Beispielanwendungen aufzunehmen. `Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
+Beispielanwendungen aufzunehmen. `Schreiben Sie uns <mailto:opendata(at)bfs.admin.ch>`__.
 
 .. container:: materialien
 

@@ -58,7 +58,7 @@ Diese Fragen helfen Ihnen bei dieser Kategorisierung:
 Brauchen Sie Unterstützung bei der Inventarisierung Ihrer Daten?
 Wollen Sie die Daten, die als Open Data identifiziert werden,
 veröffentlichen – Sie wissen aber nicht so recht wie?
-`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
+`Schreiben Sie uns <mailto:opendata(at)bfs.admin.ch>`__
 und wir helfen Ihnen gerne weiter.
 
 .. container:: materialien

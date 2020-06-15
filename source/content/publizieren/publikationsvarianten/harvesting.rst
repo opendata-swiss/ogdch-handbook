@@ -54,7 +54,7 @@ URL mit dem :term:`Katalog-Endpunkt <Katalog Endpunkt (Catalogue endpoint)>`
 zu übermitteln.
 In speziellen Fällen, zum Beispiel wenn ein Datenkatalog nicht im DCAT-AP-CH Standard
 geliefert werden kann, kann ein spezifisches Mapping definiert werden.
-`Bitte kontaktieren Sie uns hierfür <mailto:opendata@bfs.admin.ch>`__.
+`Bitte kontaktieren Sie uns hierfür <mailto:opendata(at)bfs.admin.ch>`__.
 
 .. admonition:: Gut zu wissen
 
@@ -71,7 +71,7 @@ geliefert werden kann, kann ein spezifisches Mapping definiert werden.
 Katalog-Endpunkt übergeben
 --------------------------
 
-`Senden Sie uns hierfür eine E-Mail <mailto:opendata@bfs.admin.ch>`__ mit der URL,
+`Senden Sie uns hierfür eine E-Mail <mailto:opendata(at)bfs.admin.ch>`__ mit der URL,
 unter der wir Ihren Datenkatalog herunterladen können.
 Diese URL ist gleichzeitig ein RDF-Endpunkt.
 
@@ -99,7 +99,7 @@ Falls Ihr Datenkatalog zu gross ist und nicht in einer einzigen
 Anfrage übermittelt werden kann, besteht die Möglichkeit,
 ihn seitenweise zu übergeben. Dafür empfehlen wir die Paginierung
 mit dem `Hydra Vocabulary <https://www.hydra-cg.com/spec/latest/core/>`__
-zu implementieren. `Senden Sie uns abschliessend eine E-Mail <mailto:opendata@bfs.admin.ch>`__
+zu implementieren. `Senden Sie uns abschliessend eine E-Mail <mailto:opendata(at)bfs.admin.ch>`__
 mit der entsprechenden URL.
 
 .. _harvesting-testen:
@@ -112,7 +112,7 @@ Nachdem wir Ihre URL erhalten und den Harvester eingerichtet haben,
 lassen wir ihn auf Ihrem Endpunkt in der Abnahmeumgebung laufen.
 Bei allfälligen Fehlern melden wir uns bei Ihnen, sodass Sie diese an
 Ihrem Katalog-Endpunkt korrigieren können.
-`Geben Sie uns Bescheid <mailto:opendata@bfs.admin.ch>`__,
+`Geben Sie uns Bescheid <mailto:opendata(at)bfs.admin.ch>`__,
 sobald die Fehler behoben sind und schon beginnt unser nächster Testlauf.
 Bitte beachten Sie, dass die Daten, die per Harvesting importiert werden,
 nicht im Backend angezeigt werden.
@@ -127,7 +127,7 @@ Datenkatalog veröffentlichen
 
 Nach einer abschliessenden Prüfung Ihrer Datasets richten wir das Harvesting
 für Sie in der Produktionsumgebung ein.
-`Kontaktieren Sie uns <mailto:opendata@bfs.admin.ch>`__,
+`Kontaktieren Sie uns <mailto:opendata(at)bfs.admin.ch>`__,
 um das Go-Live gemeinsam zu planen.
 
 .. figure:: ../../../_static/images/publizieren/xm-hochladen-frontend.png
@@ -142,7 +142,7 @@ um das Go-Live gemeinsam zu planen.
    Support
 
 Sie haben eine Frage zum Harvester?
-`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
+`Schreiben Sie uns <mailto:opendata(at)bfs.admin.ch>`__
 und wir helfen Ihnen gerne weiter.
 
 .. container:: materialien
