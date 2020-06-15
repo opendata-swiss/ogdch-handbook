@@ -47,7 +47,7 @@ vertraut zu machen. In unserer
 erhalten Sie grundlegende Informationen zum Prozess und praktische
 Hilfestellung, um beispielsweise geeignete Daten in
 Ihrer Organisation zu identifizieren. Erfahrene Datenpublizierende
-können direkt mit dem Publikationsprozess starten.
+können direkt mit dem :doc:`Publikationsprozess <content/publizieren/publizieren>` starten.
 
 Wie möchten Sie beginnen?
 -------------------------
