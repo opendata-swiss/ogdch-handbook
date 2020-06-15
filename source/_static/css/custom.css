@@ -387,3 +387,17 @@ footer {
 footer {
     padding-top: 40px;
 }
+
+/*=======================================*/
+/* External Links                        */
+/*=======================================*/
+
+.rst-content.style-external-links a.reference.external::after {
+    font-family: FontAwesome;
+    content: "";
+    color: #099;
+    vertical-align: middle;
+    font-size: 60%;
+    margin-left: 0 2px;
+    padding: 0;
+}
