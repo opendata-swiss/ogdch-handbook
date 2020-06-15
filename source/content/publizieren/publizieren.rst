@@ -10,38 +10,42 @@ Auf einen Blick
 Daten publizieren
 =================
 
-
-In diesem Kapitel geht es darum, wie Sie Open Government Data publizieren.
+In diesem Kapitel erklären wir Ihnen, wie Sie Open Government Data publizieren.
 Folgende Punkte müssen Sie dabei beachten:
 
-- opendata.swiss ist ein Metadatenkatalog. Hier wird auf publizierte Datasets in standardisierter,
-  leicht verständlicher und wiederverwendbarer Form referenziert. Somit steigert sich ihre Sichtbarkeit.
-- Die datenpublizierenden Organisationen oder Personen bleiben für die Daten,
-  insbesondere für ihre Qualität und
-  für die :doc:`Einhaltung der gesetzlichen Grundlagen <../vorbereiten/dataset/rechtlicher-check>`,
-  zuständig.
-- Bei der ersten Publikation wird für alle Publikationsvarianten ein
-  Test-Ablauf in der
-  :term:`«Abnahmeumgebung» <Abnahmeumgebung>` von opendata.swiss durchgeführt.
+- opendata.swiss ist ein Metadatenkatalog. Hier wird auf publizierte Open Government
+  Data in standardisierter, leicht verständlicher und wiederverwendbarer Form referenziert.
+  Somit steigert sich ihre Sichtbarkeit.
+
+- Die :term:`Geschäftsstelle <Geschäftsstelle Open Government Data (OGD)>`
+  übernimmt das Controlling des gesamten Katalogs. Es ist allerdings
+  an den publizierenden Organisationen oder Personen sicherzustellen, dass
+  die :doc:`rechtlichen <../vorbereiten/dataset/rechtlicher-check>`,
+  :doc:`technischen <../vorbereiten/dataset/technischer-check>` und
+  :doc:`organisatorischen <../vorbereiten/dataset/organisatorischer-check>`
+  :doc:`Anforderungen <../vorbereiten/dataset>`
+  eingehalten werden.
+
+- Bei der ersten Publikation wird für alle Publikationsvarianten ein Test-Ablauf
+  in der :term:`«Abnahmeumgebung» <Abnahmeumgebung>` von opendata.swiss durchgeführt.
   Dies gibt datenpublizierenden Organisationen oder Personen die Möglichkeit,
   ihre Datasets und sämtliche weitere Informationen ausgiebig zu prüfen
-  und allfällige Änderungen vorzunehmen. Wir als
-  :term:`Geschäftsstelle Open Government Data <Geschäftsstelle Open Government Data (OGD)>`
-  unterstützen Sie bei der Sicherstellung einer optimalen Publikation.
-- Ab der zweiten Publikation können Datenpublizierende immer wieder
-  neue Daten selbstständig publizieren.
-- Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
-  ist für das User-Management verantwortlich.
-  Neue Benutzerinnen und Benutzer oder weitere Anpassungen sind uns daher
-  immer zu melden. In der Geschäftsstelle Open Government Data führen wir
-  ein allgemeines, nicht-inhaltliches Controlling des Katalogs opendata.swiss durch.
-  Die Datenpublizierenden sind weiterhin dafür verantwortlich, ihre Einträge auf
-  dem Katalog regelmässig zu kontrollieren.
+  und allfällige Änderungen vorzunehmen. Ab der zweiten Publikation können
+  Datenpublizierende immer wieder neue Daten selbstständig publizieren.
+  Die Abnahmeumgebung steht jederzeit für Test-Publikationen zur Verfügung.
+
+- Das User-Management wird zentral von der
+  :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+  sichergestellt.
+  Neue Benutzerinnen und Benutzer oder Anpassungen an den bestehenden Berechtigungen
+  sind uns daher immer zu melden.
 
 Erst-Publizierende begleiten wir Schritt für Schritt durch den Prozess.
-Sie müssen zuerst einen Zugang zu opendata.swiss anfordern, um Ihr Profil
-und Informationen zu Ihrer Organisation einrichten zu können. Erst
-danach kann der Publikationsprozess starten.
+Im ersten Schritt muss die
+:term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
+die neue Organisation
+und Benutzer/innen auf opendata.swiss registrieren.
+Erst danach kann der Publikationsprozess starten.
 
 Wenn Sie bereits als Nutzerinnen oder Nutzer auf opendata.swiss registriert sind,
 können Sie direkt zu den Inhalten für registrierte Nutzerinnen und Nutzer springen.
