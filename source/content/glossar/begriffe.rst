@@ -226,6 +226,14 @@ Was ist was bei Open Data?
 
 .. glossary::
 
+  Showcase
+    Unter `https://opendata.swiss/de/showcase <https://opendata.swiss/de/showcase>`__
+    werden laufend
+    unterschiedliche Arten von Nutzungsbeispielen von Open
+    Government Data aufgenommen. Wollen Sie uns auf weitere
+    Showcases aufmerksam machen,
+    `kontaktieren Sie uns gern <mailto:opendata@bfs.admin.ch>`__.
+
   Slug
     Maschinenlesbarerer Name für ein Dataset oder eine
     Organisation, welcher auch im URL verwendet wird.
