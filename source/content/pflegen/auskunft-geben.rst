@@ -34,7 +34,8 @@ gestellt werden, leiten wir an Sie weiter.
 Die Geschäftsstelle OGD beantwortet allgemeine Fragen zum Thema Open Government
 Data (z.B. Mandat, Rahmenbedingungen) und zum Portal opendata.swiss
 (z.B. Fehlermeldungen, Fragen zur Bedienung). Wir sind auch aktiv auf
-Twitter (@opendataswiss) und versuchen dort auf relevante Diskussionen aufmerksam zu machen.
+Twitter (`@opendataswiss <https://twitter.com/opendataswiss>`__)
+und versuchen dort auf relevante Diskussionen aufmerksam zu machen.
 
 .. container:: support
 
