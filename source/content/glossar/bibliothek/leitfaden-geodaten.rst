@@ -18,4 +18,4 @@ Open Government Data für Geodaten
     Ziel dieses Leitfadens ist es, ihnen den Weg der Publikation auf opendata.swiss
     aufzuzeigen, die erforderlichen Entscheide und deren Konsequenzen zu beschreiben.
 
-`Leitfaden Open Government Data für Geodaten (pdf) <https://www.egovernment.ch/files/6915/1272/4593/OGD-Leitfaden-V1.1de-mit-Anhang.pdf>`__
+`Leitfaden Open Government Data für Geodaten (pdf) <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.13267666.html>`__
