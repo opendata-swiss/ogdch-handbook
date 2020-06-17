@@ -20,6 +20,7 @@ Wie identifiziere ich die passende Nutzungsbedingung für meine Datasets?
     und somit eine offene Nutzungsbedingung angewendet wird. Wir begleiten
     Sie bei der Auswahl der richtigen Nutzungsbedingung.
 
+.. _vorbereiten_rechtlicher_check:
 
 1. Rechtliche Grundlage
 -----------------------
@@ -100,8 +101,8 @@ sind möglich, die den Datennutzenden angezeigt werden:
     - Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben.
     - Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz).
 
-Bestimmend für die Auswahl der Nutzungsbedingung ist die gesetzliche
-Grundlage ((Link to: Rechtliche Anforderungen prüfen)).
+Bestimmend für die Auswahl der Nutzungsbedingung ist die
+:ref:`gesetzliche Grundlage <vorbereiten_rechtlicher_check>`.
 Die zwei einzigen, möglichen Einschränkungen sind 1) die Pflicht zur Quellenangabe und
 2) die Pflicht zum Einholen einer Bewilligung für eine kommerzielle Nutzung.
 Schreibt die gesetzliche Grundlage eine oder beide Einschränkungen vor, müssen
