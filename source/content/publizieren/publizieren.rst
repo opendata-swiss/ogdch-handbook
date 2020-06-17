@@ -17,7 +17,7 @@ Folgende Punkte müssen Sie dabei beachten:
   Data in standardisierter, leicht verständlicher und wiederverwendbarer Form referenziert.
   Somit steigert sich ihre Sichtbarkeit.
 
-- Die :term:`Geschäftsstelle <Geschäftsstelle Open Government Data (OGD)>`
+- Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
   übernimmt das Controlling des gesamten Katalogs. Es ist allerdings
   an den publizierenden Organisationen oder Personen sicherzustellen, dass
   die :doc:`rechtlichen <../vorbereiten/dataset/rechtlicher-check>`,
