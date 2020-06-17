@@ -12,7 +12,7 @@ Daten pflegen
 
 .. container:: construction
 
-    Work in progress: Dieser Inhalt wird aktuell überarbeitet.
+    :fa:`wrench` Work in progress: Dieser Inhalt wird aktuell überarbeitet.
 
 Nachdem Sie Daten auf opendata.swiss publiziert haben, bleiben Sie weiterhin
 für Ihre Daten verantwortlich. Das umfasst genau zwei Aufgaben: Zum einen müssen
