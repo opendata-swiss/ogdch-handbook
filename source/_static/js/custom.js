@@ -70,9 +70,8 @@ $(document).ready(function(){
   var attributeHeader = $('.attribute p');
   attributeHeader.each(function() {
       $(this).nextAll().hide();
-      $(this).click(showDefinition);
-      function showDefinition(event) {
+      $(this).click(function (event) {
           $(this).nextAll().toggle();
-      }
+      });
   });
 });

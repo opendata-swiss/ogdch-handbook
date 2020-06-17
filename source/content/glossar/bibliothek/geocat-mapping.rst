@@ -43,6 +43,10 @@ The Examples are taken from `Example XML serialization of an ISO-19139_che datas
 Dataset
 -------
 
+.. container:: instructions
+
+    Please click on the text below for more details.
+
 .. container:: attribute
 
     **dct:identifier**

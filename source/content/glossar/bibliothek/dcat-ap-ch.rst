@@ -146,6 +146,10 @@ as the following example show:
 Catalog
 -------
 
+.. container:: instructions
+
+    Please click on the text below for more details.
+
 .. container:: attribute
 
     **dcat:Catalog** 1..1

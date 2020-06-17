@@ -355,6 +355,18 @@ div.container.attribute {
 }
 
 /*=======================================*/
+/* Container instruction                 */
+/*=======================================*/
+
+div.container.instructions p {
+    font-style: italic;
+    font-size: 85%;
+    line-height: 1;
+    padding: 0;
+    text-align: left;
+}
+
+/*=======================================*/
 /* admonition box                        */
 /*=======================================*/
 

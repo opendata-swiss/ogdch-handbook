@@ -168,6 +168,10 @@ context of open data, *Linked Open Data* is given a 5 stars rating.
 Costs and Benefits for Consumers and Publishers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. container:: instructions
+
+    Please click on the text below for more details.
+
 .. container:: attribute
 
     :fa:`star` e.g. PDF
