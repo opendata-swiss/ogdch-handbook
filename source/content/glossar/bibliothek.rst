@@ -34,4 +34,3 @@ Anderes:
 --------
 
 - :doc:`Q&A Hosting <bibliothek/hosting>` enthält Fragen und Antworten zum Thema Hosting von Daten.
-- :doc:`Leitfaden OGD für Geodaten <bibliothek/leitfaden-geodaten>` dient als Orientierung für die Behandlung von Geodaten.
