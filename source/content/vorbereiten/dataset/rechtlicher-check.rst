@@ -45,7 +45,7 @@ begleitenden
 Sie können eine Frage nicht klar beantworten? Werfen Sie einen Blick
 in unsere `Arbeitshilfe für Behörden zur Publikation von Daten als OGD <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__.
 Falls Sie immer noch nicht weiterwissen,
-`schreiben Sie uns <mailto:opendata(at)bfs.admin.ch>`__.
+`schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: content-divider
 
@@ -116,7 +116,7 @@ Ihres Datasets auf opendata.swiss. Dieses Attribut wird später in den Metadaten
    Support
 
 Sie sind sich unsicher, ob Sie die richtige Nutzungsbedingung ausgewählt haben?
-`Sprechen Sie mit uns darüber <mailto:opendata(at)bfs.admin.ch>`__.
+`Sprechen Sie mit uns darüber <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 

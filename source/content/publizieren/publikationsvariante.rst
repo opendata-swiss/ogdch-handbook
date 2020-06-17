@@ -20,7 +20,7 @@ Welche Publikationsvarianten ist die richtige für meine Daten?
     mit uns, der
     :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`,
     definiert –
-    `sprechen Sie mit uns darüber <mailto:opendata(at)bfs.admin.ch>`__.
+    `sprechen Sie mit uns darüber <mailto:opendata@bfs.admin.ch>`__.
     Hier finden Sie einige Richtwerte, die Ihnen bei der Wahl der Publikationsvariante helfen:
 
 Wenig Daten, seltene Aktualisierung:
@@ -43,4 +43,4 @@ Geodaten
     :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
     geplant werden.
     Falls Sie Ihre Publikationsvariante ändern möchten,
-    `kontaktieren Sie uns gerne <mailto:opendata(at)bfs.admin.ch>`__.
+    `kontaktieren Sie uns gerne <mailto:opendata@bfs.admin.ch>`__.

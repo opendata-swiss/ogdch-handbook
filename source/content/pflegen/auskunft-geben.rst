@@ -42,4 +42,4 @@ und versuchen dort auf relevante Diskussionen aufmerksam zu machen.
    Support
 
 Sie haben eine Frage?
-`Schreiben Sie uns <mailto:opendata(at)bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter.
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter.

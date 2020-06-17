@@ -38,7 +38,7 @@ Die Schritte auf einen Blick
     und unterstützen Sie dabei, die korrekte Übermittlung und Darstellung
     Ihrer Daten sicherzustellen, unabhängig von der Publikationsvariante.
     Kontaktieren Sie uns, um einen
-    `Termin für die Einführung zur Publikation auf opendata.swiss <mailto:opendata(at)bfs.admin.ch>`__
+    `Termin für die Einführung zur Publikation auf opendata.swiss <mailto:opendata@bfs.admin.ch>`__
     zu vereinbaren.
 
 Alle Schritte im Detail
@@ -254,7 +254,7 @@ die Festlegung der Uhrzeit kann um ± eine Stunde von der effektiven Publikation
 Sollten Sie zum ersten Mal Daten publizieren, muss
 Ihr Dataset von der Abnahmeumgebung noch auf die Produktionsumgebung
 übertragen werden. Dies übernehmen wir für Sie,
-`geben Sie uns einfach per E-Mail Bescheid <mailto:opendata(at)bfs.admin.ch>`__.
+`geben Sie uns einfach per E-Mail Bescheid <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: important
 
@@ -284,5 +284,5 @@ Ihr Dataset von der Abnahmeumgebung noch auf die Produktionsumgebung
    Support
 
 Sie haben eine Frage zum manuelle Erfassen Ihres Datensatzes?
-`Schreiben Sie uns <mailto:opendata(at)bfs.admin.ch>`__
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
 und wir helfen Ihnen gerne weiter.

@@ -56,12 +56,12 @@ Empfehlungen zu berücksichtigen:
 Hier finden Sie eine :doc:`Liste der Formate <../../glossar/bibliothek/formate-ressourcen>`,
 die von opendata.swiss aktuell unterstützt werden. Sollten Sie Ihr Dateiformat nicht
 in dieser Liste finden,
-`nehmen Sie gerne mit uns Kontakt auf <mailto:opendata(at)bfs.admin.ch>`__.
-`Gerne unterstützen wir Sie dabei, das richtige Format zu wählen <mailto:opendata(at)bfs.admin.ch>`__.
+`nehmen Sie gerne mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__.
+`Gerne unterstützen wir Sie dabei, das richtige Format zu wählen <mailto:opendata@bfs.admin.ch>`__.
 Dies gilt auch, wenn Sie einen Datenservice anbieten, zum Beispiel
 eine API-Schnittstelle, und nicht wissen, wie Sie diesen
 auf Datasets abbilden können.
-`Kontaktieren Sie uns <mailto:opendata(at)bfs.admin.ch>`__.
+`Kontaktieren Sie uns <mailto:opendata@bfs.admin.ch>`__.
 
 Weitere technische Anforderungen
 --------------------------------
@@ -119,7 +119,7 @@ OGD definiert.
    Support
 
 Sie haben noch Fragen zu Formaten und den weiteren technischen Anforderungen?
-`Schreiben Sie uns <mailto:opendata(at)bfs.admin.ch>`__.
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 

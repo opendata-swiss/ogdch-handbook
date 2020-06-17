@@ -16,7 +16,7 @@ Zulässige Dateiformate für Ressourcen
     Auf opendata.swiss unterstützen wir eine Auswahl an Dateiformaten.
     Hier finden Sie eine Auflistung aller zulässigen Dateiformate.
     Falls Sie Ihr Format in dieser Liste nicht wiederfinden,
-    `können Sie sich an uns wenden <mailto:opendata(at)bfs.admin.ch>`__
+    `können Sie sich an uns wenden <mailto:opendata@bfs.admin.ch>`__
     und wir fügen es gerne hinzu.
 
 Strukturierte Daten

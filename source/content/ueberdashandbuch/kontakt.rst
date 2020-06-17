@@ -16,4 +16,4 @@ oder allgemeinen Fragen zu Open Government Data helfen wir von der
 Ihnen gerne weiter.
 
 Schreiben sie uns unter
-`opendata@bfs.admin.ch <mailto:opendata(at)bfs.admin.ch>`__.
+`opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__.

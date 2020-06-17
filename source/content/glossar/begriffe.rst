@@ -232,7 +232,7 @@ Was ist was bei Open Data?
     unterschiedliche Arten von Nutzungsbeispielen von Open
     Government Data aufgenommen. Wollen Sie uns auf weitere
     Showcases aufmerksam machen,
-    `kontaktieren Sie uns gern <mailto:opendata(at)bfs.admin.ch>`__.
+    `kontaktieren Sie uns gern <mailto:opendata@bfs.admin.ch>`__.
 
   Slug
     Maschinenlesbarerer Name für ein Dataset oder eine
