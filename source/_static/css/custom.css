@@ -18,7 +18,7 @@ body {
 
 /* link color */
 
-a, a:hover, a:visited, a:active {
+a, a:hover, a:visited, a:active, a:focus {
     color: #009688;
 }
 
@@ -92,10 +92,14 @@ a, a:hover, a:visited, a:active {
     padding-left: 26px;
 }
 
-.wy-menu-vertical a:hover {
+.wy-menu-vertical a:hover,
+.wy-menu-vertical a:active,
+.wy-menu-vertical a:focus
+{
     background: whitesmoke;
     border-left: 6px solid #00A093;
     padding-left:20px;
+    color: #009688;
 }
 
 .wy-menu-vertical li.toctree-l1.current>a {
