@@ -100,7 +100,7 @@ standards:
    On Switzerland page of the DBPedia
    web site, you will find some related data from other data sources.
    For instance, look for the
-   `geodata:Suisse <http://sws.geonames.org/2658434/>`__ string, and
+   `geodata:Suisse <https://www.geonames.org/2658434/switzerland.html>`__ string, and
    click on it. You will be directed to the page of the same entity,
    Switzerland, on another well known Linked Data source: *GeoNames*.
    Thanks to the use of universal identifiers, these two different data
@@ -163,7 +163,7 @@ context of open data, *Linked Open Data* is given a 5 stars rating.
 ..
 
    Figure 1. 5-Star Deployment Scheme for Open Data (source:
-   `5stardata.info <http://5stardata.info>`__)
+   `5stardata.info <https://5stardata.info/>`__)
 
 Costs and Benefits for Consumers and Publishers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -384,7 +384,7 @@ question is already solved. It could be either:
 Moreover, preference can be given to:
 
 -  Data based on international or national standards
-   (`eCH standards </en/library/empfehlungen-formate>`__, for instance)
+   (:doc:`eCH standards <formate-ressourcen>`, for instance)
 -  Popular data or data with a high re-use potential
 -  Data that can be easily combined with other open data, and thus
    provide greater value
@@ -461,7 +461,7 @@ cites references to different documents. We would like to point out that
 the `Study on persistent URIs <http://philarcher.org/diary/2013/uripersistence/>`__
 is a nice Web
 representation of the very complete
-`10 Rules for Persistent URIs <https://joinup.ec.europa.eu/community/semic/document/10-rules-persistent-uris>`__,
+`10 Rules for Persistent URIs <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/10-rules-persistent-uris>`__,
 which is the result of a survey done by the SEMIC working group for the
 European Commission.
 
@@ -480,11 +480,11 @@ made available, as for instance:
 -  `multidimensional data <http://www.w3.org/TR/vocab-data-cube/>`__
 
 Existing vocabularies can be found using search tools
-(`Falcons <http://ws.nju.edu.cn/falcons/>`__,
-`Watson <http://watson.kmi.open.ac.uk/WatsonWUI/>`__,
+(`Falcons <http://ws.nju.edu.cn/services/Falcon-AO>`__,
+`Watson <http://kmi.open.ac.uk/technologies/name/watson/>`__,
 `Swoogle <http://swoogle.umbc.edu/>`__)
-or directories (`LOV <http://lov.okfn.org/>`__, the European
-Commission’s `Joinup platform <https://joinup.ec.europa.eu/catalogue/repository>`__, or
+or directories (`LOV <https://lov.linkeddata.es/dataset/lov/>`__, the European
+Commission’s `Joinup platform <https://joinup.ec.europa.eu>`__, or
 domain specific portals as the
 `Bioportal <http://bioportal.bioontology.org/>`__ for the biological
 domain as an example). To evaluate a vocabulary, take into account if
@@ -509,7 +509,7 @@ This step should include the generation of metadata for that datasets
 (see the official documentation about
 :doc:`DCAT-AP for Switzerland <dcat-ap-ch>`), and also the links to other datasets,
 as for instance DBPedia (the Linked Data version of Wikipedia), to make
-the new dataset part of the `Linked Data Cloud <http://lod-cloud.net/>`__.
+the new dataset part of the `Linked Data Cloud <https://lod-cloud.net/>`__.
 
 8. Provide Machine Access to Data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -750,15 +750,15 @@ or query that data which comes from the DBPedia site.
 Any of the mentioned resources can be dereferenced by simply accessing
 the following URLs:
 
--  http://dbpedia.org/resource/Albert_Einstein
--  http://dbpedia.org/resource/Eduard_Einstein
+-  http://dbpedia.org/page/Albert_Einstein
+-  http://dbpedia.org/page/Eduard_Einstein
 -  http://dbpedia.org/ontology/parent
 -  http://dbpedia.org/ontology/spouse
 
 **File download:**
 
 DBPedia datasets are available for download from
-`wiki.dbpedia.org <http://wiki.dbpedia.org/datasets>`__
+`wiki.dbpedia.org <https://wiki.dbpedia.org/datasets>`__
 
 **SPARQL endpoint:**
 
@@ -777,7 +777,7 @@ results:
 Or just `click
 here <https://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=select+*+%7Bdbr%3AAlbert_Einstein+dbo%3Aspouse+%3Fspouse%7D&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on>`__.
 
-See `a list of SPARQL endpoints <http://sparqles.ai.wu.ac.at/>`__ and
+See `a list of SPARQL endpoints <https://sparqles.ai.wu.ac.at/>`__ and
 their status as published by Open Knowledge.
 
 Additional resources
@@ -797,7 +797,7 @@ Programming
 
 RDF Data
 
--  `The Linking Open Data cloud diagram <http://lod-cloud.net/>`__
+-  `The Linking Open Data cloud diagram <https://lod-cloud.net/>`__
 
 RDF Converters
 
@@ -814,30 +814,30 @@ SPARQL Tutorials
 -  `Video introduction <https://www.youtube.com/watch?v=FvGndkpa4K0>`__
    from Bob Ducharme (11 min.):
 -  Cambridge Semantics: `Sparql by
-   example <http://www.cambridgesemantics.com/semantic-university/sparql-by-example>`__
+   example <https://www.cambridgesemantics.com/blog/semantic-university/learn-sparql/sparql-by-example/>`__
 -  `A tutorial <http://corese.inria.fr/srv/tutorial/sparql>`__ by
    running/completing queries, from the Coreses Project (INRIA):
 -  `From SQL to
-   SPARQL <http://www.slideshare.net/grecognos/from-sql-to-sparql>`__
+   SPARQL <https://www.slideshare.net/grecognos/from-sql-to-sparql>`__
 -  Wikidata `page with
    examples <https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service>`__
    and some prepared queries on the `SPARQL
    endpoint <https://query.wikidata.org>`__
 -  `UniProt SPARQL Endpoint with
-   examples <http://sparql.uniprot.org/sparql>`__
+   examples <https://sparql.uniprot.org/sparql>`__
 -  `Tutorial from
    LinkedDataTools <http://www.linkeddatatools.com/querying-semantic-data>`__
 
 SPARQL Endpoints
 
--  `SPARQL EndPoints status <http://sparqles.ai.wu.ac.at/availability>`__
+-  `SPARQL EndPoints status <https://sparqles.ai.wu.ac.at/availability>`__
 -  `W3C list <https://www.w3.org/wiki/SparqlEndpoints>`__ (may be out of
    date)
 
 SPARQL validators
 
 -  http://sparql.org/query-validator.html
--  http://sws.ifi.uio.no/sparqler/validator.html
+-  https://sws.ifi.uio.no/sparqler/validator.html
 
 Triple Stores
 

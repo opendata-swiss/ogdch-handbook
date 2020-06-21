@@ -282,7 +282,7 @@ Dataset
     :Mandatory:  Can be left out if there is no :ref:`distribution <dcat-ap-ch-distribution>`
     :Cardinality: 0..1
     :Attributes: - Name: ``rdf:datatype``
-                 - Content: http://www.w3.org/2001/XMLSchema#dateTime
+                 - Content: \http://www.w3.org/2001/XMLSchema#dateTime
                  - Description: Type of the field
                  - Mandatory: yes
 
@@ -299,7 +299,7 @@ Dataset
     :Mandatory:  Only when the dataset has changed since the first publication
     :Cardinality: 0..1
     :Attributes: - Name: ``rdf:datatype``
-                 - Content: http://www.w3.org/2001/XMLSchema#dateTime
+                 - Content: \http://www.w3.org/2001/XMLSchema#dateTime
                  - Description: Type of the field
                  - Mandatory: yes
     :Description: Date of the last change (since the first publication on opendata.swiss)
@@ -375,35 +375,35 @@ Dataset
                   `SKOS-RDF </samples/opendataswiss-themes.rdf>`__ (RDF) must be given.
                   The following values are accepted from Themes:
 
-                  - http://opendata.swiss/themes/work
-                  - http://opendata.swiss/themes/construction
-                  - http://opendata.swiss/themes/population
-                  - http://opendata.swiss/themes/education
-                  - http://opendata.swiss/themes/energy
-                  - http://opendata.swiss/themes/finances
-                  - http://opendata.swiss/themes/geography
-                  - http://opendata.swiss/themes/legislation
-                  - http://opendata.swiss/themes/health
-                  - http://opendata.swiss/themes/trade
-                  - http://opendata.swiss/themes/industry
-                  - http://opendata.swiss/themes/crime
-                  - http://opendata.swiss/themes/culture
-                  - http://opendata.swiss/themes/agriculture
-                  - http://opendata.swiss/themes/mobility
-                  - http://opendata.swiss/themes/public-order
-                  - http://opendata.swiss/themes/politics
-                  - http://opendata.swiss/themes/prices
-                  - http://opendata.swiss/themes/territory
-                  - http://opendata.swiss/themes/social-security
-                  - http://opendata.swiss/themes/statistical-basis
-                  - http://opendata.swiss/themes/tourism
-                  - http://opendata.swiss/themes/administration
-                  - http://opendata.swiss/themes/national-economy
+                  - https://opendata.swiss/group/work
+                  - https://opendata.swiss/group/construction
+                  - https://opendata.swiss/group/population
+                  - https://opendata.swiss/group/education
+                  - https://opendata.swiss/group/energy
+                  - https://opendata.swiss/group/finances
+                  - https://opendata.swiss/group/geography
+                  - https://opendata.swiss/group/legislation
+                  - https://opendata.swiss/group/health
+                  - https://opendata.swiss/group/trade
+                  - https://opendata.swiss/group/industry
+                  - https://opendata.swiss/group/crime
+                  - https://opendata.swiss/group/culture
+                  - https://opendata.swiss/group/agriculture
+                  - https://opendata.swiss/group/mobility
+                  - https://opendata.swiss/group/public-order
+                  - https://opendata.swiss/group/politics
+                  - https://opendata.swiss/group/prices
+                  - https://opendata.swiss/group/territory
+                  - https://opendata.swiss/group/social-security
+                  - https://opendata.swiss/group/statistical-basis
+                  - https://opendata.swiss/group/tourism
+                  - https://opendata.swiss/group/administration
+                  - https://opendata.swiss/group/national-economy
 
     .. code-block:: xml
       :caption: dcat:theme
 
-       <dcat:theme rdf:resource="http://opendata.swiss/themes/population"/>
+       <dcat:theme rdf:resource="https://opendata.swiss/group/population"/>
 
 .. container:: attribute
 
@@ -465,7 +465,7 @@ Dataset
 
 .. container:: attribute
 
-    dcat:landingPage 0..n
+    dcat:landingPage 0..1
 
     :Type: ``foaf:Document`` http://xmlns.com/foaf/spec/#term_Document
     :Mandatory: no
@@ -481,7 +481,7 @@ Dataset
 
     dct:spatial 0..n
 
-    :Type: ``dct:Location`` http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#Location
+    :Type: ``dct:Location`` https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/#terms-Location
     :Mandatory: no
     :Cardinality: 0..n
     :Description: Geographical classification of the dataset. Can be a description, coordinates,
@@ -514,7 +514,7 @@ Dataset
     dct:coverage 0..n
 
     :Type: ``dct:LocationPeriodOrJurisdiction``
-           http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LocationPeriodOrJurisdiction
+           \http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LocationPeriodOrJurisdiction
     :Mandatory: no
     :Cardinality: 0..n
     :Description: This field is currently not used,
@@ -530,20 +530,20 @@ Dataset
     dcat:temporal 0..n
 
     :Type: ``dct:PeriodOfTime``
-           http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#terms-PeriodOfTime
+           https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/#terms-PeriodOfTime
     :Mandatory: no
     :Cardinality: 0..n
     :Description: One or more time period(s) that cover the dataset.
                   ``<schema:startDate>`` contains the start date,
                   ``<schema:endDate>`` contains the end date format for dates:
-                  http://www.w3.org/2001/XMLSchema#date
+                  \http://www.w3.org/2001/XMLSchema#date
 
     .. code-block:: xml
       :caption: dct:temporal
 
        <dct:temporal>
            <dct:PeriodOfTime>
-               <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
+               <schema:startDate rdf:datatype="<http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
                <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-05</schema:endDate>
            </dct:PeriodOfTime>
        </dct:temporal>
@@ -584,7 +584,7 @@ Dataset
 
 .. container:: attribute
 
-    dcat:distribution 0..n
+    **dcat:distribution** 1..n
 
     :Content: Contains single nested element of type ``dcat:Distribution``. See
               :ref:`Definition of dcat:Distribution <dcat-ap-ch-distribution>`.
@@ -627,11 +627,11 @@ Distribution
 
 .. container:: attribute
 
-    **dct:identifier** 1..1
+    dct:identifier 0..1
 
     :Type:       ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
     :Mandatory: no
-    :Cardinality: 1..1
+    :Cardinality: 0..1
     :Description: Identifier of the distribution in the source system
 
     .. code-block:: xml
@@ -641,12 +641,12 @@ Distribution
 
 .. container:: attribute
 
-    **dcat:title** 1..n
+    dcat:title 0..n
 
     :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
     :Mandatory: no - except if the distribution does not contain
                 all the content of the dataset.
-    :Cardinality: 1..n (one for each language)
+    :Cardinality: 0..n (one for each language)
     :Attributes: - Name: ``xml:lang``
                  - Content: ``en``, ``de``, ``fr``, ``it``
                  - Description: Language of the element
@@ -662,12 +662,12 @@ Distribution
 
 .. container:: attribute
 
-    **dct:description** 1..n
+    dct:description 0..n
 
     :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
     :Mandatory: no - except if the distribution does not contain
                 all the content of the dataset.
-    :Cardinality: 1..n (one for each language)
+    :Cardinality: 0..n (one for each language)
     :Attributes: - Name: ``xml:lang``
                  - Content: ``en``, ``de``, ``fr``, ``it``
                  - Description: Language of the element
@@ -682,13 +682,13 @@ Distribution
 
 .. container:: attribute
 
-    dct:issued 0..1
+    **dct:issued 0..1**
 
     :Type: Date and time in `ISO-8601 <https://en.wikipedia.org/wiki/ISO_8601>`__ format
     :Mandatory:  yes
     :Cardinality: 0..1
     :Attributes: - Name: ``rdf:datatype``
-                 - Content: http://www.w3.org/200 1/XMLSchema#dateTime
+                 - Content: \http://www.w3.org/2001/XMLSchema#dateTime
                  - Description: Type of the field
                  - Mandatory: yes
     :Description: Date of the publication of this distribution
@@ -709,7 +709,7 @@ Distribution
                  this corresponds to the date of the latest change.
     :Cardinality: 0..1
     :Attributes: - Name: ``rdf:datatype``
-                 - Content: http://www.w3.org/200 1/XMLSchema#dateTime
+                 - Content: \http://www.w3.org/2001/XMLSchema#dateTime
                  - Description: Type of the field
                  - Mandatory: yes
     :Description: Date of the last change of the distribution
@@ -740,11 +740,11 @@ Distribution
 
     **dcat:accessURL** 1..n
 
-    :Type: http://www.w3.org/2001/XMLSchema#anyURI
+    :Type: \http://www.w3.org/2001/XMLSchema#anyURI
     :Mandatory: yes
     :Cardinality: 1..n
     :Attributes: - Name: ``rdf:datatype``
-                 - Content: http://www.w3.org/2001/XMLSchema#anyURI
+                 - Content: \http://www.w3.org/2001/XMLSchema#anyURI
                  - Description: Type of the field
                  - Mandatory: yes
     :Description: URL where the distribution can be found.
@@ -764,11 +764,11 @@ Distribution
 
     dcat:downloadURL 0..1
 
-    :Type: http://www.w3.org/2001/XMLSchema#anyURI
+    :Type: \https://www.w3.org/ns/dcat#downloadURL
     :Mandatory: no
     :Cardinality: 0..n
     :Attributes: - Name: ``rdf:datatype``
-                 - Content: http://www.w3.org/2001/XMLSchema#anyURI
+                 - Content: \http://www.w3.org/2001/XMLSchema#anyURI
                  - Description: Type of the field
                  - Mandatory: yes
     :Description: URL of a data file, if the distribution can be downloaded.
@@ -777,7 +777,7 @@ Distribution
     .. code-block:: xml
       :caption: dcat:downloadURL
 
-      <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> http://data.geo.admin.ch.s3.amazonaws.com/ch.fill/data.zip</dcat:downloadURL>
+      <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema"> http://data.geo.admin.ch.s3.amazonaws.com/ch.fill/data.zip</dcat:downloadURL>
 
 .. container:: attribute
 
@@ -848,7 +848,7 @@ Distribution
     dcat:mediaType 0..1
 
     :Type: ``dct:MediaTypeOrExtent``
-           http://www.iana.org/assignments/media-types.xhtml
+           http://www.iana.org/assignments/media-types/media-types.xhtml
     :Mandatory: no - except if the distribution is available
                 as a data download (see ``downloadURL``).
     :Cardinality: 0..1
@@ -884,7 +884,7 @@ Distribution
     dct:coverage 0..n
 
     :Type: ``dct:LocationPeriodOrJurisdiction``
-           http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LocationPeriodOrJurisdiction
+           https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/#terms-LocationPeriodOrJurisdiction
     :Mandatory: no
     :Cardinality: 0..n
     :Description: Distributions can be classified by their location

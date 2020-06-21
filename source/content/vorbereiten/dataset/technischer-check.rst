@@ -110,9 +110,9 @@ Best Practices
 Unter den folgenden Links sind verschiedene Best-Practices zur Publikation von
 OGD definiert.
 
-- `https://www.w3.org/2013/share-psi/bp <https://www.w3.org/2013/share-psi/bp>`__
+- `https://www.w3.org/2013/share-psi/bp/ <https://www.w3.org/2013/share-psi/bp/>`__
 - `Opendatahandbook.org <http://opendatahandbook.org/>`_
-- `https://www.europeandataportal.eu/de/providing-data/goldbook <https://www.europeandataportal.eu/de/providing-data/goldbook>`__
+- `https://www.europeandataportal.eu/de/training/data-providers-guide <https://www.europeandataportal.eu/de/training/data-providers-guide>`__
 
 .. container:: support
 

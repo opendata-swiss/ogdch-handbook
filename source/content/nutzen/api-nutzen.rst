@@ -18,7 +18,7 @@ Wie programmiere ich den Zugriff auf die Daten von opendata.swiss?
    die Applikationsentwickler nutzen können. In diesem Kapitel erklären wir Ihnen,
    wie Sie mittels API auf die Daten von opendata.swiss zugreifen können. Werfen
    Sie auch einen Blick in
-   `aktuelle Beispiele, wie OGD in Anwendungen genutzt wird <https://opendata.swiss/de/showcase/>`__.
+   `aktuelle Beispiele, wie OGD in Anwendungen genutzt wird <https://opendata.swiss/showcase/>`__.
 
 Nutzung der API – so funktioniert’s
 ------------------------------------

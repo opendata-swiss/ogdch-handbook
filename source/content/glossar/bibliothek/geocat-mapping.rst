@@ -311,17 +311,17 @@ Dataset
 
     :Description: Mapping:
 
-                  - biota => http://opendata.swiss/themes/agriculture
-                  - society => http://opendata.swiss/themes/culture
-                  - health => http://opendata.swiss/themes/health
-                  - transportation => http://opendata.swiss/themes/mobility
-                  - intelligenceMilitary => http://opendata.swiss/themes/public-order
-                  - farming => http://opendata.swiss/themes/agriculture
-                  - economy => http://opendata.swiss/themes/national-economy
-                  - utilitiesCommunication_Energy => http://opendata.swiss/themes/energy
+                  - biota => https://opendata.swiss/group/agriculture
+                  - society => https://opendata.swiss/group/culture
+                  - health => https://opendata.swiss/group/health
+                  - transportation => https://opendata.swiss/group/mobility
+                  - intelligenceMilitary => https://opendata.swiss/group/public-order
+                  - farming => https://opendata.swiss/group/agriculture
+                  - economy => https://opendata.swiss/group/national-economy
+                  - utilitiesCommunication_Energy => https://opendata.swiss/group/energy
 
-                  Everything else is mapped to http://opendata.swiss/themes/territory .
-                  Additionally get all records in category http://opendata.swiss/themes/geography
+                  Everything else is mapped to https://opendata.swiss/group/territory .
+                  Additionally get all records in category https://opendata.swiss/group/geography
                   see documnetation of all categories
 
     .. code-block:: xml
@@ -554,18 +554,18 @@ Dataset
 
     :Display name on opendata.swiss: Update interval
     :Description:
-        - continual => http://purl.org/cld/freq/continuous
-        - daily => http://purl.org/cld/freq/daily
-        - weekly => http://purl.org/cld/freq/weekly
-        - fortnightly => http://purl.org/cld/freq/biweekly
-        - monthly => http://purl.org/cld/freq/monthly
-        - quarterly => http://purl.org/cld/freq/quarterly
-        - biannually =>http://purl.org/cld/freq/semiannual
-        - annually => http://purl.org/cld/freq/annual
-        - asNeeded => http://purl.org/cld/freq/completelyIrregular
-        - irregular => http://purl.org/cld/freq/completelyIrregular
-        - notPlanned => http://purl.org/cld/freq/completelyIrregular
-        - unknown => http://purl.org/cld/freq/completelyIrregular
+        - continual => \http://purl.org/cld/freq/continuous
+        - daily => \http://purl.org/cld/freq/daily
+        - weekly => \http://purl.org/cld/freq/weekly
+        - fortnightly => \http://purl.org/cld/freq/biweekly
+        - monthly => \http://purl.org/cld/freq/monthly
+        - quarterly => \http://purl.org/cld/freq/quarterly
+        - biannually => \http://purl.org/cld/freq/semiannual
+        - annually => \http://purl.org/cld/freq/annual
+        - asNeeded => \http://purl.org/cld/freq/completelyIrregular
+        - irregular => \http://purl.org/cld/freq/completelyIrregular
+        - notPlanned => \http://purl.org/cld/freq/completelyIrregular
+        - unknown => \http://purl.org/cld/freq/completelyIrregular
     :ISO-19139_che XPath:
 
     .. code:: xml

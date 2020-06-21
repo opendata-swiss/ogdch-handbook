@@ -28,13 +28,13 @@ Strukturierte Daten
      `RFC 4180 <https://tools.ietf.org/html/rfc4180>`__
 
    JavaScript Object Notation (JSON)
-     `RFC 4627 <http://tools.ietf.org/html/rfc4627>`__
+     `RFC 4627 <https://tools.ietf.org/html/rfc4627>`__
 
    Extensible Markup Language (XML)
      `W3C REC <http://www.w3.org/TR/2008/REC-xml-20081126>`__
 
    Resource Description Framework (RDF)
-     `W3C REC <http://www.w3.org/standards/techs/rdf#w3c_all>`__
+     `W3C REC <https://www.w3.org/TR/?tag=data>`__
 
 Text
 ^^^^
@@ -42,30 +42,30 @@ Text
 .. glossary::
 
    Text (TXT)
-     `ISO Latin-1 (ISO 8859-1) <http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=28245>`__
-     `ISO Latin-9 (ISO 8859-15) <http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=29505>`__
-     Universal Coded Character Set (UCS) (`ISO 10646 <href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=63182>`__)
+     `ISO Latin-1 (ISO 8859-1) <https://www.iso.org/standard/28245.html>`__
+     `ISO Latin-9 (ISO 8859-15) <https://www.iso.org/standard/29505.html>`__
+     Universal Coded Character Set (UCS) (`ISO 10646 <https://www.iso.org/standard/63182.html>`__)
      US-ASCII (ANSI X3.4-1986, bzw. ISO/IEC 646-US
-     oder ISO/IEC 646:1991-IRV): `ISO/IEC 646-US:1991 <http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=4777>`__
+     oder ISO/IEC 646:1991-IRV): `ISO/IEC 646-US:1991 <https://www.iso.org/standard/4777.html>`__
 
    Extensible Hypertext Markup Language (XHTML)
      `W3C REC <http://www.w3.org/TR/2001/REC-xhtml11-20010531>`__
 
    Portable Document Format (PDF)
-     nur PDF 1.7 `ISO 32000-1:2008 <http://www.iso.org/iso/catalogue_detail.htm?csnumber=51502>`__,
-     PDF/A `ISO 19005 <http://www.iso.org/iso/catalogue_detail?csnumber=38920>`__
+     nur PDF 1.7 `ISO 32000-1:2008 <https://www.iso.org/standard/51502.html>`__,
+     PDF/A `ISO 19005 <https://www.iso.org/standard/38920.html>`__
 
    Office Open XML Document (DOCX)
-     `ISO/IEC 29500 <http://www.iso.org/iso/catalogue_detail?csnumber=51463>`__
+     `ISO/IEC 29500 <https://www.iso.org/standard/51463.html>`__
 
    Open Document Text (ODT)
-     `ISO/IEC 26300-1:2015 <http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=66363>`__
+     `ISO/IEC 26300-1:2015 <https://www.iso.org/standard/66363.html>`__
 
    Office Open XML Spreadsheet (XLSX)
-     `ISO/IEC 29500 <http://www.iso.org/iso/catalogue_detail?csnumber=51463>`__
+     `ISO/IEC 29500 <https://www.iso.org/standard/51463.html>`__
 
    Open Document Spreadsheet (ODS)
-     `ISO/IEC 26300-1:2015 <http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=66363>`__
+     `ISO/IEC 26300-1:2015 <https://www.iso.org/standard/66363.html>`__
 
 Geodaten
 ^^^^^^^^
@@ -73,28 +73,28 @@ Geodaten
 .. glossary::
 
    GeoJSON (JSON)
-     `geojson.org <http://geojson.org>`__
+     `geojson.org <https://geojson.org/>`__
 
    KML (XML)
-     `OGC KML <http://www.opengeospatial.org/standards/kml>`__
+     `OGC KML <https://www.ogc.org/standards/kml>`__
 
    GML (Geography Markup Language)
-     `OGC GML <http://www.opengeospatial.org/standards/gml>`__
+     `OGC GML <https://www.ogc.org/standards/gml>`__
 
    INTERLIS
-     `www.interlis.ch <http://www.interlis.ch>`__
+     `www.interlis.ch <https://www.interlis.ch/>`__
 
    INTERLIS/GML (gemäss eCH-0118)
      `eCH-0118 <http://www.ech.ch/vechweb/page?p=dossier&amp;documentNumber=eCH-0118>`__
 
    ESRI
-     `ESRI Shapefile Technical Description <http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf>`__
+     `ESRI Shapefile Technical Description <https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf>`__
 
    GeoPackage
      `OGC GeoPackage <http://www.geopackage.org>`__
 
    GeoTIFF
-     `trac.osgeo.org/geotiff <http://trac.osgeo.org/geotiff>`__
+     `trac.osgeo.org/geotiff <https://trac.osgeo.org/geotiff>`__
 
 Bilder und Grafiken
 ^^^^^^^^^^^^^^^^^^^
@@ -102,13 +102,13 @@ Bilder und Grafiken
 .. glossary::
 
    TIFF
-     `(Tagged Image File Format) TIFF Revision 6.0 <http://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf>`__
+     `(Tagged Image File Format) TIFF Revision 6.0 <https://www.itu.int/itudoc/itu-t/com16/tiff-fx/docs/tiff6.pdf>`__
 
    JPEG2000
-     `ISO/IEC 15444-1 :2004 <http://www.iso.org/iso/catalogue_detail.htm?csnumber=37674>`__
+     `ISO/IEC 15444-1 :2004 <https://www.iso.org/standard/37674.html>`__
 
    PNG
-     `ISO/IEC 15948:2004 <http://www.iso.org/iso/catalogue_detail.htm?csnumber=29581>`__
+     `ISO/IEC 15948:2004 <https://www.iso.org/standard/29581.html>`__
 
    SVG
      `W3C REC <http://www.w3.org/TR/2003/REC-SVG11-20030114>`__
@@ -122,13 +122,15 @@ Videos
      `FLAC Format Spezifikation <https://xiph.org/flac/format.html>`__
 
    WebM
-     `Web M Documentation <http://www.webmproject.org/docs>`__
+     `Web M Documentation <https://www.webmproject.org/docs/>`__
 
    Ogg Vorbis
-     `Vorbis I specification <https://gever.edi.intra.admin.ch/edi/fscasp/content/bin/fscvext.dll?&amp;cx=YBXkwy-nRRWNpd2F&amp;tz=-120&amp;cs=COO.1.1001.1.91460&amp;pv=12080030&amp;hx=D4-BE-D9-4F-DC-FF;CM010797;400&amp;ax=COO.1.1001.1.32498&amp;fscargs=COO.1.1001.1.48791;1;;venv_object%3DCOO.2080.100.3.154178>`__
+     `Vorbis I specification <https://xiph.org/vorbis/doc/>`__
 
    MPEG4
-     `ISO/IEC 14496 <http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=61490>`__, `ISO/IEC 14496-3 <http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=53943>`__, `ISO/IEC 14496-14 <http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=39478>`__,
+     `ISO/IEC 14496 <https://www.iso.org/standard/61490.html>`__,
+     `ISO/IEC 14496-3 <https://www.iso.org/standard/53943.html>`__,
+     `ISO/IEC 14496-14 <https://www.iso.org/standard/39478.html>`__,
 
    Wave7
-     `Multimedia Programming Interface and Data Specifications 1.0 <http://www.kk.iij4u.or.jp/~kondo/wave/mpidata.txt>`__
+     `Multimedia Programming Interface and Data Specifications 1.0 <http://www-mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/Docs/riffmci.pdf>`__
