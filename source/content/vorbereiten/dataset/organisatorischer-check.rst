@@ -56,7 +56,7 @@ Sie haben noch Fragen zum Thema Organisation und Prozesse?
 
 .. container:: teaser
 
-   `Nächster Schritt: Daten publizieren <../../publizieren/publizieren>`
+   :doc:`Nächster Schritt: Daten publizieren <../../publizieren/publizieren>`
 
 Sie haben die Nutzungsbedingung ausgewählt, die technischen Anforderungen
 Ihres Datasets geklärt und die organisatorischen Aspekte berücksichtigt.
