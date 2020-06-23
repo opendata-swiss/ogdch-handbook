@@ -34,3 +34,4 @@ Anderes:
 --------
 
 - :doc:`Q&A Hosting <bibliothek/hosting>` enthält Fragen und Antworten zum Thema Hosting von Daten.
+- :doc:`Embedding Datasets <bibliothek/embed>` gibt Tipps zum Einbetten von Datasets auf anderen Websites.

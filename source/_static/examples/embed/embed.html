@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Embedding - handbook.opendata.swiss</title>
+
+	<script src="jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ckan/0.2.3/ckan.min.js"></script>
+	<script src="https://cdn.rawgit.com/opendata-swiss/ckan-embed/1.0.1/dist/ckan-embed.min.js"></script>
+
+	<!-- Opendata.swiss Bootstrap theme -->
+	<link rel='stylesheet' id='font_source_sans_pro-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' type='text/css' media='all' />
+  <link href="app.css" rel="stylesheet">
+	<link href="pygments/native.css" rel="stylesheet">
+	<link href="custom.css" rel="stylesheet">
+</head>
+<body style="padding:0;margin:0">
+  <p>To get started with <a href="https://handbook.opendata.swiss/content/glossar/bibliothek/embed.html" target="_blank">embedding</a> a dataset from
+		<a href="https://opendata.swiss" target="_blank"><b>opendata.swiss</b></a>,
+		type a search term. The Libs option ensures all library dependencies (jQuery,..)
+		are included in the embedding code.
+	</p>
+
+	<form id="form-widget">
+		<input type="text" id="input-search"><button type="submit">Search ...</button>
+		<input type="checkbox" id="include-deps" checked>&nbsp;Libs
+	</form>
+
+	<div id="embed-tip" style="display:none" class="alert alert-success" role="alert">
+		Press Ctrl-C to copy HTML code, to paste into your webpage.
+		For additional options, see
+		<a href="https://github.com/opendata-swiss/ckan-embed/blob/master/README.md#ckan-embed" target="_blank">documentation</a>.
+		<br><input type="text" id="embed-code">
+	</div>
+
+	<div id="example-1" style="border:1px solid #ccc; padding:10px;">
+		Results of your search query should appear here.
+	</div>
+
+	<script>
+
+		$('#form-widget').submit(function(e) {
+			e.preventDefault(); e.stopPropagation();
+			var q = $('#input-search').val();
+			// Provide an embed code
+			var embedcode = ''.concat(
+				'<script src="https://cdn.rawgit.com/opendata-swiss/ckan-embed/1.0.1/dist/ckan-embed.min.js"></','script>',
+				'<div id="ckan-embed-1"></div>',
+				'<script>ck.datasets("#ckan-embed-1","https://opendata.swiss/","', q, '");</','script>'
+			);
+			if ($('#include-deps:checked').length === 1) {
+				embedcode = ''.concat(
+					'<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></','script>',
+					'<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></','script>',
+					'<script src="https://cdnjs.cloudflare.com/ajax/libs/ckan/0.2.3/ckan.min.js"></','script>',
+					embedcode
+				);
+			}
+			$('#embed-tip').show();
+			var tgt = $('#embed-code');
+			tgt.val(embedcode).focus();
+			tgt[0].setSelectionRange(0, embedcode.length);
+			// Run the test query
+	    ck.datasets('#example-1', 'https://opendata.swiss/', {
+	      q: q,
+	      rows: 2
+	    });
+		});
+	</script>
+
+	<a href="#" target="_blank">Open in new tab</a>.
+
+</body>
+</html>
