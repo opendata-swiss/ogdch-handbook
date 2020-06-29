@@ -57,7 +57,6 @@ Falls Ihre Organisation noch nicht eingerichtet ist,
    Support
 
 Sie haben eine Frage zum Publizieren von Geo-Metadaten?
-Wenden Sie sich bitte direkt an das
 `Wenden Sie sich bitte direkt an das geocat.ch-Team <geocat@swisstopo.ch>`__.
 Bei weiteren Fragen beispielweise zu den allgemeinen OGD-Anforderungen
 `melden Sie sich gerne bei uns <mailto:opendata@bfs.admin.ch>`__.
