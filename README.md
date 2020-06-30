@@ -2,6 +2,11 @@
 
 This is the handbook for opendata.swiss https://opendata.swiss/.
 It is published at https://handbook.opendata.swiss.
+ 
+This repo replaces the previous version of the handbook, which can be found here: 
+https://github.com/opendata-swiss/ogd-handbook-site
+
+## About
 
 The handbook is targeted towards datapublishers and datausers: 
 
@@ -10,7 +15,7 @@ The handbook is targeted towards datapublishers and datausers:
 - datausers find in there instructions on how to use the data via api and 
   how to search for data on opendata.swiss
 
-The handbook will is implemented with Sphinx.
+The handbook is implemented with Sphinx.
 
 ## Installation
 
