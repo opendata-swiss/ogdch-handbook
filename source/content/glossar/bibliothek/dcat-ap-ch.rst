@@ -372,33 +372,33 @@ Dataset
                  - Mandatory: yes
     :Description: Categorisation of the data. In the ``rdf:resource``
                   attribute, the unique URI of the category from
-                  `SKOS-RDF </samples/opendataswiss-themes.rdf>`__ (RDF) must be given.
+                  :download:`SKOS-RDF <../../../_static/examples/opendataswiss-themes.rdf>`
+                  (RDF) must be given.
                   The following values are accepted from Themes:
-
-                  - https://opendata.swiss/group/work
-                  - https://opendata.swiss/group/construction
-                  - https://opendata.swiss/group/population
-                  - https://opendata.swiss/group/education
-                  - https://opendata.swiss/group/energy
-                  - https://opendata.swiss/group/finances
-                  - https://opendata.swiss/group/geography
-                  - https://opendata.swiss/group/legislation
-                  - https://opendata.swiss/group/health
-                  - https://opendata.swiss/group/trade
-                  - https://opendata.swiss/group/industry
-                  - https://opendata.swiss/group/crime
-                  - https://opendata.swiss/group/culture
-                  - https://opendata.swiss/group/agriculture
-                  - https://opendata.swiss/group/mobility
-                  - https://opendata.swiss/group/public-order
-                  - https://opendata.swiss/group/politics
-                  - https://opendata.swiss/group/prices
-                  - https://opendata.swiss/group/territory
-                  - https://opendata.swiss/group/social-security
-                  - https://opendata.swiss/group/statistical-basis
-                  - https://opendata.swiss/group/tourism
-                  - https://opendata.swiss/group/administration
-                  - https://opendata.swiss/group/national-economy
+                  https://opendata.swiss/group/work,
+                  https://opendata.swiss/group/construction,
+                  https://opendata.swiss/group/population,
+                  https://opendata.swiss/group/education,
+                  https://opendata.swiss/group/energy,
+                  https://opendata.swiss/group/finances,
+                  https://opendata.swiss/group/geography,
+                  https://opendata.swiss/group/legislation,
+                  https://opendata.swiss/group/health,
+                  https://opendata.swiss/group/trade,
+                  https://opendata.swiss/group/industry,
+                  https://opendata.swiss/group/crime,
+                  https://opendata.swiss/group/culture,
+                  https://opendata.swiss/group/agriculture,
+                  https://opendata.swiss/group/mobility,
+                  https://opendata.swiss/group/public-order,
+                  https://opendata.swiss/group/politics,
+                  https://opendata.swiss/group/prices,
+                  https://opendata.swiss/group/territory,
+                  https://opendata.swiss/group/social-security,
+                  https://opendata.swiss/group/statistical-basis,
+                  https://opendata.swiss/group/tourism,
+                  https://opendata.swiss/group/administration,
+                  https://opendata.swiss/group/national-economy,
 
     .. code-block:: xml
       :caption: dcat:theme
