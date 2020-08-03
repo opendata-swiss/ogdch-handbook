@@ -784,8 +784,7 @@ Distribution
     **dct:rights** 1..1
 
     :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Content: Possible values:
-
+    :Content:
               - NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired (acceptable for opendata.swiss, Open Definition compliant)
               - NonCommercialAllowed-CommercialAllowed-ReferenceRequired (acceptable for opendata.swiss, Open Definition compliant)
               - NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired (acceptable for opendata.swiss)
