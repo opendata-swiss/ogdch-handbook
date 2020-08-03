@@ -28,15 +28,19 @@ DCAT-AP-CH Standard Overview
 - :ref:`Dataset <iso_19139_che-dataset>`
 - :ref:`Distribution <iso_19139_che-distribution>`
 
+This documentation describes the mapping from ISO-19139_che to :doc:`DCAT-AP Switzerland <dcat-ap-ch>`.
+ISO-19139_che is a standard used by `Geocat <https://www.geocat.ch>`__,
+a data source from which opendata.swiss harvests datasets.
+
+In this documentation we focus on the XML serialization of ISO-19139_che
+and therefore describe the mapping in form of XPath (if not noted differently).
+
 .. _iso_19139_che-example:
 
 Example-Catalog
 ---------------
 
-In this documentation we focus on the XML serialization of ISO-19139_che
-and therefore describe the mapping in form of ISO-19139_che XPath .
-
-The Examples are taken from `Example XML serialization of an ISO-19139_che dataset provided by geocat <https://www.geocat.ch/geonetwork/srv/ger/xml.metadata.get?uuid=c5bc9d6b-cafb-4617-97d7-868ab4cd5506>`__
+`Example XML serialization of an ISO-19139_che dataset <https://www.geocat.ch/geonetwork/srv/ger/xml.metadata.get?uuid=c5bc9d6b-cafb-4617-97d7-868ab4cd5506>`__
 
 .. _iso_19139_che-dataset:
 
@@ -56,7 +60,7 @@ Dataset
 
     .. code:: xml
 
-       //gmd:fileIdentifier/gco:CharacterString
+       //gmd:fileIdentifier/gco:CharacterString + '@' organization-slug (configuration for the harvester)
 
     :Format: the identifier should be of the form ``<id>@<organization-slug>``
 
@@ -214,7 +218,7 @@ Dataset
 
 .. container:: attribute
 
-    dct:publisher
+    **dct:publisher**
 
     :Display name on opendata.swiss: Publishers
     :ISO-19139_che XPath:
@@ -253,7 +257,7 @@ Dataset
 
 .. container:: attribute
 
-    dcat:contactPoint
+    **dcat:contactPoint**
 
     :Display name on opendata.swiss: Contact points
     :ISO-19139_che XPath:
@@ -300,7 +304,7 @@ Dataset
 
 .. container:: attribute
 
-    dcat:theme
+    **dcat:theme**
 
     :Display name on opendata.swiss: Categories
     :ISO-19139_che XPath:
@@ -309,20 +313,39 @@ Dataset
 
         //gmd:identificationInfo//gmd:topicCategory/gmd:MD_TopicCategoryCode
 
-    :Description: Mapping:
-
-                  - biota => https://opendata.swiss/group/agriculture
-                  - society => https://opendata.swiss/group/culture
-                  - health => https://opendata.swiss/group/health
-                  - transportation => https://opendata.swiss/group/mobility
-                  - intelligenceMilitary => https://opendata.swiss/group/public-order
-                  - farming => https://opendata.swiss/group/agriculture
-                  - economy => https://opendata.swiss/group/national-economy
-                  - utilitiesCommunication_Energy => https://opendata.swiss/group/energy
-
-                  Everything else is mapped to https://opendata.swiss/group/territory .
-                  Additionally get all records in category https://opendata.swiss/group/geography
-                  see documnetation of all categories
+    :Description:
+                - `imageryBaseMapsEarthCover` => [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `imageryBaseMapsEarthCover_BaseMaps` => [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `imageryBaseMapsEarthCover_EarthCover`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `imageryBaseMapsEarthCover_Imagery`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `location`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `elevation`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `boundaries`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `planningCadastre`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `planningCadastre_Planning`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `planningCadastre_Cadastre`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `geoscientificInformation`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `geoscientificInformation_Geology`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `geoscientificInformation_Soils`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `geoscientificInformation_NaturalHazards`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `biota`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory, https://opendata.swiss/group/agriculture]
+                - `oceans`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `inlandWaters`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `climatologyMeteorologyAtmosphere`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `environment`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `environment_EnvironmentalProtection`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `environment_NatureProtection`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `society`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/culture, https://opendata.swiss/group/population]
+                - `health`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/health]
+                - `structure`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/construction]
+                - `transportation`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/mobility]
+                - `utilitiesCommunication`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory, https://opendata.swiss/group/energy, https://opendata.swiss/group/culture]
+                - `utilitiesCommunication_Energy`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/energy, https://opendata.swiss/group/territory]
+                - `utilitiesCommunication_Utilities`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/territory]
+                - `utilitiesCommunication_Communication`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/culture]
+                - `intelligenceMilitary`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/public-order]
+                - `farming`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/agriculture]
+                - `economy`: [https://opendata.swiss/group/geography, https://opendata.swiss/group/work, https://opendata.swiss/group/national-economy]
 
     .. code-block:: xml
        :caption: Example of getting dcat:theme from gmd with ISO-19139_che XPath
@@ -712,7 +735,7 @@ Distribution
 
 .. container:: attribute
 
-    dct:issued
+    **dct:issued**
 
     :Display name on opendata.swiss: Issued Date
     :ISO-19139_che XPath:
@@ -729,7 +752,7 @@ Distribution
 
 .. container:: attribute
 
-    dcat:accessURL
+    **dcat:accessURL**
 
     :Display name on opendata.swiss: Access URL
     :ISO-19139_che XPath:
@@ -765,23 +788,14 @@ Distribution
 
 .. container:: attribute
 
-    dct:rights
+    **dct:rights**
 
     :Display name on opendata.swiss: Terms of use
-    :Description: This applies to texts in DE and FR:
-
-                  - NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
-                    - Freie Nutzung
-                    - Utilisation libre
-                  - NonCommercialAllowed-CommercialAllowed-ReferenceRequired
-                    - Freie Nutzung. Quellenangabe ist Pflicht.
-                    - Utilisation libre. Obligation d’indiquer la source.
-                  - NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired
-                    - Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
-                    - Utilisation libre. Utilisation à des fins commerciales uniquement avec l’autorisation du fournisseur des données.
-                  - NonCommercialAllowed-CommercialWithPermission-ReferenceRequired
-                    - Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.
-                    - Utilisation libre. Obligation d’indiquer la source. Utilisation commerciale uniquement avec l’autorisation du fournisseur des données.
+    :Description:
+                  - **NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired**: Freie Nutzung / Utilisation libre
+                  - **NonCommercialAllowed-CommercialAllowed-ReferenceRequired**: Freie Nutzung. Quellenangabe ist Pflicht. Utilisation libre. Obligation d’indiquer la source.
+                  - **NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired**: Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig. / Utilisation libre. Utilisation à des fins commerciales uniquement avec l’autorisation du fournisseur des données.
+                  - **NonCommercialAllowed-CommercialWithPermission-ReferenceRequired**: Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig. / Utilisation libre. Obligation d’indiquer la source. Utilisation commerciale uniquement avec l’autorisation du fournisseur des données.
     :ISO-19139_che XPath:
        The first one in the following order:
 
