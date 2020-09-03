@@ -37,13 +37,42 @@ source p3venv/bin/activate
 
 ## Build the Documentation
 
-The documentation can be build locally:
+The documentation can be built locally:
 
 ```
 (p3venv)cd docs
 (p3venv)make clean
 (p3venv)make html
 ```
+
+## Update translations
+
+To extract message strings into `.pot` files:
+
+```
+make gettext
+```
+
+The generated files will be located in `build/gettext/`.
+To generate `.po` files for one or more languages, e.g. `en` and `fr`
+
+```
+sphinx-intl update -p build/gettext -l en -l fr
+```
+
+The generated files will be located in `source/locale/en/LC_MESSAGES`.
+Fill in the translated strings in the `.po` files. Then do the following to
+compile `.mo` files and build the translated html files for one language:
+
+```
+make -e SPHINXOPTS="-D language='en'" html
+```
+
+The html files are always put into `build/html/`. If you generate html files
+for a second language, they will overwrite the previous ones.
+
+See the [sphinx-intl documentation](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html)
+for more details.
 
 ## Use
 
