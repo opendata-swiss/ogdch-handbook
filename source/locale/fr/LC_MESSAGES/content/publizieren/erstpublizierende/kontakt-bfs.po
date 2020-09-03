@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:4
+msgid ":doc:`Publizieren <../publizieren>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:5
+msgid ":doc:`Erst-Publizierende <../erstpublizierende>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:6
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:10
+msgid "Organisation und Benutzer/innen erfassen und verwalten"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:13
+msgid "Was muss ich tun, wenn ich zum ersten Mal Daten publizieren möchte?"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:17
+msgid ""
+"Als Erstes benötigen Sie ein Profil, um sich auf opendata.swiss einloggen"
+" zu können. Als Betreiber von opendata.swiss stellen wir das User-"
+"Management sicher. Nehmen Sie für die Aktivierung Ihrer Organisation und "
+"Ihres Profils mit uns `Kontakt <mailto:opendata@bfs.admin.ch>`__ auf – am"
+" besten so früh wie möglich, damit wir Ihre Anfrage rasch bearbeiten "
+"können. Melden Sie uns dafür den Namen der Organisation, die Daten "
+"publizieren wird, sowie auch die E-Mail-Adresse der Benutzerinnen und "
+"Benutzer, die Metadaten erfassen und verwalten werden. Verwenden Sie "
+"dafür bitte keine generischen, unpersönlichen Adressen wie "
+"opendata@bfs.admin.ch."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:29
+msgid "Erste Aktivierung von Organisation und Benutzer"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:31
+msgid ""
+"Für die erste Aktivierung stellen Sie uns bitte folgende `Informationen "
+"<mailto:opendata@bfs.admin.ch>`__ zur Verfügung:"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:34
+msgid ""
+"Name und URL zur Webseite der Organisation, die Daten publizieren wird. "
+"Genauere Angaben zur Organisation können später hinzugefügt werden."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:36
+msgid ""
+"E-Mail-Adresse der Benutzerinnen und Benutzer, die Metadaten erfassen und"
+" verwalten werden. Verwenden Sie bitte für die Registrierung keine "
+"unpersönlichen Adressen wie zum Beispiel statistik@bfs.admin.ch, da diese"
+" das User-Management erschweren."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:40
+msgid ""
+"Eine kurze Übersicht der Daten (z.B. in Form einer Liste), die Sie "
+"voraussichtlich publizieren werden, hilft uns, die Publikation optimal zu"
+" planen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:42
+msgid ""
+"Alle Benutzerinnen und Benutzer erhalten dann die Möglichkeit, über das "
+":term:`Backend <Backend>` von opendata.swiss Daten Ihrer Organisation zu "
+"verwalten oder neue Daten zu erfassen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:45
+msgid ""
+"Wir bitten Sie, uns proaktiv zu kontaktieren, wenn Profile deaktiviert "
+"werden sollen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:50
+msgid "Support"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:53
+msgid "Zugang anfordern"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:55
+msgid ""
+"Was wir für die Registrierung von Ihnen bzw. allen Personen, die Daten "
+"Ihrer Organisation publizieren möchten, benötigen:"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:58
+msgid "Name"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:59
+msgid "E-mail Adresse"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:60
+msgid "Name der Organisation"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:61
+msgid "URL der Organisation"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:62
+msgid "Übersicht der zu publizierenden Daten (kurze Liste)"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:64
+msgid ""
+"Wir benötigen durchschnittlich 5 Werktage, um Ihre Anfrage zu bearbeiten."
+" `Jetzt Zugang anfordern <mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:69
+msgid ":doc:`Nächster Schritt: Profil verwalten <profil-einrichten>`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:71
+msgid ""
+"Sobald wir Ihnen Ihr persönliches Log-in zugestellt haben, können Sie Ihr"
+" Profil ausfüllen und danach Informationen zu Ihrer Organisation "
+"ergänzen."
+msgstr ""
+

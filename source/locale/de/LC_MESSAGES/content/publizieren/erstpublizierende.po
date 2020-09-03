@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/publizieren/erstpublizierende.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende.rst:4
+msgid ":doc:`Publizieren <publizieren>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende.rst:5
+#: ../../source/content/publizieren/erstpublizierende.rst:9
+msgid "Für Erst-Publizierende"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende.rst:12
+msgid "Die erforderlichen Schritte im Überblick"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende.rst:16
+msgid ""
+"Es freut uns, dass Sie Ihre Daten auf opendata.swiss publizieren wollen! "
+"Jeder Eintrag auf opendata.swiss :term:`«Dataset» <Dataset>` sowie "
+"sämtliche Benutzerinnen und Benutzer sind einer Organisation zugeteilt. "
+"Sollten Sie noch keine Daten auf opendata.swiss publiziert haben, ist "
+"deshalb der erste Schritt, die Registrierung der Organisation und der "
+"Benutzerinnen und Benutzer. Nach erfolgter Registrierung können Sie über "
+"das :term:`Backend <Backend>` die Angaben zur Organisation "
+"vervollständigen und mit der Publikation der Datasets loslegen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende.rst:26
+msgid ""
+":doc:`Organisation und Benutzer/innen erfassen und verwalten "
+"<erstpublizierende/kontakt-bfs>`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende.rst:27
+msgid ":doc:`Profil verwalten <erstpublizierende/profil-einrichten>`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende.rst:28
+msgid ""
+":doc:`Informationen zur Organisation ergänzen <erstpublizierende"
+"/organisation-einrichten>`"
+msgstr ""
+

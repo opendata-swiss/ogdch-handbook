@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:4
+msgid ":doc:`Publizieren <../publizieren>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:5
+msgid ":doc:`Publikationsvariante <../publikationsvariante>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:6
+msgid "Harvester"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:10
+msgid "Metadaten mit Harvester hochladen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:13
+msgid "Wie lade ich meine Metadaten mittels Harvester hoch?"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:17
+msgid ""
+"Mit einem Harvester lassen sich grössere Datenmengen einfach und schnell "
+"publizieren. Es bedeutet, dass Ihre Datasets automatisch durch "
+"opendata.swiss angezogen und aktualisiert werden können, der Aufwand für "
+"die :doc:`Datenpflege <../../pflegen/pflegen>` reduziert sich für Sie. "
+"Voraussetzung dafür ist, dass :doc:`Ihre Organisation mitsamt "
+"Benutzerinnen und Benutzern registriert ist <../erstpublizierende"
+"/kontakt-bfs>`. Dies erfolgt in Absprache mit der :term:`Geschäftsstelle "
+"OGD <Geschäftsstelle Open Government Data (OGD)>`. Wir erklären Ihnen "
+"hier, wie das sogenannte Harvesting funktioniert."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:28
+msgid "Die Schritte auf einen Blick"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:30
+msgid ":ref:`Harvester einrichten <harvesting-katalog-endpunkt>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:31
+msgid ":ref:`Katalog-Endpunkt übergeben <harvesting-katalog-endpunkt>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:32
+msgid ":ref:`Katalog-Endpunkt mit Paginierung übergeben <harvesting-paginierung>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:33
+msgid ":ref:`Harvesting testen <harvesting-testen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:34
+msgid ":ref:`Datenkatalog veröffentlichen <harvesting-veroeffentlichen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:36
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:59
+msgid "Gut zu wissen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:38
+msgid ""
+"Sollten Sie zum ersten Mal Daten publizieren, führen wir Sie durch den "
+"Prozess und unterstützen Sie dabei, die korrekte Übermittlung und "
+"Darstellung Ihrer Daten sicherzustellen, unabhängig von der "
+"Publikationsvariante."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:43
+msgid "Alle Schritte im Detail"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:48
+msgid "Harvester einrichten"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:50
+msgid ""
+"Wenn Sie Ihre Daten im :doc:`Standard DCAT-AP-CH "
+"<../../glossar/bibliothek/dcat-ap-ch>` bereitstellen können, übernehmen "
+"wir das Einrichten des Harvesters für Sie. Sie müssen nichts weiter tun, "
+"als uns die URL mit dem :term:`Katalog-Endpunkt <Katalog Endpunkt "
+"(Catalogue endpoint)>` zu übermitteln. In speziellen Fällen, zum Beispiel"
+" wenn ein Datenkatalog nicht im DCAT-AP-CH Standard geliefert werden "
+"kann, kann ein spezifisches Mapping definiert werden. `Bitte kontaktieren"
+" Sie uns hierfür <mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:61
+msgid ""
+"Pro Organisation wird jeweils ein Endpunkt für das Harvesten benötigt. "
+"Falls Sie also Daten von mehreren Organisationen verwalten, benötigen wir"
+" auch mehrere Endpunkte. Beachten Sie beim Vorbereiten Ihres "
+"Datenkatalogs die besondere Struktur des Dataset-Identifiers, die im "
+":doc:`Standard DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek"
+"/dcat-ap-ch>` beschrieben ist und für jede Organisation individuell ist."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:72
+msgid "Katalog-Endpunkt übergeben"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:74
+msgid ""
+"`Senden Sie uns hierfür eine E-Mail <mailto:opendata@bfs.admin.ch>`__ mit"
+" der URL, unter der wir Ihren Datenkatalog herunterladen können. Diese "
+"URL ist gleichzeitig ein RDF-Endpunkt."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:80
+msgid ""
+"Wichtig: Der Datenkatalog muss im Format :doc:`DCAT-AP-CH "
+"<../../glossar/bibliothek/dcat-ap-ch>` vorliegen."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:86
+msgid "Katalog-Endpunkt mit Paginierung übergeben"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:98
+msgid ""
+"Falls Ihr Datenkatalog zu gross ist und nicht in einer einzigen Anfrage "
+"übermittelt werden kann, besteht die Möglichkeit, ihn seitenweise zu "
+"übergeben. Dafür empfehlen wir die Paginierung mit dem `Hydra Vocabulary "
+"<https://www.hydra-cg.com/spec/latest/core/>`__ zu implementieren. "
+"`Senden Sie uns abschliessend eine E-Mail "
+"<mailto:opendata@bfs.admin.ch>`__ mit der entsprechenden URL."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:108
+msgid "Harvesting testen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:110
+msgid ""
+"Das Harvesting von Datasets im DCAT-AP-CH Standard wird von uns für Sie "
+"getestet. Nachdem wir Ihre URL erhalten und den Harvester eingerichtet "
+"haben, lassen wir ihn auf Ihrem Endpunkt in der Abnahmeumgebung laufen. "
+"Bei allfälligen Fehlern melden wir uns bei Ihnen, sodass Sie diese an "
+"Ihrem Katalog-Endpunkt korrigieren können. `Geben Sie uns Bescheid "
+"<mailto:opendata@bfs.admin.ch>`__, sobald die Fehler behoben sind und "
+"schon beginnt unser nächster Testlauf. Bitte beachten Sie, dass die "
+"Daten, die per Harvesting importiert werden, nicht im Backend angezeigt "
+"werden."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:123
+msgid "Datenkatalog veröffentlichen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:128
+msgid ""
+"Nach einer abschliessenden Prüfung Ihrer Datasets richten wir das "
+"Harvesting für Sie in der Produktionsumgebung ein. `Kontaktieren Sie uns "
+"<mailto:opendata@bfs.admin.ch>`__, um das Go-Live gemeinsam zu planen."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:138
+msgid "Beispielansicht eines publizierten Datasets"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:142
+msgid "Support"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:144
+msgid ""
+"Sie haben eine Frage zum Harvester? `Schreiben Sie uns "
+"<mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:150
+msgid "Mehr zum Thema"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:152
+msgid ""
+":doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` "
+"– Beschreibung des aktuell von opendata.swiss genutzte Datenstandards "
+"DCAT-AP-CH"
+msgstr ""
+

@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/pflegen/pflegen.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/pflegen/pflegen.rst:4
+#: ../../source/content/pflegen/pflegen.rst:11
+msgid "Daten pflegen"
+msgstr ""
+
+#: ../../source/content/pflegen/pflegen.rst:8
+msgid "Auf einen Blick"
+msgstr ""
+
+#: ../../source/content/pflegen/pflegen.rst:15
+msgid ":fa:`wrench` Work in progress: Dieser Inhalt wird aktuell überarbeitet."
+msgstr ""
+
+#: ../../source/content/pflegen/pflegen.rst:17
+msgid ""
+"Nachdem Sie Daten auf opendata.swiss publiziert haben, bleiben Sie "
+"weiterhin für Ihre Daten verantwortlich. Das umfasst genau zwei Aufgaben:"
+" Zum einen müssen Sie Ihre Daten regelmässig updaten. Zum anderen müssen "
+"Sie Anfragen von Nutzerinnen und Nutzern zu Ihren Daten beantworten."
+msgstr ""
+
+#: ../../source/content/pflegen/pflegen.rst:22
+msgid ":doc:`Dataset updaten <datasets-updaten>`"
+msgstr ""
+
+#: ../../source/content/pflegen/pflegen.rst:23
+msgid ":doc:`Auskunft zu Daten geben <auskunft-geben>`"
+msgstr ""
+

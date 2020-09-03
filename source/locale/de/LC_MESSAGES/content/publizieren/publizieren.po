@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/publizieren/publizieren.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:4
+#: ../../source/content/publizieren/publizieren.rst:11
+msgid "Daten publizieren"
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:8
+msgid "Auf einen Blick"
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:13
+msgid ""
+"In diesem Kapitel erklären wir Ihnen, wie Sie Open Government Data "
+"publizieren. Folgende Punkte müssen Sie dabei beachten:"
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:16
+msgid ""
+"opendata.swiss ist ein Metadatenkatalog. Hier wird auf publizierte Open "
+"Government Data in standardisierter, leicht verständlicher und "
+"wiederverwendbarer Form referenziert. Somit steigert sich ihre "
+"Sichtbarkeit."
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:20
+msgid ""
+"Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data "
+"(OGD)>` übernimmt das Controlling des gesamten Katalogs. Es ist "
+"allerdings an den publizierenden Organisationen oder Personen "
+"sicherzustellen, dass die :doc:`rechtlichen <../vorbereiten/dataset"
+"/rechtlicher-check>`, :doc:`technischen <../vorbereiten/dataset"
+"/technischer-check>` und :doc:`organisatorischen <../vorbereiten/dataset"
+"/organisatorischer-check>` :doc:`Anforderungen <../vorbereiten/dataset>` "
+"eingehalten werden."
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:29
+msgid ""
+"Bei der ersten Publikation wird für alle Publikationsvarianten ein Test-"
+"Ablauf in der :term:`«Abnahmeumgebung» <Abnahmeumgebung>` von "
+"opendata.swiss durchgeführt. Dies gibt datenpublizierenden Organisationen"
+" oder Personen die Möglichkeit, ihre Datasets und sämtliche weitere "
+"Informationen ausgiebig zu prüfen und allfällige Änderungen vorzunehmen. "
+"Ab der zweiten Publikation können Datenpublizierende immer wieder neue "
+"Daten selbstständig publizieren. Die Abnahmeumgebung steht jederzeit für "
+"Test-Publikationen zur Verfügung."
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:37
+msgid ""
+"Das User-Management wird zentral von der :term:`Geschäftsstelle OGD "
+"<Geschäftsstelle Open Government Data (OGD)>` sichergestellt. Neue "
+"Benutzerinnen und Benutzer oder Anpassungen an den bestehenden "
+"Berechtigungen sind uns daher immer zu melden."
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:43
+msgid ""
+"Erst-Publizierende begleiten wir Schritt für Schritt durch den Prozess. "
+"Im ersten Schritt muss die :term:`Geschäftsstelle OGD <Geschäftsstelle "
+"Open Government Data (OGD)>` die neue Organisation und Benutzer/innen auf"
+" opendata.swiss registrieren. Erst danach kann der Publikationsprozess "
+"starten."
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:50
+msgid ""
+"Wenn Sie bereits als Nutzerinnen oder Nutzer auf opendata.swiss "
+"registriert sind, können Sie direkt zu den Inhalten für registrierte "
+"Nutzerinnen und Nutzer springen. Dort können Sie direkt die geeignete "
+"Publikationsvariante für Ihre Daten auswählen."
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:55
+msgid ":doc:`Für Erst-Publizierende <erstpublizierende>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:57
+msgid ""
+":doc:`Benutzer/innen erfassen und verwalten <erstpublizierende/kontakt-"
+"bfs>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:58
+msgid ":doc:`Profil verwalten <erstpublizierende/profil-einrichten>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:59
+msgid ""
+":doc:`Informationen zur Organisation ergänzen <erstpublizierende"
+"/organisation-einrichten>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:62
+msgid "Für registrierte Nutzerinnen und Nutzer"
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:64
+msgid ":doc:`Publikationsprozess verstehen <publikationsprozess>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publizieren.rst:65
+msgid ":doc:`Publikationsvariante auswählen <publikationsvariante>`"
+msgstr ""
+

@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/nutzen/api-nutzen.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:4
+msgid ":doc:`Nutzen <nutzen>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:5
+#: ../../source/content/nutzen/api-nutzen.rst:9
+msgid "opendata.swiss API nutzen"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:12
+msgid "Wie programmiere ich den Zugriff auf die Daten von opendata.swiss?"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:16
+msgid ""
+"opendata.swiss basiert auf dem Open-Source-Projekt CKAN. CKAN stellt eine"
+" umfangreiche API für die Metadaten des offenen Datenkatalogs zur "
+"Verfügung, die Applikationsentwickler nutzen können. In diesem Kapitel "
+"erklären wir Ihnen, wie Sie mittels API auf die Daten von opendata.swiss "
+"zugreifen können. Werfen Sie auch einen Blick in `aktuelle Beispiele, wie"
+" OGD in Anwendungen genutzt wird <https://opendata.swiss/showcase/>`__."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:24
+msgid "Nutzung der API – so funktioniert’s"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:26
+msgid ":ref:`Zugriffsmöglichkeiten <api-nutzen-zugriffsmoeglichkeiten>`"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:27
+msgid ":ref:`Action-API <api-nutzen-action-api>`"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:28
+msgid ":ref:`Terminologie <api-nutzen-terminologie>`"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:29
+msgid ":ref:`Beispiele <api-nutzen-beispiele>`"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:31
+msgid "Gut zu wissen"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:33
+msgid ""
+"Hier geben wir Ihnen eine kompakte Einführung zur Nutzung der API von "
+"opendata.swiss. Eine ausführliche Dokumentation zur CKAN API finden Sie "
+"in der `CKAN API Dokumentation <https://docs.ckan.org/en/latest/api/>`__."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:41
+msgid "Zugriffsmöglichkeiten"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:43
+msgid ""
+"Es gibt 3 Zugriffsarten, die Ihnen bei opendata.swiss zur Verfügung "
+"stehen:"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:45
+msgid "API Zugriff über den Browser"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:50
+msgid "API Zugriffe über die Kommandozeile, etwa mit Curl"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:55
+msgid ""
+"API Zugriffe über das CKAN Werkzeug `ckanapi "
+"<https://github.com/ckan/ckanapi>`__"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:63
+msgid "Action-API"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:65
+msgid ""
+"Alle Zugriffe verwenden das Wort «action», wie in den Beispielen oben zu "
+"beobachten ist. Grundsätzlich sind die meisten Funktionen in CKAN als "
+"«action» programmiert, sodass sie über die API angestossen werden können."
+" Mehr dazu lesen Sie im Abschnitt `Action-API in der CKAN Dokumentation "
+"<https://docs.ckan.org/en/latest/api/#action-api-reference>`__."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:74
+msgid "Terminologie von CKAN in opendata.swiss"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:76
+msgid ""
+"Alle Objekte von opendata.swiss sind auch in CKAN vertreten. Damit der "
+"API-Zugriff reibungslos funktioniert, erklären wir Ihnen in der folgenden"
+" Auflistung, mit welcher Terminologie Sie welche Einheiten in "
+"opendata.swiss erreichen können:"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:81
+msgid "``package``, ``dataset``"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:81
+msgid ""
+"Entspricht einem :term:`Dataset <Dataset>` bei opendata.swiss. Damit "
+"gemeint sind die Metadaten zu einem Bündel von Ressourcen."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:86
+msgid "``resource``"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:84
+msgid ""
+"Entspricht einer Ressource bei Opendata.swiss. Die Plattform "
+"opendata.swiss hostet selbst keinen Ressourcen, stellt aber "
+"«downloadUrls» oder «accesssUrls» und teilweise auch Daten Previews zur "
+"Verfügung. Ressourcen in CKAN entsprechen dcat:Distribution im :doc:`DCAT"
+" AP Standard <../glossar/bibliothek/dcat-ap-ch>`"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:88
+msgid "``group``"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:89
+msgid ""
+"Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren "
+"Kategorien angehören."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:91
+msgid "``organization``"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:91
+msgid ""
+"Entspricht den Datenpublizierenden, egal ob Person oder Organisation. "
+"Jedes Dataset wird von genau einer Organisation publiziert."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:94
+msgid "``id``"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:94
+msgid "Entspricht im API dem :term:`Slug <Slug>` des Datasets."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:99
+msgid "Beispiele"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:101
+msgid "Auflisten von Datasets"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:103
+msgid "package_list: auflisten aller datasets"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:108
+msgid "Anzeigen eines einzelnen Datasets"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:110
+msgid "package_show, id: anzeigen eines einzelnen datasets"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:115
+msgid "Suchen der Datasets zu einem bestimmten Schlagwort:"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:117
+msgid "package_search, q, fq: Schlagwortsuche in den Datasets"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:122
+msgid ""
+"Die Suchsyntax entspricht dabei Apache Lucene, da CKAN Solr als "
+"Suchmaschine benutzt. Dies ist ebenfalls in der `CKAN-Dokumentation "
+"<https://docs.ckan.org/en/latest/user-guide.html#search-in-detail>`__ "
+"ausführlich beschrieben."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:128
+msgid "Fetch-API"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:130
+msgid ""
+"Es ist auch möglich über `Fetch-API "
+"<https://developers.google.com/web/updates/2015/03/introduction-to-"
+"fetch>`__ auf opendata.swiss zuzugreifen."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:138
+msgid "Support"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:141
+msgid "Noch Fragen?"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:143
+msgid ""
+"Haben Sie noch Fragen zur Nutzung unserer API? Dann `nehmen Sie mit uns "
+"Kontakt auf <mailto:opendata@bfs.admin.ch>`__. Bei Rückfragen zu "
+"einzelnen Datasets wenden Sie sich bitte direkt an die "
+"Datenpublizierenden. Die jeweiligen Kontaktangaben finden Sie im Dataset "
+"unter «Zusätzliche Information»."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:149
+msgid ""
+"**Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns sehr "
+"freuen, davon zu erfahren und Ihr Projekt in unsere Galerie von "
+"Beispielanwendungen aufzunehmen. `Schreiben Sie uns "
+"<mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:155
+msgid "Mehr zum Thema"
+msgstr ""
+
+#: ../../source/content/nutzen/api-nutzen.rst:157
+msgid ""
+"`CKAN-API-Guide (Link) <https://docs.ckan.org/en/latest/api/#action-api-"
+"reference>`__  – Guidelines zur Nutzung der CKAN API"
+msgstr ""
+

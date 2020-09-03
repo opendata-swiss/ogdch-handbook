@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:4
+msgid ":doc:`Publizieren <../publizieren>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:5
+msgid ":doc:`Erst-Publizierende <../erstpublizierende>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:6
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:10
+msgid "Informationen zur Organisation ergänzen"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:13
+msgid "Was muss ich bei Informationen zu meiner Organisation beachten?"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:17
+msgid ""
+"Auf der Seite «Organisationen» haben Sie die Möglichkeit, Informationen "
+"über Ihre Organisation hinzuzufügen. Diese Angaben werden später auf "
+"opendata.swiss veröffentlicht. Die Informationen umfassen den Titel Ihrer"
+" Organisation, eine Beschreibung und ein Bild und den Link zur Website. "
+"Im :term:`Frontend <Frontend>` der Abnahmeumgebung können Sie Ihre "
+"Angaben prüfen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:27
+msgid "1) Interner Organisations-Titel"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:29
+msgid ""
+"Dieser Titel wird von uns vergeben und bezeichnet Ihre Organisation im "
+":term:`Backend <Backend>` der Abnahmeumgebung. Aus diesem internen Titel "
+"generiert sich der sogenannte :term:`Name/Slug <Slug>` Ihrer "
+"Organisation. Dieser Name/Slug sorgt für die einwandfreie Zuordnung Ihrer"
+" Datasets zu Ihrer Organisation."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:37
+msgid ""
+"Wichtig: Der interne Organisations-Titel darf nicht mehr verändert "
+"werden, sobald Sie Datasets veröffentlicht haben."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:41
+msgid "2) Organisation-Informationen"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst
+msgid "Titel (EN) (DE) (FR) (IT)"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:43
+msgid ""
+"Bitte geben Sie einen Titel respektive den offiziellen Namen Ihrer "
+"Organisation an. Alle Bundesstellen sollen die Angaben mindestens auf "
+"Deutsch und Französisch eingeben – wünschenswert wären allerdings alle "
+"vier Sprachen. Weitere Organisationen sollen Titel und Beschreibung in "
+"mindestens einer Sprache eingeben."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst
+msgid "Beschreibung (EN) (DE) (FR) (IT)"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:49
+msgid ""
+"Bitte geben Sie eine Beschreibung Ihrer Organisation an. Alle "
+"Bundesstellen sollen die Angaben mindestens auf Deutsch und Französisch "
+"eingeben – wünschenswert wären allerdings alle vier Sprachen. Weitere "
+"Organisationen sollen Titel und Beschreibung in mindestens einer Sprache "
+"eingeben"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst
+msgid "URL"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:56
+msgid "Bitte geben Sie hier die Website Ihrer Organisation an."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:59
+msgid "3) Bild"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:61
+msgid ""
+"Bitte wählen Sie ein Bild Ihrer Organisation aus und laden Sie es via "
+"«Datei hinzufügen oder hochladen» hoch. So erhält Ihre Organisation eine "
+"bessere Präsenz auf opendata.swiss."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:66
+msgid "4) Veröffentlichen / Aktualisieren"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:68
+msgid ""
+"Vergessen Sie nicht, Ihre Änderungen abschliessend zu aktualisieren bzw. "
+"zu veröffentlichen. Wenn Sie Ihre Eingaben im Seitenlayout überprüfen "
+"möchten, können Sie sich unter «Organisation anzeigen» eine Vorschau der "
+"Seite anzeigen lassen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:75
+msgid ""
+":doc:`Nächster Schritt: Publikationsvariante auswählen "
+"<../publikationsvariante>`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:77
+msgid ""
+"Nachdem Sie Ihr Profil und Ihre Organisation eingerichtet haben, können "
+"Sie im nächsten Schritt eine Publikationsvariante für Ihre Datasets "
+"auswählen."
+msgstr ""
+

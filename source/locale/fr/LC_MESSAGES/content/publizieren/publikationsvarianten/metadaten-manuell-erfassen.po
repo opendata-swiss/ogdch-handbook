@@ -1,0 +1,357 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:4
+msgid ":doc:`Publizieren <../publizieren>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:5
+msgid ":doc:`Publikationsvariante <../publikationsvariante>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:6
+msgid "Manuell erfassen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:10
+msgid "Metadaten manuell erfassen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:13
+msgid "Wie erfasse ich Metadaten manuell im Webformular?"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:17
+msgid ""
+"Hier ist der Name Programm: Bei der manuellen Datenerfassung geben Sie "
+"selbst Ihre Metadaten im :term:`Backend <Backend>` von opendata.swiss "
+"ein. Voraussetzung dafür ist, dass Ihre Organisation mitsamt "
+"Benutzerinnen und Benutzern registriert ist. :doc:`Für die erste "
+"Registrierung <../erstpublizierende/kontakt-bfs>`. sind wir zuständig. "
+"Hier erklären wir Ihnen Schritt für Schritt, wie Sie das Webformular "
+"ausfüllen müssen."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:26
+msgid "Die Schritte auf einen Blick"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:28
+msgid ":ref:`Dataset erstellen <manuell-datensatz-erstellen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:29
+msgid ":ref:`Metadaten eingeben <manuell-resource-hinzufuegen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:30
+msgid ":ref:`Ressourcen hinzufügen <manuell-resource-hinzufuegen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:31
+msgid ":ref:`Schlagwörter definieren <manuell-schlagwoerter-definieren>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:32
+msgid ":ref:`Vorschau des Datasets prüfen <manuell-vorschau-pruefen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:33
+msgid ":ref:`Dataset veröffentlichen <manuell-datensatz-veroeffentlichen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:35
+msgid "Gut zu wissen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:37
+msgid ""
+"Sollten Sie zum ersten Mal Daten publizieren, führen wir Sie durch den "
+"Prozess und unterstützen Sie dabei, die korrekte Übermittlung und "
+"Darstellung Ihrer Daten sicherzustellen, unabhängig von der "
+"Publikationsvariante. Kontaktieren Sie uns, um einen `Termin für die "
+"Einführung zur Publikation auf opendata.swiss "
+"<mailto:opendata@bfs.admin.ch>`__ zu vereinbaren."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:45
+msgid "Alle Schritte im Detail"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:50
+msgid "Dataset erstellen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:55
+msgid ""
+"Um Datasets zu erfassen, müssen Sie sich im Backend von opendata.swiss "
+"einloggen. Handelt es sich um eine Erstpublikation oder möchten Sie eine "
+"neue oder besonders komplexe Publikation testweise durchführen, ist die "
+":term:`Abnahmeumgebung <Abnahmeumgebung>` dafür die richtige Wahl. "
+"Handelt es um eine wiederholte Publikation und Sie möchten Ihre Datasets "
+"direkt veröffentlichen, können Sie sich in die :term:`Produktionsumgebung"
+" <Produktionsumgebung>` einloggen. Im Menü links wählen Sie «Datensätze» "
+"> «Dataset erstellen». Als Erstes müssen Sie Ihrem Dataset einen Titel "
+"geben. Aus ihm wird der Permalink des Datasets gebildet."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:68
+msgid ""
+"Wichtig: Verändern Sie diesen Titel und den Permalink nicht mehr, nachdem"
+" das Dataset publiziert wurde. Ansonsten können Nutzende, die Ihre Daten "
+"bereits verwenden, diese nicht mehr erreichen."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:73
+msgid "Metadaten eingeben"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:75
+msgid ""
+"Um sicherzustellen, dass die Datasets wiederverwendet werden können, "
+"werden verschiedene Metadaten und Beschreibungen zu den Datasets "
+"publiziert. Die Metadaten umfassen die Bereiche Datensatz-Informationen, "
+"Daten, Publisher-Informationen und Weitere Informationen. Zunächst müssen"
+" Sie den sogenannten Identifier eingeben. Dieser sorgt dafür, dass das "
+"Dataset mit Ihrer Organisation verknüpft wird. Dafür können Sie die ID "
+"aus Ihrem Quellsystem verwenden oder eine beliebige ID definieren. Bitte "
+"stellen Sie sicher, dass Ihr Dataset der richtigen Organisation zugeteilt"
+" ist."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:84
+msgid ""
+"Für eine detaillierte Beschreibung des Inhalts der Metadaten-Felder "
+"orientieren Sie sich bitte an der `Publikation eCH-0200 DCAT-"
+"Anwendungsprofil für Datenportale in der Schweiz (DCAT-AP CH) "
+"<https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a>`__."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:90
+msgid ""
+"Wichtig: Verändern Sie den Identifier nicht mehr, nachdem das Dataset "
+"publiziert ist. Ansonsten können Ihre Daten nicht mehr eindeutig "
+"zugeordnet werden."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:97
+msgid "Datensatz-Informationen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:99
+msgid ""
+"Bitte geben Sie hier den Titel und die Beschreibung Ihres Datasets an. "
+"Alle Bundesstellen sollen die Angaben mindestens auf Deutsch und "
+"Französisch eingeben – wünschenswert wären allerdings alle vier Sprachen."
+" Weitere Organisationen sollen Titel und Beschreibung in mindestens einer"
+" Sprache eingeben. Falls nur eine Sprache vorliegt, wird die Eingabe für "
+"alle anderen Sprachversionen übernommen."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:110
+msgid "Daten"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:112
+msgid ""
+"Hier gilt es das Pflichtfeld «Erstellt» auszufüllen. Damit ist das Datum "
+"der ersten Publikation im Quellsystem dieses Datasets gemeint. Falls dies"
+" nicht bekannt ist, verwenden Sie das Datum der geplanten ersten "
+"Publikation auf opendata.swiss. Beim Datum der letzten Änderung "
+"(«geändert») können Sie nach der Publikation kommunizieren, wann die "
+"letzte Änderung (Aktualisierung, Korrektur etc.) am Dataset vorgenommen "
+"worden ist. Weiter sollen Sie hier das Intervall, in dem Aktualisierungen"
+" vorgenommen werden («Aktualisierungsintervall») und den Zeitraum, den "
+"das Dataset umfasst («Zeitliche Abdeckung»), angeben."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:126
+msgid "Publisher-Informationen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:127
+msgid ""
+"Hier müssen Sie Angaben zu Ihnen als datenpublizierender Organisation "
+"eingeben. Im Pflichtfeld «Publisher» wählen Sie die verantwortliche "
+"Organisation für das Dataset aus. Dies können auch mehrere Organisationen"
+" sein, jedoch keine Personen. Im Pflichtfeld «Kontaktstellen» muss eine "
+"Ansprechperson angegeben werden, die von Datennutzenden bei Rückfragen "
+"kontaktiert werden darf. Es ist mindestens eine Person mit E-Mail-Adresse"
+" erforderlich."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:138
+msgid "Weitere Informationen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:140
+msgid ""
+"Unter «Kategorien» können Sie eine oder mehrere thematische Kategorien "
+"auswählen, denen das Dataset zugeordnet werden kann. Mit «Landing Page» "
+"ist die Website gemeint, auf der die Daten ursprünglich publiziert "
+"wurden, falls diese vorhanden ist. Unter «Beziehungen» geben Sie bitte "
+"«legal_basis» ein und erfassen einen Link auf die gesetzliche Grundlage, "
+"welche die Publikation dieses Datasets vorsieht. Unter «Verwandte "
+"Datensätze» können Sie aus allen verfügbaren Datasets auf opendata.swiss "
+"mit thematischem Bezug zu Ihrem aktuellen Dataset auswählen. Damit "
+"signalisieren Sie Datennutzenden, dass weitere Datasets existieren, die "
+"sie interessieren könnten."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:157
+msgid "Ressourcen hinzufügen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:165
+msgid ""
+"Eine «Ressource» ist eine spezifische Repräsentierung. Dies können "
+"unterschiedliche Bereitstellungsformen eines Datasets sein (media-type or"
+" format), unterschiedliche Zeitreihen oder auch unterschiedliche "
+"Aggregationsstufen. Das Erfassen einer Ressource funktioniert ähnlich wie"
+" zuvor beim gesamten Dataset: Wählen Sie einen geeigneten Identifier aus "
+"Ihrem Quellsystem aus, legen Sie Titel und Beschreibung fest. Für die "
+"Sprachversionen gelten die gleichen Regeln wie bei Datasets: Alle "
+"Bundesstellen sollen die Angaben mindestens auf Deutsch und Französisch "
+"eingeben – wünschenswert wären allerdings alle vier Sprachen. Weitere "
+"Organisationen sollen Titel und Beschreibung in mindestens einer Sprache "
+"eingeben. Falls die Ressource sprachunabhängig ist, wählen Sie unter "
+"«Sprache» keine Sprache aus. Auch hier müssen Sie unter dem Pflichtfeld "
+"«Erstellt» das Datum der Veröffentlichung der Ressource angeben."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:182
+msgid "Wichtig: Jedes Dataset muss mindestens 1 Ressource haben."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:186
+msgid ""
+"Wichtig: Unter «Nutzungsbedingungen» müssen Sie nun hier die Bedingung "
+"auswählen, die Sie im :doc:`Kapitel «Rechtliche Nutzung prüfen» "
+"<../../vorbereiten/dataset/rechtlicher-check>` ermittelt haben."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:191
+msgid ""
+"Optional können Sie noch unter «Zugangs-URL» eine URL angeben, über "
+"welche auf die Ressource zugegriffen werden kann. Falls sich hinter der "
+"URL ein Download verbirgt, muss die URL auch im Feld «Download-URL» "
+"eingetragen werden. Ebenfalls optional kann die «Grösse» der Ressource in"
+" Bytes angegeben werden. Unter «Format» wählen Sie das Format, das dem "
+"Ihrer Ressourcen entspricht."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:200
+msgid ""
+"Wichtig: Bitte berücksichtigen Sie bei der Publikation einer Ressourcen "
+":doc:`die technischen Anforderungen <../../vorbereiten/dataset"
+"/rechtlicher-check>` von opendata.swiss."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:207
+msgid "Schlagwörter definieren"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:209
+msgid ""
+"Es ist wichtig, dass Sie ganz oben rechts im Webformular ein oder mehrere"
+" Schlagwörter zum Dataset angeben, getrennt durch Kommas. Schlagwörter "
+"helfen dabei, die Auffindbarkeit zu steigern. Mögliche Schlagwörter "
+"können Sie aus Ihren Metadaten oder Ihrem Quellsystem ermitteln. Sie "
+"können auch aus den meistgenutzten Schlagwörtern auswählen. Für die "
+"Sprache gelten die gleichen Regeln wie bei den Ressourcen."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:223
+msgid "Vorschau des Datasets prüfen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:228
+msgid ""
+"Abschliessend können Sie sich eine Vorschau Ihres Datasets anzeigen "
+"lassen. Dafür klicken Sie oben in der Menüleiste auf «Datensatz "
+"anzeigen». Sie sehen Ihr Dataset nun so, wie es im Frontend erscheint – "
+"egal, ob Sie sich in der :term:`Abnahmeumgebung <Abnahmeumgebung>` oder "
+":term:`Produktionsumgebung <Produktionsumgebung>` befinden. Sieht alles "
+"so aus wie in unserer Beispielansicht, kann das Dataset veröffentlicht "
+"werden."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:238
+msgid "Dataset veröffentlichen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:240
+msgid ""
+"Im Bearbeitungsmodus wird Ihnen ganz oben rechts der Status Ihres "
+"Datasets angezeigt: «Entwurf» bedeutet, Sie bearbeiten die Metadaten des "
+"Datasets noch weiter. In diesem Zustand ist Ihr Dataset im Frontend der "
+"Abnahmeumgebung mit dem Vermerk «privat» und einem Schlosssymbol "
+"markiert. «Veröffentlicht» gibt an, dass das Dataset in der "
+"Abnahmeumgebung publiziert ist."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:246
+msgid ""
+"In der Produktionsumgebung haben Sie ausserdem die Möglichkeit, die "
+"Veröffentlichung Ihres Datasets zu terminieren. Unter «Veröffentlichung "
+"planen» können Sie die Datums- und Zeitangabe nutzen, um eine Publikation"
+" in der Zukunft festzulegen und bestätigen dies mit einem Klick auf "
+"«Planen». Die Veröffentlichung lässt sich verlässlich auf ein bestimmtes "
+"Datum planen, die Festlegung der Uhrzeit kann um ± eine Stunde von der "
+"effektiven Publikation abweichen."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:254
+msgid ""
+"Sollten Sie zum ersten Mal Daten publizieren, muss Ihr Dataset von der "
+"Abnahmeumgebung noch auf die Produktionsumgebung übertragen werden. Dies "
+"übernehmen wir für Sie, `geben Sie uns einfach per E-Mail Bescheid "
+"<mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:261
+msgid ""
+"Wichtig: Vergessen Sie nicht nach jeder Änderung von bereits publizierten"
+" Daten auf «Aktualisieren» zu klicken."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:273
+msgid "Beispielansicht eines publizierten Datasets"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:280
+msgid "Beispielansicht einer publizierten Ressource"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:284
+msgid "Support"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:286
+msgid ""
+"Sie haben eine Frage zum manuelle Erfassen Ihres Datensatzes? `Schreiben "
+"Sie uns <mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne "
+"weiter."
+msgstr ""
+

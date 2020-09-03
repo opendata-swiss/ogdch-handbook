@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:4
+msgid ":doc:`Vorbereiten <../vorbereiten>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:5
+msgid ":doc:`Dataset <../dataset>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:6
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:10
+msgid "Organisatorische Anforderungen prüfen"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:13
+msgid ""
+"Welche organisatorischen Aspekte sollte ich bei der Publikation von OGD "
+"beachten?"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:17
+msgid ""
+"Um eine nachhaltige Publikation von Open Government Data zu ermöglichen "
+"sind folgende Aspekte besonders zu berücksichtigen:"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:20
+msgid ""
+"**Prozess zur Behandlung und Verwertung der Rückmeldungen definieren** "
+"Der Dialog zwischen den publizierenden Organisationen und den Nutzenden "
+"ist bei der Publikation von Open Government Data wesentlich. Jegliche "
+"Rückmeldungen zu den Daten müssen deshalb systematisch erfasst, "
+"ausgewertet, wo nötig prompt beantwortet und als Grundlage für die "
+"Weiterentwicklung des Datenangebots der Organisation verwendet werden. Es"
+" müssen Verantwortlichkeiten und Prozesse dazu definiert und transparent "
+"gemacht werden."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:27
+msgid ""
+"**Aktuelles Dateninventar** Eine aktuelle Übersicht über die Daten, die "
+"von der Organisation gehalten werden («Dateninventar») soll erstellt, "
+"aktualisiert und veröffentlicht werden. Dabei sind insbesondere die "
+"Angaben zur Kategorisierung Open, Shared und Closed wichtig."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:32
+msgid ""
+"**Prozesse und Verantwortlichkeiten definieren** Für die Publikation sind"
+" innerhalb der Organisation und mit den Partnerorganisationen Prozesse "
+"und Verantwortlichkeiten zu definieren, zu kommunizieren und zu "
+"etablieren. Nur so kann garantiert werden, dass die Daten dauerhaft und "
+"entsprechend den Vorgaben von OGD zur Verfügung stehen."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:37
+msgid ""
+"**Verantwortlichkeiten im Fall einer gemeinsamen Datenhaltung oder "
+"-erstellung klären** Sind mehrere Organisationen bei der Datenerhebung "
+"oder -produktion involviert (beispielsweise zwei oder mehrere "
+"Bundesstellen oder Kantone), müssen die involvierten Stellen abklären, "
+"welche Organisation für die Publikation als Open Government Data "
+"zuständig ist."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:42
+msgid ""
+"**Feedback teilen** Alle Datenpublizierende sind eingeladen, ihre "
+"Erfahrungen mit weiteren datenpublizierenden Organisationen zu teilen. "
+"Wir bitte Sie insbesondere Vorschläge für die Weiterentwicklung des "
+"Portals opendata.swiss und dessen Vorgaben zu formulieren und der "
+":term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` "
+"mitzuteilen."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:52
+msgid "Support"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:54
+msgid ""
+"Sie haben noch Fragen zum Thema Organisation und Prozesse? `Schreiben Sie"
+" uns <mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:59
+msgid ":doc:`Nächster Schritt: Daten publizieren <../../publizieren/publizieren>`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:61
+msgid ""
+"Sie haben die Nutzungsbedingung ausgewählt, die technischen Anforderungen"
+" Ihres Datasets geklärt und die organisatorischen Aspekte berücksichtigt."
+" Die Vorbereitung ist damit abgeschlossen, nun können Sie Ihr Dataset "
+"publizieren."
+msgstr ""
+

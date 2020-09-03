@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/nutzen/nutzen.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:4
+#: ../../source/content/nutzen/nutzen.rst:11
+msgid "Daten nutzen"
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:8
+msgid "Auf einen Blick"
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:15
+msgid ":fa:`wrench` Work in progress: Dieser Inhalt wird aktuell überarbeitet."
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:17
+msgid ""
+"Wir freuen uns, dass Sie Daten von opendata.swiss nutzen möchten. Hier "
+"finden Sie alles rund um die Nutzung von OGD."
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:20
+msgid ""
+"Wir möchten Ihnen hier Hilfestellungen zur :doc:`Datensuche <daten-"
+"suchen>` und zur :doc:`Nutzung unserer API <api-nutzen>` anbieten. Bitte "
+"beachten Sie, dass die Informationen zur Datensuche aktuell nur in "
+"Englisch vorliegen."
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:26
+msgid ""
+"Die Datenpublizierenden stehen Ihnen übrigens gerne für Fragen zur "
+"Verfügung. Kontaktangaben finden Sie jeweils im Dataset unter "
+"«Zusätzliche Information». Bei Fragen zu opendata.swiss oder allgemeinen "
+"Fragen zur Initiative Open Government Data freuen wir von der "
+":term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` "
+"uns über `Ihre Anfrage <mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:34
+msgid ""
+"Wollen Sie ein Projekt oder eine Initiative im Bereich Open Data "
+"initiieren? Der Verein opendata.ch freut sich, Sie dabei zu unterstützen."
+" `Nehmen Sie Kontakt auf <mailto:info@opendata.ch>`__."
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:38
+msgid ":doc:`Daten suchen <daten-suchen>`"
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:39
+msgid ":doc:`API nutzen <api-nutzen>`"
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:43
+msgid "Mehr zum Thema"
+msgstr ""
+
+#: ../../source/content/nutzen/nutzen.rst:45
+msgid "`Nutzungsbedingungen (Link) <https://opendata.swiss/de/terms-of-use/>`__,"
+msgstr ""
+

@@ -100,3 +100,8 @@ html_logo = '_static/images/branding/handbook_logo.png'
 
 # check links
 nitpicky = True
+
+# -- Options for sphinx-intl -------------------------------------------------
+
+locale_dirs = ['locale/']
+gettext_compact = False

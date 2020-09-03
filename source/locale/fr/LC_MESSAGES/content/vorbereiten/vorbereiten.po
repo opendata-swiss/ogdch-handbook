@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:4
+msgid "Vorbereiten"
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:8
+msgid "Auf einen Blick"
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:11
+msgid "Daten vorbereiten"
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:13
+msgid ""
+"Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Open "
+"Government Data publizieren können, müssen Sie sicherstellen, dass die "
+"Anforderungen für eine Publikation der OGD erfüllt sind. Die "
+"Anforderungen lassen sich in drei Kategorien einteilen: Rechtliche "
+"Anforderungen, technische Anforderungen und organisatorische "
+"Anforderungen. Diese Anforderungen sind wichtig, damit die reibungslose "
+"Verwendung der Daten durch Dritte gewährleistet ist."
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:22
+msgid ""
+"In diesem Kapitel unterstützen wir Sie dabei zu prüfen, ob diese "
+"Anforderungen erfüllt werden – passend zu Ihren jeweiligen Daten und mit "
+"so wenig Aufwand wie möglich."
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:26
+msgid ""
+"Sie haben noch keine Daten auf opendata.swiss veröffentlicht? Als Erst-"
+"Publizierende erklären wir Ihnen das Wichtigste rund um den Prozess und "
+"unterstützen Sie bei der Identifikation von geeigneten Daten."
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:32
+msgid ":doc:`Für Erst-Publizierende <erstpublizierende>`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:34
+msgid ""
+":doc:`opendata.swiss verstehen <erstpublizierende/opendata-swiss-"
+"verstehen>`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:35
+msgid ":doc:`Dateninventar erstellen <erstpublizierende/dateninventar-erstellen>`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:38
+msgid ":doc:`Für jedes Dataset <dataset>`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:40
+msgid ":doc:`Rechtliche Anforderungen prüfen <dataset/rechtlicher-check>`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:41
+msgid ":doc:`Technische Anforderungen prüfen <dataset/technischer-check>`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/vorbereiten.rst:42
+msgid ""
+":doc:`Organisatorische Anforderungen prüfen <dataset/organisatorischer-"
+"check>`"
+msgstr ""
+

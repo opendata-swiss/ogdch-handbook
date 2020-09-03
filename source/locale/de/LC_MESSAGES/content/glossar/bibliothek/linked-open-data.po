@@ -1,0 +1,1464 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:4
+msgid ":doc:`Bibliothek <../bibliothek>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:5
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:9
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:22
+msgid "Linked Open Data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:12
+msgid "Einführung in Linked Open Data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:16
+msgid ""
+"opendata.swiss unterstützt Linked Open Data. Ziel der von Tim Berners-Lee"
+" entwickelten Bewertungsgrundlage für Daten ist es, dass Datasets "
+"vernetzt, selbsterklärend und von Mensch und Maschine korrekt "
+"interpretierbar sind. Hier möchten wir Ihnen das Konzept näher "
+"vorstellen. Der Text ist derzeit nur in Englisch verfügbar."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:24
+msgid ""
+"Today we are surrounded by vast quantities of data playing an "
+"increasingly central role in our lives, and driving the emergence of a "
+"data economy [1]_. At greater quantities, we are faced with limitations "
+"in traditional methods of organizing data. To publish machine-friendly "
+"data - i.e. in structured form, not as text documents in natural language"
+" - the usual approach is to generate raw data in standardized files (e.g."
+" spreadsheets as CSV and other :doc:`dataformats <formate-ressourcen>`), "
+"or to provide access to this data through programming interfaces "
+"(:doc:`APIs <../../nutzen/api-nutzen>`)."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:34
+msgid ""
+"While these go a long way to help make data available and accessible for "
+"knowledge sharing, there is space for improvement in facilitating data "
+"reuse, such as:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:38
+msgid ""
+"**Comprehensibility**: provide better descriptions of data and underlying"
+" models or schema"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:40
+msgid ""
+"**Accessibility and share-ability**: simplify access, therefore also "
+"facilitate distribution of up-to-date data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:42
+msgid ""
+"**Integration**: facilitate the combination of data from different "
+"sources into a common point of access"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:45
+msgid ""
+"This document describes an approach known as *Linked Data*, which "
+"responds to these needs."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:49
+msgid "Linking the Web of Data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:51
+msgid ""
+"The World Wide Web has radically altered the way we share knowledge, by "
+"lowering barriers to publishing and accessing linked documents inside of "
+"a global information space [2]_ . Linked Data provides a publishing "
+"paradigm in which not only documents, but data itself is a “first class "
+"citizen” of the Web (Scott, 2006), extending the Web with a global data "
+"space based on open standards - also known as the **Web of Data**."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:59
+msgid ""
+"In summary, Linked Data is about publishing data on top of the Web, and "
+"promoting links between data from different sources, through production "
+"of human- and machine-readable documents. Linked Data is a term used to "
+"describe a set of recommended best practices for exposing, sharing, and "
+"connecting pieces of data, information, and knowledge on the Web’s "
+"HyperText Transfer Protocol (HTTP), using Universal Resource Identifier "
+"(URIs) to identify things and describe them using a data model called the"
+" Resource Description Framework (RDF)."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:68
+msgid ""
+"Tim Berners-Lee, inventor of the Web, laid down four `design principles "
+"of Linked Data <https://www.w3.org/DesignIssues/LinkedData.html>`__, "
+"providing a recipe for publishing and connecting data using Web "
+"infrastructure, while adhering to its fundamental architecture and "
+"standards:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:74
+msgid ""
+"**Use URIs to name (identify) things.** For instance "
+"``http://dbpedia.org/resource/Switzerland`` was chosen to identify the "
+"country *Switzerland* in a data source called *DBPedia*. The well "
+"established Domain Names System (DNS) ensures that this key is unique "
+"worldwide."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:80
+msgid ""
+"**Use HTTP URIs so that things can be looked up (interpreted, "
+"“dereferenced”).** Retrieving a representation of a resource identified "
+"by a URI is known as *dereferencing* that URI. By choosing an URL as the "
+"key for the resource (a URL is an HTTP URI), we can follow the link to "
+"get information about that resource. For a user, it means that by "
+"clicking on a URL - e.g. ``http://dbpedia.org/resource/Switzerland`` - "
+"she will directly access the information rendered by a Web browser. Using"
+" the same underlying technology, a computer program could access "
+"structured information, so that the Web works as one database."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:91
+msgid ""
+"**Provide useful information about what a name identifies when it is "
+"looked up using** `open standards <https://www.w3.org/TR/2014/NOTE-"
+"rdf11-primer-20140624/>`__ When you open that page in a browser (by "
+"dereferencing the URI), all the data presented to you comes from the "
+"underlying RDF data that is rendered here as standard HTML. If you want "
+"to have a closer look at that RDF data, you can access it through "
+"http://dbpedia.org/data/Switzerland."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:99
+msgid ""
+"**Refer to other things using their HTTP URI-based names when publishing "
+"data on the Web.** On Switzerland page of the DBPedia web site, you will "
+"find some related data from other data sources. For instance, look for "
+"the `geodata:Suisse "
+"<https://www.geonames.org/2658434/switzerland.html>`__ string, and click "
+"on it. You will be directed to the page of the same entity, Switzerland, "
+"on another well known Linked Data source: *GeoNames*. Thanks to the use "
+"of universal identifiers, these two different data sources were able to "
+"link their data. An end-user can now find a broad range of information "
+"about Switzerland in either of those sources."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:112
+msgid "Explanation"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:114
+msgid ""
+"Be aware that those Web resources identified by dereferenceable URIs are "
+"not meant to be directly viewed by end-users, but really serve as a "
+"distributed data base from which software developers may create richer "
+"applications and functions, with user-friendly interfaces."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:119
+msgid ""
+"RDF is a data model where each piece of information is a simple sentence "
+"made of three parts: a subject, a relation (or predicate), and an object,"
+" hence the name of *triple*. The relation is what allows the creation of "
+"connections amongst data (subjects and objects), in other words to *link "
+"the data*."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:125
+msgid ""
+"With RDF a new kind of data base was created to store RDF triples, "
+"commonly called a *triple store*. To query the triples stored in a triple"
+" store, a query language was developed: *SPARQL*. All of those new "
+"technologies are defined by W3C standards and will be described in more "
+"details further on."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:132
+msgid "Advantages"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:134
+msgid ""
+"Linked Data is shareable, extensible, and easily re-usable. It supports "
+"multilingual functionality for data and user services, such as the "
+"labeling of concepts identified by URIs. By using globally unique "
+"identifiers to designate works, places, people, events, subjects, and "
+"other objects or concepts of interest, resources can be referenced across"
+" a broad range of sources and thus make integration of different "
+"information much more feasible."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:142
+msgid ""
+"Linked Data aims to break information out of silos where they are locked "
+"to specific data collections and formats, and makes data integration and "
+"data mining over complex data easier. Such technologies allow for easier "
+"updates and extensions to data models - as well as potential to infer new"
+" knowledge out of collections of facts."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:149
+msgid "5-star Deployment System for Open Data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:151
+msgid ""
+"Tim Berners-Lee proposed a rating system for Open Data as shown in Figure"
+" 1. To get the maximum five stars, data must (1) be available on the Web "
+"under an open license, (2) be in the form of structured data, (3) be in a"
+" non-proprietary file format, (4) use URIs as its identifiers, (5) "
+"include links to other data sources. In the specific context of open "
+"data, *Linked Open Data* is given a 5 stars rating."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:161
+msgid "5 stars of Open Data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:165
+msgid ""
+"Figure 1. 5-Star Deployment Scheme for Open Data (source: `5stardata.info"
+" <https://5stardata.info/>`__)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:169
+msgid "Costs and Benefits for Consumers and Publishers"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:173
+msgid "Please click on the text below for more details."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:177
+msgid ":fa:`star` e.g. PDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst
+msgid "Description"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:179
+msgid ""
+"make your content available on the Web (whatever format) under an open "
+"license"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst
+msgid "Consumer"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:182
+msgid "✔ You can look at it."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:183
+msgid "✔ You can print it."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:184
+msgid "✔ You can store it locally (on your hard disk or on an USB stick)."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:185
+msgid "✔ You can enter the data into any other system."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:186
+msgid "✔ You can change the data as you wish."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:187
+msgid "✔ You can share the data with anyone you like"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst
+msgid "Publisher"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:190
+msgid "✔ It’s simple to publish."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:191
+msgid ""
+"✔ You do not have to explain repeatedly to others that they can use your "
+"data."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:195
+msgid ":fa:`star` :fa:`star` e.g. XLS"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:197
+msgid ""
+"make it available as structured data (e.g., Excel instead of image scan "
+"of a table)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:200
+msgid "All you can do with :fa:`star` Web data and additionally:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:202
+msgid "✔ You can directly process it with proprietary software"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:203
+msgid "to aggregate it, perform calculations, visualise it, etc."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:204
+msgid "✔ You can export it into another (structured) format."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:207
+msgid "✔ It’s still simple to publish."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:211
+msgid ":fa:`star` :fa:`star` :fa:`star` e.g. CSV"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:213
+msgid ""
+"make it available in a non-proprietary open format (e.g., CSV as well as "
+"of Excel)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:216
+msgid "All you can do with :fa:`star` :fa:`star` Web data and additionally:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:218
+msgid ""
+"✔ You can manipulate the data in any way you like, without the need to "
+"own any proprietary software package."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:223
+msgid ""
+"✔ You might need converters or plug-ins to export the data from the "
+"proprietary format."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:226
+msgid "It’s still rather simple to publish."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:230
+msgid ":fa:`star` :fa:`star` :fa:`star` :fa:`star` e.g. RDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:232
+msgid "use URIs to denote things, so that people can point at your stuff"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:235
+msgid ""
+"All you can do with :fa:`star` :fa:`star` :fa:`star` Web data and "
+"additionally:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:237
+msgid "✔ You can link to it from any other place (on the Web or locally)."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:238
+msgid "✔ You can bookmark it."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:239
+msgid "✔ You can reuse parts of the data."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:240
+msgid ""
+"You may be able to reuse existing tools and libraries, even if they only "
+"understand parts of the pattern the publisher used. warning Understanding"
+" the structure of an RDF \"Graph\" of data can require more effort than "
+"tabular (Excel/CSV) or tree (XML/JSON) data."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:244
+msgid ""
+"You can combine the data safely with other data. URIs are a global scheme"
+" so if two things have the same URI then it’s intentional, and if so "
+"that’s well on it’s way to being 5-star data!"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:250
+msgid "✔ You have fine-granular control over the data items"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:251
+msgid "and can optimise their access (load balancing, caching, etc.)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:252
+msgid "✔ Other data publishers can now link into your"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:253
+msgid "data, promoting it to 5 star!"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:254
+msgid "You typically invest some time slicing and dicing your data."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:255
+msgid ""
+"You’ll need to assign URIs to data items and think about how to represent"
+" the data."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:257
+msgid "You need to either find existing patterns to reuse or create your own."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:261
+msgid ":fa:`star` :fa:`star` :fa:`star` :fa:`star` :fa:`star` e.g. LOD"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:263
+msgid "link your data to other data to provide context"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:265
+msgid ""
+"All you can do with :fa:`star` :fa:`star` :fa:`star` :fa:`star` Web data "
+"and additionally:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:267
+msgid "✔ You can discover more (related) data while consuming the data."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:268
+msgid "✔ You can directly learn about the data schema."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:269
+msgid ""
+"You now have to deal with broken data links, just like 404 errors in web "
+"pages."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:270
+msgid ""
+"Presenting data from an arbitrary link as fact is as risky as letting "
+"people include content from any website in your pages. Caution, trust and"
+" common sense are all still necessary."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:276
+msgid "✔ You make your data discoverable."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:277
+msgid "✔ You increase the value of your data."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:278
+msgid ""
+"✔ Your own organisation will gain the same benefits from the links as the"
+" consumers."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:279
+msgid ""
+"You’ll need to invest resources to link your data to other data on the "
+"Web."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:280
+msgid "You may need to repair broken or incorrect links."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:283
+msgid "Use case: libraries"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:285
+msgid ""
+"As an example, the `final report of the W3C sample applications of Linked"
+" Data in library environment "
+"<https://www.w3.org/2005/Incubator/lld/wiki/Benefits>`__ explains some of"
+" the advantages of Linked Open Data in this more specific context."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:291
+msgid "1. Richer data, better data integration and reuse"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:293
+msgid ""
+"Libraries assets will benefit from descriptions of a higher level of "
+"granularity, without requiring more investment. Linked Data enables "
+"different kinds of data about the same asset to be produced in a "
+"decentralized way by different actors. This is an alternative from the "
+"traditional approach where libraries have to produce stand-alone "
+"descriptions (as MARC records for instance). As a result data quality "
+"will be improved and this will help in the reduction of redundancy of "
+"metadata."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:302
+msgid ""
+"This is made possible by the use of Web-based identifiers which will also"
+" help in different areas, as facilitating navigation across library and "
+"non-library information resources, making up-to-date resource "
+"descriptions directly citable by catalogers, or enhance citation "
+"management software for instance."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:309
+msgid "2. Improved search possibilities and SEO"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:311
+msgid ""
+"Information seekers benefit from improved federated search in new search "
+"applications, but also in existing search engines. Searching services "
+"will be richer, and libraries will improve their visibility through "
+"search engine optimization (SEO)."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:317
+msgid "3. Long-lived meta-data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:319
+msgid ""
+"The history of information technology shows that specific data formats "
+"are ephemeral. Linked Data do not rely on a particular data structure and"
+" is thus more durable and robust than other metadata formats bound to a "
+"specific format."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:325
+msgid "4. Easier data access"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:327
+msgid ""
+"Linked Data being published in the Web, accessing Linked Data is done in "
+"a uniform and trivial way consisting of HTTP requests. Data consumers do "
+"not need to learn different APIs or library-centric protocols."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:332
+msgid "5. Beneficiaries"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:334
+msgid ""
+"Those benefits are presented for different actors of the library "
+"environment regrouped in four categories:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:337
+msgid "researchers, students, and patrons"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:338
+msgid "organizations"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:339
+msgid "librarians, archivists, and curators"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:340
+msgid "developers and vendors"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:343
+msgid "Implementation"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:345
+msgid ""
+"This section describes how the Linked Data approach could be implemented "
+"in the domain of Swiss Open Government Data. The proposed 10 steps are "
+"based on the W3C `Best Practices for Publishing Linked Data "
+"<https://www.w3.org/TR/ld-bp>`__ document, adapted to the opendata.swiss "
+"context. Only the methodological guidelines of each step are presented "
+"here. For further details, please refer to the original document."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:354
+msgid "First steps"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:357
+msgid "1. Prepare Stakeholders"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:359
+msgid ""
+"The first step to successfully create a Linked Open Data publishing "
+"process starts by explaining to stakeholders the conceptual Linked Data "
+"approach and the main technical differences compared to other Open Data "
+"publication solutions (the 5 stars Open Data is a good resource here). "
+"Then a data modeling life cycle can be designed based on the following "
+"steps presented here or adapting existing workflows."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:367
+msgid "2. Select a Dataset"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:369
+msgid ""
+"In the public administration context, the first barrier to publish data "
+"as “open data” is to have a legal basis allowing it. We thus propose to "
+"start with an already published dataset for which the legal basis "
+"question is already solved. It could be either:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:374
+msgid ""
+"An Excel document that is already made available on one of the web pages "
+"of your organization"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:376
+msgid ""
+"A database whose content is already available through a website, meaning "
+"that its content can be searched by a user but not by a machine (lack of "
+"API)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:379
+msgid ""
+"Data sets published in reports (tables) that could have an added value to"
+" be published as row data on the web."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:381
+msgid ""
+"Open Data not yet published: this would be a rare but very valuable case,"
+" where a newly open dataset is not published in any form yet"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:384
+msgid "Moreover, preference can be given to:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:386
+msgid ""
+"Data based on international or national standards (:doc:`eCH standards "
+"<formate-ressourcen>`, for instance)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:388
+msgid "Popular data or data with a high re-use potential"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:389
+msgid ""
+"Data that can be easily combined with other open data, and thus provide "
+"greater value"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:393
+msgid "3. Model the Data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:395
+msgid ""
+"The particularity of Linked Data modeling is that it consists of a "
+"transformation: from the original data (relational database, CSV files, "
+"etc.) to the RDF model. Defining this target data model is the objective "
+"of this step. This can be only achieved by bringing together domain-"
+"specific competencies hold by the data owner and linked data competencies"
+" that must usually be hired somewhere else."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:402
+msgid ""
+"The domain expert will explain the objects and their relationship (local "
+"relationship but also relationships to other data sources) as well as the"
+" standard vocabularies of the domain. The linked data expert will then "
+"look for existing RDF versions of those vocabularies (aka ontologies), "
+"and eventually define a new RDF vocabulary if needed."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:409
+msgid "4. Specify appropriate terms of use and legal basis"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:411
+msgid ""
+"The appropriate terms of use and legal basis should be explicitly defined"
+" along with the dataset, in accordance with the model defined in `Terms "
+"of use <https://opendata.swiss/en/terms-of-use>`__ for OpenData.swiss."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:417
+msgid "5. The Role of “Good URIs” for Linked Data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:419
+msgid ""
+"URIs are at the core of the Linked Data architecture, as they provide "
+"world wide identifiers that promote a large scale “network effects”. They"
+" identify the vocabularies (ontologies), the datasets themselves, the "
+"objects (resources) they contains as well as their relationships."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:424
+msgid ""
+"The original document from W3C provides `useful guidelines "
+"<https://www.w3.org/TR/ld-bp/#HTTP-URIS>`__ about:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:427
+msgid ""
+"URI Design Principles Provide dereferenceable HTTP URIs (URL) that serve "
+"as machine-readable representation of the identified resource. Define a "
+"URI structure that will last as long as possible by not containing "
+"anything that could change."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:432
+msgid ""
+"URI Policy for Persistence Define a persistent URI policy and "
+"implementation plan, which relies on the commitment from the URI owner."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:436
+msgid ""
+"URI Construction Includes guidance coming from URI strategies applied "
+"successful by different organizations"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:439
+msgid ""
+"Internationalized Resource Identifiers (IRI) If necessary, the use of "
+"Unicode characters (non-ASCII characters) is possible as long as it "
+"follows existing standards."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:443
+msgid "To clarify the notion of URL, URI and IRI:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:448
+msgid "URL-URI-IRI"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:450
+msgid "Figure 2. A URL is a specific kind of URI, a URI is a specific kind of IRI"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:453
+msgid ""
+"A URL is a specific kind of URI that is also a location as it is an HTTP "
+"URI and can be looked-up on the Web. In comparison, a URN is a Uniform "
+"Resource Name as an ISBN code for example."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:457
+msgid ""
+"For more details about how to design persistent URIs, please refer to the"
+" original `URI Construction <https://www.w3.org/TR/ld-bp/#HTTP-URIS>`__ "
+"section which cites references to different documents. We would like to "
+"point out that the `Study on persistent URIs "
+"<http://philarcher.org/diary/2013/uripersistence/>`__ is a nice Web "
+"representation of the very complete `10 Rules for Persistent URIs "
+"<https://joinup.ec.europa.eu/collection/semantic-interoperability-"
+"community-semic/document/10-rules-persistent-uris>`__, which is the "
+"result of a survey done by the SEMIC working group for the European "
+"Commission."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:469
+msgid "6. Standard Vocabularies"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:471
+msgid ""
+"To facilitate the reuse of the data, reuse of standard vocabularies is a "
+"key factor as end-users will need to understand a dataset’s structure to "
+"quickly comprehend and assess it."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:475
+msgid ""
+"Standard vocabularies for Linked Data have been developed, validated and "
+"made available, as for instance:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:478
+msgid "`data catalogs <http://www.w3.org/TR/vocab-dcat/>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:479
+msgid "`organizations <http://www.w3.org/TR/vocab-org/>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:480
+msgid "`multidimensional data <http://www.w3.org/TR/vocab-data-cube/>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:482
+msgid ""
+"Existing vocabularies can be found using search tools (`Falcons "
+"<http://ws.nju.edu.cn/services/Falcon-AO>`__, `Watson "
+"<http://kmi.open.ac.uk/technologies/name/watson/>`__, `Swoogle "
+"<http://swoogle.umbc.edu/>`__) or directories (`LOV "
+"<https://lov.linkeddata.es/dataset/lov/>`__, the European Commission’s "
+"`Joinup platform <https://joinup.ec.europa.eu>`__, or domain specific "
+"portals as the `Bioportal <http://bioportal.bioontology.org/>`__ for the "
+"biological domain as an example). To evaluate a vocabulary, take into "
+"account if that vocabulary is published by a trusted group, is well "
+"documented and self-descriptive, is used by other datasets, has "
+"persistent URIs and is accessible for a long period, and if its provides "
+"a versioning policy. If there is a need for a new vocabulary we recommend"
+" to contact an ontology expert to fulfill this task properly."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:498
+msgid "7. Convert Data to Linked Data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:500
+msgid ""
+"Once all the former preparation steps have been carried out, it is "
+"possible to perform the data conversion from the original format to "
+"Linked Data (RDF triples). There are many ways to do this using existing "
+"tools available for that mapping operation, see the `W3C list "
+"<https://www.w3.org/wiki/ConverterToRdf>`__ for instance. The Linked Data"
+" expert will know which tool to use for the purpose and, if needed, will "
+"create a new one."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:508
+msgid ""
+"This step should include the generation of metadata for that datasets "
+"(see the official documentation about :doc:`DCAT-AP for Switzerland "
+"<dcat-ap-ch>`), and also the links to other datasets, as for instance "
+"DBPedia (the Linked Data version of Wikipedia), to make the new dataset "
+"part of the `Linked Data Cloud <https://lod-cloud.net/>`__."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:515
+msgid "8. Provide Machine Access to Data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:517
+msgid "Different methods can be used to provide data access for machines, as:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:519
+msgid "Direct URI resolution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:520
+msgid "a `RESTful API <http://www.w3.org/TR/ld-glossary/#rest-api>`__,"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:521
+msgid "a `SPARQL endpoint <http://www.w3.org/TR/ld-glossary/#sparql-endpoint>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:522
+msgid "via file download"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:524
+msgid ""
+"The SPARQL Protocol and RDF Query Language (SPARQL) is the standard query"
+" language for RDF. The current version, SPARQL 1.1, is defined by a `W3C "
+"recommandation <https://www.w3.org/TR/sparql11-overview/>`__."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:528
+msgid ""
+"It is common practice for Linked Data to provide a service that accepts "
+"SPARQL queries: a SPARQL endpoint. The endpoint returns data in the "
+"requested format as XML or JSON for instance."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:532
+msgid ""
+"We give further information about this in the `technical section <#Data-"
+"Access-Triple-store-and-SPARQL>`__."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:536
+msgid "9. Announce to the Public"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:538
+msgid ""
+"One straight-forward channel for announcing the availability of a new "
+"dataset in Linked Data is to `publish a reference to it "
+"</en/category/publish>`__ on opendata.swiss."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:543
+msgid "10. Social Contract of a Linked Data Publisher"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:545
+msgid ""
+"Linked Data publishers implicitly promise to guarantee the published "
+"datasets availability according to the predefined URI strategy, as if "
+"signing a “social contract” with the end-users."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:549
+msgid ""
+"This should be done in order to prevent third party applications to break"
+" when encountering an HTTP 404 “Not Found” error while accessing the "
+"data."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:554
+msgid "Technical information"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:556
+msgid ""
+"The technical structure underlying the principles of Linked Data are "
+"often illustrated in the form of this “layercake”:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:562
+msgid ""
+"Figure 3. The layer cake for RDF technologies (Source: `w3.org "
+"<https://www.w3.org/Consortium/Offices/Presentations/Overview/#(40)>`__)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:565
+msgid ""
+"This model has evolved through time, as the standards and tools were "
+"further developed and tested. Here follows an introduction to the main "
+"technical bricks (highlighted in red here above):"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:569
+msgid "unambiguous names for resources (for everything): IRIs (URIs, URLs)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:570
+msgid "a common data model to describe the resources: RDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:571
+msgid ""
+"schema for the data based on RDF (common vocabularies, ontologies): RDFS,"
+" OWL, SKOS"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:573
+msgid "a query language for RDF: SPARQL"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:574
+msgid "reasoning logic: OWL, Rules (RIF)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:577
+msgid "Resource Description Framework (RDF)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:579
+msgid ""
+"Linked Data is based on the Resource Description Framework (RDF, `a W3C "
+"standard <https://www.w3.org/TR/rdf-primer/>`__), a framework to "
+"represent information in the Web, expressing information about any "
+"resource (people, things, anything)."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:584
+msgid ""
+"RDF is a data model for “things” (resources) and their “relations”, where"
+" each piece of information is an RDF Statement (or RDF Triple) of the "
+"following structure:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:592
+msgid ""
+"Such a statement composed of three elements describes how a resource (the"
+" **subject**) is linked by a property (the **predicate**) to another "
+"resource or a value (the **object**)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:596
+msgid "Example of triples"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:603
+msgid "Each triple can be represented visually as for instance:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:608
+msgid "Figure 4. RDF triple"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:610
+msgid ""
+"As we can see, an RDF triple forms a graph where the subjects and objects"
+" make up the nodes and the predicates form the arcs."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:613
+msgid "Here is a visual representation of the few triples here above:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:618
+msgid "Figure 5. RDF Graph"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:620
+msgid ""
+"RDF data, and thus Linked Data, form a Graph Database, which is different"
+" from the more common Relational or Hierarchical Databases:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:626
+msgid ""
+"Figure 6. Three different types of databases (Source: "
+"`linkeddatatools.com <http://www.linkeddatatools.com/introducing-rdf>`__)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:629
+msgid ""
+"So where do IRIs, the foundation of the layercake, come into play ? "
+"Everywhere! Everything is identified by a URL (a specific form of IRI), "
+"except literal values, as “1910-07-28” in our running example. We did not"
+" mention any URL in the former presentations to make things simple and "
+"more readable."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:635
+msgid "Each resource is a URL, for example:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:641
+msgid "Each property is also a resource, and so:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:647
+msgid "Here is the real RDF graph, with fully qualified URIs:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:652
+msgid "Figure 7. RDF graph with fully qualified URIs"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:655
+msgid "RDF documents"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:657
+msgid ""
+"There exist different specifications to write a RDF Graph (i.e. RDF "
+"Triples) to a file. This process is called “serialization” and the RDF "
+"1.1 Primer gives the following list:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:661
+msgid ""
+"`TURTLE <https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-"
+"TURTLE>`__ and `TRIG <https://www.w3.org/TR/2014/NOTE-"
+"rdf11-primer-20140225/#bib-TRIG>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:664
+msgid ""
+"`JSON-LD <https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-"
+"JSON-LD>`__ (JSON based)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:666
+msgid ""
+"`RDFa <https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-RDFA-"
+"PRIMER>`__ (for HTML embedding)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:668
+msgid ""
+"`N-Triples <https://www.w3.org/TR/2014/NOTE-"
+"rdf11-primer-20140225/#bib-N-TRIPLES>`__ and `N-Quads "
+"<https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-N-QUADS>`__ "
+"(line-based exchange formats)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:672
+msgid ""
+"`RDF/XML <https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/#bib-"
+"RDF11-XML>`__ (the original 2004 syntax, updated for RDF 1.1)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:675
+msgid "The most common ones in 2016 are:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:677
+msgid ""
+"Turtle to write down RDF Triples in a text file that will have a “.ttl” "
+"extension (a format that is easily readable by a human and thus prefered "
+"to the RDF/XML version)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:680
+msgid ""
+"JSON-LD to store RDF data in java objects, which is a popular and "
+"practical format for computer programmers"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:682
+msgid ""
+"RDFa to add RDF inside HTML pages, the RDF data being not visible to end-"
+"users but at disposal for crawlers."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:685
+msgid "Turtle is a pretty simple format where each triple is written down."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:687
+msgid "Our running example can be serialized in Turtle as follow:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:694
+msgid "In practice, some syntaxe shortcuts will be used."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:696
+msgid "the final document will rather look like:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:709
+msgid "Ontologies, RDFs and OWL"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:711
+msgid ""
+"RDF was designed to represent data in a machine-friendly way, but we are "
+"still missing an important part of Information Modeling: a Data Model or "
+"Schema. In term of Linked Data and RDF, the data model is called a "
+"“vocabulary” or “ontology”. For that purpose, RDF has been extended by "
+"`RDFSchema (RDFs) <https://www.w3.org/TR/rdf-schema/>`__ and the "
+"`Ontology Web Language (OWL) <https://www.w3.org/TR/owl2-overview/>`__. "
+"This is also where semantics is added to RDF."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:719
+msgid ""
+"RDFs allows to define Classes and Properties. Classes are used to group "
+"similar resources together by giving one or more types to a resource. In "
+"our example above, Albert, Eduard and Mileva are instances of a class "
+"Person. RDFs can be used to add some semantics to the property “spouse” "
+"for instance, by saying that the object and subject of this property are "
+"instances of the class Person. This information could serve for further "
+"checking or reasoning."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:727
+msgid ""
+"OWL goes one step further to define logical axioms and rules that can be "
+"further used by an inference engine to deduce new facts out of implicit "
+"knowledge. As a simple example, the “spouse” property can be defined as "
+"“symmetric”, in which case an inference engine would deduce from the "
+"triple ``<Albert> <has-spouse> <Milena>`` a new triple ``<Milena> <has-"
+"spouse> <Albert>``. Without that inference, querying for the spouse of "
+"Milena would give no result."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:735
+msgid ""
+"The RDF data model is thus a common language for the schema and the data "
+"as well."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:739
+msgid "Data Access - Triple store and SPARQL"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:741
+msgid ""
+"As described in the W3C’s “Best Practices for Publishing Linked Data”, "
+"there are different ways to provide machine access to data, and thus "
+"different ways for a end-user to access the data."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:745
+msgid ""
+"We will conclude with our example by showing how an end-user can access "
+"or query that data which comes from the DBPedia site."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:748
+msgid "**Direct URI resolution:**"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:750
+msgid ""
+"Any of the mentioned resources can be dereferenced by simply accessing "
+"the following URLs:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:753
+msgid "http://dbpedia.org/page/Albert_Einstein"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:754
+msgid "http://dbpedia.org/page/Eduard_Einstein"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:755
+msgid "http://dbpedia.org/ontology/parent"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:756
+msgid "http://dbpedia.org/ontology/spouse"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:758
+msgid "**File download:**"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:760
+msgid ""
+"DBPedia datasets are available for download from `wiki.dbpedia.org "
+"<https://wiki.dbpedia.org/datasets>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:763
+msgid "**SPARQL endpoint:**"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:765
+msgid ""
+"The databases for RDF are called Triple Stores, a specific kind of Graph "
+"Databases. RDF data in a triple store can be exposed for direct querying "
+"through a SPARQL endpoint. The SPARQL endpoint for DBPedia can be "
+"accessed `here <https://dbpedia.org/sparql>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:770
+msgid ""
+"To give it a try, please copy/paste the following SPARQL query to ask for"
+" the spouse(s) of Albert Einstein (note that the SPARQL syntax is similar"
+" to the Turtle format), and hit the “run query” button to see the "
+"results:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:775
+msgid "``SELECT * {dbr:Albert_Einstein dbo:spouse ?spouse}``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:777
+#, python-format
+msgid ""
+"Or just `click here <https://dbpedia.org/sparql?default-graph-"
+"uri=http%3A%2F%2Fdbpedia.org&query=select+*+%7Bdbr%3AAlbert_Einstein+dbo%3Aspouse+%3Fspouse%7D&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on>`__."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:780
+msgid ""
+"See `a list of SPARQL endpoints <https://sparqles.ai.wu.ac.at/>`__ and "
+"their status as published by Open Knowledge."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:784
+msgid "Additional resources"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:786
+msgid "Here are some more resources helpful to work with Linked Data."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:788
+msgid "A W3C generic `list of tools <https://www.w3.org/wiki/Main_Page>`__."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:790
+msgid "Programming"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:792
+msgid ""
+"`List of libraries for different programming languages "
+"<https://www.w3.org/2001/sw/wiki/Tools>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:794
+msgid ""
+"`A Semantic Web Primer for Object-Oriented Software Developers "
+"<https://www.w3.org/TR/2006/NOTE-sw-oosd-primer-20060309/>`__ (2006):"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:798
+msgid "RDF Data"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:800
+msgid "`The Linking Open Data cloud diagram <https://lod-cloud.net/>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:802
+msgid "RDF Converters"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:804
+msgid "`W3C list of converters to RDF <https://www.w3.org/wiki/ConverterToRdf>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:806
+msgid "RDF Validators"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:808
+msgid "`W3C validator <https://www.w3.org/RDF/Validator/>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:810
+msgid "SPARQL Tutorials"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:812
+msgid "`Tutorial from Euclid <http://euclid-project.eu/modules/chapter2.html>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:814
+msgid ""
+"`Video introduction <https://www.youtube.com/watch?v=FvGndkpa4K0>`__ from"
+" Bob Ducharme (11 min.):"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:816
+msgid ""
+"Cambridge Semantics: `Sparql by example "
+"<https://www.cambridgesemantics.com/blog/semantic-university/learn-sparql"
+"/sparql-by-example/>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:818
+msgid ""
+"`A tutorial <http://corese.inria.fr/srv/tutorial/sparql>`__ by "
+"running/completing queries, from the Coreses Project (INRIA):"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:820
+msgid ""
+"`From SQL to SPARQL <https://www.slideshare.net/grecognos/from-sql-to-"
+"sparql>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:822
+msgid ""
+"Wikidata `page with examples "
+"<https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service>`__ and some"
+" prepared queries on the `SPARQL endpoint <https://query.wikidata.org>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:826
+msgid ""
+"`UniProt SPARQL Endpoint with examples "
+"<https://sparql.uniprot.org/sparql>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:828
+msgid ""
+"`Tutorial from LinkedDataTools <http://www.linkeddatatools.com/querying-"
+"semantic-data>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:831
+msgid "SPARQL Endpoints"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:833
+msgid "`SPARQL EndPoints status <https://sparqles.ai.wu.ac.at/availability>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:834
+msgid ""
+"`W3C list <https://www.w3.org/wiki/SparqlEndpoints>`__ (may be out of "
+"date)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:837
+msgid "SPARQL validators"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:839
+msgid "http://sparql.org/query-validator.html"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:840
+msgid "https://sws.ifi.uio.no/sparqler/validator.html"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:842
+msgid "Triple Stores"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:844
+msgid ""
+"A `W3C list of large triple stores "
+"<https://www.w3.org/wiki/LargeTripleStores>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:847
+msgid "Glossary"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:849
+msgid ""
+"W3C maintains a `glossary for Linked Data <https://www.w3.org/TR/ld-"
+"glossary/>`__."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:852
+msgid "References"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:854
+msgid ""
+"Jim Ericson. Net expectations - what a web data service economy implies "
+"for business. Information Management Magazine, Jan/Feb, 2010."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/linked-open-data.rst:857
+msgid ""
+"Tom Heath and Christian Bizer (2011) Linked Data: Evolving the Web into a"
+" Global Data Space (1st edition). Synthesis Lectures on the Semantic Web:"
+" Theory and Technology, 1:1, 1-136. Morgan & Claypool."
+msgstr ""
+

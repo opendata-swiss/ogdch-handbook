@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/nutzen/daten-suchen.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:4
+msgid ":doc:`Nutzen <nutzen>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:5
+#: ../../source/content/nutzen/daten-suchen.rst:9
+msgid "Daten suchen"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:12
+msgid "Wie finde ich die Daten, die ich brauche?"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:16
+msgid ""
+"Um Ihnen die Suche nach Daten zu erleichtern, bietet opendata.swiss ein "
+"Suchfeld an. Und das hat es in sich: Sie können mittels sogenannter "
+"Querysyntax komplexe Suchanfragen auf die Daten von opendata.swiss "
+"absetzen. Hier erklären wir Ihnen, worum es sich dabei genau handelt und "
+"worauf Sie achten müssen. Bitte beachten Sie, dass das Dokument derzeit "
+"nur in Englisch verfügbar ist."
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:24
+msgid "Technical background"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:26
+msgid ""
+"opendata.swiss has a very powerful search engine, that can help you to "
+"find exactly the datasets you want. The search is provided by the open "
+"source component `Apache Lucene/Solr "
+"<https://lucene.apache.org/solr/>`__. Every dataset is indexed by Solr "
+"when it gets updated, and if you perform a search on the portal, this "
+"index is queried to efficiently deliver results."
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:33
+msgid ""
+"The search index is basically the “database” where all the information "
+"for the search is saved. It uses a custom schema with all the dataset "
+"fields that should be indexed. The schema is flat, i.e. nested elements "
+"like resources must be saved differently, in order for Solr to index "
+"them. The same applies to the multilingual fields, which are all stored "
+"with the language suffix, e.g. ``keywords_en`` contains the English "
+"keywords."
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:41
+msgid ""
+"By default, all the fields that belong to a dataset are copied in one "
+"field (called *“text”*), so that the search process only has to check one"
+" field to find a match. So if a user submits a search with the query "
+"“weather”, Solr runs this query against the *“text”* field of all "
+"datasets."
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:48
+msgid "Search Index"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:50
+msgid "The search index contains the following fields:"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst
+msgid "URLs"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:52
+msgid "``url``, ``ckan_url``, ``download_url``, ``res_url``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst
+msgid "Text-fields"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:54
+msgid ""
+"``extras_*``, ``res_extras_*``, ``urls``, ``name``, ``title``, "
+"``title_string``, ``text``, ``license``, ``notes`` ``tags``, ``groups``, "
+"``organization``, ``res_name`` ``res_format``, ``res_description``, "
+"``identifier``, ``see_alsos`` ``maintainer``, ``author``, ``publishers``,"
+" ``contact_points``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst
+msgid "Translated fields"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:60
+msgid ""
+"``title``, ``keywords``, ``groups`` ``organization``, ``res_name``, "
+"``res_description``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:63
+msgid ""
+"Find more detailed information about the Solr configuration in the "
+"`official Solr documentation "
+"<https://lucene.apache.org/solr/guide/6_6/index.html>`__. The config and "
+"schema of opendata.swiss is available on GitHub:"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:67
+msgid ""
+"`solrconfig.xml <https://github.com/opendata-swiss/ckanext-"
+"switzerland/blob/master/solr/solrconfig.xml>`__"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:68
+msgid ""
+"`schema.xml <https://github.com/opendata-swiss/ckanext-"
+"switzerland/blob/master/solr/schema.xml>`__"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:70
+msgid ""
+"The source of the referenced files in the ``solr.xml`` (e.g. "
+"``italian_stop.txt``, ``fr_elision.txt``, etc.) can be found in the "
+"official CKAN-Repository of the current `CKAN-Version on Github "
+"<https://github.com/ckan/ckan/tree/master/ckanext/multilingual/solr>`__. "
+"All other files (e.g. ``stopwords.txt``) are provided by Solr."
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:77
+msgid "Query syntax"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:79
+msgid ""
+"Solr has its own `query syntax "
+"<https://lucene.apache.org/core/3_6_0/queryparsersyntax.html>`__ to write"
+" complex queries. Depending on the query, Solr uses a different query "
+"parser to determine what to do."
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:84
+msgid "Search operators"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:86
+msgid ""
+"Use ``+{field}:{value}`` to include a search term, e.g. "
+"``+title_en:power`` to find all datasets, whose English title contains "
+"the word “power”"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:89
+msgid ""
+"Use ``-{field}:{value}`` to exclude a search term, e.g. ``+title_en:power"
+" -title_en:hydraulic`` to find all datasets, whose English title contains"
+" the word “power”, but not “hydraulic”"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:93
+msgid ""
+"Use ``AND`` to combine several search terms that all must match, e.g. "
+"``keywords_en:(geology AND geophysics)`` to find all datasets that have "
+"both tags ``geology`` and ``geophysics``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:97
+msgid ""
+"Use ``OR`` to combine several search terms, where one of them must match,"
+" e.g. ``organization:(kanton-thurgau OR stadt-zurich)``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:100
+msgid ""
+"All of these options can be further combined together, e.g. "
+"``organization:(kanton-thurgau OR stadt-zurich) karte``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:104
+msgid "Searchterm suggestions"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:106
+msgid ""
+"The search-field of opendata.swiss provides searchterm-suggestions when a"
+" user types into it. For each language a self-contained Solr index is "
+"built multiple times throughout the day. That means that changes to "
+"datasets or new data won’t be reflected in the suggestions immediately."
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:112
+msgid "The index is based on the following fields:"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:114
+msgid "``dataset-title`` (translated)"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:115
+msgid "``keywords`` (translated)"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:116
+msgid "``groups`` (translated)"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:117
+msgid "``organization`` (translated)"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:118
+msgid "``distribution-name`` (translated)"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:119
+msgid "``author``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:120
+msgid "``maintainer``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:121
+msgid "``contact_points``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:122
+msgid "``publishers``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:123
+msgid "``identifier``"
+msgstr ""
+
+#: ../../source/content/nutzen/daten-suchen.rst:124
+msgid "``distribution-format``"
+msgstr ""
+
