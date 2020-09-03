@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/vorbereiten/dataset.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset.rst:4
+msgid ":doc:`Vorbereiten <vorbereiten>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset.rst:5
+#: ../../source/content/vorbereiten/dataset.rst:9
+msgid "Für jedes Dataset"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset.rst:12
+msgid "Welche Schritte sind vor der Publikation eines Datasets nötig?"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset.rst:16
+msgid ""
+"Bevor Sie Daten auf opendata.swiss publizieren können, müssen Sie "
+"sicherstellen, dass die Anforderungen für die Publikation von OGD erfüllt"
+" werden. Dies gilt für jedes einzelne Dataset:"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset.rst:20
+msgid ":doc:`Rechtliche Anforderungen prüfen <dataset/rechtlicher-check>`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset.rst:21
+msgid ":doc:`Technische Anforderungen prüfen <dataset/technischer-check>`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset.rst:22
+msgid ""
+":doc:`Organisatorische Anforderungen prüfen <dataset/organisatorischer-"
+"check>`"
+msgstr ""
+

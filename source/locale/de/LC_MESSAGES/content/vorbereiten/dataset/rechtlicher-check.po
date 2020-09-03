@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:4
+msgid ":doc:`Vorbereiten <../vorbereiten>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:5
+msgid ":doc:`Dataset <../dataset>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:6
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:10
+msgid "Rechtliche Anforderungen prüfen"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:13
+msgid "Wie identifiziere ich die passende Nutzungsbedingung für meine Datasets?"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:17
+msgid ""
+"Um Ihre Daten zu Open Data zu machen, müssen Sie für diese ein offene "
+"Nutzungsbedingung anwenden. In diesem Schritt stellen Sie sicher, dass "
+"Sie Ihr ausgewähltes Dataset rechtlich als OGD publizieren dürfen und "
+"somit eine offene Nutzungsbedingung angewendet wird. Wir begleiten Sie "
+"bei der Auswahl der richtigen Nutzungsbedingung."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:26
+msgid "1. Rechtliche Grundlage"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:28
+msgid ""
+"Das folgende Prüfschema zeigt auf, welche Prüfschritte von Ihnen "
+"vorzunehmen sind, um sicherzustellen, dass das Dataset als OGD publiziert"
+" werden darf. Es liegt in Ihrer Verantwortung, dass legitime "
+"Schutzinteressen, wie beispielsweise Datenschutz oder der Schutz privater"
+" Geschäftsgeheimnisse, gewährleistet sind."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:34
+msgid ""
+"Nähere Erläuterungen zu den einzelnen Fragen finden Sie in unserer "
+"begleitenden `Arbeitshilfe "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:43
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:116
+msgid "Support"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:45
+msgid ""
+"Sie können eine Frage nicht klar beantworten? Werfen Sie einen Blick in "
+"unsere `Arbeitshilfe für Behörden zur Publikation von Daten als OGD "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__."
+" Falls Sie immer noch nicht weiterwissen, `schreiben Sie uns "
+"<mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:52
+msgid "Content-Divider"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:55
+msgid "2. Auswahl der Nutzungsbedingungen"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:57
+msgid ""
+"Für alle Daten auf opendata.swiss müssen offene Nutzungsbedingungen "
+"ausgewählt werden, die in Form von Symbolen dargestellt sind. Die Auswahl"
+" der richtigen Nutzungsbedingung erfolgt aufgrund der gesetzlichen "
+"Grundlage. Folgende Varianten sind möglich, die den Datennutzenden "
+"angezeigt werden:"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:68
+msgid "Freie Nutzung"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:70
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:80
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:90
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:100
+msgid "Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:71
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:81
+msgid "Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:72
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:92
+msgid "Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz)."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:78
+msgid "Freie Nutzung. Quellenangabe ist Pflicht."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:82
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:102
+msgid "Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz)."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:88
+msgid ""
+"Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des "
+"Datenlieferanten zulässig."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:91
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:101
+msgid ""
+"Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie "
+"eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:98
+msgid ""
+"Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit "
+"Bewilligung des Datenlieferanten zulässig."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:104
+msgid ""
+"Bestimmend für die Auswahl der Nutzungsbedingung ist die "
+":ref:`gesetzliche Grundlage <vorbereiten_rechtlicher_check>`. Die zwei "
+"einzigen, möglichen Einschränkungen sind 1) die Pflicht zur Quellenangabe"
+" und 2) die Pflicht zum Einholen einer Bewilligung für eine kommerzielle "
+"Nutzung. Schreibt die gesetzliche Grundlage eine oder beide "
+"Einschränkungen vor, müssen sie mittels der Nutzungsbedingung "
+"kommuniziert werden."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:111
+msgid ""
+"Notieren Sie sich die richtige Nutzungsbedingung für die Publikation "
+"Ihres Datasets auf opendata.swiss. Dieses Attribut wird später in den "
+"Metadaten eingegeben."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:118
+msgid ""
+"Sie sind sich unsicher, ob Sie die richtige Nutzungsbedingung ausgewählt "
+"haben? `Sprechen Sie mit uns darüber <mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:123
+msgid "Mehr zum Thema"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:125
+msgid ""
+"`Arbeitshilfe für Behörden zur Publikation von Daten als OGD (pdf) "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__"
+" – Das Dokument erklärt sämtliche Fragen des rechtlichen Checks und trägt"
+" so zur Entscheidungsfindung bei."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:126
+msgid ""
+"`Nutzungsbedingungen (Link) <https://opendata.swiss/de/terms-of-use>`__ –"
+" Die Website fasst sämtliche Nutzungsbedingungen für OGD übersichtlich "
+"erklärt zusammen."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:127
+msgid ""
+"`Rechtliche Rahmenbedingungen zur Publikation von Daten als Open "
+"Government Data (OGD) (pdf) "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147095.html>`__"
+" – Das Dokument erläutert den rechtlichen Rahmen für die Umsetzung der "
+"OGD Strategie, erarbeitet von der Arbeitsgruppe Recht OGD."
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:131
+msgid ""
+":doc:`Nächster Schritt: Technische Anforderungen prüfen <technischer-"
+"check>`"
+msgstr ""
+
+#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:133
+msgid ""
+"Nachdem Sie die richtige Nutzungsbedingung ausgewählt haben, geht es im "
+"zweiten Schritt um die technischen Anforderungen, die die Ihr Dataset "
+"erfüllen muss."
+msgstr ""
+

@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/glossar/begriffe.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:4
+#: ../../source/content/glossar/begriffe.rst:8
+msgid "Begriffe"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:11
+msgid "Was ist was bei Open Data?"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:15
+msgid "Jumbbox"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:18
+msgid "`A`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:21
+msgid "Abnahmeumgebung"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:23
+msgid ""
+"Die Test-Version der Plattform opendata.swiss. In der Abnahmeumgebung "
+"sind wie in der Produktionsumgebung ein Backend und ein Frontend "
+"verfügbar. Damit können Datenpublizierende den Publikationsprozess über "
+"das Backend testweise durchführen und das Resultat im von den "
+"Suchmaschinen nicht indizierten Frontend prüfen. Jede neue Publikation "
+"startet hier und wird von der Geschäftsstelle OGD abgenommen, bevor sie "
+"in Produktion gehen darf. Wichtig: Das User-Management ist aus "
+"Sicherheitsgründen für beide Umgebungen (Abnahme und Produktion) "
+"getrennt. Sie benötigen daher zwei User-Profile. Die URL zu dieser "
+"Umgebung erhalten Datenpublizierende bei ihrer Registrierung."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:39
+msgid "`B`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:42
+msgid "Backend"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:44
+msgid ""
+"Der Hintergrund oder nicht sichtbare Teil einer Website. Dieser ist nur "
+"Administratoren und bei opendata.swiss den Datenpublizierenden "
+"zugänglich, nicht aber der Öffentlichkeit. Im Backend erfassen die "
+"Datenpublizierende ihre Organisation und richten den Import Ihrer "
+"Metadaten ein. Das Backend der Abnahmeumgebung und der "
+"Produktionsumgebung sind nahezu identisch."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:54
+msgid "`C`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:57
+msgid "CKAN"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:59
+msgid ""
+"Open Source Software für Datenportale. Mit dieser Software ist auch "
+"opendata.swiss gebaut. `Mehr zu CKAN <https://ckan.org>`__."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:62
+msgid "Katalog Endpunkt (Catalogue endpoint)"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:64
+msgid "URL, mit der ein Datenkatalog abgeholt, sprich «geharvested», werden kann."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:68
+msgid "`D`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:71
+msgid "Dataset"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:73
+msgid ""
+"Ein Dataset entspricht einem Eintrag auf opendata.swiss. Es wird von "
+"einer Organisation publiziert bzw. kuratiert und ist in einer oder "
+"mehreren Darstellungen (\"Ressourcen\" oder \"Distribution\") zum "
+"Download verfügbar. Auf opendata.swiss entspricht dies einem Metadaten-"
+"Eintrag der Klasse dcat:Dataset (Dataset-Metadaten-Record) und beschreibt"
+" ein einzelnes, thematisch geschlossenes Dataset. Beispiel:"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:82
+msgid ""
+"`Dataset: Statistiken Dienst Überwachung Post- und Fernmeldeverkehr ÜPF "
+"<https://opendata.swiss/de/dataset/statistiken-dienst-ueberwachung-post-"
+"und-fernmeldeverkehr-uepf>`__"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:84
+msgid ""
+"`Ressource: Detaillierte Statistik 2011 "
+"<https://opendata.swiss/de/dataset/statistiken-dienst-ueberwachung-post-"
+"und-fernmeldeverkehr-uepf/resource/fffbd06f-"
+"ddc3-43b6-9873-e4aef316e4d0>`__"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:85
+msgid "Datenpublizierende"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:87
+msgid "Personen oder Organisationen, die Open Government Data (OGD) publizieren."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:89
+msgid "Datennutzende"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:91
+msgid "Personen oder Organisationen, die Open Government Data (OGD) nutzen."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:93
+msgid "DCAT-AP"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:95
+msgid ""
+"DCAT-AP ist ein Anwendungsprofil des Data Catalog Vocabulary (DCAT) und "
+"dient zur Beschreibung der in Datenportalen verzeichneten Daten. Es "
+"richtet sich insbesondere an die Betreiber von Open-Data-Portalen und "
+"deren Datenpublizierende. Die Schweizerische Ableitung `DCAT-AP-CH "
+"<http://www.ech.ch/index.php/de/standards/39919>`__ wird seit 2016 von "
+"opendata.swiss verwendet. Diese wird kontinuierlich im Rahmen der eCH "
+"Fachgruppe OGD weiterentwickelt."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:104
+msgid "DCAT-AP-Katalog"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:106
+msgid ""
+"Ein Katalog, der dem DCAT Application Profile entspricht. Dieser Katalog "
+"ist eine kuratierte Sammlung von Metadaten-Records über offene Daten."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:109
+msgid "Distribution"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:111
+msgid ""
+"Eine physische Verkörperung respektive Repräsentanz des Datasets in einem"
+" spezifischen Format. Eine Distribution (oder auch «Ressource») ist eine "
+"spezifische Repräsentierung des Datasets. Dies können unterschiedliche "
+"Bereitstellungsformen eines Datasets (z.B. ein bestimmtes Format), "
+"unterschiedliche Zeitreihen oder auch unterschiedliche Aggregationsstufen"
+" sein."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:120
+msgid "`F`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:123
+msgid "Frontend"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:125
+msgid ""
+"Der Vordergrund oder öffentlich sichtbare Teil einer Website. Das "
+"Frontend der Abnahmeumgebung dient zur Prüfung der Daten und ist daher "
+"nahezu identisch zum Frontend der Produktionsumgebung aufgebaut. Das "
+"Frontend der Produktionsumgebung ist `https://opendata.swiss "
+"<https://opendata.swiss/de>`__."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:133
+msgid "`G`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:136
+msgid "Geocat, geocat.ch"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:138
+msgid ""
+"geocat.ch ist der Metadatenkatalog für die Geodaten der Schweiz. "
+"Bundesämter, Kantone, Gemeinden und private Firmen erfassen in geocat.ch "
+"Metadaten zu ihren eigenen Geodaten. geocat.ch bietet deshalb den idealen"
+" Einstiegspunkt für die Suche nach Geodaten: z.B. Luftbilder, geschützte "
+"Ortsbilder, Naturgefahren, Erdbeben usw."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:144
+msgid "Geschäftsstelle Open Government Data (OGD)"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:146
+msgid ""
+"Die Geschäftsstelle `Open Government Data (OGD) "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__ beim "
+"Bundesamt für Statistik (BFS) koordiniert in enger Zusammenarbeit mit dem"
+" Eidgenössischen Departement des Innern (EDI) die Umsetzung der OGD-"
+"Strategie Schweiz 2019–2023. Sie betreibt ausserdem das Portal "
+"opendata.swiss und das vorliegende Handbuch."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:154
+msgid "`H`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:157
+msgid "Harvester / Harvesting"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:159
+msgid ""
+"Als Harvesting bezeichnet man das automatische «Einsammeln» von Daten "
+"bzw. Metadaten im Fall von opendata.swiss. Mit Hilfe des `CKAN Harvester "
+"Plugins <https://docs.ckan.org/en/ckan-1.7.4/harvesting.html>`__ werden "
+"Datasets aus anderen Instanzen automatisch importiert."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:165
+msgid "`L`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:168
+msgid "Linked Open Data"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:170
+msgid ""
+"Linked Open Data ist ein von Tim Berners-Lee entwickeltes Konzept für "
+"Daten. Es bezeichnet ein Netz aus frei verfügbaren Daten, das im "
+"Interesse der Allgemeinheit ohne Einschränkungen zur Nutzung, Verbreitung"
+" und Weiterverwendung zugänglich gemacht wird. Linked Open Data gelten "
+"als hoch maschinenlesbare Open Data und werden somit auf opendata.swiss "
+"referenziert. Sollten Sie Fragen zum Thema haben oder möchten Sie Ihre "
+"Daten als Linked Open Data publizieren, kontaktieren Sie bitte `support-"
+"lindas@bar.admin.ch <mailto:support-lindas@bar.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:182
+msgid "`O`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:185
+msgid "Open Government Data"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:187
+msgid ""
+"Maschinenlesbare, offene und wiederverwendbare Verwaltungsdaten. `Mehr "
+"Informationen <https://www.admin.ch/opc/de/federal-"
+"gazette/2019/879.pdf>`__"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:190
+msgid "Open by default"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:192
+msgid ""
+"Prinzip, das im Rahmen der Strategie `Open Government Data 2019 – 2023 "
+"<https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__ auf "
+"Bundesebene umgesetzt werden muss. Ab 2020 sollen alle neuen publizierten"
+" Daten von Bundesstellen als offene, frei und maschinell nutzbare "
+"Verwaltungsdaten publiziert werden."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:199
+msgid "`P`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:202
+msgid "Produktionsumgebung"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:204
+msgid ""
+"Das CMS von opendata.swiss. Nachdem Datenpublizierende Ihre Daten in der "
+"Abnahmeumgebung geprüft haben, werden diese öffentlich in der "
+"Produktionsumgebung publiziert. Die URL erhalten Sie bei der ersten "
+"Registrierung."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:210
+msgid "`R`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:213
+msgid "Ressource"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:215
+msgid ""
+"Eine physische Verkörperung respektive Repräsentanz des Datasets in einem"
+" spezifischen Format. Eine Ressource (oder auch «Distribution») ist eine "
+"spezifische Repräsentierung des Datasets. Dies können unterschiedliche "
+"Bereitstellungsformen eines Datasets (z.B. ein bestimmtes Format), "
+"unterschiedliche Zeitreihen oder auch unterschiedliche Aggregationsstufen"
+" sein."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:225
+msgid "`S`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:228
+msgid "Showcase"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:230
+msgid ""
+"Unter `https://opendata.swiss/de/showcase "
+"<https://opendata.swiss/de/showcase>`__ werden laufend unterschiedliche "
+"Arten von Nutzungsbeispielen von Open Government Data aufgenommen. Wollen"
+" Sie uns auf weitere Showcases aufmerksam machen, `kontaktieren Sie uns "
+"gern <mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:236
+msgid "Slug"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:238
+msgid ""
+"Maschinenlesbarerer Name für ein Dataset oder eine Organisation, welcher "
+"auch im URL verwendet wird."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:242
+msgid "`V`_"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:245
+msgid "Verwaltungsdaten"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:247
+msgid ""
+"Verwaltungsdaten sind Daten, die im Rahmen eines gesetzlichen Auftrags "
+"erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Es "
+"handelt sich um strukturierte Sammlungen von Daten, in Form von "
+"beispielsweise Tabellen oder Datenbanken. «Geschäftsdossiers» oder "
+"«Ordnungssysteme» gelten nicht als Verwaltungsdaten ebenso nicht wie "
+"«Fachanwendungen» oder «Applikationen», obwohl ihre Inhalte durchaus als "
+"Verwaltungsdaten betrachtet werden können."
+msgstr ""
+
