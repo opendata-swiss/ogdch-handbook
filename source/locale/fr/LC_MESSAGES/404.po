@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/404.rst:8
+msgid ":fa:`home` :doc:`Handbuch <index>`"
+msgstr ""
+
+#: ../../source/404.rst:12
+msgid "Handbook opendata.swiss"
+msgstr ""
+
+#: ../../source/404.rst:15
+msgid "404 Seite nicht gefunden"
+msgstr ""
+
+#: ../../source/404.rst:17
+msgid ""
+"Sie sind auf einer unbekannten Seite des handbook.opendata.swiss "
+"gelandet. Wollen Sie auf die :doc:`Startseite <index>`? Das Handbuch "
+"liegt momentan nur in Deusch vor. Übersetzungen folgen in Kürze."
+msgstr ""
+
+#: ../../source/404.rst:21
+msgid ""
+"You are on an unkown page of the handbook.opendata.swiss. Do you want to "
+"proceed to the :doc:`homepage <index>`? The handbook has just relaunched "
+"in German language. Translations will follow shortly."
+msgstr ""
+

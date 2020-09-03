@@ -1,0 +1,304 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:4
+msgid ":doc:`Bibliothek <../bibliothek>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:5
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:9
+msgid "Formate für Ressourcen"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:12
+msgid "Zulässige Dateiformate für Ressourcen"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:16
+msgid ""
+"Auf opendata.swiss unterstützen wir eine Auswahl an Dateiformaten. Hier "
+"finden Sie eine Auflistung aller zulässigen Dateiformate. Falls Sie Ihr "
+"Format in dieser Liste nicht wiederfinden, `können Sie sich an uns wenden"
+" <mailto:opendata@bfs.admin.ch>`__ und wir fügen es gerne hinzu."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:23
+msgid "Strukturierte Daten"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:26
+msgid "Comma Separated Values (CSV)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:28
+msgid "`RFC 4180 <https://tools.ietf.org/html/rfc4180>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:29
+msgid "JavaScript Object Notation (JSON)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:31
+msgid "`RFC 4627 <https://tools.ietf.org/html/rfc4627>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:32
+msgid "Extensible Markup Language (XML)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:34
+msgid "`W3C REC <http://www.w3.org/TR/2008/REC-xml-20081126>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:35
+msgid "Resource Description Framework (RDF)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:37
+msgid "`W3C REC <https://www.w3.org/TR/?tag=data>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:40
+msgid "Text"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:43
+msgid "Text (TXT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:45
+msgid ""
+"`ISO Latin-1 (ISO 8859-1) <https://www.iso.org/standard/28245.html>`__ "
+"`ISO Latin-9 (ISO 8859-15) <https://www.iso.org/standard/29505.html>`__ "
+"Universal Coded Character Set (UCS) (`ISO 10646 "
+"<https://www.iso.org/standard/63182.html>`__) US-ASCII (ANSI X3.4-1986, "
+"bzw. ISO/IEC 646-US oder ISO/IEC 646:1991-IRV): `ISO/IEC 646-US:1991 "
+"<https://www.iso.org/standard/4777.html>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:50
+msgid "Extensible Hypertext Markup Language (XHTML)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:52
+msgid "`W3C REC <http://www.w3.org/TR/2001/REC-xhtml11-20010531>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:53
+msgid "Portable Document Format (PDF)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:55
+msgid ""
+"nur PDF 1.7 `ISO 32000-1:2008 "
+"<https://www.iso.org/standard/51502.html>`__, PDF/A `ISO 19005 "
+"<https://www.iso.org/standard/38920.html>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:57
+msgid "Office Open XML Document (DOCX)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:59
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:65
+msgid "`ISO/IEC 29500 <https://www.iso.org/standard/51463.html>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:60
+msgid "Open Document Text (ODT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:62
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:68
+msgid "`ISO/IEC 26300-1:2015 <https://www.iso.org/standard/66363.html>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:63
+msgid "Office Open XML Spreadsheet (XLSX)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:66
+msgid "Open Document Spreadsheet (ODS)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:71
+msgid "Geodaten"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:74
+msgid "GeoJSON (JSON)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:76
+msgid "`geojson.org <https://geojson.org/>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:77
+msgid "KML (XML)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:79
+msgid "`OGC KML <https://www.ogc.org/standards/kml>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:80
+msgid "GML (Geography Markup Language)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:82
+msgid "`OGC GML <https://www.ogc.org/standards/gml>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:83
+msgid "INTERLIS"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:85
+msgid "`www.interlis.ch <https://www.interlis.ch/>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:86
+msgid "INTERLIS/GML (gemäss eCH-0118)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:88
+msgid ""
+"`eCH-0118 "
+"<http://www.ech.ch/vechweb/page?p=dossier&amp;documentNumber=eCH-0118>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:89
+msgid "ESRI"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:91
+msgid ""
+"`ESRI Shapefile Technical Description "
+"<https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:92
+msgid "GeoPackage"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:94
+msgid "`OGC GeoPackage <http://www.geopackage.org>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:95
+msgid "GeoTIFF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:97
+msgid "`trac.osgeo.org/geotiff <https://trac.osgeo.org/geotiff>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:100
+msgid "Bilder und Grafiken"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:103
+msgid "TIFF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:105
+msgid ""
+"`(Tagged Image File Format) TIFF Revision 6.0 "
+"<https://www.itu.int/itudoc/itu-t/com16/tiff-fx/docs/tiff6.pdf>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:106
+msgid "JPEG2000"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:108
+msgid "`ISO/IEC 15444-1 :2004 <https://www.iso.org/standard/37674.html>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:109
+msgid "PNG"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:111
+msgid "`ISO/IEC 15948:2004 <https://www.iso.org/standard/29581.html>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:112
+msgid "SVG"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:114
+msgid "`W3C REC <http://www.w3.org/TR/2003/REC-SVG11-20030114>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:117
+msgid "Videos"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:120
+msgid "FLAC"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:122
+msgid "`FLAC Format Spezifikation <https://xiph.org/flac/format.html>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:123
+msgid "WebM"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:125
+msgid "`Web M Documentation <https://www.webmproject.org/docs/>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:126
+msgid "Ogg Vorbis"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:128
+msgid "`Vorbis I specification <https://xiph.org/vorbis/doc/>`__"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:129
+msgid "MPEG4"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:131
+msgid ""
+"`ISO/IEC 14496 <https://www.iso.org/standard/61490.html>`__, `ISO/IEC "
+"14496-3 <https://www.iso.org/standard/53943.html>`__, `ISO/IEC 14496-14 "
+"<https://www.iso.org/standard/39478.html>`__,"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:134
+msgid "Wave7"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:136
+msgid ""
+"`Multimedia Programming Interface and Data Specifications 1.0 <http"
+"://www-"
+"mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/Docs/riffmci.pdf>`__"
+msgstr ""
+

@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/publizieren/publikationsprozess.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:4
+msgid ":doc:`Publizieren <publizieren>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:5
+#: ../../source/content/publizieren/publikationsprozess.rst:9
+msgid "Publikationsprozess verstehen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:12
+msgid "Was muss ich über den Publikationsprozess wissen?"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:16
+msgid ""
+"Der Publikationsprozess besteht aus 4 Schritten. Wichtig zu wissen: Wenn "
+"Sie zum ersten Mal Daten publizieren, veröffentlichen Sie diese immer "
+"zuerst auf einer nicht-öffentlichen Umgebung, die für Test-Publikationen "
+"gedacht ist. Wir sprechen auch von :term:`«Abnahmeumgebung» "
+"<Abnahmeumgebung>`. Erst nach der finalen Freigabe werden die Datasets "
+"öffentlich auf opendata.swiss publiziert, auf der sogenannten "
+":term:`«Produktionsumgebung» <Produktionsumgebung>`. Wenn Sie Daten "
+"bereits zum wiederholten Male publizieren, können Sie dies direkt in der "
+"Produktionsumgebung tun."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:27
+msgid "Daten publizieren – So funktioniert’s:"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:30
+msgid "1. Schritt: Publikationsvariante auswählen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:32
+msgid ""
+"Es gibt vier verschiedene :doc:`Publikationsvarianten  "
+"<publikationsvariante>`, die Ihnen zur Verfügung stehen:"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:36
+msgid ""
+":doc:`Dataset manuell via Webformular erfassen <publikationsvarianten"
+"/metadaten-manuell-erfassen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:37
+msgid ""
+":doc:`Datenkatalog als XML importieren <publikationsvarianten/metadaten-"
+"via-xml-hochladen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:38
+msgid ""
+":doc:`Datenkatalog via Harvester erfassen "
+"<publikationsvarianten/harvesting>`"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:39
+msgid ""
+":doc:`Geodaten via geocat.ch erfassen <publikationsvarianten/geodaten>` "
+"(Wichtig: Alle Geodaten müssen nach dieser Methode publiziert werden)"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:41
+msgid ""
+"Gemeinsam mit der :term:`Geschäftsstelle OGD <Geschäftsstelle Open "
+"Government Data (OGD)>` identifizieren Sie, welche Publikationsvariante "
+"sich eignet, um einerseits Ihren Aufwand bei der Publikation zu "
+"minimieren und andererseits eine hohe Qualität der publizierten Einträge "
+"zu gewährleisten."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:48
+msgid "2. Schritt: Metadaten Import durchführen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:50
+msgid ""
+"Die Metadaten zu Ihren Daten werden auf opendata.swiss importiert, um "
+"diese den Nutzenden zur Verfügung zu stellen, so dass die publizierten "
+"Daten wiederverwendet werden können. Dieser Schritt wird je nach "
+"gewählter Methode unterschiedlich durchgeführt. Wenn Sie Ihren "
+"Datenkatalog als XML oder via Harvester importieren, müssen Ihre Datasets"
+" als XML-Datei im Format DCAT-AP-CH entweder direkt hochgeladen (XML "
+"Import) oder via URL (Harvester) an uns übergeben werden. Beim manuellen "
+"Erfassen sind die Felder im Backend von opendata.swiss direkt via "
+"Webformular auszufüllen. Nähere Informationen dazu finden Sie im Kapitel "
+":doc:`Publikationsvariante auswählen <publikationsvariante>`."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:62
+msgid "3. Schritt: Prüfung der Daten"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:64
+msgid ""
+"Nachdem Sie alle erforderlichen Metadaten erfasst haben, ist es Zeit für "
+"Qualitätssicherung. Bei der Erstpublikation stellen wir gemeinsam sicher,"
+" dass alle Daten, Metadaten und Beschreibungen in der Abnahmeumgebung "
+"korrekt erfasst und dargestellt werden. `Kontaktieren Sie uns "
+"<mailto:opendata@bfs.admin.ch>`__, um die Prüfung der Daten zu planen. "
+"Durchschnittlich benötigen wir 5 Werktage, um die Daten und Metadaten zu "
+"prüfen."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:72
+msgid "4. Schritt: Freigabe und Veröffentlichung"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:74
+msgid ""
+"Nachdem Sie Ihr finales Einverständnis gegeben haben, werden die Daten "
+"durch uns auf opendata.swiss am gemeinsam definierten Go-Live Datum "
+"veröffentlicht. Dies gilt grundsätzlich nur bei der Erstpublikation. Bei "
+"wiederholten Publikationen können Sie die Veröffentlichung selbst "
+"vornehmen bzw. für ein spezifisches Datum terminieren. Benötigen Sie "
+"Unterstützung bei einer wiederholten Publikation, können Sie uns "
+"selbstverständlich jederzeit `kontaktieren "
+"<mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:81
+msgid "Gut zu wissen"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsprozess.rst:83
+msgid ""
+"Bevor Sie mit dem Publikationsprozess starten, ist es wichtig, dass Sie "
+"die Rechtsgrundlage Ihrer Daten geprüft und die Nutzungsbedingung "
+"festgelegt haben. Sie haben diesen Schritt verpasst? Kein Problem, mit "
+"einem Klick können Sie dies nachholen und Ihre :doc:`Daten hier "
+"vorbereiten <../vorbereiten/dataset>`."
+msgstr ""
+
