@@ -29,11 +29,11 @@ msgstr ""
 #: ../../source/content/nutzen/daten-suchen.rst:5
 #: ../../source/content/nutzen/daten-suchen.rst:9
 msgid "Daten suchen"
-msgstr ""
+msgstr "Rechercher des données"
 
 #: ../../source/content/nutzen/daten-suchen.rst:12
 msgid "Wie finde ich die Daten, die ich brauche?"
-msgstr ""
+msgstr "Comment trouver les données dont j’ai besoin?"
 
 #: ../../source/content/nutzen/daten-suchen.rst:16
 msgid ""
@@ -43,7 +43,8 @@ msgid ""
 "absetzen. Hier erklären wir Ihnen, worum es sich dabei genau handelt und "
 "worauf Sie achten müssen. Bitte beachten Sie, dass das Dokument derzeit "
 "nur in Englisch verfügbar ist."
-msgstr ""
+msgstr "Le champ de recherche d’opendata.swiss facilite la recherche des données. La query syntax vous permet d’effectuer des recherches complexes sur l’ensemble des données d’opendata.swiss. Nous vous expliquons ci-dessous en quoi consiste cette recherche et comment procéder. "
+"Pour l’instant, le document n’est disponible qu’en anglais."
 
 #: ../../source/content/nutzen/daten-suchen.rst:24
 msgid "Technical background"
