@@ -25,15 +25,15 @@ msgstr ""
 #: ../../source/content/pflegen/pflegen.rst:4
 #: ../../source/content/pflegen/pflegen.rst:11
 msgid "Daten pflegen"
-msgstr ""
+msgstr "Gérer les données"
 
 #: ../../source/content/pflegen/pflegen.rst:8
 msgid "Auf einen Blick"
-msgstr ""
+msgstr "Vue d’ensemble"
 
 #: ../../source/content/pflegen/pflegen.rst:15
 msgid ":fa:`wrench` Work in progress: Dieser Inhalt wird aktuell überarbeitet."
-msgstr ""
+msgstr ":fa:`wrench` Travail en cours: ce contenu est actuellement en cours de révision."
 
 #: ../../source/content/pflegen/pflegen.rst:17
 msgid ""
@@ -41,13 +41,13 @@ msgid ""
 "weiterhin für Ihre Daten verantwortlich. Das umfasst genau zwei Aufgaben:"
 " Zum einen müssen Sie Ihre Daten regelmässig updaten. Zum anderen müssen "
 "Sie Anfragen von Nutzerinnen und Nutzern zu Ihren Daten beantworten."
-msgstr ""
+msgstr "Vous restez responsable de vos données, même après leur publication sur opendata.swiss. Pour ce faire, deux tâches vous incombent: mettre à jour vos données périodiquement et répondre aux questions des utilisateurs."
 
 #: ../../source/content/pflegen/pflegen.rst:22
 msgid ":doc:`Dataset updaten <datasets-updaten>`"
-msgstr ""
+msgstr ":doc:`Mettre à jour les données  <datasets-updaten>`"
 
 #: ../../source/content/pflegen/pflegen.rst:23
 msgid ":doc:`Auskunft zu Daten geben <auskunft-geben>`"
-msgstr ""
+msgstr ":doc:`Fournir des renseignements sur les données <auskunft-geben>`"
 
