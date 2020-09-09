@@ -10,13 +10,6 @@ Begriffe
 Was ist was bei Open Data?
 ==========================
 
-.. container:: ogdch-jumpbox
-
-   Jumbbox
-
-`A`_
------
-
 .. glossary::
 
   Abnahmeumgebung
@@ -35,11 +28,6 @@ Was ist was bei Open Data?
     Die URL zu dieser Umgebung erhalten Datenpublizierende
     bei ihrer Registrierung.
 
-`B`_
------
-
-.. glossary::
-
   Backend
     Der Hintergrund oder nicht sichtbare Teil einer Website.
     Dieser ist nur Administratoren und bei opendata.swiss
@@ -49,12 +37,6 @@ Was ist was bei Open Data?
     Das Backend der Abnahmeumgebung und der Produktionsumgebung
     sind nahezu identisch.
 
-
-`C`_
------
-
-.. glossary::
-
   CKAN
     Open Source Software für Datenportale.
     Mit dieser Software ist auch opendata.swiss gebaut.
@@ -63,11 +45,6 @@ Was ist was bei Open Data?
   Katalog Endpunkt (Catalogue endpoint)
     URL, mit der ein Datenkatalog abgeholt,
     sprich «geharvested», werden kann.
-
-`D`_
------
-
-.. glossary::
 
   Dataset
     Ein Dataset entspricht einem Eintrag auf opendata.swiss.
@@ -116,11 +93,6 @@ Was ist was bei Open Data?
     (z.B. ein bestimmtes Format), unterschiedliche Zeitreihen
     oder auch unterschiedliche Aggregationsstufen sein.
 
-`F`_
------
-
-.. glossary::
-
   Frontend
     Der Vordergrund oder öffentlich sichtbare Teil
     einer Website. Das Frontend der Abnahmeumgebung
@@ -128,11 +100,6 @@ Was ist was bei Open Data?
     identisch zum Frontend der Produktionsumgebung aufgebaut.
     Das Frontend der Produktionsumgebung ist
     `https://opendata.swiss <https://opendata.swiss/de>`__.
-
-`G`_
------
-
-.. glossary::
 
   Geocat, geocat.ch
     geocat.ch ist der Metadatenkatalog für die Geodaten der Schweiz.
@@ -150,21 +117,11 @@ Was ist was bei Open Data?
     Schweiz 2019–2023. Sie betreibt ausserdem das Portal
     opendata.swiss und das vorliegende Handbuch.
 
-`H`_
------
-
-.. glossary::
-
   Harvester / Harvesting
     Als Harvesting bezeichnet man das automatische «Einsammeln»
     von Daten bzw. Metadaten im Fall von opendata.swiss.
     Mit Hilfe des `CKAN Harvester Plugins <https://docs.ckan.org/en/ckan-1.7.4/harvesting.html>`__
     werden Datasets aus anderen Instanzen automatisch importiert.
-
-`L`_
------
-
-.. glossary::
 
   Linked Open Data
     Linked Open Data ist ein von Tim Berners-Lee entwickeltes
@@ -178,11 +135,6 @@ Was ist was bei Open Data?
     Ihre Daten als Linked Open Data publizieren,
     kontaktieren Sie bitte `support-lindas@bar.admin.ch <mailto:support-lindas@bar.admin.ch>`__.
 
-`O`_
------
-
-.. glossary::
-
   Open Government Data
     Maschinenlesbare, offene und wiederverwendbare
     Verwaltungsdaten.
@@ -195,21 +147,11 @@ Was ist was bei Open Data?
     alle neuen publizierten Daten von Bundesstellen als offene,
     frei und maschinell nutzbare Verwaltungsdaten publiziert werden.
 
-`P`_
------
-
-.. glossary::
-
   Produktionsumgebung
     Das CMS von opendata.swiss. Nachdem Datenpublizierende
     Ihre Daten in der Abnahmeumgebung geprüft haben, werden
     diese öffentlich in der Produktionsumgebung publiziert.
     Die URL erhalten Sie bei der ersten Registrierung.
-
-`R`_
------
-
-.. glossary::
 
   Ressource
     Eine physische Verkörperung respektive Repräsentanz
@@ -220,11 +162,6 @@ Was ist was bei Open Data?
     eines Datasets (z.B. ein bestimmtes Format),
     unterschiedliche Zeitreihen oder auch
     unterschiedliche Aggregationsstufen sein.
-
-`S`_
------
-
-.. glossary::
 
   Showcase
     Unter `https://opendata.swiss/de/showcase <https://opendata.swiss/de/showcase>`__
@@ -237,11 +174,6 @@ Was ist was bei Open Data?
   Slug
     Maschinenlesbarerer Name für ein Dataset oder eine
     Organisation, welcher auch im URL verwendet wird.
-
-`V`_
------
-
-.. glossary::
 
   Verwaltungsdaten
     Verwaltungsdaten sind Daten, die im Rahmen eines
