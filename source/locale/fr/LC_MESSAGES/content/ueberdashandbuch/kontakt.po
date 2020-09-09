@@ -25,11 +25,11 @@ msgstr ""
 #: ../../source/content/ueberdashandbuch/kontakt.rst:4
 #: ../../source/content/ueberdashandbuch/kontakt.rst:8
 msgid "Kontakt"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/content/ueberdashandbuch/kontakt.rst:11
 msgid "So erreichen Sie uns"
-msgstr ""
+msgstr "Pour nous joindre"
 
 #: ../../source/content/ueberdashandbuch/kontakt.rst:13
 msgid ""
@@ -37,11 +37,11 @@ msgid ""
 "allgemeinen Fragen zu Open Government Data helfen wir von der "
 ":term:`Geschäftsstelle Open Government Data <Geschäftsstelle Open "
 "Government Data (OGD)>` Ihnen gerne weiter."
-msgstr ""
+msgstr "Si vous avez des questions concernant le manuel, la procédure de publication sur opendata.swiss ou des questions générales sur les données publiques ouvertes, le secrétariat Open Government Data vous répondra volontiers."
 
 #: ../../source/content/ueberdashandbuch/kontakt.rst:18
 msgid ""
 "Schreiben sie uns unter `opendata@bfs.admin.ch "
 "<mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgstr "`Écrivez-nous <mailto:opendata@bfs.admin.ch>`__."
 
