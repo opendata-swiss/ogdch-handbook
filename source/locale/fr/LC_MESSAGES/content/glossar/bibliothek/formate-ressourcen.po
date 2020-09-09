@@ -29,11 +29,11 @@ msgstr ""
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:5
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:9
 msgid "Formate für Ressourcen"
-msgstr ""
+msgstr "Formats des ressources"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:12
 msgid "Zulässige Dateiformate für Ressourcen"
-msgstr ""
+msgstr "Formats autorisés"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:16
 msgid ""
@@ -41,11 +41,12 @@ msgid ""
 "finden Sie eine Auflistung aller zulässigen Dateiformate. Falls Sie Ihr "
 "Format in dieser Liste nicht wiederfinden, `können Sie sich an uns wenden"
 " <mailto:opendata@bfs.admin.ch>`__ und wir fügen es gerne hinzu."
-msgstr ""
+msgstr "opendata.swiss prend en charge différents formats de fichiers. Vous trouverez ici une liste de tous les formats autorisés. Si votre format ne "
+"figure pas dans cette liste, veuillez `nous contacter <mailto:opendata@bfs.admin.ch>`__ et nous l’ajouterons volontiers."
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:23
 msgid "Strukturierte Daten"
-msgstr ""
+msgstr "Données structurées"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:26
 msgid "Comma Separated Values (CSV)"
@@ -81,7 +82,7 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:40
 msgid "Text"
-msgstr ""
+msgstr "Texte"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:43
 msgid "Text (TXT)"
@@ -96,6 +97,12 @@ msgid ""
 "bzw. ISO/IEC 646-US oder ISO/IEC 646:1991-IRV): `ISO/IEC 646-US:1991 "
 "<https://www.iso.org/standard/4777.html>`__"
 msgstr ""
+"`ISO Latin-1 (ISO 8859-1) <https://www.iso.org/standard/28245.html>`__ "
+"`ISO Latin-9 (ISO 8859-15) <https://www.iso.org/standard/29505.html>`__ "
+"Jeu universel de caractères codés (UCS) (`ISO 10646 "
+"<https://www.iso.org/standard/63182.html>`__) US-ASCII (ANSI X3.4-1986, "
+"bzw. ISO/IEC 646-US oder ISO/IEC 646:1991-IRV): `ISO/IEC 646-US:1991 "
+"<https://www.iso.org/standard/4777.html>`__"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:50
 msgid "Extensible Hypertext Markup Language (XHTML)"
@@ -118,7 +125,7 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:57
 msgid "Office Open XML Document (DOCX)"
-msgstr ""
+msgstr "Document au format Office Open XML (docx)"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:59
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:65
@@ -127,7 +134,7 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:60
 msgid "Open Document Text (ODT)"
-msgstr ""
+msgstr "Texte au format OpenDocument (odt)"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:62
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:68
@@ -136,15 +143,15 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:63
 msgid "Office Open XML Spreadsheet (XLSX)"
-msgstr ""
+msgstr "Feuille de calcul au format Office Open XML (xlsx)"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:66
 msgid "Open Document Spreadsheet (ODS)"
-msgstr ""
+msgstr "Feuille de calcul au format OpenDocument (ods)"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:71
 msgid "Geodaten"
-msgstr ""
+msgstr "Géodonnées"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:74
 msgid "GeoJSON (JSON)"
@@ -160,7 +167,7 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:79
 msgid "`OGC KML <https://www.ogc.org/standards/kml>`__"
-msgstr ""
+msgstr "KML de l’OGC <https://www.ogc.org/standards/kml>`__"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:80
 msgid "GML (Geography Markup Language)"
@@ -168,7 +175,7 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:82
 msgid "`OGC GML <https://www.ogc.org/standards/gml>`__"
-msgstr ""
+msgstr "`GML de l’OGC <https://www.ogc.org/standards/gml>`__"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:83
 msgid "INTERLIS"
@@ -180,7 +187,7 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:86
 msgid "INTERLIS/GML (gemäss eCH-0118)"
-msgstr ""
+msgstr "GML pour INTERLIS (selon eCH-0118)"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:88
 msgid ""
@@ -196,7 +203,7 @@ msgstr ""
 msgid ""
 "`ESRI Shapefile Technical Description "
 "<https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf>`__"
-msgstr ""
+msgstr "`Description technique d’un fichier de formes selon l’ESRI <https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf>`__"
 
 #: ../../source/content/glossar/bibliothek/formate-ressourcen.rst:92
 msgid "GeoPackage"

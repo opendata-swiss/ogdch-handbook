@@ -26,18 +26,18 @@ msgstr ""
 #: ../../source/content/glossar/bibliothek.rst:8
 #: ../../source/content/glossar/bibliothek.rst:20
 msgid "Bibliothek"
-msgstr ""
+msgstr "Documentation"
 
 #: ../../source/content/glossar/bibliothek.rst:11
 msgid "Wo finde ich Zusatzmaterialien zu Open Government Data?"
-msgstr ""
+msgstr "Où trouver d’autres informations sur les données publiques ouvertes (open government data)?"
 
 #: ../../source/content/glossar/bibliothek.rst:15
 msgid ""
 "Wenn Sie sich weiter über Open Government Data informieren möchten, sind "
 "Sie hier an der richtigen Stelle. Hier finden Sie einen Überblick über "
 "Materialien, gängige Datenstandards und Formate."
-msgstr ""
+msgstr "Si vous cherchez des informations complémentaires sur les données publiques ouvertes, vous êtes à la bonne place. Vous trouverez dans ce manuel un aperçu de la documentation existante ainsi que les normes et les formats les plus courants."
 
 #: ../../source/content/glossar/bibliothek.rst:22
 msgid ""
@@ -45,16 +45,20 @@ msgid ""
 "für Statistik "
 "<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.html>`__."
 msgstr ""
+"Vous trouverez des informations intéressantes sur les données publiques ouvertes dans `la documentation de "
+"l’Office fédéral de la statistique <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.html>`__."
 
 #: ../../source/content/glossar/bibliothek.rst:26
 msgid "Standards für Daten"
-msgstr ""
+msgstr "Normes appliquées aux données publiées"
 
 #: ../../source/content/glossar/bibliothek.rst:28
 msgid ""
 ":doc:`DCAT-AP-CH <bibliothek/dcat-ap-ch>` dokumentiert den DCAT-AP-CH "
 "Standard, der auf opendata.swiss implementiert ist."
 msgstr ""
+":doc:`DCAT-AP-CH <bibliothek/dcat-ap-ch>`:"
+"ce document explique la norme DCAT-AP CH, en vigueur sur le site opendata.swiss."
 
 #: ../../source/content/glossar/bibliothek.rst:29
 msgid ""
@@ -63,12 +67,15 @@ msgid ""
 "wird, auf den DCAT-AP-CH Standard, der auf opendata.swiss implementiert "
 "ist."
 msgstr ""
+":doc:`Conversion d’ISO 19139_che en DCAT-AP CH <bibliothek/geocat-mapping>`: "
+"cette page contient des informations sur la conversion de données à partir du modèle GM03, utilisé pour les géodonnées, à la norme DCAT-AP CH, appliquée sur opendata.swiss. "
 
 #: ../../source/content/glossar/bibliothek.rst:30
 msgid ""
 ":doc:`Linked Open Data <bibliothek/linked-open-data>` führt Sie in das "
 "Thema Linked Open Data ein."
-msgstr ""
+msgstr ":doc:`Données ouvertes liées (linked open data) <bibliothek/linked-open-data>`: "
+"ce chapitre sert d’introduction aux données en libre accès liées. "
 
 #: ../../source/content/glossar/bibliothek.rst:31
 msgid ""
@@ -79,13 +86,14 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek.rst:34
 msgid "Anderes:"
-msgstr ""
+msgstr "Divers"
 
 #: ../../source/content/glossar/bibliothek.rst:36
 msgid ""
 ":doc:`Q&A Hosting <bibliothek/hosting>` enthält Fragen und Antworten zum "
 "Thema Hosting von Daten."
-msgstr ""
+msgstr ":doc:`FAQ sur l’hébergement <bibliothek/hosting>`: "
+"cette page présente des questions et des réponses concernant l’hébergement de données."
 
 #: ../../source/content/glossar/bibliothek.rst:37
 msgid ""

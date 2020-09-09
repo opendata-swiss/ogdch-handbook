@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../source/index.rst:107
 msgid "Glossar"
-msgstr ""
+msgstr "Documentation"
 
 #: ../../source/index.rst:114
 msgid "Über das Handbuch"

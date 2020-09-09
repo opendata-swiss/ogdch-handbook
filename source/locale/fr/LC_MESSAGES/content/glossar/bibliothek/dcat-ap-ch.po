@@ -32,18 +32,19 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:9
 msgid "DCAT-AP-CH"
-msgstr ""
+msgstr "DCAT-AP CH"
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:12
 msgid "Der Schweizer Metadaten-Datenstandard"
-msgstr ""
+msgstr "La norme suisse régissant les métadonnées concernant des données"
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:16
 msgid ""
 "DCAT-AP-CH ist der Schweizer Datenstandard, der derzeit auf "
 "`opendata.swiss <https://opendata.swiss/de/>`__ implementiert ist. Er "
 "basiert auf dem internationalen DCAT-AP Standard."
-msgstr ""
+msgstr "DCAT-AP CH est la norme suisse concernant des données `qu’opendata.swiss <https://opendata.swiss/de/>`__ applique actuellement. "
+"Elle se fonde sur la norme internationale DCAT-AP."
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:20
 msgid ""
@@ -60,11 +61,12 @@ msgid ""
 "teilweise Abweichungen zwischen diesen Datenstandards. Sollten Sie solche"
 " feststellen, `wenden Sie sich mit Ihren Fragen gerne an uns "
 "<mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgstr "Les jeux de données moissonnés sur opendata.swiss ou importés sur la plateforme via XML sont en principe disponibles dans ce format. DCAT-AP est une norme ouverte. Vos jeux de données peuvent donc contenir également des champs supplémentaires, non prévus par cette norme. Ces champs ne seront ni pris en compte ni publiés sur opendata.swiss. De notre côté nous avons défini des exigences minimales, décrites dans ce manuel, que vos données doivent respecter. Vous trouverez également ici des champs facultatifs qu’opendata.swiss prend en charge. La norme DCAT-AP fait l’objet d’une actualisation en continu. Il en va de même pour la norme suisse DCAT-AP CH et de la norme appliquée par opendata.swiss. D’où quelques écarts entre ces différentes normes. "
+"Si vous deviez en découvrir, n’hésitez pas `à nous adresser vos questions <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:33
 msgid "Diese Dokumentation ist derzeit nur in Englisch verfügbar."
-msgstr ""
+msgstr "La documentation ci-après n’est pour l’heure disponible qu’en anglais."
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:37
 msgid "DCAT-AP-CH Standard Overview"

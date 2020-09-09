@@ -30,11 +30,11 @@ msgstr ""
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:9
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:22
 msgid "Linked Open Data"
-msgstr ""
+msgstr "Données ouvertes liées (linked open data)"
 
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:12
 msgid "Einführung in Linked Open Data"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:16
 msgid ""
@@ -44,6 +44,7 @@ msgid ""
 "interpretierbar sind. Hier möchten wir Ihnen das Konzept näher "
 "vorstellen. Der Text ist derzeit nur in Englisch verfügbar."
 msgstr ""
+"opendata.swiss prend en charge les données ouvertes liées. Tim Berners-Lee a mis au point sa base d’évaluation des données pour que les jeux de données soient mis en réseaux, que ces données s’expliquent d’elles-mêmes et puissent être interprétées correctement par l’homme et la machine. Nous voudrions ici vous expliquer cette notion plus avant. Le texte n’est pour l’heure disponible qu’en anglais."
 
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:24
 msgid ""

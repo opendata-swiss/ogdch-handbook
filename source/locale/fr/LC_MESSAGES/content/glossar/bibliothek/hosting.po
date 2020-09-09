@@ -29,11 +29,11 @@ msgstr ""
 #: ../../source/content/glossar/bibliothek/hosting.rst:5
 #: ../../source/content/glossar/bibliothek/hosting.rst:12
 msgid "Hosting"
-msgstr ""
+msgstr "Hébergement"
 
 #: ../../source/content/glossar/bibliothek/hosting.rst:9
 msgid "Q&A"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../source/content/glossar/bibliothek/hosting.rst:16
 msgid ""
@@ -43,6 +43,8 @@ msgid ""
 "Antworten rund um das Thema Daten Hosting zusammengefasst. Die Fragen und"
 " Antworten sind derzeit nur in Englisch verfügbar."
 msgstr ""
+"L’hébergement est une condition sine qua non pour publier des données publiques ouvertes sur opendata.swiss. La responsabilité de l’hébergement incombe aux fournisseurs de données."
+"Nous avons résumé ci-après les principales questions et réponses ayant trait à l’hébergement de données. Elles ne sont pour l’heure disponibles qu’en anglais."
 
 #: ../../source/content/glossar/bibliothek/hosting.rst:22
 msgid "Intro"
