@@ -24,15 +24,15 @@ msgstr ""
 
 #: ../../source/content/ueberdashandbuch/ueber-das-handbuch.rst:4
 msgid "Über opendate.swiss"
-msgstr ""
+msgstr "À propos de ce manuel"
 
 #: ../../source/content/ueberdashandbuch/ueber-das-handbuch.rst:8
 msgid "Über das Handbuch"
-msgstr ""
+msgstr "À propos de ce manuel"
 
 #: ../../source/content/ueberdashandbuch/ueber-das-handbuch.rst:11
 msgid "Wegleitung zur Nutzung von opendata.swiss"
-msgstr ""
+msgstr "Guide d’utilisation d’opendata.swiss"
 
 #: ../../source/content/ueberdashandbuch/ueber-das-handbuch.rst:13
 msgid ""
@@ -46,11 +46,18 @@ msgid ""
 "organisiert: Von der Identifikation möglicher Open Data in Ihrer "
 "Organisation bis zur Datenpflege nach erfolgreicher Publikation Ihrer "
 "Daten auf opendata.swiss."
-msgstr ""
+msgstr "Le manuel d’opendata.swiss contient des instructions et des directives concernant la "
+"publication et l’utilisation de données sur opendata.swiss. Il a pour objectif de faciliter "
+"le travail des personnes et des organisations qui souhaitent mettre à disposition des données "
+"publiques en libre accès. Il est publié et actualisé par :term:`le secrétariat Open Government Data <Geschäftsstelle Open Government Data (OGD)>`, "
+"qui est rattaché à l’Office fédéral de la statistique. Son contenu est structuré en fonction "
+"de la procédure de publication de données sur opendata.swiss: de l’identification de potentielles "
+"données ouvertes au sein de leur organisation jusqu’à la maintenance de ces données après leur "
+"publication sur opendata.swiss."
 
 #: ../../source/content/ueberdashandbuch/ueber-das-handbuch.rst:24
 msgid "Über opendata.swiss"
-msgstr ""
+msgstr "À propos d’opendata.swiss"
 
 #: ../../source/content/ueberdashandbuch/ueber-das-handbuch.rst:26
 msgid ""
@@ -60,7 +67,11 @@ msgid ""
 "Government Data»-Strategie der Schweiz "
 "<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__ für "
 "die Jahre 2019 bis 2023 betrieben und weiterentwickelt."
-msgstr ""
+msgstr "opendata.swiss est le portail central des données ouvertes, donc disponibles en libre accès, "
+"des administrations publiques suisses. Dans ce contexte, on parle de données publiques ouvertes "
+"(de l’anglais open government data). Le portail est géré et développé dans le cadre de la stratégie "
+"en matière de libre accès aux données publiques en Suisse pour les années 2019 à 2023 (`stratégie OGD "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__)."
 
 #: ../../source/content/ueberdashandbuch/ueber-das-handbuch.rst:32
 msgid ""
@@ -75,6 +86,14 @@ msgid ""
 " eine `Liste aller Organisationen, die Daten publizieren "
 "<https://opendata.swiss/de/organization>`__."
 msgstr ""
+"La Confédération, les cantons, les communes et les entreprises parapubliques mettent leurs données ouvertes"
+"à disposition sur le portail opendata.swiss. Celui-ci propose des jeux de données dans des domaines très variés: "
+"primes de l’assurance-maladie, statistiques démographiques, liste de toutes les gares et arrêts des transports "
+"publics ou données météorologiques actuelles."
+"opendata.swiss a été mis sur pied par diverses organisations partenaires sous la responsabilité des Archives "
+"fédérales. L’Office fédéral de la statistique a repris la direction des opérations en 2019. "
+"Les partenaires impliqués continuent de développer le portail sans relâche. "
+"Voici `une liste des organisations qui publient des données <https://opendata.swiss/de/organization>`__."
 
 #: ../../source/content/ueberdashandbuch/ueber-das-handbuch.rst:43
 msgid "Support"
@@ -82,7 +101,7 @@ msgstr ""
 
 #: ../../source/content/ueberdashandbuch/ueber-das-handbuch.rst:46
 msgid "Unterstützen Sie uns"
-msgstr ""
+msgstr "Nous avons besoin de votre avis"
 
 #: ../../source/content/ueberdashandbuch/ueber-das-handbuch.rst:48
 msgid ""
@@ -91,4 +110,6 @@ msgid ""
 "Erfahrungen, die Sie gerne mit uns teilen möchten? `Schreiben Sie uns "
 "<mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
+"Pour pouvoir s’améliorer, le présent manuel a besoin des réactions de ses utilisateurs et de ses utilisatrices. Avez-vous une suggestion sur son contenu ou une expérience à nous communiquer?"
+"N’hésitez pas `à nous en faire part <mailto:opendata@bfs.admin.ch>`__."
 
