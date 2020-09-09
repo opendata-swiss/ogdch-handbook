@@ -25,11 +25,11 @@ msgstr ""
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:4
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:8
 msgid "Rechtliche Hinweise"
-msgstr ""
+msgstr "Mentions légales"
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:11
 msgid "Haftung"
-msgstr ""
+msgstr "Responsabilité"
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:13
 msgid ""
@@ -37,14 +37,14 @@ msgid ""
 "worden sind, kann für die inhaltliche Richtigkeit, Genauigkeit, "
 "Aktualität, Zuverlässigkeit und Vollständigkeit dieser Informationen "
 "keine Gewährleistung übernommen werden."
-msgstr ""
+msgstr "Malgré la grande attention avec laquelle elles vérifient les informations publiées sur ce site, les autorités concernées ne peuvent endosser aucune responsabilité quant à la fidélité, à l’exactitude, à l’actualité, à la fiabilité et à l’intégralité de ces informations."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:17
 msgid ""
 "Die beteiligten Behörden behalten sich ausdrücklich vor, jederzeit "
 "Inhalte ohne Ankündigung ganz oder teilweise zu ändern, zu löschen oder "
 "zeitweise nicht zu veröffentlichen."
-msgstr ""
+msgstr "Les autorités participant à handbook.opendata.swiss se réservent expressément le droit de modifier, de supprimer ou d’interrompre la publication de tout ou partie du contenu de ce site."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:20
 msgid ""
@@ -53,11 +53,11 @@ msgid ""
 "Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der "
 "Verbindung oder durch technische Störungen entstanden sind, werden "
 "ausgeschlossen."
-msgstr ""
+msgstr "Ces autorités ne sauraient être tenues pour responsables des dommages matériels ou immatériels qui pourraient être causés par l’accès aux informations diffusées ou par leur utilisation ou non-utilisation, par le mauvais usage de la connexion ou par des problèmes techniques."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:26
 msgid "Verweise und Links"
-msgstr ""
+msgstr "Renvois et liens"
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:28
 msgid ""
@@ -70,11 +70,11 @@ msgid ""
 "verknüpften Webseiten liegen vollumfänglich in der Verantwortung des "
 "jeweiligen Dritten. Es wird jegliche Verantwortung für solche Webseiten "
 "abgelehnt."
-msgstr ""
+msgstr "Les renvois et les liens vers d’autres sites Internet ne sont pas de la responsabilité des autorités participant à handbook.opendata.swiss. L’accès à ces sites et leur utilisation se font aux risques des utilisateurs. Les autorités participant à handbook.opendata.swiss déclarent expressément qu’elles n’ont aucune influence sur la forme, le contenu et les offres des sites auxquels elles renvoient. Les informations et services offerts par ces sites sont entièrement de la responsabilité de leurs auteurs. Les autorités participant à handbook.opendata.swiss rejettent toute responsabilité pour de tels sites Internet."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:37
 msgid "Datenschutz"
-msgstr ""
+msgstr "Protection des données"
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:39
 msgid ""
@@ -84,14 +84,14 @@ msgid ""
 "beteiligten Behörden halten diese Bestimmungen ein. Persönliche Daten "
 "werden auf handbook.opendata.swiss streng vertraulich behandelt und weder"
 " an Dritte verkauft noch weitergegeben."
-msgstr ""
+msgstr "L’art. 13 de la Constitution fédérale et la législation sur la protection des données disposent que toute personne a droit à la protection de sa sphère privée ainsi qu’à la protection contre l’emploi abusif des données qui la concernent. Les autorités participant au site handbook.opendata.swiss respectent ces dispositions. Les données personnelles sont traitées de façon totalement confidentielle sur handbook.opendata.swiss et ne sont ni vendues, ni transmises à des tiers."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:45
 msgid ""
 "In enger Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, "
 "die Datenbanken vor fremden Zugriffen, Verlusten, Missbrauch oder vor "
 "Fälschung zu schützen."
-msgstr ""
+msgstr "Nous nous efforçons, en collaboration étroite avec nos hébergeurs, de protéger au mieux nos banques de données des intrusions externes et d’éviter toute perte, tout abus et toute falsification."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:48
 msgid ""
@@ -103,7 +103,7 @@ msgid ""
 " dass Trends erkennbar sind, um das Angebot entsprechend zu verbessern "
 "(Logfiles). Für zusätzliche Informationen zur Webanalyse siehe nächster "
 "Abschnitt."
-msgstr ""
+msgstr "Lors de l’accès à handbook.opendata.swiss, les données suivantes sont enregistrées dans des fichiers journaux: l’adresse IP, la date, l’heure, les données introduites dans le masque de recherche ainsi que des informations générales concernant le système d’exploitation et le navigateur. Les serveurs de nos hébergeurs enregistrent uniquement des données d’utilisation impersonnelles permettant de fournir aux autorités participantes des tendances servant à améliorer l’offre (fichiers journaux). Pour de plus amples renseignements concernant les analyses des informations sur les visiteurs du site, voir la section suivante."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:55
 msgid ""
@@ -112,11 +112,11 @@ msgid ""
 "-Mail-Adresse wird diese in eine separate Datenbank aufgenommen, die in "
 "keinem Zusammenhang mit den anonymen Logfiles steht. Es besteht jederzeit"
 " die Möglichkeit, die Registrierung wieder rückgängig zu machen."
-msgstr ""
+msgstr "Les données d’utilisation ne sont pas associées à des données personnelles, sauf pour ce qui est de la prise de contact volontaire. Votre adresse électronique est enregistrée dans une banque de données distincte, sans lien avec les fichiers journaux anonymes. L’enregistrement peut être annulé à tout moment."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:61
 msgid "Webanalyse"
-msgstr ""
+msgstr "Analyse des informations sur les visiteurs du site"
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:63
 msgid ""
@@ -129,7 +129,7 @@ msgid ""
 "Schweiz übertragen und zu Zwecken der Nutzungsanalyse gespeichert. Diese "
 "Daten dienen der Website Optimierung. Ihre IP-Adresse wird bei diesem "
 "Vorgang umgehend anonymisiert."
-msgstr ""
+msgstr "handbook.opendata.swiss utilise le logiciel open source Matomo pour analyser les informations sur les visiteurs du site. Matomo utilise des cookies, soit des fichiers texte qui sont sauvegardés sur votre ordinateur et qui permettent d’analyser votre utilisation du site. Les informations d’utilisation générées par le cookie (y compris une version courte de votre adresse IP) sont transmises à notre serveur en Suisse à des fins d’analyse. Ces données sont destinées à optimiser notre site. Au cours de cette procédure, votre adresse IP est immédiatement anonymisée."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:71
 msgid ""
@@ -137,22 +137,22 @@ msgid ""
 "Einstellung Ihrer Browser-Software verhindern; mit dieser Einstellung "
 "können gegebenenfalls nicht sämtliche Funktionen dieser Website genutzt "
 "werden."
-msgstr ""
+msgstr "L’utilisateur peut désactiver l’enregistrement des cookies en configurant son navigateur; il est cependant possible que certaines fonctionnalités du site Internet ne soient pas disponibles si les cookies sont désactivés."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:76
 msgid "Urheberrecht"
-msgstr ""
+msgstr "Droits d’auteur"
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:78
 msgid ""
 "Die auf swiss handbook.opendata.swiss veröffentlichten Daten sind in der "
 "Regel urheberrechtlich nicht geschützt. Die auf handbook.opendata.swiss "
 "enthaltenen Informationen werden der Öffentlichkeit zugänglich gemacht."
-msgstr ""
+msgstr "Les données publiées sur handbook.opendata.swiss ne sont en en principe pas soumises au droit d’auteur. Les informations publiées sur handbook.opendata.swiss sont mises à la disposition du public."
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:83
 msgid "Quellcode"
-msgstr ""
+msgstr "Code source"
 
 #: ../../source/content/ueberdashandbuch/rechtliche-hinweise.rst:85
 msgid ""
@@ -161,5 +161,5 @@ msgid ""
 "Plattform Read The Docs genutzt wird. Sphinx und alle seine Komponenten "
 "sind Open Source Software und unter der GNU GPL v2.0 Lizenz frei "
 "verfügbar."
-msgstr ""
+msgstr "Le site handbook.opendata.swiss utilise Sphinx, un générateur de sites web statique spécialement axé sur la documentation et également déployé sur la plateforme d’hébergement Read the Docs. Sphinx et toutes ses composantes sont des logiciels open source et disponibles en libre accès sous la licence GNU GPL v2.0."
 
