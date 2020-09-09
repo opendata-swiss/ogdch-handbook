@@ -24,16 +24,16 @@ msgstr ""
 
 #: ../../source/content/pflegen/datasets-updaten.rst:4
 msgid ":doc:`Pflegen <pflegen>` :fa:`chevron-right`"
-msgstr ""
+msgstr "Mettre à jour"
 
 #: ../../source/content/pflegen/datasets-updaten.rst:5
 #: ../../source/content/pflegen/datasets-updaten.rst:9
 msgid "Datasets updaten"
-msgstr ""
+msgstr "Mettre à jour les jeux de données"
 
 #: ../../source/content/pflegen/datasets-updaten.rst:12
 msgid "Wie halte ich meine Datasets nach der Veröffentlichung aktuell?"
-msgstr ""
+msgstr "Comment tenir mes données à jour après leur publication?"
 
 #: ../../source/content/pflegen/datasets-updaten.rst:16
 msgid ""
@@ -44,7 +44,10 @@ msgid ""
 ":term:`Produktionsumgebung <Produktionsumgebung>` von opendata.swiss "
 "nachführen. Änderungen an Ihren physischen Daten müssen Sie uns nicht "
 "melden."
-msgstr ""
+msgstr "Après la publication, vos métadonnées peuvent faire l’objet de changements ou de "
+"mises à jour, en raison de la publication de nouvelles ressources ou "
+"de la modification de l’URL p. ex. Veuillez saisir tout changement des "
+"métadonnées dans l’arrière-plan de :term:`l’environnement de production <Produktionsumgebung>` d’opendata.swiss. Il n’est pas nécessaire de signaler les changements aux données physiques."
 
 #: ../../source/content/pflegen/datasets-updaten.rst:22
 msgid ""
@@ -56,7 +59,7 @@ msgid ""
 "ausserdem regelmässig zu prüfen, ob Ihre Metadaten richtig bei uns "
 "ankommen. Gehen Sie dazu auf opendata.swiss und prüfen Sie die Seite "
 "Ihrer Organisation mitsamt Datasets."
-msgstr ""
+msgstr "La mise à jour des entrées sur opendata.swiss diffère en fonction de la variante de publication choisie. Si vous avez saisi vos métadonnées manuellement, tout changement de ces dernières devra être implémenté à la main. Si vous avez opté pour le moissonnage de vos métadonnées, nous nous occupons automatiquement de leur mise à jour. Nous vous demandons en outre de contrôler périodiquement que vos métadonnées nous arrivent de façon correcte. À cet effet, veuillez consulter opendata.swiss pour vérifier la page et les jeux de données de votre organisation."
 
 #: ../../source/content/pflegen/datasets-updaten.rst:32
 msgid ""
@@ -65,7 +68,7 @@ msgid ""
 " sich entweder die Metadaten oder auch die Originaldaten selbst geändert "
 "haben. So können Nutzerinnen und -nutzer Ihrer Daten erkennen, dass eine "
 "Aktualisierung vorliegt."
-msgstr ""
+msgstr "Important: lors de tout ajustement des métadonnées, veuillez vérifier s’il est judicieux d’adapter la date de modification. Cette adaptation s’avère nécessaire si les métadonnées ou les données originales ont été modifiées. Elle indique aux utilisateurs qu’une mise à jour des données a été effectuée."
 
 #: ../../source/content/pflegen/datasets-updaten.rst:39
 msgid "Support"
@@ -75,5 +78,6 @@ msgstr ""
 msgid ""
 "Sie haben eine Frage? `Schreiben Sie uns "
 "<mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter."
-msgstr ""
+msgstr "Avez-vous des questions? "
+"`Écrivez-nous <mailto:opendata@bfs.admin.ch>`__, nous nous ferons un plaisir de vous aider. "
 

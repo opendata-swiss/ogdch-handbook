@@ -29,11 +29,11 @@ msgstr ""
 #: ../../source/content/pflegen/auskunft-geben.rst:5
 #: ../../source/content/pflegen/auskunft-geben.rst:9
 msgid "Auskunft zu Daten geben"
-msgstr ""
+msgstr "Fournir des renseignements sur les données"
 
 #: ../../source/content/pflegen/auskunft-geben.rst:12
 msgid "Wie gehe ich mit Fragen zu meinen Daten um?"
-msgstr ""
+msgstr "Comment traiter les questions relatives à mes données?"
 
 #: ../../source/content/pflegen/auskunft-geben.rst:16
 msgid ""
@@ -42,7 +42,9 @@ msgid ""
 "Datenpublizierende Auskunft geben und welche wir als "
 ":term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` "
 "beantworten."
-msgstr ""
+msgstr "Le dialogue avec les utilisateurs des données favorise le développement des OGD. "
+"Nous précisons ici à quelles questions vous êtes tenu de répondre en tant que fournisseur "
+"de données, et à quelles questions nous répondons en qualité de :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>`."
 
 #: ../../source/content/pflegen/auskunft-geben.rst:21
 msgid ""
@@ -51,7 +53,7 @@ msgid ""
 "der Daten einen Mehrwert für die Gesellschaft schaffen, zum Beispiel in "
 "Form von Apps oder Visualisierungen. Zum anderen ist es der Dialog mit "
 "Datennutzenden, um die Datenqualität gemeinsam zu verbessern."
-msgstr ""
+msgstr "Le soutien apporté aux utilisateurs des données – qui réalisent une plus-value sociétale importante en utilisant ces dernières, p. ex. sous forme d’applications ou de visualisations – constitue un aspect essentiel des données publiques ouvertes. À cela s’ajoute que le dialogue avec les utilisateurs est fondamental pour améliorer la qualité des données."
 
 #: ../../source/content/pflegen/auskunft-geben.rst:27
 msgid ""
@@ -62,7 +64,11 @@ msgid ""
 "Allfällige Anfragen zu Ihren Daten, die der :term:`Geschäftsstelle OGD "
 "<Geschäftsstelle Open Government Data (OGD)>` gestellt werden, leiten wir"
 " an Sie weiter."
-msgstr ""
+msgstr "Il vous appartient de répondre aux questions en lien avec vos données. Chaque jeu de données "
+"indique, sous «Points de contact», les adresses e-mail des personnes à contacter au "
+"sein de votre organisation. Nous vous remercions de veiller à ce que ces entrées "
+"soient à jour. Toute question concernant vos données qui sera posée au "
+":term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>` vous sera transmise."
 
 #: ../../source/content/pflegen/auskunft-geben.rst:34
 msgid ""
@@ -72,7 +78,11 @@ msgid ""
 "auch aktiv auf Twitter (`@opendataswiss "
 "<https://twitter.com/opendataswiss>`__) und versuchen dort auf relevante "
 "Diskussionen aufmerksam zu machen."
-msgstr ""
+msgstr "Pour sa part, le secrétariat OGD répond aux questions d’ordre général concernant les "
+"données publiques ouvertes (mandat, conditions générales, etc.) et "
+"le portail opendata.swiss (messages d’erreur, utilisation, etc.). "
+"Nous sommes aussi présents sur Twitter (`@opendataswiss <https://twitter.com/opendataswiss>`__) pour attirer "
+"l’attention sur des discussions pertinentes."
 
 #: ../../source/content/pflegen/auskunft-geben.rst:42
 msgid "Support"
@@ -82,5 +92,6 @@ msgstr ""
 msgid ""
 "Sie haben eine Frage? `Schreiben Sie uns "
 "<mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter."
-msgstr ""
+msgstr "Avez-vous des questions? `Écrivez-nous <mailto:opendata@bfs.admin.ch>`__, "
+"nous nous ferons un plaisir de vous aider."
 
