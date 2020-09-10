@@ -29,11 +29,11 @@ msgstr ""
 #: ../../source/content/vorbereiten/erstpublizierende.rst:5
 #: ../../source/content/vorbereiten/erstpublizierende.rst:9
 msgid "Für Erst-Publizierende"
-msgstr ""
+msgstr "Avant la première publication"
 
 #: ../../source/content/vorbereiten/erstpublizierende.rst:12
 msgid "Wissenswertes vor dem Start"
-msgstr ""
+msgstr "Informations préalables"
 
 #: ../../source/content/vorbereiten/erstpublizierende.rst:16
 msgid ""
@@ -42,15 +42,17 @@ msgid ""
 " Ihnen, sich vorab mit den Prozessen von opendata.swiss vertraut zu "
 "machen. Ausserdem geben wir Ihnen Hilfestellung zur Frage, welche Daten "
 "Ihrer Organisation als OGD publiziert werden sollen."
-msgstr ""
+msgstr "Nous vous remercions de votre intérêt pour la publication d’Open Government Data (OGD). Le présent manuel vous simplifiera le travail. Si c’est la première fois que vous publiez des OGD, nous vous recommandons de commencer par vous familiariser avec les procédures d’opendata.swiss. Ce manuel vous aide en outre à décider quelles données de votre organisation doivent être publiées sous forme d’OGD."
 
 #: ../../source/content/vorbereiten/erstpublizierende.rst:23
 msgid ""
 ":doc:`opendata.swiss verstehen <erstpublizierende/opendata-swiss-"
 "verstehen>`"
 msgstr ""
+":doc:`Comprendre opendata.swiss <erstpublizierende/opendata-swiss-"
+"verstehen>`"
 
 #: ../../source/content/vorbereiten/erstpublizierende.rst:24
 msgid ":doc:`Dateninventar erstellen <erstpublizierende/dateninventar-erstellen>`"
-msgstr ""
+msgstr ":doc:`Établir un inventaire des données <erstpublizierende/dateninventar-erstellen>`"
 

@@ -33,11 +33,11 @@ msgstr ""
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:6
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:10
 msgid "Rechtliche Anforderungen prüfen"
-msgstr ""
+msgstr "Vérifier les exigences légales"
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:13
 msgid "Wie identifiziere ich die passende Nutzungsbedingung für meine Datasets?"
-msgstr ""
+msgstr "Comment déterminer les conditions d’utilisation appropriées pour mes jeux de données?"
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:17
 msgid ""
@@ -46,11 +46,11 @@ msgid ""
 "Sie Ihr ausgewähltes Dataset rechtlich als OGD publizieren dürfen und "
 "somit eine offene Nutzungsbedingung angewendet wird. Wir begleiten Sie "
 "bei der Auswahl der richtigen Nutzungsbedingung."
-msgstr ""
+msgstr "Pour que vos données puissent être considérées comme open data, commencez par appliquer à ces données des conditions d’utilisation ouvertes. Durant cette étape, vous vérifiez être en droit de publier sous forme d’Open Government Data (OGD) le jeu de données choisi pour être en mesure d’appliquer des conditions d’utilisation ouvertes. Nous vous aidons à choisir les conditions d’utilisation appropriées."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:26
 msgid "1. Rechtliche Grundlage"
-msgstr ""
+msgstr "1. Bases légales"
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:28
 msgid ""
@@ -59,7 +59,7 @@ msgid ""
 " werden darf. Es liegt in Ihrer Verantwortung, dass legitime "
 "Schutzinteressen, wie beispielsweise Datenschutz oder der Schutz privater"
 " Geschäftsgeheimnisse, gewährleistet sind."
-msgstr ""
+msgstr "Le schéma ci-dessous indique les étapes de contrôle requises afin de vous assurer que le jeu de données peut être publié sous forme d’OGD. Il vous incombe de garantir les intérêts de protection légitimes, tels que la protection des données ou la protection des secrets d’affaires privés."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:34
 msgid ""
@@ -67,6 +67,9 @@ msgid ""
 "begleitenden `Arbeitshilfe "
 "<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__."
 msgstr ""
+"Notre guide `Arbeitshilfe "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__ "
+"vous fournira de plus amples informations pour chaque question. Actuellement, ce document est uniquement disponible en allemand."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:43
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:116
@@ -81,6 +84,10 @@ msgid ""
 " Falls Sie immer noch nicht weiterwissen, `schreiben Sie uns "
 "<mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
+"Impossible de répondre clairement à une des questions? "
+"`Notre guide Arbeitshilfe <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__ vous sera très utile. "
+"Actuellement, ce document est uniquement disponible en allemand. "
+"Et si vous n’y trouvez pas de réponse, n’hésitez pas à `nous écrire <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:52
 msgid "Content-Divider"
@@ -88,7 +95,7 @@ msgstr ""
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:55
 msgid "2. Auswahl der Nutzungsbedingungen"
-msgstr ""
+msgstr "2. Sélection des conditions d’utilisation"
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:57
 msgid ""
@@ -97,56 +104,56 @@ msgid ""
 " der richtigen Nutzungsbedingung erfolgt aufgrund der gesetzlichen "
 "Grundlage. Folgende Varianten sind möglich, die den Datennutzenden "
 "angezeigt werden:"
-msgstr ""
+msgstr "Des conditions d’utilisation ouvertes – représentées par des symboles – doivent être sélectionnées pour toutes les données publiées sur opendata.swiss. Le choix des conditions d’utilisation appropriées est fonction des bases légales. Il est possible d’opter parmi les variantes suivantes, qui s’affichent à l’écran des utilisateurs:"
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:68
 msgid "Freie Nutzung"
-msgstr ""
+msgstr "Libre utilisation"
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:70
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:80
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:90
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:100
 msgid "Sie dürfen diesen Datensatz für nicht kommerzielle Zwecke nutzen."
-msgstr ""
+msgstr "Vous pouvez utiliser ce jeu de données à des fins non commerciales."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:71
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:81
 msgid "Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen."
-msgstr ""
+msgstr "Vous pouvez utiliser ce jeu de données à des fins commerciales."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:72
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:92
 msgid "Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz)."
-msgstr ""
+msgstr "L’indication de la source est recommandée (auteur, titre et lien vers le jeu de données)."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:78
 msgid "Freie Nutzung. Quellenangabe ist Pflicht."
-msgstr ""
+msgstr "Libre utilisation. Obligation d’indiquer la source."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:82
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:102
 msgid "Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz)."
-msgstr ""
+msgstr "Vous pouvez utiliser ce jeu de données à des fins non commerciales."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:88
 msgid ""
 "Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des "
 "Datenlieferanten zulässig."
-msgstr ""
+msgstr "Libre utilisation. L’utilisation commerciale requiert l’accord du fournisseur de données."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:91
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:101
 msgid ""
 "Sie dürfen diesen Datensatz für kommerzielle Zwecke nutzen, sofern Sie "
 "eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben."
-msgstr ""
+msgstr "Si vous avez obtenu l’accord du fournisseur de données, vous pouvez utiliser ce jeu de données à des fins commerciales."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:98
 msgid ""
 "Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit "
 "Bewilligung des Datenlieferanten zulässig."
-msgstr ""
+msgstr "Libre utilisation. Obligation d’indiquer la source. L’utilisation commerciale requiert l’accord du fournisseur de données."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:104
 msgid ""
@@ -158,23 +165,25 @@ msgid ""
 "Einschränkungen vor, müssen sie mittels der Nutzungsbedingung "
 "kommuniziert werden."
 msgstr ""
+"Les :ref:`bases légales <vorbereiten_rechtlicher_check>` sont déterminantes pour le choix des conditions d’utilisation. Deux restrictions peuvent s’appliquer: 1) l’obligation d’indiquer la source et 2) l’obligation de demander une autorisation en cas d’utilisation à des fins commerciales. Les restrictions prescrites par les bases légales doivent être indiquées dans les conditions d’utilisation."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:111
 msgid ""
 "Notieren Sie sich die richtige Nutzungsbedingung für die Publikation "
 "Ihres Datasets auf opendata.swiss. Dieses Attribut wird später in den "
 "Metadaten eingegeben."
-msgstr ""
+msgstr "Prenez note des conditions d’utilisation appropriées pour la publication de votre jeu de données sur opendata.swiss, vous les saisirez par la suite dans les métadonnées."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:118
 msgid ""
 "Sie sind sich unsicher, ob Sie die richtige Nutzungsbedingung ausgewählt "
 "haben? `Sprechen Sie mit uns darüber <mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
+"Vous doutez d’avoir choisi les bonnes conditions d’utilisation? `Écrivez-nous <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:123
 msgid "Mehr zum Thema"
-msgstr ""
+msgstr "Informations complémentaires"
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:125
 msgid ""
@@ -183,6 +192,9 @@ msgid ""
 " – Das Dokument erklärt sämtliche Fragen des rechtlichen Checks und trägt"
 " so zur Entscheidungsfindung bei."
 msgstr ""
+"`Arbeitshilfe für Behörden zur Publikation von Daten als OGD (pdf) "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__"
+" – Le document contribue au processus décisionnel en précisant les questions de la vérification légale. Actuellement, ce document est uniquement disponible en allemand."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:126
 msgid ""
@@ -190,6 +202,8 @@ msgid ""
 " Die Website fasst sämtliche Nutzungsbedingungen für OGD übersichtlich "
 "erklärt zusammen."
 msgstr ""
+"`Nutzungsbedingungen (Link) <https://opendata.swiss/de/terms-of-use>`__ –"
+" Le site internet fournit un aperçu détaillé des conditions d’utilisation pour les OGD."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:127
 msgid ""
@@ -199,17 +213,23 @@ msgid ""
 " – Das Dokument erläutert den rechtlichen Rahmen für die Umsetzung der "
 "OGD Strategie, erarbeitet von der Arbeitsgruppe Recht OGD."
 msgstr ""
+"`Rechtliche Rahmenbedingungen zur Publikation von Daten als Open "
+"Government Data (OGD) (pdf) "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147095.html>`__"
+" – Élaboré par le groupe de travail «Droit OGD», le document présente le cadre légal pour la mise en œuvre de la stratégie OGD. Actuellement, ce document est uniquement disponible en allemand."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:131
 msgid ""
 ":doc:`Nächster Schritt: Technische Anforderungen prüfen <technischer-"
 "check>`"
 msgstr ""
+":doc:`Prochaine étape: vérifier les exigences techniques <technischer-"
+"check>`"
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:133
 msgid ""
 "Nachdem Sie die richtige Nutzungsbedingung ausgewählt haben, geht es im "
 "zweiten Schritt um die technischen Anforderungen, die die Ihr Dataset "
 "erfüllen muss."
-msgstr ""
+msgstr "Vous avez choisi les conditions d’utilisation. Lors de l’étape suivante, il s’agit de déterminer à quelles exigences techniques doit répondre votre jeu de données."
 
