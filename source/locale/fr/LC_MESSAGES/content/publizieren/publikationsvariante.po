@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvariante.rst:4
 msgid ":doc:`Publizieren <publizieren>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Publier <publizieren>` :fa:`chevron-right`"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:5
 #: ../../source/content/publizieren/publikationsvariante.rst:9

@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:4
 msgid "Vorbereiten"
-msgstr ""
+msgstr "Préparer"
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:8
 msgid "Auf einen Blick"

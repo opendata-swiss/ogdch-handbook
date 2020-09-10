@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:4
 msgid ":doc:`Vorbereiten <../vorbereiten>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Préparer <../vorbereiten>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:5
 msgid ":doc:`Erst-Publizierende <../erstpublizierende>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Avant la première publication <../erstpublizierende>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:6
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:11

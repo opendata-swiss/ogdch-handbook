@@ -56,14 +56,6 @@ msgid ""
 "/organisatorischer-check>` :doc:`Anforderungen <../vorbereiten/dataset>` "
 "eingehalten werden."
 msgstr ""
-"Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data "
-"(OGD)>` übernimmt das Controlling des gesamten Katalogs. Es ist "
-"allerdings an den publizierenden Organisationen oder Personen "
-"sicherzustellen, dass die :doc:`rechtlichen <../vorbereiten/dataset"
-"/rechtlicher-check>`, :doc:`technischen <../vorbereiten/dataset"
-"/technischer-check>` und :doc:`organisatorischen <../vorbereiten/dataset"
-"/organisatorischer-check>` :doc:`Anforderungen <../vorbereiten/dataset>` "
-"eingehalten werden."
 "Le :term:`secrétariat OGD <Geschäftsstelle Open Government (OGD)>` Dataest chargé de contrôler "
 "l’ensemble du catalogue. Toutefois, il appartient aux organisations et aux particuliers "
 "fournissant des données de s’assurer que les :doc:`exigences juridiques <../vorbereiten/dataset/rechtlicher-check>`, "
@@ -117,10 +109,10 @@ msgstr ":doc:`Avant la première publication <erstpublizierende>`"
 
 #: ../../source/content/publizieren/publizieren.rst:57
 msgid ""
-":doc:`Saisir et gérer les utilisateurs <erstpublizierende/kontakt-"
+":doc:`Benutzer/innen erfassen und verwalten <erstpublizierende/kontakt-"
 "bfs>`"
 msgstr ""
-":doc:`Benutzer/innen erfassen und verwalten <erstpublizierende/kontakt-"
+":doc:`Saisir et gérer les utilisateurs <erstpublizierende/kontakt-"
 "bfs>`"
 
 #: ../../source/content/publizieren/publizieren.rst:58
@@ -129,10 +121,10 @@ msgstr ":doc:`Gérer le profil <erstpublizierende/profil-einrichten>`"
 
 #: ../../source/content/publizieren/publizieren.rst:59
 msgid ""
-":doc:`Compléter les informations sur l’organisation <erstpublizierende"
+":doc:`Informationen zur Organisation ergänzen <erstpublizierende"
 "/organisation-einrichten>`"
 msgstr ""
-":doc:`Informationen zur Organisation ergänzen <erstpublizierende"
+":doc:`Compléter les informations sur l’organisation <erstpublizierende"
 "/organisation-einrichten>`"
 
 #: ../../source/content/publizieren/publizieren.rst:62

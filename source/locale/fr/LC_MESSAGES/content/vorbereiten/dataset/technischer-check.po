@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../source/content/vorbereiten/dataset/technischer-check.rst:4
 msgid ":doc:`Vorbereiten <../vorbereiten>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Préparer <../vorbereiten>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/dataset/technischer-check.rst:5
 msgid ":doc:`Dataset <../dataset>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`jeu de données <../dataset>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/dataset/technischer-check.rst:6
 #: ../../source/content/vorbereiten/dataset/technischer-check.rst:10

@@ -23,7 +23,7 @@ msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
 msgstr ""
 
 #: ../../source/content/vorbereiten/dataset.rst:4
-msgid ":doc:`Vorbereiten <vorbereiten>` :fa:`chevron-right`"
+msgid ":doc:`Préparer <vorbereiten>` :fa:`chevron-right`"
 msgstr ""
 
 #: ../../source/content/vorbereiten/dataset.rst:5

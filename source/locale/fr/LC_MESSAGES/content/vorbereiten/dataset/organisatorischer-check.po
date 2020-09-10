@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:4
 msgid ":doc:`Vorbereiten <../vorbereiten>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Préparer <../vorbereiten>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:5
 msgid ":doc:`Dataset <../dataset>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`jeu de données <../dataset>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:6
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:10
@@ -100,7 +100,8 @@ msgid ""
 ":term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` "
 "mitzuteilen."
 msgstr "**Partage des expériences** "
-"Les fournisseurs de données sont invités à partager leurs expériences entre eux. Nous vous sommes tout particulièrement reconnaissants de communiquer au secrétariat OGD ((Link to: Glossar)) toute suggestion permettant de développer le portail opendata.swiss et ses consignes."
+"Les fournisseurs de données sont invités à partager leurs expériences entre eux. Nous vous sommes "
+"tout particulièrement reconnaissants de communiquer au :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>` toute suggestion permettant de développer le portail opendata.swiss et ses consignes."
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:52
 msgid "Support"

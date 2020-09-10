@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:4
 msgid ":doc:`Publizieren <../publizieren>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Publier <../publizieren>` :fa:`chevron-right`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:5
 msgid ":doc:`Publikationsvariante <../publikationsvariante>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`variante de publication <../publikationsvariante>` :fa:`chevron-right`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:6
 msgid "Harvester"

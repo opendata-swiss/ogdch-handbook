@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../source/content/pflegen/auskunft-geben.rst:4
 msgid ":doc:`Pflegen <pflegen>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Gérer <pflegen>` :fa:`chevron-right`"
 
 #: ../../source/content/pflegen/auskunft-geben.rst:5
 #: ../../source/content/pflegen/auskunft-geben.rst:9

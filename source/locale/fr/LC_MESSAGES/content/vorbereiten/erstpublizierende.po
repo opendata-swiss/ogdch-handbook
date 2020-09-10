@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../source/content/vorbereiten/erstpublizierende.rst:4
 msgid ":doc:`Vorbereiten <vorbereiten>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Préparer <vorbereiten>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/erstpublizierende.rst:5
 #: ../../source/content/vorbereiten/erstpublizierende.rst:9

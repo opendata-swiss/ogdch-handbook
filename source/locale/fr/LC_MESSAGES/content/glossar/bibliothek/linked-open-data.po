@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:4
 msgid ":doc:`Bibliothek <../bibliothek>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Documentation <../bibliothek>` :fa:`chevron-right`"
 
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:5
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:9

@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:4
 msgid ":doc:`Publizieren <../publizieren>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Publier <../publizieren>` :fa:`chevron-right`"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:5
 msgid ":doc:`Erst-Publizierende <../erstpublizierende>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`première publication <../erstpublizierende>` :fa:`chevron-right`"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:6
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:10
