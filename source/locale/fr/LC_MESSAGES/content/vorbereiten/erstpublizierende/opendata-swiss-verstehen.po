@@ -53,7 +53,7 @@ msgstr "Les données publiques ouvertes (Open Government Data – OGD) sont un m
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:33
 msgid "Die Prüfung, welche Verwaltungsdaten als Open Government Data publiziert werden sollen, und die Publikation liegen bei den Verwaltungsstellen selbst. Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` hat im Rahmen der `Open Government Data-Strategie 2019 – 2023 <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__ den Auftrag erhalten, diese Publikation zu fördern, unterstützen und koordinieren. Ausgeschlossen von der Publikation als OGD sind Geschäftsgeheimnisse oder Daten, bei denen ein besonderes, in einem Spezialgesetz verankertes Schutzinteresse besteht (Datenschutzgesetz, Informationsschutz, Urheberrecht)."
-msgstr ""
+msgstr "Chaque organisme est tenu de vérifier quelles données doivent être publiées sous forme de données publiques ouvertes, puis de les publier. Dans le cadre de la `stratégie Open Government Data 2019 – 2023 <https://www.bfs.admin.ch/bfs/fr/home/services/ogd.html>`__, le :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>` a été chargé de promouvoir, de soutenir et de coordonner cette publication. Les secrets d’affaires ainsi que les données dont la protection est prévue par une loi ad hoc (loi sur la protection des données, protection de l’information, droit d’auteur) ne peuvent être publiés sous forme d’OGD."
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:47
 msgid "Weshalb muss ich Daten auf opendata.swiss publizieren?"
