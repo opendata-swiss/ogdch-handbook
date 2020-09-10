@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../source/content/nutzen/daten-suchen.rst:4
 msgid ":doc:`Nutzen <nutzen>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Utiliser <nutzen>` :fa:`chevron-right`"
 
 #: ../../source/content/nutzen/daten-suchen.rst:5
 #: ../../source/content/nutzen/daten-suchen.rst:9

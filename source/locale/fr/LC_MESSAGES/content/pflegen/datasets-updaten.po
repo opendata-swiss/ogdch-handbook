@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../source/content/pflegen/datasets-updaten.rst:4
 msgid ":doc:`Pflegen <pflegen>` :fa:`chevron-right`"
-msgstr "Mettre à jour"
+msgstr ":doc:`Gérer <pflegen>` :fa:`chevron-right`"
 
 #: ../../source/content/pflegen/datasets-updaten.rst:5
 #: ../../source/content/pflegen/datasets-updaten.rst:9

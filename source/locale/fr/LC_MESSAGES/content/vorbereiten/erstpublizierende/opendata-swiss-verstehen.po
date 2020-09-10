@@ -25,11 +25,11 @@ msgstr ""
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:4
 msgid ":doc:`Vorbereiten <../vorbereiten>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Préparer <../vorbereiten>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:5
 msgid ":doc:`Erst-Publizierende <../erstpublizierende>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Avant la première publication <../erstpublizierende>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:6 ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:10
 msgid "opendata.swiss verstehen"
