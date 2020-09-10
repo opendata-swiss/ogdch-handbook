@@ -94,17 +94,18 @@ msgstr "Vous pouvez choisir parmi trois options d’accès à opendata.swiss:"
 
 #: ../../source/content/nutzen/api-nutzen.rst:45
 msgid "API Zugriff über den Browser"
-msgstr ""
+msgstr "Accès API via le navigateur"
 
 #: ../../source/content/nutzen/api-nutzen.rst:50
 msgid "API Zugriffe über die Kommandozeile, etwa mit Curl"
-msgstr ""
+msgstr "Accès API via la ligne de commande, par exemple avec Curl"
 
 #: ../../source/content/nutzen/api-nutzen.rst:55
 msgid ""
 "API Zugriffe über das CKAN Werkzeug `ckanapi "
 "<https://github.com/ckan/ckanapi>`__"
-msgstr ""
+msgstr "Accès API via `ckanapi "
+"<https://github.com/ckan/ckanapi>`__"
 
 #: ../../source/content/nutzen/api-nutzen.rst:63
 msgid "Action-API"
