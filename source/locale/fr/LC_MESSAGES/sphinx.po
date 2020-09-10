@@ -52,5 +52,13 @@ msgstr ""
 
 #: ../../source/_templates/searchbox.html:4
 msgid "Handbuch durchsuchen"
-msgstr ""
+msgstr "Recherche le manuel"
+
+#: ../source/_templates/footer.html:7
+msgid "Sie haben Fragen?"
+msgstr "Des questions?"
+
+#: ../source/_templates/footer.html:8
+msgid "Schreiben Sie uns."
+msgstr "Écrivez-nous"
 
