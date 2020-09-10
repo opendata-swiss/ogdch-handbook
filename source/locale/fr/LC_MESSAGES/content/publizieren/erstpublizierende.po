@@ -29,11 +29,11 @@ msgstr ""
 #: ../../source/content/publizieren/erstpublizierende.rst:5
 #: ../../source/content/publizieren/erstpublizierende.rst:9
 msgid "Für Erst-Publizierende"
-msgstr ""
+msgstr "Avant la première publication"
 
 #: ../../source/content/publizieren/erstpublizierende.rst:12
 msgid "Die erforderlichen Schritte im Überblick"
-msgstr ""
+msgstr "Vue d’ensemble des étapes requises"
 
 #: ../../source/content/publizieren/erstpublizierende.rst:16
 msgid ""
@@ -45,21 +45,28 @@ msgid ""
 "Benutzerinnen und Benutzer. Nach erfolgter Registrierung können Sie über "
 "das :term:`Backend <Backend>` die Angaben zur Organisation "
 "vervollständigen und mit der Publikation der Datasets loslegen."
-msgstr ""
+msgstr "Dans opendata.swiss, tout :term:`jeu de données <Dataset>`  "
+"et tout utilisateur est attaché à une organisation. Si vous n’avez jamais publié de données sur "
+"opendata.swiss, veuillez commencer par enregistrer votre organisation et ses utilisateurs. "
+"Une fois l’enregistrement abouti, recourez à "
+":term:`l’arrière-plan (back-end) <Backend>` pour compléter les informations sur l’organisation et publier votre jeu de données. La gestion des utilisateurs est assurée par le secrétariat OGD."
 
 #: ../../source/content/publizieren/erstpublizierende.rst:26
 msgid ""
 ":doc:`Organisation und Benutzer/innen erfassen und verwalten "
 "<erstpublizierende/kontakt-bfs>`"
 msgstr ""
+":doc:`Saisir et gérer les utilisateurs "
+"<erstpublizierende/kontakt-bfs>`"
 
 #: ../../source/content/publizieren/erstpublizierende.rst:27
 msgid ":doc:`Profil verwalten <erstpublizierende/profil-einrichten>`"
-msgstr ""
+msgstr ":doc:`Gérer le profil <erstpublizierende/profil-einrichten>`"
 
 #: ../../source/content/publizieren/erstpublizierende.rst:28
 msgid ""
 ":doc:`Informationen zur Organisation ergänzen <erstpublizierende"
 "/organisation-einrichten>`"
-msgstr ""
+msgstr ":doc:`Compléter les informations sur l’organisation <erstpublizierende"
+"/organisation-einrichten>`"
 

@@ -36,11 +36,11 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:10
 msgid "Metadaten als XML importieren"
-msgstr ""
+msgstr "Importer des métadonnées sous forme de fichier XML"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:13
 msgid "Wie importiere ich meine Metadaten als XML-Datei?"
-msgstr ""
+msgstr "Importer des métadonnées sous forme de fichier XML"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:17
 msgid ""
@@ -51,35 +51,39 @@ msgid ""
 "/kontakt-bfs>`. Dies erfolgt in Absprache mit der :term:`Geschäftsstelle "
 "OGD <Geschäftsstelle Open Government Data (OGD)>`. Wir zeigen Ihnen hier "
 "Schritt für Schritt, wie das funktioniert."
-msgstr ""
+msgstr "Pour importer plus de cinq jeux de données qui seront mis à jour périodiquement, "
+"nous recommandons d’opter pour l’import sous forme de fichier XML. "
+"Pour ce faire, :doc:`votre organisation et l’ensemble de "
+"ses utilisateurs doivent être enregistrés <../erstpublizierende/kontakt-bfs>` "
+"en accord avec le :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>`. Nous vous expliquons le fonctionnement étape par étape."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:27
 msgid "Die Schritte auf einen Blick"
-msgstr ""
+msgstr "Vue d’ensemble des étapes"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:29
 msgid ":ref:`Datenkatalog importieren <xml_datenkatalog_hochladen>`"
-msgstr ""
+msgstr ":ref:`Importer le catalogue de données <xml_datenkatalog_hochladen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:30
 msgid ":ref:`Dataset prüfen <xml_datensaetze_pruefen>`"
-msgstr ""
+msgstr ":ref:`Vérifier le jeu de données <xml_datensaetze_pruefen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:31
 msgid ":ref:`Schlagwörter kontrollieren <xml_schlagworte_pruefen>`"
-msgstr ""
+msgstr ":ref:`Contrôler les mots clés <xml_schlagworte_pruefen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:32
 msgid ":ref:`Vorschau des Datasets prüfen <xml_datensaetze_ansehen>`"
-msgstr ""
+msgstr ":ref:`Vérifier le jeu de données prévisualisé <xml_datensaetze_ansehen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:33
 msgid ":ref:`Dataset veröffentlichen <xml_datensaetze_veroeffentlichen>`"
-msgstr ""
+msgstr ":ref:`Publier le jeu de données <xml_datensaetze_veroeffentlichen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:35
 msgid "Gut zu wissen"
-msgstr ""
+msgstr "Bon à savoir"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:37
 msgid ""
@@ -87,15 +91,15 @@ msgid ""
 "Prozess und unterstützen Sie dabei, die korrekte Übermittlung und "
 "Darstellung Ihrer Daten sicherzustellen, unabhängig von der "
 "Publikationsvariante."
-msgstr ""
+msgstr "Pour votre première publication, nous vous guidons tout au long de la procédure en vous aidant à transmettre et à présenter vos données comme il se doit, quelle que soit la variante de publication choisie."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:42
 msgid "Alle Schritte im Detail"
-msgstr ""
+msgstr "Les étapes en détail"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:47
 msgid "Datenkatalog importieren"
-msgstr ""
+msgstr "Importer le catalogue de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:52
 msgid ""
@@ -108,17 +112,24 @@ msgid ""
 "<Produktionsumgebung>` einloggen. Klicken Sie dann auf das Feld "
 "«Datensatz importieren». In der Upload-Maske können Sie einen "
 "Datenkatalog als XML-Datei von Ihrem PC auswählen und hochladen."
-msgstr ""
+msgstr "Connectez-vous à l’arrière-plan d’opendata.swiss. Vous allez procéder à votre "
+"première publication ou souhaitez tester une nouvelle publication ou une publication "
+"particulièrement complexe? Alors le mieux est de recourir à :term:`l’environnement de test <Abnahmeumgebung>`. "
+"S’agit-il d’une publication récurrente et souhaitez-vous publier vos jeux de données directement? "
+"Vous pouvez alors vous connecter à :term:`l’environnement de production <Produktionsumgebung>`. "
+"Cliquez sur le champ «Jeux de données > Importer le catalogue». Sur la page de téléchargement, sélectionnez "
+"et téléchargez un catalogue de données sous forme de fichier XML depuis votre ordinateur."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:65
 msgid ""
 "Wichtig: Der Datenkatalog muss im Format :doc:`DCAT-AP-CH "
 "<../../glossar/bibliothek/dcat-ap-ch>` vorliegen."
-msgstr ""
+msgstr "Important: le catalogue de données doit utiliser le format "
+":doc:`DCAT-AP CH <../../glossar/bibliothek/dcat-ap-ch>`."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:71
 msgid "Datensets prüfen"
-msgstr ""
+msgstr "Vérifier le jeu de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:76
 msgid ""
@@ -128,11 +139,11 @@ msgid ""
 "dies bereits hier angezeigt (rote Error-Meldung). Allfällige Fehler "
 "können Sie entweder im Dataset selbst oder direkt in Ihrem Datenkatalog "
 "korrigieren und diesen anschliessend noch einmal neu hochladen."
-msgstr ""
+msgstr "Une fois l’import réussi, vos données s’affichent directement (message de confirmation en vert). Ils apparaissent aussi sous «Tous les jeux de données». Le système vous signale si le jeu de données contient une erreur (message d’erreur en rouge). Vous pouvez corriger une erreur dans le jeu de données ou dans le catalogue de données, en prenant soin de le télécharger à nouveau."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:85
 msgid "Fehlermeldung"
-msgstr ""
+msgstr "Message d’erreur"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:87
 msgid ""
@@ -140,21 +151,22 @@ msgid ""
 " Bitte korrigieren Sie die markierten Felder. Sobald Sie alle Fehler "
 "behoben haben, stellt der Status auf grün. Nun können Sie Ihr Dataset "
 "publizieren."
-msgstr ""
+msgstr "En cas d’erreur, un message s’affiche et le statut passe au rouge. Veuillez corriger les champs marqués, le statut passe au vert dès que vous avez traité toutes les erreurs. Votre jeu de données peut maintenant être publié."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:100
 msgid "Schlagwörter kontrollieren"
-msgstr ""
+msgstr "Contrôler les mots clés"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:102
 msgid ""
 "Beim Import als XML-Datei werden automatisch Schlagwörter für Ihr Dataset"
 " ausgewählt. Sie müssen diese nur noch kontrollieren."
-msgstr ""
+msgstr "Des mots clés sont attribués automatiquement à votre jeu de données lors de "
+"l’import sous forme de fichier XML. Veuillez les contrôler."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:112
 msgid "Vorschau des Datasets prüfen"
-msgstr ""
+msgstr "Vérifier le jeu de données prévisualisé"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:117
 msgid ""
@@ -166,11 +178,17 @@ msgid ""
 ":term:`Produktionsumgebung <Produktionsumgebung>` befinden. Sieht alles "
 "so aus wie in unserer Beispielansicht, kann das Dataset veröffentlicht "
 "werden."
-msgstr ""
+msgstr "Après avoir corrigé les erreurs et contrôlé les mots clés, vous "
+"pouvez prévisualiser votre jeu de données en cliquant sur «Voir "
+"le jeu de données» en haut sur la barre de menu. "
+"L’aperçu vous montre votre jeu de données tel qu’il apparaît dans "
+"le frontal, que vous vous trouviez dans :term:`l’environnement de test <Abnahmeumgebung>` ou "
+"dans :term:`l’environnement de production <Produktionsumgebung>`. "
+"Si votre aperçu est identique à notre exemple, vous pouvez publier votre jeu de données."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:129
 msgid "Dataset veröffentlichen"
-msgstr ""
+msgstr "Publier le jeu de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:131
 msgid ""
@@ -180,7 +198,7 @@ msgid ""
 "Abnahmeumgebung mit dem Vermerk «privat» und einem Schlosssymbol "
 "markiert. «Veröffentlicht» gibt an, dass das Dataset in der "
 "Abnahmeumgebung publiziert ist."
-msgstr ""
+msgstr "En mode traitement, l’écran vous affiche tout en haut à droite le statut de votre jeu de données: «Brouillon» signifie que le traitement des métadonnées du jeu de données est en cours. Dans le frontal de l’environnement de test, votre jeu de données reçoit la mention «Privé» et il est accompagné du symbole verrouillage. «Publié» indique que le jeu de données a été publié dans l’environnement de test."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:138
 msgid ""
@@ -191,7 +209,7 @@ msgid ""
 "einem Klick auf «Planen». Die Veröffentlichung lässt sich verlässlich auf"
 " ein bestimmtes Datum planen, die Festlegung der Uhrzeit kann um ± eine "
 "Stunde von der effektiven Publikation abweichen."
-msgstr ""
+msgstr "Dans l’environnement de production, vous pouvez en outre choisir la date de publication de votre jeu de données. Sous «Publier tout de suite», renseignez les champs de la date et de l’heure pour définir quand publier le jeu de données en question, puis confirmez en cliquant sur «Publier». La date de publication est assurée, mais le moment exact peut varier de plus ou moins une heure par rapport à l’heure choisie."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:146
 msgid ""
@@ -199,17 +217,17 @@ msgid ""
 "Abnahmeumgebung noch auf die Produktionsumgebung übertragen werden. Dies "
 "übernehmen wir für Sie, geben Sie uns einfach per E-Mail Bescheid "
 "`<mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgstr "S’il s’agit de votre première publication, il vous reste encore à transférer votre jeu de données de l’environnement de test à l’environnement de production. Nous nous ferons un plaisir de nous en occuper pour vous, il suffit de nous envoyer un e-mail ((Mail to: opendata(at)bfs.admin.ch)). "
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:153
 msgid ""
 "Wichtig: Vergessen Sie nicht nach jeder Änderung von bereits publizierten"
 " Daten auf «Aktualisieren» zu klicken."
-msgstr ""
+msgstr "Important: après chaque modification de données déjà publiées, veuillez cliquer sur «Mettre à jour»."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:161
 msgid "Beispielansicht eines publizierten Datasets"
-msgstr ""
+msgstr "«Exemple d’un jeu de donné publié»"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:165
 msgid "Support"
@@ -219,16 +237,17 @@ msgstr ""
 msgid ""
 "Sie haben eine Frage zum Import Ihres Datasets als XML? `Schreiben Sie "
 "uns <mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter."
-msgstr ""
+msgstr "Avez-vous des questions sur l’import de votre jeu de données sous forme de "
+"fichier XML? `Écrivez-nous <mailto:opendata@bfs.admin.ch>`__, nous nous ferons un plaisir de vous aider."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:173
 msgid "Mehr zum Thema"
-msgstr ""
+msgstr "Informations complémentaires"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:175
 msgid ""
 ":doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` "
 "– Beschreibung des aktuell von opendata.swiss genutzte Datenstandards "
 "DCAT-AP-CH"
-msgstr ""
+msgstr ":doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>` - Description de la norme de données DCAT-AP CH utilisée par opendata.swiss sous DCAT-AP CH (Link, englisch)"
 

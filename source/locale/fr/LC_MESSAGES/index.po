@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../source/index.rst:74
 msgid "Vorbereiten"
-msgstr ""
+msgstr "Préparer"
 
 #: ../../source/index.rst:82
 msgid "Publizieren"
-msgstr ""
+msgstr "Publier"
 
 #: ../../source/index.rst:91
 msgid "Pflegen"

@@ -25,17 +25,17 @@ msgstr ""
 #: ../../source/content/publizieren/publizieren.rst:4
 #: ../../source/content/publizieren/publizieren.rst:11
 msgid "Daten publizieren"
-msgstr ""
+msgstr "Publier les données"
 
 #: ../../source/content/publizieren/publizieren.rst:8
 msgid "Auf einen Blick"
-msgstr ""
+msgstr "Vue d’ensemble"
 
 #: ../../source/content/publizieren/publizieren.rst:13
 msgid ""
 "In diesem Kapitel erklären wir Ihnen, wie Sie Open Government Data "
 "publizieren. Folgende Punkte müssen Sie dabei beachten:"
-msgstr ""
+msgstr "Dans ce chapitre, vous apprenez comment publier des données publiques ouvertes. Veuillez tenir compte des points suivants:"
 
 #: ../../source/content/publizieren/publizieren.rst:16
 msgid ""
@@ -43,7 +43,7 @@ msgid ""
 "Government Data in standardisierter, leicht verständlicher und "
 "wiederverwendbarer Form referenziert. Somit steigert sich ihre "
 "Sichtbarkeit."
-msgstr ""
+msgstr "opendata.swiss est un catalogue de métadonnées. Il réfère à des jeux de données publiés sous une forme standardisée, facile à comprendre et réutilisable, ce qui en augmente la visibilité."
 
 #: ../../source/content/publizieren/publizieren.rst:20
 msgid ""
@@ -56,6 +56,19 @@ msgid ""
 "/organisatorischer-check>` :doc:`Anforderungen <../vorbereiten/dataset>` "
 "eingehalten werden."
 msgstr ""
+"Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data "
+"(OGD)>` übernimmt das Controlling des gesamten Katalogs. Es ist "
+"allerdings an den publizierenden Organisationen oder Personen "
+"sicherzustellen, dass die :doc:`rechtlichen <../vorbereiten/dataset"
+"/rechtlicher-check>`, :doc:`technischen <../vorbereiten/dataset"
+"/technischer-check>` und :doc:`organisatorischen <../vorbereiten/dataset"
+"/organisatorischer-check>` :doc:`Anforderungen <../vorbereiten/dataset>` "
+"eingehalten werden."
+"Le :term:`secrétariat OGD <Geschäftsstelle Open Government (OGD)>` Dataest chargé de contrôler "
+"l’ensemble du catalogue. Toutefois, il appartient aux organisations et aux particuliers "
+"fournissant des données de s’assurer que les :doc:`exigences juridiques <../vorbereiten/dataset/rechtlicher-check>`, "
+":doc:`techniques <../vorbereiten/dataset/technischer-check>` "
+"et :doc:`organisationnelles <../vorbereiten/dataset/organisatorischer-check>` sont respectées."
 
 #: ../../source/content/publizieren/publizieren.rst:29
 msgid ""
@@ -67,7 +80,8 @@ msgid ""
 "Ab der zweiten Publikation können Datenpublizierende immer wieder neue "
 "Daten selbstständig publizieren. Die Abnahmeumgebung steht jederzeit für "
 "Test-Publikationen zur Verfügung."
-msgstr ""
+msgstr "Toute première publication, quelle qu’en soit la variante, fait l’objet d’un test dans "
+":term:`l’«environnement de test» <Abnahmeumgebung>` d’opendata.swiss. Ainsi les organisations et les particuliers fournissant des données ont la possibilité de vérifier minutieusement leurs jeux de données ainsi que toutes les informations pertinentes et d’y apporter d’éventuelles modifications.  Dès la deuxième publication, les fournisseurs de données sont en mesure de publier des données de manière autonome. L’environnement de test est disponible à tout moment pour le test de publications."
 
 #: ../../source/content/publizieren/publizieren.rst:37
 msgid ""
@@ -75,7 +89,8 @@ msgid ""
 "<Geschäftsstelle Open Government Data (OGD)>` sichergestellt. Neue "
 "Benutzerinnen und Benutzer oder Anpassungen an den bestehenden "
 "Berechtigungen sind uns daher immer zu melden."
-msgstr ""
+msgstr "La gestion des utilisateurs est de la responsabilité du "
+":term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>`. Pour cette raison, nous vous prions de nous communiquer systématiquement les nouveaux utilisateurs et tout changement d’utilisateur."
 
 #: ../../source/content/publizieren/publizieren.rst:43
 msgid ""
@@ -84,7 +99,9 @@ msgid ""
 "Open Government Data (OGD)>` die neue Organisation und Benutzer/innen auf"
 " opendata.swiss registrieren. Erst danach kann der Publikationsprozess "
 "starten."
-msgstr ""
+msgstr "Lors de votre première publication, nous vous accompagnons pas à pas tout au long de la procédure. "
+"Dans un premier temps, le :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>` doit enregistrer "
+"la nouvelle organisation et les utilisateurs sur opendata.swiss. Cette procédure est requise pour lancer la procédure de publication."
 
 #: ../../source/content/publizieren/publizieren.rst:50
 msgid ""
@@ -92,37 +109,41 @@ msgid ""
 "registriert sind, können Sie direkt zu den Inhalten für registrierte "
 "Nutzerinnen und Nutzer springen. Dort können Sie direkt die geeignete "
 "Publikationsvariante für Ihre Daten auswählen."
-msgstr ""
+msgstr "Si vous êtes déjà enregistré sur opendata.swiss en tant qu’utilisateur, passez directement au contenu pour utilisateurs enregistrés pour y sélectionner la variante de publication appropriée."
 
 #: ../../source/content/publizieren/publizieren.rst:55
 msgid ":doc:`Für Erst-Publizierende <erstpublizierende>`"
-msgstr ""
+msgstr ":doc:`Avant la première publication <erstpublizierende>`"
 
 #: ../../source/content/publizieren/publizieren.rst:57
 msgid ""
-":doc:`Benutzer/innen erfassen und verwalten <erstpublizierende/kontakt-"
+":doc:`Saisir et gérer les utilisateurs <erstpublizierende/kontakt-"
 "bfs>`"
 msgstr ""
+":doc:`Benutzer/innen erfassen und verwalten <erstpublizierende/kontakt-"
+"bfs>`"
 
 #: ../../source/content/publizieren/publizieren.rst:58
 msgid ":doc:`Profil verwalten <erstpublizierende/profil-einrichten>`"
-msgstr ""
+msgstr ":doc:`Gérer le profil <erstpublizierende/profil-einrichten>`"
 
 #: ../../source/content/publizieren/publizieren.rst:59
 msgid ""
-":doc:`Informationen zur Organisation ergänzen <erstpublizierende"
+":doc:`Compléter les informations sur l’organisation <erstpublizierende"
 "/organisation-einrichten>`"
 msgstr ""
+":doc:`Informationen zur Organisation ergänzen <erstpublizierende"
+"/organisation-einrichten>`"
 
 #: ../../source/content/publizieren/publizieren.rst:62
 msgid "Für registrierte Nutzerinnen und Nutzer"
-msgstr ""
+msgstr "Utilisateurs enregistrés"
 
 #: ../../source/content/publizieren/publizieren.rst:64
 msgid ":doc:`Publikationsprozess verstehen <publikationsprozess>`"
-msgstr ""
+msgstr ":doc:`Comprendre la procédure de publication <publikationsprozess>`"
 
 #: ../../source/content/publizieren/publizieren.rst:65
 msgid ":doc:`Publikationsvariante auswählen <publikationsvariante>`"
-msgstr ""
+msgstr ":doc:`Sélectionner la variante de publication <publikationsvariante>`"
 
