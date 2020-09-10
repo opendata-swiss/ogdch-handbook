@@ -75,7 +75,7 @@ msgstr "Ce manuel vise à aider les personnes et les organisations "
 "Élaboré par le secrétariat Open Government Data rattaché à "
 "l’Office fédéral de la statistique (OFS) afin de mettre en œuvre la stratégie "
 "en matière de libre accès aux données publiques en Suisse pour "
-"les années 2019 à 2023 (`stratégie Open Government Data 2019-2023 <https://www.bfs.admin.ch/bfs/fre/home/home/services/ogd/strategie.html>`__), il a pour but de simplifier la procédure de publication des données et de promouvoir la publication de données publiques ouvertes. Conçu comme un document dynamique, ce manuel est mis à jour et révisé en continu."
+"les années 2019 à 2023 (`stratégie Open Government Data 2019-2023 <https://www.bfs.admin.ch/bfs/fr/home/services/ogd/strategie.html>`__), il a pour but de simplifier la procédure de publication des données et de promouvoir la publication de données publiques ouvertes. Conçu comme un document dynamique, ce manuel est mis à jour et révisé en continu."
 
 #: ../../source/index.rst:29
 msgid "Wie nutze ich dieses Handbuch?"

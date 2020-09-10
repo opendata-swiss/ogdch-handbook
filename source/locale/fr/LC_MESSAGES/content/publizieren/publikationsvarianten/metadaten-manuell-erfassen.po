@@ -162,7 +162,8 @@ msgid ""
 "Anwendungsprofil für Datenportale in der Schweiz (DCAT-AP CH) "
 "<https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a>`__."
 msgstr "Pour une description détaillée du contenu des champs de métadonnées, "
-"veuillez vous référer à la publication `eCH-0200 profil d’application DCAT pour les portails de données en Suisse (DCAT-AP CH) <http://www.ech.ch/fr/dokument/9d2b232a-2535-4343-9e71-be633efc7d2c>`__"
+"veuillez vous référer à la publication `eCH-0200 profil d’application DCAT pour les portails "
+"de données en Suisse (DCAT-AP CH) <http://www.ech.ch/fr/dokument/9d2b232a-2535-4343-9e71-be633efc7d2c>`__"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:90
 msgid ""

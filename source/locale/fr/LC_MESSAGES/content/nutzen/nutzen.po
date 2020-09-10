@@ -87,5 +87,5 @@ msgstr "Informations complémentaires"
 
 #: ../../source/content/nutzen/nutzen.rst:45
 msgid "`Nutzungsbedingungen (Link) <https://opendata.swiss/de/terms-of-use/>`__,"
-msgstr "`Conditions d’utilisation <https://opendata.swiss/de/terms-of-use/>`__"
+msgstr "`Conditions d’utilisation <https://opendata.swiss/fr/terms-of-use/>`__"
 

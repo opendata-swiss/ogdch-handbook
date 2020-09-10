@@ -244,7 +244,7 @@ msgstr ""
 #: ../../source/content/vorbereiten/dataset/technischer-check.rst:115
 msgid ""
 "`https://www.europeandataportal.eu/de/training/data-providers-guide "
-"<https://www.europeandataportal.eu/de/training/data-providers-guide>`__"
+"<https://www.europeandataportal.eu/fr/training/data-providers-guide>`__"
 msgstr ""
 
 #: ../../source/content/vorbereiten/dataset/technischer-check.rst:119
