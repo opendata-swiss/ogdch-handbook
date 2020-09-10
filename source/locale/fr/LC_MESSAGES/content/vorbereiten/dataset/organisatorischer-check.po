@@ -33,19 +33,20 @@ msgstr ""
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:6
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:10
 msgid "Organisatorische Anforderungen prüfen"
-msgstr ""
+msgstr "Vérifier les exigences organisationnelles"
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:13
 msgid ""
 "Welche organisatorischen Aspekte sollte ich bei der Publikation von OGD "
 "beachten?"
-msgstr ""
+msgstr "À quels aspects organisationnels faut-il veiller lors de la publication d’OGD?"
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:17
 msgid ""
 "Um eine nachhaltige Publikation von Open Government Data zu ermöglichen "
 "sind folgende Aspekte besonders zu berücksichtigen:"
-msgstr ""
+msgstr "Veuillez porter une attention particulière aux aspects suivants pour "
+"assurer une publication durable des données publiques ouvertes:"
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:20
 msgid ""
@@ -57,7 +58,8 @@ msgid ""
 "Weiterentwicklung des Datenangebots der Organisation verwendet werden. Es"
 " müssen Verantwortlichkeiten und Prozesse dazu definiert und transparent "
 "gemacht werden."
-msgstr ""
+msgstr "**Processus de traitement et d’évaluation des retours** "
+"Le dialogue entre les fournisseurs de données et leurs utilisateurs est essentiel pour la publication de données publiques ouvertes. Il importe donc de saisir systématiquement les retours concernant les données, de les évaluer, d’y répondre rapidement le cas échéant et de les prendre en compte pour développer l’offre de données de l’organisation. À cet effet, il est nécessaire de définir en toute transparence les responsabilités et les procédures en la matière."
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:27
 msgid ""
@@ -65,7 +67,8 @@ msgid ""
 "von der Organisation gehalten werden («Dateninventar») soll erstellt, "
 "aktualisiert und veröffentlicht werden. Dabei sind insbesondere die "
 "Angaben zur Kategorisierung Open, Shared und Closed wichtig."
-msgstr ""
+msgstr "**Inventaire des données actuelles** "
+"Élaborer, mettre à jour et publier une vue d’ensemble des données dont dispose l’organisation («inventaire des données») en distinguant les catégories open, shared et closed."
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:32
 msgid ""
@@ -74,7 +77,8 @@ msgid ""
 "und Verantwortlichkeiten zu definieren, zu kommunizieren und zu "
 "etablieren. Nur so kann garantiert werden, dass die Daten dauerhaft und "
 "entsprechend den Vorgaben von OGD zur Verfügung stehen."
-msgstr ""
+msgstr "**Définition des procédures et des responsabilités** "
+"Définir, communiquer et établir les procédures et les responsabilités en matière de publication, au sein de l’organisation comme avec les organisations partenaires. C’est le seul moyen de garantir que les données sont disponibles en tout temps conformément aux consignes en matière d’OGD."
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:37
 msgid ""
@@ -84,7 +88,8 @@ msgid ""
 "Bundesstellen oder Kantone), müssen die involvierten Stellen abklären, "
 "welche Organisation für die Publikation als Open Government Data "
 "zuständig ist."
-msgstr ""
+msgstr "**Responsabilités en cas de gestion ou de production commune de données** "
+"Si plusieurs organisations sont impliquées dans la collecte ou la production de données (plusieurs offices fédéraux ou cantons p. ex.), les organismes impliqués doivent déterminer lequel d’entre eux assume la responsabilité de la publication des données publiques ouvertes."
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:42
 msgid ""
@@ -94,7 +99,8 @@ msgid ""
 "Portals opendata.swiss und dessen Vorgaben zu formulieren und der "
 ":term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` "
 "mitzuteilen."
-msgstr ""
+msgstr "**Partage des expériences** "
+"Les fournisseurs de données sont invités à partager leurs expériences entre eux. Nous vous sommes tout particulièrement reconnaissants de communiquer au secrétariat OGD ((Link to: Glossar)) toute suggestion permettant de développer le portail opendata.swiss et ses consignes."
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:52
 msgid "Support"
@@ -104,11 +110,11 @@ msgstr ""
 msgid ""
 "Sie haben noch Fragen zum Thema Organisation und Prozesse? `Schreiben Sie"
 " uns <mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgstr "Avez-vous des questions concernant l’organisation et les procédures? `Écrivez-nous <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:59
 msgid ":doc:`Nächster Schritt: Daten publizieren <../../publizieren/publizieren>`"
-msgstr ""
+msgstr ":doc:`Prochaine étape: publier les données <../../publizieren/publizieren>`"
 
 #: ../../source/content/vorbereiten/dataset/organisatorischer-check.rst:61
 msgid ""
@@ -116,5 +122,5 @@ msgid ""
 " Ihres Datasets geklärt und die organisatorischen Aspekte berücksichtigt."
 " Die Vorbereitung ist damit abgeschlossen, nun können Sie Ihr Dataset "
 "publizieren."
-msgstr ""
+msgstr "Vous avez choisi les conditions d’utilisation, précisé les exigences techniques de votre jeu de données et tenu compte des aspects organisationnels. Les préparatifs étant terminés, vous pouvez passer à la publication de votre jeu de données."
 

@@ -29,11 +29,11 @@ msgstr ""
 #: ../../source/content/publizieren/publikationsvariante.rst:5
 #: ../../source/content/publizieren/publikationsvariante.rst:9
 msgid "Publikationsvariante auswählen"
-msgstr ""
+msgstr "Choisir la variante de publication"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:12
 msgid "Welche Publikationsvarianten ist die richtige für meine Daten?"
-msgstr ""
+msgstr "Quelle variante de publication choisir pour mes données?"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:16
 msgid ""
@@ -46,41 +46,52 @@ msgid ""
 "Sie mit uns darüber <mailto:opendata@bfs.admin.ch>`__. Hier finden Sie "
 "einige Richtwerte, die Ihnen bei der Wahl der Publikationsvariante "
 "helfen:"
-msgstr ""
+msgstr "Le choix de la variante de publication appropriée dépend du type et de l’étendue des "
+"données ainsi que de leur intervalle de mise à jour. Vous êtes bien sûr libre de choisir "
+"la variante qui vous convient. Cependant, en fonction des caractéristiques de vos données, "
+"certaines variantes sont plus indiquées que d’autres. `Prenez contact <mailto:opendata@bfs.admin.ch>`__ avec "
+"le :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>` qui vous aidera volontiers "
+"à définir la variante de publication appropriée."
 
 #: ../../source/content/publizieren/publikationsvariante.rst:26
 msgid "Wenig Daten, seltene Aktualisierung:"
-msgstr ""
+msgstr "Faible quantité de données, mise à jour peu fréquente"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:27
 msgid ""
 ":doc:`Metadaten manuell via Webformular erfassen <publikationsvarianten"
 "/metadaten-manuell-erfassen>`"
 msgstr ""
+":doc:`Saisie manuelle des métadonnées via le formulaire web <publikationsvarianten"
+"/metadaten-manuell-erfassen>`"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:28
 msgid "Mehr als 10 Datasets, regelmässige Aktualisierung:"
-msgstr ""
+msgstr "Plus de 10 jeux de données, mise à jour régulière"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:29
 msgid ""
 ":doc:`Metadaten als XML-Datei importieren <publikationsvarianten"
 "/metadaten-via-xml-hochladen>`"
 msgstr ""
+":doc:`Import des métadonnées sous forme de fichier XML <publikationsvarianten"
+"/metadaten-via-xml-hochladen>`"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:30
 msgid "Grosse Anzahl Datasets, häufige Aktualisierung:"
-msgstr ""
+msgstr "Nombre important de jeux de données, mise à jour fréquente"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:31
 msgid ""
 ":doc:`Metadaten mit Harvester automatisch hochladen "
 "<publikationsvarianten/harvesting>`"
 msgstr ""
+":doc:`Téléchargement automatique des métadonnées via moissonnage "
+"<publikationsvarianten/harvesting>`"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:35
 msgid "Geodaten"
-msgstr ""
+msgstr "Géodonnées"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:33
 msgid ""
@@ -89,10 +100,12 @@ msgid ""
 ":doc:`Metadaten via geocat.ch publizieren "
 "<publikationsvarianten/geodaten>`"
 msgstr ""
+"Les géodonnées constituent un cas particulier. Toute publication de géodonnées requiert la saisie des métadonnées correspondantes dans le catalogue suisse de géométadonnées geocat.ch. "
+":doc:`Publication des métadonnées via geocat.ch <publikationsvarianten/geodaten>`"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:37
 msgid "Gut zu wissen"
-msgstr ""
+msgstr "Bon à savoir"
 
 #: ../../source/content/publizieren/publikationsvariante.rst:39
 msgid ""
@@ -103,5 +116,9 @@ msgid ""
 " <Geschäftsstelle Open Government Data (OGD)>` geplant werden. Falls Sie "
 "Ihre Publikationsvariante ändern möchten, `kontaktieren Sie uns gerne "
 "<mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgstr "En principe, il est possible de modifier la variante de publication à tout moment. "
+"C’est par exemple le cas dès lors que le traitement manuel des saisies et les mises à jour manuelles prennent "
+"trop de temps et que le téléchargement automatique via le moissonneur est possible. "
+"Ce changement doit être planifié d’entente avec le :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>`. Pour modifier votre variante de publication, "
+"veuillez `prendre contact avec nous <mailto:opendata@bfs.admin.ch>`__."
 

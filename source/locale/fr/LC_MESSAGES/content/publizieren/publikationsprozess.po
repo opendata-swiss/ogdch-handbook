@@ -29,11 +29,11 @@ msgstr ""
 #: ../../source/content/publizieren/publikationsprozess.rst:5
 #: ../../source/content/publizieren/publikationsprozess.rst:9
 msgid "Publikationsprozess verstehen"
-msgstr ""
+msgstr "Comprendre la procédure de publication"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:12
 msgid "Was muss ich über den Publikationsprozess wissen?"
-msgstr ""
+msgstr "Que dois-je savoir de la procédure de publication?"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:16
 msgid ""
@@ -46,58 +46,75 @@ msgid ""
 ":term:`«Produktionsumgebung» <Produktionsumgebung>`. Wenn Sie Daten "
 "bereits zum wiederholten Male publizieren, können Sie dies direkt in der "
 "Produktionsumgebung tun."
-msgstr ""
+msgstr "La procédure de publication comprend quatre étapes. Un point important: "
+"lorsque vous publiez des données pour la première fois, faites-le "
+"d’abord dans un environnement non public conçu à cet effet, à savoir :term:`l’«environnement de test» <Abnahmeumgebung>`."
+"Ce n’est qu’une fois les jeux de données "
+"définitivement approuvés qu’ils sont publiés sur opendata.swiss, "
+"à savoir dans :term:`l’«environnement de production» <Produktionsumgebung>`, où il "
+"sont accessibles au public. "
+"Si vous avez déjà de l’expérience dans la publication de données, vous pouvez "
+"directement publier dans l’environnement de production."
 
 #: ../../source/content/publizieren/publikationsprozess.rst:27
 msgid "Daten publizieren – So funktioniert’s:"
-msgstr ""
+msgstr "Publication des données – comment procéder"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:30
 msgid "1. Schritt: Publikationsvariante auswählen"
-msgstr ""
+msgstr "1re étape – sélectionner la variante de publication"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:32
 msgid ""
 "Es gibt vier verschiedene :doc:`Publikationsvarianten  "
 "<publikationsvariante>`, die Ihnen zur Verfügung stehen:"
-msgstr ""
+msgstr "Vous avez le choix entre quatre :doc:`variantes de publication <publikationsvariante>`:"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:36
 msgid ""
 ":doc:`Dataset manuell via Webformular erfassen <publikationsvarianten"
 "/metadaten-manuell-erfassen>`"
 msgstr ""
+":doc:`Saisie manuelle du jeu de données via le formulaire web <publikationsvarianten"
+"/metadaten-manuell-erfassen>`"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:37
 msgid ""
 ":doc:`Datenkatalog als XML importieren <publikationsvarianten/metadaten-"
 "via-xml-hochladen>`"
 msgstr ""
+":doc:`Import du catalogue de données au format XML <publikationsvarianten/metadaten-"
+"via-xml-hochladen>`"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:38
 msgid ""
 ":doc:`Datenkatalog via Harvester erfassen "
 "<publikationsvarianten/harvesting>`"
 msgstr ""
+":doc:`Saisie du catalogue de données par moissonnage (harvesting) "
+"<publikationsvarianten/harvesting>`"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:39
 msgid ""
 ":doc:`Geodaten via geocat.ch erfassen <publikationsvarianten/geodaten>` "
 "(Wichtig: Alle Geodaten müssen nach dieser Methode publiziert werden)"
 msgstr ""
+":doc:`Saisie des géodonnées au moyen de geocat.ch <publikationsvarianten/geodaten>` "
+"(Important: toutes les géodonnées doivent être publiées selon cette méthode)"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:41
 msgid ""
-"Gemeinsam mit der :term:`Geschäftsstelle OGD <Geschäftsstelle Open "
-"Government Data (OGD)>` identifizieren Sie, welche Publikationsvariante "
+"Gemeinsam mit der :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` identifizieren Sie, welche Publikationsvariante "
 "sich eignet, um einerseits Ihren Aufwand bei der Publikation zu "
 "minimieren und andererseits eine hohe Qualität der publizierten Einträge "
 "zu gewährleisten."
-msgstr ""
+msgstr "Avec le :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>`, vous déterminez la variante de publication appropriée "
+"permettant d’une part de réduire votre travail de publication au minimum, "
+"d’autre part d’assurer la qualité des entrées publiées."
 
 #: ../../source/content/publizieren/publikationsprozess.rst:48
 msgid "2. Schritt: Metadaten Import durchführen"
-msgstr ""
+msgstr "2e étape – import des métadonnées"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:50
 msgid ""
@@ -111,11 +128,12 @@ msgid ""
 "Erfassen sind die Felder im Backend von opendata.swiss direkt via "
 "Webformular auszufüllen. Nähere Informationen dazu finden Sie im Kapitel "
 ":doc:`Publikationsvariante auswählen <publikationsvariante>`."
-msgstr ""
+msgstr "Les métadonnées de vos données sont importées dans opendata.swiss pour être mises à la disposition des utilisateurs, qui pourront réutiliser les données publiées. La réalisation de cette étape est fonction de la méthode choisie. En cas d’import du catalogue de données au format XML ou via le moissonneur, veuillez soit directement télécharger vos jeux de données sous forme de fichiers XML au format DCAT-AP CH (import XML), soit nous les transmettre via une URL (moissonneur). Lors de la saisie manuelle, les champs de l’arrière-plan d’opendata.swiss doivent être remplis directement au moyen du formulaire web. Pour de plus amples informations, veuillez consulter "
+"le chapitre :doc:`Sélection de la variante de publication <publikationsvariante>`."
 
 #: ../../source/content/publizieren/publikationsprozess.rst:62
 msgid "3. Schritt: Prüfung der Daten"
-msgstr ""
+msgstr "3e étape – vérification des données"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:64
 msgid ""
@@ -126,11 +144,15 @@ msgid ""
 "<mailto:opendata@bfs.admin.ch>`__, um die Prüfung der Daten zu planen. "
 "Durchschnittlich benötigen wir 5 Werktage, um die Daten und Metadaten zu "
 "prüfen."
-msgstr ""
+msgstr "Une fois les métadonnées saisies, vous pouvez passer à l’assurance qualité. "
+"Lors de votre première publication, nous veillons ensemble à ce que les données, métadonnées et descriptions "
+"soient saisies et affichées correctement dans l’environnement de test. "
+"`Prenez contact avec nous <mailto:opendata@bfs.admin.ch>`__ pour organiser la vérification "
+"des données. En principe, il nous faut cinq jours ouvrables pour vérifier les données et les métadonnées."
 
 #: ../../source/content/publizieren/publikationsprozess.rst:72
 msgid "4. Schritt: Freigabe und Veröffentlichung"
-msgstr ""
+msgstr "4e étape – approbation et publication"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:74
 msgid ""
@@ -142,11 +164,12 @@ msgid ""
 "Unterstützung bei einer wiederholten Publikation, können Sie uns "
 "selbstverständlich jederzeit `kontaktieren "
 "<mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgstr "Une fois que vous aurez donné votre consentement définitif, nous publierons les données sur opendata.swiss à la date convenue conjointement. Cette procédure ne s’applique qu’à la première publication. Pour les publications suivantes, vous serez en mesure de publier les données vous-même ou de programmer la mise en service pour la date choisie. Il va de soi que vous pouvez aussi "
+"`prendre contact avec nous <mailto:opendata@bfs.admin.ch>`__ si vous avez besoin d’aide pour toute publication ultérieure."
 
 #: ../../source/content/publizieren/publikationsprozess.rst:81
 msgid "Gut zu wissen"
-msgstr ""
+msgstr "Bon à savoir"
 
 #: ../../source/content/publizieren/publikationsprozess.rst:83
 msgid ""
@@ -155,5 +178,6 @@ msgid ""
 "festgelegt haben. Sie haben diesen Schritt verpasst? Kein Problem, mit "
 "einem Klick können Sie dies nachholen und Ihre :doc:`Daten hier "
 "vorbereiten <../vorbereiten/dataset>`."
-msgstr ""
+msgstr "Avant de lancer la procédure de publication, vous devez avoir vérifié la base juridique de vos données et choisi les conditions d’utilisation. Si vous avez sauté cette étape, "
+"il suffit de cliquer :doc:`ici pour y retourner et préparer vos données <../vorbereiten/dataset>`"
 

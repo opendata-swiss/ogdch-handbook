@@ -198,7 +198,7 @@ Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
 .. container:: important
 
     Wichtig: Bitte berücksichtigen Sie bei der Publikation einer Ressourcen
-    :doc:`die technischen Anforderungen <../../vorbereiten/dataset/rechtlicher-check>`
+    :doc:`die technischen Anforderungen <../../vorbereiten/dataset/technischer-check>`
     von opendata.swiss.
 
 .. _manuell-schlagwoerter-definieren:

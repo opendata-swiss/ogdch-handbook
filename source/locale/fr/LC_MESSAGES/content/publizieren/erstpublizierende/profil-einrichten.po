@@ -33,11 +33,11 @@ msgstr ""
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:6
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:10
 msgid "Profil verwalten"
-msgstr ""
+msgstr "Gérer le profil "
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:13
 msgid "Wie kann ich mein Profil editieren?"
-msgstr ""
+msgstr "Comment mettre à jour mon profil?"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:17
 msgid ""
@@ -45,50 +45,54 @@ msgid ""
 " :term:`Abnahmeumgebung <Abnahmeumgebung>` von opendata.swiss einloggen. "
 "Auf der Seite «Benutzer» können Sie Ihre Profilinformationen editieren "
 "und Ihr Konto verwalten."
-msgstr ""
+msgstr "Le login que nous vous envoyons vous permet de vous connecter à votre profil sur "
+":term:`l’environnement de test <Abnahmeumgebung>` d’opendata.swiss. "
+"À la page «Profil», vous pouvez modifier votre profil et gérer votre compte."
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:26
 msgid "Die wichtigsten Angaben im Überblick"
-msgstr ""
+msgstr "Aperçu des principales informations"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:29
 msgid "Benutzerkonten-Verwaltung"
-msgstr ""
+msgstr "Gérer les comptes d’utilisateur"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst
 msgid "Neues Passwort"
-msgstr ""
+msgstr "Nouveau mot de passe"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:31
 msgid "(* Pflichtfeld)"
-msgstr ""
+msgstr "(* champ obligatoire)"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:33
 msgid ""
 "Sie haben Ihr Passwort vergessen? Kein Problem. Klicken Sie auf «Passwort"
 " generieren» und Sie erhalten in Kürze eine E-Mail, um Ihr Passwort zu "
 "ändern."
-msgstr ""
+msgstr "Vous avez oublié votre mot de passe? Aucun souci. Il vous suffit de cliquer sur «Générer un mot de passe». Vous recevrez un e-mail qui vous permettra de réinitialiser votre mot de passe."
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:38
 msgid "Änderungen speichern"
-msgstr ""
+msgstr "Enregistrer les modifications"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:40
 msgid ""
 "Nicht vergessen: Bestätigen Sie alle gemachten Änderungen mit einem Klick"
 " auf «Profil aktualisieren»."
-msgstr ""
+msgstr "Attention, n’oubliez pas de cliquer sur «Mettre à jour le profil» pour confirmer les modifications apportées."
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:45
 msgid ""
 ":doc:`Nächster Schritt: Informationen zur Organisation ergänzen "
 "<organisation-einrichten>`"
 msgstr ""
+":doc:`Prochaine étape: compléter les informations sur l’organisation "
+"<organisation-einrichten>`"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:47
 msgid ""
 "Ihr Profil ist nun angelegt und ausgefüllt, jetzt können Sie "
 "Informationen zu Ihrer Organisation eingeben."
-msgstr ""
+msgstr "Votre profil a été créé et renseigné. Vous pouvez dès à présent saisir des informations sur votre organisation"
 
