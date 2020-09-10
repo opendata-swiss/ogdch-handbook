@@ -29,30 +29,31 @@ msgstr ""
 #: ../../source/content/vorbereiten/dataset.rst:5
 #: ../../source/content/vorbereiten/dataset.rst:9
 msgid "Für jedes Dataset"
-msgstr ""
+msgstr "Pour chaque jeu de données"
 
 #: ../../source/content/vorbereiten/dataset.rst:12
 msgid "Welche Schritte sind vor der Publikation eines Datasets nötig?"
-msgstr ""
+msgstr "Étapes nécessaires avant la publication d’un jeu de données"
 
 #: ../../source/content/vorbereiten/dataset.rst:16
 msgid ""
 "Bevor Sie Daten auf opendata.swiss publizieren können, müssen Sie "
 "sicherstellen, dass die Anforderungen für die Publikation von OGD erfüllt"
 " werden. Dies gilt für jedes einzelne Dataset:"
-msgstr ""
+msgstr "Avant de publier des données publiques ouvertes, veuillez vous assurer que les exigences en matière d’OGD sont remplies. Pour chaque jeu de données, il est indispensable de:"
 
 #: ../../source/content/vorbereiten/dataset.rst:20
 msgid ":doc:`Rechtliche Anforderungen prüfen <dataset/rechtlicher-check>`"
-msgstr ""
+msgstr ":doc:`Vérifier les exigences légales <dataset/rechtlicher-check>`"
 
 #: ../../source/content/vorbereiten/dataset.rst:21
 msgid ":doc:`Technische Anforderungen prüfen <dataset/technischer-check>`"
-msgstr ""
+msgstr ":doc:`Vérifier les exigences techniques <dataset/technischer-check>`"
 
 #: ../../source/content/vorbereiten/dataset.rst:22
 msgid ""
 ":doc:`Organisatorische Anforderungen prüfen <dataset/organisatorischer-"
 "check>`"
-msgstr ""
+msgstr ":doc:`Vérifier les exigences organisationnelles <dataset/organisatorischer-"
+"check>`"
 

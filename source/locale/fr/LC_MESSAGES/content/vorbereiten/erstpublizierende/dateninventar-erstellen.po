@@ -33,11 +33,11 @@ msgstr ""
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:6
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:11
 msgid "Dateninventar erstellen"
-msgstr ""
+msgstr "Établir un inventaire des données"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:14
 msgid "Welche Daten gibt es in meiner Organisation?"
-msgstr ""
+msgstr "De quelles données mon organisation dispose-t-elle?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:18
 msgid ""
@@ -46,11 +46,11 @@ msgid ""
 "überhaupt vorhanden sind. So können Sie einfacher und systematischer "
 "Daten identifizieren, die als Open Government Data publiziert werden "
 "sollen."
-msgstr ""
+msgstr "Avant de publier vos premières données publiques ouvertes, nous vous recommandons de répertorier les données dont dispose votre organisation. Il vous sera plus simple d’identifier systématiquement les données susceptibles d’être publiées sous forme de données publiques ouvertes."
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:26
 msgid "Dateninventarisierung"
-msgstr ""
+msgstr "Inventaire des données"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:28
 msgid ""
@@ -59,62 +59,62 @@ msgid ""
 "unter spezifischen Bedingungen publiziert bzw. weiterverwendet werden "
 "dürfen (Shared Data) und welche Daten überhaupt nicht publiziert werden "
 "dürfen (Closed Data)."
-msgstr ""
+msgstr "Le but de cette procédure est d’identifier les données qui peuvent être publiées sans restrictions (open data), les données qui ne peuvent être publiées ou réutilisées qu’à certaines conditions (shared data) et les données dont toute publication est exclue (closed data)."
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:34
 msgid "Diese Fragen helfen Ihnen bei dieser Kategorisierung:"
-msgstr ""
+msgstr "Les questions ci-dessous vous aideront à classer les données:"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:36
 msgid ""
 "Im Rahmen welcher Geschäftsaktivitäten werden Daten produziert, gesammelt"
 " oder verarbeitet?"
-msgstr ""
+msgstr "En quoi consistent les activités commerciales dans le cadre desquelles vous produisez, collectez ou traitez des données?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:38
 msgid ""
 "Aufgrund welches Mandats (rechtliche Grundlage, Entscheid) werden die "
 "Daten produziert oder erhoben?"
-msgstr ""
+msgstr "Sur quel mandat (base légale, décision) repose la production ou la collecte des données?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:40
 msgid ""
 "Aufgrund welches Mandats (rechtliche Grundlage, Entscheid) werden die "
 "Daten publiziert?"
-msgstr ""
+msgstr "Sur quel mandat (base légale, décision) repose la publication des données?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:42
 msgid "Wer verwaltet diese Daten, wer ist für die Daten zuständig?"
-msgstr ""
+msgstr "Qui gère ces données? Qui en assume la responsabilité?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:43
 msgid ""
 "Wie erreichen Userinnen und User heute diese Daten? Sind die Daten "
 "bereits im Web publiziert, beispielsweise auf Daten-Portalen oder auf "
 "Websites?"
-msgstr ""
+msgstr "Comment les utilisateurs accèdent-ils à ces données actuellement? Sont-elles déjà publiées sur le web? Sur des portails de données ou des sites internet p. ex.?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:45
 msgid ""
 "Welche Daten sind von besonders hoher strategischer Bedeutung? Für welche"
 " Daten besteht eine besonders grosse Nachfrage?"
-msgstr ""
+msgstr "Quelles données sont d’importance stratégique? Pour quelles données la demande est-elle particulièrement forte?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:47
 msgid "In welcher Form (Format, Qualität) werden die Daten heute veröffentlicht?"
-msgstr ""
+msgstr "Quelle est la forme (format, qualité) de publication actuelle des données?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:49
 msgid ""
 "Werden die Daten aufgrund einer Kundenanfrage oder eines Kundenwunsches "
 "verarbeitet?"
-msgstr ""
+msgstr "Le traitement des données répond-il à une demande ou à un souhait d’un client?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:51
 msgid ""
 "Sind im Rahmen anderer Erhebungen, beispielsweise im IT-Bereich oder zur "
 "Unternehmensarchitektur, Informationen über Ihre Datasets vorhanden?"
-msgstr ""
+msgstr "D’autres inventaires (dans les domaines informatique ou architecture d’entreprise p. ex.) contiennent-ils des informations sur vos jeux de données?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:56
 msgid "Support"
@@ -126,11 +126,11 @@ msgid ""
 "Sie die Daten, die als Open Data identifiziert werden, veröffentlichen – "
 "Sie wissen aber nicht so recht wie? `Schreiben Sie uns "
 "<mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter."
-msgstr ""
+msgstr "Vous avez besoin d’aide pour faire l’inventaire de vos données? Vous souhaitez publier les données identifiées comme données ouvertes, mais vous ne savez pas comment procéder? Alors `écrivez-nous <mailto:opendata@bfs.admin.ch>`__, nous nous ferons un plaisir de vous aider."
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:66
 msgid "Mehr zum Thema"
-msgstr ""
+msgstr "Informations complémentaires"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:68
 msgid ""
@@ -140,6 +140,11 @@ msgid ""
 " – Das Dokument liefert Kriterien zur Abgrenzung zwischen OGD und jenen "
 "Leistungen, die im Auftrag für einen Kunden erbracht wurden."
 msgstr ""
+"`Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen"
+" (pdf) "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147081.html>`__"
+" – Le document définit des critères permettant de différencier les OGD des prestations réalisées pour un client. "
+"Actuellement, ce document est uniquement disponible en allemand."
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:71
 msgid ""
@@ -148,12 +153,15 @@ msgid ""
 " – Das Dokument erklärt sämtliche Fragen des rechtlichen Checks und trägt"
 " so zur Entscheidungsfindung bei."
 msgstr ""
+"`Arbeitshilfe für Behörden zur Publikation von Daten als OGD (pdf) "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__"
+" – Le document contribue au processus décisionnel en précisant les questions de la vérification légale. Actuellement, ce document est uniquement disponible en allemand."
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:77
 msgid ""
 ":doc:`Die passende Nutzungsbedingung für meine Datasets auswählen "
 "<../dataset/rechtlicher-check>`"
-msgstr ""
+msgstr ":doc:`Sélection des conditions d’utilisation appropriées pour mes jeux de données <../dataset/rechtlicher-check>`"
 
 #: ../../source/content/vorbereiten/erstpublizierende/dateninventar-erstellen.rst:79
 msgid ""
@@ -164,5 +172,5 @@ msgid ""
 "Auswahl und Anwendung von offenen Nutzungsbedingungen auf Ihre Daten. Wir"
 " unterstützen Sie mit einer zweistufigen Überprüfung dabei, die richtige "
 "Nutzungsbedingung auszuwählen."
-msgstr ""
+msgstr "Les conditions d’utilisation «traduisent» les bases légales en vigueur tout en précisant dans quel but les données en question peuvent être utilisées. La première étape de la publication de données publiques ouvertes consiste à choisir et à appliquer des conditions d’utilisation ouvertes pour vos données. Nous vous aidons à opter pour les conditions d’utilisation appropriées en vous invitant à procéder à une vérification en deux étapes."
 

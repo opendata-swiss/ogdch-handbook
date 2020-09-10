@@ -28,11 +28,11 @@ msgstr ""
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:8
 msgid "Auf einen Blick"
-msgstr ""
+msgstr "Vue d’ensemble"
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:11
 msgid "Daten vorbereiten"
-msgstr ""
+msgstr "Préparer les données"
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:13
 msgid ""
@@ -43,51 +43,54 @@ msgid ""
 "Anforderungen, technische Anforderungen und organisatorische "
 "Anforderungen. Diese Anforderungen sind wichtig, damit die reibungslose "
 "Verwendung der Daten durch Dritte gewährleistet ist."
-msgstr ""
+msgstr "Toute publication nécessite une préparation minutieuse. Avant de publier des données publiques ouvertes, veuillez vous assurer que les exigences légales, techniques et organisationnelles en matière d’OGD sont remplies. Le respect de ces exigences garantit que ces données peuvent être utilisées efficacement."
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:22
 msgid ""
 "In diesem Kapitel unterstützen wir Sie dabei zu prüfen, ob diese "
 "Anforderungen erfüllt werden – passend zu Ihren jeweiligen Daten und mit "
 "so wenig Aufwand wie möglich."
-msgstr ""
+msgstr "Ce chapitre vous montre comment vérifier si les exigences sont respectées, en fonction de vos données et en veillant à réduire le travail autant que possible."
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:26
 msgid ""
 "Sie haben noch keine Daten auf opendata.swiss veröffentlicht? Als Erst-"
 "Publizierende erklären wir Ihnen das Wichtigste rund um den Prozess und "
 "unterstützen Sie bei der Identifikation von geeigneten Daten."
-msgstr ""
+msgstr "Vous n’avez jamais publié de données sur opendata.swiss? Avant votre première publication, vous trouverez ici une vue d’ensemble des principaux aspects de la procédure. Ce chapitre vous aidera en outre à savoir quelles données sont susceptibles d’être publiées."
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:32
 msgid ":doc:`Für Erst-Publizierende <erstpublizierende>`"
-msgstr ""
+msgstr ":doc:`Avant la première publication <erstpublizierende>`"
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:34
 msgid ""
 ":doc:`opendata.swiss verstehen <erstpublizierende/opendata-swiss-"
 "verstehen>`"
 msgstr ""
+":doc:`Comprendre opendata.swiss <erstpublizierende/opendata-swiss-"
+"verstehen>`"
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:35
 msgid ":doc:`Dateninventar erstellen <erstpublizierende/dateninventar-erstellen>`"
-msgstr ""
+msgstr ":doc:`Établir un inventaire des données <erstpublizierende/dateninventar-erstellen>`"
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:38
 msgid ":doc:`Für jedes Dataset <dataset>`"
-msgstr ""
+msgstr ":doc:`Pour chaque jeu de données <dataset>`"
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:40
 msgid ":doc:`Rechtliche Anforderungen prüfen <dataset/rechtlicher-check>`"
-msgstr ""
+msgstr ":doc:`Vérifier les exigences légales <dataset/rechtlicher-check>`"
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:41
 msgid ":doc:`Technische Anforderungen prüfen <dataset/technischer-check>`"
-msgstr ""
+msgstr ":doc:`Vérifier les exigences techniques <dataset/technischer-check>`"
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:42
 msgid ""
 ":doc:`Organisatorische Anforderungen prüfen <dataset/organisatorischer-"
 "check>`"
 msgstr ""
-
+":doc:`Vérifier les exigences organisationnelles <dataset/organisatorischer-"
+"check>`"

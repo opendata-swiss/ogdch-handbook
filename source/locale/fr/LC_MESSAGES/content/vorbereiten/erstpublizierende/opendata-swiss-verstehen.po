@@ -4,19 +4,20 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Project-Id-Version: Handbuch Opendata.swiss\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-03 10:50+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-09-10 06:37+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
@@ -30,127 +31,66 @@ msgstr ""
 msgid ":doc:`Erst-Publizierende <../erstpublizierende>` :fa:`chevron-right`"
 msgstr ""
 
-#: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:6
-#: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:10
+#: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:6 ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:10
 msgid "opendata.swiss verstehen"
-msgstr ""
+msgstr "Comprendre opendata.swiss"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:13
 msgid "Der Publikationsprozess und das Portal opendata.swiss"
-msgstr ""
+msgstr "Procédure de publication et portail opendata.swiss"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:17
-msgid ""
-"Bevor Sie zum ersten Mal Daten veröffentlichen, möchten wir Sie in die "
-"wesentlichen Mechanismen von opendata.swiss einführen."
-msgstr ""
+msgid "Bevor Sie zum ersten Mal Daten veröffentlichen, möchten wir Sie in die wesentlichen Mechanismen von opendata.swiss einführen."
+msgstr "Avant votre première publication, nous vous invitons à vous familiariser avec les principaux mécanismes d’opendata.swiss."
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:22
 msgid "Was ist Open Government Data?"
-msgstr ""
+msgstr "Les données publiques ouvertes, qu’est-ce que c’est?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:24
-msgid ""
-"Open Government Data (OGD) ist eine weltweite Bewegung, an der auch "
-"Schweizer Verwaltungen partizipieren. Konkret versteht man darunter "
-":term:`Verwaltungsdaten <Verwaltungsdaten>`, die kostenfrei und in "
-"maschinenlesbarer Form zur Weiterverarbeitung zur Verfügung stehen. Open "
-"Government Data werden nicht nur aufgrund einer konkreten Anfrage "
-"publiziert, sondern proaktiv. Dadurch werden Transparenz und "
-"Partizipation sowie Innovation gefördert."
-msgstr ""
+msgid "Open Government Data (OGD) ist eine weltweite Bewegung, an der auch Schweizer Verwaltungen partizipieren. Konkret versteht man darunter :term:`Verwaltungsdaten <Verwaltungsdaten>`, die kostenfrei und in maschinenlesbarer Form zur Weiterverarbeitung zur Verfügung stehen. Open Government Data werden nicht nur aufgrund einer konkreten Anfrage publiziert, sondern proaktiv. Dadurch werden Transparenz und Partizipation sowie Innovation gefördert."
+msgstr "Les données publiques ouvertes (Open Government Data – OGD) sont un mouvement mondial auquel participent les administrations suisses. Il s’agit concrètement de :term:`données de l’administration <Verwaltungsdaten>` mises à disposition gratuitement et sous forme lisible par machine pour traitement ultérieur. Les données publiques ouvertes sont publiées de façon proactive ou en réponse à une demande spécifique de sorte à promouvoir la transparence, la participation et l’innovation."
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:33
-msgid ""
-"Die Prüfung, welche Verwaltungsdaten als Open Government Data publiziert "
-"werden sollen, und die Publikation liegen bei den Verwaltungsstellen "
-"selbst. Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government "
-"Data (OGD)>` hat im Rahmen der `Open Government Data-Strategie 2019 – "
-"2023 <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__ "
-"den Auftrag erhalten, diese Publikation zu fördern, unterstützen und "
-"koordinieren. Ausgeschlossen von der Publikation als OGD sind "
-"Geschäftsgeheimnisse oder Daten, bei denen ein besonderes, in einem "
-"Spezialgesetz verankertes Schutzinteresse besteht (Datenschutzgesetz, "
-"Informationsschutz, Urheberrecht)."
+msgid "Die Prüfung, welche Verwaltungsdaten als Open Government Data publiziert werden sollen, und die Publikation liegen bei den Verwaltungsstellen selbst. Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` hat im Rahmen der `Open Government Data-Strategie 2019 – 2023 <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__ den Auftrag erhalten, diese Publikation zu fördern, unterstützen und koordinieren. Ausgeschlossen von der Publikation als OGD sind Geschäftsgeheimnisse oder Daten, bei denen ein besonderes, in einem Spezialgesetz verankertes Schutzinteresse besteht (Datenschutzgesetz, Informationsschutz, Urheberrecht)."
 msgstr ""
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:47
 msgid "Weshalb muss ich Daten auf opendata.swiss publizieren?"
-msgstr ""
+msgstr "Pourquoi publier des données sur opendata.swiss?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:49
-msgid ""
-"Gestützt auf die Strategie Open Government Data 2019 – 2023 müssen alle "
-"Daten von Bundesstellen ab 2020 als Open Data publiziert werden (Prinzip "
-"«open by default»). Das heisst: Die Publikation von OGD ist für die "
-"zentrale Bundesverwaltung verbindlich. Für dezentrale Einheiten stellen "
-"die OGD-Strategie sowie die vorliegenden Richtlinien Orientierungspunkte "
-"dar. Kantone, Gemeinden sowie staatsnahe Betriebe und weitere Akteure, "
-"die Daten im Auftrag der Verwaltung produzieren, sind zur Zusammenarbeit "
-"und Publikation auf opendata.swiss eingeladen. Gerne prüfen wir auch die "
-"Publikation von Daten, die von privaten Personen oder Organisationen "
-"produziert oder verwaltet werden und von öffentlichem Interesse sind. Der"
-" Bund fördert eine national koordinierte Umsetzung von OGD, da er diese "
-"als Erfolgsfaktor für eine effiziente Vorgehensweise betrachtet."
-msgstr ""
+msgid "Gestützt auf die Strategie Open Government Data 2019 – 2023 müssen alle Daten von Bundesstellen ab 2020 als Open Data publiziert werden (Prinzip «open by default»). Das heisst: Die Publikation von OGD ist für die zentrale Bundesverwaltung verbindlich. Für dezentrale Einheiten stellen die OGD-Strategie sowie die vorliegenden Richtlinien Orientierungspunkte dar. Kantone, Gemeinden sowie staatsnahe Betriebe und weitere Akteure, die Daten im Auftrag der Verwaltung produzieren, sind zur Zusammenarbeit und Publikation auf opendata.swiss eingeladen. Gerne prüfen wir auch die Publikation von Daten, die von privaten Personen oder Organisationen produziert oder verwaltet werden und von öffentlichem Interesse sind. Der Bund fördert eine national koordinierte Umsetzung von OGD, da er diese als Erfolgsfaktor für eine effiziente Vorgehensweise betrachtet."
+msgstr "Conformément à la stratégie Open government data 2019 – 2023, toutes les données des services fédéraux doivent être publiées sous forme de données publiques ouvertes (principe «open by default») à partir de 2020. Autrement dit, la publication d’Open Government Data (OGD) est obligatoire pour l’Administration fédérale centrale. Pour les unités décentralisées, la stratégie OGD ainsi que les consignes du présent manuel sont fournies à titre d’orientation. Les cantons, les communes et les entreprises parapubliques ainsi que d’autres acteurs produisant des données pour le compte de l’administration sont invités à coopérer et à publier sur opendata.swiss. Nous vérifions volontiers la publication de données d’intérêt public produites ou gérées par des particuliers ou des organisations privées. Considérant que les OGD constituent un facteur de succès permettant de travailler efficacement, la Confédération promeut la mise en œuvre coordonnée des OGD."
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:66
 msgid "Wie funktioniert opendata.swiss?"
-msgstr ""
+msgstr "Comment fonctionne opendata.swiss?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:68
-msgid ""
-"Opendata.swiss ist ein Metadatenkatalog. Das heisst, die Rohdaten "
-"verbleiben bei Ihnen, es wird lediglich eine Referenz, nämlich die "
-"Metadaten, auf opendata.swiss publiziert. Das bedeutet für Sie, dass Sie "
-"die Verantwortung für Ihre Daten selbst tragen. Nach der Veröffentlichung"
-" der Daten müssen Sie diese selbst regelmässig :doc:`aktualisieren "
-"<../../pflegen/datasets-updaten>`, sowie den Datenutzerinnen und -nutzern"
-" :doc:`bei Fragen zur Verfügung stehen <../../pflegen/auskunft-geben>`. "
-"Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data "
-"(OGD)>` unterstützt Sie bei diesen Aufgaben."
-msgstr ""
+msgid "Opendata.swiss ist ein Metadatenkatalog. Das heisst, die Rohdaten verbleiben bei Ihnen, es wird lediglich eine Referenz, nämlich die Metadaten, auf opendata.swiss publiziert. Das bedeutet für Sie, dass Sie die Verantwortung für Ihre Daten selbst tragen. Nach der Veröffentlichung der Daten müssen Sie diese selbst regelmässig :doc:`aktualisieren <../../pflegen/datasets-updaten>`, sowie den Datenutzerinnen und -nutzern :doc:`bei Fragen zur Verfügung stehen <../../pflegen/auskunft-geben>`. Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` unterstützt Sie bei diesen Aufgaben."
+msgstr "opendata.swiss est un catalogue de métadonnées. Autrement dit, les données brutes restent chez vous, opendata.swiss ne publie qu’une référence – à savoir des métadonnées – pour les données en question. Par conséquent, vous êtes responsable de vos données. Une fois les données publiées, il vous appartient de les :doc:`tenir à jour <../../pflegen/datasets-updaten>` et de :doc:`répondre aux questions des utilisateurs <../../pflegen/auskunft-geben>`. Le :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>` vous apporte son soutien dans l’accomplissement de ces tâches."
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:81
 msgid "Wer publiziert auf opendata.swiss?"
-msgstr ""
+msgstr "Qui publie sur opendata.swiss?"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:83
-msgid ""
-"Verwaltungsstellen auf allen Ebenen, staatsnahe Betriebe aber auch "
-"Privatpersonen, die über Daten verfügen, an denen ein öffentliches "
-"Interesse besteht, publizieren Daten auf opendata.swiss. Falls Sie "
-"unsicher sind, ob Ihre Daten auf opendata.swiss veröffentlicht werden "
-"können, `nehmen Sie gerne mit uns Kontakt auf "
-"<mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgid "Verwaltungsstellen auf allen Ebenen, staatsnahe Betriebe aber auch Privatpersonen, die über Daten verfügen, an denen ein öffentliches Interesse besteht, publizieren Daten auf opendata.swiss. Falls Sie unsicher sind, ob Ihre Daten auf opendata.swiss veröffentlicht werden können, `nehmen Sie gerne mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__."
+msgstr "Les services administratifs de tous niveaux, les entreprises parapubliques ainsi que les particuliers disposant de données d’intérêt public publient sur opendata.swiss. Vous vous demandez si vos données peuvent être publiées sur opendata.swiss? N’hésitez pas à `prendre contact avec nous <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:90
 msgid "Gut zu wissen"
-msgstr ""
+msgstr "Bon à savoir"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:92
-msgid ""
-"opendata.swiss ist ein Metadatenkatalog. Es wird kein zentrales "
-"Datenhosting zur Verfügung gestellt. Dies müssen Sie als "
-"datenpublizierende Organisation oder Person selbst organisieren. Hier "
-"finden Sie :doc:`Informationen zum Thema Hosting "
-"<../../glossar/bibliothek/hosting>`, die Ihnen dabei helfen. Derzeit "
-"liegen sie nur auf Englisch vor. Benötigen Sie Unterstützung, um das "
-"Hosting zu organisieren? `Kontaktieren Sie uns und wir geben Ihnen gerne "
-"weitere Empfehlungen <mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgid "opendata.swiss ist ein Metadatenkatalog. Es wird kein zentrales Datenhosting zur Verfügung gestellt. Dies müssen Sie als datenpublizierende Organisation oder Person selbst organisieren. Hier finden Sie :doc:`Informationen zum Thema Hosting <../../glossar/bibliothek/hosting>`, die Ihnen dabei helfen. Derzeit liegen sie nur auf Englisch vor. Benötigen Sie Unterstützung, um das Hosting zu organisieren? `Kontaktieren Sie uns und wir geben Ihnen gerne weitere Empfehlungen <mailto:opendata@bfs.admin.ch>`__."
+msgstr "opendata.swiss est un catalogue de métadonnées, il ne fournit en aucun cas un hébergement centralisé des données. Ce dernier est de la responsabilité des fournisseurs de données, qu’il s’agisse d’institutions ou de particuliers. Cliquez ici pour obtenir des :doc:`informations sur l’hébergement <../../glossar/bibliothek/hosting>` (disponibles uniquement en anglais). Avez-vous besoin d’aide pour assurer l’hébergement de vos données? `Nous vous conseillons volontiers. N’hésitez pas à prendre contact avec nous <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:103
-msgid ""
-":doc:`Geeignete Daten in meiner Organisation identifizieren "
-"<dateninventar-erstellen>`"
-msgstr ""
+msgid ":doc:`Geeignete Daten in meiner Organisation identifizieren <dateninventar-erstellen>`"
+msgstr ":doc:`Comment identifier les données appropriées au sein de mon organisation <dateninventar-erstellen>`"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:105
-msgid ""
-"Im nächsten Schritt geben wir Ihnen Hilfestellung, um Daten in Ihrem "
-"Unternehmen zu identifizieren, die sich für die Veröffentlichung auf "
-"opendata.swiss eignen."
-msgstr ""
-
+msgid "Im nächsten Schritt geben wir Ihnen Hilfestellung, um Daten in Ihrem Unternehmen zu identifizieren, die sich für die Veröffentlichung auf opendata.swiss eignen."
+msgstr "L’étape suivante vous montre comment identifier les données de votre entreprise susceptibles d’être publiées sur opendata.swiss. Cliquez ici pour vérifier l’inventaire des données."
