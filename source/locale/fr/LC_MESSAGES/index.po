@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../source/index.rst:8
 msgid ":fa:`home` Handbuch"
-msgstr ""
+msgstr ":fa:`home` Manuel"
 
 #: ../../source/index.rst:12
 msgid "Willkommen"
