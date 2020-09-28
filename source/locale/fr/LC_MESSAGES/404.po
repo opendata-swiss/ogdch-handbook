@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/404.rst:8
 msgid ":fa:`home` :doc:`Handbuch <index>`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <index>`"
 
 #: ../../source/404.rst:12
 msgid "Handbook opendata.swiss"
