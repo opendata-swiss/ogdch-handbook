@@ -47,8 +47,7 @@ msgstr "opendata.swiss est un catalogue de métadonnées. Il réfère à des jeu
 
 #: ../../source/content/publizieren/publizieren.rst:20
 msgid ""
-"Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data "
-"(OGD)>` übernimmt das Controlling des gesamten Katalogs. Es ist "
+"Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` übernimmt das Controlling des gesamten Katalogs. Es ist "
 "allerdings an den publizierenden Organisationen oder Personen "
 "sicherzustellen, dass die :doc:`rechtlichen <../vorbereiten/dataset"
 "/rechtlicher-check>`, :doc:`technischen <../vorbereiten/dataset"
@@ -56,7 +55,7 @@ msgid ""
 "/organisatorischer-check>` :doc:`Anforderungen <../vorbereiten/dataset>` "
 "eingehalten werden."
 msgstr ""
-"Le :term:`secrétariat OGD <Geschäftsstelle Open Government (OGD)>` Dataest chargé de contrôler "
+"Le :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>` Dataest chargé de contrôler "
 "l’ensemble du catalogue. Toutefois, il appartient aux organisations et aux particuliers "
 "fournissant des données de s’assurer que les :doc:`exigences juridiques <../vorbereiten/dataset/rechtlicher-check>`, "
 ":doc:`techniques <../vorbereiten/dataset/technischer-check>` "

@@ -141,11 +141,7 @@ Was ist was bei Open Data?
     `Mehr Informationen <https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__
 
   Open by default
-    Prinzip, das im Rahmen der Strategie
-    `Open Government Data 2019 – 2023 <https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__
-    auf Bundesebene umgesetzt werden muss. Ab 2020 sollen
-    alle neuen publizierten Daten von Bundesstellen als offene,
-    frei und maschinell nutzbare Verwaltungsdaten publiziert werden.
+    Prinzip, das im Rahmen der Strategie `Open Government Data 2019 – 2023 <https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__ auf Bundesebene umgesetzt werden muss. Ab 2020 sollen alle neuen publizierten Daten von Bundesstellen als offene, frei und maschinell nutzbare Verwaltungsdaten publiziert werden.
 
   Produktionsumgebung
     Das CMS von opendata.swiss. Nachdem Datenpublizierende

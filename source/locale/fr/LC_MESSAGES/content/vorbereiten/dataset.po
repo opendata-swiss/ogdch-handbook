@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"POT-Creation-Date: 2020-09-28 14:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
 msgstr ":fa:`home` :doc:`Manuel <../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/dataset.rst:4
-msgid ":doc:`Préparer <vorbereiten>` :fa:`chevron-right`"
+msgid ":doc:`Vorbereiten <vorbereiten>` :fa:`chevron-right`"
 msgstr ""
 
 #: ../../source/content/vorbereiten/dataset.rst:5
@@ -40,7 +40,10 @@ msgid ""
 "Bevor Sie Daten auf opendata.swiss publizieren können, müssen Sie "
 "sicherstellen, dass die Anforderungen für die Publikation von OGD erfüllt"
 " werden. Dies gilt für jedes einzelne Dataset:"
-msgstr "Avant de publier des données publiques ouvertes, veuillez vous assurer que les exigences en matière d’OGD sont remplies. Pour chaque jeu de données, il est indispensable de:"
+msgstr ""
+"Avant de publier des données publiques ouvertes, veuillez vous assurer "
+"que les exigences en matière d’OGD sont remplies. Pour chaque jeu de "
+"données, il est indispensable de:"
 
 #: ../../source/content/vorbereiten/dataset.rst:20
 msgid ":doc:`Rechtliche Anforderungen prüfen <dataset/rechtlicher-check>`"
@@ -54,6 +57,10 @@ msgstr ":doc:`Vérifier les exigences techniques <dataset/technischer-check>`"
 msgid ""
 ":doc:`Organisatorische Anforderungen prüfen <dataset/organisatorischer-"
 "check>`"
-msgstr ":doc:`Vérifier les exigences organisationnelles <dataset/organisatorischer-"
-"check>`"
+msgstr ""
+":doc:`Vérifier les exigences organisationnelles <dataset"
+"/organisatorischer-check>`"
+
+#~ msgid ":doc:`Préparer <vorbereiten>` :fa:`chevron-right`"
+#~ msgstr ""
 

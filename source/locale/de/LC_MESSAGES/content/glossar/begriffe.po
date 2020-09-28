@@ -290,11 +290,7 @@ msgstr ""
 
 #: ../../source/content/glossar/begriffe.rst:192
 msgid ""
-"Prinzip, das im Rahmen der Strategie `Open Government Data 2019 – 2023 "
-"<https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__ auf "
-"Bundesebene umgesetzt werden muss. Ab 2020 sollen alle neuen publizierten"
-" Daten von Bundesstellen als offene, frei und maschinell nutzbare "
-"Verwaltungsdaten publiziert werden."
+"Prinzip, das im Rahmen der Strategie `Open Government Data 2019 – 2023 <https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__ auf Bundesebene umgesetzt werden muss. Ab 2020 sollen alle neuen publizierten Daten von Bundesstellen als offene, frei und maschinell nutzbare Verwaltungsdaten publiziert werden."
 msgstr ""
 
 #: ../../source/content/glossar/begriffe.rst:199
