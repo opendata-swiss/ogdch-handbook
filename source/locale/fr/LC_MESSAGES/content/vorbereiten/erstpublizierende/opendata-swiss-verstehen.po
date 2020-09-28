@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.rst:4
 msgid ":doc:`Vorbereiten <../vorbereiten>` :fa:`chevron-right`"

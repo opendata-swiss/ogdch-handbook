@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/content/pflegen/pflegen.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/pflegen/pflegen.rst:4
 #: ../../source/content/pflegen/pflegen.rst:11

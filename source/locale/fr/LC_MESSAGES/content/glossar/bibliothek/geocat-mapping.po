@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:4
 msgid ":doc:`Bibliothek <../bibliothek>` :fa:`chevron-right`"
