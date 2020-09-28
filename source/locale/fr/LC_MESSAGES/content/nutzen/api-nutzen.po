@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/content/nutzen/api-nutzen.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/nutzen/api-nutzen.rst:4
 msgid ":doc:`Nutzen <nutzen>` :fa:`chevron-right`"

@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:4
 msgid ":doc:`Publizieren <../publizieren>` :fa:`chevron-right`"
