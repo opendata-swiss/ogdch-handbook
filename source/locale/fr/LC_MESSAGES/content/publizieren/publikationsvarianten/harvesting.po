@@ -152,7 +152,7 @@ msgstr "À cet effet, veuillez nous envoyer `l’URL par e-mail <mailto:opendata
 msgid ""
 "Wichtig: Der Datenkatalog muss im Format :doc:`DCAT-AP-CH "
 "<../../glossar/bibliothek/dcat-ap-ch>` vorliegen."
-msgstr "mportant: le catalogue de données doit utiliser le "
+msgstr "Important: le catalogue de données doit utiliser le "
 "format :doc:`DCAT-AP CH <../../glossar/bibliothek/dcat-ap-ch>`."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:86
@@ -208,7 +208,7 @@ msgstr "Après une vérification finale de votre jeu de données, nous paramétr
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:138
 msgid "Beispielansicht eines publizierten Datasets"
-msgstr ""
+msgstr "«Exemple d’un jeu de donné publié»"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:142
 msgid "Support"

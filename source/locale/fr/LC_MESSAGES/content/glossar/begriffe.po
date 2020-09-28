@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"POT-Creation-Date: 2020-09-28 14:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,7 @@ msgstr ""
 msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
 msgstr ":fa:`home` :doc:`Manuel <../../index>` :fa:`chevron-right`"
 
+#: ../../source/content/glossar/begriffe.rst:4
 #: ../../source/content/glossar/begriffe.rst:8
 msgid "Begriffe"
 msgstr "Termes et expressions"
@@ -30,19 +31,11 @@ msgstr "Termes et expressions"
 msgid "Was ist was bei Open Data?"
 msgstr "Quelques notions d’open data"
 
-#: ../../source/content/glossar/begriffe.rst:15
-msgid "Jumbbox"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:18
-msgid "`A`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:21
+#: ../../source/content/glossar/begriffe.rst:14
 msgid "Abnahmeumgebung"
 msgstr "Environnement de test"
 
-#: ../../source/content/glossar/begriffe.rst:23
+#: ../../source/content/glossar/begriffe.rst:16
 msgid ""
 "Die Test-Version der Plattform opendata.swiss. In der Abnahmeumgebung "
 "sind wie in der Produktionsumgebung ein Backend und ein Frontend "
@@ -54,17 +47,25 @@ msgid ""
 "Sicherheitsgründen für beide Umgebungen (Abnahme und Produktion) "
 "getrennt. Sie benötigen daher zwei User-Profile. Die URL zu dieser "
 "Umgebung erhalten Datenpublizierende bei ihrer Registrierung."
-msgstr "Version d’essai de la plateforme opendata.swiss. Tout comme l’environnement de production, l’environnement de test comprend un arrière-plan (back-end) et un frontal (front-end). Il permet aux fournisseurs de données de tester la procédure de publication dans l’arrière-plan et de vérifier le résultat sur un frontal non indexé par les moteurs de recherche. La publication de données commence toujours dans cet environnement; le secrétariat OGD doit ensuite l’approuver avant qu’elle ne passe à l’étape de production. Remarque: pour des raisons de sécurité, les utilisateurs de ces deux environnements (de test et de production) sont gérés séparément. Vous avez donc besoin de deux profils utilisateur. Les fournisseurs de données recevront l’adresse URL de cet environnement au moment de leur enregistrement."
-
-#: ../../source/content/glossar/begriffe.rst:39
-msgid "`B`_"
 msgstr ""
+"Version d’essai de la plateforme opendata.swiss. Tout comme "
+"l’environnement de production, l’environnement de test comprend un "
+"arrière-plan (back-end) et un frontal (front-end). Il permet aux "
+"fournisseurs de données de tester la procédure de publication dans l"
+"’arrière-plan et de vérifier le résultat sur un frontal non indexé par "
+"les moteurs de recherche. La publication de données commence toujours "
+"dans cet environnement; le secrétariat OGD doit ensuite l’approuver avant"
+" qu’elle ne passe à l’étape de production. Remarque: pour des raisons de "
+"sécurité, les utilisateurs de ces deux environnements (de test et de "
+"production) sont gérés séparément. Vous avez donc besoin de deux profils "
+"utilisateur. Les fournisseurs de données recevront l’adresse URL de cet "
+"environnement au moment de leur enregistrement."
 
-#: ../../source/content/glossar/begriffe.rst:42
+#: ../../source/content/glossar/begriffe.rst:30
 msgid "Backend"
 msgstr "Arrière-plan (back-end)"
 
-#: ../../source/content/glossar/begriffe.rst:44
+#: ../../source/content/glossar/begriffe.rst:32
 msgid ""
 "Der Hintergrund oder nicht sichtbare Teil einer Website. Dieser ist nur "
 "Administratoren und bei opendata.swiss den Datenpublizierenden "
@@ -73,43 +74,40 @@ msgid ""
 "Metadaten ein. Das Backend der Abnahmeumgebung und der "
 "Produktionsumgebung sind nahezu identisch."
 msgstr ""
-"Partie non visible d’un site internet."
-"Cette partie est accessible uniquement aux administrateurs et, dans le cas d’opendata.swiss,"
-"aux fournisseurs de données, mais pas au public. L’arrière-plan permet aux fournisseurs de données d’enregistrer "
-"leur organisation et de configurer l’importation de leurs métadonnées. "
-"Les arrière-plans des environnements de test et de production sont pratiquement identiques. "
+"Partie non visible d’un site internet.Cette partie est accessible "
+"uniquement aux administrateurs et, dans le cas d’opendata.swiss,aux "
+"fournisseurs de données, mais pas au public. L’arrière-plan permet aux "
+"fournisseurs de données d’enregistrer leur organisation et de configurer "
+"l’importation de leurs métadonnées. Les arrière-plans des environnements "
+"de test et de production sont pratiquement identiques. "
 
-#: ../../source/content/glossar/begriffe.rst:54
-msgid "`C`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:57
+#: ../../source/content/glossar/begriffe.rst:39
 msgid "CKAN"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:59
+#: ../../source/content/glossar/begriffe.rst:41
 msgid ""
 "Open Source Software für Datenportale. Mit dieser Software ist auch "
 "opendata.swiss gebaut. `Mehr zu CKAN <https://ckan.org>`__."
-msgstr "Logiciel open source déployé par les portails de données. opendata.swiss l’utilise également. `Pour en savoir plus sur CKAN <https://ckan.org>`__."
+msgstr ""
+"Logiciel open source déployé par les portails de données. opendata.swiss "
+"l’utilise également. `Pour en savoir plus sur CKAN <https://ckan.org>`__."
 
-#: ../../source/content/glossar/begriffe.rst:62
+#: ../../source/content/glossar/begriffe.rst:44
 msgid "Katalog Endpunkt (Catalogue endpoint)"
 msgstr "Point de terminaison d’un catalogue (catalogue endpoint)"
 
-#: ../../source/content/glossar/begriffe.rst:64
+#: ../../source/content/glossar/begriffe.rst:46
 msgid "URL, mit der ein Datenkatalog abgeholt, sprich «geharvested», werden kann."
-msgstr "Adresse URL permettant de récupérer ou de «moissonner» un catalogue de données."
-
-#: ../../source/content/glossar/begriffe.rst:68
-msgid "`D`_"
 msgstr ""
+"Adresse URL permettant de récupérer ou de «moissonner» un catalogue de "
+"données."
 
-#: ../../source/content/glossar/begriffe.rst:71
+#: ../../source/content/glossar/begriffe.rst:48
 msgid "Dataset"
 msgstr "Jeu de données"
 
-#: ../../source/content/glossar/begriffe.rst:73
+#: ../../source/content/glossar/begriffe.rst:50
 msgid ""
 "Ein Dataset entspricht einem Eintrag auf opendata.swiss. Es wird von "
 "einer Organisation publiziert bzw. kuratiert und ist in einer oder "
@@ -117,16 +115,22 @@ msgid ""
 "Download verfügbar. Auf opendata.swiss entspricht dies einem Metadaten-"
 "Eintrag der Klasse dcat:Dataset (Dataset-Metadaten-Record) und beschreibt"
 " ein einzelnes, thematisch geschlossenes Dataset. Beispiel:"
-msgstr "Un jeu de données correspond à une entrée sur le portail opendata.swiss. Publié ou structuré par une organisation, il est disponible pour téléchargement sous différentes formes de distribution («ressource» ou «distribution»). Sur opendata.swiss, une telle entrée correspond à des métadonnées de la classe dcat:Dataset (métadonnées d’un jeu de données) et décrit un seul jeu de données portant sur un certain thème. "
+msgstr ""
+"Un jeu de données correspond à une entrée sur le portail opendata.swiss. "
+"Publié ou structuré par une organisation, il est disponible pour "
+"téléchargement sous différentes formes de distribution («ressource» ou "
+"«distribution»). Sur opendata.swiss, une telle entrée correspond à des "
+"métadonnées de la classe dcat:Dataset (métadonnées d’un jeu de données) "
+"et décrit un seul jeu de données portant sur un certain thème. "
 
-#: ../../source/content/glossar/begriffe.rst:82
+#: ../../source/content/glossar/begriffe.rst:59
 msgid ""
 "`Dataset: Statistiken Dienst Überwachung Post- und Fernmeldeverkehr ÜPF "
 "<https://opendata.swiss/de/dataset/statistiken-dienst-ueberwachung-post-"
 "und-fernmeldeverkehr-uepf>`__"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:84
+#: ../../source/content/glossar/begriffe.rst:61
 msgid ""
 "`Ressource: Detaillierte Statistik 2011 "
 "<https://opendata.swiss/de/dataset/statistiken-dienst-ueberwachung-post-"
@@ -134,27 +138,34 @@ msgid ""
 "ddc3-43b6-9873-e4aef316e4d0>`__"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:85
+#: ../../source/content/glossar/begriffe.rst:62
 msgid "Datenpublizierende"
 msgstr "Données publiques"
 
-#: ../../source/content/glossar/begriffe.rst:87
+#: ../../source/content/glossar/begriffe.rst:64
 msgid "Personen oder Organisationen, die Open Government Data (OGD) publizieren."
-msgstr "Les données publiques sont des données collectées, établies, gérées, traitées et sauvegardées par les pouvoirs publics dans le cadre de leur mandat légal. Il s’agit de collections de données structurées, par exemple sous forme de tableaux ou de bases de données. Bien qu’ils contiennent en général des données publiques, les «dossiers d’affaire» ou les «systèmes de classement» de même que les «applications» ou les «applications métier» ne sont pas, en soi, des données publiques."
+msgstr ""
+"Les données publiques sont des données collectées, établies, gérées, "
+"traitées et sauvegardées par les pouvoirs publics dans le cadre de leur "
+"mandat légal. Il s’agit de collections de données structurées, par "
+"exemple sous forme de tableaux ou de bases de données. Bien qu’ils "
+"contiennent en général des données publiques, les «dossiers d’affaire» ou"
+" les «systèmes de classement» de même que les «applications» ou les "
+"«applications métier» ne sont pas, en soi, des données publiques."
 
-#: ../../source/content/glossar/begriffe.rst:89
+#: ../../source/content/glossar/begriffe.rst:66
 msgid "Datennutzende"
 msgstr "Utilisateurs de données"
 
-#: ../../source/content/glossar/begriffe.rst:91
+#: ../../source/content/glossar/begriffe.rst:68
 msgid "Personen oder Organisationen, die Open Government Data (OGD) nutzen."
 msgstr "Personnes ou organisations qui utilisent des données publiques ouvertes."
 
-#: ../../source/content/glossar/begriffe.rst:93
+#: ../../source/content/glossar/begriffe.rst:70
 msgid "DCAT-AP"
 msgstr "DCAT-AP"
 
-#: ../../source/content/glossar/begriffe.rst:95
+#: ../../source/content/glossar/begriffe.rst:72
 msgid ""
 "DCAT-AP ist ein Anwendungsprofil des Data Catalog Vocabulary (DCAT) und "
 "dient zur Beschreibung der in Datenportalen verzeichneten Daten. Es "
@@ -163,26 +174,33 @@ msgid ""
 "<http://www.ech.ch/index.php/de/standards/39919>`__ wird seit 2016 von "
 "opendata.swiss verwendet. Diese wird kontinuierlich im Rahmen der eCH "
 "Fachgruppe OGD weiterentwickelt."
-msgstr "Profil d’application tiré du vocabulaire de catalogage de données (DCAT), utilisé pour "
-"décrire les données répertoriées sur les portails de données. Il est conçu plus spécialement pour "
-"les exploitants de portails de données ouvertes et pour les fournisseurs de données. opendata.swiss "
-"utilise depuis 2016 la version suisse de ce profil (`DCAT-AP CH <http://www.ech.ch/index.php/fr/standards/39919>`__). Le développement de ce profil se poursuit dans le cadre du groupe spécialisé OGD de l’association eCH."
+msgstr ""
+"Profil d’application tiré du vocabulaire de catalogage de données (DCAT),"
+" utilisé pour décrire les données répertoriées sur les portails de "
+"données. Il est conçu plus spécialement pour les exploitants de portails "
+"de données ouvertes et pour les fournisseurs de données. opendata.swiss "
+"utilise depuis 2016 la version suisse de ce profil (`DCAT-AP CH "
+"<http://www.ech.ch/index.php/fr/standards/39919>`__). Le développement de"
+" ce profil se poursuit dans le cadre du groupe spécialisé OGD de "
+"l’association eCH."
 
-#: ../../source/content/glossar/begriffe.rst:104
+#: ../../source/content/glossar/begriffe.rst:81
 msgid "DCAT-AP-Katalog"
 msgstr "Catalogue DCAT-AP"
 
-#: ../../source/content/glossar/begriffe.rst:106
+#: ../../source/content/glossar/begriffe.rst:83
 msgid ""
 "Ein Katalog, der dem DCAT Application Profile entspricht. Dieser Katalog "
 "ist eine kuratierte Sammlung von Metadaten-Records über offene Daten."
-msgstr "Catalogue correspondant au profil d’application DCAT. Il s’agit d’un ensemble organisé de métadonnées se rapportant à des données publiques."
+msgstr ""
+"Catalogue correspondant au profil d’application DCAT. Il s’agit d’un "
+"ensemble organisé de métadonnées se rapportant à des données publiques."
 
-#: ../../source/content/glossar/begriffe.rst:109
+#: ../../source/content/glossar/begriffe.rst:86
 msgid "Distribution"
 msgstr "Distribution ou forme de distribution"
 
-#: ../../source/content/glossar/begriffe.rst:111
+#: ../../source/content/glossar/begriffe.rst:88
 msgid ""
 "Eine physische Verkörperung respektive Repräsentanz des Datasets in einem"
 " spezifischen Format. Eine Distribution (oder auch «Ressource») ist eine "
@@ -190,47 +208,55 @@ msgid ""
 "Bereitstellungsformen eines Datasets (z.B. ein bestimmtes Format), "
 "unterschiedliche Zeitreihen oder auch unterschiedliche Aggregationsstufen"
 " sein."
-msgstr "Matérialisation physique ou représentation d’un jeu de données dans un format spécifique. Une distribution (également appelée «ressource») est une représentation particulière d’un jeu de données. Le terme désigne différentes formes de distribution d’un jeu de données (tel un format spécifique), différentes séries chronologiques ou différents niveaux d’agrégation. "
-
-#: ../../source/content/glossar/begriffe.rst:120
-msgid "`F`_"
 msgstr ""
+"Matérialisation physique ou représentation d’un jeu de données dans un "
+"format spécifique. Une distribution (également appelée «ressource») est "
+"une représentation particulière d’un jeu de données. Le terme désigne "
+"différentes formes de distribution d’un jeu de données (tel un format "
+"spécifique), différentes séries chronologiques ou différents niveaux "
+"d’agrégation. "
 
-#: ../../source/content/glossar/begriffe.rst:123
+#: ../../source/content/glossar/begriffe.rst:95
 msgid "Frontend"
 msgstr "Frontal (front-end)"
 
-#: ../../source/content/glossar/begriffe.rst:125
+#: ../../source/content/glossar/begriffe.rst:97
 msgid ""
 "Der Vordergrund oder öffentlich sichtbare Teil einer Website. Das "
 "Frontend der Abnahmeumgebung dient zur Prüfung der Daten und ist daher "
 "nahezu identisch zum Frontend der Produktionsumgebung aufgebaut. Das "
 "Frontend der Produktionsumgebung ist `https://opendata.swiss "
 "<https://opendata.swiss/de>`__."
-msgstr "Partie d’un site internet qui est visible par tous. Le frontal de l’environnement de test sert à vérifier les données et est dès lors presque identique au frontal de l’environnement de production. Le frontal de ce dernier se trouve à l’adresse `https://opendata.swiss <https://opendata.swiss/fr>`__."
-
-#: ../../source/content/glossar/begriffe.rst:133
-msgid "`G`_"
 msgstr ""
+"Partie d’un site internet qui est visible par tous. Le frontal de "
+"l’environnement de test sert à vérifier les données et est dès lors "
+"presque identique au frontal de l’environnement de production. Le frontal"
+" de ce dernier se trouve à l’adresse `https://opendata.swiss "
+"<https://opendata.swiss/fr>`__."
 
-#: ../../source/content/glossar/begriffe.rst:136
+#: ../../source/content/glossar/begriffe.rst:103
 msgid "Geocat, geocat.ch"
 msgstr "Geocat,geocat.ch"
 
-#: ../../source/content/glossar/begriffe.rst:138
+#: ../../source/content/glossar/begriffe.rst:105
 msgid ""
 "geocat.ch ist der Metadatenkatalog für die Geodaten der Schweiz. "
 "Bundesämter, Kantone, Gemeinden und private Firmen erfassen in geocat.ch "
 "Metadaten zu ihren eigenen Geodaten. geocat.ch bietet deshalb den idealen"
 " Einstiegspunkt für die Suche nach Geodaten: z.B. Luftbilder, geschützte "
 "Ortsbilder, Naturgefahren, Erdbeben usw."
-msgstr "geocat.ch est le catalogue de métadonnées pour l’ensemble des géodonnées suisses. Les offices fédéraux, les cantons, les communes et des entreprises privées y enregistrent leurs géométadonnées. geocat.ch est donc le point de départ idéal pour rechercher des géodonnées (images aériennes, sites protégés, dangers naturels, séismes, etc.)."
+msgstr ""
+"geocat.ch est le catalogue de métadonnées pour l’ensemble des géodonnées "
+"suisses. Les offices fédéraux, les cantons, les communes et des "
+"entreprises privées y enregistrent leurs géométadonnées. geocat.ch est "
+"donc le point de départ idéal pour rechercher des géodonnées (images "
+"aériennes, sites protégés, dangers naturels, séismes, etc.)."
 
-#: ../../source/content/glossar/begriffe.rst:144
+#: ../../source/content/glossar/begriffe.rst:111
 msgid "Geschäftsstelle Open Government Data (OGD)"
 msgstr "Secrétariat OGD"
 
-#: ../../source/content/glossar/begriffe.rst:146
+#: ../../source/content/glossar/begriffe.rst:113
 msgid ""
 "Die Geschäftsstelle `Open Government Data (OGD) "
 "<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__ beim "
@@ -238,33 +264,37 @@ msgid ""
 " Eidgenössischen Departement des Innern (EDI) die Umsetzung der OGD-"
 "Strategie Schweiz 2019–2023. Sie betreibt ausserdem das Portal "
 "opendata.swiss und das vorliegende Handbuch."
-msgstr "Le secrétariat `Open Government Data (secrétariat OGD) <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__ rattaché à l’OFS, coordonne la mise en œuvre opérationnelle de la stratégie OGD suisse 2019-2023 en étroite collaboration avec le Département fédéral de l’intérieur (DFI). Il exploite par ailleurs le portail opendata.swiss et élabore le présent manuel."
-
-#: ../../source/content/glossar/begriffe.rst:154
-msgid "`H`_"
 msgstr ""
+"Le secrétariat `Open Government Data (secrétariat OGD) "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__ "
+"rattaché à l’OFS, coordonne la mise en œuvre opérationnelle de la "
+"stratégie OGD suisse 2019-2023 en étroite collaboration avec le "
+"Département fédéral de l’intérieur (DFI). Il exploite par ailleurs le "
+"portail opendata.swiss et élabore le présent manuel."
 
-#: ../../source/content/glossar/begriffe.rst:157
+#: ../../source/content/glossar/begriffe.rst:119
 msgid "Harvester / Harvesting"
 msgstr "Moissonneur / moissonnage (harvester/harvesting)"
 
-#: ../../source/content/glossar/begriffe.rst:159
+#: ../../source/content/glossar/begriffe.rst:121
 msgid ""
 "Als Harvesting bezeichnet man das automatische «Einsammeln» von Daten "
 "bzw. Metadaten im Fall von opendata.swiss. Mit Hilfe des `CKAN Harvester "
 "Plugins <https://docs.ckan.org/en/ckan-1.7.4/harvesting.html>`__ werden "
 "Datasets aus anderen Instanzen automatisch importiert."
-msgstr "Le moissonnage (ou harvesting en anglais) désigne la «récolte» automatique de données, plus spécialement de métadonnées dans le cas d’opendata.swiss. Le module `d’extension du moissonneur CKAN <https://docs.ckan.org/en/ckan-1.7.4/harvesting.html>`__ permet d’importer automatiquement des jeux de données mis à disposition par d’autres instances. "
-
-#: ../../source/content/glossar/begriffe.rst:165
-msgid "`L`_"
 msgstr ""
+"Le moissonnage (ou harvesting en anglais) désigne la «récolte» "
+"automatique de données, plus spécialement de métadonnées dans le cas "
+"d’opendata.swiss. Le module `d’extension du moissonneur CKAN "
+"<https://docs.ckan.org/en/ckan-1.7.4/harvesting.html>`__ permet "
+"d’importer automatiquement des jeux de données mis à disposition par "
+"d’autres instances. "
 
-#: ../../source/content/glossar/begriffe.rst:168
+#: ../../source/content/glossar/begriffe.rst:125
 msgid "Linked Open Data"
 msgstr "Données ouvertes liées (linked open data)"
 
-#: ../../source/content/glossar/begriffe.rst:170
+#: ../../source/content/glossar/begriffe.rst:127
 msgid ""
 "Linked Open Data ist ein von Tim Berners-Lee entwickeltes Konzept für "
 "Daten. Es bezeichnet ein Netz aus frei verfügbaren Daten, das im "
@@ -274,57 +304,73 @@ msgid ""
 "referenziert. Sollten Sie Fragen zum Thema haben oder möchten Sie Ihre "
 "Daten als Linked Open Data publizieren, kontaktieren Sie bitte `support-"
 "lindas@bar.admin.ch <mailto:support-lindas@bar.admin.ch>`__."
-msgstr "L’expression «données ouvertes liées» désigne un modèle de liens entre données, mis au point par Tim Berners-Lee. Il s’agit d’un réseau de données librement accessibles, qui peuvent être utilisées, partagées et réutilisées dans l’intérêt général sans restriction aucune. Les données ouvertes liées sont considérées comme très aisément lisibles par machine et sont donc référencées sur opendata.swiss. Si vous avez des questions à ce sujet ou si vous souhaitez publier vos données sous forme de données ouvertes liées, veuillez contacter `support-lindas@bar.admin.ch <mailto:support-lindas@bar.admin.ch>`__."
-
-#: ../../source/content/glossar/begriffe.rst:182
-msgid "`O`_"
 msgstr ""
+"L’expression «données ouvertes liées» désigne un modèle de liens entre "
+"données, mis au point par Tim Berners-Lee. Il s’agit d’un réseau de "
+"données librement accessibles, qui peuvent être utilisées, partagées et "
+"réutilisées dans l’intérêt général sans restriction aucune. Les données "
+"ouvertes liées sont considérées comme très aisément lisibles par machine "
+"et sont donc référencées sur opendata.swiss. Si vous avez des questions à"
+" ce sujet ou si vous souhaitez publier vos données sous forme de données "
+"ouvertes liées, veuillez contacter `support-lindas@bar.admin.ch <mailto"
+":support-lindas@bar.admin.ch>`__."
 
-#: ../../source/content/glossar/begriffe.rst:185
+#: ../../source/content/glossar/begriffe.rst:137
 msgid "Open Government Data"
 msgstr "Open government data "
 
-#: ../../source/content/glossar/begriffe.rst:187
+#: ../../source/content/glossar/begriffe.rst:139
 msgid ""
 "Maschinenlesbare, offene und wiederverwendbare Verwaltungsdaten. `Mehr "
 "Informationen <https://www.admin.ch/opc/de/federal-"
 "gazette/2019/879.pdf>`__"
-msgstr "Les open government data (cf. données publiques ouvertes) sont des données publiques disponibles en libre accès, dans un format lisible par ordinateur et réutilisables. `Informations complémentaires <https://www.admin.ch/opc/fr/federal-gazette/2019/855.pdf>`__."
+msgstr ""
+"Les open government data (cf. données publiques ouvertes) sont des "
+"données publiques disponibles en libre accès, dans un format lisible par "
+"ordinateur et réutilisables. `Informations complémentaires "
+"<https://www.admin.ch/opc/fr/federal-gazette/2019/855.pdf>`__."
 
-#: ../../source/content/glossar/begriffe.rst:190
+#: ../../source/content/glossar/begriffe.rst:142
 msgid "Open by default"
 msgstr "En libre accès par défaut (open by default)"
 
-#: ../../source/content/glossar/begriffe.rst:192
+#: ../../source/content/glossar/begriffe.rst:144
 msgid ""
-"Prinzip, das im Rahmen der Strategie `Open Government Data 2019 – 2023 <https://www.admin.ch/opc/fr/federal-gazette/2019/855.pdf>`__ auf Bundesebene umgesetzt werden muss. Ab 2020 sollen alle neuen publizierten Daten von Bundesstellen als offene, frei und maschinell nutzbare Verwaltungsdaten publiziert werden."
-msgstr "Principe à appliquer au niveau fédéral dans le cadre de la stratégie `Open government data pour les années 2019 à 2023 <https://www.admin.ch/opc/fr/federal-gazette/2019/855.pdf>`__. À partir de 2020, toutes les données rendues publiques par les services fédéraux doivent être publiées en libre accès, lisibles par un ordinateur et librement exploitables."
-
-#: ../../source/content/glossar/begriffe.rst:199
-msgid "`P`_"
+"Prinzip, das im Rahmen der Strategie `Open Government Data 2019 – 2023 "
+"<https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__ auf "
+"Bundesebene umgesetzt werden muss. Ab 2020 sollen alle neuen publizierten"
+" Daten von Bundesstellen als offene, frei und maschinell nutzbare "
+"Verwaltungsdaten publiziert werden."
 msgstr ""
+"Principe à appliquer au niveau fédéral dans le cadre de la stratégie "
+"`Open government data pour les années 2019 à 2023 "
+"<https://www.admin.ch/opc/fr/federal-gazette/2019/855.pdf>`__. À partir "
+"de 2020, toutes les données rendues publiques par les services fédéraux "
+"doivent être publiées en libre accès, lisibles par un ordinateur et "
+"librement exploitables."
 
-#: ../../source/content/glossar/begriffe.rst:202
+#: ../../source/content/glossar/begriffe.rst:145
 msgid "Produktionsumgebung"
 msgstr "Environnement de production"
 
-#: ../../source/content/glossar/begriffe.rst:204
+#: ../../source/content/glossar/begriffe.rst:147
 msgid ""
 "Das CMS von opendata.swiss. Nachdem Datenpublizierende Ihre Daten in der "
 "Abnahmeumgebung geprüft haben, werden diese öffentlich in der "
 "Produktionsumgebung publiziert. Die URL erhalten Sie bei der ersten "
 "Registrierung."
-msgstr "Correspond au système de gestion de contenu (SGC ou CMS, en anglais) d’opendata.swiss. Après avoir vérifié leurs données dans l’environnement de test, les fournisseurs de données les mettent à disposition du public dans l’environnement de production. Vous en recevrez l’adresse URL lors de votre enregistrement."
-
-#: ../../source/content/glossar/begriffe.rst:210
-msgid "`R`_"
 msgstr ""
+"Correspond au système de gestion de contenu (SGC ou CMS, en anglais) "
+"d’opendata.swiss. Après avoir vérifié leurs données dans l’environnement "
+"de test, les fournisseurs de données les mettent à disposition du public "
+"dans l’environnement de production. Vous en recevrez l’adresse URL lors "
+"de votre enregistrement."
 
-#: ../../source/content/glossar/begriffe.rst:213
+#: ../../source/content/glossar/begriffe.rst:151
 msgid "Ressource"
 msgstr "Ressource"
 
-#: ../../source/content/glossar/begriffe.rst:215
+#: ../../source/content/glossar/begriffe.rst:153
 msgid ""
 "Eine physische Verkörperung respektive Repräsentanz des Datasets in einem"
 " spezifischen Format. Eine Ressource (oder auch «Distribution») ist eine "
@@ -332,17 +378,19 @@ msgid ""
 "Bereitstellungsformen eines Datasets (z.B. ein bestimmtes Format), "
 "unterschiedliche Zeitreihen oder auch unterschiedliche Aggregationsstufen"
 " sein."
-msgstr "Matérialisation physique ou représentation d’un jeu de données dans un format spécifique. Une ressource (également appelée «distribution») est une représentation particulière d’un jeu de données. Le terme désigne différentes formes de mise à disposition des données (tel un format spécifique), différentes séries chronologiques ou différents niveaux d’agrégation."
-
-#: ../../source/content/glossar/begriffe.rst:225
-msgid "`S`_"
 msgstr ""
+"Matérialisation physique ou représentation d’un jeu de données dans un "
+"format spécifique. Une ressource (également appelée «distribution») est "
+"une représentation particulière d’un jeu de données. Le terme désigne "
+"différentes formes de mise à disposition des données (tel un format "
+"spécifique), différentes séries chronologiques ou différents niveaux "
+"d’agrégation."
 
-#: ../../source/content/glossar/begriffe.rst:228
+#: ../../source/content/glossar/begriffe.rst:161
 msgid "Showcase"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:230
+#: ../../source/content/glossar/begriffe.rst:163
 msgid ""
 "Unter `https://opendata.swiss/de/showcase "
 "<https://opendata.swiss/de/showcase>`__ werden laufend unterschiedliche "
@@ -351,25 +399,23 @@ msgid ""
 "gern <mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:236
+#: ../../source/content/glossar/begriffe.rst:169
 msgid "Slug"
 msgstr "Identifiant (slug)"
 
-#: ../../source/content/glossar/begriffe.rst:238
+#: ../../source/content/glossar/begriffe.rst:171
 msgid ""
 "Maschinenlesbarerer Name für ein Dataset oder eine Organisation, welcher "
 "auch im URL verwendet wird."
-msgstr "Nom lisible par ordinateur attribué à un jeu de données ou à une organisation. Il est également utilisé dans son URL."
-
-#: ../../source/content/glossar/begriffe.rst:242
-msgid "`V`_"
 msgstr ""
+"Nom lisible par ordinateur attribué à un jeu de données ou à une "
+"organisation. Il est également utilisé dans son URL."
 
-#: ../../source/content/glossar/begriffe.rst:245
+#: ../../source/content/glossar/begriffe.rst:173
 msgid "Verwaltungsdaten"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:247
+#: ../../source/content/glossar/begriffe.rst:175
 msgid ""
 "Verwaltungsdaten sind Daten, die im Rahmen eines gesetzlichen Auftrags "
 "erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Es "
@@ -379,4 +425,46 @@ msgid ""
 "«Fachanwendungen» oder «Applikationen», obwohl ihre Inhalte durchaus als "
 "Verwaltungsdaten betrachtet werden können."
 msgstr ""
+
+#~ msgid "Jumbbox"
+#~ msgstr ""
+
+#~ msgid "`A`_"
+#~ msgstr ""
+
+#~ msgid "`B`_"
+#~ msgstr ""
+
+#~ msgid "`C`_"
+#~ msgstr ""
+
+#~ msgid "`D`_"
+#~ msgstr ""
+
+#~ msgid "`F`_"
+#~ msgstr ""
+
+#~ msgid "`G`_"
+#~ msgstr ""
+
+#~ msgid "`H`_"
+#~ msgstr ""
+
+#~ msgid "`L`_"
+#~ msgstr ""
+
+#~ msgid "`O`_"
+#~ msgstr ""
+
+#~ msgid "`P`_"
+#~ msgstr ""
+
+#~ msgid "`R`_"
+#~ msgstr ""
+
+#~ msgid "`S`_"
+#~ msgstr ""
+
+#~ msgid "`V`_"
+#~ msgstr ""
 

@@ -35,9 +35,10 @@ msgstr "Pour nous joindre"
 msgid ""
 "Bei Fragen zum Handbuch, zum Publikationsprozess auf opendata.swiss oder "
 "allgemeinen Fragen zu Open Government Data helfen wir von der "
-":term:`Geschäftsstelle Open Government Data <Geschäftsstelle Open "
-"Government Data (OGD)>` Ihnen gerne weiter."
-msgstr "Si vous avez des questions concernant le manuel, la procédure de publication sur opendata.swiss ou des questions générales sur les données publiques ouvertes, le secrétariat Open Government Data vous répondra volontiers."
+":term:`Geschäftsstelle Open Government Data <Geschäftsstelle Open Government Data (OGD)>` Ihnen gerne weiter."
+msgstr "Si vous avez des questions concernant le manuel, la procédure de publication sur "
+"opendata.swiss ou des questions générales sur les données publiques ouvertes, "
+"le :term:`secrétariat Open Government Data <Geschäftsstelle Open Government Data (OGD)>` vous répondra volontiers."
 
 #: ../../source/content/ueberdashandbuch/kontakt.rst:18
 msgid ""
