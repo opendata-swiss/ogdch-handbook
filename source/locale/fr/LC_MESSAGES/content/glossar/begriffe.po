@@ -392,12 +392,11 @@ msgstr "Exemples"
 
 #: ../../source/content/glossar/begriffe.rst:163
 msgid ""
-"Unter `https://opendata.swiss/de/showcase "
-"<https://opendata.swiss/de/showcase>`__ werden laufend unterschiedliche "
+"Unter `https://opendata.swiss/de/showcase <https://opendata.swiss/de/showcase>`__ werden laufend unterschiedliche "
 "Arten von Nutzungsbeispielen von Open Government Data aufgenommen. Wollen"
 " Sie uns auf weitere Showcases aufmerksam machen, `kontaktieren Sie uns "
 "gern <mailto:opendata@bfs.admin.ch>`__."
-msgstr "Vous trouverez des exemples d’utilisation de données publiques ouvertes sur <https://opendata.swiss/de/showcase>`__. Ces exemples sont mis à jour régulièrement."
+msgstr "Vous trouverez des exemples d’utilisation de données publiques ouvertes sur `https://opendata.swiss/de/showcase <https://opendata.swiss/de/showcase>`__. Ces exemples sont mis à jour régulièrement."
 
 #: ../../source/content/glossar/begriffe.rst:169
 msgid "Slug"

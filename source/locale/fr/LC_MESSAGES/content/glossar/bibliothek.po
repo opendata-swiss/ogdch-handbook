@@ -82,7 +82,7 @@ msgid ""
 ":doc:`Standard-Formate für Ressourcen <bibliothek/formate-ressourcen>` "
 "dokumentiert alle gängigen Formate und enthält Links zu Ihren "
 "Definitionen."
-msgstr ""
+msgstr ":doc:`Formats autorisés <bibliothek/formate-ressourcen>: Vous trouverez ici une liste de tous les formats autorisés."
 
 #: ../../source/content/glossar/bibliothek.rst:34
 msgid "Anderes:"
@@ -99,5 +99,5 @@ msgstr ":doc:`FAQ sur l’hébergement <bibliothek/hosting>`: "
 msgid ""
 ":doc:`Embedding Datasets <bibliothek/embed>` gibt Tipps zum Einbetten von"
 " Datasets auf anderen Websites."
-msgstr ""
+msgstr ":doc:`Conseils en matière d’intégration de jeux de données <bibliothek/embed>`: montre comment intégrer sur un site Internet les jeux de données provenant d’opendata.swiss."
 
