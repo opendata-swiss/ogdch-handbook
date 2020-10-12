@@ -123,15 +123,15 @@ Datenkatalog veröffentlichen
 ----------------------------
 
 .. figure:: ../../../_static/images/publizieren/harvesting-frontend-check.png
-   :alt: xml hochladen
+   :alt: Harvesting organization frontend check
 
 Nach einer abschliessenden Prüfung Ihrer Datasets richten wir das Harvesting
 für Sie in der Produktionsumgebung ein.
 `Kontaktieren Sie uns <mailto:opendata@bfs.admin.ch>`__,
 um das Go-Live gemeinsam zu planen.
 
-.. figure:: ../../../_static/images/publizieren/xm-hochladen-frontend.png
-   :alt: xml hochladen
+.. figure:: ../../../_static/images/publizieren/harvesting-dataset-frontend.png
+   :alt: Harvesting dataset frontend check
 
 .. container:: bildunterschrift
 

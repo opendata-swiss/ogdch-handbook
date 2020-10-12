@@ -35,7 +35,7 @@ Nähere Erläuterungen zu den einzelnen Fragen finden Sie in unserer
 begleitenden
 `Arbeitshilfe <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__.
 
-.. figure:: ../../../_static/images/vorbereiten/chart-arbeitshilfe-publikation-de.png
+.. figure:: ../../../_static/images/vorbereiten/chart-arbeitshilfe-publikation.png
    :alt: Schema Arbeitshilfe-Publikation
 
 .. container:: support

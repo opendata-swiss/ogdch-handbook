@@ -153,7 +153,7 @@ geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata@bfs.admin.ch>`__.
     Wichtig: Vergessen Sie nicht nach jeder Änderung von bereits
     publizierten Daten auf «Aktualisieren» zu klicken.
 
-.. figure:: ../../../_static/images/publizieren/xm-hochladen-frontend.png
+.. figure:: ../../../_static/images/publizieren/xml-hochladen-frontend.png
    :alt: xml hochladen
 
 .. container:: bildunterschrift
