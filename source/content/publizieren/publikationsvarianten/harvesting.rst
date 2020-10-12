@@ -130,7 +130,7 @@ für Sie in der Produktionsumgebung ein.
 `Kontaktieren Sie uns <mailto:opendata@bfs.admin.ch>`__,
 um das Go-Live gemeinsam zu planen.
 
-.. figure:: ../../../_static/images/publizieren/harvesting-dataset-frontend.png
+.. figure:: ../../../_static/images/publizieren/harvesting-dataset-frontend-check.png
    :alt: Harvesting dataset frontend check
 
 .. container:: bildunterschrift
