@@ -99,5 +99,5 @@ msgstr ":doc:`FAQ sur l’hébergement <bibliothek/hosting>`: "
 msgid ""
 ":doc:`Embedding Datasets <bibliothek/embed>` gibt Tipps zum Einbetten von"
 " Datasets auf anderen Websites."
-msgstr ":doc:`Conseils en matière d’intégration de jeux de données <bibliothek/embed>`: montre comment intégrer sur un site Internet les jeux de données provenant d’opendata.swiss."
+msgstr ":doc:`Conseils en matière d’intégration de jeux de données <bibliothek/embed>`: cette page vous montre comment intégrer sur un site Internet les jeux de données provenant d’opendata.swiss."
 
