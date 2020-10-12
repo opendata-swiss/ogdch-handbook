@@ -82,7 +82,7 @@ msgid ""
 ":doc:`Standard-Formate für Ressourcen <bibliothek/formate-ressourcen>` "
 "dokumentiert alle gängigen Formate und enthält Links zu Ihren "
 "Definitionen."
-msgstr ":doc:`Formats autorisés <bibliothek/formate-ressourcen>: Vous trouverez ici une liste de tous les formats autorisés."
+msgstr ":doc:`Formats autorisés <bibliothek/formate-ressourcen>`: Vous trouverez ici une liste de tous les formats autorisés."
 
 #: ../../source/content/glossar/bibliothek.rst:34
 msgid "Anderes:"
