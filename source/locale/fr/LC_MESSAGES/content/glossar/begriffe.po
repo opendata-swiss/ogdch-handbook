@@ -388,7 +388,7 @@ msgstr ""
 
 #: ../../source/content/glossar/begriffe.rst:161
 msgid "Showcase"
-msgstr ""
+msgstr "Exemples"
 
 #: ../../source/content/glossar/begriffe.rst:163
 msgid ""
@@ -397,7 +397,7 @@ msgid ""
 "Arten von Nutzungsbeispielen von Open Government Data aufgenommen. Wollen"
 " Sie uns auf weitere Showcases aufmerksam machen, `kontaktieren Sie uns "
 "gern <mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgstr "Vous trouverez des exemples d’utilisation de données publiques ouvertes sur <https://opendata.swiss/de/showcase>`__. Ces exemples sont mis à jour régulièrement."
 
 #: ../../source/content/glossar/begriffe.rst:169
 msgid "Slug"
@@ -413,7 +413,7 @@ msgstr ""
 
 #: ../../source/content/glossar/begriffe.rst:173
 msgid "Verwaltungsdaten"
-msgstr ""
+msgstr "Données publiques"
 
 #: ../../source/content/glossar/begriffe.rst:175
 msgid ""
@@ -424,7 +424,7 @@ msgid ""
 "«Ordnungssysteme» gelten nicht als Verwaltungsdaten ebenso nicht wie "
 "«Fachanwendungen» oder «Applikationen», obwohl ihre Inhalte durchaus als "
 "Verwaltungsdaten betrachtet werden können."
-msgstr ""
+msgstr "Les données publiques sont des données collectées, établies, gérées, traitées et sauvegardées par les pouvoirs publics dans le cadre de leur mandat légal. Il s’agit de collections de données structurées, par exemple sous forme de tableaux ou de bases de données. Bien qu’ils contiennent en général des données publiques, les «dossiers d’affaire» ou les «systèmes de classement» de même que les «applications» ou les «applications métier» ne sont pas, en soi, des données publiques."
 
 #~ msgid "Jumbbox"
 #~ msgstr ""

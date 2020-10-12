@@ -28,18 +28,18 @@ msgstr ":doc:`Documentation <../bibliothek>` :fa:`chevron-right`"
 
 #: ../../source/content/glossar/bibliothek/embed.rst:5
 msgid "Embedding Datasets"
-msgstr ""
+msgstr "Intégration de jeux de données"
 
 #: ../../source/content/glossar/bibliothek/embed.rst:9
 msgid "Tipps zum Einbetten von Datasets"
-msgstr ""
+msgstr "Conseils en matière d’intégration de jeux de données"
 
 #: ../../source/content/glossar/bibliothek/embed.rst:13
 msgid ""
 "Auf dieser Seite erhalten Sie Tipps, wie Sie Datasets von opendata.swiss "
 "auf anderen Websites einbetten können. Bitte beachten Sie, dass der Text "
 "derzeit nur in Englisch verfügbar ist."
-msgstr ""
+msgstr "Cette page vous montre comment intégrer sur un site Internet les jeux de données provenant d’opendata.swiss. Pour l’instant, le document n’est disponible qu’en anglais."
 
 #: ../../source/content/glossar/bibliothek/embed.rst:17
 msgid ""
