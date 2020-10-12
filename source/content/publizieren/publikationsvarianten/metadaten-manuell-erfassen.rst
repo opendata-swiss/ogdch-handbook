@@ -266,14 +266,14 @@ Ihr Dataset von der Abnahmeumgebung noch auf die Produktionsumgebung
    :width: 50%
 
 .. figure:: ../../../_static/images/publizieren/dataset-frontend.png
-   :alt: Screenshot
+   :alt: Screenshot of a dataset on opendata.swiss
 
 .. container:: bildunterschrift
 
    Beispielansicht eines publizierten Datasets
 
 .. figure:: ../../../_static/images/publizieren/resource-frontend.png
-   :alt: Screenshot
+   :alt: Screenshot of a Resource on opendata.swiss
 
 .. container:: bildunterschrift
 
