@@ -33,7 +33,7 @@ können die Daten auch als XLS-Dateien angeboten werden, wobei ihre Maschinenles
 garantiert werden muss.
 
 .. figure:: ../../../_static/images/linked-open-data/ld-5stars.png
-   :alt: 5 stars of Open Data
+   :alt: 5-Sterne-Modell für Open Data
 
 Formate
 =======

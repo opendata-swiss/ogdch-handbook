@@ -123,7 +123,7 @@ Datenkatalog veröffentlichen
 ----------------------------
 
 .. figure:: ../../../_static/images/publizieren/harvesting-frontend-check.png
-   :alt: Harvesting organization frontend check
+   :alt: Organisation im Frontend von opendata.swiss
 
 Nach einer abschliessenden Prüfung Ihrer Datasets richten wir das Harvesting
 für Sie in der Produktionsumgebung ein.
@@ -131,7 +131,7 @@ für Sie in der Produktionsumgebung ein.
 um das Go-Live gemeinsam zu planen.
 
 .. figure:: ../../../_static/images/publizieren/harvesting-dataset-frontend-check.png
-   :alt: Harvesting dataset frontend check
+   :alt: Dataset im Frontend von opendata.swiss
 
 .. container:: bildunterschrift
 
