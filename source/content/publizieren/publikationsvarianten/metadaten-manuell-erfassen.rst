@@ -91,7 +91,7 @@ Sie sich bitte an der
     publiziert ist. Ansonsten können Ihre Daten nicht mehr eindeutig zugeordnet werden.
 
 .. figure:: ../../../_static/images/publizieren/dataset-identifier.png
-   :alt: dataset identifier
+   :alt: Eingabefeld Identifier im Webformular
 
 Datensatz-Informationen
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -104,7 +104,7 @@ Sprache eingeben. Falls nur eine Sprache vorliegt, wird die Eingabe
 für alle anderen Sprachversionen übernommen.
 
 .. figure:: ../../../_static/images/publizieren/dataset-information.png
-   :alt: dataset information
+   :alt: Abschnitt Dataset Information im Webformular
 
 Daten
 ^^^^^
@@ -120,7 +120,7 @@ werden («Aktualisierungsintervall») und den Zeitraum,
 den das Dataset umfasst («Zeitliche Abdeckung»), angeben.
 
 .. figure:: ../../../_static/images/publizieren/dataset-daten.png
-   :alt: daten
+   :alt: Abschnitt Daten im Webformular
 
 Publisher-Informationen
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -132,7 +132,7 @@ Ansprechperson angegeben werden, die von Datennutzenden bei Rückfragen
 kontaktiert werden darf. Es ist mindestens eine Person mit E-Mail-Adresse erforderlich.
 
 .. figure:: ../../../_static/images/publizieren/dataset-publisher.png
-   :alt: publisher
+   :alt: Eingabefeld Publisher im Webformular
 
 Weitere Informationen
 ^^^^^^^^^^^^^^^^^^^^^
@@ -149,7 +149,7 @@ signalisieren Sie Datennutzenden, dass weitere Datasets existieren,
 die sie interessieren könnten.
 
 .. figure:: ../../../_static/images/publizieren/dataset-kategorien.png
-   :alt: kategorien
+   :alt: Eingabefeld Kategorien im Webformular
 
 .. _manuell-resource-hinzufuegen:
 
@@ -157,10 +157,10 @@ Ressourcen hinzufügen
 ---------------------
 
 .. figure:: ../../../_static/images/publizieren/webformular-resourcen.png
-   :alt: resource
+   :alt: Abschnitt Ressource im Webformular
 
 .. figure:: ../../../_static/images/publizieren/resource-nutzungsbedingungen.png
-   :alt: resource ab nutzungsbedingungen
+   :alt: Eingabefelder ab Nutzungsbedingungen im Webformular
 
 Eine «Ressource» ist eine spezifische Repräsentierung.
 Dies können unterschiedliche Bereitstellungsformen eines Datasets
@@ -214,7 +214,7 @@ Sie können auch aus den meistgenutzten Schlagwörtern auswählen.
 Für die Sprache gelten die gleichen Regeln wie bei den Ressourcen.
 
 .. figure:: ../../../_static/images/publizieren/dataset-schlagworte.png
-   :alt: dataset schlagworte
+   :alt: Hinzufügen von Schlagworten im Webformular
    :width: 50%
 
 .. _manuell-vorschau-pruefen:
@@ -223,7 +223,7 @@ Vorschau des Datasets prüfen
 ------------------------------
 
 .. figure:: ../../../_static/images/publizieren/dataset-preview.png
-   :alt: Screenshot
+   :alt: Vorschau eines Datasets auf opendata.swiss
 
 Abschliessend können Sie sich eine Vorschau Ihres Datasets anzeigen lassen.
 Dafür klicken Sie oben in der Menüleiste auf «Datensatz anzeigen».
@@ -262,18 +262,18 @@ Ihr Dataset von der Abnahmeumgebung noch auf die Produktionsumgebung
     von bereits publizierten Daten auf «Aktualisieren» zu klicken.
 
 .. figure:: ../../../_static/images/publizieren/dataset-aktualisieren.png
-   :alt: dataset aktualisieren
+   :alt: Datensatz aktualisieren im Webformular
    :width: 50%
 
 .. figure:: ../../../_static/images/publizieren/dataset-frontend.png
-   :alt: Screenshot of a dataset on opendata.swiss
+   :alt: Beispielansicht eines publizierten Datasets
 
 .. container:: bildunterschrift
 
    Beispielansicht eines publizierten Datasets
 
 .. figure:: ../../../_static/images/publizieren/resource-frontend.png
-   :alt: Screenshot of a Resource on opendata.swiss
+   :alt: Beispielansicht einer publizierten Ressource
 
 .. container:: bildunterschrift
 

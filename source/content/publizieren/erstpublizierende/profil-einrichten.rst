@@ -20,7 +20,7 @@ Wie kann ich mein Profil editieren?
     können Sie Ihre Profilinformationen editieren und Ihr Konto verwalten.
 
 .. figure:: ../../../_static/images/publizieren/profil-einrichten.jpg
-   :alt: Benutzerprofil
+   :alt: Benutzerprofil im Backend von opendat.swiss
 
 Die wichtigsten Angaben im Überblick
 ====================================

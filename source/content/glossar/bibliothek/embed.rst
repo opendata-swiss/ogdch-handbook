@@ -58,7 +58,7 @@ resource sharing (CORS) restrictions, a backend service would ideally be
 hosted on the same machine as the scripts. This could just be a proxy to the data portal.
 
 .. figure:: ../../../_static/images/embed/embed-architecture.png
-   :alt: Architecture diagram
+   :alt: Architecture diagram for embedding opendata.swiss on a website
 
    Architecture diagram
 
@@ -76,10 +76,10 @@ Note that due to lack of CORS support, we provided an option to use JSONP to mit
 Here is an example of how a search result from *opendata.swiss* appears in this widget:
 
 .. figure:: ../../../_static/images/embed/embed-widget.png
-   :alt: Example search result
+   :alt: Example for an emmbedding of opendata.swiss on opentransportdata.swiss
    :width: 80%
 
-   Example search result
+   Example search result as seen in a widget
 
 This is made by adding the following code to the page, for example to query
 the portal for «statistik» as a search term:

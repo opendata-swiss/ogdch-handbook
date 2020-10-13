@@ -47,7 +47,7 @@ Datenkatalog importieren
 ------------------------
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-upload.png
-   :alt: xml hochladen
+   :alt: XML Katalog im Backend von opendata.swiss hochladen
 
 Loggen Sie sich im Backend von opendata.swiss ein. Handelt es sich
 um eine Erstpublikation oder möchten Sie eine neue oder
@@ -71,7 +71,7 @@ Datensets prüfen
 ----------------
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-fehler-nach-import.png
-   :alt: xml hochladen
+   :alt: Fehleransicht nach dem Hochladen einer XML-Datei
 
 Ihre Datasets werden Ihnen nach erfolgreichem Import
 direkt angezeigt (grüne Erfolgsmeldung). Sie erscheinen
@@ -89,10 +89,10 @@ Bitte korrigieren Sie die markierten Felder. Sobald Sie alle Fehler
 behoben haben, stellt der Status auf grün. Nun können Sie Ihr Dataset publizieren.
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-dataset-nok.png
-   :alt: xml hochladen
+   :alt: Ansicht eines hochgeladen fehlerbehafteten Datasets
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-dataset-ok.png
-   :alt: xml hochladen
+   :alt: Ansicht eines erfolgreich hochgeladenen Datasets
 
 .. _xml_schlagworte_pruefen:
 
@@ -103,7 +103,7 @@ Beim Import als XML-Datei werden automatisch Schlagwörter für
 Ihr Dataset ausgewählt. Sie müssen diese nur noch kontrollieren.
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-schlagworte.png
-   :alt: xml hochladen
+   :alt: Ansicht der Schlagworte eines hochgeladenen Datasets
    :width: 50%
 
 .. _xml_datensaetze_ansehen:
@@ -112,7 +112,7 @@ Vorschau des Datasets prüfen
 ----------------------------
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-dataset-preview.png
-   :alt: xml hochladen
+   :alt: Vorschau eines hochgeladenen Datasets
 
 Nachdem Sie alle Fehler korrigiert und Schlagwörter überprüft haben,
 können Sie sich eine Vorschau Ihres Datasets anzeigen lassen. Dafür klicken
@@ -154,7 +154,7 @@ geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata@bfs.admin.ch>`__.
     publizierten Daten auf «Aktualisieren» zu klicken.
 
 .. figure:: ../../../_static/images/publizieren/xml-hochladen-frontend.png
-   :alt: xml hochladen
+   :alt: Beispielansicht eines publizierten Datasets
 
 .. container:: bildunterschrift
 
