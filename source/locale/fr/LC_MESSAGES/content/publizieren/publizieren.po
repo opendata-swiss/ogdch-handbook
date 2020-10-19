@@ -57,7 +57,7 @@ msgid ""
 msgstr ""
 "Le :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>` Dataest chargé de contrôler "
 "l’ensemble du catalogue. Toutefois, il appartient aux organisations et aux particuliers "
-"fournissant des données de s’assurer que les :doc:`exigences juridiques <../vorbereiten/dataset/rechtlicher-check>`, "
+"fournissant des données de s’assurer que :doc:`les exigences <../vorbereiten/dataset>` :doc:`juridiques <../vorbereiten/dataset/rechtlicher-check>`, "
 ":doc:`techniques <../vorbereiten/dataset/technischer-check>` "
 "et :doc:`organisationnelles <../vorbereiten/dataset/organisatorischer-check>` sont respectées."
 
