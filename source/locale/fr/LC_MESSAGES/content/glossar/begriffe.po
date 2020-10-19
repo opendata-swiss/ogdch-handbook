@@ -140,18 +140,11 @@ msgstr ""
 
 #: ../../source/content/glossar/begriffe.rst:62
 msgid "Datenpublizierende"
-msgstr "Données publiques"
+msgstr "Fournisseurs de données"
 
 #: ../../source/content/glossar/begriffe.rst:64
 msgid "Personen oder Organisationen, die Open Government Data (OGD) publizieren."
-msgstr ""
-"Les données publiques sont des données collectées, établies, gérées, "
-"traitées et sauvegardées par les pouvoirs publics dans le cadre de leur "
-"mandat légal. Il s’agit de collections de données structurées, par "
-"exemple sous forme de tableaux ou de bases de données. Bien qu’ils "
-"contiennent en général des données publiques, les «dossiers d’affaire» ou"
-" les «systèmes de classement» de même que les «applications» ou les "
-"«applications métier» ne sont pas, en soi, des données publiques."
+msgstr "Personnes ou organisations qui publient des données publiques ouvertes."
 
 #: ../../source/content/glossar/begriffe.rst:66
 msgid "Datennutzende"
