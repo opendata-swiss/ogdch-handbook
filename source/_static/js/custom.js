@@ -78,7 +78,13 @@ $(document).ready(function(){
   }
   var activelangSwitcher = $('.lang_' + switchLangCode);
   var currentlangSwitcher = $('.lang_' + activelangCode);
-  localizedUrl = currentURL.replace(activelangCode, switchLangCode);
+  if (currentURL.split('/').includes(activelangCode)) {
+    localizedUrl = currentURL.replace(activelangCode, switchLangCode);
+  } else {
+    var currentUrlParts = currentURL.split('/');
+    currentUrlParts.splice(3, 0, switchLangCode);
+    localizedUrl = currentUrlParts.join('/');
+  }
   activelangSwitcher.attr('href', localizedUrl);
   currentlangSwitcher.addClass('active');
 });
