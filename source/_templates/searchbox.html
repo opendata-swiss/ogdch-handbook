@@ -1,6 +1,9 @@
 {%- if builder != 'singlehtml' %}
+<div id="language-switcher">
+  <a href="" class="lang_de">Deutsch</a><span class="language-divider"><a href="" class="lang_fr">Français</a>
+</div>
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="{{ pathto('search') }}" method="get">
+  <form id="ogdch-search-form" class="wy-form" action="{{ pathto('search') }}" method="get">
     <input type="text" name="q" placeholder="{{ _('Handbuch durchsuchen') }}" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />

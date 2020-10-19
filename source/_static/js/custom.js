@@ -61,3 +61,24 @@ $(document).ready(function(){
     tfLogo.attr('alt', 'logo reposnsable thématique e-government');
   }
 });
+
+// ---------------------------------------------------------------
+// Language Switcher
+// ---------------------------------------------------------------
+$(document).ready(function(){
+  var currentURL = window.location.href;
+  var frenchLangCode = 'fr';
+  var germanlangCode = 'de';
+  if (currentURL.split('/').includes(frenchLangCode)) {
+    activelangCode = frenchLangCode;
+    switchLangCode = germanlangCode;
+  } else {
+    activelangCode = germanlangCode;
+    switchLangCode = frenchLangCode;
+  }
+  var activelangSwitcher = $('.lang_' + switchLangCode);
+  var currentlangSwitcher = $('.lang_' + activelangCode);
+  localizedUrl = currentURL.replace(activelangCode, switchLangCode);
+  activelangSwitcher.attr('href', localizedUrl);
+  currentlangSwitcher.addClass('active');
+});

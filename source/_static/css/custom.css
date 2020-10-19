@@ -431,6 +431,29 @@ footer {
 }
 
 /*=======================================*/
+/* Language Switcher                     */
+/*=======================================*/
+
+#language-switcher {
+    display: block;
+    margin-bottom:20px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#language-switcher a.active {
+  color: #070707;
+}
+
+#language-switcher a {
+  padding: 5px;
+}
+
+.language-divider {
+  border-left: 1px solid #070707;;
+}
+
+/*=======================================*/
 /* External Links                        */
 /*=======================================*/
 
