@@ -72,6 +72,12 @@ a, a:hover, a:visited, a:active, a:focus {
    background: white;
 }
 
+/* Sidebar search input */
+
+.wy-side-nav-search input[type=text] {
+    border-color:#009688
+}
+
 /* Headers of the content sections in the sidebar */
 
 .wy-menu-vertical p.caption {
