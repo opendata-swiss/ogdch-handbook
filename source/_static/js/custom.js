@@ -50,8 +50,14 @@ $(document).ready(function(){
 // Exchange logo on french translations in the footer
 // ---------------------------------------------------------------
 $(document).ready(function(){
-    var urlLogoTf = $('.logo-tf').attr('src');
+  var currentURL = window.location.href;
+  var frenchLangCode = 'fr';
+  if (currentURL.split('/').includes(frenchLangCode)) {
+    var tfLogo = $('.logo-tf');
+    var urlLogoTf = tfLogo.attr('src');
     var urlSegments = urlLogoTf.split('/');
-    var urlLogoTfFr = urlSegments.slice(0, -1).join('/') + '/logo-tf-egovernment.fr.png';
-    $('.logo-tf').attr('src', urlLogoTfFr);
+    var urlLogoTfLocale = urlSegments.slice(0, -1).join('/') + '/logo-tf-egovernment.' + frenchLangCode + '.png';
+    tfLogo.attr('src', urlLogoTfLocale);
+    tfLogo.attr('alt', 'logo reposnsable thématique e-government');
+  }
 });
