@@ -102,7 +102,7 @@ Schlagwörter kontrollieren
 Beim Import als XML-Datei werden automatisch Schlagwörter für
 Ihr Dataset ausgewählt. Sie müssen diese nur noch kontrollieren.
 
-.. figure:: ../../../_static/images/publizieren/xml-hochladen-schlagworte.png
+.. figure:: ../../../_static/images/publizieren/dataset-schlagworte.png
    :alt: Ansicht der Schlagworte eines hochgeladenen Datasets
    :width: 50%
 
@@ -111,7 +111,7 @@ Ihr Dataset ausgewählt. Sie müssen diese nur noch kontrollieren.
 Vorschau des Datasets prüfen
 ----------------------------
 
-.. figure:: ../../../_static/images/publizieren/xml-hochladen-dataset-preview.png
+.. figure:: ../../../_static/images/publizieren/dataset-preview.png
    :alt: Vorschau eines hochgeladenen Datasets
 
 Nachdem Sie alle Fehler korrigiert und Schlagwörter überprüft haben,
