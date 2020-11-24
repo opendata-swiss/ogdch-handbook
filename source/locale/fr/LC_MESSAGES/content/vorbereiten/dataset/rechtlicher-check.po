@@ -134,7 +134,7 @@ msgstr "Libre utilisation. Obligation d’indiquer la source."
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:82
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:102
 msgid "Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz)."
-msgstr "Vous pouvez utiliser ce jeu de données à des fins non commerciales."
+msgstr "L’indication de la source est obligatoire (auteur, titre et lien vers le jeu de données)."
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:88
 msgid ""
