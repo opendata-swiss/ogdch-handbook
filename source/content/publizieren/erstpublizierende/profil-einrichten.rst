@@ -19,6 +19,9 @@ Wie kann ich mein Profil editieren?
     von opendata.swiss einloggen. Auf der Seite «Benutzer»
     können Sie Ihre Profilinformationen editieren und Ihr Konto verwalten.
 
+.. figure:: ../../../_static/images/screencasts/login-cropped.gif
+   :alt: Einloggen im CKAN backend
+
 .. figure:: ../../../_static/images/publizieren/profil-einrichten.jpg
    :alt: Benutzerprofil im Backend von opendat.swiss
 
