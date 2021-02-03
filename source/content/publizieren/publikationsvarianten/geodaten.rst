@@ -41,8 +41,9 @@ Falls Ihre Organisation noch nicht eingerichtet ist,
 .. container:: important
 
     Wichtig: Die verschiedenen
-    :doc:`rechtlichen, technischen und organisatorischen Anforderungen <../../vorbereiten/dataset>`
-    müssen weiterhin erfüllt werden.
+    rechtlichen, technischen und organisatorischen Anforderungen
+    müssen weiterhin erfüllt werden,
+    siehe :doc:`OGD-Richtlinien <../glossar/bibliothek/ogd-richtlinien>`
 
 .. container:: important
 

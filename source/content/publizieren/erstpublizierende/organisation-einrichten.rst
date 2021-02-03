@@ -14,37 +14,48 @@ Was muss ich bei Informationen zu meiner Organisation beachten?
 
 .. container:: Intro
 
-    Auf der Seite «Organisationen» haben Sie die Möglichkeit, Informationen über
-    Ihre Organisation hinzuzufügen. Diese Angaben werden später auf
+    Wir legen Ihre Organisation für Sie an, Sie ergänzen anschliessend die Informationen über
+    Ihre Organisation. Diese Angaben werden später auf
     opendata.swiss veröffentlicht. Die Informationen umfassen den Titel
     Ihrer Organisation, eine Beschreibung und ein Bild und den Link zur Website.
-    Im :term:`Frontend <Frontend>` der Abnahmeumgebung können Sie Ihre Angaben prüfen.
 
-.. figure:: ../../../_static/images/publizieren/organisation-einrichten.jpg
-   :alt: Ausfüllen der Organisation im Backend von opendata.swiss
+Die Schritte auf einen Blick
+----------------------------
 
-1) Interner Organisations-Titel
--------------------------------
+- :ref:`Angaben zur Organisation ergänzen <organisation_bearbeiten>`
+- :ref:`Ansicht der Organization prüfen <organisations_ansicht_pruefen>`
 
-Dieser Titel wird von uns vergeben und bezeichnet Ihre
-Organisation im :term:`Backend <Backend>`
-der Abnahmeumgebung. Aus diesem internen Titel generiert
-sich der sogenannte :term:`Name/Slug <Slug>` Ihrer Organisation.
-Dieser Name/Slug sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer Organisation.
+.. _organisation_bearbeiten:
 
-.. container:: important
+Informationen zur Organisation ergänzen
+----------------------------------------
 
-    Wichtig: Der interne Organisations-Titel darf nicht mehr verändert werden,
-    sobald Sie Datasets veröffentlicht haben.
+Um die Informationen zu Ihrer Organization ergänzen müssen Sie die Rolle des Organisations-Admins
+in Ihrer Organisation zugewiesen haben. Dann sehen Sie einen Schalter «Bearbeiten»,
+wenn Sie zu Ihrer Organisation gehen
 
-2) Organisation-Informationen
------------------------------
+.. figure:: ../../../_static/images/publizieren/organisation/organisation-bearbeiten.png
+   :alt: Bearbeiten der Organisation im Backend von opendata.swiss
+
+.. figure:: ../../../_static/images/publizieren/organisation/organisations-titel-und-slug.png
+   :alt: Organisationstitel und Slug
 
 :Titel (EN) (DE) (FR) (IT): Bitte geben Sie einen Titel respektive den offiziellen Namen
                             Ihrer Organisation an. Alle Bundesstellen sollen die Angaben
                             mindestens auf Deutsch und Französisch eingeben – wünschenswert
                             wären allerdings alle vier Sprachen. Weitere Organisationen
                             sollen Titel und Beschreibung in mindestens einer Sprache eingeben.
+
+:Name(Slug): Der sogenannte :term:`Name/Slug <Slug>` Ihrer Organisation wird von uns vergeben
+             und sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer Organisation.
+
+.. container:: important
+
+    Wichtig: Der :term:`Name/Slug <Slug>` darf nicht mehr verändert werden,
+    sobald Sie Datasets veröffentlicht haben.
+
+.. figure:: ../../../_static/images/publizieren/organisation/organisations-beschreibung.png
+   :alt: Organisationsbeschreibung
 
 :Beschreibung (EN) (DE) (FR) (IT): Bitte geben Sie eine Beschreibung Ihrer Organisation an.
                                    Alle Bundesstellen sollen die Angaben mindestens auf
@@ -53,22 +64,42 @@ Dieser Name/Slug sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer O
                                    Organisationen sollen Titel und Beschreibung
                                    in mindestens einer Sprache eingeben
 
+.. figure:: ../../../_static/images/publizieren/organisation/organisations-formular.png
+   :alt: Organisation: Url und weitere Felder
+
+:Parent: Falls es sich bei Ihrer Organisation um eine Unterorganisation einer bereits
+         auf opendata.swiss vertretenen Organisation handelt, kann das hier eingetragen werden.
+
+:Politische Ebene: Hier machen wir schon eine Einstellung für Sie.
+
 :URL: Bitte geben Sie hier die Website Ihrer Organisation an.
 
-3) Bild
--------
+:Bild: Laden Sie entweder ein Bild Ihrer Organisation hoch, imdem Sie «Hochladen» klicken, oder verlinken Sie
+       mit Hilfe des Schalters «Hochladen» zu einem Bild Ihrer Organisation. So erhält Ihre Organisation
+       eine bessere Präsenz auf opendata.swiss.
 
-Bitte wählen Sie ein Bild Ihrer Organisation aus und laden Sie es via
-«Datei hinzufügen oder hochladen» hoch. So erhält Ihre Organisation
-eine bessere Präsenz auf opendata.swiss.
+Vergessen Sie nicht, Ihre Änderungen abschliessend zu speichern
+indem Sie auf «Organisation speichern» klicken.
 
-4) Veröffentlichen / Aktualisieren
-----------------------------------
+.. _organisations_ansicht_pruefen:
 
-Vergessen Sie nicht, Ihre Änderungen abschliessend zu aktualisieren
-bzw. zu veröffentlichen. Wenn Sie Ihre Eingaben im Seitenlayout
-überprüfen möchten, können Sie sich unter «Organisation anzeigen»
-eine Vorschau der Seite anzeigen lassen.
+Ansicht der Organization prüfen
+--------------------------------
+
+Überprüfen Sie die Angaben zu Ihrer Organisation zuerst im :term:`Backend <Backend>`.
+Klicken Sie dazu auf «Üder das Portal»
+
+.. figure:: ../../../_static/images/publizieren/organisation/organisations-info-ansehen.png
+   :alt: Organisation im Backend ansehen
+
+.. figure:: ../../../_static/images/publizieren/organisation/organisation-pruefen-backend.png
+   :alt: Organisation im Backend
+
+.. figure:: ../../../_static/images/publizieren/organisation/organisation-frontend.png
+   :alt: Organisation im Frontend
+
+Anschliessend können Sie sich die Darstellung Ihre Organisation im
+:term:`Frontend <Frontend>` der Abnahmeumgebung von opendata.swiss ansehen:
 
 .. container:: teaser
 

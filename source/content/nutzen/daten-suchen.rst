@@ -64,8 +64,7 @@ Find more detailed information about the Solr configuration in the
 `official Solr documentation <https://lucene.apache.org/solr/guide/6_6/index.html>`__.
 The config and schema of opendata.swiss is available on GitHub:
 
-- `solrconfig.xml <https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/solrconfig.xml>`__
-- `schema.xml <https://github.com/opendata-swiss/ckanext-switzerland/blob/master/solr/schema.xml>`__
+- `Solr configuration and schema of opendata.swiss <https://github.com/opendata-swiss/ckanext-switzerland-ng/blob/master/solr>`__
 
 The source of the referenced files in the ``solr.xml``
 (e.g. ``italian_stop.txt``, ``fr_elision.txt``, etc.) can be found in
