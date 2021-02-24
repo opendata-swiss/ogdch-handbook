@@ -55,4 +55,4 @@ msgstr "Chaque année, le secrétariat OGD examine la pertinence de ces lignes d
 
 #: ../../source/content/vorbereiten/publikationsrichtlinien.rst:27
 msgid ":doc:`Die Richtlinien lesen <../glossar/bibliothek/ogd-richtlinien>`"
-msgstr ":doc:`Lire les lignes directrices <publikationsrichtlinien>`"
+msgstr ":doc:`Lire les lignes directrices <../glossar/bibliothek/ogd-richtlinien>`"

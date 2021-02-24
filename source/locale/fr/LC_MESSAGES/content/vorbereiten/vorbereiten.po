@@ -95,7 +95,7 @@ msgstr ":doc:`lignes directrices OGD <publikationsrichtlinien>`"
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:40
 msgid ":doc:`OGD-Richtlinien lesen <publikationsrichtlinien>`"
-msgstr ":doc:`Lire les lignes directrices <publikationsrichtlinien>`"
+msgstr ":doc:`Lire les lignes directrices OGD <publikationsrichtlinien>`"
 
 #~ msgid ":doc:`Für jedes Dataset <dataset>`"
 #~ msgstr ":doc:`Pour chaque jeu de données <dataset>`"
