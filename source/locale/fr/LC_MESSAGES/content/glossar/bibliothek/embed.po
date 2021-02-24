@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"POT-Creation-Date: 2021-02-23 18:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,10 @@ msgid ""
 "Auf dieser Seite erhalten Sie Tipps, wie Sie Datasets von opendata.swiss "
 "auf anderen Websites einbetten können. Bitte beachten Sie, dass der Text "
 "derzeit nur in Englisch verfügbar ist."
-msgstr "Cette page vous montre comment intégrer sur un site Internet les jeux de données provenant d’opendata.swiss. Pour l’instant, le document n’est disponible qu’en anglais."
+msgstr ""
+"Cette page vous montre comment intégrer sur un site Internet les jeux de "
+"données provenant d’opendata.swiss. Pour l’instant, le document n’est "
+"disponible qu’en anglais."
 
 #: ../../source/content/glossar/bibliothek/embed.rst:17
 msgid ""
@@ -134,7 +137,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/embed.rst:82
-msgid "Example search result"
+msgid "Example search result as seen in a widget"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/embed.rst:84
@@ -431,4 +434,7 @@ msgid ""
 "In the meantime, we recommend that *opendata.swiss* content is embedded "
 "externally using the :ref:`JavaScript Widget <embed-widget>`."
 msgstr ""
+
+#~ msgid "Example search result"
+#~ msgstr ""
 

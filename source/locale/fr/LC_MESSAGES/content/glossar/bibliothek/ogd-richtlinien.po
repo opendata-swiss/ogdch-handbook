@@ -1,0 +1,750 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-24 11:11+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ":fa:`home` :doc:`Manuel <../../../index>` :fa:`chevron-right`"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:4
+msgid ":doc:`Bibliothek <../bibliothek>` :fa:`chevron-right`"
+msgstr ":doc:`Documentation <../bibliothek>` :fa:`chevron-right`"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:5
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:9
+msgid "OGD-Richtlinien"
+msgstr "Lignes directrices OGD"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:12
+msgid ""
+"Richtlinien für die Veröffentlichung von Open Government Data («OGD-"
+"Richtlinien»)"
+msgstr ""
+"Lignes directrices pour la publication de données en libre accès (lignes "
+"directrices OGD)"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:14
+msgid ""
+"Die OGD-Strategie 2019-2023, welche Ende 2018 vom Bundesrat genehmigt "
+"worden ist, führt das Prinzip «Open Data by Default» ein: Ab 2020 "
+"publizieren alle Bundesstellen ihre Daten als Open Government Data (OGD)."
+" Die vorliegenden «OGD-Richtlinien» dienen als Orientierung für die "
+"Einheiten der Bundesverwaltung bei der Umsetzung dieses Prinzips."
+msgstr ""
+"La stratégie Open Government Data 2019-2023 (stratégie OGD), approuvée "
+"fin 2018 par le Conseil fédéral, introduit le principe de la publication "
+"en libre accès par défaut (open data by default): à partir de 2020, tous "
+"les services fédéraux publient leurs données en libre accès (données "
+"publiques ouvertes ou OGD). Les présentes lignes directrices aident les "
+"unités de l’administration fédérale à appliquer ce principe."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:19
+msgid ""
+"Über die Bundesverwaltung hinaus dienen die OGD-Richtlinien als "
+"Orientierung für Kantone, Gemeinden, staatsnahe Betriebe sowie für "
+"weitere Organisationen, die Daten von öffentlichem Interesse publizieren."
+msgstr ""
+"Au-delà de l’administration fédérale, elles contiennent aussi des "
+"informations utiles pour les cantons, les communes, les entreprises "
+"parapubliques et d’autres organismes qui souhaitent publier des données "
+"d’intérêt général."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:23
+msgid ""
+"Der Aktualisierungsbedarf der vorliegenden Richtlinien wird jährlich von "
+"der Geschäftsstelle Open Government Data überprüft und definiert. "
+"Datennutzende und -publizierende sind eingeladen, `ihre Vorschläge der "
+"Geschäftsstelle Open Government Data zu melden "
+"<mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+"Chaque année, le secrétariat OGD examine la pertinence de ces lignes "
+"directrices et, au besoin, il les actualise. Les utilisateurs et les "
+"fournisseurs de données sont invités `à soumettre leurs suggestions au "
+"secrétariat Open Government Data <mailto:opendata@bfs.admin.ch>`__."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:29
+msgid "1. “Open Data by Default”"
+msgstr "1. En libre accès par défaut"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:30
+msgid ""
+"Die Verwaltungseinheiten stellen ihre Daten, die sie im Rahmen der "
+"Erfüllung ihrer gesetzlichen Aufgaben erheben, erstellen und verwalten "
+"und die elektronisch gespeichert und in Sammlungen strukturiert "
+"vorliegen, als «Open Data» im Internet zur Verfügung. Die vorliegende "
+"«OGD-Richtlinien» dienen dabei als Orientierung."
+msgstr ""
+"Dans le cadre des tâches que leur confère la loi, les unités "
+"administratives collectent, produisent et gèrent des données, qui sont "
+"enregistrées sous forme électronique et regroupées en jeux de données. "
+"Ces données, elles les publient en libre accès sur Internet. Les "
+"présentes lignes directrices OGD leur indiquent comment s’y prendre."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:35
+msgid ""
+"Staatsnahe Betriebe oder Dritte (einschliesslich Private, die staatliche "
+"Aufgaben wahrnehmen), sind ebenfalls eingeladen, ihre Daten gemäss diesen"
+" Richtlinien als Open Data zur veröffentlichen."
+msgstr ""
+"Les entreprises parapubliques ou des tiers (y compris les acteurs privés "
+"assumant des tâches publiques) sont également invités à publier leurs "
+"données en libre accès conformément aux présentes lignes directrices."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:39
+msgid "2. Vorliegen von Schutzbestimmungen"
+msgstr "2. Dispositions relatives à la protection des données"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:41
+msgid ""
+"Folgende Daten werden nicht als Open (Government) Data öffentlich "
+"zugänglich gemacht:"
+msgstr ""
+"Ne sont pas mises à disposition au titre de données publiques ouvertes, "
+"les données ci-après:Ne sont pas mises à disposition au titre de données "
+"publiques ouvertes, les données ci-après:"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:43
+msgid ""
+"Daten, die gestützt auf andere Erlasse nicht oder nur zu restriktiveren "
+"Bedingungen veröffentlicht werden, insbesondere wenn sie einer "
+"spezialgesetzlichen Schutzbestimmung unterstehen wie Datenschutz, "
+"Urheberrechte, Statistikgeheimnis, Steuergeheimnis, Informationsschutz, "
+"Gebühren und amtliche Register;"
+msgstr ""
+"Les données dont la publication est restreinte, voire interdite, par "
+"d’autres actes législatifs, en particulier celles qui sont protégées par "
+"des dispositions de lois spéciales, telles les législations régissant la "
+"protection des données, les droits d’auteur, le secret statistique, le "
+"secret fiscal, la protection de l’information, les émoluments et les "
+"registres officiels;"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:47
+msgid ""
+"Daten, deren Aufbereitung für die Zurverfügungstellung als OGD bedeutende"
+" zusätzliche sachliche, personelle oder technische Mittel erfordert."
+msgstr ""
+"Les données dont la mise à disposition en libre accès passe par un "
+"traitement qui mobiliserait des ressources supplémentaires considérables "
+"tant matérielles, qu’humaines et techniques."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:53
+msgid ""
+"Sie können eine Frage nicht klar beantworten? Werfen Sie einen Blick in "
+"unsere `Arbeitshilfe für Behörden zur Publikation von Daten als OGD "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__."
+msgstr ""
+"Impossible de répondre clairement à une des questions? `Notre guide "
+"Arbeitshilfe "
+"<https://www.bfs.admin.ch/bfs/fr/home/services/ogd/documentation.assetdetail.11147071.html>`__"
+" vous sera très utile. Actuellement, ce document est uniquement "
+"disponible en allemand. Et si vous n’y trouvez pas de réponse, n’hésitez "
+"pas à `nous écrire <mailto:opendata@bfs.admin.ch>`__."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:57
+msgid "3. Auskunft zu den Richtlinien"
+msgstr "3. Vue d’ensemble des données existantes"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:59
+msgid ""
+"Jede Verwaltungseinheit führt einen Katalog, der grundlegende Angaben "
+"über die von der Organisation bewirtschafteten Daten ausweist und somit "
+"eine Übersicht über die von ihr verwalteten Daten («Dateninventar») gibt."
+" Wo möglich sollen diese Informationen in bereits vorhandenen Katalogen "
+"gesammelt und darauf verwiesen werden (z.B. «Sammlung der Geobasisdaten "
+"des Bundesrecht»)."
+msgstr ""
+"Chaque unité administrative possède un catalogue qui contient des "
+"informations de base sur les données qu’elle gère et qui en donne ainsi "
+"une vue d’ensemble (inventaire des données). Il convient, dans la mesure "
+"du possible, d’inclure ces informations dans les catalogues existants et "
+"de mentionner leur existence («Recueil des jeux de géodonnées de base de "
+"droit fédéral», p. ex.)."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:64
+msgid ""
+"Dieser Katalog wird mindestens 1-mal jährlich aktualisiert. Das "
+"Dateninventar enthält zwingend folgende Angaben:"
+msgstr ""
+"Ce catalogue sera mis à jour au moins une fois par année. L’inventaire "
+"des données contiendra obligatoirement les indications suivantes:"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:67
+msgid "**Titel**: Titel des Datasets"
+msgstr "**Titre**: titre du jeu de données"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:69
+msgid "**Beschreibung**: Kurze Beschreibung des Inhalts des Datasets"
+msgstr "**Description**: brève description du contenu du jeu de données"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:71
+msgid ""
+"**Data-Owner**: Name der Einheit oder der Bundesorgane, die für die "
+"Bereitstellung der Daten bezüglich Qualität, Zugriff und Schutz gemäss "
+"der rechtlichen Grundlagen und den Vorgaben ihrer Verwaltungsstelle "
+"verantwortlich ist"
+msgstr ""
+"**Propriétaire des données**: nom de l’unité administrative ou de "
+"l’organisme fédéral responsable de la mise à disposition des données, de "
+"leur qualité, de leur accessibilité et de leur protection conformément "
+"aux bases légales et aux prescriptions de l’instance administrative "
+"compétente."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:73
+#, fuzzy
+msgid ""
+"**Kategorie**: Kategorie des Datasets, gemäss Kategorien opendata.swiss "
+"(siehe :download:`SKOS-RDF <../../../_static/examples/opendataswiss-"
+"themes.rdf>` )"
+msgstr ""
+"Catégorie: catégorie à laquelle appartient le jeu de données selon les "
+"catégories définies sur opendata.swiss (:download:`SKOS-RDF <../../../_static/examples/opendataswiss-themes.rdf>`)"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:75
+msgid "**Angaben zur Offenheit des Datasets**. Mögliche Werte:"
+msgstr ""
+"**Indications concernant le degré d’ouverture des données** (valeurs "
+"possibles):"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:77
+msgid "Open: Die Daten dürfen frei wiederverwendet werden"
+msgstr ""
+"Données ouvertes (open data): données qui peuvent être réutilisées sans "
+"restriction"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:79
+msgid ""
+"Restricted: Die Daten dürfen nur unter spezifischen Nutzungsbedingungen "
+"(wie beispielsweise Datenschutzverträge) wiederverwendet werden"
+msgstr ""
+"Données à accès restreint (restricted access data): données qui ne "
+"peuvent être réutilisées qu’à des conditions particulières (selon les "
+"termes de contrats sur la protection des données, p. ex.)"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:81
+msgid "Closed: Die Daten dürfen nicht wiederverwendet werden"
+msgstr "Données fermées (closed data): données qui ne peuvent pas être réutilisées"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:83
+msgid ""
+"Die Sammlung der Informationen soll aufgrund von eCH-0200 «DCAT-"
+"Anwendungsprofil für Datenportale in der Schweiz» gestaltet werden, so "
+"dass die Interoperabilität der gesammelten Metadaten sichergestellt "
+"bleibt."
+msgstr ""
+"Pour garantir l’interopérabilité des métadonnées, les recueils "
+"d’informations doivent se fonder sur la norme eCH-0200 profil "
+"d’application DCAT pour les portails de données suisses."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:88
+msgid "4. Referenzieren auf opendata.swiss"
+msgstr "4. Référencer les données sur opendata.swiss"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:89
+msgid ""
+"Die von der Verwaltungseinheit definierten Data-Owner sind dafür "
+"zuständig, dass jene Datasets auf dem zentralen Katalog der "
+"schweizerischen OGD (opendata.swiss) referenziert werden, welche als "
+"«Open» eingestuft sind. Dafür können sie weitere Einheiten oder "
+"Organisationen delegieren (z.B. «Data-Stewards»)."
+msgstr ""
+"Il incombe aux propriétaires de données définis par les unités "
+"administratives de référencer les jeux de données considérés comme "
+"«ouverts» dans le catalogue central des données publiques ouvertes "
+"suisses (opendata.swiss). Les propriétaires peuvent déléguer cette tâche "
+"à d’autres unités ou organismes (intendants des données, p. ex.)"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:94
+msgid ""
+"Metadaten aus bestehenden Portalen (z. B. Geoinformation, Umwelt, "
+"kantonale Portale) werden möglichst automatisiert übernommen "
+"(«Harvesting»)."
+msgstr ""
+"Les métadonnées provenant de portails existants (géoinformation, "
+"environnement, portails cantonaux, etc.) seront dans la mesure du "
+"possible reprises automatiquement (par «moissonnage»)."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:97
+msgid "Das Referenzieren auf weiteren Webseiten oder Portalen ist erlaubt."
+msgstr "Leur référencement sur d’autres sites ou portails Internet est autorisé."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:100
+msgid "5. Kontaktperson oder -stelle"
+msgstr "5. Personnes ou services à contacter"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:102
+msgid ""
+"Für jedes publizierte Dataset wird eine für Nutzer-Anfragen zuständige "
+"Person oder Stelle bestimmt und via Metadaten (Attribute: Name resp. "
+"Bezeichnung der Stelle und E-Mail-Adresse) veröffentlicht."
+msgstr ""
+"À chaque jeu de données correspond une personne ou un service qui a pour "
+"tâche d’informer les utilisateurs. Cette instance figurera dans les "
+"métadonnées (attributs: nom ou désignation du service et adresse "
+"courriel)."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:107
+msgid "6. Einheitliche und offene Nutzungsbedingungen"
+msgstr "6. Conditions d’utilisation uniformes et ouvertes"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:109
+msgid ""
+"Auf die Daten müssen die standardisierte Nutzungsbedingungen von "
+"opendata.swiss angewendet werden (https://opendata.swiss/de/terms-of-"
+"use)."
+msgstr ""
+"Les données doivent être régies par les conditions d’utilisations "
+"standards d’opendata.swiss (https://opendata.swiss/fr/terms-of-use/)."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:112
+msgid "Als einzig mögliche Einschränkungen gelten:"
+msgstr "Les seules restrictions possibles sont les suivantes:"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:114
+#, fuzzy
+msgid ""
+"Die Pflicht zur Quellenangabe (Autor, Titel und Link zum Datensatz) "
+"(siehe: https://opendata.swiss/de/terms-of-use/#terms_by)"
+msgstr ""
+". L’obligation d’indiquer la source (auteur, titre et lien vers le jeu de"
+" données) (cf. https://opendata.swiss/fr/terms-of-use/#terms_by)."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:116
+msgid ""
+"Das Einholen einer Bewilligung zur kommerziellen Nutzung (siehe "
+"https://opendata.swiss/de/terms-of-use/#terms_by_ask ). Diese "
+"Einschränkung soll nur angewendet werden, wenn die gesetzliche Grundlage "
+"dies explizit vorsieht."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:119
+msgid "7. Maschinenlesbarkeit der Daten und der Datenmodelle"
+msgstr "7. Données et modèles de données lisibles par machine"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:121
+msgid ""
+"Ein wichtiges Ziel der Publikation von Open (Government) Data ist, dass "
+"Maschinen mit den Daten einfach umgehen können und u.a. Zuordnungs- und "
+"Formatierungsfehler vermeiden, welche beim Einlesen von Texten oder im "
+"PDF-Format angebotene Informationen vorkommen können. So kann ein "
+"unverhältnismässiger Aufwand für die Nutzer/innen bei der Datennutzung "
+"vermieden werden."
+msgstr ""
+"L’un des principaux objectifs de la publication en libre accès de données"
+" (publiques) est de permettre à des machines de les traiter aisément et "
+"d’éviter notamment les erreurs d’affectation et de formatage qui peuvent "
+"se produire lors de la lecture de textes ou d’informations proposées au "
+"format PDF. Cette mise à disposition évite ainsi un travail "
+"disproportionné aux utilisateurs des données."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:127
+msgid ""
+"Dafür stellen die Datenanbieter sicher, dass die Daten in einem offen, "
+"maschinenlesbaren und standardisierten Format, wie csv oder XML, oder in "
+"etablierten Formaten, die verbreitet, geläufig und von der Nutzer-"
+"Community akzeptiert sind, vorliegen. Als Orientierung dient die 3"
+"-Sterne-Stufe des «5-Sterne-Modells für Offene Daten (Open Data)» "
+"(https://5stardata.info/de)."
+msgstr ""
+"À cet effet, les fournisseurs veillent à mettre les données à disposition"
+" dans un format ouvert, lisible par machine et normalisé, comme csv ou "
+"XML, ou dans des formats répandus, courants et acceptés par la communauté"
+" des utilisateurs. Il convient de se référer ici au niveau trois étoiles "
+"du «programme de déploiement en cinq étoiles pour les données ouvertes» "
+"(https://5stardata.info/fr)."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:133
+msgid ""
+"Die Datenanbieter stellen zudem sicher, dass die Datenstruktur "
+"maschinenlesbar ist und, dass eine Erklärung der Variablen "
+"(«Datenmodell») in maschinenlesbarer Form vorliegt."
+msgstr ""
+"Les fournisseurs de données garantissent par ailleurs que la structure "
+"des données soit lisible par machine et qu’une explication des variables "
+"(modèle de données) existe sous forme lisible par machine."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:136
+msgid ""
+"Wo möglich sollen die Daten über maschinenlesbaren Schnittstellen (siehe "
+"beispielsweise https://api3.geo.admin.ch und https://lindas.admin.ch) "
+"angeboten werden. Diese bieten für das Datamanagement sowie auch für die "
+"Datennutzung die höchstmögliche Flexibilität."
+msgstr ""
+"Les données doivent dans la mesure du possible être mises à disposition "
+"via des interfaces lisibles par machine (cf. https://api3.geo.admin.ch et"
+" https://lindas.admin.ch, p. ex.), qui offrent une flexibilité maximale "
+"pour la gestion et l’utilisation des données."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:142
+msgid "8. Rohdaten"
+msgstr "8. Données brutes"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:144
+msgid ""
+"Solange der gesetzliche Auftrag nichts anderes vorsieht (z.B. "
+"Aggregationen aus Datenschutzgründen) oder die Nutzer explizit "
+"aggregierte Daten (z.B. Karten) verlangen, sollen möglichst rohe Daten "
+"veröffentlicht werden. Dies hat die möglichst freie und effiziente "
+"Weiterverarbeitung und Verwendung zum Ziel."
+msgstr ""
+"Dans la mesure où le mandat légal ne prévoit pas autre chose (agrégation "
+"des données pour assurer leur protection, p. ex.) ou que les utilisateurs"
+" n’exigent pas explicitement des données agrégées (des cartes, p. ex.), "
+"les données doivent si possible être publiées sous forme brute. Cette "
+"règle vise à assurer un maximum de liberté et d’efficacité dans leur "
+"traitement et leur réutilisation."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:149
+#, fuzzy
+msgid "9. Vollständige Datasets"
+msgstr "9. Données complètes"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:151
+msgid ""
+"Es werden möglichst vollständige Datasets veröffentlicht. Auf eine "
+"Fragmentierung der Datasets bei der Veröffentlichung («Daten-Auszüge», "
+"z.B. «Snippets» oder «Previews») ist soweit möglich zu verzichten."
+msgstr ""
+"On ne publiera si possible que des jeux de données complets. Dans la "
+"mesure du possible, il faut éviter de fragmenter les données (extraits, "
+"bribes ou aperçus, etc.) lors de la publication."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:154
+msgid ""
+"Sollte ein Datenanbieter aus technischen oder rechtlichen Gründen "
+"unvollständige oder nichtgenehmigte Daten publizieren, ist dies mittels "
+"der Metadaten oder mit weiteren Beschreibungen auszuweisen."
+msgstr ""
+"Lorsqu’un fournisseur de données publie, pour des raisons techniques ou "
+"légales, des données incomplètes ou non approuvées, il doit le signaler "
+"soit dans les métadonnées soit dans une autre description."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:157
+msgid ""
+"Wo möglich sollten die veröffentlichen Datasets mit einer angemessenen "
+"Versionenkontrolle (Datum oder Versionsnummer im Titel der Ressourcen) "
+"versehen werden."
+msgstr ""
+"Les jeux de données publiés doivent dans la mesure du possible "
+"s’accompagner d’un contrôle de version approprié (date ou numéro de la "
+"version dans le titre de la ressource)."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:161
+msgid "10. Aktuelle Daten"
+msgstr "10. Données actuelles"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:163
+msgid ""
+"Die Daten sollen der Öffentlichkeit möglichst aktuell zur Verfügung "
+"gestellt werden, d.h. möglichst zeitnah nach ihrer Erhebung und "
+"Zusammenstellung."
+msgstr ""
+"Les données publiées doivent être suffisamment «contextualisées», "
+"c’est-à-dire décrites assez clairement pour permettre leur réutilisation,"
+" notamment par des utilisateurs extérieurs à l’administration. À cet "
+"effet, la publication des données comprendra également les métadonnées de"
+" base (voir en particulier la norme DCAT-AP CH), ainsi que les formules "
+"et les explications relatives au calcul des données, autant que possible "
+"dans un format lisible par machine. Des références à d’autres objets de "
+"données devraient se retrouver dans les jeux de données des fournisseurs "
+"correspondants."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:167
+msgid "11. Kontextualisierte Daten"
+msgstr "11. Données contextualisées"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:169
+msgid ""
+"Die publizierten Daten sind ausreichend kontextualisiert zu publizieren, "
+"d.h. sie sind ausreichend beschrieben, um die Wiederverwendung, "
+"insbesondere durch verwaltungsexterne Einheiten zu ermöglichen. Dafür "
+"werden die grundlegenden Metadaten (siehe vor allem DCAT-AP-CH-Standard) "
+"sowie auch die entsprechenden Erklärungen zu den Datenberechnungsmethoden"
+" möglichst in maschinenlesbarer Form gemeinsam mit den Daten "
+"veröffentlicht. Referenzen auf andere Datenobjekte sollten in den "
+"Datasets der entsprechenden Datenanbieter wiedergefunden werden."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:176
+msgid "12. Veröffentlichung zusätzlicher Publikationsformen"
+msgstr "12. Autres types de publications"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:178
+msgid ""
+"Zusätzlich zu den maschinenlesbaren Daten können ergänzend weitere "
+"Publikationsformen bereitgestellt werden, mit dem Ziel, den "
+"Nutzungskontext aufzuzeigen. Dies gilt beispielsweise für Bilder, "
+"Grafiken oder Berichte, die auf Basis der Rohdaten erstellt wurden, oder "
+"für aggregierte Daten."
+msgstr ""
+"Afin d’illustrer le contexte de leur utilisation, d’autres types de "
+"publications peuvent accompagner les données mises à disposition dans un "
+"format lisible par machine. Il peut s’agir d’images, de graphiques ou de "
+"rapports établis sur la base des données brutes, voire de données "
+"agrégées."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:183
+msgid "13. Uneingeschränkter Datenzugang"
+msgstr "13. Accès illimité"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:185
+msgid ""
+"Die veröffentlichten Daten sind einfach und barrierefrei zugänglich zu "
+"machen. Allfällige physische (z.B. die Notwendigkeit, persönlich ein "
+"bestimmtes Büro aufzusuchen oder die Anforderung, bestimmte Abläufe zu "
+"erfüllen) oder technische (z.B. Zugang zu Daten nur über ausgefüllte "
+"Eingabemasken oder Systeme, die browserorientierte Technologien wie etwa "
+"Flash, JavaScript, Cookies oder Java Applets erfordern) Barrieren sind zu"
+" vermeiden. Wenn es der Verbreitung der Daten dient, können auch mehrere "
+"Zugangsmöglichkeiten für ein Dataset geschaffen werden (z.B. zwei Formate"
+" als Download und ein API)."
+msgstr ""
+"L’accès aux données publiées doit être aisé et sans obstacles. Il "
+"convient d’éviter que des obstacles physiques (nécessité de se rendre "
+"personnellement dans un bureau donné ou obligation de procéder à "
+"certaines démarches, p. ex.) ou techniques (accès via des masques à "
+"remplir ou des systèmes exigeant le recours à certaines technologies de "
+"navigation comme Flash, JavaScript, Cookies ou Applets Java, p. ex.) "
+"entravent l’accès aux données. Pour favoriser la diffusion des données, "
+"il est possible de prévoir plusieurs moyens d’accéder à un jeu de données"
+" (deux formats, p. ex., accès par téléchargement et via une API)."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:192
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:201
+msgid ""
+"Die einzige Ausnahme ist das Einholen einer Bewilligung zur kommerziellen"
+" Nutzung (siehe Nutzungsbedingungen opendata.swiss mit Einschränkung "
+"«Ask»), gemäss Richtlinie 6."
+msgstr ""
+"Seule exception: l’obtention d’une autorisation pour une utilisation à "
+"des fins commerciales (cf. conditions d’utilisation opendata.swiss avec "
+"la restriction «ASK»), conformément à la directive 6."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:196
+msgid "14. Diskriminierungsfreier Datenzugang"
+msgstr "14. Accès non discriminatoire"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:198
+msgid ""
+"Die publizierten Daten sind diskriminierungsfrei zugänglich: Jede Person "
+"soll zu jeder Zeit auf die Daten zugreifen können, ohne sich zu "
+"identifizieren oder eine Rechtfertigung für ihr Handeln abgeben zu "
+"müssen."
+msgstr ""
+"Les données publiées doivent être accessibles de façon non "
+"discriminatoire: quiconque doit pouvoir accéder aux données en tout "
+"temps, sans devoir s’identifier ou justifier ses actes."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:204
+msgid ""
+"Sollte eine Registrierung aus technischen Gründen zwingend notwendig sein"
+" (z.B. im Falle von Zugängen über API), sollte diese als «Self-Service» "
+"innerhalb von 10 Minuten machbar sein."
+msgstr ""
+"Si l’inscription de l’utilisateur devait s’avérer nécessaire pour des "
+"raisons techniques (accès via une API, p. ex.), elle devrait être "
+"réalisable en l’espace de 10 minutes au moyen d’une solution self-"
+"service."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:209
+msgid "15. Leicht auffindbar"
+msgstr "15. Données faciles à trouver"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:211
+msgid ""
+"Die veröffentlichten Daten werden so bereitgestellt, dass sie leicht im "
+"Internet auffindbar sind. Insbesondere sollen sie möglichst einfach von "
+"Suchmaschinen indexiert werden können. Die Suchbegriffe sollen in "
+"mindestens 2 Landessprachen erfasst werden."
+msgstr ""
+"Les données publiées sont mises à disposition de telle sorte qu’il soit "
+"facile de les trouver sur Internet. Les moteurs de recherche doivent en "
+"particulier pouvoir les indexer facilement. Les mots-clés doivent pouvoir"
+" être saisis dans deux langues nationales au moins. "
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:214
+msgid "16. In einem Klick erreichbar"
+msgstr "16. Données accessibles d’un seul clic"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:216
+msgid ""
+"Die Daten oder deren Teilmengen werden so referenziert, dass die "
+"Verlinkung direkt zu den Daten führt («One-click to data»). Soweit "
+"möglich sollen Permalinks zu den aktuellen Daten verwendet werden."
+msgstr ""
+"Les données ou des parties d’entre elles sont référencées de sorte que le"
+" lien mène directement à ces données (one click to data). Dans la mesure "
+"du possible, il faudrait créer un permalien vers les données actuelles."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:220
+msgid "17. Als Massenabfrage verfügbar"
+msgstr "17. Téléchargement de masse"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:222
+msgid ""
+"Das vollständige Dataset soll als Ganzes mittels Massenabfrage («Bulk "
+"Download») abgerufen werden können, ausser dies sei aus technischen "
+"Gründen nicht möglich oder besonders aufwändig (z.B. sehr grosse "
+"Datenmengen und lange Bearbeitungszeiten)."
+msgstr ""
+"Le jeu de données doit pouvoir être téléchargé en une fois dans sa "
+"totalité (bulk download), sauf si ce procédé n’est techniquement pas "
+"utilisable ou qu’il exige trop de ressources (trop grand volume de "
+"données ou durée de traitement trop longue, p. ex.)."
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:227
+msgid "18. Linked Open Data"
+msgstr "18. Données ouvertes liées (linked open data)"
+
+#: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:229
+msgid ""
+"Eine Veröffentlichung der offenen Daten als Linked Open Data soll "
+"insbesondere bei zentralen Registern und kontrollierten Vokabularen (eine"
+" Sammlung von Bezeichnungen (Wortschatz), die eindeutig Begriffen "
+"zugeordnet sind, so dass keine Homonyme auftreten) geprüft und wo möglich"
+" umgesetzt werden."
+msgstr ""
+"Dans le cas de registres centraux ou de vocabulaires contrôlés (recueils "
+"de désignations [vocabulaires] auxquelles sont affectés des termes "
+"uniques, sans homonymes possibles), il convient d’étudier et, si "
+"possible, d’appliquer la possibilité de publier les données sous la forme"
+" de données ouvertes liées."
+
+#~ msgid ""
+#~ "16. In einem Klick erreichbar Die "
+#~ "Daten oder deren Teilmengen werden so"
+#~ " referenziert, dass die Verlinkung direkt"
+#~ " zu den Daten führt («One-click "
+#~ "to data»). Soweit möglich sollen "
+#~ "Permalinks zu den aktuellen Daten "
+#~ "verwendet werden."
+#~ msgstr ""
+
+#~ msgid "1.  “Open Data by Default”"
+#~ msgstr ""
+
+#~ msgid "2.  Vorliegen von Schutzbestimmungen"
+#~ msgstr ""
+
+#~ msgid "3 Auskunft zu den Richtlinien"
+#~ msgstr ""
+
+#~ msgid "4.  Referenzieren auf opendata.swiss"
+#~ msgstr ""
+
+#~ msgid "5.  Kontaktperson oder -stelle"
+#~ msgstr ""
+
+#~ msgid "6.  Einheitliche und offene Nutzungsbedingungen"
+#~ msgstr ""
+
+#~ msgid "7.  Maschinenlesbarkeit der Daten und der Datenmodelle"
+#~ msgstr ""
+
+#~ msgid "8.  Rohdaten"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Die OGD-Strategie 2019-2023, welche Ende"
+#~ " 2018 vom Bundesrat genehmigt worden "
+#~ "ist, führt das Prinzip «Open Data "
+#~ "by Default» ein: Ab 2020 publizieren "
+#~ "alle Bundesstellen ihre Daten als Open"
+#~ " Government Data (OGD). Die vorliegenden"
+#~ " «OGD-Richtlinien» dienen als Orientierung"
+#~ " für die Einheiten der Bundesverwaltung "
+#~ "bei der Umsetzung dieses Prinzips. Über"
+#~ " die Bundesverwaltung hinaus dienen die "
+#~ "OGD-Richtlinien als Orientierung für "
+#~ "Kantone, Gemeinden, staatsnahe Betriebe sowie"
+#~ " für weitere Organisationen, die Daten "
+#~ "von öffentlichem Interesse publizieren."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sie können eine Frage nicht klar "
+#~ "beantworten? Werfen Sie einen Blick in"
+#~ " unsere Arbeitshilfe für Behörden zur "
+#~ "Publikation von Daten als OGD (M7 "
+#~ "Arbeitshilfe für Behörden für die "
+#~ "Publikation von Daten als OGD | "
+#~ "Publikation | Bundesamt für Statistik "
+#~ "(admin.ch))"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "· Titel: Titel des Datasets · "
+#~ "Beschreibung: Kurze Beschreibung des Inhalts"
+#~ " des Datasets · Data-Owner: Name "
+#~ "der Einheit oder der Bundesorgane, die"
+#~ " für die Bereitstellung der Daten "
+#~ "bezüglich Qualität, Zugriff und Schutz "
+#~ "gemäss der rechtlichen Grundlagen und "
+#~ "den Vorgaben ihrer Verwaltungsstelle "
+#~ "verantwortlich ist · Kategorie: Kategorie "
+#~ "des Datasets, gemäss Kategorien opendata.swiss"
+#~ " (siehe Code-Liste ) · Angaben "
+#~ "zur Offenheit des Datasets. Mögliche "
+#~ "Werte:"
+#~ msgstr ". Titre: titre du jeu de données"
+
+#~ msgid "Open: Die Daten dürfen frei wiederverwendet werden"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Restricted: Die Daten dürfen nur unter"
+#~ " spezifischen Nutzungsbedingungen (wie "
+#~ "beispielsweise Datenschutzverträge) wiederverwendet "
+#~ "werden"
+#~ msgstr ""
+
+#~ msgid "Closed: Die Daten dürfen nicht wiederverwendet werden"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Catégorie**: catégorie à laquelle appartient"
+#~ " le jeu de données selon les "
+#~ "catégories définies sur opendata.swiss (cf."
+#~ " Code List)**Kategorie**: Kategorie des "
+#~ "Datasets, gemäss Kategorien opendata.swiss "
+#~ "(siehe Code-Liste )"
+#~ msgstr ""
+
+#~ msgid "**Open**: Die Daten dürfen frei wiederverwendet werden"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Restricted**: Die Daten dürfen nur "
+#~ "unter spezifischen Nutzungsbedingungen (wie "
+#~ "beispielsweise Datenschutzverträge) wiederverwendet "
+#~ "werden"
+#~ msgstr ""
+
+#~ msgid "**Closed**: Die Daten dürfen nicht wiederverwendet werden"
+#~ msgstr ""
+
+#~ msgid "· Das Einholen einer Bewilligung zur kommerziellen Nutzung"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(siehe https://opendata.swiss/de/terms-of-"
+#~ "use/#terms_by_ask ). Diese Einschränkung soll"
+#~ " nur angewendet werden, wenn die "
+#~ "gesetzliche Grundlage dies explizit vorsieht."
+#~ msgstr ""
+

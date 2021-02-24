@@ -77,7 +77,7 @@ mit uns teilen möchten?
 
    content/vorbereiten/vorbereiten
    content/vorbereiten/erstpublizierende
-   content/vorbereiten/dataset
+   content/vorbereiten/publikationsrichtlinien
 
 .. toctree::
    :maxdepth: 2
@@ -126,9 +126,7 @@ mit uns teilen möchten?
 
    content/vorbereiten/erstpublizierende/opendata-swiss-verstehen
    content/vorbereiten/erstpublizierende/dateninventar-erstellen
-   content/vorbereiten/dataset/rechtlicher-check
-   content/vorbereiten/dataset/technischer-check
-   content/vorbereiten/dataset/organisatorischer-check
+   content/vorbereiten/publikationsrichtlinien
    content/publizieren/erstpublizierende/kontakt-bfs
    content/publizieren/erstpublizierende/organisation-einrichten
    content/publizieren/erstpublizierende/profil-einrichten
@@ -136,6 +134,7 @@ mit uns teilen möchten?
    content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen
    content/publizieren/publikationsvarianten/harvesting
    content/publizieren/publikationsvarianten/geodaten
+   content/glossar/bibliothek/ogd-richtlinien
    content/glossar/bibliothek/dcat-ap-ch
    content/glossar/bibliothek/geocat-mapping
    content/glossar/bibliothek/linked-open-data

@@ -34,9 +34,7 @@ von geeigneten Daten.
     - :doc:`opendata.swiss verstehen <erstpublizierende/opendata-swiss-verstehen>`
     - :doc:`Dateninventar erstellen <erstpublizierende/dateninventar-erstellen>`
 
-:doc:`Für jedes Dataset <dataset>`
+:doc:`Publikationsrichtlinien <publikationsrichtlinien>`
 -------------------------------------------------------------
 
-    - :doc:`Rechtliche Anforderungen prüfen <dataset/rechtlicher-check>`
-    - :doc:`Technische Anforderungen prüfen <dataset/technischer-check>`
-    - :doc:`Organisatorische Anforderungen prüfen <dataset/organisatorischer-check>`
+    - :doc:`OGD-Richtlinien lesen <publikationsrichtlinien>`
