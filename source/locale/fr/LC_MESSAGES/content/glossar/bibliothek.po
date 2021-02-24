@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"POT-Creation-Date: 2021-02-23 18:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,14 +30,20 @@ msgstr "Documentation"
 
 #: ../../source/content/glossar/bibliothek.rst:11
 msgid "Wo finde ich Zusatzmaterialien zu Open Government Data?"
-msgstr "Où trouver d’autres informations sur les données publiques ouvertes (open government data)?"
+msgstr ""
+"Où trouver d’autres informations sur les données publiques ouvertes (open"
+" government data)?"
 
 #: ../../source/content/glossar/bibliothek.rst:15
 msgid ""
 "Wenn Sie sich weiter über Open Government Data informieren möchten, sind "
 "Sie hier an der richtigen Stelle. Hier finden Sie einen Überblick über "
 "Materialien, gängige Datenstandards und Formate."
-msgstr "Si vous cherchez des informations complémentaires sur les données publiques ouvertes, vous êtes à la bonne place. Vous trouverez dans ce manuel un aperçu de la documentation existante ainsi que les normes et les formats les plus courants."
+msgstr ""
+"Si vous cherchez des informations complémentaires sur les données "
+"publiques ouvertes, vous êtes à la bonne place. Vous trouverez dans ce "
+"manuel un aperçu de la documentation existante ainsi que les normes et "
+"les formats les plus courants."
 
 #: ../../source/content/glossar/bibliothek.rst:22
 msgid ""
@@ -45,59 +51,84 @@ msgid ""
 "für Statistik "
 "<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.html>`__."
 msgstr ""
-"Vous trouverez des informations intéressantes sur les données publiques ouvertes dans `la documentation de "
-"l’Office fédéral de la statistique <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.html>`__."
+"Vous trouverez des informations intéressantes sur les données publiques "
+"ouvertes dans `la documentation de l’Office fédéral de la statistique "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.html>`__."
 
 #: ../../source/content/glossar/bibliothek.rst:26
+msgid ""
+"Richtlinien für die Veröffentlichung von Open Government Data («OGD-"
+"Richtlinien»)"
+msgstr "Lignes directrices pour la publication de données en libre accès (lignes directrices OGD)"
+
+
+#: ../../source/content/glossar/bibliothek.rst:28
+msgid ""
+":doc:`Die «OGD-Richtlinien» <bibliothek/ogd-richtlinien>` dienen als "
+"Orientierung für die Einheiten der Bundesverwaltung bei der Umsetzung des"
+" Prinzips open data by default."
+msgstr ":doc:`Lignes directrices OGD <bibliothek/ogd-richtlinien>` servent de guide pour la publication de données publiques ouvertes et donc pour la mise en œuvre de la stratégie OGD."
+
+#: ../../source/content/glossar/bibliothek.rst:31
 msgid "Standards für Daten"
 msgstr "Normes appliquées aux données publiées"
 
-#: ../../source/content/glossar/bibliothek.rst:28
+#: ../../source/content/glossar/bibliothek.rst:33
 msgid ""
 ":doc:`DCAT-AP-CH <bibliothek/dcat-ap-ch>` dokumentiert den DCAT-AP-CH "
 "Standard, der auf opendata.swiss implementiert ist."
 msgstr ""
-":doc:`DCAT-AP-CH <bibliothek/dcat-ap-ch>`:"
-"ce document explique la norme DCAT-AP CH, en vigueur sur le site opendata.swiss."
+":doc:`DCAT-AP-CH <bibliothek/dcat-ap-ch>`:ce document explique la norme "
+"DCAT-AP CH, en vigueur sur le site opendata.swiss."
 
-#: ../../source/content/glossar/bibliothek.rst:29
+#: ../../source/content/glossar/bibliothek.rst:34
 msgid ""
 ":doc:`ISO-19139_che zu DCAT-AP-CH <bibliothek/geocat-mapping>` "
 "dokumentiert die Umwandlung des GM03-Standards, der für Geodaten genutzt "
 "wird, auf den DCAT-AP-CH Standard, der auf opendata.swiss implementiert "
 "ist."
 msgstr ""
-":doc:`Conversion d’ISO 19139_che en DCAT-AP CH <bibliothek/geocat-mapping>`: "
-"cette page contient des informations sur la conversion de données à partir du modèle GM03, utilisé pour les géodonnées, à la norme DCAT-AP CH, appliquée sur opendata.swiss. "
+":doc:`Conversion d’ISO 19139_che en DCAT-AP CH <bibliothek/geocat-"
+"mapping>`: cette page contient des informations sur la conversion de "
+"données à partir du modèle GM03, utilisé pour les géodonnées, à la norme "
+"DCAT-AP CH, appliquée sur opendata.swiss. "
 
-#: ../../source/content/glossar/bibliothek.rst:30
+#: ../../source/content/glossar/bibliothek.rst:35
 msgid ""
 ":doc:`Linked Open Data <bibliothek/linked-open-data>` führt Sie in das "
 "Thema Linked Open Data ein."
-msgstr ":doc:`Données ouvertes liées (linked open data) <bibliothek/linked-open-data>`: "
-"ce chapitre sert d’introduction aux données en libre accès liées. "
+msgstr ""
+":doc:`Données ouvertes liées (linked open data) <bibliothek/linked-open-"
+"data>`: ce chapitre sert d’introduction aux données en libre accès liées."
+" "
 
-#: ../../source/content/glossar/bibliothek.rst:31
+#: ../../source/content/glossar/bibliothek.rst:36
 msgid ""
 ":doc:`Standard-Formate für Ressourcen <bibliothek/formate-ressourcen>` "
 "dokumentiert alle gängigen Formate und enthält Links zu Ihren "
 "Definitionen."
-msgstr ":doc:`Formats autorisés <bibliothek/formate-ressourcen>`: Vous trouverez ici une liste de tous les formats autorisés."
+msgstr ""
+":doc:`Formats autorisés <bibliothek/formate-ressourcen>`: Vous trouverez "
+"ici une liste de tous les formats autorisés."
 
-#: ../../source/content/glossar/bibliothek.rst:34
+#: ../../source/content/glossar/bibliothek.rst:39
 msgid "Anderes:"
 msgstr "Divers"
 
-#: ../../source/content/glossar/bibliothek.rst:36
+#: ../../source/content/glossar/bibliothek.rst:41
 msgid ""
 ":doc:`Q&A Hosting <bibliothek/hosting>` enthält Fragen und Antworten zum "
 "Thema Hosting von Daten."
-msgstr ":doc:`FAQ sur l’hébergement <bibliothek/hosting>`: "
-"cette page présente des questions et des réponses concernant l’hébergement de données."
+msgstr ""
+":doc:`FAQ sur l’hébergement <bibliothek/hosting>`: cette page présente "
+"des questions et des réponses concernant l’hébergement de données."
 
-#: ../../source/content/glossar/bibliothek.rst:37
+#: ../../source/content/glossar/bibliothek.rst:42
 msgid ""
 ":doc:`Embedding Datasets <bibliothek/embed>` gibt Tipps zum Einbetten von"
 " Datasets auf anderen Websites."
-msgstr ":doc:`Conseils en matière d’intégration de jeux de données <bibliothek/embed>`: cette page vous montre comment intégrer sur un site Internet les jeux de données provenant d’opendata.swiss."
+msgstr ""
+":doc:`Conseils en matière d’intégration de jeux de données "
+"<bibliothek/embed>`: cette page vous montre comment intégrer sur un site "
+"Internet les jeux de données provenant d’opendata.swiss."
 

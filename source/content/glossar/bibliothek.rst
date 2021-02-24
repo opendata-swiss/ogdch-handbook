@@ -22,6 +22,11 @@ Bibliothek
 Wissenswertes rund um OGD finden Sie in der
 `Bibliothek des Bundesamts für Statistik <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.html>`__.
 
+Richtlinien für die Veröffentlichung von Open Government Data («OGD-Richtlinien»)
+---------------------------------------------------------------------------------
+
+- :doc:`Die «OGD-Richtlinien» <bibliothek/ogd-richtlinien>` dienen als Orientierung für die Einheiten der Bundesverwaltung bei der Umsetzung des Prinzips open data by default.
+
 Standards für Daten
 -------------------
 
