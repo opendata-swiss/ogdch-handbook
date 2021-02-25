@@ -318,11 +318,8 @@ msgstr "Les seules restrictions possibles sont les suivantes:"
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:114
 #, fuzzy
 msgid ""
-"Die Pflicht zur Quellenangabe (Autor, Titel und Link zum Datensatz) "
-"(siehe: https://opendata.swiss/de/terms-of-use/#terms_by)"
-msgstr ""
-". L’obligation d’indiquer la source (auteur, titre et lien vers le jeu de"
-" données) (cf. https://opendata.swiss/fr/terms-of-use/#terms_by)."
+"Die Pflicht zur Quellenangabe (Autor, Titel und Link zum Datensatz) (siehe: https://opendata.swiss/de/terms-of-use/#terms_by)"
+msgstr "L’obligation d’indiquer la source (auteur, titre et lien vers le jeu de données) (cf. https://opendata.swiss/fr/terms-of-use/#terms_by)."
 
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:116
 msgid ""
@@ -330,7 +327,7 @@ msgid ""
 "https://opendata.swiss/de/terms-of-use/#terms_by_ask ). Diese "
 "Einschränkung soll nur angewendet werden, wenn die gesetzliche Grundlage "
 "dies explizit vorsieht."
-msgstr ""
+msgstr "L’obtention d’une autorisation pour utiliser les données à des fins commerciales (cf. https://opendata.swiss/fr/terms-of-use/#terms_by_ask ).Cette restriction ne devrait s’appliquer que si elle est explicitement prévue par une base légale."
 
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:119
 msgid "7. Maschinenlesbarkeit der Daten und der Datenmodelle"
@@ -478,7 +475,7 @@ msgid ""
 " möglichst in maschinenlesbarer Form gemeinsam mit den Daten "
 "veröffentlicht. Referenzen auf andere Datenobjekte sollten in den "
 "Datasets der entsprechenden Datenanbieter wiedergefunden werden."
-msgstr ""
+msgstr "Les données publiées doivent être suffisamment «contextualisées», c’est-à-dire décrites assez clairement pour permettre leur réutilisation, notamment par des utilisateurs extérieurs à l’administration. À cet effet, la publication des données comprendra également les métadonnées de base (voir en particulier la norme DCAT-AP CH), ainsi que les formules et les explications relatives au calcul des données, autant que possible dans un format lisible par machine. Des références à d’autres objets de données devraient se retrouver dans les jeux de données des fournisseurs correspondants."
 
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:176
 msgid "12. Veröffentlichung zusätzlicher Publikationsformen"
