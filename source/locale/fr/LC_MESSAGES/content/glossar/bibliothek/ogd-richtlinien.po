@@ -210,7 +210,7 @@ msgid ""
 "**Kategorie**: Kategorie des Datasets, gemäss Kategorien opendata.swiss, "
 "siehe"
 msgstr ""
-"catégorie à laquelle appartient le jeu de données selon les catégories "
+"**Catégorie**: catégorie à laquelle appartient le jeu de données selon les catégories "
 "définies sur opendata.swiss, cf."
 
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:75
