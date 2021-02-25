@@ -70,7 +70,9 @@ folgende Angaben:
 
 - **Data-Owner**: Name der Einheit oder der Bundesorgane, die für die Bereitstellung der Daten bezüglich Qualität, Zugriff und Schutz gemäss der rechtlichen Grundlagen und den Vorgaben ihrer Verwaltungsstelle verantwortlich ist
 
-- **Kategorie**: Kategorie des Datasets, gemäss Kategorien opendata.swiss (siehe :download:`SKOS-RDF <../../../_static/examples/opendataswiss-themes.rdf>` )
+- **Kategorie**: Kategorie des Datasets, gemäss Kategorien opendata.swiss, siehe
+
+  :download:`SKOS-RDF <../../../_static/examples/opendataswiss-themes.rdf>`
 
 - **Angaben zur Offenheit des Datasets**. Mögliche Werte:
 
@@ -111,7 +113,7 @@ angewendet werden (https://opendata.swiss/de/terms-of-use).
 
 Als einzig mögliche Einschränkungen gelten:
 
-- Die Pflicht zur Quellenangabe (Autor, Titel und Link zum Datensatz) (siehe: https://opendata.swiss/de/terms-of-use/#terms_by)
+- Die Pflicht zur Quellenangabe (Autor, Titel und Link zum Datensatz), siehe: https://opendata.swiss/de/terms-of-use/#terms_by
 
 - Das Einholen einer Bewilligung zur kommerziellen Nutzung (siehe https://opendata.swiss/de/terms-of-use/#terms_by_ask ). Diese Einschränkung soll nur angewendet werden, wenn die gesetzliche Grundlage dies explizit vorsieht.
 
