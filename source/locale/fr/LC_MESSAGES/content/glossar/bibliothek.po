@@ -67,7 +67,7 @@ msgid ""
 ":doc:`Die «OGD-Richtlinien» <bibliothek/ogd-richtlinien>` dienen als "
 "Orientierung für die Einheiten der Bundesverwaltung bei der Umsetzung des"
 " Prinzips open data by default."
-msgstr ":doc:`Lignes directrices OGD <bibliothek/ogd-richtlinien>` servent de guide pour la publication de données publiques ouvertes et donc pour la mise en œuvre de la stratégie OGD."
+msgstr ":doc:`Lignes directrices OGD <bibliothek/ogd-richtlinien>`: cette page sert de guide pour la publication des données publiques ouvertes et donc pour la mise en oeuvre de la stratégie OGD."
 
 #: ../../source/content/glossar/bibliothek.rst:31
 msgid "Standards für Daten"
