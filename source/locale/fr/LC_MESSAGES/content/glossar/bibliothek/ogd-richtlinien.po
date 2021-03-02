@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-25 15:50+0100\n"
+"POT-Creation-Date: 2021-03-02 15:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,7 +157,7 @@ msgstr ""
 "pas à `nous écrire <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:57
-msgid "3. Auskunft zu den Richtlinien"
+msgid "3. Auskunft zu den Daten"
 msgstr "3. Vue d’ensemble des données existantes"
 
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:59
@@ -210,8 +210,8 @@ msgid ""
 "**Kategorie**: Kategorie des Datasets, gemäss Kategorien opendata.swiss, "
 "siehe"
 msgstr ""
-"**Catégorie**: catégorie à laquelle appartient le jeu de données selon les catégories "
-"définies sur opendata.swiss, cf."
+"**Catégorie**: catégorie à laquelle appartient le jeu de données selon "
+"les catégories définies sur opendata.swiss, cf."
 
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:75
 msgid ":download:`SKOS-RDF <../../../_static/examples/opendataswiss-themes.rdf>`"
@@ -457,7 +457,10 @@ msgid ""
 "Die Daten sollen der Öffentlichkeit möglichst aktuell zur Verfügung "
 "gestellt werden, d.h. möglichst zeitnah nach ihrer Erhebung und "
 "Zusammenstellung."
-msgstr "Les données mises à la disposition du public doivent être aussi récentes que possible, c’est-à-dire publiées dès qu’elles ont été collectées et compilées."
+msgstr ""
+"Les données mises à la disposition du public doivent être aussi récentes "
+"que possible, c’est-à-dire publiées dès qu’elles ont été collectées et "
+"compilées."
 
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:169
 msgid "11. Kontextualisierte Daten"
