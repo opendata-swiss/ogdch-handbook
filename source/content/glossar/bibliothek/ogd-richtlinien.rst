@@ -53,7 +53,7 @@ Folgende Daten werden nicht als Open (Government) Data öffentlich zugänglich g
 Sie können eine Frage nicht klar beantworten? Werfen Sie einen Blick
 in unsere `Arbeitshilfe für Behörden zur Publikation von Daten als OGD <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__.
 
-3. Auskunft zu den Daten
+3. Übersicht der Daten
 -------------------------------
 
 Jede Verwaltungseinheit führt einen Katalog, der grundlegende Angaben über die von der Organisation
