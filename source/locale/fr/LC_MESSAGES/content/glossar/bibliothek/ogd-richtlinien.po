@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-02 15:31+0100\n"
+"POT-Creation-Date: 2021-03-03 08:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,7 +157,7 @@ msgstr ""
 "pas à `nous écrire <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:57
-msgid "3. Auskunft zu den Daten"
+msgid "3. Übersicht der Daten"
 msgstr "3. Vue d’ensemble des données existantes"
 
 #: ../../source/content/glossar/bibliothek/ogd-richtlinien.rst:59
@@ -769,4 +769,7 @@ msgstr ""
 
 #~ msgid "**Kategorie**: Kategorie des Datasets, gemärien opendata.swiss, siehe"
 #~ msgstr ""
+
+#~ msgid "3. Auskunft zu den Daten"
+#~ msgstr "3. Vue d’ensemble des données existantes"
 
