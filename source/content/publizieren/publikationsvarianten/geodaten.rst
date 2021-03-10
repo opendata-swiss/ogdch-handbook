@@ -40,8 +40,8 @@ Falls Ihre Organisation noch nicht eingerichtet ist,
 
 .. container:: important
 
-    Wichtig: Die verschiedenen
-    :doc:`rechtlichen, technischen und organisatorischen Anforderungen <../../vorbereiten/dataset>`
+    Wichtig: Die
+    :doc:`OGD-Richtlinien <../../glossar/bibliothek/ogd-richtlinien>`
     müssen weiterhin erfüllt werden.
 
 .. container:: important
