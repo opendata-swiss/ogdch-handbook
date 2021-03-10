@@ -41,8 +41,8 @@ Falls Ihre Organisation noch nicht eingerichtet ist,
 .. container:: important
 
     Wichtig: Die
-    :doc:`OGD-Richtlinien <../../vorbereiten/publikationsrichtlinien>`
-    müssen erfüllt werden.
+    :doc:`OGD-Richtlinien <../../glossar/bibliothek/ogd-richtlinien>`
+    müssen weiterhin erfüllt werden.
 
 .. container:: important
 
