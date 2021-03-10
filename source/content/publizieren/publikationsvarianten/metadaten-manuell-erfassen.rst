@@ -183,9 +183,9 @@ das Datum der Veröffentlichung der Ressource angeben.
 
 .. container:: important
 
-    Wichtig: Unter «Nutzungsbedingungen» müssen Sie nun hier die
-    Bedingung auswählen, die Sie im
-    :doc:`Kapitel «Rechtliche Nutzung prüfen» <../../vorbereiten/dataset/rechtlicher-check>`
+    Wichtig: Unter «Nutzungsbedingungen» müssen Sie nun hier eine
+    Bedingung auswählen, die den
+    :doc:`«OGD-Richtlinien» <../../glossar/bibliothek/ogd-richtlinien>`
     ermittelt haben.
 
 Optional können Sie noch unter «Zugangs-URL» eine URL angeben,
@@ -198,8 +198,7 @@ Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
 .. container:: important
 
     Wichtig: Bitte berücksichtigen Sie bei der Publikation einer Ressourcen
-    :doc:`die technischen Anforderungen <../../vorbereiten/dataset/technischer-check>`
-    von opendata.swiss.
+    :doc:`«OGD-Richtlinien» <../../glossar/bibliothek/ogd-richtlinien>`.
 
 .. _manuell-schlagwoerter-definieren:
 
