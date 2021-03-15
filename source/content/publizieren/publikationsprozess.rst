@@ -84,4 +84,4 @@ selbstverständlich jederzeit `kontaktieren <mailto:opendata@bfs.admin.ch>`__.
     Rechtsgrundlage Ihrer Daten geprüft und die Nutzungsbedingung festgelegt haben.
     Sie haben diesen Schritt verpasst? Kein Problem, mit einem Klick können Sie
     dies nachholen und Ihre
-    :doc:`Daten hier vorbereiten <../vorbereiten/dataset>`.
+    :doc:`Daten hier vorbereiten <../vorbereiten/publikationsrichtlinien>`.

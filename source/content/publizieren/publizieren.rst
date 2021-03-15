@@ -20,11 +20,9 @@ Folgende Punkte müssen Sie dabei beachten:
 - Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
   übernimmt das Controlling des gesamten Katalogs. Es ist allerdings
   an den publizierenden Organisationen oder Personen sicherzustellen, dass
-  die :doc:`rechtlichen <../vorbereiten/dataset/rechtlicher-check>`,
-  :doc:`technischen <../vorbereiten/dataset/technischer-check>` und
-  :doc:`organisatorischen <../vorbereiten/dataset/organisatorischer-check>`
-  :doc:`Anforderungen <../vorbereiten/dataset>`
-  eingehalten werden.
+  die rechtlichen,
+  technischen und organisatorischen Anforderungen
+  eingehalten werden, siehe :doc:`OGD-Richtlinien <../glossar/bibliothek/ogd-richtlinien>`.
 
 - Bei der ersten Publikation wird für alle Publikationsvarianten ein Test-Ablauf
   in der :term:`«Abnahmeumgebung» <Abnahmeumgebung>` von opendata.swiss durchgeführt.
