@@ -26,9 +26,9 @@ Die Schritte auf einen Blick
 ----------------------------
 
 - :ref:`Dataset erstellen <manuell-datensatz-erstellen>`
-- :ref:`Metadaten eingeben <manuell-resource-hinzufuegen>`
-- :ref:`Ressourcen hinzufügen <manuell-resource-hinzufuegen>`
-- :ref:`Schlagwörter definieren <manuell-schlagwoerter-definieren>`
+- :ref:`Metadaten eingeben <manuell-metadaten-eingeben>`
+- :ref:`Ressource hinzufügen <manuell-resource-hinzufuegen>`
+- :ref:`Dataset weiter bearbeiten  <manuell-dataset-aktionen>`
 - :ref:`Vorschau des Datasets prüfen <manuell-vorschau-pruefen>`
 - :ref:`Dataset veröffentlichen <manuell-datensatz-veroeffentlichen>`
 
@@ -49,9 +49,6 @@ Alle Schritte im Detail
 Dataset erstellen
 -----------------
 
-.. figure:: ../../../_static/images/publizieren/dataset-webformular.png
-   :alt: Webformular von opendata.swiss für einen Datensatz
-
 Um Datasets zu erfassen, müssen Sie sich im Backend von opendata.swiss einloggen.
 Handelt es sich um eine Erstpublikation oder möchten Sie eine neue oder
 besonders komplexe Publikation testweise durchführen,
@@ -59,27 +56,48 @@ ist die :term:`Abnahmeumgebung <Abnahmeumgebung>` dafür die richtige Wahl.
 Handelt es um eine wiederholte Publikation und Sie möchten Ihre Datasets
 direkt veröffentlichen, können Sie sich in die
 :term:`Produktionsumgebung <Produktionsumgebung>` einloggen.
-Im Menü links wählen Sie «Datensätze» > «Dataset erstellen».
-Als Erstes müssen Sie Ihrem Dataset einen Titel geben.
-Aus ihm wird der Permalink des Datasets gebildet.
 
-.. container:: important
+Nach dem Einloggen gelangen Sie zu Ihrem Dashboard.
 
-    Wichtig: Verändern Sie diesen Titel und den Permalink nicht mehr,
-    nachdem das Dataset publiziert wurde. Ansonsten können Nutzende,
-    die Ihre Daten bereits verwenden, diese nicht mehr erreichen.
+.. figure:: ../../../_static/images/publizieren/benutzer/benutzer-dashboard.png
+   :alt: Benutzer Dashboard im Backend von opendata.swiss
+
+Klicken Sie auf «Dataset hinzufügen», um das Webformular zu öffnen.
+
+.. _manuell-metadaten-eingeben:
 
 Metadaten eingeben
-^^^^^^^^^^^^^^^^^^
+-------------------
 
 Um sicherzustellen, dass die Datasets wiederverwendet werden können,
 werden verschiedene Metadaten und Beschreibungen zu den Datasets publiziert.
-Die Metadaten umfassen die Bereiche Datensatz-Informationen, Daten,
-Publisher-Informationen und Weitere Informationen. Zunächst
-müssen Sie den sogenannten Identifier eingeben. Dieser sorgt dafür,
-dass das Dataset mit Ihrer Organisation verknüpft wird. Dafür können
-Sie die ID aus Ihrem Quellsystem verwenden oder eine beliebige ID definieren.
-Bitte stellen Sie sicher, dass Ihr Dataset der richtigen Organisation zugeteilt ist.
+
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-anlegen.png
+   :alt: Dataset manuell erfassen
+
+Als Erstes müssen Sie Ihrem Dataset einen Namen geben.
+Aus ihm wird der Permalink des Datasets gebildet. Dieses Feld dient nur zur Bildung des
+Permalinks. Später wird der Titel Ihres Datasets aus den Einträgen im
+Datenfeld Titel (EN) (DE) (FR) (IT) ermittelt
+
+:Titel (EN) (DE) (FR) (IT): Bitte geben Sie einen Titel Ihres Datasets ein. Bitte besetzen
+                            Sie midestens eine Landessprache und Englisch.
+                            (Der Eintrag in Englisch wird bei der Weitergabe Ihres
+                            Datasets an das europäische Datenportal benötigt
+
+.. container:: important
+
+    Wichtig: Verändern Sie den Permalink nicht mehr,
+    nachdem das Dataset publiziert wurde. Ansonsten können Nutzende,
+    die Ihre Daten bereits verwenden, diese nicht mehr erreichen.
+
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-identifier.png
+   :alt: Eingabefeld Identifier im Webformular
+
+:Dataset Identifier: Zunächst müssen Sie den sogenannten Identifier eingeben. Dieser sorgt dafür,
+                     dass das Dataset mit Ihrer Organisation verknüpft wird. Dafür können
+                     Sie die ID aus Ihrem Quellsystem verwenden oder eine beliebige ID definieren.
+                     Bitte stellen Sie sicher, dass Ihr Dataset der richtigen Organisation zugeteilt ist.
 
 Für eine detaillierte Beschreibung des Inhalts der Metadaten-Felder orientieren
 Sie sich bitte an der
@@ -90,40 +108,43 @@ Sie sich bitte an der
     Wichtig: Verändern Sie den Identifier nicht mehr, nachdem das Dataset
     publiziert ist. Ansonsten können Ihre Daten nicht mehr eindeutig zugeordnet werden.
 
-.. figure:: ../../../_static/images/publizieren/dataset-identifier.png
-   :alt: Eingabefeld Identifier im Webformular
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-veroeffentlichen.png
+   :alt:  Eingabefeld Sichtbarkeit im Webformular
 
-Datensatz-Informationen
-^^^^^^^^^^^^^^^^^^^^^^^
+Diese Felder dienen später der Veröffentlichung Ihres Datasets.
 
-Bitte geben Sie hier den Titel und die Beschreibung Ihres Datasets an.
-Alle Bundesstellen sollen die Angaben mindestens auf Deutsch und
-Französisch eingeben – wünschenswert wären allerdings alle vier Sprachen.
-Weitere Organisationen sollen Titel und Beschreibung in mindestens einer
-Sprache eingeben. Falls nur eine Sprache vorliegt, wird die Eingabe
-für alle anderen Sprachversionen übernommen.
+:Sichtbarkeit: Die Voreinstellung ist auf
+               «Entwurf». Lassen Sie diese Voreinstellung zunächst so. Sie bedeutet, dass Ihr Dataset noch
+               nicht öffentlich sichtbar ist. Sie können diese Einstellung ändern, sobald
+               Sie Ihr Dataset in einem späteren Schritt veröffentlichen wollen.
 
-.. figure:: ../../../_static/images/publizieren/dataset-information.png
-   :alt: Abschnitt Dataset Information im Webformular
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-beschreibung.png
+   :alt: Eingabefeld Beschreibung im Webformular
 
-Daten
-^^^^^
+:Beschreibung (EN) (DE) (FR) (IT): Bitte geben Sie hier eine Beschreibung Ihres Datasets an.
+                            Alle Bundesstellen sollen die Angaben mindestens auf Deutsch und
+                            Französisch eingeben – wünschenswert wären allerdings alle vier Sprachen.
+                            Eine Englische Beschreibung erleichtert das Aufinden Ihres Dataset im
+                            europäischen Datenportal.
 
-Hier gilt es das Pflichtfeld «Erstellt» auszufüllen. Damit ist das Datum
-der ersten Publikation im Quellsystem dieses Datasets gemeint.
-Falls dies nicht bekannt ist, verwenden Sie das Datum der geplanten ersten
-Publikation auf opendata.swiss. Beim Datum der letzten Änderung («geändert»)
-können Sie nach der Publikation kommunizieren, wann die letzte Änderung
-(Aktualisierung, Korrektur etc.) am Dataset vorgenommen worden ist. Weiter
-sollen Sie hier das Intervall, in dem Aktualisierungen vorgenommen
-werden («Aktualisierungsintervall») und den Zeitraum,
-den das Dataset umfasst («Zeitliche Abdeckung»), angeben.
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-zeitangaben.png
+   :alt: Eingabefeld zur Aktualisierung im Webformular
 
-.. figure:: ../../../_static/images/publizieren/dataset-daten.png
-   :alt: Abschnitt Daten im Webformular
+:Publikationsdatum: Hier gilt es das Pflichtfeld «Publikationsdatum» auszufüllen. Damit ist das Datum
+                    der ersten Publikation im Quellsystem dieses Datasets gemeint.
+                    Falls dies nicht bekannt ist, verwenden Sie das Datum der geplanten ersten
+                    Publikation auf opendata.swiss.
+:Änderungsdatum: Beim Datum der letzten Änderung («Änderungsdatum»)
+                 können Sie nach der Publikation kommunizieren, wann die letzte Änderung
+                 (Aktualisierung, Korrektur etc.) am Dataset vorgenommen worden ist.
+:Aktualisierungsintervall: Weiter
+                           sollen Sie hier das Intervall, in dem Aktualisierungen vorgenommen
+                           werden («Aktualisierungsintervall») und den Zeitraum,
+                           den das Dataset umfasst («Zeitliche Abdeckung»), angeben.
 
-Publisher-Informationen
-^^^^^^^^^^^^^^^^^^^^^^^
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-publishers-kontakte.png
+   :alt: Eingabefeld Publisher im Webformular
+
 Hier müssen Sie Angaben zu Ihnen als datenpublizierender Organisation eingeben.
 Im Pflichtfeld «Publisher» wählen Sie die verantwortliche Organisation
 für das Dataset aus. Dies können auch mehrere Organisationen sein,
@@ -131,48 +152,74 @@ jedoch keine Personen. Im Pflichtfeld «Kontaktstellen» muss eine
 Ansprechperson angegeben werden, die von Datennutzenden bei Rückfragen
 kontaktiert werden darf. Es ist mindestens eine Person mit E-Mail-Adresse erforderlich.
 
-.. figure:: ../../../_static/images/publizieren/dataset-publisher.png
-   :alt: Eingabefeld Publisher im Webformular
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-sprachen.png
+   :alt: Eingabefeld Sprachen im Webformular
 
-Weitere Informationen
-^^^^^^^^^^^^^^^^^^^^^
+:Sprachen: Falls Ihre Resourcen sprachabhängig sind können Sie hier angeben, in welcher Sprache Ihre Resourcen vorliegen.
+           Sind Ihre Resourcen sprachunabhängig, kann das Eingabefeld leer bleiben.
 
-Unter «Kategorien» können Sie eine oder mehrere thematische Kategorien
-auswählen, denen das Dataset zugeordnet werden kann. Mit «Landing Page»
-ist die Website gemeint, auf der die Daten ursprünglich publiziert wurden,
-falls diese vorhanden ist. Unter «Beziehungen» geben Sie bitte «legal_basis»
-ein und erfassen einen Link auf die gesetzliche Grundlage, welche die
-Publikation dieses Datasets vorsieht. Unter «Verwandte Datensätze»
-können Sie aus allen verfügbaren Datasets auf opendata.swiss mit
-thematischem Bezug zu Ihrem aktuellen Dataset auswählen. Damit
-signalisieren Sie Datennutzenden, dass weitere Datasets existieren,
-die sie interessieren könnten.
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-weitere-informationen.png
+   :alt: Eingabefeld Weitere Inforamtionen im Webformular
 
-.. figure:: ../../../_static/images/publizieren/dataset-kategorien.png
+:Further Information: Unter «Weitere Informationen» können Sie allgemeine Links angeben, etwa zu Dokumentation, die dem Benutzer helfen
+                      Ihr Dataset besser zu verstehen.
+
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-landing-page.png
+   :alt: Eingabefeld Landing Page im Webformular
+
+:Landing Page: Mit «Landing Page»
+               ist die Website gemeint, auf der die Daten ursprünglich publiziert wurden,
+               falls diese vorhanden ist.
+
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-related.png
    :alt: Eingabefeld Kategorien im Webformular
+
+:Related Datasets: Unter «Verwandte Datensätze»
+                   können Sie aus allen verfügbaren Datasets auf opendata.swiss mit
+                   thematischem Bezug zu Ihrem aktuellen Dataset auswählen. Damit
+                   signalisieren Sie Datennutzenden, dass weitere Datasets existieren,
+                   die sie interessieren könnten.
+
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-schlagworte.png
+   :alt: Eingabefeld Kategorien im Webformular
+
+:Schlagwörter: Schlagwörter helfen dabei, die Auffindbarkeit zu steigern.
+               Mögliche Schlagwörter können Sie aus Ihren Metadaten oder Ihrem Quellsystem ermitteln.
+               Sie können auch aus den meistgenutzten Schlagwörtern auswählen.
+
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-kategorien.png
+   :alt: Eingabefeld Kategorien im Webformular
+
+:Kategorien: Unter «Kategorien» können Sie eine oder mehrere thematische Kategorien
+             auswählen, denen das Dataset zugeordnet werden kann.
+
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-speichern.png
+   :alt: Eingabefeld Kategorien im Webformular
+
+Wechseln Sie zu den Resourcen, wenn Sie mit der Eingabe der Metadaten für Ihr Dataset
+fertig sind indem Sie auf «Als Nächstes: Daten hinzufügen» klicken.
 
 .. _manuell-resource-hinzufuegen:
 
 Ressourcen hinzufügen
----------------------
-
-.. figure:: ../../../_static/images/publizieren/webformular-resourcen.png
-   :alt: Abschnitt Ressource im Webformular
-
-.. figure:: ../../../_static/images/publizieren/resource-nutzungsbedingungen.png
-   :alt: Eingabefelder ab Nutzungsbedingungen im Webformular
+-----------------------
 
 Eine «Ressource» ist eine spezifische Repräsentierung.
 Dies können unterschiedliche Bereitstellungsformen eines Datasets
 sein (media-type or format), unterschiedliche Zeitreihen
-oder auch unterschiedliche Aggregationsstufen. Das Erfassen einer
-Ressource funktioniert ähnlich wie zuvor beim gesamten Dataset:
-Wählen Sie einen geeigneten Identifier aus Ihrem Quellsystem aus,
+oder auch unterschiedliche Aggregationsstufen.
+
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/resource-anlegen.png
+   :alt: Abschnitt Ressource im Webformular
+
+Das Erfassen einer
+Ressource funktioniert ähnlich wie zuvor beim gesamten Dataset: Wählen Sie einen geeigneten
+Identifier aus Ihrem Quellsystem aus,
 legen Sie Titel und Beschreibung fest. Für die Sprachversionen
 gelten die gleichen Regeln wie bei Datasets: Alle Bundesstellen
-sollen die Angaben mindestens auf Deutsch und Französisch eingeben –
-wünschenswert wären allerdings alle vier Sprachen. Weitere Organisationen
-sollen Titel und Beschreibung in mindestens einer Sprache eingeben.
+sollen die Angaben mindestens auf Deutsch und Französisch und Englisch eingeben –
+wünschenswert wären allerdings alle vier Sprachen.
+
 Falls die Ressource sprachunabhängig ist, wählen Sie unter «Sprache»
 keine Sprache aus. Auch hier müssen Sie unter dem Pflichtfeld «Erstellt»
 das Datum der Veröffentlichung der Ressource angeben.
@@ -181,41 +228,62 @@ das Datum der Veröffentlichung der Ressource angeben.
 
     Wichtig: Jedes Dataset muss mindestens 1 Ressource haben.
 
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/resource-urls-nutzungsrechte-format.png
+   :alt: Abschnitt Ressource im Webformular
+
+:Zugangs-Url, Access-Url: Für jede Resource müssen Sie unter «Zugangs-URL» eine URL angeben,
+                          über welche auf die Ressource
+                          zugegriffen werden kann. Falls sich hinter der URL ein Download verbirgt,
+                          muss die URL auch im Feld «Download-URL» eingetragen werden.
+
+:Nutzungsbedingungen: Legen Sie die Nutzungsbedingungen für Ihre Daten fest.
+
 .. container:: important
 
     Wichtig: Unter «Nutzungsbedingungen» müssen Sie nun hier die
     Bedingung auswählen, die Sie im
-    :doc:`Kapitel «Rechtliche Nutzung prüfen» <../../vorbereiten/dataset/rechtlicher-check>`
+    :doc:`Kapitel «Publikationsrichtlinien» <../../vorbereiten/publikationsrichtlinien>`
     ermittelt haben.
 
-Optional können Sie noch unter «Zugangs-URL» eine URL angeben,
-über welche auf die Ressource
-zugegriffen werden kann. Falls sich hinter der URL ein Download verbirgt,
-muss die URL auch im Feld «Download-URL» eingetragen werden.
-Ebenfalls optional kann die «Grösse» der Ressource in Bytes angegeben werden.
-Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
+:Dateigrösse: Optional kann die «Grösse» der Ressource in Bytes angegeben werden.
+:Format:      Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
 
 .. container:: important
 
     Wichtig: Bitte berücksichtigen Sie bei der Publikation einer Ressourcen
-    :doc:`die technischen Anforderungen <../../vorbereiten/dataset/technischer-check>`
+    :doc:`OGD-Richtlinien <../../glossar/bibliothek/ogd-richtlinien>`
     von opendata.swiss.
 
-.. _manuell-schlagwoerter-definieren:
+Sie haben jetzt Ihre erste Resource angelegt und können jetzt entweder mit dem Schalter «Beenden»
+Ihr Dataset und Ihre Resource abspeichern oder Sie können mit dem Schalter
+«Speichern & weitere hinzufügen» mit dem Hinzufügen von Resourcen fortfahren.
 
-Schlagwörter definieren
------------------------
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/resource-aktionen.png
+   :alt: Mögliche Aktionen nach der Anlage der ersten Resource im Webformular
 
-Es ist wichtig, dass Sie ganz oben rechts im Webformular ein
-oder mehrere Schlagwörter zum Dataset angeben, getrennt durch Kommas.
-Schlagwörter helfen dabei, die Auffindbarkeit zu steigern.
-Mögliche Schlagwörter können Sie aus Ihren Metadaten oder Ihrem Quellsystem ermitteln.
-Sie können auch aus den meistgenutzten Schlagwörtern auswählen.
-Für die Sprache gelten die gleichen Regeln wie bei den Ressourcen.
+.. _manuell-dataset-aktionen:
 
-.. figure:: ../../../_static/images/publizieren/dataset-schlagworte.png
-   :alt: Hinzufügen von Schlagworten im Webformular
-   :width: 50%
+Dataset weiter bearbeiten
+--------------------------------
+
+Das Hinzufügen weiterer Resourcen ist auch nach der Anlage Ihres Dataset noch möglich.
+Gehen Sie dazu zur Detailansicht Ihres Datasets im Backend der Abnahmeumgebung und klicken Sie auf
+«Bearbeiten». Sie haben dann folgende Möglichkeiten Ihr Dataset zu bearbeiten:
+
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-bearbeiten-aktionen.png
+   :alt: Mögliche Aktionen nach der Anlage des Dataset
+
+Sie können:
+
+- mit «Bearbeiten» das Dataset selbst aktualisieren
+- mit «Resourcen» die Resourcen des Datasets bearbeiten: das beinhaltet das Aktualisieren vorhandener Resourcen,
+  die Neuanlage zusätzlicher Resourcen, die Festlegung der Anzeigereihenfolge der Resourcen
+
+Sehen Sie dazu auch unsere Screencasts:
+
+- :download:`Dataset aktualisieren <../../../_static/screencasts/update-dataset.gif>`- In diesem Screencast zeigen wir Ihnen das Aktualisieren Ihres Datasets
+- :download:`Resource hinzufügen <../../../_static/screencasts/add-resource.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie Ihrem Dataset eine Resource hinzufügen können
+- :download:`Resource aktualisieren <../../../_static/screencasts/update-resource.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie bei Ihrem Dataset eine Resource aktualisieren können
 
 .. _manuell-vorschau-pruefen:
 
@@ -236,6 +304,9 @@ Sieht alles so aus wie in unserer Beispielansicht, kann das Dataset veröffentli
 
 Dataset veröffentlichen
 -----------------------
+
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-veroeffentlichen.png
+   :alt: Dataset Veröffentlichung im Webformular
 
 Im Bearbeitungsmodus wird Ihnen ganz oben rechts der Status Ihres Datasets
 angezeigt: «Entwurf» bedeutet, Sie bearbeiten die Metadaten des Datasets noch weiter.
@@ -286,3 +357,13 @@ Ihr Dataset von der Abnahmeumgebung noch auf die Produktionsumgebung
 Sie haben eine Frage zum manuelle Erfassen Ihres Datensatzes?
 `Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
 und wir helfen Ihnen gerne weiter.
+
+.. _manuell-mehr-zum-thema:
+
+.. container:: materialien
+
+    Mehr zum Thema
+
+- :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` – Beschreibung des aktuell von opendata.swiss genutzte Datenstandards DCAT-AP-CH
+- :download:`Veröffentlichung eines Datasets terminieren <../../../_static/screencasts/schedule-dataset.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie die Veröffentlichung Ihres Datasets terminieren können
+
