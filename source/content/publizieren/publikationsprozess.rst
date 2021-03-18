@@ -80,8 +80,8 @@ selbstverständlich jederzeit `kontaktieren <mailto:opendata@bfs.admin.ch>`__.
 
 .. admonition:: Gut zu wissen
 
-    Bevor Sie mit dem Publikationsprozess starten, ist es wichtig, dass Sie die
-    Rechtsgrundlage Ihrer Daten geprüft und die Nutzungsbedingung festgelegt haben.
+    Bevor Sie mit dem Publikationsprozess starten, ist es wichtig, dass Sie geprüft
+    haben, dass Ihre Daten den OGD-Richtlinien entsprechen.
     Sie haben diesen Schritt verpasst? Kein Problem, mit einem Klick können Sie
     dies nachholen und Ihre
-    :doc:`Daten hier vorbereiten <../vorbereiten/dataset>`.
+    :doc:`Daten hier vorbereiten <../vorbereiten/publikationsrichtlinien>`.
