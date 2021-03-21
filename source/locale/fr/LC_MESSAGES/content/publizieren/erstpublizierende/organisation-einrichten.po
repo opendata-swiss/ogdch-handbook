@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"POT-Creation-Date: 2021-03-20 21:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,7 @@ msgstr ":doc:`première publication <../erstpublizierende>` :fa:`chevron-right`"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:6
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:10
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:31
 msgid "Informationen zur Organisation ergänzen"
 msgstr "Compléter les informations sur l’organisation"
 
@@ -41,41 +42,31 @@ msgstr "Comment compléter les informations sur mon organisation?"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:17
 msgid ""
-"Auf der Seite «Organisationen» haben Sie die Möglichkeit, Informationen "
-"über Ihre Organisation hinzuzufügen. Diese Angaben werden später auf "
+"Wir legen Ihre Organisation für Sie an, Sie ergänzen anschliessend die "
+"Informationen über Ihre Organisation. Diese Angaben werden später auf "
 "opendata.swiss veröffentlicht. Die Informationen umfassen den Titel Ihrer"
-" Organisation, eine Beschreibung und ein Bild und den Link zur Website. "
-"Im :term:`Frontend <Frontend>` der Abnahmeumgebung können Sie Ihre "
-"Angaben prüfen."
-msgstr "Vous pouvez ajouter des informations sur votre organisation à la page «Organisations». Vos indications seront publiées sur opendata.swiss. Elles comprennent le nom et la description de votre organisation ainsi qu’une illustration et un lien vers le site internet. "
-"Vous avez la possibilité de vérifier votre saisie dans le :term:`frontal <Frontend>` de l’environnement de test."
+" Organisation, eine Beschreibung und ein Bild und den Link zur Website."
+msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:27
-msgid "1) Interner Organisations-Titel"
-msgstr "1) Nom interne de l’organisation"
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:23
+msgid "Die Schritte auf einen Blick"
+msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:29
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:25
+msgid ":ref:`Angaben zur Organisation ergänzen <organisation_bearbeiten>`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:26
+msgid ":ref:`Ansicht der Organization prüfen <organisations_ansicht_pruefen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:33
 msgid ""
-"Dieser Titel wird von uns vergeben und bezeichnet Ihre Organisation im "
-":term:`Backend <Backend>` der Abnahmeumgebung. Aus diesem internen Titel "
-"generiert sich der sogenannte :term:`Name/Slug <Slug>` Ihrer "
-"Organisation. Dieser Name/Slug sorgt für die einwandfreie Zuordnung Ihrer"
-" Datasets zu Ihrer Organisation."
-msgstr "Ce nom interne est attribué par nos soins pour désigner votre organisation dans "
-":term:`l’arrière-plan (back-end) <Backend>` de "
-"l’environnement de test. Il permet de générer le nom et "
-":term:`l’identifiant <Slug>` de votre organisation. "
-"Ce nom et cet identifiant permettent d’attribuer de façon univoque vos jeux de données à votre organisation."
-
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:37
-msgid ""
-"Wichtig: Der interne Organisations-Titel darf nicht mehr verändert "
-"werden, sobald Sie Datasets veröffentlicht haben."
-msgstr "Important: une fois un premier jeu de données publié, veuillez ne pas modifier l’intitulé interne de l’organisation."
-
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:41
-msgid "2) Organisation-Informationen"
-msgstr "2) Informations relatives à l’organisation"
+"Um die Informationen zu Ihrer Organization ergänzen müssen Sie die Rolle "
+"des Organisations-Admins in Ihrer Organisation zugewiesen haben. Dann "
+"sehen Sie einen Schalter «Bearbeiten», wenn Sie zu Ihrer Organisation "
+"gehen"
+msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst
 msgid "Titel (EN) (DE) (FR) (IT)"
@@ -88,53 +79,112 @@ msgid ""
 "Deutsch und Französisch eingeben – wünschenswert wären allerdings alle "
 "vier Sprachen. Weitere Organisationen sollen Titel und Beschreibung in "
 "mindestens einer Sprache eingeben."
-msgstr "Veuillez saisir un nom ou le nom officiel de votre organisation. Les services fédéraux sont tenus d’utiliser l’allemand et le français au moins, mais de préférence les quatre langues. Les autres organisations doivent indiquer le nom et la description dans une langue au moins."
+msgstr ""
+"Veuillez saisir un nom ou le nom officiel de votre organisation. Les "
+"services fédéraux sont tenus d’utiliser l’allemand et le français au "
+"moins, mais de préférence les quatre langues. Les autres organisations "
+"doivent indiquer le nom et la description dans une langue au moins."
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst
+msgid "Name(Slug)"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:49
+msgid ""
+"Der sogenannte :term:`Name/Slug <Slug>` Ihrer Organisation wird von uns "
+"vergeben und sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer"
+" Organisation."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:54
+#, fuzzy
+msgid ""
+"Wichtig: Der :term:`Name/Slug <Slug>` darf nicht mehr verändert werden, "
+"sobald Sie Datasets veröffentlicht haben."
+msgstr ""
+"Important: une fois un premier jeu de données publié, veuillez ne pas "
+"modifier l’intitulé interne de l’organisation."
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst
 msgid "Beschreibung (EN) (DE) (FR) (IT)"
 msgstr "Description (EN) (DE) (FR) (IT)"
 
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:49
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:60
 msgid ""
 "Bitte geben Sie eine Beschreibung Ihrer Organisation an. Alle "
 "Bundesstellen sollen die Angaben mindestens auf Deutsch und Französisch "
 "eingeben – wünschenswert wären allerdings alle vier Sprachen. Weitere "
 "Organisationen sollen Titel und Beschreibung in mindestens einer Sprache "
 "eingeben"
-msgstr "Veuillez saisir une description de votre organisation. Les services fédéraux sont tenus d’utiliser l’allemand et le français au moins, mais de préférence les quatre langues. Les autres organisations doivent indiquer le nom et la description dans une langue au moins."
+msgstr ""
+"Veuillez saisir une description de votre organisation. Les services "
+"fédéraux sont tenus d’utiliser l’allemand et le français au moins, mais "
+"de préférence les quatre langues. Les autres organisations doivent "
+"indiquer le nom et la description dans une langue au moins."
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst
+msgid "Parent"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:70
+msgid ""
+"Falls es sich bei Ihrer Organisation um eine Unterorganisation einer "
+"bereits auf opendata.swiss vertretenen Organisation handelt, kann das "
+"hier eingetragen werden."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst
+msgid "Politische Ebene"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:73
+msgid "Hier machen wir schon eine Einstellung für Sie."
+msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst
 msgid "URL"
 msgstr "URL"
 
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:56
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:75
 msgid "Bitte geben Sie hier die Website Ihrer Organisation an."
 msgstr "Veuillez saisir le site internet de votre organisation."
 
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:59
-msgid "3) Bild"
-msgstr "3) Image"
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst
+msgid "Bild"
+msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:61
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:77
 msgid ""
-"Bitte wählen Sie ein Bild Ihrer Organisation aus und laden Sie es via "
-"«Datei hinzufügen oder hochladen» hoch. So erhält Ihre Organisation eine "
-"bessere Präsenz auf opendata.swiss."
-msgstr "Veuillez sélectionner une illustration de votre organisation puis la télécharger via «Ajout ou téléchargement d’un fichier» de façon à améliorer la présence de votre organisation sur opendata.swiss."
+"Laden Sie entweder ein Bild Ihrer Organisation hoch, imdem Sie "
+"«Hochladen» klicken, oder verlinken Sie mit Hilfe des Schalters "
+"«Hochladen» zu einem Bild Ihrer Organisation. So erhält Ihre Organisation"
+" eine bessere Präsenz auf opendata.swiss."
+msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:66
-msgid "4) Veröffentlichen / Aktualisieren"
-msgstr "4) Publier / Mettre à jour"
-
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:68
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:81
 msgid ""
-"Vergessen Sie nicht, Ihre Änderungen abschliessend zu aktualisieren bzw. "
-"zu veröffentlichen. Wenn Sie Ihre Eingaben im Seitenlayout überprüfen "
-"möchten, können Sie sich unter «Organisation anzeigen» eine Vorschau der "
-"Seite anzeigen lassen."
-msgstr "N’oubliez pas de mettre à jour ou de publier les modifications apportées. Vous avez la possibilité de vérifier votre saisie dans la mise en page finale en cliquant sur «Afficher l’organisation» pour prévisualiser la page."
+"Vergessen Sie nicht, Ihre Änderungen abschliessend zu speichern indem Sie"
+" auf «Organisation speichern» klicken."
+msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:75
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:87
+msgid "Ansicht der Organization prüfen"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:89
+msgid ""
+"Überprüfen Sie die Angaben zu Ihrer Organisation zuerst im :term:`Backend"
+" <Backend>`. Klicken Sie dazu auf «Üder das Portal»"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:101
+msgid ""
+"Anschliessend können Sie sich die Darstellung Ihre Organisation im "
+":term:`Frontend <Frontend>` der Abnahmeumgebung von opendata.swiss "
+"ansehen:"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:106
 msgid ""
 ":doc:`Nächster Schritt: Publikationsvariante auswählen "
 "<../publikationsvariante>`"
@@ -142,10 +192,100 @@ msgstr ""
 ":doc:`Prochaine étape: sélection de la variante de publication "
 "<../publikationsvariante>`"
 
-#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:77
+#: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:108
 msgid ""
 "Nachdem Sie Ihr Profil und Ihre Organisation eingerichtet haben, können "
 "Sie im nächsten Schritt eine Publikationsvariante für Ihre Datasets "
 "auswählen."
-msgstr "Une fois votre profil et votre organisation configurés, passez à l’étape suivante pour sélectionner la variante de publication appropriée pour vos jeux de données."
+msgstr ""
+"Une fois votre profil et votre organisation configurés, passez à l’étape "
+"suivante pour sélectionner la variante de publication appropriée pour vos"
+" jeux de données."
+
+#~ msgid ""
+#~ "Auf der Seite «Organisationen» haben Sie"
+#~ " die Möglichkeit, Informationen über Ihre"
+#~ " Organisation hinzuzufügen. Diese Angaben "
+#~ "werden später auf opendata.swiss "
+#~ "veröffentlicht. Die Informationen umfassen den"
+#~ " Titel Ihrer Organisation, eine "
+#~ "Beschreibung und ein Bild und den "
+#~ "Link zur Website. Im :term:`Frontend "
+#~ "<Frontend>` der Abnahmeumgebung können Sie "
+#~ "Ihre Angaben prüfen."
+#~ msgstr ""
+#~ "Vous pouvez ajouter des informations sur"
+#~ " votre organisation à la page "
+#~ "«Organisations». Vos indications seront "
+#~ "publiées sur opendata.swiss. Elles comprennent"
+#~ " le nom et la description de "
+#~ "votre organisation ainsi qu’une illustration"
+#~ " et un lien vers le site "
+#~ "internet. Vous avez la possibilité de"
+#~ " vérifier votre saisie dans le "
+#~ ":term:`frontal <Frontend>` de l’environnement "
+#~ "de test."
+
+#~ msgid "1) Interner Organisations-Titel"
+#~ msgstr "1) Nom interne de l’organisation"
+
+#~ msgid ""
+#~ "Dieser Titel wird von uns vergeben "
+#~ "und bezeichnet Ihre Organisation im "
+#~ ":term:`Backend <Backend>` der Abnahmeumgebung. "
+#~ "Aus diesem internen Titel generiert sich"
+#~ " der sogenannte :term:`Name/Slug <Slug>` "
+#~ "Ihrer Organisation. Dieser Name/Slug sorgt "
+#~ "für die einwandfreie Zuordnung Ihrer "
+#~ "Datasets zu Ihrer Organisation."
+#~ msgstr ""
+#~ "Ce nom interne est attribué par "
+#~ "nos soins pour désigner votre "
+#~ "organisation dans :term:`l’arrière-plan "
+#~ "(back-end) <Backend>` de l’environnement de"
+#~ " test. Il permet de générer le "
+#~ "nom et :term:`l’identifiant <Slug>` de "
+#~ "votre organisation. Ce nom et cet "
+#~ "identifiant permettent d’attribuer de façon"
+#~ " univoque vos jeux de données à "
+#~ "votre organisation."
+
+#~ msgid "2) Organisation-Informationen"
+#~ msgstr "2) Informations relatives à l’organisation"
+
+#~ msgid "3) Bild"
+#~ msgstr "3) Image"
+
+#~ msgid ""
+#~ "Bitte wählen Sie ein Bild Ihrer "
+#~ "Organisation aus und laden Sie es "
+#~ "via «Datei hinzufügen oder hochladen» "
+#~ "hoch. So erhält Ihre Organisation eine"
+#~ " bessere Präsenz auf opendata.swiss."
+#~ msgstr ""
+#~ "Veuillez sélectionner une illustration de "
+#~ "votre organisation puis la télécharger "
+#~ "via «Ajout ou téléchargement d’un "
+#~ "fichier» de façon à améliorer la "
+#~ "présence de votre organisation sur "
+#~ "opendata.swiss."
+
+#~ msgid "4) Veröffentlichen / Aktualisieren"
+#~ msgstr "4) Publier / Mettre à jour"
+
+#~ msgid ""
+#~ "Vergessen Sie nicht, Ihre Änderungen "
+#~ "abschliessend zu aktualisieren bzw. zu "
+#~ "veröffentlichen. Wenn Sie Ihre Eingaben "
+#~ "im Seitenlayout überprüfen möchten, können "
+#~ "Sie sich unter «Organisation anzeigen» "
+#~ "eine Vorschau der Seite anzeigen lassen."
+#~ msgstr ""
+#~ "N’oubliez pas de mettre à jour ou"
+#~ " de publier les modifications apportées."
+#~ " Vous avez la possibilité de vérifier"
+#~ " votre saisie dans la mise en "
+#~ "page finale en cliquant sur «Afficher"
+#~ " l’organisation» pour prévisualiser la "
+#~ "page."
 

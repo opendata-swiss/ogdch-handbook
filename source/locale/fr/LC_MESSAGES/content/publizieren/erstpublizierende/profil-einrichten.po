@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"POT-Creation-Date: 2021-03-20 21:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,49 +40,149 @@ msgid "Wie kann ich mein Profil editieren?"
 msgstr "Comment mettre à jour mon profil?"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:17
+#, fuzzy
 msgid ""
-"Mit dem von uns zugestellten Log-in können Sie sich in Ihr Profil auf der"
-" :term:`Abnahmeumgebung <Abnahmeumgebung>` von opendata.swiss einloggen. "
-"Auf der Seite «Benutzer» können Sie Ihre Profilinformationen editieren "
-"und Ihr Konto verwalten."
-msgstr "Le login que nous vous envoyons vous permet de vous connecter à votre profil sur "
-":term:`l’environnement de test <Abnahmeumgebung>` d’opendata.swiss. "
-"À la page «Profil», vous pouvez modifier votre profil et gérer votre compte."
+"Mit dem von uns zugestellten Log-in können Sie sich auf der "
+":term:`Abnahmeumgebung <Abnahmeumgebung>` von opendata.swiss einloggen."
+msgstr ""
+"Le login que nous vous envoyons vous permet de vous connecter à votre "
+"profil sur :term:`l’environnement de test <Abnahmeumgebung>` "
+"d’opendata.swiss. À la page «Profil», vous pouvez modifier votre profil "
+"et gérer votre compte."
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:22
+msgid "Die Schritte auf einen Blick"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:24
+msgid ":ref:`Password setzen <passwort_setzen>`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:25
+msgid ":ref:`Benutzer-Dashboard <benutzer_dashboard>`"
+msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:26
-msgid "Die wichtigsten Angaben im Überblick"
-msgstr "Aperçu des principales informations"
+msgid ":ref:`Benutzerkonten-Verwaltung <benutzerkonten_verwaltung>`"
+msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:29
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:27
+msgid ":ref:`Benutzer-Navigation <benutzer_navigation>`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:33
+msgid "Passwort setzen"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:35
+msgid ""
+"Sie erhalten von uns nach der Registrierung eine email mit Ihrem "
+"Benutzernamen und einem Link zum Setzen Ihres Passworts. Sie können auch "
+"später vom Login aus hier hingelangen, sollten Sie ihr Passwort vergessen"
+" haben."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:39
+msgid ""
+"Bitte geben Sie Ihren Benutzernamen ein und Klicken Sie auf "
+"«Anforderungen zurücksetzen». Sie erhalten dann eine zweite email mit "
+"einem direkten Link für das Setzen Ihres Passworts. Anschliessend können "
+"Sie sich dann im Backend der :term:`Abnahmeumgebung <Abnahmeumgebung>` "
+"einloggen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:49
+msgid "Benutzer-Dashboard"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:51
+msgid ""
+"Sie gelangen nach dem Einloggen zu Ihrem Benutzer-Dashboard. Von hier aus"
+" können Sie zu Ihrer Organisation gelangen, indem Sie auf «Meine "
+"Organisationen» klicken."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:55
+msgid ""
+"Sie können später auch von hier aus auch Datasets anlegen, indem Sie auf "
+"«Dataset hinzufügen» klicken."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:60
+msgid ""
+"Wichtig: Bitte machen Sie dass nur, wenn Sie sich für die "
+"Publikationsvariante :doc:`Metadaten manuell via Webformular erfassen "
+"<../publikationsvarianten/metadaten-manuell-erfassen>` entschieden haben."
+" Mehr dazu in :doc:`Publikationsvariante auswählen "
+"<../publikationsvariante>`."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:70
 msgid "Benutzerkonten-Verwaltung"
 msgstr "Gérer les comptes d’utilisateur"
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst
-msgid "Neues Passwort"
-msgstr "Nouveau mot de passe"
-
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:31
-msgid "(* Pflichtfeld)"
-msgstr "(* champ obligatoire)"
-
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:33
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:72
 msgid ""
-"Sie haben Ihr Passwort vergessen? Kein Problem. Klicken Sie auf «Passwort"
-" generieren» und Sie erhalten in Kürze eine E-Mail, um Ihr Passwort zu "
-"ändern."
-msgstr "Vous avez oublié votre mot de passe? Aucun souci. Il vous suffit de cliquer sur «Générer un mot de passe». Vous recevrez un e-mail qui vous permettra de réinitialiser votre mot de passe."
+"Zu ihrem Benutzerkonto gelangen Sie, wenn Sie im Dashboard auf "
+"«Bearbeitete Einstellungen» klicken."
+msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:38
-msgid "Änderungen speichern"
-msgstr "Enregistrer les modifications"
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst
+msgid "Vollständiger Name"
+msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:40
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:77
+msgid "Name der für Sie im Backend angezeigt wird"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst
+msgid "Email"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:79
+msgid "Ihre email Adresse"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst
+msgid "Über das Portal"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:81
+msgid "Zusatzinformation über Sie, die andere Benutzer über Sie sehen sollen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:83
 msgid ""
 "Nicht vergessen: Bestätigen Sie alle gemachten Änderungen mit einem Klick"
 " auf «Profil aktualisieren»."
-msgstr "Attention, n’oubliez pas de cliquer sur «Mettre à jour le profil» pour confirmer les modifications apportées."
+msgstr ""
+"Attention, n’oubliez pas de cliquer sur «Mettre à jour le profil» pour "
+"confirmer les modifications apportées."
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:45
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:89
+msgid "Benutzer-Navigation"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:91
+msgid ""
+"Als Benutzer steht Ihnen eine Navigationsleiste zur Verfügung: das "
+"Dashboard-Icon führt Sie zu Ihrem Benutzer-Dashboard. Wenn Sie auf Ihren "
+"Benutzernamen klicken gelangen Sie zu einer Darstellung Ihres Benutzers, "
+"wie andere berechtigte Benutzer (etwa ein Sysadmin) Sie sehen. Das "
+"Settings-Icon führt Sie zum Editieren Ihres Benutzerprofils."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:101
+msgid "Mehr zum Thema"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:103
+msgid ""
+":download:`Screencast zum Login <../../../_static/screencasts/login.gif>`"
+" - In diesem Screencast zeigen wir Ihnen das Einloggen auf dem Backend"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:108
 msgid ""
 ":doc:`Nächster Schritt: Informationen zur Organisation ergänzen "
 "<organisation-einrichten>`"
@@ -90,9 +190,37 @@ msgstr ""
 ":doc:`Prochaine étape: compléter les informations sur l’organisation "
 "<organisation-einrichten>`"
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:47
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:110
 msgid ""
 "Ihr Profil ist nun angelegt und ausgefüllt, jetzt können Sie "
 "Informationen zu Ihrer Organisation eingeben."
-msgstr "Votre profil a été créé et renseigné. Vous pouvez dès à présent saisir des informations sur votre organisation"
+msgstr ""
+"Votre profil a été créé et renseigné. Vous pouvez dès à présent saisir "
+"des informations sur votre organisation"
+
+#~ msgid "Die wichtigsten Angaben im Überblick"
+#~ msgstr "Aperçu des principales informations"
+
+#~ msgid "Neues Passwort"
+#~ msgstr "Nouveau mot de passe"
+
+#~ msgid "(* Pflichtfeld)"
+#~ msgstr "(* champ obligatoire)"
+
+#~ msgid ""
+#~ "Sie haben Ihr Passwort vergessen? Kein"
+#~ " Problem. Klicken Sie auf «Passwort "
+#~ "generieren» und Sie erhalten in Kürze"
+#~ " eine E-Mail, um Ihr Passwort zu "
+#~ "ändern."
+#~ msgstr ""
+#~ "Vous avez oublié votre mot de "
+#~ "passe? Aucun souci. Il vous suffit "
+#~ "de cliquer sur «Générer un mot de"
+#~ " passe». Vous recevrez un e-mail qui"
+#~ " vous permettra de réinitialiser votre "
+#~ "mot de passe."
+
+#~ msgid "Änderungen speichern"
+#~ msgstr "Enregistrer les modifications"
 
