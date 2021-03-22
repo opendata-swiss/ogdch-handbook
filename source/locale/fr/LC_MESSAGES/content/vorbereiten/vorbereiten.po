@@ -40,7 +40,10 @@ msgid ""
 "Government Data publizieren können, müssen Sie sicherstellen, dass die "
 "Anforderungen für eine Publikation der OGD erfüllt sind. Die OGD-"
 "Richtlinien zeigen Ihnen auf welche diese Anforderungen sind."
-msgstr "Toute publication nécessite une préparation minutieuse."
+msgstr "Toute publication nécessite une préparation minutieuse. Bevor Sie Daten als Open "
+"Government Data publizieren können, müssen Sie sicherstellen, dass die "
+"Anforderungen für eine Publikation der OGD erfüllt sind. Die OGD-"
+"Richtlinien zeigen Ihnen auf welche diese Anforderungen sind."
 
 #: ../../source/content/vorbereiten/vorbereiten.rst:18
 msgid ""

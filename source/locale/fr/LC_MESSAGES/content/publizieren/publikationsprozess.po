@@ -206,6 +206,7 @@ msgid ""
 "nachholen und Ihre :doc:`Daten hier vorbereiten "
 "<../vorbereiten/publikationsrichtlinien>`."
 msgstr
+"Bevor Sie mit dem Publikationsprozess starten, ist es wichtig, dass Sie geprüft haben, dass Ihre Daten den OGD-Richtlinien entsprechen."
 "Si vous avez sauté cette étape, "
 "il suffit de cliquer :doc:`ici pour y retourner et préparer vos données <../vorbereiten/dataset>`"
 
