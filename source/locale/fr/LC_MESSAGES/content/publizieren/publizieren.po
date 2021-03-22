@@ -58,7 +58,11 @@ msgid ""
 "sicherzustellen, dass die rechtlichen, technischen und organisatorischen "
 "Anforderungen eingehalten werden, siehe :doc:`«OGD-Richtlinien» "
 "<../glossar/bibliothek/ogd-richtlinien>`."
-msgstr ""
+msgstr "Le :term:`secrétariat OGD <Geschäftsstelle Open Government (OGD)>` Dataest chargé de contrôler "
+"l’ensemble du catalogue. Es ist "
+"allerdings an den publizierenden Organisationen oder Personen "
+"sicherzustellen, dass die rechtlichen, technischen und organisatorischen "
+"Anforderungen eingehalten werden, siehe :doc:`«OGD-Richtlinien» "
 
 #: ../../source/content/publizieren/publizieren.rst:26
 msgid ""
