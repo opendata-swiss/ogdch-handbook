@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-23 18:26+0100\n"
+"POT-Creation-Date: 2021-03-22 11:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,29 +38,11 @@ msgstr "Préparer les données"
 msgid ""
 "Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Open "
 "Government Data publizieren können, müssen Sie sicherstellen, dass die "
-"Anforderungen für eine Publikation der OGD erfüllt sind. Die "
-"Anforderungen lassen sich in drei Kategorien einteilen: Rechtliche "
-"Anforderungen, technische Anforderungen und organisatorische "
-"Anforderungen. Diese Anforderungen sind wichtig, damit die reibungslose "
-"Verwendung der Daten durch Dritte gewährleistet ist."
-msgstr ""
-"Toute publication nécessite une préparation minutieuse. Avant de publier "
-"des données publiques ouvertes, veuillez vous assurer que les exigences "
-"légales, techniques et organisationnelles en matière d’OGD sont remplies."
-" Le respect de ces exigences garantit que ces données peuvent être "
-"utilisées efficacement."
+"Anforderungen für eine Publikation der OGD erfüllt sind. Die OGD-"
+"Richtlinien zeigen Ihnen auf welche diese Anforderungen sind."
+msgstr "Toute publication nécessite une préparation minutieuse."
 
-#: ../../source/content/vorbereiten/vorbereiten.rst:22
-msgid ""
-"In diesem Kapitel unterstützen wir Sie dabei zu prüfen, ob diese "
-"Anforderungen erfüllt werden – passend zu Ihren jeweiligen Daten und mit "
-"so wenig Aufwand wie möglich."
-msgstr ""
-"Ce chapitre vous montre comment vérifier si les exigences sont "
-"respectées, en fonction de vos données et en veillant à réduire le "
-"travail autant que possible."
-
-#: ../../source/content/vorbereiten/vorbereiten.rst:26
+#: ../../source/content/vorbereiten/vorbereiten.rst:18
 msgid ""
 "Sie haben noch keine Daten auf opendata.swiss veröffentlicht? Als Erst-"
 "Publizierende erklären wir Ihnen das Wichtigste rund um den Prozess und "
@@ -71,11 +53,11 @@ msgstr ""
 "principaux aspects de la procédure. Ce chapitre vous aidera en outre à "
 "savoir quelles données sont susceptibles d’être publiées."
 
-#: ../../source/content/vorbereiten/vorbereiten.rst:32
+#: ../../source/content/vorbereiten/vorbereiten.rst:24
 msgid ":doc:`Für Erst-Publizierende <erstpublizierende>`"
 msgstr ":doc:`Avant la première publication <erstpublizierende>`"
 
-#: ../../source/content/vorbereiten/vorbereiten.rst:34
+#: ../../source/content/vorbereiten/vorbereiten.rst:26
 msgid ""
 ":doc:`opendata.swiss verstehen <erstpublizierende/opendata-swiss-"
 "verstehen>`"
@@ -83,17 +65,17 @@ msgstr ""
 ":doc:`Comprendre opendata.swiss <erstpublizierende/opendata-swiss-"
 "verstehen>`"
 
-#: ../../source/content/vorbereiten/vorbereiten.rst:35
+#: ../../source/content/vorbereiten/vorbereiten.rst:27
 msgid ":doc:`Dateninventar erstellen <erstpublizierende/dateninventar-erstellen>`"
 msgstr ""
 ":doc:`Établir un inventaire des données <erstpublizierende/dateninventar-"
 "erstellen>`"
 
-#: ../../source/content/vorbereiten/vorbereiten.rst:38
+#: ../../source/content/vorbereiten/vorbereiten.rst:30
 msgid ":doc:`Publikationsrichtlinien <publikationsrichtlinien>`"
 msgstr ":doc:`lignes directrices OGD <publikationsrichtlinien>`"
 
-#: ../../source/content/vorbereiten/vorbereiten.rst:40
+#: ../../source/content/vorbereiten/vorbereiten.rst:32
 msgid ":doc:`OGD-Richtlinien lesen <publikationsrichtlinien>`"
 msgstr ":doc:`Lire les lignes directrices OGD <publikationsrichtlinien>`"
 
@@ -112,4 +94,40 @@ msgstr ":doc:`Lire les lignes directrices OGD <publikationsrichtlinien>`"
 #~ msgstr ""
 #~ ":doc:`Vérifier les exigences organisationnelles "
 #~ "<dataset/organisatorischer-check>`"
+
+#~ msgid ""
+#~ "Am Anfang steht eine gute Vorbereitung."
+#~ " Bevor Sie Daten als Open Government"
+#~ " Data publizieren können, müssen Sie "
+#~ "sicherstellen, dass die Anforderungen für "
+#~ "eine Publikation der OGD erfüllt sind."
+#~ " Die Anforderungen lassen sich in "
+#~ "drei Kategorien einteilen: Rechtliche "
+#~ "Anforderungen, technische Anforderungen und "
+#~ "organisatorische Anforderungen. Diese Anforderungen"
+#~ " sind wichtig, damit die reibungslose "
+#~ "Verwendung der Daten durch Dritte "
+#~ "gewährleistet ist."
+#~ msgstr ""
+#~ "Toute publication nécessite une préparation"
+#~ " minutieuse. Avant de publier des "
+#~ "données publiques ouvertes, veuillez vous "
+#~ "assurer que les exigences légales, "
+#~ "techniques et organisationnelles en matière"
+#~ " d’OGD sont remplies. Le respect de"
+#~ " ces exigences garantit que ces "
+#~ "données peuvent être utilisées efficacement."
+
+#~ msgid ""
+#~ "In diesem Kapitel unterstützen wir Sie"
+#~ " dabei zu prüfen, ob diese "
+#~ "Anforderungen erfüllt werden – passend "
+#~ "zu Ihren jeweiligen Daten und mit "
+#~ "so wenig Aufwand wie möglich."
+#~ msgstr ""
+#~ "Ce chapitre vous montre comment vérifier"
+#~ " si les exigences sont respectées, en"
+#~ " fonction de vos données et en "
+#~ "veillant à réduire le travail autant "
+#~ "que possible."
 

@@ -205,7 +205,9 @@ msgid ""
 " diesen Schritt verpasst? Kein Problem, mit einem Klick können Sie dies "
 "nachholen und Ihre :doc:`Daten hier vorbereiten "
 "<../vorbereiten/publikationsrichtlinien>`."
-msgstr ""
+msgstr
+"Si vous avez sauté cette étape, "
+"il suffit de cliquer :doc:`ici pour y retourner et préparer vos données <../vorbereiten/dataset>`"
 
 #~ msgid ""
 #~ "Bevor Sie mit dem Publikationsprozess "
