@@ -33,8 +33,7 @@ Passwort setzen
 --------------------------
 
 Sie erhalten von uns nach der Registrierung eine email mit Ihrem Benutzernamen und
-einem Link zum Setzen Ihres Passworts. Sie können auch später vom Login aus hier hingelangen, sollten
-Sie ihr Passwort vergessen haben.
+einem Link zum Setzen Ihres Passworts.
 
 Bitte geben Sie Ihren Benutzernamen ein und Klicken Sie auf «Anforderungen zurücksetzen».
 Sie erhalten dann eine zweite email mit einem direkten Link für das Setzen Ihres Passworts.
@@ -48,18 +47,9 @@ Anschliessend können Sie sich dann im Backend der :term:`Abnahmeumgebung <Abnah
 Benutzer-Dashboard
 -------------------
 
-Sie gelangen nach dem Einloggen zu Ihrem Benutzer-Dashboard.
+Nach dem Einloggen gelangen Sie zu Ihrem Benutzer-Dashboard.
 Von hier aus können Sie zu Ihrer Organisation gelangen,
 indem Sie auf «Meine Organisationen» klicken.
-
-Sie können später auch von hier aus auch Datasets anlegen, indem Sie auf
-«Dataset hinzufügen» klicken.
-
-.. container:: important
-
-    Wichtig: Bitte machen Sie dass nur, wenn Sie sich für die Publikationsvariante
-    :doc:`Metadaten manuell via Webformular erfassen <../publikationsvarianten/metadaten-manuell-erfassen>` entschieden
-    haben. Mehr dazu in :doc:`Publikationsvariante auswählen <../publikationsvariante>`.
 
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-dashboard.png
    :alt: Benutzer Dashboard im Backend von opendat.swiss
@@ -74,11 +64,15 @@ Zu ihrem Benutzerkonto gelangen Sie, wenn Sie im Dashboard auf «Bearbeitete Ein
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-profil.png
    :alt: Benutzer Dashboard im Backend von opendata.swiss
 
-:Vollständiger Name: Name der für Sie im Backend angezeigt wird
+:Benutzername: Den Benutzernamen haben wir bereits bei Ihrer Registrierung vergeben,
+               er dient zu Ihrer eindeutigen Identifikation auf der Plattform und kann nicht geändert werden
 
-:Email: Ihre email Adresse
+:Vollständiger Name: Diesen Namen können Sie selbst festlegen: es ist der Name mit dem Sie sich und anderen
+                     im :term:`Backend <Backend>` erscheinen.
 
-:Über das Portal: Zusatzinformation über Sie, die andere Benutzer über Sie sehen sollen.
+:Email: Ihre email Adresse haben wir bereits bei der Registrierung erfasst.
+
+:Über das Portal: Hier können Sie Zusatzinformationen zu Ihrer Person eingeben.
 
 Nicht vergessen: Bestätigen Sie alle gemachten
 Änderungen mit einem Klick auf «Profil aktualisieren».
@@ -88,19 +82,22 @@ Nicht vergessen: Bestätigen Sie alle gemachten
 Benutzer-Navigation
 --------------------------
 
-Als Benutzer steht Ihnen eine Navigationsleiste zur Verfügung: das Dashboard-Icon führt Sie
-zu Ihrem Benutzer-Dashboard. Wenn Sie auf Ihren Benutzernamen klicken gelangen Sie zu einer
-Darstellung Ihres Benutzers, wie andere berechtigte Benutzer (etwa ein Sysadmin) Sie sehen.
-Das Settings-Icon führt Sie zum Editieren Ihres Benutzerprofils.
+Als Benutzer steht Ihnen ganz oben rechts eine Navigationsleiste zur Verfügung:
 
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-navigation.png
    :alt: Benutzer Dashboard im Backend von opendat.swiss
+
+- das Dashboard-Icon führt Sie zu Ihrem Benutzer-Dashboard.
+- Wenn Sie auf Ihren Benutzernamen klicken gelangen Sie zu einer
+  Darstellung Ihres Benutzers, wie andere berechtigte Benutzer (etwa ein Sysadmin) Sie sehen.
+- Das Settings-Icon führt zum Editieren Ihres Benutzerprofils.
+- Ganz rechts können Sie sich ausloggen.
 
 .. container:: materialien
 
     Mehr zum Thema
 
-- :download:`Screencast zum Login <../../../_static/screencasts/login.gif>` - In diesem Screencast zeigen wir Ihnen das Einloggen auf dem Backend
+- :download:`Screencast zum Login <../../../_static/screencasts/login.gif>` - In diesem Screencast zeigen wir Ihnen das Einloggen auf dem :term:`Backend <Backend>`
 
 
 .. container:: teaser
