@@ -13,15 +13,7 @@ Daten vorbereiten
 Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Open
 Government Data publizieren können, müssen Sie sicherstellen,
 dass die Anforderungen für eine Publikation der OGD erfüllt sind.
-Die Anforderungen lassen sich in drei Kategorien einteilen:
-Rechtliche Anforderungen, technische Anforderungen und
-organisatorische Anforderungen.
-Diese Anforderungen sind wichtig, damit die reibungslose
-Verwendung der Daten durch Dritte gewährleistet ist.
-
-In diesem Kapitel unterstützen wir Sie dabei zu prüfen, ob diese
-Anforderungen erfüllt werden – passend zu Ihren jeweiligen Daten
-und mit so wenig Aufwand wie möglich.
+Die OGD-Richtlinien zeigen Ihnen auf welche diese Anforderungen sind.
 
 Sie haben noch keine Daten auf opendata.swiss veröffentlicht?
 Als Erst-Publizierende erklären wir Ihnen das Wichtigste
