@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:6
 msgid "Geodaten"
-msgstr ""
+msgstr "Géométadonnées"
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:10
 msgid "Metadaten via geocat.ch publizieren"
@@ -101,7 +101,8 @@ msgstr ""
 msgid ""
 "Wichtig: Die :doc:`OGD-Richtlinien <../../glossar/bibliothek/ogd-"
 "richtlinien>` müssen weiterhin erfüllt werden."
-msgstr ""
+msgstr "Important : :doc:`les lignes directrices OGD <../../glossar/bibliothek/ogd-"
+"richtlinien>` doivent toujours être respectées."
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:49
 msgid ""
