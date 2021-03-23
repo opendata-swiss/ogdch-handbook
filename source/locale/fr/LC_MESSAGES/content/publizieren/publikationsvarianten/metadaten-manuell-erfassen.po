@@ -340,6 +340,9 @@ msgid ""
 "Bedingungen auswählen, die auf opendata.swiss vorgesehen sind "
 "<https://opendata.swiss/de/terms-of-use>`__."
 msgstr ""
+"Important : Sous `«Conditions d'utilisation», vous devez maintenant "
+"sélectionner une des conditions fournies sur opendata.swiss. "
+"<https://opendata.swiss/de/terms-of-use>`__."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:189
 msgid ""
@@ -357,14 +360,13 @@ msgstr ""
 "sélectionner le format correspondant à celui de vos ressources."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:198
-#, fuzzy
 msgid ""
 "Wichtig: Bitte berücksichtigen Sie bei der Publikation von Ressourcen die"
 " :doc:`«OGD-Richtlinien» <../../glossar/bibliothek/ogd-richtlinien>`."
 msgstr ""
-"Important: lors de la publication d’une ressource, veuillez observer les "
-":doc:`exigences techniques <../../vorbereiten/dataset/technischer-check>`"
-" d’opendata.swiss. "
+"Important : Veuillez tenir compte des "
+" :doc:`«lignes directrices OGD» <../../glossar/bibliothek/ogd-richtlinien>` "
+"lorsque vous publiez des ressources."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:204
 msgid "Schlagwörter definieren"
