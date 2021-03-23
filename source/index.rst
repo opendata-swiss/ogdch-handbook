@@ -53,7 +53,7 @@ Wie möchten Sie beginnen?
 -------------------------
 
 - :doc:`opendata.swiss verstehen – Für Erstpublizierende <content/vorbereiten/erstpublizierende/opendata-swiss-verstehen>`
-- :doc:`Daten vorbereiten – Zu den Prüfungen für jedes Dataset <content/vorbereiten/dataset/rechtlicher-check>`
+- :doc:`Daten vorbereiten <content/vorbereiten/publikationsrichtlinien>`
 - :doc:`Daten publizieren <content/publizieren/publizieren>`
 
 Sie möchten keine Daten publizieren, sondern nutzen?
