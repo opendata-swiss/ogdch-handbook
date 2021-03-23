@@ -27,9 +27,10 @@ Die Schritte auf einen Blick
 
 - :ref:`Dataset erstellen <manuell-datensatz-erstellen>`
 - :ref:`Metadaten eingeben <manuell-metadaten-eingeben>`
-- :ref:`Ressource hinzufügen <manuell-resource-hinzufuegen>`
-- :ref:`Dataset weiter bearbeiten  <manuell-dataset-aktionen>`
+- :ref:`Ressourcen hinzufügen <manuell-resource-hinzufuegen>`
+- :ref:`Dataset weiter bearbeiten <manuell-dataset-aktionen>`
 - :ref:`Dataset prüfen <manuell-vorschau-pruefen>`
+- :ref:`Datenset veröffentlichen <manuell-datensatz-veroeffentlichen>`
 - :ref:`Dataset veröffentlichen <manuell-datensatz-frontend>`
 - :ref:`Veröffentlichung in der Produktionsumgebung <manuell_go_live>`
 
@@ -50,7 +51,7 @@ Alle Schritte im Detail
 Dataset erstellen
 -----------------
 
-Um Datasets zu erfassen, müssen Sie sich im Backend von opendata.swiss einloggt sein.
+Um Datasets zu erfassen, müssen Sie sich im :term:`Backend <Backend>` von opendata.swiss einloggen.
 Handelt es sich um eine Erstpublikation oder möchten Sie eine neue oder
 besonders komplexe Publikation testweise durchführen,
 ist die :term:`Abnahmeumgebung <Abnahmeumgebung>` dafür die richtige Wahl.
@@ -58,9 +59,7 @@ Handelt es um eine wiederholte Publikation und Sie möchten Ihre Datasets
 direkt veröffentlichen, können Sie sich in die
 :term:`Produktionsumgebung <Produktionsumgebung>` einloggen.
 
-Gehen Sie auf Ihr Dashboard und klicken Sie «Datensatz hinzufügen».
-Nach dem ersten Einloggen gelangen Sie automatisch dorthin, ansonsten
-siehe :doc:`Profil verwalten <../erstpublizierende/profil-einrichten>`.
+Gehen Sie auf Ihr :ref:`Dashboard <benutzer_dashboard>`.
 
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-dashboard.png
    :alt: Benutzer Dashboard im Backend von opendata.swiss
@@ -84,9 +83,9 @@ Permalinks. Später wird der Titel Ihres Datasets aus den Einträgen im
 Datenfeld Titel (EN) (DE) (FR) (IT) ermittelt:
 
 :Titel (EN) (DE) (FR) (IT): Bitte geben Sie einen Titel Ihres Datasets ein. Bitte besetzen
-                            Sie midestens eine Landessprache und Englisch.
+                            Sie mindestens eine Landessprache und Englisch.
                             (Der Eintrag in Englisch wird bei der Weitergabe Ihres
-                            Datasets an das europäische Datenportal benötigt
+                            Datasets an das europäische Datenportal benötigt.)
 
 .. container:: important
 
@@ -114,21 +113,21 @@ Sie sich bitte an der
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-veroeffentlichen.png
    :alt:  Eingabefeld Sichtbarkeit im Webformular
 
-Diese Felder dienen später der Veröffentlichung Ihres Datasets.
+Diese Felder dienen zur :ref:`Veröffentlichung Ihres Datasets <manuell-datensatz-veroeffentlichen>`.
 
 :Sichtbarkeit: Die Voreinstellung ist auf
                «Entwurf». Lassen Sie diese Voreinstellung zunächst so. Sie bedeutet, dass Ihr Dataset noch
-               nicht öffentlich sichtbar ist. Sie können diese Einstellung ändern, sobald
-               Sie Ihr Dataset in einem späteren Schritt veröffentlichen wollen.
+               nicht öffentlich sichtbar ist.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-beschreibung.png
    :alt: Eingabefeld Beschreibung im Webformular
 
 :Beschreibung (EN) (DE) (FR) (IT): Bitte geben Sie hier eine Beschreibung Ihres Datasets an.
-                            Alle Bundesstellen sollen die Angaben mindestens auf Deutsch und
-                            Französisch eingeben – wünschenswert wären allerdings alle vier Sprachen.
-                            Eine Englische Beschreibung erleichtert das Aufinden Ihres Dataset im
-                            europäischen Datenportal.
+
+Alle Bundesstellen sollen die Angaben mindestens auf Deutsch und
+Französisch eingeben – wünschenswert wären allerdings alle vier Sprachen.
+Eine Englische Beschreibung erleichtert das Aufinden Ihres Dataset auf dem
+europäischen Datenportal.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-zeitangaben.png
    :alt: Eingabefeld zur Aktualisierung im Webformular
@@ -140,9 +139,9 @@ Diese Felder dienen später der Veröffentlichung Ihres Datasets.
 :Änderungsdatum: Beim Datum der letzten Änderung
                  können Sie nach der Publikation kommunizieren, wann die letzte Änderung
                  (Aktualisierung, Korrektur etc.) am Dataset vorgenommen worden ist.
-:Aktualisierungsintervall: das Intervall, in dem Aktualisierungen vorgenommen
-                           werden
-:Temporal Coverage: «Zeitliche Abdeckung», die das Dataset umfasst.
+:Aktualisierungsintervall: Weiter sollen Sie hier das Intervall, in dem Aktualisierungen vorgenommen werden
+                           angeben.
+:Temporal Coverage: und die «Zeitliche Abdeckung», die das Dataset umfasst.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-publishers-kontakte.png
    :alt: Eingabefeld Publisher im Webformular
@@ -189,7 +188,6 @@ Hier müssen Sie Angaben zu Ihnen als datenpublizierender Organisation eingeben:
 
 :Schlagwörter: Schlagwörter helfen dabei, die Auffindbarkeit zu steigern.
                Mögliche Schlagwörter können Sie aus Ihren Metadaten oder Ihrem Quellsystem ermitteln.
-               Sie können auch aus den meistgenutzten Schlagwörtern auswählen.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-kategorien.png
    :alt: Eingabefeld Kategorien im Webformular
@@ -200,8 +198,10 @@ Hier müssen Sie Angaben zu Ihnen als datenpublizierender Organisation eingeben:
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-speichern.png
    :alt: Eingabefeld Kategorien im Webformular
 
-Wechseln Sie zu den Resourcen, wenn Sie mit der Eingabe der Metadaten für Ihr Dataset
-fertig sind indem Sie auf «Als Nächstes: Daten hinzufügen» klicken.
+Wenn Sie mit der Eingabe der Metadaten für Ihr Dataset
+fertig sind, sollten Sie Ihrem Dataset als nächstes eine oder mehrere Resourcen
+hinzufügen. Klicken Sie auf «Als Nächstes: Daten hinzufügen», um in das Webformular für
+Resourcen zu gelangen.
 
 .. _manuell-resource-hinzufuegen:
 
@@ -245,7 +245,7 @@ das Datum der Veröffentlichung der Ressource angeben.
 .. container:: important
 
     Wichtig: Unter `«Nutzungsbedingungen» müssen
-    Sie nun hier eine der Bedingungen auswählen, die auf opendata.swiss vorgesehen sind <https://opendata.swiss/de/terms-of-use>`__.
+    Sie eine der Bedingungen auswählen, die auf opendata.swiss vorgesehen sind <https://opendata.swiss/de/terms-of-use>`__.
 
 :Dateigrösse: Optional kann die «Grösse» der Ressource in Bytes angegeben werden.
 :Format:      Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
@@ -269,55 +269,58 @@ Dataset weiter bearbeiten
 
 Das Hinzufügen weiterer Resourcen ist auch nach der Anlage Ihres Dataset noch möglich.
 Gehen Sie dazu zur Detailansicht Ihres Datasets im Backend der Abnahmeumgebung und klicken Sie auf
-«Bearbeiten». Sie haben dann folgende Möglichkeiten Ihr Dataset zu bearbeiten:
+«Bearbeiten» und anschliessend auf «Resourcen»:
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-bearbeiten-aktionen.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/resource-hinzufuegen.png
    :alt: Mögliche Aktionen nach der Anlage des Dataset
-
-Sie können:
-
-- mit «Bearbeiten» das Dataset selbst aktualisieren
-- mit «Resourcen» die Resourcen des Datasets bearbeiten: das beinhaltet das Aktualisieren vorhandener Resourcen,
-  die Neuanlage zusätzlicher Resourcen.
 
 .. _manuell-vorschau-pruefen:
 
 Datenset prüfen
 -----------------
 
-Ihre Dataset ist jetzt gespaichert, aber noch nicht veröffentlicht.
-Das sehen Sie an der Darstellung des Titels mit  «Entwurf»:
-
-.. figure:: ../../../_static/images/publizieren/dataset/dataset-titel-entwurf.png
-   :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
-
 Sehen Sie sich Ihr Dataset in die Detailansicht an: Sind alle Felder so besetzt,
-wie Sie es erwarten, dann können Sie Ihr Dataset veröffentlichen.
+wie Sie es erwarten, dann können Sie Ihr Dataset :ref:`veröffentlichen <manuell-datensatz-veroeffentlichen>`.
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-detailansicht.png
    :alt: Detailansicht eines Datasets im CKAN Backend
 
 .. _manuell-datensatz-veroeffentlichen:
 
-Datensets veröffentlichen
+Datenset veröffentlichen
 ---------------------------
 
-Vor der Veröffentlichung ist Ihr Dataset in der
-Abnahmeumgebung mit dem Vermerk «privat» und einem Schlosssymbol markiert. Nach der Veröffentlichung
-verschwindet dieses Symbol und Ihr Dataset ist dann auch im Frontend der Abnahmeumgebung sichtbar.
+In der Detailansicht wird Ihnen ganz oben rechts der Status Ihres Datasets angezeigt:
+«Entwurf» bedeutet, Sie bearbeiten die Metadaten des Datasets noch weiter. In diesem
+Zustand ist Ihr Dataset im Frontend der Abnahmeumgebung
+noch nicht sichtbar.
+«Veröffentlicht» gibt an, dass das Dataset in der Abnahmeumgebung publiziert ist.
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-titel-entwurf.png
    :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
 
-Um Ihr Dataset zu veröffentlichen müssen Sie wieder in den Bearbeitungsmodus wechseln.
-Klicken Sie dazu auf «Bearbeiten».
+Wenn Sie mit Ihrem Dataset zufrieden sind können Sie es veröffentlichen.
+
+Gehen Sie dazu zurück zu «Bearbeiten», «Metaden bearbeiten» und scrollen Sie
+bis zum Feld «Sichtbarkeit».
+Sie können Ihr Dataset sofort veröffentlichen indem Sie seinen Status von auf «Entwurf» auf «Veröffentlicht» ändern.
+Oder sie können eine zukünftige Veröffentlichung terminieren,
+indem Sie im Feld darunter einen geplanten Veröffentlichungstermin in der Zukunft eintragen
+Die Veröffentlichung lässt sich verlässlich auf ein bestimmtes Datum planen, die Festlegung der Uhrzeit kann um ± eine Stunde von der effektiven Publikation abweichen.
+ändern. Oder Sie haben die Möglichkeit, die Veröffentlichung
+Ihres Datasets zu terminieren. Gehen Sie dazu ein Datum ein.
+Sie die Datums- und Zeitangabe nutzen, um eine Publikation in der Zukunft
+festzulegen und bestätigen dies mit einem Klick auf «Planen». Die Veröffentlichung
+lässt sich verlässlich auf ein bestimmtes Datum planen,
+die Festlegung der Uhrzeit kann um ± eine Stunde von der effektiven Publikation abweichen.
 
 Scrollen Sie zu dem Feld «Sichtbarkeit»: Es ist auf «Entwurf eingestellt»
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-veroeffentlichen.png
    :alt: Dataset in veroeffentlichen
 
-Sie können Ihr Dataset sofort veröffentlichen indem Sie dan Status auf "Veröffentlicht"
+Sie können Ihr Dataset sofort veröffentlichen indem Sie seinen Status von auf «Entwurf»
+auf «Veröffentlicht»
 ändern. Oder sie können eine zukünftige Veröffentlichung terminieren, indem Sie im Feld darunter
 einen geplanten Veröffentlichungstermin in der Zukunft eintragen
 
