@@ -80,9 +80,9 @@ Mit  «Submit» wird der Upload gestartet.
 
 Ihre Datasets werden Ihnen nach erfolgreichem Import
 als «Entwurf» gespeichert und in der Liste der Datasets für Ihre Organization mit
-aufgelistet.
+aufgelistet:
 
-.. figure:: ../../../_static/images/publizieren/xml-upload/dataset-entwurf.png
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-entwurf.png
    :alt: unveröffentlichter Datensatz im Backend von opendata.swiss
 
 Bei allfälligen Fehlern erscheint eine rote Fehlermeldung
@@ -117,14 +117,22 @@ Datenset veröffentlichen
 ---------------------------
 
 Vor der Veröffentlichung ist Ihr Dataset in der
-Abnahmeumgebung mit dem Vermerk «privat» und einem Schlosssymbol markiert. Nach der Veröffentlichung
+Abnahmeumgebung mit dem Vermerk «Entwurf» und einem Schlosssymbol markiert. Nach der Veröffentlichung
 verschwindet dieses Symbol und Ihr Dataset ist dann auch im Frontend der Abnahmeumgebung sichtbar.
 
-.. figure:: ../../../_static/images/publizieren/dataset/dataset-titel-entwurf.png
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-entwurf.png
    :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
 
 Um Ihr Dataset zu veröffentlichen müssen Sie in den Bearbeitungsmodus wechseln.
 Klicken Sie dazu auf «Bearbeiten».
+
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-titel-entwurf.png
+   :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
+
+Sie gelangen in das Webformular Ihres Datasets:
+
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-webformular.png
+   :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
 
 Scrollen Sie zu dem Feld «Sichtbarkeit»: Es ist auf «Entwurf eingestellt»
 
@@ -140,9 +148,10 @@ der Uhrzeit kann um ± eine Stunde von der effektiven Publikation abweichen.
 
 .. container:: important
 
-    Wichtig: Vergessen Sie nicht nach der Änderung auf «Aktualisieren» zu klicken.
+    Wichtig: Vergessen Sie nicht nach der Änderung auf «Aktualisieren» zu klicken. Sie finden diesen Schalter
+    ganz unten im Webformular.
 
-.. figure:: ../../../_static/images/publizieren/dataset/dataset-sichern.png
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-aktualisieren.png
    :alt: Dataset Änderung abspeichern
 
 .. _xml_datensaetze_im_frontend:
