@@ -59,9 +59,9 @@ msgid ""
 "Anforderungen eingehalten werden, siehe :doc:`«OGD-Richtlinien» "
 "<../glossar/bibliothek/ogd-richtlinien>`."
 msgstr "Le :term:`secrétariat OGD <Geschäftsstelle Open Government (OGD)>` est chargé de contrôler "
-"l’ensemble du catalogue. Toutefois, il appartient aux organisations ou aux"
+"l’ensemble du catalogue. Toutefois, il appartient aux organisations ou aux "
 "personnes qui publient de s'assurer que les exigences juridiques, techniques "
-"et organisationnelles sont respectées, voir :doc:`«les lignes directrices OGD»."
+"et organisationnelles sont respectées, voir :doc:`«les lignes directrices OGD» "
 "<../glossar/bibliothek/ogd-richtlinien>`."
 
 #: ../../source/content/publizieren/publizieren.rst:26

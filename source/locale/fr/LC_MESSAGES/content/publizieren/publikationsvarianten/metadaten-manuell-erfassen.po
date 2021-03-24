@@ -342,7 +342,7 @@ msgid ""
 msgstr ""
 "Important : Sous `«Conditions d'utilisation», vous devez maintenant "
 "sélectionner une des conditions fournies sur opendata.swiss. "
-"<https://opendata.swiss/de/terms-of-use>`__."
+"<https://opendata.swiss/fr/terms-of-use>`__."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:189
 msgid ""
