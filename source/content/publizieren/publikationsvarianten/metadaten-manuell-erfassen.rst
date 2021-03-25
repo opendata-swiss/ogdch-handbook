@@ -31,7 +31,7 @@ Die Schritte auf einen Blick
 - :ref:`Dataset weiter bearbeiten <manuell-dataset-aktionen>`
 - :ref:`Dataset prüfen <manuell-vorschau-pruefen>`
 - :ref:`Datenset veröffentlichen <manuell-datensatz-veroeffentlichen>`
-- :ref:`Dataset veröffentlichen <manuell-datensatz-frontend>`
+- :ref:`Datenset im Frontend prüfen <manuell-datensatz-frontend>`
 - :ref:`Veröffentlichung in der Produktionsumgebung <manuell_go_live>`
 
 .. admonition:: Gut zu wissen
