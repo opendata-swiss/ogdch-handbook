@@ -472,13 +472,3 @@ footer {
     margin-left: 0 2px;
     padding: 0;
 }
-
-/*=======================================*/
-/* Field Definition Lists                */
-/*=======================================*/
-
-html.writer-html5 .rst-content dl.field-list.simple > dt {
-    width: 200px;
-    padding-left:0;
-    margin-left:0;
-}

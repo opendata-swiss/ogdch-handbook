@@ -42,14 +42,14 @@ Klicken Sie darauf, um das Webformular für Ihre Organisation zu öffnen:
 .. figure:: ../../../_static/images/publizieren/organisation/organisations-titel-und-slug.png
    :alt: Organisationstitel und Slug
 
-:Titel (EN) (DE) (FR) (IT): Bitte geben Sie einen Titel respektive den offiziellen Namen
-                            Ihrer Organisation an.
-
+Bei «Titel (EN) (DE) (FR) (IT)» geben Sie bitte einen Titel respektive den offiziellen Namen
+Ihrer Organisation an.
 Alle Bundesstellen sollen die Angaben mindestens auf Deutsch und Französisch eingeben – wünschenswert
-wären allerdings alle vier Sprachen. Weitere Organisationen sollen Titel und Beschreibung in mindestens einer Sprache eingeben.
+wären allerdings alle vier Sprachen. Weitere Organisationen sollen Titel und Beschreibung in
+mindestens einer Sprache eingeben.
 
-:Name(Slug): Der sogenannte :term:`Name/Slug <Slug>` Ihrer Organisation wird von uns vergeben
-             und sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer Organisation.
+Der sogenannte :term:`«Name/Slug» <Slug>` Ihrer Organisation wird von uns vergeben
+und sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer Organisation.
 
 .. container:: important
 
@@ -59,8 +59,7 @@ wären allerdings alle vier Sprachen. Weitere Organisationen sollen Titel und Be
 .. figure:: ../../../_static/images/publizieren/organisation/organisations-beschreibung.png
    :alt: Organisationsbeschreibung
 
-:Beschreibung (EN) (DE) (FR) (IT): Bitte geben Sie eine Beschreibung Ihrer Organisation an.
-
+Bei «Beschreibung (EN) (DE) (FR) (IT)» geben Sie bitte eine Beschreibung Ihrer Organisation an.
 Alle Bundesstellen sollen die Angaben mindestens auf
 Deutsch und Französisch eingeben – wünschenswert
 wären allerdings alle vier Sprachen. Weitere
@@ -73,16 +72,17 @@ in mindestens einer Sprache eingeben
 :Parent: Falls es sich bei Ihrer Organisation um eine Unterorganisation einer bereits
          auf opendata.swiss vertretenen Organisation handelt, kann das hier eingetragen werden.
 
-:Politische Ebene: Die politische Ebene auf der Ihre Organisation angesiedelt ist.
+Geben Sie bitte die «politische Ebene» an, auf der Ihre Organisation angesiedelt ist.
+Unter «URL» verlinken Sie zur Website Ihrer Organisation an.
 
-:URL: Bitte geben Sie hier die Website Ihrer Organisation an.
+Bitte wählen Sie ein «Bild» Ihrer Organisation aus
+und verlinken Sie es mit dem Schalter «Link» oder und laden Sie es
+via «Hochladen» hoch. So erhält Ihre Organisation eine bessere Präsenz auf opendata.swiss.
 
-:Bild: Bitte wählen Sie ein Bild Ihrer Organisation aus
-       und verlinken Sie es mit dem Schalter «Link» oder und laden Sie es
-       via «Hochladen» hoch. So erhält Ihre Organisation eine bessere Präsenz auf opendata.swiss.
+.. container:: important
 
-Vergessen Sie nicht, Ihre Änderungen abschliessend zu speichern
-indem Sie auf «Organisation speichern» klicken.
+    Vergessen Sie nicht, Ihre Änderungen abschliessend zu speichern
+    indem Sie auf «Organisation speichern» klicken.
 
 .. _organisations_ansicht_pruefen:
 

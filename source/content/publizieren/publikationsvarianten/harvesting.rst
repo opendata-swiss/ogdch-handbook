@@ -223,18 +223,20 @@ Einstellungen.
 .. figure:: ../../../_static/images/publizieren/harvesting/harvester-aktualisieren.png
    :alt: Organisation im Frontend von opendata.swiss
 
-:URL: Der Url des :term:`Katalog Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` an dem Ihre Daten abgeholt werden.
+Der «Url» ist der :term:`Katalog Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` an dem Ihre Daten abgeholt werden.
 
-:Titel: Der Titel des Harvesters unter dem Sie den Harvester in der Harvester-Liste finden.
-:Beschreibung: Bemerkungen zu Ihrem Harvester.
-:Source type: Die Typ Ihres Harvesters hängt von der Publikationsvariante ab: in der hier beschreibenen Publikationsvariante
-              hat Ihr Harvester die Einstellung «DCAT-AP Switzerland RDF Harvester». Auch in der Publikationsvarainte
-              :doc:`Metadaten via geocat.ch publizieren <geodaten>` kommen Harvester
-              zum Einsatz. Diese haben dann den Typ «Geocat Harvester».
-:Update frequency: Die Harvester sind auf «Manual» eingestellt, obwohl sie täglich laufen, da ihre Startzeit nicht
-                   über die Weboberfläche, sondern über Prozesse, die im Hintergrund ablaufen,
-                   gesteuert wird.
-:Configuration: Hier werden gegebenfalls weitere Konfigurationen eingetragen, die Ihr Harvester benötigt.
+Unter dem «Titel» finden Sie den Harvester in der Harvester-Liste. «Beschreibung» ist für Anmerkungen gedacht.
+
+Der «Source type» Ihres Harvesters hängt von der Publikationsvariante ab: in der hier beschreibenen Publikationsvariante
+hat Ihr Harvester die Einstellung «DCAT-AP Switzerland RDF Harvester». Auch in der Publikationsvarainte
+:doc:`Metadaten via geocat.ch publizieren <geodaten>` kommen Harvester
+zum Einsatz. Diese haben dann den Typ «Geocat Harvester».
+
+Die Harvester sind bezüglich der «Update frequency» auf «Manual» eingestellt, obwohl sie täglich laufen, da ihre Startzeit nicht
+über die Weboberfläche, sondern über Prozesse, die im Hintergrund ablaufen,
+gesteuert wird.
+Bei «Configuration» werden gegebenfalls weitere Konfigurationen eingetragen, die Ihr Harvester benötigt, um Ihre
+Daten korrekt zu importieren.
 
 .. container:: important
 
