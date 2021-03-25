@@ -151,9 +151,6 @@ der Uhrzeit kann um ± eine Stunde von der effektiven Publikation abweichen.
     Wichtig: Vergessen Sie nicht nach der Änderung auf «Aktualisieren» zu klicken. Sie finden diesen Schalter
     ganz unten im Webformular.
 
-.. figure:: ../../../_static/images/publizieren/dataset/dataset-aktualisieren.png
-   :alt: Dataset Änderung abspeichern
-
 .. _xml_datensaetze_im_frontend:
 
 Datensets im Frontend prüfen

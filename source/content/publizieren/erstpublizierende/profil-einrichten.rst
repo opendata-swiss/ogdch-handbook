@@ -64,18 +64,17 @@ Zu ihrem Benutzerkonto gelangen Sie, wenn Sie im Dashboard auf «Bearbeitete Ein
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-profil.png
    :alt: Benutzer Dashboard im Backend von opendata.swiss
 
-:Benutzername: Den Benutzernamen haben wir bereits bei Ihrer Registrierung vergeben,
-               er dient zu Ihrer eindeutigen Identifikation auf der Plattform und kann nicht geändert werden
+Den «Benutzernamen» haben wir bereits bei Ihrer Registrierung vergeben,
+er dient zu Ihrer eindeutigen Identifikation auf der Plattform und kann nicht geändert werden
+«Vollständiger Name» ist der Name mit dem Sie sich und anderen
+im :term:`Backend <Backend>` erscheinen.
+Ihre «Email»  haben wir bereits bei der Registrierung erfasst.
+Bei «Über das Portal» können Sie Zusatzinformationen zu Ihrer Person eingeben.
 
-:Vollständiger Name: Diesen Namen können Sie selbst festlegen: es ist der Name mit dem Sie sich und anderen
-                     im :term:`Backend <Backend>` erscheinen.
+.. container:: important
 
-:Email: Ihre email Adresse haben wir bereits bei der Registrierung erfasst.
-
-:Über das Portal: Hier können Sie Zusatzinformationen zu Ihrer Person eingeben.
-
-Nicht vergessen: Bestätigen Sie alle gemachten
-Änderungen mit einem Klick auf «Profil aktualisieren».
+    Nicht vergessen: Bestätigen Sie alle gemachten
+    Änderungen mit einem Klick auf «Profil aktualisieren».
 
 .. _benutzer_navigation:
 

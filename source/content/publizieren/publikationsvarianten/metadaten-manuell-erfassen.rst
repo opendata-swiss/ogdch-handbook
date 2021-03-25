@@ -80,12 +80,12 @@ werden verschiedene Metadaten und Beschreibungen zu den Datasets publiziert.
 Als Erstes müssen Sie Ihrem Dataset einen Namen geben.
 Aus ihm wird der Permalink des Datasets gebildet. Dieses Feld dient nur zur Bildung des
 Permalinks. Später wird der Titel Ihres Datasets aus den Einträgen im
-Datenfeld Titel (EN) (DE) (FR) (IT) ermittelt:
+Datenfeld «Titel (EN) (DE) (FR) (IT)» ermittelt:
 
-:Titel (EN) (DE) (FR) (IT): Bitte geben Sie einen Titel Ihres Datasets ein. Bitte besetzen
-                            Sie mindestens eine Landessprache und Englisch.
-                            (Der Eintrag in Englisch wird bei der Weitergabe Ihres
-                            Datasets an das europäische Datenportal benötigt.)
+Bitte geben Sie einen Titel Ihres Datasets ein. Bitte besetzen
+Sie mindestens eine Landessprache und Englisch.
+(Der Eintrag in Englisch wird bei der Weitergabe Ihres
+Datasets an das europäische Datenportal benötigt.)
 
 .. container:: important
 
@@ -96,10 +96,10 @@ Datenfeld Titel (EN) (DE) (FR) (IT) ermittelt:
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-identifier.png
    :alt: Eingabefeld Identifier im Webformular
 
-:Dataset Identifier: Zunächst müssen Sie den sogenannten Identifier eingeben. Dieser sorgt dafür,
-                     dass das Dataset mit Ihrer Organisation verknüpft wird. Dafür können
-                     Sie die ID aus Ihrem Quellsystem verwenden oder eine beliebige ID definieren.
-                     Bitte stellen Sie sicher, dass Ihr Dataset der richtigen Organisation zugeteilt ist.
+Zunächst müssen Sie den sogenannten «Identifier» eingeben. Dieser sorgt dafür,
+dass das Dataset mit Ihrer Organisation verknüpft wird. Dafür können
+Sie die ID aus Ihrem Quellsystem verwenden oder eine beliebige ID definieren.
+Bitte stellen Sie sicher, dass Ihr Dataset der richtigen Organisation zugeteilt ist.
 
 Für eine detaillierte Beschreibung des Inhalts der Metadaten-Felder orientieren
 Sie sich bitte an der
@@ -115,15 +115,14 @@ Sie sich bitte an der
 
 Diese Felder dienen zur :ref:`Veröffentlichung Ihres Datasets <manuell-datensatz-veroeffentlichen>`.
 
-:Sichtbarkeit: Die Voreinstellung ist auf
-               «Entwurf». Lassen Sie diese Voreinstellung zunächst so. Sie bedeutet, dass Ihr Dataset noch
-               nicht öffentlich sichtbar ist.
+Die Voreinstellung für die «Sichtbarkeit» ist
+«Entwurf». Lassen Sie diese Voreinstellung zunächst so. Sie bedeutet, dass Ihr Dataset noch
+nicht öffentlich sichtbar ist.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-beschreibung.png
    :alt: Eingabefeld Beschreibung im Webformular
 
-:Beschreibung (EN) (DE) (FR) (IT): Bitte geben Sie hier eine Beschreibung Ihres Datasets an.
-
+Bitte geben Sie hier bei «Beschreibung (EN) (DE) (FR) (IT)» eine Beschreibung Ihres Datasets an.
 Alle Bundesstellen sollen die Angaben mindestens auf Deutsch und
 Französisch eingeben – wünschenswert wären allerdings alle vier Sprachen.
 Eine Englische Beschreibung erleichtert das Aufinden Ihres Dataset auf dem
@@ -132,68 +131,72 @@ europäischen Datenportal.
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-zeitangaben.png
    :alt: Eingabefeld zur Aktualisierung im Webformular
 
-:Publikationsdatum: Hier gilt es das Pflichtfeld «Publikationsdatum» auszufüllen. Damit ist das Datum
-                    der ersten Publikation im Quellsystem dieses Datasets gemeint.
-                    Falls dies nicht bekannt ist, verwenden Sie das Datum der geplanten ersten
-                    Publikation auf opendata.swiss.
-:Änderungsdatum: Beim Datum der letzten Änderung
-                 können Sie nach der Publikation kommunizieren, wann die letzte Änderung
-                 (Aktualisierung, Korrektur etc.) am Dataset vorgenommen worden ist.
-:Aktualisierungsintervall: Weiter sollen Sie hier das Intervall, in dem Aktualisierungen vorgenommen werden
-                           angeben.
-:Temporal Coverage: und die «Zeitliche Abdeckung», die das Dataset umfasst.
+Hier gilt es das Pflichtfeld «Publikationsdatum» auszufüllen. Damit ist das Datum
+der ersten Publikation im Quellsystem dieses Datasets gemeint.
+Falls dies nicht bekannt ist, verwenden Sie das Datum der geplanten ersten
+Publikation auf opendata.swiss.
+
+Beim «Änderungsdatum»
+können Sie nach der Publikation kommunizieren, wann die letzte Änderung
+(Aktualisierung, Korrektur etc.) am Dataset vorgenommen worden ist.
+
+Weiter sollen Sie hier das «Aktualisierungsintervall», in dem Aktualisierungen vorgenommen werden
+angeben.
+
+Ausserdem können Sie angeben, welches die «Zeitliche Abdeckung» ist, die das Dataset umfasst.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-publishers-kontakte.png
    :alt: Eingabefeld Publisher im Webformular
 
 Hier müssen Sie Angaben zu Ihnen als datenpublizierender Organisation eingeben:
 
-:Publisher Information: Im Pflichtfeld «Publisher» wählen Sie die verantwortliche Organisation
-                        für das Dataset aus. Dies können auch mehrere Organisationen sein,
-                        jedoch keine Personen.
-:Contact Information: Im Pflichtfeld «Kontaktstellen» muss eine
-                      Ansprechperson angegeben werden, die von Datennutzenden bei Rückfragen
-                      kontaktiert werden darf. Es ist mindestens eine Person mit E-Mail-Adresse erforderlich.
+Im Pflichtfeld «Publisher» wählen Sie die verantwortliche Organisation
+für das Dataset aus. Dies können auch mehrere Organisationen sein,
+jedoch keine Personen.
+
+Im Pflichtfeld «Kontaktstellen» muss eine
+Ansprechperson angegeben werden, die von Datennutzenden bei Rückfragen
+kontaktiert werden darf. Es ist mindestens eine Person mit E-Mail-Adresse erforderlich.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-sprachen.png
    :alt: Eingabefeld Sprachen im Webformular
 
-:Sprachen: Falls Ihre Resourcen sprachabhängig sind können Sie hier angeben, in welcher Sprache Ihre Resourcen vorliegen.
-           Sind Ihre Resourcen sprachunabhängig, kann das Eingabefeld leer bleiben.
+Falls Ihre Resourcen sprachabhängig sind können Sie hier angeben, in welcher Sprache Ihre Resourcen vorliegen.
+Sind Ihre Resourcen sprachunabhängig, kann das Eingabefeld leer bleiben.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-weitere-informationen.png
    :alt: Eingabefeld Weitere Inforamtionen im Webformular
 
-:Further Information: Unter «Weitere Informationen» können Sie allgemeine Links angeben, etwa zu Dokumentation, die dem Benutzer helfen
-                      Ihr Dataset besser zu verstehen.
+Unter «Weitere Informationen» können Sie allgemeine Links angeben, etwa zu Dokumentation, die dem Benutzer helfen
+Ihr Dataset besser zu verstehen.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-landing-page.png
    :alt: Eingabefeld Landing Page im Webformular
 
-:Landing Page: Mit «Landing Page»
-               ist die Website gemeint, auf der die Daten ursprünglich publiziert wurden,
-               falls diese vorhanden ist.
+Mit «Landing Page»
+ist die Website gemeint, auf der die Daten ursprünglich publiziert wurden,
+falls diese vorhanden ist.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-related.png
    :alt: Eingabefeld Kategorien im Webformular
 
-:Related Datasets: Unter «Verwandte Datensätze»
-                   können Sie aus allen verfügbaren Datasets auf opendata.swiss mit
-                   thematischem Bezug zu Ihrem aktuellen Dataset auswählen. Damit
-                   signalisieren Sie Datennutzenden, dass weitere Datasets existieren,
-                   die sie interessieren könnten.
+Unter «Verwandte Datensätze»
+können Sie aus allen verfügbaren Datasets auf opendata.swiss mit
+thematischem Bezug zu Ihrem aktuellen Dataset auswählen. Damit
+signalisieren Sie Datennutzenden, dass weitere Datasets existieren,
+die sie interessieren könnten.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-schlagwoerter.png
    :alt: Eingabefeld von Schlagworten im Webformular
 
-:Schlagwörter: Schlagwörter helfen dabei, die Auffindbarkeit zu steigern.
-               Mögliche Schlagwörter können Sie aus Ihren Metadaten oder Ihrem Quellsystem ermitteln.
+«Schlagwörter» helfen dabei, die Auffindbarkeit zu steigern.
+Mögliche Schlagwörter können Sie aus Ihren Metadaten oder Ihrem Quellsystem ermitteln.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-kategorien.png
    :alt: Eingabefeld Kategorien im Webformular
 
-:Kategorien: Unter «Kategorien» können Sie eine oder mehrere thematische Kategorien
-             auswählen, denen das Dataset zugeordnet werden kann.
+Unter «Kategorien» können Sie eine oder mehrere thematische Kategorien
+auswählen, denen das Dataset zugeordnet werden kann.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-speichern.png
    :alt: Eingabefeld Kategorien im Webformular
@@ -235,20 +238,20 @@ das Datum der Veröffentlichung der Ressource angeben.
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/resource-urls-nutzungsrechte-format.png
    :alt: Abschnitt Ressource im Webformular
 
-:Zugangs-Url, Access-Url: Für jede Resource müssen Sie unter «Zugangs-URL» eine URL angeben,
-                          über welche auf die Ressource
-                          zugegriffen werden kann. Falls sich hinter der URL ein Download verbirgt,
-                          muss die URL auch im Feld «Download-URL» eingetragen werden.
+Für jede Resource müssen Sie unter «Zugangs-URL» eine URL angeben,
+über welche auf die Ressource
+zugegriffen werden kann. Falls sich hinter der URL ein Download verbirgt,
+muss die URL auch im Feld «Download-URL» eingetragen werden.
 
-:Nutzungsbedingungen: Legen Sie die Nutzungsbedingungen für Ihre Daten fest.
+Legen Sie die «Nutzungsbedingungen» für Ihre Daten fest.
 
 .. container:: important
 
     Wichtig: Unter `«Nutzungsbedingungen» müssen
     Sie eine der Bedingungen auswählen, die auf opendata.swiss vorgesehen sind <https://opendata.swiss/de/terms-of-use>`__.
 
-:Dateigrösse: Optional kann die «Grösse» der Ressource in Bytes angegeben werden.
-:Format:      Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
+Optional kann die «Dateigrösse» der Ressource in Bytes angegeben werden.
+Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
 
 .. container:: important
 
