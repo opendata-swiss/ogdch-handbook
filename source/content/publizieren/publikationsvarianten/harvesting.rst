@@ -34,7 +34,7 @@ Die Schritte auf einen Blick
 - :ref:`Den Harvester verwalten <harvesting-verwalten>`
 - :ref:`Harvesting Fehler beheben <harvesting-fehler-beheben>`
 - :ref:`Harvestier Einstellugen <harvester-einstellungen>`
-- :ref:`Datenasets prüfen <harvesting-pruefen>`
+- :ref:`Datensets prüfen <harvesting-pruefen>`
 - :ref:`Datenkatalog veröffentlichen <harvesting-veroeffentlichen>`
 
 .. admonition:: Gut zu wissen
