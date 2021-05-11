@@ -6,6 +6,7 @@
                  "Travail, rémunération"@fr,
                  "Lavoro e reddito"@it,
                  "Work and income"@en .
+  skos:mapping http://www.w3.org/2004/02/skos/mapping#minorMatch
 <http://opendata.swiss/themes/construction>
   a skos:Concept ;
     skos:inScheme <http://opendata.swiss/themes> ;
