@@ -27,10 +27,10 @@ Die Schritte auf einen Blick
 ----------------------------
 
 - :ref:`Datenkatalog importieren <xml_datenkatalog_hochladen>`
-- :ref:`Dataset prüfen <xml_datensaetze_pruefen>`
-- :ref:`Schlagwörter kontrollieren <xml_schlagworte_pruefen>`
-- :ref:`Vorschau des Datasets prüfen <xml_datensaetze_ansehen>`
+- :ref:`Datasets prüfen <xml_datensaetze_pruefen>`
 - :ref:`Dataset veröffentlichen <xml_datensaetze_veroeffentlichen>`
+- :ref:`Datensets im Frontend prüfen <xml_datensaetze_im_frontend>`
+- :ref:`Veröffentlichung in der Produktionsumgebung <xml_go_live>`
 
 .. admonition:: Gut zu wissen
 
@@ -46,9 +46,6 @@ Alle Schritte im Detail
 Datenkatalog importieren
 ------------------------
 
-.. figure:: ../../../_static/images/publizieren/xml-hochladen-upload.png
-   :alt: XML Katalog im Backend von opendata.swiss hochladen
-
 Loggen Sie sich im Backend von opendata.swiss ein. Handelt es sich
 um eine Erstpublikation oder möchten Sie eine neue oder
 besonders komplexe Veröffentlichung testweise durchführen,
@@ -56,109 +53,137 @@ ist die :term:`Abnahmeumgebung <Abnahmeumgebung>` dafür die richtige Wahl.
 Handelt es um eine wiederholte Publikation und Sie möchten
 Ihre Datasets direkt veröffentlichen,
 können Sie sich in die :term:`Produktionsumgebung <Produktionsumgebung>`
-einloggen. Klicken Sie dann auf das Feld «Datensatz importieren».
+einloggen.
+
+Gehen Sie zu Ihrer Organisation.
+
+.. figure:: ../../../_static/images/publizieren/xml-upload/xml-upload-starten.png
+   :alt: XML Katalog im Backend von opendata.swiss hochladen
+
+Klicken Sie dann auf das Feld «Add Datasets from XML».
+
+.. figure:: ../../../_static/images/publizieren/xml-upload/upload-button.png
+   :alt: XML Katalog importieren: Datei auswählen
+
 In der Upload-Maske können Sie einen Datenkatalog als
 XML-Datei von Ihrem PC auswählen und hochladen.
+
+.. figure:: ../../../_static/images/publizieren/xml-upload/upload-starten.png
+   :alt: XML Katalog importieren: Upload starten
+
+Mit  «Submit» wird der Upload gestartet.
 
 .. container:: important
 
     Wichtig: Der Datenkatalog muss im
     Format :doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>` vorliegen.
 
+Ihre Datasets werden Ihnen nach erfolgreichem Import
+als «Entwurf» gespeichert und in der Liste der Datasets für Ihre Organization mit
+aufgelistet:
+
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-entwurf.png
+   :alt: unveröffentlichter Datensatz im Backend von opendata.swiss
+
+Bei allfälligen Fehlern erscheint eine rote Fehlermeldung
+nach dem Hochladen des Datenkatalogs.
+
+.. figure:: ../../../_static/images/publizieren/xml-upload/upload-fehler.png
+   :alt: Fehleransicht nach dem Hochladen einer XML-Datei
+
+Korrieren Sie Ihren Datenkatalog und laden Sie diesen
+anschliessend erneut hoch.
+
 .. _xml_datensaetze_pruefen:
 
 Datensets prüfen
-----------------
+-----------------
 
-.. figure:: ../../../_static/images/publizieren/xml-hochladen-fehler-nach-import.png
-   :alt: Fehleransicht nach dem Hochladen einer XML-Datei
+Ihre Datasets sind jetzt hochgeladen, aber noch nicht veröffentlicht.
+Finden Sie Ihre Datasets mit der Facettensuche nach «Entwurf»:
 
-Ihre Datasets werden Ihnen nach erfolgreichem Import
-direkt angezeigt (grüne Erfolgsmeldung). Sie erscheinen
-ausserdem auch unter «Alle Datensätze». Sollte sich noch ein Fehler im
-Dataset befinden, wird Ihnen dies bereits hier angezeigt (rote Error-Meldung).
-Allfällige Fehler können Sie entweder im Dataset selbst oder
-direkt in Ihrem Datenkatalog korrigieren und diesen
-anschliessend noch einmal neu hochladen.
+.. figure:: ../../../_static/images/publizieren/xml-upload/hochgeladene-datasets-auswaehlen.png
+   :alt: Hochgeladene Datasets auswählen
 
-Fehlermeldung
--------------
+Gehen Sie in die Detailansicht Ihres Datasets: Sind alle Felder so besetzt,
+wie Sie es erwarten, können Sie Ihr Dataset veröffentlichen.
 
-Bei allfälligen Fehlern erscheint eine Fehlermeldung, der Status ist rot.
-Bitte korrigieren Sie die markierten Felder. Sobald Sie alle Fehler
-behoben haben, stellt der Status auf grün. Nun können Sie Ihr Dataset publizieren.
-
-.. figure:: ../../../_static/images/publizieren/xml-hochladen-dataset-nok.png
-   :alt: Ansicht eines hochgeladen fehlerbehafteten Datasets
-
-.. figure:: ../../../_static/images/publizieren/xml-hochladen-dataset-ok.png
-   :alt: Ansicht eines erfolgreich hochgeladenen Datasets
-
-.. _xml_schlagworte_pruefen:
-
-Schlagwörter kontrollieren
---------------------------
-
-Beim Import als XML-Datei werden automatisch Schlagwörter für
-Ihr Dataset ausgewählt. Sie müssen diese nur noch kontrollieren.
-
-.. figure:: ../../../_static/images/publizieren/dataset-schlagworte.png
-   :alt: Ansicht der Schlagworte eines hochgeladenen Datasets
-   :width: 50%
-
-.. _xml_datensaetze_ansehen:
-
-Vorschau des Datasets prüfen
-----------------------------
-
-.. figure:: ../../../_static/images/publizieren/dataset-preview.png
-   :alt: Vorschau eines hochgeladenen Datasets
-
-Nachdem Sie alle Fehler korrigiert und Schlagwörter überprüft haben,
-können Sie sich eine Vorschau Ihres Datasets anzeigen lassen. Dafür klicken
-Sie oben in der Menüleiste auf «Datensatz anzeigen». Sie sehen
-Ihr Dataset nun so, wie es im Frontend erscheint – egal, ob Sie
-sich in der :term:`Abnahmeumgebung <Abnahmeumgebung>` oder
-:term:`Produktionsumgebung <Produktionsumgebung>` befinden.
-Sieht alles so aus wie in unserer Beispielansicht,
-kann das Dataset veröffentlicht werden.
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-detailansicht.png
+   :alt: Detailansicht eines Datasets im CKAN Backend
 
 .. _xml_datensaetze_veroeffentlichen:
 
-Dataset veröffentlichen
------------------------
+Datenset veröffentlichen
+---------------------------
 
-Im Bearbeitungsmodus wird Ihnen ganz oben rechts der Status
-Ihres Datasets angezeigt: «Entwurf» bedeutet, Sie bearbeiten
-die Metadaten des Datasets noch weiter. In diesem Zustand ist
-Ihr Dataset im Frontend der Abnahmeumgebung mit dem Vermerk «privat»
-und einem Schlosssymbol markiert. «Veröffentlicht» gibt an,
-dass das Dataset in der Abnahmeumgebung publiziert ist.
+Vor der Veröffentlichung ist Ihr Dataset in der
+Abnahmeumgebung mit dem Vermerk «Entwurf» und einem Schlosssymbol markiert. Nach der Veröffentlichung
+verschwindet dieses Symbol und Ihr Dataset ist dann auch im Frontend der Abnahmeumgebung sichtbar.
 
-In der Produktionsumgebung haben Sie hier Sie ausserdem die Möglichkeit,
-die Veröffentlichung Ihres Datasets zu terminieren.
-Unter «Veröffentlichung planen» können Sie die Datums- und Zeitangabe nutzen,
-um eine Publikation in der Zukunft festzulegen und bestätigen
-dies mit einem Klick auf «Planen». Die Veröffentlichung lässt
-sich verlässlich auf ein bestimmtes Datum planen, die Festlegung
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-entwurf.png
+   :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
+
+Um Ihr Dataset zu veröffentlichen müssen Sie in den Bearbeitungsmodus wechseln.
+Klicken Sie dazu auf «Bearbeiten».
+
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-titel-entwurf.png
+   :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
+
+Sie gelangen in das Webformular Ihres Datasets:
+
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-webformular.png
+   :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
+
+Scrollen Sie zu dem Feld «Sichtbarkeit»: Es ist auf «Entwurf eingestellt»
+
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-veroeffentlichen.png
+   :alt: Dataset in veroeffentlichen
+
+Sie können Ihr Dataset sofort veröffentlichen indem Sie dan Status auf "Veröffentlicht"
+ändern. Oder sie können eine zukünftige Veröffentlichung terminieren, indem Sie im Feld darunter
+einen geplanten Veröffentlichungstermin in der Zukunft eintragen
+
+Die Veröffentlichung lässt sich verlässlich auf ein bestimmtes Datum planen, die Festlegung
 der Uhrzeit kann um ± eine Stunde von der effektiven Publikation abweichen.
-
-Sollten Sie zum ersten Mal Daten publizieren, muss Ihr Dataset
-von der Abnahmeumgebung noch auf die Produktionsumgebung übertragen werden.
-Dies übernehmen wir für Sie,
-geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: important
 
-    Wichtig: Vergessen Sie nicht nach jeder Änderung von bereits
-    publizierten Daten auf «Aktualisieren» zu klicken.
+    Wichtig: Vergessen Sie nicht nach der Änderung auf «Aktualisieren» zu klicken. Sie finden diesen Schalter
+    ganz unten im Webformular.
 
-.. figure:: ../../../_static/images/publizieren/xml-hochladen-frontend.png
+.. _xml_datensaetze_im_frontend:
+
+Datensets im Frontend prüfen
+-----------------------------
+
+Sobald Ihre Datasets veröffenlicht ist, können sie auch im Frontend der Abnahmeumgebung angesehen werden.
+Sie gelangen zu der Datenansicht Ihres Datasets im Frontend,
+imdem Sie in die Detailansicht Ihres Datasets gehen und `ckan` aus dem Url Ihres Datasets entfernen:
+
+.. figure:: ../../../_static/images/publizieren/dataset/ckan-backend-url.png
+   :alt: Beispielansicht eines publizierten Datasets
+
+.. figure:: ../../../_static/images/publizieren/dataset/frontend-url.png
+   :alt: Beispielansicht eines publizierten Datasets
+
+Bitte prüfen Sie Ihre Daten auch hier nochmal:
+
+.. figure:: ../../../_static/images/publizieren/dataset/dataset-frontend.png
    :alt: Beispielansicht eines publizierten Datasets
 
 .. container:: bildunterschrift
 
    Beispielansicht eines publizierten Datasets
+
+.. _xml_go_live:
+
+Veröffentlichung in der Produktionsumgebung
+---------------------------------------------
+
+Sollten Sie zum ersten Mal Daten publizieren, muss Ihr Dataset
+von der Abnahmeumgebung noch auf die Produktionsumgebung übertragen werden.
+Dies übernehmen wir für Sie,
+geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: support
 
@@ -173,3 +198,5 @@ und wir helfen Ihnen gerne weiter.
     Mehr zum Thema
 
 - :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` – Beschreibung des aktuell von opendata.swiss genutzte Datenstandards DCAT-AP-CH
+- :download:`Screencast zum Importieren der Metadaten als XML-Datei <../../../_static/screencasts/xml-import.gif>` - In diesem Screencast zeigen wir Ihnen den Import eines Datenkatalogs
+- :download:`Veröffentlichung eines Datasets terminieren <../../../_static/screencasts/schedule-dataset.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie die Veröffentlichung Ihres Datasets terminieren können
