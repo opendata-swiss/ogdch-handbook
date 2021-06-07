@@ -1,5 +1,4 @@
-**Geocat-Mapping**
-
+:DCAT URI: dcat:distribution
 :XPATH: ?
    :protocol:  //gmd:distributionInfo/gmd:MD_Distribution[//gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol
 :Value: ?

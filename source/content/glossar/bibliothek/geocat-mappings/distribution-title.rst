@@ -1,5 +1,4 @@
-**Geocat-Mapping**
-
+:DCAT: dct:title
 :XPATH: Mapping depends on the type of distribution that is derived from the protocol
 :Protocol: //gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol/gco:CharacterString
 :Name: .//gmd:distributionInfo//gmd:transferOptions/gmd:name

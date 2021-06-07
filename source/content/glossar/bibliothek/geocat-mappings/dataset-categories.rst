@@ -1,5 +1,4 @@
-**Geocat-Mapping**
-
+:DCAT URI: dct:theme
 :XPATH: //gmd:identificationInfo//gmd:topicCategory/
 :Value: gmd:MD_TopicCategoryCode
 :Mapping:
