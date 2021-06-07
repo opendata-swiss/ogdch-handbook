@@ -1,10 +1,11 @@
-**Geocat-Mapping**
-
-:XPATH: //gmd:identificationInfo/gmd:pointOfContact or //gmd:contact
-:Value: gco:CharacterString
+:DCAT: dct:publisher
+:XPATH: //gmd:identificationInfo/gmd:pointOfContact or //gmd:contact//che:CHE_CI_ResponsibleParty
+:Filter: .//gmd:CI_RoleCode/@codeListValue
+:Value: .//gmd:organisationName/gco:CharacterString/text()
+:Note: Only the none localized string is taken, the exact mapping is described below.
 
 .. code-block:: xml
-    :caption: ISO-19139_che XPath for ``dct:publisher``: the first is taken in the following order
+    :caption: ISO-19139_che XPath for ``dct:publisher``: the first is taken in the following order:
 
     //gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "publisher"]//gmd:organisationName/gco:CharacterString
     //gmd:identificationInfo//gmd:pointOfContact[.//gmd:CI_RoleCode/@codeListValue = "owner"]//gmd:organisationName/gco:CharacterString

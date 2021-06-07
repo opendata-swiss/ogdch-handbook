@@ -1,5 +1,4 @@
-**Geocat-Mapping**
-
+:DCAT: dct:keyword
 :XPATH: ``//gmd:identificationInfo//gmd:descriptiveKeywords//gmd:keyword``
 :Value: ``//gmd:textGroup//gmd:LocalisedCharacterString``
 

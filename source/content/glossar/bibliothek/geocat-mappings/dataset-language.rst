@@ -1,5 +1,4 @@
-**Geocat-Mapping**
-
+:DCAT: dct:language
 :XPATH: ``//gmd:identificationInfo//gmd:language``
 :Value: ``gmd:LanguageCode``
 

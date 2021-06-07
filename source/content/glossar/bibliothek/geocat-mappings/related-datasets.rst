@@ -1,5 +1,4 @@
-**Geocat-Mapping**
-
+:DCAT: dct:seeAlso
 :XPATH: ``//gmd:identificationInfo//gmd:aggregationInfo//gmd:aggregateDataSetIdentifier/gmd:MD_Identifier``
 :Value: ``/gmd:code/gco:CharacterString``
 

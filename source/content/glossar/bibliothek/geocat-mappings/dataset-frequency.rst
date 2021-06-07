@@ -1,5 +1,4 @@
-**Geocat-Mapping**
-
+:DCAT URI: dct:accrualPeriodictiy
 :XPATH: //gmd:identificationInfo//che:CHE_MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/
 :Value: gmd:MD_MaintenanceFrequencyCode/@codeListValue
 :Mapping:
