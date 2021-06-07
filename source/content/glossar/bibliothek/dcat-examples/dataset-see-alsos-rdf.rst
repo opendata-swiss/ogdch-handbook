@@ -1,5 +1,4 @@
-.. toggle-header::
-    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in RDF
+
 
     .. code-block:: xml
         :caption: The landing page should be a class and therefore come with a URI according to DCAT

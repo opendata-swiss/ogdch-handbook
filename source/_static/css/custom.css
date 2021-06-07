@@ -28,6 +28,12 @@ a, a:hover, a:visited, a:active, a:focus {
     background: white;
 }
 
+/* give space before headers */
+
+h4 {
+    margin-top:20px;
+}
+
 /*=======================================*/
 /* Search Window with Logo                */
 /*=======================================*/
@@ -200,6 +206,15 @@ div.container.intro p {
 
 div.container.intro ul {
     margin-bottom: 0
+}
+
+/*=======================================*/
+/* Container Mapping                       */
+/*=======================================*/
+
+div.container.mapping {
+    background: #f0f0f0;
+    padding-top: 20px;
 }
 
 /*=======================================*/
@@ -519,5 +534,4 @@ html.writer-html5 .rst-content table.docutils th {
 
 .toggle-header p {
     color:#099;
-    margin-left: 100px
 }

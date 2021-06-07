@@ -1,5 +1,4 @@
-.. toggle-header::
-    :header: NEW Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
+
 
     .. code-block:: Turtle
         :caption: Publisher of a Dataset NEW implementation in Turtle: conforms to DCAT-AP-CH

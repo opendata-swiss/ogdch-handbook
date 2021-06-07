@@ -1,5 +1,4 @@
-.. toggle-header::
-    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Turtle
+
 
     .. code-block:: Turtle
         :caption: related datasets should be classes and have their own URIs

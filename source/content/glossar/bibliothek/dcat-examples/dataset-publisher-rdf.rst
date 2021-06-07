@@ -1,5 +1,3 @@
-.. toggle-header::
-    :header: CURRENT Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
 
     .. code-block:: xml
         :caption: Publisher of a Dataset current implementation

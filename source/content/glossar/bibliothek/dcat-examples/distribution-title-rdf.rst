@@ -1,5 +1,4 @@
-.. toggle-header::
-    :header: Property ``dct:title`` of ``dcat:Dataset`` in RDF
+
 
     .. code-block:: xml
         :caption: In RDF the language is stored in the ``xml:lang`` attribute
