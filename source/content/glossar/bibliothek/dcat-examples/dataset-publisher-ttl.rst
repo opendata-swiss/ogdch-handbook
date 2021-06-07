@@ -1,5 +1,4 @@
-.. toggle-header::
-    :header: CURRENT Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
+
 
     .. code-block:: Turtle
         :caption: Publisher of a Dataset current implementation in Turtle: does not conform to DCAT-AP-CH

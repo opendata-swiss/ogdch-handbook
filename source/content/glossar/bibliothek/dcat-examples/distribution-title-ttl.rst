@@ -1,5 +1,4 @@
-.. toggle-header::
-    :header: Property ``dct:title`` of ``dcat:Distribution`` in Turtle
+
 
     .. code-block:: Turtle
         :caption: In TUrtle strings are marked by the language they are in
