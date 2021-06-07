@@ -18,11 +18,11 @@
 .. code-block::
     :caption: Values not acceptable for opendata.swiss
 
-    NonCommercialAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)
-    NonCommercialAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)
-    NonCommercialNotAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)
-    NonCommercialNotAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)
-    NonCommercialNotAllowed-CommercialAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)
-    NonCommercialNotAllowed-CommercialAllowed-ReferenceRequired (not acceptable for opendata.swiss)
-    NonCommercialNotAllowed-CommercialWithPermission-ReferenceNotRequired (not acceptable for opendata.swiss)
-    NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired (not acceptable for opendata.swiss)
+    NonCommercialAllowed-CommercialNotAllowed-ReferenceNotRequired
+    NonCommercialAllowed-CommercialNotAllowed-ReferenceRequired
+    NonCommercialNotAllowed-CommercialNotAllowed-ReferenceNotRequired
+    NonCommercialNotAllowed-CommercialNotAllowed-ReferenceRequired
+    NonCommercialNotAllowed-CommercialAllowed-ReferenceNotRequired
+    NonCommercialNotAllowed-CommercialAllowed-ReferenceRequired
+    NonCommercialNotAllowed-CommercialWithPermission-ReferenceNotRequired
+    NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired
