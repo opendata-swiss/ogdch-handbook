@@ -1,14 +1,9 @@
-.. _distribution-download-url:
-
-.. container:: dcat-attribute
-
-   **dcat:downloadURL**
-
-   :RDF: RDF-property ``dcat:downloadURL`` of ``dcat:Dataset``
-   :Value: URI: http://www.w3.org/2001/XMLSchema#anyURI
-   :Requirement Level: optional
-   :Cardinality: 0..n
-   :Description: Website of the dataset with related information
-   :Usage Note: URL for the download, if the distribution can be downloaded: in this
-                case the property usually has the same url as ``dcat:accessURL``,
-                see also https://www.w3.org/ns/dcat#downloadURL
+:DCAT URI: dcat:downloadURL
+:Domain: dcat:Distribution
+:Value: URI: http://www.w3.org/2001/XMLSchema#anyURI
+:Requirement Level: optional
+:Cardinality: 0..n
+:Description: Website of the dataset with related information
+:Usage Note: URL for the download, if the distribution can be downloaded: in this
+            case the property usually has the same url as ``dcat:accessURL``,
+            see also https://www.w3.org/ns/dcat#downloadURL
