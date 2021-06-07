@@ -179,6 +179,24 @@ Below you find a list of classes that you need to implement in you catalog.
 Translateable elements have been marked. Also DCAT-AP-CH conformance has been
 marked.
 
+.. list-table:: Classes of DCAT-AP-CH
+    :widths: 20 20 30
+    :header-rows: 1
+    :stub-columns: 1
+
+    * - class
+      - URI
+      - usage notes
+    * - :ref:`Catalog <dcat-ap-ch-catalog>`
+      - dcat:Catalog
+      - **mandatory**
+    * - :ref:`Dataset <dcat-ap-ch-dataset>`
+      - dcat:Catalog
+      - **mandatory**
+    * - :ref:`Distribution <dcat-ap-ch-distribution>`
+      - dcat:Distribution
+      - **mandatory**
+
 .. list-table:: Properties of dcat:Catalog
     :widths: 20 20 30
     :header-rows: 1
@@ -187,10 +205,7 @@ marked.
     * - property
       - URI
       - usage notes
-    * - `catalog-class`_
-      - dcat:Catalog
-      - **mandatory**
-    * - `catalog-datasets`_
+    * - :ref:`dataset <dcat-catalog-dataset>`
       - dcat:dataset
       - **mandatory**
 
@@ -202,63 +217,58 @@ marked.
     * - property
       - URI
       - usage notes
-    * - `dataset-class`_
-      - dcat:Catalog
-      - **mandatory**
-    * - `dataset-identifier`_
+    * - :ref:`identifier <dcat-dataset-identifier>`
       - dct:identifier
       - **mandatory**
-    * - `dataset-title`_
+    * - :ref:`title <dcat-dataset-title>`
       - dct:title
       - **mandatory**, multilingual
-    * - `dataset-description`_
+    * - :ref:`description <dcat-dataset-description>`
       - dct:description
       - **mandatory**, multilingual
-    * - `dataset-publisher`_
+    * - :ref:`publisher <dcat-dataset-publisher>`
       - dct:publisher
       - **mandatory**, **CHANGED rule**
-    * - `dataset-contacts`_
-      - dcat:contactPoints
+    * - :ref:`contact point <dcat-dataset-contact-point>`
+      - dcat:contactPoint
       - **mandatory**
-    * - `dataset-distributions`_
+    * - :ref:`distribution <dcat-dataset-distribution>`
       - dcat:distribution
       - **mandatory**
-    * - `dataset-issued`_
+    * - :ref:`issued <dcat-dataset-issued>`
       - dct:issued
       - conditional
-    * - `dataset-modified`_
+    * - :ref:`modified <dcat-dataset-modified>`
       - dct:modified
       - conditional
-    * - `dataset-categories`_
+    * - :ref:`theme <dcat-dataset-theme>`
       - dcat:theme
       - conditional
-    * - `dataset-language`_
+    * - :ref:`language <dcat-dataset-language>`
       - dct:language
       - conditional
-    * - `dataset-landing-page`_
+    * - :ref:`landing page <dcat-dataset-landing-page>`
       - dcat:landingPage
       - conditional
-    * - `dataset-further-information`_
-      - dct:description
-      - optional
-    * - `dataset-keywords`_
+    * - :ref:`keyword <dcat-dataset-keyword>`
       - dct:keyword
       - optional
-    * - `dataset-spatial`_
+    * - :ref:`spatial <dcat-dataset-spatial>`
       - dct:spatial
       - optional
-    * - `dataset-coverage`_
+    * - :ref:`coverage <dcat-dataset-coverage>`
       - dct:coverage
       - optional
-    * - `dataset-temporal`_
+    * - :ref:`temporal <dcat-dataset-temporal>`
       - dct:temporal
       - optional
-    * - `dataset-frequency`_
+    * - :ref:`accrual periodicty <dcat-dataset-accrual-periodicity>`
       - dct:accrualPeriodicity
       - optional
-    * - `related-datasets`_
+    * - :ref:`see alsos <dcat-dataset-see-alsos>`
       - rdfs:seeAlsos
       - optional
+
 
 .. list-table:: Properties of dcat:Distribution
     :widths: 20 20 30
@@ -267,50 +277,70 @@ marked.
 
     * - property
       - URI
-      - attributes
-    * - `distribution-class`_
-      - dcat:Distribution
-      - **mandatory**
-    * - `distribution-access-url`_
+      - usage notes
+    * - :ref:`access url <dcat-distribution-access-url>`
       - dcat:accessURL
       - **mandatory**
-    * - `distribution-download-url`_
+    * - :ref:`download url <dcat-distribution-download-url>`
       - dcat:downloadURL
       - optional
-    * - `distribution-issued`_
+    * - :ref:`issued <dcat-distribution-issued>`
       - dct:issued
       - **mandatory**
-    * - `distribution-rights`_
+    * - :ref:`title <dcat-distribution-title>`
+      - dct:title
+      - **mandatory**
+    * - :ref:`identifier <dcat-distribution-identifier>`
+      - dct:identifier
+      - **mandatory**
+    * - :ref:`description <dcat-distribution-description>`
+      - dct:description
+      - **mandatory**
+    * - :ref:`rights <dcat-distribution-rights>`
       - dct:rights
       - **mandatory**
-    * - `distribution-media-type`_
+    * - :ref:`media type <dcat-distribution-media-type>`
       - dct:mediaType
       - conditional
-    * - `distribution-format`_
+    * - :ref:`format <dcat-distribution-format>`
       - dct:format
       - conditional
-    * - `distribution-size`_
+    * - :ref:`byte size <dcat-distribution-byte-size>`
       - dct:byteSize
       - conditional
-    * - `distribution-modified`_
-      - dct:modified
-      - conditional
-    * - `distribution-title`_
-      - dct:title
-      - conditional
-    * - `distribution-description`_
-      - dct:description
-      - conditional
-    * - `distribution-language`_
-      - dct:language
-      - conditional
-    * - `distribution-identifier`_
-      - dct:identifier
+    * - :ref:`license <dcat-distribution-license>`
+      - dcat:license
       - optional
-    * - `distribution-coverage`_
+    * - :ref:`coverage <dcat-distribution-coverage>`
       - dct:coverage
       - optional
-    * - `distribution-license`_
+
+.. list-table:: Properties of dcat:Distribution
+    :widths: 20 20 30
+    :header-rows: 1
+    :stub-columns: 1
+
+
+
+    * -:ref:`modified <dcat-distribution-modified>`
+      - dct:modified
+      - conditional
+    * - :ref:`title <dcat-distribution-title>`
+      - dct:title
+      - conditional
+    * - :ref:`desription <dcat-distribution-descriptiom>`
+      - dct:description
+      - conditional
+    * - :ref:`language <dcat-distribution-language>`
+      - dct:language
+      - conditional
+    * -:ref:`identifier <dcat-distribution-identifier>`
+      - dct:identifier
+      - optional
+    * - :ref:`coverage <dcat-distribution-coverage>`
+      - dct:coverage
+      - optional
+    * - :ref:`license <dcat-distribution-license>`
       - dct:license
       - optional, currently not used
 
@@ -319,158 +349,708 @@ marked.
 Catalog
 ----------------------
 
-.. include:: dcat-definitions/catalog-class.rst
-.. include:: dcat-examples/catalog-class-ttl.rst
-.. include:: dcat-examples/catalog-class-rdf.rst
+.. _dcat-catalog-class:
 
-.. include:: dcat-definitions/catalog-datasets.rst
-.. include:: dcat-examples/catalog-datasets-ttl.rst
-.. include:: dcat-examples/catalog-datasets-rdf.rst
+dcat:Catalog (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/catalog-class.rst
+
+.. toggle-header::
+    :header: Class ``dcat:Catalog`` in Turtle
+
+    .. include:: dcat-examples/catalog-class-ttl.rst
+
+.. toggle-header::
+    :header: Class ``dcat:Catalog`` in RDF
+
+    .. include:: dcat-examples/catalog-class-rdf.rst
+
+.. _dcat-catalog-dataset:
+
+dcat:dataset (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/catalog-datasets.rst
+
+.. toggle-header::
+    :header: Property ``dcat:dataset`` of ``dcat:Catalog`` in Turtle
+
+    .. include:: dcat-examples/catalog-datasets-ttl.rst
+
+.. toggle-header::
+    :header:  Property ``dcat:dataset`` of ``dcat:Catalog`` in RDF
+
+    .. include:: dcat-examples/catalog-datasets-rdf.rst
 
 .. _dcat-ap-ch-dataset:
 
 Dataset
 ----------------------
 
-.. include:: dcat-definitions/dataset-class.rst
-.. include:: dcat-examples/dataset-class-ttl.rst
-.. include:: dcat-examples/dataset-class-rdf.rst
+.. _dcat-dataset-class:
 
-.. include:: dcat-definitions/dataset-identifier.rst
-.. include:: dcat-examples/dataset-identifier-ttl.rst
-.. include:: dcat-examples/dataset-identifier-rdf.rst
+dcat:Dataset (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: dcat-definitions/dataset-title.rst
-.. include:: dcat-examples/dataset-title-ttl.rst
-.. include:: dcat-examples/dataset-title-rdf.rst
+.. container:: Mapping
 
-.. include:: dcat-definitions/dataset-description.rst
-.. include:: dcat-examples/dataset-description-ttl.rst
-.. include:: dcat-examples/dataset-description-rdf.rst
+    .. include:: dcat-definitions/dataset-class.rst
 
-.. include:: dcat-definitions/dataset-publisher.rst
-.. include:: dcat-examples/dataset-publisher-ttl.rst
-.. include:: dcat-examples/dataset-publisher-rdf.rst
-.. include:: dcat-examples/dataset-publisher-new-ttl.rst
-.. include:: dcat-examples/dataset-publisher-new-rdf.rst
+.. toggle-header::
+    :header: Class ``dcat:Dataset`` with a URI in Turtle
 
-.. include:: dcat-definitions/dataset-contacts.rst
-.. include:: dcat-examples/dataset-contacts-ttl.rst
-.. include:: dcat-examples/dataset-contacts-rdf.rst
+    .. include:: dcat-examples/dataset-class-ttl.rst
 
-.. include:: dcat-definitions/dataset-distributions.rst
-.. include:: dcat-examples/dataset-distributions-ttl.rst
-.. include:: dcat-examples/dataset-distributions-rdf.rst
+.. toggle-header::
+    :header:  Class ``dcat:Dataset`` with a URI in RDF
 
-.. include:: dcat-definitions/dataset-issued.rst
-.. include:: dcat-examples/dataset-issued-ttl.rst
-.. include:: dcat-examples/dataset-issued-rdf.rst
+    .. include:: dcat-examples/dataset-class-rdf.rst
 
-.. include:: dcat-definitions/dataset-modified.rst
-.. include:: dcat-examples/dataset-modified-ttl.rst
-.. include:: dcat-examples/dataset-modified-rdf.rst
+.. _dcat-dataset-identifier:
 
-.. include:: dcat-definitions/dataset-categories.rst
-.. include:: dcat-examples/dataset-categories-ttl.rst
-.. include:: dcat-examples/dataset-categories-rdf.rst
+dct:identifier (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: dcat-definitions/dataset-language.rst
-.. include:: dcat-examples/dataset-language-ttl.rst
-.. include:: dcat-examples/dataset-language-rdf.rst
+.. container:: Mapping
 
-.. include:: dcat-definitions/dataset-landing-page.rst
-.. include:: dcat-examples/dataset-landing-page-ttl.rst
-.. include:: dcat-examples/dataset-landing-page-rdf.rst
-.. include:: dcat-examples/dataset-landing-page-new-ttl.rst
-.. include:: dcat-examples/dataset-landing-page-new-rdf.rst
+    .. include:: dcat-definitions/dataset-identifier.rst
 
-.. include:: dcat-definitions/dataset-further-information.rst
-.. include:: dcat-examples/dataset-further-information-ttl.rst
-.. include:: dcat-examples/dataset-further-information-rdf.rst
+.. toggle-header::
+    :header: Property ``dcat:identifier`` of ``dcat:Dataset`` in Turtle
 
-.. include:: dcat-definitions/dataset-keywords.rst
-.. include:: dcat-examples/dataset-keywords-ttl.rst
-.. include:: dcat-examples/dataset-keywords-rdf.rst
+    .. include:: dcat-examples/dataset-identifier-ttl.rst
 
-.. include:: dcat-definitions/dataset-spatial.rst
-.. include:: dcat-examples/dataset-spatial-ttl.rst
-.. include:: dcat-examples/dataset-spatial-rdf.rst
+.. toggle-header::
+    :header:  Property ``dcat:identifier`` of ``dcat:Dataset`` in RDF
 
-.. include:: dcat-definitions/dataset-coverage.rst
-.. include:: dcat-examples/dataset-coverage-ttl.rst
-.. include:: dcat-examples/dataset-coverage-rdf.rst
+    .. include:: dcat-examples/dataset-identifier-rdf.rst
 
-.. include:: dcat-definitions/dataset-temporal.rst
-.. include:: dcat-examples/dataset-temporal-ttl.rst
-.. include:: dcat-examples/dataset-temporal-rdf.rst
+.. _dcat-dataset-title:
 
-.. include:: dcat-definitions/dataset-frequency.rst
-.. include:: dcat-examples/dataset-frequency-ttl.rst
-.. include:: dcat-examples/dataset-frequency-rdf.rst
+dct:title (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: dcat-definitions/related-datasets.rst
-.. include:: dcat-examples/related-datasets-ttl.rst
-.. include:: dcat-examples/related-datasets-rdf.rst
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-title.rst
+
+.. toggle-header::
+    :header: Property ``dct:title`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-title-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:title`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-title-rdf.rst
+
+.. _dcat-dataset-description:
+
+dct:description (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-description.rst
+
+.. toggle-header::
+    :header: Property ```dct:description`` of ``dcat:Dataset`` using Markdown in Turtle
+
+    .. include:: dcat-examples/dataset-description-ttl.rst
+
+.. toggle-header::
+    :header: Property ```dct:description`` of ``dcat:Dataset`` using Markdown in RDF
+
+    .. include:: dcat-examples/dataset-description-rdf.rst
+
+.. _dcat-dataset-publisher:
+
+dct:publisher (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-publisher.rst
+
+.. toggle-header::
+    :header: CURRENT Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-publisher-ttl.rst
+
+.. toggle-header::
+    :header: CURRENT Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-publisher-rdf.rst
+
+.. toggle-header::
+    :header: NEW Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-publisher-new-ttl.rst
+
+.. toggle-header::
+    :header: NEW Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-publisher-new-rdf.rst
+
+.. _dcat-dataset-contact-point:
+
+dcat:contactPoint (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-contact-point.rst
+
+.. toggle-header::
+    :header: Property ``dcat:contactPoints`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-contact-point-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:contactPoints`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-contact-point-rdf.rst
+
+.. _dcat-dataset-distribution:
+
+dcat:distribution (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-distribution.rst
+
+.. toggle-header::
+    :header: Property ``dcat:distribution`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-distribution-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:distribution`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-distribution-rdf.rst
+
+.. _dcat-dataset-issued:
+
+dct:issued (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-issued.rst
+
+.. toggle-header::
+    :header: Property ``dct:issued`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-issued-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:issued`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-issued-rdf.rst
+
+.. _dcat-dataset-modified:
+
+dct-modified (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/dataset-modified.rst
+
+.. toggle-header::
+    :header: Property ``dct:modified`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-modified-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:modified`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-modified-rdf.rst
+
+.. _dcat-dataset-theme:
+
+dcat:theme (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-theme.rst
+
+.. toggle-header::
+    :header: Property ``dcat:theme`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-theme-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:theme`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-theme-rdf.rst
+
+.. _dcat-dataset-language:
+
+dct:language (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-language.rst
+
+.. toggle-header::
+    :header: Property ``dct:language`` of ``dcat:Dataset``  in Turtle
+
+    .. include:: dcat-examples/dataset-language-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:language`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-language-rdf.rst
+
+
+.. _dcat-dataset-landing-page:
+
+dcat:landingPage (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-landing-page.rst
+
+.. toggle-header::
+    :header: CURRENT Property ``dcat:landingPage`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-landing-page-ttl.rst
+
+.. toggle-header::
+    :header: CURRENT Property ``dcat:landingPage`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-landing-page-rdf.rst
+
+.. toggle-header::
+    :header: NEW Property ``dcat:landingPage`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-landing-page-new-ttl.rst
+
+.. toggle-header::
+    :header: NEW Property ``dcat:landingPage`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-landing-page-new-rdf.rst
+
+.. _dcat-dataset-relation:
+
+dct:relation (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-relation.rst
+
+.. toggle-header::
+    :header: Property ``dct:relation`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-relation-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:relation`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-relation-rdf.rst
+
+.. _dcat-dataset-keyword:
+
+dcat:keyword (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/dataset-keyword.rst
+
+.. toggle-header::
+    :header: Property ``dct:keyword`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-keyword-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:keyword`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-keyword-rdf.rst
+
+.. _dcat-dataset-spatial:
+
+dct:spatial (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-spatial.rst
+
+.. toggle-header::
+    :header: Property ``dct:spatial`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-spatial-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:spatial`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-spatial-rdf.rst
+
+.. _dcat-dataset-coverage:
+
+dct:relation (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-coverage.rst
+
+.. toggle-header::
+    :header: Property ``dct:coverage`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-coverage-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:coverage`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-coverage-rdf.rst
+
+.. _dcat-dataset-temporal:
+
+dct:temporal (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-temporal.rst
+
+.. toggle-header::
+    :header: Property ``dct:temporal`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-temporal-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:temporal`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-temporal-rdf.rst
+
+.. _dcat-dataset-accrual-periodicity:
+
+dct:accrual-periodicty (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-accrual-periodicity.rst
+
+.. toggle-header::
+    :header: Property ``dct:accrualPeriodicty`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-accrual-periodicity-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:accrualPeriodicty`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-accrual-periodicity-rdf.rst
+
+.. _dcat-dataset-see-alsos:
+
+dcat:see-alsos (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/dataset-see-alsos.rst
+
+.. toggle-header::
+    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-see-alsos-ttl.rst
+
+.. toggle-header::
+    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-see-alsos-rdf.rst
 
 .. _dcat-ap-ch-distribution:
 
 Distribution
 ------------
 
-.. include:: dcat-definitions/distribution-class.rst
-.. include:: dcat-examples/distribution-class-ttl.rst
-.. include:: dcat-examples/distribution-class-rdf.rst
+.. _dcat-distribution-class:
 
-.. include:: dcat-definitions/distribution-access-url.rst
-.. include:: dcat-examples/distribution-access-url-ttl.rst
-.. include:: dcat-examples/distribution-access-url-rdf.rst
+dcat:Distribution (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: dcat-definitions/distribution-download-url.rst
-.. include:: dcat-examples/distribution-download-url-ttl.rst
-.. include:: dcat-examples/distribution-download-url-rdf.rst
+.. container:: Mapping
 
-.. include:: dcat-definitions/distribution-issued.rst
-.. include:: dcat-examples/distribution-issued-ttl.rst
-.. include:: dcat-examples/distribution-issued-rdf.rst
+    .. include:: dcat-definitions/distribution-class.rst
 
-.. include:: dcat-definitions/distribution-rights.rst
-.. include:: dcat-examples/distribution-rights-ttl.rst
-.. include:: dcat-examples/distribution-rights-rdf.rst
+.. toggle-header::
+    :header: Class ``dcat:Distribution`` with a URI in Turtle
 
-.. include:: dcat-definitions/distribution-media-type.rst
-.. include:: dcat-examples/distribution-media-type-ttl.rst
-.. include:: dcat-examples/distribution-media-type-rdf.rst
+    .. include:: dcat-examples/distribution-class-ttl.rst
 
-.. include:: dcat-definitions/distribution-format.rst
-.. include:: dcat-examples/distribution-format-ttl.rst
-.. include:: dcat-examples/distribution-format-rdf.rst
+.. toggle-header::
+    :header: Class ``dcat:Distribution`` with a URI in RDF
 
-.. include:: dcat-definitions/distribution-size.rst
-.. include:: dcat-examples/distribution-size-ttl.rst
-.. include:: dcat-examples/distribution-size-rdf.rst
+    .. include:: dcat-examples/distribution-class-rdf.rst
 
-.. include:: dcat-definitions/distribution-modified.rst
-.. include:: dcat-examples/distribution-modified-ttl.rst
-.. include:: dcat-examples/distribution-modified-rdf.rst
+.. _dcat-distribution-access-url:
 
-.. include:: dcat-definitions/distribution-title.rst
-.. include:: dcat-examples/distribution-title-ttl.rst
-.. include:: dcat-examples/distribution-title-rdf.rst
+dcat:accessURL (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: dcat-definitions/distribution-description.rst
-.. include:: dcat-examples/distribution-description-ttl.rst
-.. include:: dcat-examples/distribution-description-rdf.rst
+.. container:: Mapping
 
-.. include:: dcat-definitions/distribution-language.rst
-.. include:: dcat-examples/distribution-language-ttl.rst
-.. include:: dcat-examples/distribution-language-rdf.rst
+   .. include:: dcat-definitions/distribution-access-url.rst
 
-.. include:: dcat-definitions/distribution-identifier.rst
-.. include:: dcat-examples/distribution-identifier-ttl.rst
-.. include:: dcat-examples/distribution-identifier-rdf.rst
+.. toggle-header::
+    :header: Property ``dcat:accessURL`` of ``dcat:Distribution`` in RDF
 
-.. include:: dcat-definitions/distribution-coverage.rst
-.. include:: dcat-examples/distribution-coverage-ttl.rst
-.. include:: dcat-examples/distribution-coverage-rdf.rst
+    .. include:: dcat-examples/distribution-access-url-ttl.rst
 
-.. include:: dcat-definitions/distribution-license.rst
+.. toggle-header::
+    :header: Property ``dcat:accessURL`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-access-url-rdf.rst
+
+
+.. _dcat-distribution-download-url:
+
+dcat:downloadURL (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-download-url.rst
+
+.. toggle-header::
+    :header: Property ``dcat:downloadURL`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-download-url-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:downloadURL`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-download-url-rdf.rst
+
+.. _dcat-distribution-issued:
+
+dct:issued (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-issued.rst
+
+.. toggle-header::
+    :header: Property ``dct:issued`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-issued-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:issued`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-issued-rdf.rst
+
+.. _dcat-distribution-rights:
+
+dct:rights (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-rights.rst
+
+.. toggle-header::
+    :header: Property ``dct:rights`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-rights-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:rights`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-rights-rdf.rst
+
+.. _dcat-distribution-media-type:
+
+dct:mediaType (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-media-type.rst
+
+.. toggle-header::
+    :header: Property ``dcat:mediaType`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-media-type-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:mediaType`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-media-type-rdf.rst
+
+.. _dcat-distribution-format:
+
+dct:format (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-format.rst
+
+.. toggle-header::
+    :header: Property ``dct:format`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-format-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:format`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-format-rdf.rst
+
+.. _dcat-distribution-byte-size:
+
+dcat:byteSize (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-byte-size.rst
+
+.. toggle-header::
+    :header: Property ``dcat:byteSize`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-byte-size-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:byteSize`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-byte-size-rdf.rst
+
+.. _dcat-distribution-modified:
+
+dct:modified (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-modified.rst
+
+.. toggle-header::
+    :header: Property ``dct:modified`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-modified-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:modified`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-modified-rdf.rst
+
+.. _dcat-distribution-title:
+
+dct:title (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-title.rst
+
+.. toggle-header::
+    :header: Property ``dct:title`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-title-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:title`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/distribution-title-rdf.rst
+
+.. _dcat-distribution-description:
+
+dct:description (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-description.rst
+
+.. toggle-header::
+    :header: Property ```dct:description`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-description-ttl.rst
+
+.. toggle-header::
+    :header: Property ```dct:description`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-description-rdf.rst
+
+.. _dcat-distribution-language:
+
+dct:language (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-language.rst
+
+.. toggle-header::
+    :header: Property ``dct:language`` of ``dcat:Distribution``  in Turtle
+
+    .. include:: dcat-examples/distribution-language-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:language`` of ``dcat:Distribution``  in RDF
+
+    .. include:: dcat-examples/distribution-language-rdf.rst
+
+.. _dcat-distribution-identifier:
+
+dct:identifier (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-identifier.rst
+
+.. toggle-header::
+    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-identifier-ttl.rst
+
+.. toggle-header::
+    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-identifier-rdf.rst
+
+.. _dcat-distribution-coverage:
+
+dct:coverage (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-coverage.rst
+
+.. toggle-header::
+    :header: Property ``dct:coverage`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-coverage-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:coverage`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-coverage-rdf.rst
+
+.. _dcat-distribution-license:
+
+dct:license (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-license.rst
