@@ -1,5 +1,4 @@
-.. toggle-header::
-    :header: NEW Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
+
 
     .. code-block:: xml
         :caption: Publisher of a Dataset NEW implementation

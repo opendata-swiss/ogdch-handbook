@@ -1,17 +1,14 @@
-.. toggle-header::
-    :header: Property ``dct:modified`` of ``dcat:Distribution`` in RDF
+.. code-block:: xml
+    :caption: The modified date is expected in ISO Format
+    :emphasize-lines: 7
 
-    .. code-block:: xml
-        :caption: The modified date is expected in ISO Format
-        :emphasize-lines: 7
+    <?xml version="1.0" encoding="utf-8" ?>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dcat="http://www.w3.org/ns/dcat#"
+             xmlns:dc="http://purl.org/dc/terms/">
 
-        <?xml version="1.0" encoding="utf-8" ?>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                 xmlns:dcat="http://www.w3.org/ns/dcat#"
-                 xmlns:dc="http://purl.org/dc/terms/">
+      <dcat:Distribution rdf:about="https://swisstopo/123">
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dc:modified>
+      </dcat:Distribution>
 
-          <dcat:Distribution rdf:about="https://swisstopo/123">
-            <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dc:modified>
-          </dcat:Distribution>
-
-        </rdf:RDF>
+    </rdf:RDF>

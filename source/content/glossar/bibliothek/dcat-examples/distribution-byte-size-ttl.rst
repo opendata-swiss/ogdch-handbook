@@ -1,11 +1,10 @@
 .. code-block:: Turtle
-    :caption: The issued date is expected in ISO Format
+    :caption: The size in bytes of a distribution is given as a decimal
     :emphasize-lines: 7
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
-    @prefix dct: <http://purl.org/dc/terms/> .
     @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
     <https://swisstopo/123>
       a dcat:Distribution ;
-        dct:issued "2013-04-26T01:00:00Z"^^xsd:dateTime .
+        dcat:byteSize "698039"^^xsd:decimal .
