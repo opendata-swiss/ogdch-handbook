@@ -180,169 +180,189 @@ Translateable elements have been marked. Also DCAT-AP-CH conformance has been
 marked.
 
 .. list-table:: Classes of DCAT-AP-CH
-    :widths: 20 20 30
+    :widths: 20 20 30 30
     :header-rows: 1
     :stub-columns: 1
 
     * - class
       - URI
       - usage notes
+      - conformance note
     * - :ref:`Catalog <dcat-ap-ch-catalog>`
       - dcat:Catalog
       - **mandatory**
+      - not all DCAT-AP-CH properties are implemented
     * - :ref:`Dataset <dcat-ap-ch-dataset>`
-      - dcat:Catalog
+      - dcat:Dataset
       - **mandatory**
+      -
     * - :ref:`Distribution <dcat-ap-ch-distribution>`
       - dcat:Distribution
       - **mandatory**
+      -
 
 .. list-table:: Properties of dcat:Catalog
-    :widths: 20 20 30
+    :widths: 20 20 30 30
     :header-rows: 1
     :stub-columns: 1
 
     * - property
       - URI
       - usage notes
+      - conformance note
     * - :ref:`dataset <dcat-catalog-dataset>`
       - dcat:dataset
       - **mandatory**
+      -
 
 .. list-table:: Properties of dcat:Dataset
-    :widths: 20 20 30
+    :widths: 20 20 30 30
     :header-rows: 1
     :stub-columns: 1
 
     * - property
       - URI
       - usage notes
-    * - :ref:`identifier <dcat-dataset-identifier>`
-      - dct:identifier
-      - **mandatory**
+      - conformance note
     * - :ref:`title <dcat-dataset-title>`
       - dct:title
       - **mandatory**, multilingual
+      -
     * - :ref:`description <dcat-dataset-description>`
       - dct:description
       - **mandatory**, multilingual
+      -
     * - :ref:`publisher <dcat-dataset-publisher>`
       - dct:publisher
       - **mandatory**, **CHANGED rule**
+      - does not conform to DCAT-AP-CH
     * - :ref:`contact point <dcat-dataset-contact-point>`
       - dcat:contactPoint
       - **mandatory**
+      -
+    * - :ref:`identifier <dcat-dataset-identifier>`
+      - dct:identifier
+      - **mandatory**
+      -
     * - :ref:`distribution <dcat-dataset-distribution>`
       - dcat:distribution
       - **mandatory**
+      -
     * - :ref:`issued <dcat-dataset-issued>`
       - dct:issued
       - conditional
+      -
     * - :ref:`modified <dcat-dataset-modified>`
       - dct:modified
       - conditional
+      -
     * - :ref:`theme <dcat-dataset-theme>`
       - dcat:theme
       - conditional
-    * - :ref:`language <dcat-dataset-language>`
-      - dct:language
-      - conditional
+      -
     * - :ref:`landing page <dcat-dataset-landing-page>`
       - dcat:landingPage
       - conditional
+      -
+    * - :ref:`language <dcat-dataset-language>`
+      - dct:language
+      - conditional
+      -
     * - :ref:`keyword <dcat-dataset-keyword>`
-      - dct:keyword
+      - dcat:keyword
       - optional
+      -
     * - :ref:`spatial <dcat-dataset-spatial>`
       - dct:spatial
       - optional
+      -
     * - :ref:`coverage <dcat-dataset-coverage>`
       - dct:coverage
       - optional
+      -
     * - :ref:`temporal <dcat-dataset-temporal>`
       - dct:temporal
       - optional
+      -
     * - :ref:`accrual periodicty <dcat-dataset-accrual-periodicity>`
       - dct:accrualPeriodicity
       - optional
+      -
+    * - :ref:`coverage <dcat-dataset-relation>`
+      - dct:relation
+      - optional
+      -
     * - :ref:`see alsos <dcat-dataset-see-alsos>`
       - rdfs:seeAlsos
       - optional
+      -
 
 
 .. list-table:: Properties of dcat:Distribution
-    :widths: 20 20 30
+    :widths: 20 20 30 30
     :header-rows: 1
     :stub-columns: 1
 
     * - property
       - URI
       - usage notes
-    * - :ref:`access url <dcat-distribution-access-url>`
-      - dcat:accessURL
-      - **mandatory**
-    * - :ref:`download url <dcat-distribution-download-url>`
-      - dcat:downloadURL
-      - optional
+      - conformance note
     * - :ref:`issued <dcat-distribution-issued>`
       - dct:issued
       - **mandatory**
-    * - :ref:`title <dcat-distribution-title>`
-      - dct:title
+      -
+    * - :ref:`access url <dcat-distribution-access-url>`
+      - dcat:accessURL
       - **mandatory**
-    * - :ref:`identifier <dcat-distribution-identifier>`
-      - dct:identifier
-      - **mandatory**
-    * - :ref:`description <dcat-distribution-description>`
-      - dct:description
-      - **mandatory**
+      -
     * - :ref:`rights <dcat-distribution-rights>`
       - dct:rights
       - **mandatory**
-    * - :ref:`media type <dcat-distribution-media-type>`
-      - dct:mediaType
-      - conditional
-    * - :ref:`format <dcat-distribution-format>`
-      - dct:format
-      - conditional
-    * - :ref:`byte size <dcat-distribution-byte-size>`
-      - dct:byteSize
-      - conditional
-    * - :ref:`license <dcat-distribution-license>`
-      - dcat:license
-      - optional
-    * - :ref:`coverage <dcat-distribution-coverage>`
-      - dct:coverage
-      - optional
-
-.. list-table:: Properties of dcat:Distribution
-    :widths: 20 20 30
-    :header-rows: 1
-    :stub-columns: 1
-
-
-
-    * -:ref:`modified <dcat-distribution-modified>`
-      - dct:modified
-      - conditional
+      - does not conform to DCAT-AP-CH
     * - :ref:`title <dcat-distribution-title>`
       - dct:title
       - conditional
-    * - :ref:`desription <dcat-distribution-descriptiom>`
+      -
+    * - :ref:`description <dcat-distribution-description>`
       - dct:description
       - conditional
+      -
+    * - :ref:`byte size <dcat-distribution-byte-size>`
+      - dct:byteSize
+      - conditional
+      -
+    * - :ref:`media type <dcat-distribution-media-type>`
+      - dct:mediaType
+      - conditional
+      -
+    * - :ref:`format <dcat-distribution-format>`
+      - dct:format
+      - conditional
+      -
     * - :ref:`language <dcat-distribution-language>`
       - dct:language
       - conditional
-    * -:ref:`identifier <dcat-distribution-identifier>`
+      -
+    * - :ref:`modified <dcat-distribution-modified>`
+      - dct:modified
+      - conditional
+      -
+    * - :ref:`license <dcat-distribution-license>`
+      - dcat:license
+      - optional
+      - does not conform to DCAT-AP
+    * - :ref:`identifier <dcat-distribution-identifier>`
       - dct:identifier
       - optional
+      -
+    * - :ref:`download url <dcat-distribution-download-url>`
+      - dcat:downloadURL
+      - optional
+      -
     * - :ref:`coverage <dcat-distribution-coverage>`
       - dct:coverage
       - optional
-    * - :ref:`license <dcat-distribution-license>`
-      - dct:license
-      - optional, currently not used
+      -
 
 .. _dcat-ap-ch-catalog:
 
