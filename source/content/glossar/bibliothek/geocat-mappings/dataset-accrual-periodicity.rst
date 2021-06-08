@@ -1,4 +1,4 @@
-:DCAT URI: dct:accrualPeriodictiy
+:DCAT: :ref:`dcat:accrualPeriodictiy <dcat-dataset-accrual-periodictiy>`
 :XPATH: //gmd:identificationInfo//che:CHE_MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/
 :Value: gmd:MD_MaintenanceFrequencyCode/@codeListValue
 :Mapping:

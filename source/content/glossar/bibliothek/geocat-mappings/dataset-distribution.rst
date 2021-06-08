@@ -1,4 +1,4 @@
-:DCAT URI: dcat:distribution
+:DCAT URI: dcat:distribution:ref:`dct:temporal <dcat-dataset-temporal>`
 :XPATH: ?
    :protocol:  //gmd:distributionInfo/gmd:MD_Distribution[//gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol
 :Value: ?

@@ -1,4 +1,4 @@
-:DCAT: dct:relation
+:DCAT: dct:relation:ref:`dct:temporal <dcat-dataset-temporal>`
 :XPATH: ``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource``
 :Protocol: WWW:LINK-1.0-http--link
 :Value: ``che:LocalisedURL``

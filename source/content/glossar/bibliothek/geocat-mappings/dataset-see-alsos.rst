@@ -1,4 +1,4 @@
-:DCAT: dct:seeAlso
+:DCAT: dct:seeAlso:ref:`dct:temporal <dcat-dataset-temporal>`
 :XPATH: ``//gmd:identificationInfo//gmd:aggregationInfo//gmd:aggregateDataSetIdentifier/gmd:MD_Identifier``
 :Value: ``/gmd:code/gco:CharacterString``
 

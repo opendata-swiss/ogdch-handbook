@@ -1,4 +1,4 @@
-:DCAT URI: dcat:contactPoint
+:DCAT URI: dcat:contactPoint:ref:`dct:temporal <dcat-dataset-temporal>`
 :XPATH: //gmd:identificationInfo/gmd:pointOfContact or //gmd:contact
 :Value: gmd:electronicMailAddress/gco:CharacterString
 
