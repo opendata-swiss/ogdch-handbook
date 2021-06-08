@@ -498,12 +498,12 @@ dct:publisher (DCAT)
     .. include:: dcat-definitions/dataset-publisher.rst
 
 .. toggle-header::
-    :header: CURRENT Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
+    :header: CURRENT Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-publisher-ttl.rst
 
 .. toggle-header::
-    :header: CURRENT Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
+    :header: CURRENT Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
 
     .. include:: dcat-examples/dataset-publisher-rdf.rst
 
@@ -608,7 +608,7 @@ dcat:theme (DCAT)
     .. include:: dcat-examples/dataset-theme-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:theme`` of ``dcat:Dataset`` in Turtle
+    :header: Property ``dcat:theme`` of ``dcat:Dataset`` in RDF
 
     .. include:: dcat-examples/dataset-theme-rdf.rst
 
@@ -747,12 +747,12 @@ dct:temporal (DCAT)
     .. include:: dcat-definitions/dataset-temporal.rst
 
 .. toggle-header::
-    :header: Property ``dct:temporal`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:temporal`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-temporal-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:temporal`` of ``dcat:Dataset`` in Turtle
+    :header: Property ``dct:temporal`` of ``dcat:Dataset`` in RDF
 
     .. include:: dcat-examples/dataset-temporal-rdf.rst
 
