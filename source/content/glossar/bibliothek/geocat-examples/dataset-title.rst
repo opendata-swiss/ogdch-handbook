@@ -1,5 +1,3 @@
-.. toggle-header::
-    :header: Example for geocat-mapping to ``dct:title``
 
     .. code-block:: xml
        :caption: Example of getting dct:title: only 4 languages are taken: DE, EN, FR, IT

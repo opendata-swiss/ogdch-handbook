@@ -57,75 +57,84 @@ Overview
       - URI
       - usage notes
       - geocat
-    * - `dataset-identifier`_
+    * - :ref:`identifier <geocat-dataset-identifier>`
       - dct:identifier
       - **mandatory**
       - ``gmd:identificationInfo``
-    * - `dataset-title`_
+    * -  :ref:`title <geocat-dataset-title>`
       - dct:title
       - **mandatory**, multilingual
       - ``gmd:identificationInfo``
-    * - `dataset-description`_
+    * - :ref:`description <geocat-dataset-description>`
       - dct:description
       - **mandatory**, multilingual
       - ``gmd:identificationInfo``
-    * - `dataset-publisher`_
+    * - :ref:`publisher <geocat-dataset-publisher>`
       - dct:publisher
-      - **mandatory**, **CHANGED rule**
+      - **mandatory**
       - ``gmd:identificationInfo``
-    * - `dataset-contacts`_
+    * - :ref:`contacts <geocat-dataset-contacts>`
       - dcat:contactPoints
       - **mandatory**
       - ``gmd:identificationInfo``
-    * - `dataset-distributions`_
+
+
+.. list-table:: Properties of dcat:Dataset
+    :widths: 20 20 30 30
+    :header-rows: 1
+    :stub-columns: 1
+
+
+
+    * - :ref:`distributions <geocat-dataset-distributions>`
       - dcat:distribution
       - **mandatory**
       - needs work
-    * - `dataset-issued`_
+    * - :ref:`issued <geocat-dataset-issued>`
       - dct:issued
       - conditional
       - ``gmd:identificationInfo``
-    * - `dataset-modified`_
+    * - :ref:`modified <geocat-dataset-modified>`
       - dct:modified
       - conditional
       - ``gmd:identificationInfo``
-    * - `dataset-categories`_
+    * - :ref:catergories <geocat-dataset-categories>`
       - dcat:theme
       - conditional
       -
-    * - `dataset-language`_
+    * - :ref:`identifier <geocat-dataset-identifier>`
       - dct:language
       - conditional
       -
-    * - `dataset-landing-page`_
+    * - :ref:`identifier <geocat-dataset-identifier>`
       - dcat:landingPage
       - conditional
       -
-    * - `dataset-further-information`_
+    * - :ref:`identifier <geocat-dataset-identifier>`
       - dct:description
       - optional
       -
-    * - `dataset-keywords`_
+    * - :ref:`identifier <geocat-dataset-identifier>`
       - dct:keyword
       - optional
       -
-    * - `dataset-spatial`_
+    * - :ref:`identifier <geocat-dataset-identifier>`
       - dct:spatial
       - optional
       - not implemented
-    * - `dataset-coverage`_
+    * - :ref:`identifier <geocat-dataset-identifier>`
       - dct:coverage
       - optional
       - not implemented
-    * - `dataset-temporal`_
+    * -:ref:`identifier <geocat-dataset-identifier>`
       - dct:temporal
       - optional
       -
-    * - `dataset-frequency`_
+    * - :ref:`identifier <geocat-dataset-identifier>`
       - dct:accrualPeriodicity
       - optional
       -
-    * - `related-datasets`_
+    * - :ref:`identifier <geocat-dataset-identifier>`
       - rdfs:seeAlsos
       - optional
       -
@@ -189,75 +198,329 @@ Overview
 Dataset
 -------
 
-:ref:`back to overview <iso_19139_che-overview>`
+.. _geocat-dataset-identifier:
 
-.. include:: dcat-definitions/dataset-identifier.rst
-.. include:: geocat-mappings/dataset-identifier.rst
-.. include:: geocat-examples/dataset-identifier.rst
+dct:identifier (geocat)
+^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: dcat-definitions/dataset-title.rst
-.. include:: geocat-mappings/dataset-title.rst
-.. include:: geocat-examples/dataset-title.rst
+.. container:: Mapping
 
-.. include:: dcat-definitions/dataset-description.rst
-.. include:: geocat-mappings/dataset-description.rst
-.. include:: geocat-examples/dataset-description.rst
+   .. include:: geocat-mappings/dataset-identifier.rst
 
-.. include:: dcat-definitions/dataset-publisher.rst
-.. include:: geocat-mappings/dataset-publisher.rst
-.. include:: geocat-examples/dataset-publisher.rst
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:identifier``
 
-.. include:: dcat-definitions/dataset-contacts.rst
-.. include:: geocat-mappings/dataset-contacts.rst
-.. include:: geocat-examples/dataset-contacts.rst
+    .. include:: geocat-examples/dataset-identifier.rst
 
-.. include:: dcat-definitions/dataset-distributions.rst
-.. include:: geocat-mappings/dataset-distributions.rst
-.. include:: geocat-examples/dataset-distributions.rst
+.. toggle-header::
+    :header: Defintition of ``dct:identifier`` in DCAT-AP-CH
 
-.. include:: dcat-definitions/dataset-issued.rst
-.. include:: geocat-mappings/dataset-issued.rst
-.. include:: geocat-examples/dataset-issued.rst
+    .. include:: dcat-definitions/dataset-identifier.rst
 
-.. include:: dcat-definitions/dataset-modified.rst
-.. include:: geocat-mappings/dataset-modified.rst
-.. include:: geocat-examples/dataset-modified.rst
+.. _geocat-dataset-title
 
-.. include:: dcat-definitions/dataset-categories.rst
-.. include:: geocat-mappings/dataset-categories.rst
-.. include:: geocat-examples/dataset-categories.rst
+Map to dct:title
+^^^^^^^^^^^^^^^^
 
-.. include:: dcat-definitions/dataset-language.rst
-.. include:: geocat-mappings/dataset-language.rst
-.. include:: geocat-examples/dataset-language.rst
+.. container:: Mapping
 
-.. include:: dcat-definitions/dataset-landing-page.rst
-.. include:: geocat-mappings/dataset-landing-page.rst
-.. include:: geocat-examples/dataset-landing-page.rst
+    .. include:: geocat-mappings/dataset-title.rst
 
-.. include:: dcat-definitions/dataset-further-information.rst
-.. include:: geocat-mappings/dataset-further-information.rst
-.. include:: geocat-examples/dataset-further-information.rst
+.. toggle-header::
+    :header: Example for geocat-mapping to ``dct:title``
 
-.. include:: dcat-definitions/dataset-keywords.rst
-.. include:: geocat-mappings/dataset-keywords.rst
-.. include:: geocat-examples/dataset-keywords.rst
+    .. include:: geocat-examples/dataset-title.rst
 
-.. include:: dcat-definitions/dataset-spatial.rst
-.. include:: geocat-mappings/dataset-spatial.rst
+.. toggle-header::
+    :header: Defintition of ``dct:title`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-title.rst
+
+.. _geocat-dataset-description
+
+Map to dct:description
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-description.rst
+
+.. toggle-header::
+    :header: Example for geocat-mapping to ``dct:description``
+
+    .. include:: geocat-examples/dataset-description.rst
+
+.. toggle-header::
+    :header: Defintition of ``dct:description`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-description.rst
+
+.. _geocat-dataset-publisher:
+
+Map to dct:publisher
+^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-publisher.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:publisher``
+
+    .. include:: geocat-examples/dataset-publisher.rst
+
+.. toggle-header::
+    :header: Defintition of ``dct:publisher`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-publisher.rst
+
+.. _geocat-dataset-contacts:
+
+Map to dct:contactPoint
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-contacts.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dcat:contactPoint``
+
+    .. include:: geocat-examples/dataset-contacts.rst
+
+.. toggle-header::
+    :header: Defintition of ``dcat:contactPoint`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-contacts.rst
+
+.. _geocat-dataset-distributions:
+
+Map to dcat:distributions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-distributions.rst
+
+.. toggle-header::
+    :header: Example for geocat-mapping to ``dcat:distribution``
+
+    .. include:: geocat-examples/dataset-distributions.rst
+
+.. toggle-header::
+    :header: Defintition of ``dcat:distribution`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-distributions.rst
+
+.. _geocat-dataset-issued:
+
+Map to dct:issued
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-issued.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:issued``
+
+    .. include:: geocat-examples/dataset-issued.rst
+
+.. toggle-header::
+    :header: Defintition of ``dct:issued`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-issued.rst
+
+.. _geocat-dataset-modified
+
+Map to dct:modified
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+		.. include:: geocat-mappings/dataset-modified.rst
+
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:modified``
+
+		.. include:: geocat-examples/dataset-modified.rst
+
+.. toggle-header::
+    :header: Defintition of ``dct:modified`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-modified.rst
+
+.. _geocat-dataset-categories
+
+Map to dcat:theme
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-categories.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dcat:theme``
+
+    .. include:: geocat-examples/dataset-categories.rst
+
+.. toggle-header::
+    :header: Defintition of ``dcat:theme`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-categories.rst
+
+.. _geocat-dataset-language
+
+Map to dct:language
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-language.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:language``
+
+    .. include:: geocat-examples/dataset-language.rst
+
+.. toggle-header::
+    :header: Defintition of ``dct:language`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-language.rst
+
+.. _geocat-dataset-landing-page
+
+Map to dct:landing-page
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-landing-page.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dcat:langingPage``
+
+    .. include:: geocat-examples/dataset-landing-page.rst
+
+.. toggle-header::
+    :header: Defintition of ``dcat:landingPage`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-landing-page.rst
+
+.. _geocat-dataset-further-information
+
+Map to dct:relation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-further-information.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:relation``
+
+    .. include:: geocat-examples/dataset-further-information.rst
+
+.. toggle-header::
+    :header: Defintition of ``dct:relation`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-further-information.rst
+
+. _geocat-dataset-keywords
+
+Map to dct:keyword
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-keywords.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dcat:keyword``
+
+    .. include:: geocat-examples/dataset-keywords.rst
+
+.. toggle-header::
+    :header: Defintition of ``dct:keyword`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-keywords.rst
+
+.. _geocat-dataset-spatial
+
+Map to dct:spatial
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-spatial.rst
+
+.. include:: geocat-examples/dataset-spatial.rst
+
+.. toggle-header::
+    :header: Defintition of ``dct:spatial`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-spatial.rst
+
+.. _geocat-dataset-coverage
+
+Map to to dct:coverage
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Mappimg not implemented
 
 .. include:: dcat-definitions/dataset-coverage.rst
-.. include:: geocat-mappings/dataset-coverage.rst
 
-.. include:: dcat-definitions/dataset-temporal.rst
-.. include:: geocat-mappings/dataset-temporal.rst
+.. _geocat-dataset-temporal
 
-.. include:: dcat-definitions/dataset-frequency.rst
-.. include:: geocat-mappings/dataset-frequency.rst
-.. include:: geocat-examples/dataset-frequency.rst
+Map to dct:temporal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: dcat-definitions/related-datasets.rst
-.. include:: geocat-mappings/related-datasets.rst
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-temporal.rst
+
+.. include:: geocat-examples/dataset-temporal.rst
+
+.. toggle-header::
+    :header: Defintition of ``dct:temporal`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-temporal.rst
+
+.. _geocat-dataset-frequency
+
+Map to dct:accrualPeriodicity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-frequency.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:accrualPeriodicity``
+
+    .. include:: geocat-examples/dataset-frequency.rst
+
+.. toggle-header::
+    :header: Defintition of ``dct:spatial`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/dataset-frequency.rst
+
+.. _geocat-dataset-related-datasets
+
+Map to dct:seeAlsos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/related-datasets.rst
+
+.. include:: geocat-examples/related-datasets.rst
+
+.. toggle-header::
+    :header: Defintition of ``dcat:seeAlsos`` in DCAT-AP-CH
+
+    .. include:: dcat-definitions/related-datasets.rst
 
 .. _iso_19139_che-distribution:
 

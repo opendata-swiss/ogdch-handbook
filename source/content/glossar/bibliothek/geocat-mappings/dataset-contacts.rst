@@ -1,5 +1,4 @@
-**Geocat-Mapping**
-
+:DCAT URI: dcat:contactPoint
 :XPATH: //gmd:identificationInfo/gmd:pointOfContact or //gmd:contact
 :Value: gmd:electronicMailAddress/gco:CharacterString
 

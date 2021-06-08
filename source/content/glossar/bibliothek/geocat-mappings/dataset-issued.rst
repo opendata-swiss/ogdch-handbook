@@ -1,5 +1,4 @@
-**Geocat-Mapping**
-
+:DCAT: dct:issued
 :XPATH: ``//gmd:identificationInfo//gmd:citation//gmd:CI_Date``
 :Role: ``publication`` or ``creation`` or ``revision``
 :Value: ``//gco:Date`` or ``//gco:DateTime``

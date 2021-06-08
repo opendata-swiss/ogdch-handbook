@@ -1,3 +1,2 @@
-**Geocat-Mapping**
-
+:DCAT: dct:spatial
 :Status: Not implemented

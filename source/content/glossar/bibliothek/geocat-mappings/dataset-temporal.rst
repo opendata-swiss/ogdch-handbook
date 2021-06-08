@@ -1,5 +1,4 @@
-**Geocat-Mapping**
-
+:DCAT: dct:temporal
 :XPATH: ``//gmd:identificationInfo//gmd:extent//gmd:temporalElement``
 :Value: ``//gml:TimePeriod/gml:beginPosition``, ``//gml:TimePeriod/gml:endPosition``
 
