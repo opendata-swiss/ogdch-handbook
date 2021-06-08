@@ -56,142 +56,145 @@ Overview
     * - property
       - URI
       - usage notes
-      - geocat
-    * - :ref:`identifier <geocat-dataset-identifier>`
-      - dct:identifier
-      - **mandatory**
-      - ``gmd:identificationInfo``
-    * -  :ref:`title <geocat-dataset-title>`
+      - mapped from
+    * - :ref:`title <geocat-dataset-title>`
       - dct:title
       - **mandatory**, multilingual
-      - ``gmd:identificationInfo``
+      - gmd:identificationInfo
     * - :ref:`description <geocat-dataset-description>`
       - dct:description
       - **mandatory**, multilingual
-      - ``gmd:identificationInfo``
+      - gmd:identificationInfo
     * - :ref:`publisher <geocat-dataset-publisher>`
       - dct:publisher
+      - **mandatory**, **CHANGED rule**
+      -
+    * - :ref:`contact point <geocat-dataset-contact-point>`
+      - dcat:contactPoint
       - **mandatory**
-      - ``gmd:identificationInfo``
-    * - :ref:`contacts <geocat-dataset-contacts>`
-      - dcat:contactPoints
+      -
+    * - :ref:`identifier <geocat-dataset-identifier>`
+      - dct:identifier
       - **mandatory**
-      - ``gmd:identificationInfo``
-
-
-.. list-table:: Properties of dcat:Dataset
-    :widths: 20 20 30 30
-    :header-rows: 1
-    :stub-columns: 1
-
-
-
-    * - :ref:`distributions <geocat-dataset-distributions>`
+      -
+    * - :ref:`distribution <geocat-dataset-distribution>`
       - dcat:distribution
       - **mandatory**
-      - needs work
+      -
     * - :ref:`issued <geocat-dataset-issued>`
       - dct:issued
       - conditional
-      - ``gmd:identificationInfo``
+      -
     * - :ref:`modified <geocat-dataset-modified>`
       - dct:modified
       - conditional
-      - ``gmd:identificationInfo``
-    * - :ref:catergories <geocat-dataset-categories>`
+      -
+    * - :ref:`theme <geocat-dataset-theme>`
       - dcat:theme
       - conditional
       -
-    * - :ref:`identifier <geocat-dataset-identifier>`
-      - dct:language
-      - conditional
-      -
-    * - :ref:`identifier <geocat-dataset-identifier>`
+    * - :ref:`landing page <dgeocat-dataset-landing-page>`
       - dcat:landingPage
       - conditional
       -
-    * - :ref:`identifier <geocat-dataset-identifier>`
-      - dct:description
+    * - :ref:`language <geocat-dataset-language>`
+      - dct:language
+      - conditional
+      -
+    * - :ref:`keyword <geocat-dataset-keyword>`
+      - dcat:keyword
       - optional
       -
-    * - :ref:`identifier <geocat-dataset-identifier>`
-      - dct:keyword
-      - optional
-      -
-    * - :ref:`identifier <geocat-dataset-identifier>`
+    * - :ref:`spatial <geocat-dataset-spatial>`
       - dct:spatial
       - optional
-      - not implemented
-    * - :ref:`identifier <geocat-dataset-identifier>`
+      -
+    * - :ref:`coverage <geocat-dataset-coverage>`
       - dct:coverage
       - optional
-      - not implemented
-    * -:ref:`identifier <geocat-dataset-identifier>`
+      -
+    * - :ref:`temporal <geocat-dataset-temporal>`
       - dct:temporal
       - optional
       -
-    * - :ref:`identifier <geocat-dataset-identifier>`
+    * - :ref:`accrual periodicty <geocat-dataset-accrual-periodicity>`
       - dct:accrualPeriodicity
       - optional
       -
-    * - :ref:`identifier <geocat-dataset-identifier>`
+    * - :ref:`coverage <geocat-dataset-relation>`
+      - dct:relation
+      - optional
+      -
+    * - :ref:`see alsos <geocat-dataset-see-alsos>`
       - rdfs:seeAlsos
       - optional
       -
 
 .. list-table:: Properties of dcat:Distribution
-    :widths: 20 20 30
+    :widths: 20 20 30 30
     :header-rows: 1
     :stub-columns: 1
 
     * - property
       - URI
-      - attributes
-    * - `distribution-class`_
-      - dcat:Distribution
-      - **mandatory**
-    * - `distribution-access-url`_
-      - dcat:accessURL
-      - **mandatory**
-    * - `distribution-download-url`_
-      - dcat:downloadURL
-      - optional
-    * - `distribution-issued`_
+      - usage notes
+      - mapped from
+    * - :ref:`issued <geocat-distribution-issued>`
       - dct:issued
       - **mandatory**
-    * - `distribution-rights`_
+      -
+    * - :ref:`access url <geocat-distribution-access-url>`
+      - dcat:accessURL
+      - **mandatory**
+      -
+    * - :ref:`rights <dgeocat-distribution-rights>`
       - dct:rights
       - **mandatory**
-    * - `distribution-media-type`_
-      - dct:mediaType
-      - conditional
-    * - `distribution-format`_
-      - dct:format
-      - conditional
-    * - `distribution-size`_
-      - dct:byteSize
-      - conditional
-    * - `distribution-modified`_
-      - dct:modified
-      - conditional
-    * - `distribution-title`_
+      - does not conform to DCAT-AP-CH
+    * - :ref:`title <geocat-distribution-title>`
       - dct:title
       - conditional
-    * - `distribution-description`_
+      -
+    * - :ref:`description <geocat-distribution-description>`
       - dct:description
       - conditional
-    * - `distribution-language`_
+      -
+    * - :ref:`byte size <geocat-distribution-byte-size>`
+      - dct:byteSize
+      - conditional
+      -
+    * - :ref:`media type <geocat-distribution-media-type>`
+      - dct:mediaType
+      - conditional
+      -
+    * - :ref:`format <geocat-distribution-format>`
+      - dct:format
+      - conditional
+      -
+    * - :ref:`language <geocat-distribution-language>`
       - dct:language
       - conditional
-    * - `distribution-identifier`_
+      -
+    * - :ref:`modified <geocat-distribution-modified>`
+      - dct:modified
+      - conditional
+      -
+    * - :ref:`license <geocat-distribution-license>`
+      - dcat:license
+      - optional
+      - does not conform to DCAT-AP
+    * - :ref:`identifier <geocat-distribution-identifier>`
       - dct:identifier
       - optional
-    * - `distribution-license`_
-      - dct:license
+      -
+    * - :ref:`download url <geocat-distribution-download-url>`
+      - dcat:downloadURL
       - optional
-    * - `distribution-coverage`_
+      -
+    * - :ref:`coverage <geocat-distribution-coverage>`
       - dct:coverage
       - optional
+      -
 
 .. _iso_19139_che-dataset:
 
@@ -427,7 +430,7 @@ Map to dct:relation
 
     .. include:: dcat-definitions/dataset-further-information.rst
 
-. _geocat-dataset-keywords
+. _geocat-dataset-keyword
 
 Map to dct:keyword
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -527,12 +530,19 @@ Map to dct:seeAlsos
 Distribution
 ------------
 
-.. include:: dcat-definitions/distribution-class.rst
-.. include:: geocat-mappings/distribution-class.rst
+.. _geocat-distributtion-access-url
 
-.. include:: dcat-definitions/distribution-access-url.rst
+Map to dcat:accessURL
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-access-url.rst
+
 .. include:: geocat-mappings/distribution-access-url.rst
+
 .. include:: geocat-examples/distribution-access-url.rst
+
 
 .. include:: dcat-definitions/distribution-download-url.rst
 .. include:: geocat-mappings/distribution-download-url.rst
