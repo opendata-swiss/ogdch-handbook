@@ -1,6 +1,6 @@
-:DCAT: dct:identifier
-:XPATH: //gmd:fileIdentifier
-:Value: gco:CharacterString/text()
+:DCAT: :ref:`dct:identifier <dcat-dataset-identifier>`
+:XPATH: ``//gmd:fileIdentifier``
+:Value: ``gco:CharacterString/text()``
 :Format: the identifier should be of the form ``<id>@<organization-slug>``
 
 .. code-block:: xml

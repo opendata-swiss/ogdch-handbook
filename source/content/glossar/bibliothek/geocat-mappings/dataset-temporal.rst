@@ -1,4 +1,4 @@
-:DCAT: dct:temporal
+:DCAT: :ref:`dct:temporal <dcat-dataset-temporal>`
 :XPATH: ``//gmd:identificationInfo//gmd:extent//gmd:temporalElement``
 :Value: ``//gml:TimePeriod/gml:beginPosition``, ``//gml:TimePeriod/gml:endPosition``
 
