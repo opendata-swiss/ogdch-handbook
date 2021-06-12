@@ -1,14 +1,24 @@
-.. code-block:: xml
-		:caption: example: codeListValue=“publication“ was found, 2012-05-11 is taken
-		:emphasize-lines: 4,7
+ .. code-block:: xml
+    :caption: //gmd:identificationInfo//gmd:citation//gmd:CI_Date
+              the "creation" date is taken for dct:issued
+    :emphasize-lines: 12,16,17
 
-		<gmd:date>
-		   <gmd:CI_Date>
-		      <gmd:date>
-		         <gco:Date>2012-05-11</gco:Date>
-		      </gmd:date>
-		      <gmd:dateType>
-		         <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
-		      </gmd:dateType>
-		   </gmd:CI_Date>
-		</gmd:date>
+    <gmd:CI_Date>
+        <gmd:date>
+            <gco:DateTime>2020:10:21T00:00:00</gco:DateTime>
+        </gmd:date>
+        <gmd:dateType>
+            <gmd:CI_DateTypeCode codeListValue="revision"
+                                 codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"/>
+        </gmd:dateType>
+    </gmd:CI_Date>
+    <gmd:CI_Date>
+        <gmd:date>
+            <gco:DateTime>2011:01:01T00:00:00</gco:DateTime>
+        </gmd:date>
+        <gmd:dateType>
+            <gmd:CI_DateTypeCode
+                codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                codeListValue="creation"/>
+        </gmd:dateType>
+    </gmd:CI_Date>
