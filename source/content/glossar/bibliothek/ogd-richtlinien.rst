@@ -72,7 +72,7 @@ folgende Angaben:
 
 - **Kategorie**: Kategorie des Datasets, gemäss Kategorien opendata.swiss, siehe
 
-  :download:`SKOS-RDF <../../../_static/examples/opendataswiss-themes.rdf>`
+  :download:`SKOS-RDF <../../../_static/vocabulary/theme.rdf>`
 
 - **Angaben zur Offenheit des Datasets**. Mögliche Werte:
 
