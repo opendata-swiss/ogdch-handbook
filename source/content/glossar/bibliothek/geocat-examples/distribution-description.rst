@@ -1,21 +1,31 @@
 .. code-block:: xml
-    :caption: Example of getting dct:description from gmd with ISO-19139_che XPath
-    :emphasize-lines: 5,8,11,14
+    :caption: Example of getting dct:description for dcat:Distribution from a geocat Distribution
+    :emphasize-lines: 18-26
 
-    <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
-       <gco:CharacterString>Download Server von geo.admin.ch</gco:CharacterString>
-       <gmd:PT_FreeText>
-         <gmd:textGroup>
-           <gmd:LocalisedCharacterString locale="#DE">Download Server von geo.admin.ch</gmd:LocalisedCharacterString>
-         </gmd:textGroup>
-         <gmd:textGroup>
-           <gmd:LocalisedCharacterString locale="#FR">Serveur de téléchargement de geo.admin.ch</gmd:LocalisedCharacterString>
-         </gmd:textGroup>
-         <gmd:textGroup>
-           <gmd:LocalisedCharacterString locale="#EN">Download server from geo.admin.ch</gmd:LocalisedCharacterString>
-         </gmd:textGroup>
-         <gmd:textGroup>
-           <gmd:LocalisedCharacterString locale="#IT">Server di download di geo.admin.ch</gmd:LocalisedCharacterString>
-         </gmd:textGroup>
-       </gmd:PT_FreeText>
-    </gmd:description>
+    <gmd:CI_OnlineResource>
+        <gmd:linkage>
+            <gmd:URL>https://map.geo.admin.ch/?layers=ch.bfe.energiestaedte
+            </gmd:URL>
+        </gmd:linkage>
+        <gmd:protocol>
+            <gco:CharacterString>MAP:Preview</gco:CharacterString>
+        </gmd:protocol>
+        <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Map Preview</gco:CharacterString>
+            <gmd:PT_FreeText>
+                <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Map Preview
+                    </gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+            </gmd:PT_FreeText>
+        </gmd:name>
+        <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>map preview</gco:CharacterString>
+            <gmd:PT_FreeText>
+                <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">map preview
+                    </gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+            </gmd:PT_FreeText>
+        </gmd:description>
+    </gmd:CI_OnlineResource>

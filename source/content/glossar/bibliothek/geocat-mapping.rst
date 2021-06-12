@@ -151,13 +151,13 @@ Mapping to dcat:Distribution
     * - :ref:`dct:description <dcat-distribution-description>`
       - :ref:`.//gmd:description <geocat-distribution-description>`
       -
-    * - :ref:`dcat:byteSize <geocat-distribution-byte-size>`
+    * - :ref:`dcat:byteSize <dcat-distribution-byte-size>`
       -
       - mapping not implemented
     * - :ref:`media type <dcat-distribution-media-type>`
       - :ref:`.//gmd:protocol <geocat-distribution-media-type>`
       - derived from the protocol
-    * - :ref:`dct:format <geocat-distribution-format>`
+    * - :ref:`dct:format <dcat-distribution-format>`
       -
       - mapping not implemented
     * - :ref:`dct:language <dcat-distribution-language>`
@@ -166,7 +166,7 @@ Mapping to dcat:Distribution
     * - :ref:`dct:modified <dcat-distribution-modified>`
       - :ref:`//gmd:identificationInfo//gmd:citation//gmd:CI_Date <geocat-dataset-issued>`
       - taken from the Dataset
-    * - :ref:`dct:license <geocat-distribution-license>`
+    * - :ref:`dct:license <dcat-distribution-license>`
       -
       - mapping not implemented
     * - :ref:`dct:identifier <geocat-distribution-identifier>`
@@ -175,7 +175,7 @@ Mapping to dcat:Distribution
     * - :ref:`download url <dcat-distribution-download-url>`
       - :ref:`.//gmd:linkage <geocat-distribution-download-url>`
       - download protocols only
-    * - :ref:`coverage <geocat-distribution-coverage>`
+    * - :ref:`coverage <dcat-distribution-coverage>`
       -
       - mapping not implemented
 
@@ -426,7 +426,7 @@ Distribution
 
 .. _geocat-distribution-access-url:
 
-Map to dcat:accessURL
+Set dcat:accessURL
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -440,7 +440,7 @@ Map to dcat:accessURL
 
 .. _geocat-distribution-download-url:
 
-Map to dcat:downloadURL
+Set dcat:downloadURL
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -454,7 +454,7 @@ Map to dcat:downloadURL
 
 .. _geocat-distribution-rights:
 
-Map to dct:rights
+Set dct:rights
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -468,7 +468,7 @@ Map to dct:rights
 
 .. _geocat-distribution-media-type:
 
-Map to dcat:mediaType
+Set dcat:mediaType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -482,7 +482,7 @@ Map to dcat:mediaType
 
 .. _geocat-distribution-title:
 
-Map to dct:title
+Set dct:title
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -494,10 +494,24 @@ Map to dct:title
 
     .. include:: geocat-examples/distribution-title.rst
 
+.. _geocat-distribution-description:
+
+Set dct:description
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/distribution-description.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:description``
+
+    .. include:: geocat-examples/distribution-description.rst
+
 .. _geocat-distribution-language:
 
-Map to dct:language
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Set dct:language
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
