@@ -1,8 +1,8 @@
-:DCAT URI: dct:description
-:XPATH: //gmd:identificationInfo//gmd:abstract
-:Value: .//gmd:textGroup/gmd:LocalisedCharacterString[@locale="<lang code>"]/text()
-:Fallback-Value: .//gmd:CharacterString/text()
-:Note: <lang code> is expected as DE, EN, FR, IT. In case the localized strings are not there the Fallback will
+:DCAT: :ref:`dct:description <dcat-dataset-description>`
+:XPATH: ``//gmd:identificationInfo//gmd:abstract``
+:Value: ``.//gmd:textGroup/gmd:LocalisedCharacterString[@locale="<lang code>"]/text()``
+:Fallback-Value: ``.//gmd:CharacterString/text()``
+:Usage Notes: <lang code> is expected as ``DE``, ``EN``, ``FR``, ``IT``. In case the localized strings are not there the Fallback will
        be used for all 4 languages
 
 .. code-block:: xml
