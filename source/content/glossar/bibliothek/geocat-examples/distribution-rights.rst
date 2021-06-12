@@ -1,16 +1,34 @@
-.. toggle-header::
-    :header: Example for geocat mapping to ``dct:rights``
+.. code-block:: xml
+    :caption: The values are supposed to match the controlled vocabulary
+    :emphasize-lines: 7-10,12-14,17-20,23-25
 
-    .. code-block:: xml
-        :caption: Example of getting dct:rights from gmd with ISO-19139_che XPath
-        :emphasize-lines: 5
-
-        <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
-            <gco:CharacterString>Freie Nutzung</gco:CharacterString>
-            <gmd:PT_FreeText>
-              <gmd:textGroup>
-                <gmd:LocalisedCharacterString locale="#DE">Freie Nutzung</gmd:LocalisedCharacterString>
-              </gmd:textGroup>
-            </gmd:PT_FreeText>
-        </gmd:otherConstraints>
-
+    <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+            <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+                <gmx:Anchor>Opendata BY: Freie Nutzung. Quellenangabe ist Pflicht.</gmx:Anchor>
+                <gmd:PT_FreeText>
+                    <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#DE">Opendata BY: Freie Nutzung. Quellenangabe
+                            ist Pflicht.
+                        </gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                    <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Opendata BY: Utilisation libre.
+                            Obligation d’indiquer la source.
+                        </gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                    <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#IT">Opendata BY: Libero utilizzo. Indicazione
+                            della fonte obbligatoria. Utilizzo a fini commerciali ammesso soltanto previo
+                            consenso del titolare dei dati
+                        </gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                    <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">Opendata BY: Open use. Must provide the
+                            source.
+                        </gmd:LocalisedCharacterString>
+                    </gmd:textGroup>
+                </gmd:PT_FreeText>
+            </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+    </gmd:resourceConstraints>
