@@ -1,13 +1,9 @@
-**Geocat-Mapping**
-
-:Notes: depends on the protocol
-
-.. code-block:: xml
-    :caption: Getting the media type for geodata
-
-    .//gmd:distributionInfo//gmd:distributionFormat//gmd:name/gco:CharacterString
+:DCAT: :ref:`dcat:mediaType <dcat-distribution-media-type>`
+:Usage-Notes: For protocol "WWW:DOWNLOAD" the media type is derived by spliting the protocol name:
+              the protocol name is expected as ``<download-protocl>:<media-type>``.
+              For protocols "OGC:WMTS", "OGC:WMS", "OGC:WFS", "LINKED:DATA", "MAP:Preview", "ESRI:REST" the dcat:mediaType is "SERVICE"
 
 .. code-block:: xml
-    :caption: Getting the media type for geoservices
+    :caption: ISO-19139_che XPath for distribution protocol
 
-    //gmd:identificationInfo//srv:serviceType/gco:LocalName
+    //gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol

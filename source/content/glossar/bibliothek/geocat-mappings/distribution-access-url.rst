@@ -1,17 +1,17 @@
-**Geocat-Mapping**
-
-:XPATH: ``//gmd:transferOptions//gmd:CI_OnlineResource[.//gmd:protocol``
-:Value: ``che:LocalisedURL``
+:DCAT: :ref:`dcat:accessURL <dcat-distribution-access-url>`
+:XPATH: ``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource``
+:Mapping: The mapping depends on the protocol. If the Protocol starts in the following way it is mapped to a
+          dcat:Distribution: ``WWW:DOWNLOAD``, ``"OGC:WMTS``, ``OGC:WFS``, ``"OGC:WMS``, ``LINKED:DATA``, ``ESRI:REST``, ``MAP:Preview``
+:Value: ``.//gmd:linkage/gmd:URL/text()``
+:Fallback-Value: ``'.//che:LocalisedURL`` for any language
+:Usage Notes: For the protocol ``WWW:DOWNLAD`` the protocol should include the format of the resource: for example ``WWW:DOWNLAD:INTERLIS``
 
 .. code-block:: xml
-    :caption: download url is recognized from the protocol
+    :caption: ISO-19139_che XPath for geocat distribution`
 
-    .//gmd:transferOptions//gmd:CI_OnlineResource[.//gmd:protocol/gco:CharacterString/text() = "OGC:WMTS-http-get-capabilities"]//che:LocalisedURL
-    .//gmd:transferOptions//gmd:CI_OnlineResource[.//gmd:protocol/gco:CharacterString/text() = "OGC:WMS-http-get-map"]//che:LocalisedURL
-    .//gmd:transferOptions//gmd:CI_OnlineResource[.//gmd:protocol/gco:CharacterString/text() = "OGC:WMS-http-get-capabilities"]//che:LocalisedURL
-    .//gmd:transferOptions//gmd:CI_OnlineResource[.//gmd:protocol/gco:CharacterString/text() = "OGC:WFS-http-get-capabilities"]//che:LocalisedURL
-    .//gmd:transferOptions//gmd:CI_OnlineResource[.//gmd:protocol/gco:CharacterString/text() = "CHTOPO:specialised-geoportal"]//che:LocalisedURL
-    .//gmd:transferOptions//gmd:CI_OnlineResource[.//gmd:protocol/gco:CharacterString/text() = "WWW:LINK-1.0-http–link"]//che:LocalisedURL
-    .//gmd:transferOptions//gmd:CI_OnlineResource[.//gmd:protocol/gco:CharacterString/text() = "WWW:DOWNLOAD-1.0-http--download"]//che:LocalisedURL
-    .//gmd:transferOptions//gmd:CI_OnlineResource[.//gmd:protocol/gco:CharacterString/text() = "WWW:DOWNLOAD-URL"]//che:LocalisedURL
-    .//srv:connectPoint//gmd:linkage//che:LocalisedURL
+    //gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource
+
+.. code-block:: xml
+    :caption: ISO-19139_che XPath for distribution protocol
+
+    //gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol

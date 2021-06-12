@@ -1,21 +1,42 @@
-.. toggle-header::
-    :header: Example for geocat mapping to ``dcat:downloadURL``
+.. code-block:: xml
+    :caption: Example of mapping to dcat:downloadURL for a Distribtution with protocol "WWW:DOWNLOAD:INTERLIS"
+    :emphasize-lines: 3,19,20,21
 
-    .. code-block:: xml
-        :caption: Example of getting dcat:downloadURL from gmd with ISO-19139_che XPath
-        :emphasize-lines: 5,10
-
-        <gmd:CI_OnlineResource>
-           <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
-             <che:PT_FreeURL>
-               <che:URLGroup>
-                 <che:LocalisedURL locale="#DE">http://data.geo.admin.ch/ch.blw.klimaeignung-kulturland/data.zip</che:LocalisedURL>
-               </che:URLGroup>
-             </che:PT_FreeURL>
-           </gmd:linkage>
-           <gmd:protocol>
-             <gco:CharacterString>WWW:DOWNLOAD-URL</gco:CharacterString>
-           </gmd:protocol>
-           <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">...</gmd:description>
-           <gmd:function>...</gmd:function>
-        </gmd:CI_OnlineResource>
+    <gmd:CI_OnlineResource>
+        <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">
+            <gmd:URL>https://data.geo.admin.ch</gmd:URL>
+            <che:PT_FreeURL>
+                <che:URLGroup>
+                    <che:LocalisedURL locale="#DE">https://data.geo.admin.ch</che:LocalisedURL>
+                </che:URLGroup>
+                <che:URLGroup>
+                    <che:LocalisedURL locale="#FR">https://data.geo.admin.ch</che:LocalisedURL>
+                </che:URLGroup>
+                <che:URLGroup>
+                    <che:LocalisedURL locale="#IT">https://data.geo.admin.ch</che:LocalisedURL>
+                </che:URLGroup>
+                <che:URLGroup>
+                    <che:LocalisedURL locale="#EN">https://data.geo.admin.ch</che:LocalisedURL>
+                </che:URLGroup>
+            </che:PT_FreeURL>
+        </gmd:linkage>
+        <gmd:protocol>
+            <gco:CharacterString>WWW:DOWNLOAD:INTERLIS</gco:CharacterString>
+        </gmd:protocol>
+        <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Datenbezug über data.geo.admin</gco:CharacterString>
+            <gmd:PT_FreeText>
+                <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#DE">Datenbezug über data.geo.admin</gmd:LocalisedCharacterString>
+                </gmd:textGroup>
+            </gmd:PT_FreeText>
+        </gmd:name>
+        <gmd:description gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+        </gmd:description>
+        <gmd:function>
+            <gmd:CI_OnLineFunctionCode
+                codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode"
+                codeListValue="download"/>
+        </gmd:function>
+    </gmd:CI_OnlineResource>

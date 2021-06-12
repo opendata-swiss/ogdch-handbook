@@ -1,11 +1,11 @@
-**Geocat-Mapping**
-
+:DCAT: :ref:`dcat:downloadURL <dcat-distribution-download-url>`
 :XPATH: ``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource``
 :Protocol: `.//gmd:protocol/gco:CharacterString`` WWW:DOWNLOAD
-:Value: ``che:LocalisedURL``
+:Value: ``.//gmd:linkage/gmd:URL/text()``
+:Fallback-Value: ``'.//che:LocalisedURL`` for any language
+:Usage Notes: For the protocol ``WWW:DOWNLAD`` the same url is mapped to bost dcat:accessURL and dcat:downloadURL
 
 .. code-block:: xml
-    :caption: download url is recognized from the protocol
+    :caption: default path of the download url within the geocat distribution
 
-    .//gmd:transferOptions//gmd:CI_OnlineResource[.//gmd:protocol/gco:CharacterString/text()
-    [contains(.,"WWW:DOWNLOAD")]]//che:LocalisedURL
+    .//gmd:linkage//gmd:URL/text()

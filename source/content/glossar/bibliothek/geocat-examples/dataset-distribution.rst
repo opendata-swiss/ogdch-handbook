@@ -1,23 +1,34 @@
 .. code-block:: xml
-   :caption: Example of getting dcat:distribution
-   :emphasize-lines: 10
+    :caption: Getting all distribution protocols for a dataset with ``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol``
+    :emphasize-lines: 2,5,8,11,14,20,26,29
 
-   <gmd:distributionInfo>
-     <gmd:MD_Distribution>
-       <gmd:distributionFormat xlink:show="embed">...</gmd:distributionFormat>
-       <gmd:transferOptions>
-         <gmd:MD_DigitalTransferOptions>
-           <gmd:onLine>
-             <gmd:CI_OnlineResource>
-               <gmd:linkage xsi:type="che:PT_FreeURL_PropertyType">...</gmd:linkage>
-               <gmd:protocol>
-                 <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
-               </gmd:protocol>
-               <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">...</gmd:description>
-               <gmd:function>...</gmd:function>
-             </gmd:CI_OnlineResource>
-           </gmd:onLine>
-         </gmd:MD_DigitalTransferOptions>
-       </gmd:transferOptions>
-     </gmd:MD_Distribution>
-   </gmd:distributionInfo>
+    <gmd:protocol>
+        <gco:CharacterString>ESRI:REST</gco:CharacterString>
+    </gmd:protocol>
+    <gmd:protocol>
+        <gco:CharacterString>OGC:WMS</gco:CharacterString>
+    </gmd:protocol>
+    <gmd:protocol>
+        <gco:CharacterString>WWW:DOWNLOAD:INTERLIS</gco:CharacterString>
+    </gmd:protocol>
+    <gmd:protocol>
+        <gco:CharacterString>MAP:Preview</gco:CharacterString>
+    </gmd:protocol>
+    <gmd:protocol>
+        <gco:CharacterString>WWW:DOWNLOAD:APP</gco:CharacterString>
+    </gmd:protocol>
+    <gmd:protocol>
+        <gco:CharacterString>WWW:LINK</gco:CharacterString>
+    </gmd:protocol>
+    <gmd:protocol>
+        <gco:CharacterString>WWW:DOWNLOAD:URL</gco:CharacterString>
+    </gmd:protocol>
+    <gmd:protocol>
+        <gco:CharacterString>CHTOPO:specialised:geoportal</gco:CharacterString>
+    </gmd:protocol>
+    <gmd:protocol>
+        <gco:CharacterString>OGC:WFS</gco:CharacterString>
+    </gmd:protocol>
+    <gmd:protocol>
+        <gco:CharacterString>LINKED:DATA</gco:CharacterString>
+    </gmd:protocol>

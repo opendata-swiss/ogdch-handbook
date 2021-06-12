@@ -1,6 +1,7 @@
-:DCAT URI: dcat:contactPoint:ref:`dct:temporal <dcat-dataset-temporal>`
-:XPATH: //gmd:identificationInfo/gmd:pointOfContact or //gmd:contact
-:Value: gmd:electronicMailAddress/gco:CharacterString
+:DCAT: :ref:`dcat:contactPoint <dcat-dataset-contact-point>`
+:XPATH: ``//gmd:identificationInfo/gmd:pointOfContact or //gmd:contact``
+:Value: ``gmd:electronicMailAddress/gco:CharacterString``
+:Usage Notes: Only one contact email is taken. A corresponding name is not taken.
 
 .. code-block:: xml
     :caption: ISO-19139_che XPath for ``dcat:contactPoint``: the first is taken in the following order

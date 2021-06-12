@@ -48,153 +48,136 @@ Example-Catalog
 Overview
 -----------
 
-.. list-table:: Properties of dcat:Dataset
-    :widths: 20 20 30 30
+Geocat Distributions ``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource``
+are mapped either to the :ref:`dcat:Dataset <iso_19139_che-dataset-mapping>`
+class or to the :ref:`dcat:Distribution <iso_19139_che-distribution-mapping>` class, depending on ``.//gmd:protocol``
+
+The "Mapped from" column in the table gives just a hint, on where the metadata is comming from. Please see
+for the Field descriptions for the actual mapping.
+
+.. _iso_19139_che-dataset-mapping:
+
+Mapping to dcat:Dataset
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table:: Mappings to dcat:Dataset
+    :widths: 20 30 50
     :header-rows: 1
     :stub-columns: 1
 
-    * - property
-      - URI
-      - usage notes
-      - mapped from
-    * - :ref:`title <geocat-dataset-title>`
-      - dct:title
-      - **mandatory**, multilingual
-      - gmd:identificationInfo
-    * - :ref:`description <geocat-dataset-description>`
-      - dct:description
-      - **mandatory**, multilingual
-      - gmd:identificationInfo
-    * - :ref:`publisher <geocat-dataset-publisher>`
-      - dct:publisher
-      - **mandatory**, **CHANGED rule**
+    * - DCAT property
+      - Mapped from
+      - Usgae Notes
+    * - :ref:`dct:title <dcat-dataset-title>`
+      - :ref:`//gmd:identificationInfo//gmd:citation//gmd:title <geocat-dataset-title>`
+      - 1*
+    * - :ref:`dct:description <dcat-dataset-description>`
+      - :ref:`//gmd:identificationInfo//gmd:abstract <geocat-dataset-description>`
+      - 1*
+    * - :ref:`dct:publisher <geocat-dataset-publisher>`
+      - :ref:`//gmd:identificationInfo//gmd:pointOfContact <geocat-dataset-publisher>`
+      - 1
+    * - :ref:`dcat:contactPoint <dcat-dataset-contact-point>`
+      - :ref:`//gmd:identificationInfo//gmd:pointOfContact or //gmd:contact <geocat-dataset-contact-point>`
+      - 1, could be N
+    * - :ref:`dct:identifier <dcat-dataset-identifier>`
+      - :ref:`//gmd:fileIdentifier <geocat-dataset-identifier>`
+      - 1
+    * - :ref:`dcat:Distribution <dcat-dataset-distribution>`
+      - :ref:`//gmd:distributionInfo <geocat-dataset-distribution>`
+      - N
+    * - :ref:`dct:issued <dcat-dataset-issued>`
+      - :ref:`//gmd:identificationInfo//gmd:citation//gmd:CI_Date <geocat-dataset-issued>`
+      - 1
+    * - :ref:`modified <dcat-dataset-modified>`
+      - :ref:`//gmd:identificationInfo//gmd:citation//gmd:CI_Date <geocat-dataset-modified>`
       -
-    * - :ref:`contact point <geocat-dataset-contact-point>`
-      - dcat:contactPoint
-      - **mandatory**
+    * - :ref:`dcat:theme <dcat-dataset-theme>`
+      - :ref:`//gmd:identificationInfo//gmd:topicCategory <geocat-dataset-theme>`
       -
-    * - :ref:`identifier <geocat-dataset-identifier>`
-      - dct:identifier
-      - **mandatory**
+    * - :ref:`dcat:landingPage <dcat-dataset-landing-page>`
+      - :ref:`//gmd:distributionInfo <geocat-dataset-landing-page>`
+      - depends on gmd:protocol
+    * - :ref:`dct:relation <dcat-dataset-relation>`
+      - :ref:`//gmd:distributionInfo <geocat-dataset-relation>`
+      - depends on gmd:protocol
+    * - :ref:`dct:language <dcat-dataset-language>`
+      - :ref:`//gmd:identificationInfo//gmd:language <geocat-dataset-language>`
       -
-    * - :ref:`distribution <geocat-dataset-distribution>`
-      - dcat:distribution
-      - **mandatory**
+    * - :ref:`dcat:keyword <dcat-dataset-keyword>`
+      - :ref:`//gmd:identificationInfo//gmd:descriptiveKeywords <geocat-dataset-keyword>`
       -
-    * - :ref:`issued <geocat-dataset-issued>`
-      - dct:issued
-      - conditional
+    * - :ref:`dct:spatial <dcat-dataset-spatial>`
+      - :ref:`//gmd:identificationInfo//gmd:extent <geocat-dataset-spatial>`
       -
-    * - :ref:`modified <geocat-dataset-modified>`
-      - dct:modified
-      - conditional
+    * - :ref:`dct:coverage <dcat-dataset-coverage>`
       -
-    * - :ref:`theme <geocat-dataset-theme>`
-      - dcat:theme
-      - conditional
+      - mapping not implemented
+    * - :ref:`dct:temporal <dcat-dataset-temporal>`
+      - :ref:`//gmd:identificationInfo//gmd:extent//gmd:temporalElement <geocat-dataset-temporal>`
       -
-    * - :ref:`landing page <dgeocat-dataset-landing-page>`
-      - dcat:landingPage
-      - conditional
+    * - :ref:`accrual periodicty <dcat-dataset-accrual-periodicity>`
+      - :ref:`//gmd:identificationInfo//che:CHE_MD_MaintenanceInformation <geocat-dataset-accrual-periodicity>`
       -
-    * - :ref:`language <geocat-dataset-language>`
-      - dct:language
-      - conditional
-      -
-    * - :ref:`keyword <geocat-dataset-keyword>`
-      - dcat:keyword
-      - optional
-      -
-    * - :ref:`spatial <geocat-dataset-spatial>`
-      - dct:spatial
-      - optional
-      -
-    * - :ref:`coverage <geocat-dataset-coverage>`
-      - dct:coverage
-      - optional
-      -
-    * - :ref:`temporal <geocat-dataset-temporal>`
-      - dct:temporal
-      - optional
-      -
-    * - :ref:`accrual periodicty <geocat-dataset-accrual-periodicity>`
-      - dct:accrualPeriodicity
-      - optional
-      -
-    * - :ref:`coverage <geocat-dataset-relation>`
-      - dct:relation
-      - optional
-      -
-    * - :ref:`see alsos <geocat-dataset-see-alsos>`
-      - rdfs:seeAlsos
-      - optional
+    * - :ref:`see alsos <dcat-dataset-see-alsos>`
+      - :ref:`//gmd:identificationInfo//gmd:aggregationInfo <geocat-dataset-see-alsos>`
       -
 
-.. list-table:: Properties of dcat:Distribution
-    :widths: 20 20 30 30
+.. _iso_19139_che-distribution-mapping:
+
+Mapping to dcat:Distribution
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table:: Mappings of //gmd:DistributionInfo to dcat:Distribution
+    :widths: 20 30 50
     :header-rows: 1
     :stub-columns: 1
 
-    * - property
-      - URI
-      - usage notes
-      - mapped from
-    * - :ref:`issued <geocat-distribution-issued>`
-      - dct:issued
-      - **mandatory**
+    * - DCAT property
+      - Mapped from
+      - Usgae Notes
+    * - :ref:`dct:issued <dcat-distribution-issued>`
+      - :ref:`//gmd:identificationInfo//gmd:citation//gmd:CI_Date <geocat-dataset-issued>`
+      - taken from the Dataset
+    * - :ref:`dcat:accessURL <dcat-distribution-access-url>`
+      - :ref:`.//gmd:linkage <geocat-distribution-access-url>`
       -
-    * - :ref:`access url <geocat-distribution-access-url>`
-      - dcat:accessURL
-      - **mandatory**
+    * - :ref:`dct:rights <dcat-distribution-rights>`
+      - :ref:`//gmd:resourceConstraints <geocat-distribution-rights>`
+      - derived for the dataset
+    * - :ref:`dct:title <dcat-distribution-title>`
+      - :ref:`.//gmd:name <geocat-distribution-title>`
+      - in combination with protocol
+    * - :ref:`dct:description <dcat-distribution-description>`
+      - :ref:`.//gmd:description <geocat-distribution-description>`
       -
-    * - :ref:`rights <dgeocat-distribution-rights>`
-      - dct:rights
-      - **mandatory**
-      - does not conform to DCAT-AP-CH
-    * - :ref:`title <geocat-distribution-title>`
-      - dct:title
-      - conditional
+    * - :ref:`dcat:byteSize <geocat-distribution-byte-size>`
       -
-    * - :ref:`description <geocat-distribution-description>`
-      - dct:description
-      - conditional
+      - mapping not implemented
+    * - :ref:`media type <dcat-distribution-media-type>`
+      - :ref:`.//gmd:protocol <geocat-distribution-media-type>`
+      - derived from the protocol
+    * - :ref:`dct:format <geocat-distribution-format>`
       -
-    * - :ref:`byte size <geocat-distribution-byte-size>`
-      - dct:byteSize
-      - conditional
+      - mapping not implemented
+    * - :ref:`dct:language <dcat-distribution-language>`
+      - :ref:`.//gmd:linkage//che:LocalisedURL <geocat-distribution-language>`
+      - depends on localized urls
+    * - :ref:`dct:modified <dcat-distribution-modified>`
+      - :ref:`//gmd:identificationInfo//gmd:citation//gmd:CI_Date <geocat-dataset-issued>`
+      - taken from the Dataset
+    * - :ref:`dct:license <geocat-distribution-license>`
       -
-    * - :ref:`media type <geocat-distribution-media-type>`
-      - dct:mediaType
-      - conditional
+      - mapping not implemented
+    * - :ref:`dct:identifier <geocat-distribution-identifier>`
       -
-    * - :ref:`format <geocat-distribution-format>`
-      - dct:format
-      - conditional
-      -
-    * - :ref:`language <geocat-distribution-language>`
-      - dct:language
-      - conditional
-      -
-    * - :ref:`modified <geocat-distribution-modified>`
-      - dct:modified
-      - conditional
-      -
-    * - :ref:`license <geocat-distribution-license>`
-      - dcat:license
-      - optional
-      - does not conform to DCAT-AP
-    * - :ref:`identifier <geocat-distribution-identifier>`
-      - dct:identifier
-      - optional
-      -
-    * - :ref:`download url <geocat-distribution-download-url>`
-      - dcat:downloadURL
-      - optional
-      -
+      - mapping not implemented
+    * - :ref:`download url <dcat-distribution-download-url>`
+      - :ref:`.//gmd:linkage <geocat-distribution-download-url>`
+      - download protocols only
     * - :ref:`coverage <geocat-distribution-coverage>`
-      - dct:coverage
-      - optional
       -
+      - mapping not implemented
 
 .. _iso_19139_che-dataset:
 
@@ -203,8 +186,8 @@ Dataset
 
 .. _geocat-dataset-identifier:
 
-dct:identifier (geocat)
-^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:fileIdentifier to dct:identifier (geocat)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -215,15 +198,10 @@ dct:identifier (geocat)
 
     .. include:: geocat-examples/dataset-identifier.rst
 
-.. toggle-header::
-    :header: Defintition of ``dct:identifier`` in DCAT-AP-CH
+.. _geocat-dataset-title:
 
-    .. include:: dcat-definitions/dataset-identifier.rst
-
-.. _geocat-dataset-title
-
-Map to dct:title
-^^^^^^^^^^^^^^^^
+/gmd:identificationInfo//gmd:citation//gmd:title to dct:title
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -234,15 +212,10 @@ Map to dct:title
 
     .. include:: geocat-examples/dataset-title.rst
 
-.. toggle-header::
-    :header: Defintition of ``dct:title`` in DCAT-AP-CH
+.. _geocat-dataset-description:
 
-    .. include:: dcat-definitions/dataset-title.rst
-
-.. _geocat-dataset-description
-
-Map to dct:description
-^^^^^^^^^^^^^^^^^^^^^^
+/gmd:identificationInfo//gmd:abstract to dct:description
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -253,15 +226,10 @@ Map to dct:description
 
     .. include:: geocat-examples/dataset-description.rst
 
-.. toggle-header::
-    :header: Defintition of ``dct:description`` in DCAT-AP-CH
-
-    .. include:: dcat-definitions/dataset-description.rst
-
 .. _geocat-dataset-publisher:
 
-Map to dct:publisher
-^^^^^^^^^^^^^^^^^^^^^
+gmd:pointOfContact or //gmd:contact to dct:publisher
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -272,53 +240,38 @@ Map to dct:publisher
 
     .. include:: geocat-examples/dataset-publisher.rst
 
-.. toggle-header::
-    :header: Defintition of ``dct:publisher`` in DCAT-AP-CH
+.. _geocat-dataset-contact-point:
 
-    .. include:: dcat-definitions/dataset-publisher.rst
-
-.. _geocat-dataset-contacts:
-
-Map to dct:contactPoint
-^^^^^^^^^^^^^^^^^^^^^^^
+gmd:pointOfContact or //gmd:contact  to dct:contactPoint
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-    .. include:: geocat-mappings/dataset-contacts.rst
+    .. include:: geocat-mappings/dataset-contact-point.rst
 
 .. toggle-header::
     :header: Example for geocat mapping to ``dcat:contactPoint``
 
-    .. include:: geocat-examples/dataset-contacts.rst
+    .. include:: geocat-examples/dataset-contact-point.rst
 
-.. toggle-header::
-    :header: Defintition of ``dcat:contactPoint`` in DCAT-AP-CH
+.. _geocat-dataset-distribution:
 
-    .. include:: dcat-definitions/dataset-contacts.rst
-
-.. _geocat-dataset-distributions:
-
-Map to dcat:distributions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:distributionInfo/gmd:MD_Distribution to dcat:distribution
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-    .. include:: geocat-mappings/dataset-distributions.rst
+    .. include:: geocat-mappings/dataset-distribution.rst
 
 .. toggle-header::
-    :header: Example for geocat-mapping to ``dcat:distribution``
+    :header: Example of getting the protocols for ``dcat:distribution``
 
-    .. include:: geocat-examples/dataset-distributions.rst
-
-.. toggle-header::
-    :header: Defintition of ``dcat:distribution`` in DCAT-AP-CH
-
-    .. include:: dcat-definitions/dataset-distributions.rst
+    .. include:: geocat-examples/dataset-distribution.rst
 
 .. _geocat-dataset-issued:
 
-Map to dct:issued
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:identificationInfo//gmd:citation//gmd:CI_Date to dct:issued
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -329,54 +282,40 @@ Map to dct:issued
 
     .. include:: geocat-examples/dataset-issued.rst
 
-.. toggle-header::
-    :header: Defintition of ``dct:issued`` in DCAT-AP-CH
+.. _geocat-dataset-modified:
 
-    .. include:: dcat-definitions/dataset-issued.rst
-
-.. _geocat-dataset-modified
-
-Map to dct:modified
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:identificationInfo//gmd:citation//gmd:CI_Date to dct:modified
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-		.. include:: geocat-mappings/dataset-modified.rst
+    .. include:: geocat-mappings/dataset-modified.rst
 
 
 .. toggle-header::
     :header: Example for geocat mapping to ``dct:modified``
 
-		.. include:: geocat-examples/dataset-modified.rst
+    .. include:: geocat-examples/dataset-modified.rst
 
-.. toggle-header::
-    :header: Defintition of ``dct:modified`` in DCAT-AP-CH
+.. _geocat-dataset-theme:
 
-    .. include:: dcat-definitions/dataset-modified.rst
-
-.. _geocat-dataset-categories
-
-Map to dcat:theme
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:identificationInfo//gmd:topicCategory/ to dcat:theme
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-    .. include:: geocat-mappings/dataset-categories.rst
+    .. include:: geocat-mappings/dataset-theme.rst
 
 .. toggle-header::
     :header: Example for geocat mapping to ``dcat:theme``
 
-    .. include:: geocat-examples/dataset-categories.rst
+    .. include:: geocat-examples/dataset-theme.rst
 
-.. toggle-header::
-    :header: Defintition of ``dcat:theme`` in DCAT-AP-CH
 
-    .. include:: dcat-definitions/dataset-categories.rst
+.. _geocat-dataset-language:
 
-.. _geocat-dataset-language
-
-Map to dct:language
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:identificationInfo//gmd:language to dct:language
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -387,15 +326,10 @@ Map to dct:language
 
     .. include:: geocat-examples/dataset-language.rst
 
-.. toggle-header::
-    :header: Defintition of ``dct:language`` in DCAT-AP-CH
+.. _geocat-dataset-landing-page:
 
-    .. include:: dcat-definitions/dataset-language.rst
-
-.. _geocat-dataset-landing-page
-
-Map to dct:landing-page
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:distributionInfo/gmd:MD_Distribution to dct:landing-page
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -406,187 +340,172 @@ Map to dct:landing-page
 
     .. include:: geocat-examples/dataset-landing-page.rst
 
-.. toggle-header::
-    :header: Defintition of ``dcat:landingPage`` in DCAT-AP-CH
+.. _geocat-dataset-relation:
 
-    .. include:: dcat-definitions/dataset-landing-page.rst
-
-.. _geocat-dataset-further-information
-
-Map to dct:relation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:distributionInfo/gmd:MD_Distribution to dct:relation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-    .. include:: geocat-mappings/dataset-further-information.rst
+    .. include:: geocat-mappings/dataset-relation.rst
 
 .. toggle-header::
     :header: Example for geocat mapping to ``dct:relation``
 
-    .. include:: geocat-examples/dataset-further-information.rst
+    .. include:: geocat-examples/dataset-relation.rst
 
-.. toggle-header::
-    :header: Defintition of ``dct:relation`` in DCAT-AP-CH
+.. _geocat-dataset-keyword:
 
-    .. include:: dcat-definitions/dataset-further-information.rst
-
-. _geocat-dataset-keyword
-
-Map to dct:keyword
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:identificationInfo//gmd:descriptiveKeywords to dct:keyword
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-    .. include:: geocat-mappings/dataset-keywords.rst
+    .. include:: geocat-mappings/dataset-keyword.rst
 
 .. toggle-header::
     :header: Example for geocat mapping to ``dcat:keyword``
 
-    .. include:: geocat-examples/dataset-keywords.rst
+    .. include:: geocat-examples/dataset-keyword.rst
 
-.. toggle-header::
-    :header: Defintition of ``dct:keyword`` in DCAT-AP-CH
+.. _geocat-dataset-spatial:
 
-    .. include:: dcat-definitions/dataset-keywords.rst
-
-.. _geocat-dataset-spatial
-
-Map to dct:spatial
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:identificationInfo//gmd:extent//gmd:description to dct:spatial
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
     .. include:: geocat-mappings/dataset-spatial.rst
 
-.. include:: geocat-examples/dataset-spatial.rst
-
 .. toggle-header::
-    :header: Defintition of ``dct:spatial`` in DCAT-AP-CH
+    :header: Example for geocat mapping to ``dct:spatial``
 
-    .. include:: dcat-definitions/dataset-spatial.rst
+    .. include:: geocat-examples/dataset-spatial.rst
 
-.. _geocat-dataset-coverage
+.. _geocat-dataset-temporal:
 
-Map to to dct:coverage
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Mappimg not implemented
-
-.. include:: dcat-definitions/dataset-coverage.rst
-
-.. _geocat-dataset-temporal
-
-Map to dct:temporal
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:identificationInfo//gmd:extent//gmd:temporalElement to dct:temporal
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
     .. include:: geocat-mappings/dataset-temporal.rst
 
-.. include:: geocat-examples/dataset-temporal.rst
+.. _geocat-dataset-accrual-periodicity:
 
-.. toggle-header::
-    :header: Defintition of ``dct:temporal`` in DCAT-AP-CH
-
-    .. include:: dcat-definitions/dataset-temporal.rst
-
-.. _geocat-dataset-frequency
-
-Map to dct:accrualPeriodicity
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:identificationInfo//che:CHE_MD_MaintenanceInformation to dct:accrualPeriodicity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-    .. include:: geocat-mappings/dataset-frequency.rst
+    .. include:: geocat-mappings/dataset-accrual-periodicity.rst
 
 .. toggle-header::
     :header: Example for geocat mapping to ``dct:accrualPeriodicity``
 
-    .. include:: geocat-examples/dataset-frequency.rst
+    .. include:: geocat-examples/dataset-accrual-periodicity.rst
 
-.. toggle-header::
-    :header: Defintition of ``dct:spatial`` in DCAT-AP-CH
+.. _geocat-dataset-see-alsos:
 
-    .. include:: dcat-definitions/dataset-frequency.rst
-
-.. _geocat-dataset-related-datasets
-
-Map to dct:seeAlsos
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//gmd:identificationInfo//gmd:aggregationInfo to dct:seeAlsos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-    .. include:: geocat-mappings/related-datasets.rst
-
-.. include:: geocat-examples/related-datasets.rst
+    .. include:: geocat-mappings/dataset-see-alsos.rst
 
 .. toggle-header::
     :header: Defintition of ``dcat:seeAlsos`` in DCAT-AP-CH
 
-    .. include:: dcat-definitions/related-datasets.rst
+    .. include:: geocat-examples/dataset-see-alsos.rst
 
 .. _iso_19139_che-distribution:
 
 Distribution
 ------------
 
-.. _geocat-distributtion-access-url
+.. _geocat-distribution-access-url:
 
 Map to dcat:accessURL
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-    .. include:: dcat-definitions/distribution-access-url.rst
+    .. include:: geocat-mappings/distribution-access-url.rst
 
-.. include:: geocat-mappings/distribution-access-url.rst
+.. toggle-header::
+    :header: Example of a "LINKED:DATA" Distribution
 
-.. include:: geocat-examples/distribution-access-url.rst
+    .. include:: geocat-examples/distribution-access-url.rst
 
+.. _geocat-distribution-download-url:
 
-.. include:: dcat-definitions/distribution-download-url.rst
-.. include:: geocat-mappings/distribution-download-url.rst
-.. include:: geocat-examples/distribution-download-url.rst
+Map to dcat:downloadURL
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: dcat-definitions/distribution-issued.rst
-.. include:: geocat-mappings/distribution-issued.rst
-.. include:: geocat-examples/distribution-issued.rst
+.. container:: Mapping
 
-.. include:: dcat-definitions/distribution-rights.rst
-.. include:: geocat-mappings/distribution-rights.rst
-.. include:: geocat-examples/distribution-rights.rst
+    .. include:: geocat-mappings/distribution-download-url.rst
 
-.. include:: dcat-definitions/distribution-media-type.rst
-.. include:: geocat-mappings/distribution-media-type.rst
-.. include:: geocat-examples/distribution-media-type.rst
+.. toggle-header::
+    :header: Example of a "WWW:DOWNLOAD" Distribution
 
-.. include:: dcat-definitions/distribution-format.rst
-.. include:: geocat-mappings/distribution-format.rst
+    .. include:: geocat-examples/distribution-download-url.rst
 
-.. include:: dcat-definitions/distribution-size.rst
-.. include:: geocat-mappings/distribution-size.rst
+.. _geocat-distribution-rights:
 
-.. include:: dcat-definitions/distribution-modified.rst
-.. include:: geocat-mappings/distribution-modified.rst
-.. include:: geocat-examples/distribution-modified.rst
+Map to dct:rights
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. include:: dcat-definitions/distribution-title.rst
-.. include:: geocat-mappings/distribution-title.rst
-.. include:: geocat-examples/distribution-title.rst
+.. container:: Mapping
 
-.. include:: dcat-definitions/distribution-description.rst
-.. include:: geocat-mappings/distribution-description.rst
-.. include:: geocat-examples/distribution-description.rst
+    .. include:: geocat-mappings/distribution-rights.rst
 
-.. include:: dcat-definitions/distribution-language.rst
-.. include:: geocat-mappings/distribution-language.rst
-.. include:: geocat-examples/distribution-language.rst
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:rights``
 
-.. include:: dcat-definitions/distribution-identifier.rst
-.. include:: geocat-mappings/distribution-identifier.rst
+    .. include:: geocat-examples/distribution-rights.rst
 
-.. include:: dcat-definitions/distribution-license.rst
-.. include:: geocat-mappings/distribution-license.rst
+.. _geocat-distribution-media-type:
 
-.. include:: dcat-definitions/distribution-coverage.rst
-.. include:: geocat-mappings/distribution-coverage.rst
+Map to dcat:mediaType
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/distribution-media-type.rst
+
+.. toggle-header::
+    :header: Example of a "WWW:DOWNLOAD" Distribution with ``dcat:mediaType`` "INTERLIS"
+
+    .. include:: geocat-examples/distribution-media-type.rst
+
+.. _geocat-distribution-title:
+
+Map to dct:title
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/distribution-title.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:title``
+
+    .. include:: geocat-examples/distribution-title.rst
+
+.. _geocat-distribution-language:
+
+Map to dct:language
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/distribution-language.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:language``
+
+    .. include:: geocat-examples/distribution-language.rst
+
+.. _geocat-distribution-identifier:
