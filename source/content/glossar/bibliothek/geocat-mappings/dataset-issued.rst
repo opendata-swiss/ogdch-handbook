@@ -1,7 +1,7 @@
 :DCAT: :ref:`dct:issued <dcat-dataset-issued>`
 :XPATH: ``//gmd:identificationInfo//gmd:citation//gmd:CI_Date``
 :Role: ``publication`` or ``creation`` or ``revision``
-:Value: ``.//gco:Date or `.//gco:DateTime`
+:Value: ``.//gco:Date`` or ``.//gco:DateTime``
 :Usage Notes: This also serves as dct:issued for dcat:Distribution
 
 
