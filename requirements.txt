@@ -5,3 +5,4 @@ fabric
 sphinx-notfound-page
 sphinx-intl==2.0.1
 sphinxcontrib-contentui
+sphinx_comments
