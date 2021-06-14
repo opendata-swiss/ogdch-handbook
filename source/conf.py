@@ -36,8 +36,13 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_fontawesome',
     'notfound.extension',
-    'sphinxcontrib.contentui'
+    'sphinxcontrib.contentui',
+    'sphinx_comments',
 ]
+
+comments_config = {
+   "hypothesis": True
+}
 
 notfound_no_urls_prefix = True
 
