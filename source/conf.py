@@ -11,6 +11,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 
+import os
 import sphinx_rtd_theme
 import sphinx_fontawesome
 
@@ -111,5 +112,5 @@ gettext_compact = False
 # -- Options for sphinx-comments ---------------------------------------------
 
 comments_config = {
-    "hypothesis": True
+    "hypothesis": os.environ.get('ENABLE_HYPOTHESIS', False) == 'true',
 }
