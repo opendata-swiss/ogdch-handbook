@@ -33,16 +33,12 @@ pygments_style = 'friendly'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_rtd_theme',
-    'sphinx_fontawesome',
     'notfound.extension',
-    'sphinxcontrib.contentui',
     'sphinx_comments',
+    'sphinx_fontawesome',
+    'sphinx_rtd_theme',
+    'sphinxcontrib.contentui',
 ]
-
-comments_config = {
-   "hypothesis": True
-}
 
 notfound_no_urls_prefix = True
 
@@ -111,3 +107,9 @@ nitpicky = True
 
 locale_dirs = ['locale/']
 gettext_compact = False
+
+# -- Options for sphinx-comments ---------------------------------------------
+
+comments_config = {
+    "hypothesis": True
+}
