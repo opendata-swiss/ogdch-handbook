@@ -1,8 +1,9 @@
-sphinx
-sphinx_fontawesome
-sphinx-rtd-theme
 fabric
-sphinx-notfound-page
+python-dotenv
+sphinx
+sphinx-comments
 sphinx-intl==2.0.1
+sphinx-notfound-page
+sphinx-rtd-theme
+sphinx_fontawesome
 sphinxcontrib-contentui
-sphinx_comments
