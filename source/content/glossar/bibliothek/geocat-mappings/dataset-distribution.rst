@@ -4,6 +4,7 @@
 :Mapping: The mapping depends on the protocol. If the Protocol starts in the following way it is mapped to a
           dcat:Distribution: ``WWW:DOWNLOAD``, ``"OGC:WMTS``, ``OGC:WFS``, ``"OGC:WMS``,
           ``LINKED:DATA``, ``ESRI:REST``, ``MAP:Preview``
+
 :Usage Notes: Only the above geocat Distributions will be mapped to dcat:Distribution. There are other protocols
               that will be mapped to dcat:landingPage and dct:relation.
 

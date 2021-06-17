@@ -3,6 +3,7 @@
 :Mapping: The mapping depends on the protocol. If the Protocol starts in the following way it is mapped to a
           dcat:Distribution: ``WWW:DOWNLOAD``, ``"OGC:WMTS``, ``OGC:WFS``, ``"OGC:WMS``, ``LINKED:DATA``,
           ``ESRI:REST``, ``MAP:Preview``
+
 :Value: ``.//gmd:linkage/gmd:URL/text()``
 :Fallback-Value: ``'.//che:LocalisedURL`` for any language
 :Usage Notes: For the protocol ``WWW:DOWNLAD`` the protocol should include the format of the

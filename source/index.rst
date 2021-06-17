@@ -124,6 +124,10 @@ mit uns teilen möchten?
    :maxdepth: 1
    :caption: (Versteckt):
 
+   content/vorbereiten/dataset
+   content/vorbereiten/dataset/organisatorischer-check
+   content/vorbereiten/dataset/rechtlicher-check
+   content/vorbereiten/dataset/technischer-check
    content/vorbereiten/erstpublizierende/opendata-swiss-verstehen
    content/vorbereiten/erstpublizierende/dateninventar-erstellen
    content/vorbereiten/publikationsrichtlinien
