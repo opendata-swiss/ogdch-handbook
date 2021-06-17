@@ -19,20 +19,15 @@ The handbook is implemented with Sphinx.
 
 ## Installation
 
-The handbook uses Python3:
-
-Set up a virtual environment:
+The handbook uses Python3. Set up the virtual environment, install
+requirements and copy the `.env` file to set environment variables.
 
 ```
 python -m venv p3venv 
 cd ogdch-handbook
-``` 
-
-With the virtualenv activated: install the requirements:
-
-```
 source p3venv/bin/activate
-(p3venv)pip install -r requirements.txt 
+(p3venv) pip install -r requirements.txt
+(p3venv) cp .env.dist .env
 ```
 
 ## Build the Documentation
@@ -40,9 +35,9 @@ source p3venv/bin/activate
 The documentation can be built locally:
 
 ```
-(p3venv)cd docs
-(p3venv)make clean
-(p3venv)make html
+(p3venv) cd docs
+(p3venv) make clean
+(p3venv) make html
 ```
 
 ## Update translations
@@ -65,11 +60,8 @@ Fill in the translated strings in the `.po` files. Then do the following to
 compile `.mo` files and build the translated html files for one language:
 
 ```
-make -e SPHINXOPTS="-D language='en'" html
-```
-
-The html files are always put into `build/html/`. If you generate html files
-for a second language, they will overwrite the previous ones.
+ make -e SPHINXOPTS="-D language='en'" BUILDDIR="build/en" html
+ ```
 
 See the [sphinx-intl documentation](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html)
 for more details.
@@ -88,5 +80,13 @@ The documentation includes a check of its external links.
 You can run it with make:
 
 ```
-(p3venv)make linkcheck
+(p3venv) make linkcheck
 ``` 
+
+## Environment variables
+
+For local development, environment variables that affect how the docs are
+built can be set in the `.env` file, which is ignored by git, and the
+`.env.dist` file, which is committed. Calling the `load_dotenv` function from
+the `dotenv` library before accessing environment variables ensures that they
+are taken from `.env` if it exists, and from the environment otherwise.
