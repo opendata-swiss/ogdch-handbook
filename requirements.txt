@@ -1,4 +1,5 @@
 fabric
+python-dotenv
 sphinx
 sphinx-comments
 sphinx-intl==2.0.1
