@@ -507,16 +507,6 @@ dct:publisher (DCAT)
 
     .. include:: dcat-examples/dataset-publisher-rdf.rst
 
-.. toggle-header::
-    :header: NEW Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
-
-    .. include:: dcat-examples/dataset-publisher-new-ttl.rst
-
-.. toggle-header::
-    :header: NEW Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
-
-    .. include:: dcat-examples/dataset-publisher-new-rdf.rst
-
 .. _dcat-dataset-contact-point:
 
 dcat:contactPoint (DCAT)
