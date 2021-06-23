@@ -4,4 +4,4 @@
 :Requirement Level: optional
 :Cardinality: 0..n
 :Description: Link to related datasets. Contains the identifier of the linked dataset.
-:Usage Note: Contains the identifier of the linked dataset.
+:Usage Notes: Contains the identifier of the linked dataset.

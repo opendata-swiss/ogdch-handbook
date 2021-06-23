@@ -1,4 +1,5 @@
 :DCAT URI: dcat:dataset
+:Domain: dcat:Catalog
 :Value: dcat:Dataset
 :Requirement Level: mandatory
 :Cardinality: 1..n

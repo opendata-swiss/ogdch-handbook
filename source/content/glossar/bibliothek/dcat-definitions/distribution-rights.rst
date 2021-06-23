@@ -4,7 +4,7 @@
 :Requirement Level: mandatory
 :Cardinality: 1..1
 :Description: Rights statement that is relevant for the dcat:accessURL of this distribution.
-:Usage Note: The rights statement is composed of 3 elements that can be merged and summarized as a literal:
+:Usage Notes: The rights statement is composed of 3 elements that can be merged and summarized as a literal:
 
 .. code-block::
     :caption: Values acceptable for opendata.swiss
