@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: The landing page in the current implementation is a string
+    :caption: The landing page is provided as a string
     :emphasize-lines: 6
 
     <?xml version="1.0" encoding="utf-8" ?>
