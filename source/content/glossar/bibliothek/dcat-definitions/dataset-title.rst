@@ -4,4 +4,4 @@
 :Requirement Level: mandatory
 :Cardinality: 1..4 (one for each language)
 :Description: Title of the dataset in different languages
-:Usage Notes: Provide at least on of the languages ``en``, ``de``, ``fr``, ``it``
+:Usage Notes: Provide at least one of the languages ``en``, ``de``, ``fr``, ``it``

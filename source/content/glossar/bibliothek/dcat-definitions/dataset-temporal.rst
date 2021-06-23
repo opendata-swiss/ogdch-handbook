@@ -5,5 +5,5 @@
 :Cardinality: 0..n
 :Description: One or more time period(s) that the dataset covers.
 :Usage Note: ``<schema:startDate>`` contains the start date,
-            ``<schema:endDate>`` contains the end date, format for dates:
+            ``<schema:endDate>`` contains the end date. Valid date formats can be found here:
             http://www.w3.org/2001/XMLSchema#date
