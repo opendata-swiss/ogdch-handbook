@@ -49,7 +49,7 @@ DCAT-AP-CH Standard Overview
 RDF-File Structure & Example
 ------------------------------
 
-Your datacatalog must follow the DCAT-AP-CH standard.
+Your data catalog must follow the DCAT-AP-CH standard.
 It consists of the following 4 Classes:
 
 - the catalog
@@ -58,8 +58,7 @@ It consists of the following 4 Classes:
 - the distributions
 
 These classes relate to each other as described below.
-All examples will be provided in both ``turtle`` and ``rdf``. ``turtle`` is generally
-easier to read and understand. ``rdf`` is used for the actual import of the data
+All examples will be provided in both ``turtle`` and ``rdf``. ``rdf`` is used for the actual import of the data.
 You can use a converter to convert between these two formats:
 https://www.easyrdf.org/converter
 
@@ -104,11 +103,11 @@ It is important to provide URIs for each of the classes in your catalog.
 
         </rdf:RDF>
 
-The example catalogs above just show the classes. But each of those classes has also further properties.
-Here you can find an overview of those properties and which of these you must provide:
+The example catalogs above show the classes without any further properties.
+Here you can find an overview of all possible properties and which of these you must provide.
 
 - ``mandatory`` means you MUST provide them
-- ``contidional`` means you must provide them under certain conditions
+- ``conditional`` means you must provide them under certain conditions
 - ``optional`` means you may provide them
 
 Example for Download
@@ -123,13 +122,13 @@ Namespaces
 ------------
 
 All classes and properties have definitions that are accessible with an URI.
-Usually this URIs are provided in the header of the datacatalog and receive an alias there,
+Usually these URIs are provided in the header of the data catalog and receive an alias there,
 so that they can be easier referenced in the rest of the catalog:
 A ``dcat:Dataset`` really means ``http://www.w3.org/ns/dcat#Dataset``. But since you don't want
 to write that throughout the document: a namespace is defined by ``@prefix dcat: <http://www.w3.org/ns/dcat#> .`` in ``turtle``
 or ``xmlns:dcat="http://www.w3.org/ns/dcat#"`` in ``RDF``
 
-These here are the namespaces that are used in DCAT-AP-CH:
+These are the namespaces that are used in DCAT-AP-CH:
 
 .. code-block:: turtle
     :caption: DCAT-AP-CH namespaces in turtle
@@ -164,9 +163,15 @@ These here are the namespaces that are used in DCAT-AP-CH:
 Internationalisation
 --------------------
 
-The DCAT-AP for Switzerland Standard expects that text elements of the
-datasets and their distributions be translated in the following four
-languages: \* French (fr) \* German (de) \* Italian (it) \* English (en).
+The DCAT-AP-CH Standard expects that text elements of
+datasets and their distributions are translated in the following four
+languages:
+
+- French (fr)
+- German (de)
+- Italian (it)
+- English (en)
+
 Examples are provided for how to translate those
 elements for all relevant properties.
 
@@ -175,9 +180,9 @@ elements for all relevant properties.
 Overview
 ---------
 
-Below you find a list of classes that you need to implement in you catalog.
-Translateable elements have been marked. Also DCAT-AP-CH conformance has been
-marked.
+Below you find a list of classes that you need to implement in your catalog.
+Translateable elements are marked as such under usage notes.
+The conformance note-cell contains information about the DCAT-AP-CH conformance.
 
 .. list-table:: Classes of DCAT-AP-CH
     :widths: 20 20 30 30
@@ -479,12 +484,12 @@ dct:description (DCAT)
     .. include:: dcat-definitions/dataset-description.rst
 
 .. toggle-header::
-    :header: Property ```dct:description`` of ``dcat:Dataset`` using Markdown in Turtle
+    :header: Property ``dct:description`` of ``dcat:Dataset`` using Markdown in Turtle
 
     .. include:: dcat-examples/dataset-description-ttl.rst
 
 .. toggle-header::
-    :header: Property ```dct:description`` of ``dcat:Dataset`` using Markdown in RDF
+    :header: Property ``dct:description`` of ``dcat:Dataset`` using Markdown in RDF
 
     .. include:: dcat-examples/dataset-description-rdf.rst
 
@@ -498,12 +503,12 @@ dct:publisher (DCAT)
     .. include:: dcat-definitions/dataset-publisher.rst
 
 .. toggle-header::
-    :header: CURRENT Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
+    :header: Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-publisher-ttl.rst
 
 .. toggle-header::
-    :header: CURRENT Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
 
     .. include:: dcat-examples/dataset-publisher-rdf.rst
 
@@ -632,24 +637,14 @@ dcat:landingPage (DCAT)
     .. include:: dcat-definitions/dataset-landing-page.rst
 
 .. toggle-header::
-    :header: CURRENT Property ``dcat:landingPage`` of ``dcat:Dataset`` in Turtle
+    :header: Property ``dcat:landingPage`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-landing-page-ttl.rst
 
 .. toggle-header::
-    :header: CURRENT Property ``dcat:landingPage`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dcat:landingPage`` of ``dcat:Dataset`` in RDF
 
     .. include:: dcat-examples/dataset-landing-page-rdf.rst
-
-.. toggle-header::
-    :header: NEW Property ``dcat:landingPage`` of ``dcat:Dataset`` in Turtle
-
-    .. include:: dcat-examples/dataset-landing-page-new-ttl.rst
-
-.. toggle-header::
-    :header: NEW Property ``dcat:landingPage`` of ``dcat:Dataset`` in RDF
-
-    .. include:: dcat-examples/dataset-landing-page-new-rdf.rst
 
 .. _dcat-dataset-relation:
 
@@ -710,7 +705,7 @@ dct:spatial (DCAT)
 
 .. _dcat-dataset-coverage:
 
-dct:relation (DCAT)
+dct:coverage (DCAT)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -748,26 +743,26 @@ dct:temporal (DCAT)
 
 .. _dcat-dataset-accrual-periodicity:
 
-dct:accrual-periodicty (DCAT)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dct:accrual-periodicity (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
     .. include:: dcat-definitions/dataset-accrual-periodicity.rst
 
 .. toggle-header::
-    :header: Property ``dct:accrualPeriodicty`` of ``dcat:Dataset`` in Turtle
+    :header: Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-accrual-periodicity-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:accrualPeriodicty`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in RDF
 
     .. include:: dcat-examples/dataset-accrual-periodicity-rdf.rst
 
 .. _dcat-dataset-see-alsos:
 
-dcat:see-alsos (DCAT)
+dcat:seeAlsos (DCAT)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -818,12 +813,12 @@ dcat:accessURL (DCAT)
    .. include:: dcat-definitions/distribution-access-url.rst
 
 .. toggle-header::
-    :header: Property ``dcat:accessURL`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dcat:accessURL`` of ``dcat:Distribution`` in Turtle
 
     .. include:: dcat-examples/distribution-access-url-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:accessURL`` of ``dcat:Distribution`` in Turtle
+    :header: Property ``dcat:accessURL`` of ``dcat:Distribution`` in RDF
 
     .. include:: dcat-examples/distribution-access-url-rdf.rst
 
@@ -990,12 +985,12 @@ dct:description (DCAT)
    .. include:: dcat-definitions/distribution-description.rst
 
 .. toggle-header::
-    :header: Property ```dct:description`` of ``dcat:Distribution`` in Turtle
+    :header: Property ``dct:description`` of ``dcat:Distribution`` in Turtle
 
     .. include:: dcat-examples/distribution-description-ttl.rst
 
 .. toggle-header::
-    :header: Property ```dct:description`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dct:description`` of ``dcat:Distribution`` in RDF
 
     .. include:: dcat-examples/distribution-description-rdf.rst
 
