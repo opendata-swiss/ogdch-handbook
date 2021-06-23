@@ -1,4 +1,4 @@
-:DCAT URI: dcat:distributio
+:DCAT URI: dcat:distribution
 :Domain: dcat:Dataset
 :Value: dcat:Distribution
 :Requirement Level: mandatory

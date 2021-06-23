@@ -5,7 +5,7 @@
 :Cardinality: 1..1
 :Description: The publisher is the organization with the legal authority
              to publish the dataset.
-:Usage Notes: The publsher is currently not conformant to DCAT-AP-CH and DCAT-AP
-             as it is implemented on opendata.swiss
-:DCAT-AP-CH:  Implementation on opendata swiss does not conform DCAT-AP-CH, since
-             it is not a class of foaf:Agent, that is mapped.
+:Usage Notes: The publisher as it is implemented on opendata.swiss is currently
+              not conformant to DCAT-AP-CH and DCAT-AP.
+:DCAT-AP-CH:  Implementation on opendata swiss does not conform to DCAT-AP-CH, since
+              it is not a class of foaf:Agent, that is mapped.

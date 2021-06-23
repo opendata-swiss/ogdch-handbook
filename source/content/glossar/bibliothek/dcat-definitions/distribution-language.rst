@@ -4,6 +4,6 @@
 :Requirement Level: optional
 :Cardinality: 0..n
 :Description: Languages in which this distribution is available.
-:Usage: If the distribution is language-independant, this can
+:Usage: If the distribution is language independent, this can
        be left out.
        Only the languages "de", "fr", "en", "it" are currently imported to opendata.swiss

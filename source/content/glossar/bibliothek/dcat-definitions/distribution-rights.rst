@@ -3,9 +3,8 @@
 :Value: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
 :Requirement Level: mandatory
 :Cardinality: 1..1
-:Description: Rights statement of this distribution. It relates to the ``dcat:accessURL``
+:Description: Rights statement that is relevant for the dcat:accessURL of this distribution.
 :Usage Note: The rights statement is composed of 3 elements that can be merged and summarized as a literal:
-:Mapping: 'Non-commercial use', 'Commercial use' and 'Reference' are combined with 'Allowed', 'WithPermission', 'Required', etc.
 
 .. code-block::
     :caption: Values acceptable for opendata.swiss
