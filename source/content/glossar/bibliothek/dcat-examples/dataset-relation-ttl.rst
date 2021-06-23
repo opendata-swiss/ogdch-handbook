@@ -3,7 +3,7 @@
     :emphasize-lines: 7,9
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
-    @prefix dc: <http://purl.org/dc/terms/> .
+    @prefix dct: <http://purl.org/dc/terms/> .
     @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
     <https://swisstopo/123>
