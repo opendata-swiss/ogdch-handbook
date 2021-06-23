@@ -182,7 +182,6 @@ Overview
 
 Below you find a list of classes that you need to implement in your catalog.
 Translateable elements are marked as such under usage notes.
-The conformance note-cell contains information about the DCAT-AP-CH conformance.
 
 .. list-table:: Classes of DCAT-AP-CH
     :widths: 20 20 30
@@ -230,7 +229,7 @@ The conformance note-cell contains information about the DCAT-AP-CH conformance.
       - **mandatory**, multilingual
     * - :ref:`publisher <dcat-dataset-publisher>`
       - dct:publisher
-      - **mandatory**, **CHANGED rule**
+      - **mandatory**
     * - :ref:`contact point <dcat-dataset-contact-point>`
       - dcat:contactPoint
       - **mandatory**
@@ -257,7 +256,7 @@ The conformance note-cell contains information about the DCAT-AP-CH conformance.
       - conditional
     * - :ref:`keyword <dcat-dataset-keyword>`
       - dcat:keyword
-      - optional
+      - optional, multilingual
     * - :ref:`spatial <dcat-dataset-spatial>`
       - dct:spatial
       - optional
@@ -297,10 +296,10 @@ The conformance note-cell contains information about the DCAT-AP-CH conformance.
       - **mandatory**
     * - :ref:`title <dcat-distribution-title>`
       - dct:title
-      - conditional
+      - conditional, multilingual
     * - :ref:`description <dcat-distribution-description>`
       - dct:description
-      - conditional
+      - conditional, multilingual
     * - :ref:`byte size <dcat-distribution-byte-size>`
       - dct:byteSize
       - conditional
