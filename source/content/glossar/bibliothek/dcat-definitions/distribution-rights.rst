@@ -4,7 +4,11 @@
 :Requirement Level: mandatory
 :Cardinality: 1..1
 :Description: Rights statement that is relevant for the dcat:accessURL of this distribution.
-:Usage Notes: The rights statement is composed of 3 elements that can be merged and summarized as a literal:
+:Usage Notes: The rights statement declares for which purpose and in which context
+              the data of a distribution can be used: for commercial purposes or only for
+              non commercial purposes. Does it need be referenced, when it is used? These
+              conditions are all captured in the right statements. For the exact values,
+              see the list below.
 
 .. code-block::
     :caption: Values acceptable for opendata.swiss
