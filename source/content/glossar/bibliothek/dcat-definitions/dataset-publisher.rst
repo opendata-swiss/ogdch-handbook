@@ -4,8 +4,7 @@
 :Requirement Level: mandatory
 :Cardinality: 1..1
 :Description: The publisher is the organization with the legal authority
-             to publish the dataset.
-:Usage Notes: The publisher as it is implemented on opendata.swiss is currently
-              not conformant to DCAT-AP-CH and DCAT-AP.
-:DCAT-AP-CH:  Implementation on opendata swiss does not conform to DCAT-AP-CH, since
-              it is not a class of foaf:Agent, that is mapped.
+              to publish the dataset.
+:Usage Notes: See here for the difference between ``dct:publisher`` and
+              ``dcat:contactPoint``:
+              https://joinup.ec.europa.eu/release/how-are-publisher-and-contact-point-modelled
