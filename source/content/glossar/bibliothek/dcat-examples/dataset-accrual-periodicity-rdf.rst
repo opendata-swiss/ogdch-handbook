@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: daily updated dataset
+    :caption: dataset that is updated on a daily basis
     :emphasize-lines: 7
 
     <?xml version="1.0" encoding="utf-8" ?>

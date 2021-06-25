@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: The landing Page in the current implementation is a string
+    :caption: The landing page is provided as a string
     :emphasize-lines: 5
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .

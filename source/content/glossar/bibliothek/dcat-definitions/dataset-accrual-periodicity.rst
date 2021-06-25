@@ -4,4 +4,4 @@
 :Requirement Level: optional
 :Cardinality: 0..1
 :Description: The frequency in which this dataset is updated.
-:Usage Note: Please provide URI of the controlled vocabulary
+:Usage Note: Please provide a term of the controlled vocabulary in the form of an URI.

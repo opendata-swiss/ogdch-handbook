@@ -6,4 +6,5 @@
 :Cardinality: 0..n
 :Description: Distributions can be marked by a location or time period (for example, one for each canton,
               one for each year, etc.)
-:Usage Notes: If a date is provided, it does not have to be an ISO date.
+:Usage Notes: This property is a string: so when it is used to indicate a date a custom format
+              can be used.
