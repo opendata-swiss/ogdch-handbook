@@ -6,5 +6,5 @@
 :Description: The title of the distribution
 :Usage Notes: The title is mandatory if the distribution contains only a part
               of the content covered by the dataset: for example if it contains
-              only the data for one year, whereas the dataset covers severel years
+              only the data for one year, whereas the dataset covers several years
               in total.

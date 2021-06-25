@@ -6,4 +6,4 @@
 :Description: Website of the dataset with related information
 :Usage Notes: If data of the dataset is only accessible via a landing page
               (i.e. direct download URLs are not known), the landing page must be set and
-              the link should be duplicated as ``dcat:accessURL`` on a distributions.
+              the link should be duplicated as ``dcat:accessURL`` on a distribution.
