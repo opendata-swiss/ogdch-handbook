@@ -266,7 +266,7 @@ Translateable elements are marked as such under usage notes.
     * - :ref:`temporal <dcat-dataset-temporal>`
       - dct:temporal
       - optional
-    * - :ref:`accrual periodicty <dcat-dataset-accrual-periodicity>`
+    * - :ref:`accrual periodicity <dcat-dataset-accrual-periodicity>`
       - dct:accrualPeriodicity
       - optional
     * - :ref:`coverage <dcat-dataset-relation>`
