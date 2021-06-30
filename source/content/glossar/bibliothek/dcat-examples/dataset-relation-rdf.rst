@@ -1,5 +1,7 @@
 .. code-block:: xml
-    :caption: Further information links should be a class and therefore come with a URI according to DCAT
+    :caption: ``dct:relation`` values should be of the class ``rdfs:Resource`` or a subclass.
+              They should therefore each have a URI, according to DCAT
+
     :emphasize-lines: 8,9,10,11,12,13,14
 
     <?xml version="1.0" encoding="utf-8" ?>
