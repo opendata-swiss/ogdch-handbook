@@ -181,7 +181,7 @@ Overview
 ---------
 
 Below you find a list of classes that you need to implement in your catalog.
-Translateable elements are marked as such under usage notes.
+Translatable elements are marked as such under usage notes.
 
 .. list-table:: Classes of DCAT-AP-CH
     :widths: 20 20 30

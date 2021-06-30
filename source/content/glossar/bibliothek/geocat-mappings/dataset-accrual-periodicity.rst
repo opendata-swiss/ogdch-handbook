@@ -1,6 +1,6 @@
-:DCAT: :ref:`dcat:accrualPeriodictiy <dcat-dataset-accrual-periodicity>`
-:XPATH: //gmd:identificationInfo//che:CHE_MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/
-:Value: gmd:MD_MaintenanceFrequencyCode/@codeListValue
+:DCAT: :ref:`dcat:accrualPeriodicity <dcat-dataset-accrual-periodicity>`
+:XPATH: ``//gmd:identificationInfo//che:CHE_MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/``
+:Value: ``gmd:MD_MaintenanceFrequencyCode/@codeListValue``
 :Mapping of values: For the mapping of Frequency Codes see below
 
 .. code-block:: xml

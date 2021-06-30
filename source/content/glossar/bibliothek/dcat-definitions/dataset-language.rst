@@ -5,5 +5,5 @@
 :Cardinality: 0..n
 :Description: Languages in which distributions are available
 :Usage Notes: Should contain all languages for which a distribution of the dataset is available.
-              If all distributions are language-independant, this field can be left out.
+              If all distributions are language-independent, this field can be left out.
               Only the languages "de", "fr", "en", "it" are currently imported to opendata.swiss

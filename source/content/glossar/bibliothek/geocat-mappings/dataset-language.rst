@@ -1,7 +1,7 @@
 :DCAT: :ref:`dct:language <dcat-dataset-language>`
 :XPATH: ``//gmd:identificationInfo//gmd:language``
 :Value: ``gmd:LanguageCode``
-:Usage Notes: only the language German, French, Italian and English are mapped
+:Usage Notes: only the languages German, French, Italian and English are mapped
 
 .. code-block:: xml
     :caption: ISO-19139_che XPath for ``dct:language``

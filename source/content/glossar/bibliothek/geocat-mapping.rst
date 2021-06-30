@@ -52,8 +52,8 @@ Geocat Distributions ``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferO
 are mapped either to the :ref:`dcat:Dataset <iso_19139_che-dataset-mapping>`
 class or to the :ref:`dcat:Distribution <iso_19139_che-distribution-mapping>` class, depending on ``.//gmd:protocol``
 
-The "Mapped from" column in the table gives just a hint, on where the metadata is comming from. Please see
-for the Field descriptions for the actual mapping.
+The "Mapped from" column in the table gives just a hint on where the metadata is taken from. Please see
+the field descriptions for the actual mapping.
 
 .. _iso_19139_che-dataset-mapping:
 
@@ -67,7 +67,7 @@ Mapping to dcat:Dataset
 
     * - DCAT property
       - Mapped from
-      - Usgae Notes
+      - Usage Notes
     * - :ref:`dct:title <dcat-dataset-title>`
       - :ref:`//gmd:identificationInfo//gmd:citation//gmd:title <geocat-dataset-title>`
       - 1*
@@ -135,7 +135,7 @@ Mapping to dcat:Distribution
 
     * - DCAT property
       - Mapped from
-      - Usgae Notes
+      - Usage Notes
     * - :ref:`dct:issued <dcat-distribution-issued>`
       - :ref:`//gmd:identificationInfo//gmd:citation//gmd:CI_Date <geocat-dataset-issued>`
       - taken from the Dataset
@@ -336,7 +336,7 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
     .. include:: geocat-mappings/dataset-landing-page.rst
 
 .. toggle-header::
-    :header: Example for geocat mapping to ``dcat:langingPage``
+    :header: Example for geocat mapping to ``dcat:landingPage``
 
     .. include:: geocat-examples/dataset-landing-page.rst
 

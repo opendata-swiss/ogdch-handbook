@@ -523,7 +523,7 @@ Different methods can be used to provide data access for machines, as:
 
 The SPARQL Protocol and RDF Query Language (SPARQL) is the standard
 query language for RDF. The current version, SPARQL 1.1, is defined by a
-`W3C recommandation <https://www.w3.org/TR/sparql11-overview/>`__.
+`W3C recommendation <https://www.w3.org/TR/sparql11-overview/>`__.
 
 It is common practice for Linked Data to provide a service that accepts
 SPARQL queries: a SPARQL endpoint. The endpoint returns data in the
@@ -626,7 +626,7 @@ different from the more common Relational or Hierarchical Databases:
    Figure 6. Three different types of databases (Source:
    `linkeddatatools.com <http://www.linkeddatatools.com/introducing-rdf>`__)
 
-So where do IRIs, the foundation of the layercake, come into play ?
+So where do IRIs, the foundation of the layercake, come into play?
 Everywhere! Everything is identified by a URL (a specific form of IRI),
 except literal values, as “1910-07-28” in our running example. We did
 not mention any URL in the former presentations to make things simple
@@ -691,7 +691,7 @@ Turtle is a pretty simple format where each triple is written down.
    <http://dbpedia.org/resource/Albert_Einstein> <http://dbpedia.org/ontology/spouse> <http://dbpedia.org/resource/Mileva_Mari%C4%87> .
    <http://dbpedia.org/resource/Eduard_Einstein> <http://dbpedia.org/property/birthDate> "1910-07-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 
-In practice, some syntaxe shortcuts will be used.
+In practice, some syntactic shortcuts will be used.
 
 .. code-block::
    :caption: the final document will rather look like:
