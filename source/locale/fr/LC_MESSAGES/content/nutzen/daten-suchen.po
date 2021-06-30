@@ -109,7 +109,7 @@ msgid ""
 "``extras_*``, ``res_extras_*``, ``urls``, ``name``, ``title``, "
 "``title_string``, ``text``, ``license``, ``notes`` ``tags``, ``groups``, "
 "``organization``, ``res_name`` ``res_format``, ``res_description``, "
-"``identifier``, ``see_alsos`` ``maintainer``, ``author``, ``publishers``,"
+"``identifier``, ``see_also`` ``maintainer``, ``author``, ``publishers``,"
 " ``contact_points``"
 msgstr ""
 

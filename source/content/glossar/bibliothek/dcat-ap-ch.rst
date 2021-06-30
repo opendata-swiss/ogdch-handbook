@@ -272,8 +272,8 @@ Translateable elements are marked as such under usage notes.
     * - :ref:`coverage <dcat-dataset-relation>`
       - dct:relation
       - optional
-    * - :ref:`see alsos <dcat-dataset-see-alsos>`
-      - rdfs:seeAlsos
+    * - :ref:`see also <dcat-dataset-see-also>`
+      - rdfs:seeAlso
       - optional
 
 
@@ -719,24 +719,24 @@ dct:accrual-periodicity (DCAT)
 
     .. include:: dcat-examples/dataset-accrual-periodicity-rdf.rst
 
-.. _dcat-dataset-see-alsos:
+.. _dcat-dataset-see-also:
 
-dcat:seeAlsos (DCAT)
+dcat:seeAlso (DCAT)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-   .. include:: dcat-definitions/dataset-see-alsos.rst
+   .. include:: dcat-definitions/dataset-see-also.rst
 
 .. toggle-header::
     :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Turtle
 
-    .. include:: dcat-examples/dataset-see-alsos-ttl.rst
+    .. include:: dcat-examples/dataset-see-also-ttl.rst
 
 .. toggle-header::
     :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in RDF
 
-    .. include:: dcat-examples/dataset-see-alsos-rdf.rst
+    .. include:: dcat-examples/dataset-see-also-rdf.rst
 
 .. _dcat-ap-ch-distribution:
 

@@ -116,11 +116,11 @@ Mapping to dcat:Dataset
     * - :ref:`dct:temporal <dcat-dataset-temporal>`
       - :ref:`//gmd:identificationInfo//gmd:extent//gmd:temporalElement <geocat-dataset-temporal>`
       -
-    * - :ref:`accrual periodicty <dcat-dataset-accrual-periodicity>`
+    * - :ref:`accrual periodicity <dcat-dataset-accrual-periodicity>`
       - :ref:`//gmd:identificationInfo//che:CHE_MD_MaintenanceInformation <geocat-dataset-accrual-periodicity>`
       -
-    * - :ref:`see alsos <dcat-dataset-see-alsos>`
-      - :ref:`//gmd:identificationInfo//gmd:aggregationInfo <geocat-dataset-see-alsos>`
+    * - :ref:`see also <dcat-dataset-see-also>`
+      - :ref:`//gmd:identificationInfo//gmd:aggregationInfo <geocat-dataset-see-also>`
       -
 
 .. _iso_19139_che-distribution-mapping:
@@ -405,19 +405,19 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
     .. include:: geocat-examples/dataset-accrual-periodicity.rst
 
-.. _geocat-dataset-see-alsos:
+.. _geocat-dataset-see-also:
 
-//gmd:identificationInfo//gmd:aggregationInfo to dct:seeAlsos
+//gmd:identificationInfo//gmd:aggregationInfo to dct:seeAlso
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-    .. include:: geocat-mappings/dataset-see-alsos.rst
+    .. include:: geocat-mappings/dataset-see-also.rst
 
 .. toggle-header::
-    :header: Defintition of ``dcat:seeAlsos`` in DCAT-AP-CH
+    :header: Definition of ``dcat:seeAlso`` in DCAT-AP-CH
 
-    .. include:: geocat-examples/dataset-see-alsos.rst
+    .. include:: geocat-examples/dataset-see-also.rst
 
 .. _iso_19139_che-distribution:
 
