@@ -2,7 +2,7 @@
 :XPATH: ``//gmd:identificationInfo/gmd:pointOfContact`` or ``//gmd:contact//che:CHE_CI_ResponsibleParty``
 :Filter: ``.//gmd:CI_RoleCode/@codeListValue``
 :Value: ``.//gmd:organisationName/gco:CharacterString/text()``
-:Usage Notes: Only the none localized string is taken, the exact mapping is described below.
+:Usage Notes: Only the non-localized string is taken. The exact mapping is described below.
 
 .. code-block:: xml
     :caption: ISO-19139_che XPath for ``dct:publisher``: the first is taken in the following order:

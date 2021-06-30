@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: The language code is mapped form a 3 letter code to a 2 letter code
+    :caption: The language code is mapped from a 3 letter code to a 2 letter code
     :emphasize-lines: 2,5
 
     <gmd:language>
