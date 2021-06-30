@@ -391,6 +391,11 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
     .. include:: geocat-mappings/dataset-temporal.rst
 
+.. toggle-header::
+    :header: Example for geocat mapping to ``dct:temporal``
+
+    .. include:: geocat-examples/dataset-temporal.rst
+
 .. _geocat-dataset-accrual-periodicity:
 
 //gmd:identificationInfo//che:CHE_MD_MaintenanceInformation to dct:accrualPeriodicity
