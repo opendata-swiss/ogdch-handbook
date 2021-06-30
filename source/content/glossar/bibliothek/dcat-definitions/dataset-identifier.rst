@@ -9,8 +9,8 @@
               ``[Source-Dataset-ID]@[Source-Organisation-ID]`` where
               ``[Source-Organisation-ID]`` is the :term:`slug <Slug>` of
               the organization on opendata.swiss.
-              ``[Source-Dataset-ID]`` needs to be unique within the
+              ``[Source-Dataset-ID]`` must be unique within the
               datasets of the organization. A recommended way to choose this
               is to use the ID in the source system of the
-              publisher. It can consist out of the following characters
+              publisher. It can consist of the following characters:
               ``A-Za-z``, ``0-9`` and ``-`` and ``_``

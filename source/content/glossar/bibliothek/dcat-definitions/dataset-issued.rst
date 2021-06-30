@@ -4,4 +4,4 @@
 :Requirement Level: conditional: required once the the dataset is published
 :Cardinality: 0..1
 :Description: Date of the first publication of the dataset
-:Usage Note: Can be empty while the dataset is in preparation.
+:Usage Notes: Can be empty while the dataset is in preparation.
