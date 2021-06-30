@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: Description of a Distribution in Turtle
+    :caption: Description of a distribution in Turtle
     :emphasize-lines: 6
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .

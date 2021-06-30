@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: Description of a Dataset using Markdown in Turtle
+    :caption: Description of a dataset using Markdown in Turtle
     :emphasize-lines: 6,7,8,9
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .

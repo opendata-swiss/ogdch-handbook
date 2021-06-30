@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: vcard:Kind is a class: choose between ``vcard:Organization`` and ``vcard:Individuel``
+    :caption: ``vcard:Kind`` is a class: choose between ``vcard:Organization`` and ``vcard:Individual``
     :emphasize-lines: 7,8,9,11,12,13
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
