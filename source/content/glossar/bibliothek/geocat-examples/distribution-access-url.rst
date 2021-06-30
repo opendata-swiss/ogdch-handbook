@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Example of mapping to the dcat:accessURL for a distribution of protocol "LINKED:DATA"
+    :caption: Example of mapping to the ``dcat:accessURL`` for a distribution of protocol "LINKED:DATA"
     :emphasize-lines: 3,19,20,21
 
      <gmd:CI_OnlineResource>

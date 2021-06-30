@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Example of mapping to dcat:downloadURL for a Distribtution with protocol "WWW:DOWNLOAD:INTERLIS"
+    :caption: Example of mapping to ``dcat:downloadURL`` for a Distribution with protocol "WWW:DOWNLOAD:INTERLIS"
     :emphasize-lines: 3,19,20,21
 
     <gmd:CI_OnlineResource>

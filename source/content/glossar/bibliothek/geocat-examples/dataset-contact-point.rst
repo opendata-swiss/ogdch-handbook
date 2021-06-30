@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: //gmd:contact the role "pointOfContact" is taken for dcat:contactPoint
+    :caption: ``//gmd:contact`` the role "pointOfContact" is taken for ``dcat:contactPoint``
     :emphasize-lines: 48,49,50,88,89,90,91
 
     <gmd:contact xlink:show="embed">

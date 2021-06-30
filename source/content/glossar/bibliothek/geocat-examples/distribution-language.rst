@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Example of mapping to dct:language for a Distribution with protocol OGC:WMS"
+    :caption: Example of mapping to ``dct:language`` for a Distribution with protocol ``OGC:WMS``
     :emphasize-lines: 6,9
 
      <gmd:CI_OnlineResource>
