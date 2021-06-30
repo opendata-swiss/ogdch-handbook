@@ -1,4 +1,4 @@
-:DCAT URI: rdfs:seeAlsos
+:DCAT URI: rdfs:seeAlso
 :Domain: dcat:Dataset
 :Value: ``rdfs:Resource``
 :Requirement Level: optional

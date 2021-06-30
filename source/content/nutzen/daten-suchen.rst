@@ -54,7 +54,7 @@ The search index contains the following fields:
 :Text-fields: ``extras_*``, ``res_extras_*``, ``urls``, ``name``,
               ``title``, ``title_string``, ``text``, ``license``, ``notes``
               ``tags``, ``groups``, ``organization``, ``res_name``
-              ``res_format``, ``res_description``, ``identifier``, ``see_alsos``
+              ``res_format``, ``res_description``, ``identifier``, ``see_also``
               ``maintainer``, ``author``, ``publishers``, ``contact_points``
 
 :Translated fields: ``title``, ``keywords``, ``groups``
