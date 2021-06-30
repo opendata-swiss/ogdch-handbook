@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: A ``dcat:Catalog`` with a URI in RDF
+    :caption: A ``dcat:Catalog`` containing two datasets in RDF
     :emphasize-lines: 6,7
 
     <?xml version="1.0" encoding="utf-8" ?>
