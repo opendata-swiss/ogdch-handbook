@@ -8,7 +8,7 @@
            xmlns:dc="http://purl.org/dc/terms/">
 
       <dcat:Distribution rdf:about="https://swisstopo/123567">
-        <dc:identifier>ch.bafu.laerm-bahnlaerm_nacht</dc:identifier>
+        <dct:identifier>ch.bafu.laerm-bahnlaerm_nacht</dct:identifier>
       </dcat:Distribution>
 
     </rdf:RDF>
