@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: vcard:Kind is a class: choose between ``vcard:Organization`` and ``vcard:Individuel``
+    :caption: ``vcard:Kind`` is a class: choose between ``vcard:Organization`` and ``vcard:Individual``
     :emphasize-lines: 8,9,10,11,15,16,17,18
 
     <?xml version="1.0" encoding="utf-8" ?>

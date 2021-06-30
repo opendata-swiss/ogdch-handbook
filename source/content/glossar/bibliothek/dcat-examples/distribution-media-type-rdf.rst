@@ -8,7 +8,7 @@
 
       <dcat:Distribution rdf:about="https://swisstopo/123">
         <dcat:downloadURL rdf:resource="http:swisstopo/file/1234/ld+json"/>
-        <dcat:mediaType: rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+        <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
       </dcat:Distribution>
 
     </rdf:RDF>

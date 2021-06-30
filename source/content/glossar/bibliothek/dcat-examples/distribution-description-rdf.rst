@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Description of a Distribution in RDF
+    :caption: Description of a distribution in RDF
     :emphasize-lines: 7,8
 
     <?xml version="1.0" encoding="utf-8" ?>

@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Property spacial
+    :caption: Property spatial
     :emphasize-lines: 7,8
 
     <?xml version="1.0" encoding="utf-8" ?>
