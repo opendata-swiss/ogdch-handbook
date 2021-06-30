@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Example adding a resource of protocol "CHTOPO:specialised:geoportal" to dct:relation
+    :caption: Example adding a resource of protocol "CHTOPO:specialised:geoportal" to ``dct:relation``
     :emphasize-lines: 3,19,20,21,30-32
 
      <gmd:CI_OnlineResource>

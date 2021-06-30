@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Example of mapping to dcat:mediaType for a Distribution with protocol "WWW:DOWNLOAD:INTERLIS"
+    :caption: Example of mapping to ``dcat:mediaType`` for a Distribution with protocol "WWW:DOWNLOAD:INTERLIS"
     :emphasize-lines: 20
 
     <gmd:CI_OnlineResource>

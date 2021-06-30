@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Example of getting dct:description for dcat:Distribution from a geocat Distribution
+    :caption: Example of getting ``dct:description`` for ``dcat:Distribution`` from a geocat distribution
     :emphasize-lines: 18-26
 
     <gmd:CI_OnlineResource>

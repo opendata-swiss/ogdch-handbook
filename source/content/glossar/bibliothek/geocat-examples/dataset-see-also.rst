@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Geocat Identifiers for rdfs:seeAlso
+    :caption: Geocat Identifiers for ``rdfs:seeAlso``
     :emphasize-lines: 4
 
     <gmd:aggregateDataSetIdentifier>
