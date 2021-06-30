@@ -4,5 +4,5 @@
 :Requirement Level: conditional: required if the distribution has changed since its first
                    publication.
 :Cardinality: 0..1
-:Description: Date of the last change to the distribution. If this distribution was changed several times,
+:Description: Date of the last change to the distribution. If this distribution has been changed several times,
              this corresponds to the date of the latest change.

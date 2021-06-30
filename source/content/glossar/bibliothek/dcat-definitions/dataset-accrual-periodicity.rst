@@ -3,5 +3,5 @@
 :Value: Controlled vocabulary http://dublincore.org/groups/collections/frequency/
 :Requirement Level: optional
 :Cardinality: 0..1
-:Description: The frequency in which this dataset is updated.
-:Usage Note: Please provide a term of the controlled vocabulary in the form of an URI.
+:Description: The frequency with which this dataset is updated.
+:Usage Notes: Please provide a term of the controlled vocabulary in the form of a URI.
