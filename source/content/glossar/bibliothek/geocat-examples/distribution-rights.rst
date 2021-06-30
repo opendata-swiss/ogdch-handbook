@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: The values are supposed to match the controlled vocabulary
+    :caption: Example of getting rights statements from ``//gmd:resourceConstraints//gmd:otherConstraints``.
     :emphasize-lines: 7-10,12-14,17-20,23-25
 
     <gmd:resourceConstraints>

@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Example of mapping to dcat:mediaType for a Distribution with protocol "OGC:WFS"
+    :caption: Example of mapping to ``dcat:mediaType`` for a Distribution with protocol ``OGC:WFS``
               The derived title is "OGC:WFS (GetCapabilities) DE#WFS"
     :emphasize-lines: 19-21,26
 

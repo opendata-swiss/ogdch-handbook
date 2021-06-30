@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Example of getting dct:description: only 4 languages are taken: DE, EN, FR, IT
+    :caption: Example of getting ``dct:description``: only 4 languages are taken: DE, EN, FR, IT
     :emphasize-lines: 11,12,13,14,15,16,17,21,22,23,24,25,26,27,30,31,31,32,33,34,35,36,40,41,42,43,44,45
 
     <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">

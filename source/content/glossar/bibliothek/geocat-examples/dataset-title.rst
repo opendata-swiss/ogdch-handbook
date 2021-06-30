@@ -1,5 +1,5 @@
 .. code-block:: xml
-   :caption: Example of getting dct:title: only 4 languages are taken: DE, EN, FR, IT
+   :caption: Example of getting ``dct:title``. Only four languages are taken: DE, EN, FR, IT.
    :emphasize-lines: 6, 11, 16, 21
 
    <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
