@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: Here you can see how every class in the catalog has a URI
+    :caption: A ``dcat:Dataset`` with multiple ``dct:language`` properties
     :emphasize-lines: 6
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .

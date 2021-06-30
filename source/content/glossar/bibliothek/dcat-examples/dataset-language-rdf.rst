@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Here you can see how every class in the catalog has a URI
+    :caption: A ``dcat:Dataset`` with multiple ``dct:language`` properties
     :emphasize-lines: 7,8
 
     <?xml version="1.0" encoding="utf-8" ?>
