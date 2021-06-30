@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: A ``dcat:Catalog`` with a URI in RDF
+    :caption: A ``dcat:Distribution`` with a ``dct:identifier`` in RDF
     :emphasize-lines: 7
 
     <?xml version="1.0" encoding="utf-8" ?>

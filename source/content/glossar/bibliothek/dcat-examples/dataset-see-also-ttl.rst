@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: related datasets should be classes and have their own URIs
+    :caption: A ``dcat:Dataset`` with a ``rdfs:seeAlso`` in Turtle
     :emphasize-lines: 6
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
