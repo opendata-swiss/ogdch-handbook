@@ -1,6 +1,6 @@
  .. code-block:: xml
-    :caption: //gmd:identificationInfo//gmd:citation//gmd:CI_Date
-              the "creation" date is taken for dct:issued
+    :caption: getting the "creation" date from ``//gmd:identificationInfo//gmd:citation//gmd:CI_Date``
+              to map onto ``dct:issued``
     :emphasize-lines: 12,16,17
 
     <gmd:CI_Date>

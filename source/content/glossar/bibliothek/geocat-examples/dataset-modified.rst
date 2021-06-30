@@ -1,6 +1,6 @@
  .. code-block:: xml
-    :caption: //gmd:identificationInfo//gmd:citation//gmd:CI_Date
-              the "revision" date is taken for dct:modified
+    :caption: getting the "revision" date from ``//gmd:identificationInfo//gmd:citation//gmd:CI_Date``
+              to map onto ``dct:modified``
     :emphasize-lines: 3,6,7
 
     <gmd:CI_Date>
