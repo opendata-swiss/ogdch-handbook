@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: The categories are selected form a swiss controlled vocabulary
+    :caption: A time period in Turtle: there can be multiple of those
     :emphasize-lines: 8,9,10,11,12
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
