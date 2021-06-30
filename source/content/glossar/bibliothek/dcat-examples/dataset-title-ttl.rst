@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: In TUrtle strings are marked by the language they are in
+    :caption: In Turtle strings are marked by the language they are in
     :emphasize-lines: 6
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .

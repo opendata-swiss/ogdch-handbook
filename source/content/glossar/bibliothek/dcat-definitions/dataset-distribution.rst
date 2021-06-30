@@ -1,6 +1,6 @@
 :DCAT URI: dcat:distribution
 :Domain: dcat:Dataset
-:Value: dcat:Distribution
+:Value: ``dcat:Distribution``
 :Requirement Level: mandatory
 :Cardinality: 1..n
 :Description: Distributions that belong to the dataset

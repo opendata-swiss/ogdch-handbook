@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: The categories are selected form a swiss controlled vocabulary
+    :caption: The categories are selected from a Swiss controlled vocabulary
     :emphasize-lines: 6,7
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .

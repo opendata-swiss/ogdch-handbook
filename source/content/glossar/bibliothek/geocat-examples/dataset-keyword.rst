@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Note that they keyword opendata.swiss is not imported
+    :caption: Note that the keyword opendata.swiss is not imported
     :emphasize-lines: 5, 8, 11, 15, 46, 49, 52, 55, 67, 68, 72, 73, 78, 79, 82, 94, 98, 102, 106
 
     <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">

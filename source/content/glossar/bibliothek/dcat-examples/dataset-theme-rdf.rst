@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: The categories are selected form a swiss controlled vocabulary
+    :caption: The categories are selected from a Swiss controlled vocabulary
     :emphasize-lines: 6,7
 
     <?xml version="1.0" encoding="utf-8" ?>

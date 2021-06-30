@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: The ``dct:identfier`` is made up of the organization slug and an id to uniquely idenify the dataset on opendata.swiss
+    :caption: The ``dct:identifier`` is made up of the organization slug and an id to uniquely identify the dataset on opendata.swiss
     :emphasize-lines: 6
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
