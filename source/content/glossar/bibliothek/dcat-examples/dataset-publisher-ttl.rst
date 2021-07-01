@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: Publisher of a dataset: current implementation in Turtle
+    :caption: Publisher of a dataset in Turtle
     :emphasize-lines: 7,9
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .

@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Publisher of a dataset: current implementation in RDF
+    :caption: Publisher of a dataset in RDF
     :emphasize-lines: 8,9,10,11,12
 
     <?xml version="1.0" encoding="utf-8" ?>
