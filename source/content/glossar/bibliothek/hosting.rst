@@ -21,7 +21,7 @@ Hosting
 Intro
 ------
 
-In order for you to import data to the opendata.swiss catalogue,
+In order for you to import data to the opendata.swiss catalog,
 the data must be freely accessible somewhere. Only the metadata
 and a link to the data are published on opendata.swiss.
 Responsibility for actual data hosting lies with the data supplier.

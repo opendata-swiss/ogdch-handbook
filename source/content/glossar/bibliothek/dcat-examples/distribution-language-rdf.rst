@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: The language of a Distribution
+    :caption: The language of a distribution
     :emphasize-lines: 7
 
     <?xml version="1.0" encoding="utf-8" ?>

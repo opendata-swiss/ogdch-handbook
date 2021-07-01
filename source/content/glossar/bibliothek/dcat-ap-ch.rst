@@ -5,7 +5,7 @@
    - DCAT-AP Switzerland
 
 **********
-DCAT-AP-CH
+DCAT-AP CH
 **********
 
 Der Schweizer Metadaten-Datenstandard
@@ -13,7 +13,7 @@ Der Schweizer Metadaten-Datenstandard
 
 .. container:: Intro
 
-    DCAT-AP-CH ist der Schweizer Datenstandard, der derzeit auf
+    DCAT-AP CH ist der Schweizer Datenstandard, der derzeit auf
     `opendata.swiss <https://opendata.swiss/de/>`__
     implementiert ist. Er basiert auf dem internationalen DCAT-AP Standard.
 
@@ -24,7 +24,7 @@ Der Schweizer Metadaten-Datenstandard
     und auch nicht angezeigt. Auf der anderen Seite haben wir Mindest-Erwartungen
     an Ihre Metadaten, die hier beschrieben sind. Ebenso finden Sie hier eine Beschreibung
     optionaler Felder, die von opendata.swiss unterstützt werden.
-    Der DCAT-AP ist in ständiger Weiterentwicklung. Das gilt auch für den DCAT-AP-CH
+    Der DCAT-AP ist in ständiger Weiterentwicklung. Das gilt auch für den DCAT-AP CH
     und für den Daten-Standard, der auf opendata.swiss implementiert ist.
     Daher gibt es teilweise Abweichungen zwischen diesen Datenstandards.
     Sollten Sie solche feststellen,
@@ -32,7 +32,7 @@ Der Schweizer Metadaten-Datenstandard
 
     Diese Dokumentation ist derzeit nur in Englisch verfügbar.
 
-DCAT-AP-CH Standard Overview
+DCAT-AP CH Standard Overview
 ----------------------------
 
 - :ref:`RDF-File Structure & Example <dcat-ap-ch-example-rdf>`
@@ -49,7 +49,7 @@ DCAT-AP-CH Standard Overview
 RDF-File Structure & Example
 ------------------------------
 
-Your data catalog must follow the DCAT-AP-CH standard.
+Your data catalog must follow the DCAT-AP CH standard.
 It consists of the following 4 Classes:
 
 - the catalog
@@ -121,17 +121,17 @@ Have a look at the following file for a quickstart:
 Namespaces
 ------------
 
-All classes and properties have definitions that are accessible with an URI.
+All classes and properties have definitions that are accessible with a URI.
 Usually these URIs are provided in the header of the data catalog and receive an alias there,
-so that they can be easier referenced in the rest of the catalog:
-A ``dcat:Dataset`` really means ``http://www.w3.org/ns/dcat#Dataset``. But since you don't want
-to write that throughout the document: a namespace is defined by ``@prefix dcat: <http://www.w3.org/ns/dcat#> .`` in ``turtle``
-or ``xmlns:dcat="http://www.w3.org/ns/dcat#"`` in ``RDF``
+so that they can be easily referenced in the rest of the catalog:
+A ``dcat:Dataset`` really means ``http://www.w3.org/ns/dcat#Dataset``. To avoid having to
+write that throughout the document, a namespace is defined by ``@prefix dcat: <http://www.w3.org/ns/dcat#> .`` in ``turtle``
+or ``xmlns:dcat="http://www.w3.org/ns/dcat#"`` in ``RDF``.
 
-These are the namespaces that are used in DCAT-AP-CH:
+These are the namespaces that are used in DCAT-AP CH:
 
 .. code-block:: turtle
-    :caption: DCAT-AP-CH namespaces in turtle
+    :caption: DCAT-AP CH namespaces in turtle
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
     @prefix dct: <http://purl.org/dc/terms/> .
@@ -144,7 +144,7 @@ These are the namespaces that are used in DCAT-AP-CH:
     @prefix schema: <http://schema.org/> .
 
 .. code-block:: xml
-    :caption: DCAT-AP-CH namespaces in rdf
+    :caption: DCAT-AP CH namespaces in rdf
 
     <rdf:RDF
       xmlns:dcat="http://www.w3.org/ns/dcat#"
@@ -163,7 +163,7 @@ These are the namespaces that are used in DCAT-AP-CH:
 Internationalisation
 --------------------
 
-The DCAT-AP-CH Standard expects that text elements of
+The DCAT-AP CH Standard expects that text elements of
 datasets and their distributions are translated in the following four
 languages:
 
@@ -183,7 +183,7 @@ Overview
 Below you find a list of classes that you need to implement in your catalog.
 Translatable elements are marked as such under usage notes.
 
-.. list-table:: Classes of DCAT-AP-CH
+.. list-table:: Classes of DCAT-AP CH
     :widths: 20 20 30
     :header-rows: 1
     :stub-columns: 1

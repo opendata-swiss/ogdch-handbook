@@ -6,5 +6,5 @@
 :Cardinality: 0..n
 :Description: The location or time a dataset covers.
 :Usage Notes: This property is deprecated.
-              Consider to use ``dct:temporal`` or ``dct:spatial``.
+              Consider using ``dct:temporal`` or ``dct:spatial``.
               If a date is provided, it does not have to be an ISO date.

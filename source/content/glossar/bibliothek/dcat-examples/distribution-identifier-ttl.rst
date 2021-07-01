@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: A ``dcat:Catalog`` with a URI in RDF
+    :caption: A ``dcat:Distribution`` with a ``dct:identifier`` in RDF
     :emphasize-lines: 6
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .

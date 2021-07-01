@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: The landing page should be a class and therefore come with a URI according to DCAT
+    :caption: A ``dcat:Dataset`` with a ``rdfs:seeAlso`` in RDF
     :emphasize-lines: 8
 
     <?xml version="1.0" encoding="utf-8" ?>

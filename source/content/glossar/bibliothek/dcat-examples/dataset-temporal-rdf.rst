@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: A time period in RDF: there can be multiple of those
+    :caption: A time period in RDF: there can be multiple of these
     :emphasize-lines: 2,3
 
     <?xml version="1.0" encoding="utf-8" ?>

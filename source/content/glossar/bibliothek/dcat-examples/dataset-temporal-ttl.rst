@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: A time period in Turtle: there can be multiple of those
+    :caption: A time period in Turtle: there can be multiple of these
     :emphasize-lines: 8,9,10,11,12
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .

@@ -6,5 +6,5 @@
 :Cardinality: 0..n
 :Description: Distributions can be marked by a location or time period (for example, one for each canton,
               one for each year, etc.)
-:Usage Notes: This property is a string: so when it is used to indicate a date a custom format
+:Usage Notes: This property is a string. When it is used to indicate a date, a custom format
               can be used.

@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: Description of a Dataset using Markdown in RDF
+    :caption: Description of a dataset using Markdown in RDF
     :emphasize-lines: 7,8,9,10,11
 
     <?xml version="1.0" encoding="utf-8" ?>
