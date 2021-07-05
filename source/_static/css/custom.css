@@ -259,6 +259,21 @@ div.container.support p {
 }
 
 /*=======================================*/
+/* Container support-table               */
+/*=======================================*/
+
+div.container.support-table {
+    padding-top:15px;
+    background: whitesmoke;
+    border: 1px dashed gray;
+    margin-bottom: 15px;
+}
+
+div.container.support-table dl {
+    margin-bottom: 0;
+}
+
+/*=======================================*/
 /* Container important                   */
 /*=======================================*/
 
