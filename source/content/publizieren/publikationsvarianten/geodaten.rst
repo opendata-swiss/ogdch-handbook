@@ -16,7 +16,7 @@ Wie publiziere ich Geo-Metadaten?
 
     Geodaten sind ein Spezialfall. Die Geometadaten werden primär im geografischen Datenkatalog
     der Schweiz, dem Katalog für Geometadaten
-    `geocat.ch <https://www.geocat.ch/geonetwork/srv/eng/catalog.search>`__,.
+    `geocat.ch <https://www.geocat.ch/geonetwork/srv/eng/catalog.search>`__.
     Von dort werden die benötigten Attribute dann durch einen automatisierten Prozess
     zu opendata.swiss überführt.
 
@@ -72,10 +72,12 @@ Harvesting von Geodaten (geocat.ch > opendata.swiss)
 
    Support
 
-Sie haben eine Frage zum Publizieren von Geo-Metadaten?
-`Wenden Sie sich bitte direkt an das geocat.ch-Team <geocat@swisstopo.ch>`__.
-Bei weiteren Fragen beispielweise zu den allgemeinen OGD-Anforderungen
-`melden Sie sich gerne bei uns <mailto:opendata@bfs.admin.ch>`__.
+Sie haben eine Frage zum Publizieren von Geometadaten?
+Wenden Sie sich bitte direkt an das
+`geocat.ch-Team <geocat@swisstopo.ch>`__.
+Bei weiteren Fragen, beispielweise zu den allgemeinen OGD-Anforderungen
+dürfen Sie sich gerne
+`an uns wenden <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 
