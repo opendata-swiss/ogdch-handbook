@@ -10,10 +10,6 @@ Auf einen Blick
 Daten nutzen
 ============
 
-.. container:: construction
-
-    :fa:`wrench` Work in progress: Dieser Inhalt wird aktuell überarbeitet.
-
 Wir freuen uns, dass Sie Daten von opendata.swiss nutzen möchten.
 Hier finden Sie alles rund um die Nutzung von OGD.
 
