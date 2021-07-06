@@ -2,11 +2,14 @@
 
    - :fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`
    - :doc:`Pflegen <pflegen>` :fa:`chevron-right`
-   - Support
+   - Support und Feedback
 
 **********************************************
-Support für datenpublizierende Organisationen
+Support und Feedback
 **********************************************
+
+Wie gehe ich vor, wenn ich Support benötige oder einen Verbesserungsvorschlag einreichen möchte?
+======================================================================================================
 
 .. container:: Intro
 
@@ -15,6 +18,16 @@ Support für datenpublizierende Organisationen
     Support-Aktivitäten für Portal-Betreiber und datenpublizierenden
     Organisationen möglichst effizient zu gestalten, wurden die verschiedene
     die wichtigsten Support-Prozessen wie folgt festgelegt.
+
+.. container:: support
+
+    Support
+
+- :ref:`Ich möchte ein Problem melden <support_problem_melden>`
+- :ref:`Ich habe einen Vorschlag, wie man das Portal opendata.swiss verbessern könnte <support_feedback>`
+- :ref:`Ich benötige Unterstützung bei der Veröffentlichung oder Anpassung meiner Einträge auf opendata.swiss <support_beratung>`
+
+.. _support_problem_melden:
 
 “Ich möchte ein Problem melden”
 -----------------------------------------
@@ -30,25 +43,25 @@ Supportstelle für Sie da ist. So sieht das Vorgehen aus:
 - Damit wir Ihre Anfragen optimal bearbeiten können,
   bitten wir Sie, uns folgende Informationen zuzustellen:
 
-+---------------------------+------------------------------------------------------------+
-| Titel                     | eine grobe Beschreibung des Problems, der Frage            |
-+---------------------------+------------------------------------------------------------+
-| URL                       | vollständige URL, auf der Sie eine Aktion durchführen      |
-|                           | und/oder auf der das Problem auftritt                      |
-+---------------------------+------------------------------------------------------------+
-| Username und Organisation | Benutzername und Organisations-Zugehörigkeit               |
-+---------------------------+------------------------------------------------------------+
-| Beschreibung der Schritte | eine Schritt-für-Schritt-Beschreibung, wie das Problem     |
-|                           | reproduziert werden kann                                   |
-+---------------------------+------------------------------------------------------------+
-| Erwartung                 | was haben Sie erwartet?                                    |
-+---------------------------+------------------------------------------------------------+
-| Realität                  | was ist, entgegen Ihrer Erwartung, passiert?               |
-+---------------------------+------------------------------------------------------------+
-| Screenshots/Dateien       | Screenshots von Fehlermeldungen, Import-Dateien, Downloads |
-+---------------------------+------------------------------------------------------------+
++-------------------------------+------------------------------------------------------------+
+| **Titel**                     | eine grobe Beschreibung des Problems, der Frage            |
++-------------------------------+------------------------------------------------------------+
+| **URL**                       | vollständige URL, auf der Sie eine Aktion durchführen      |
+|                               | und/oder auf der das Problem auftritt                      |
++-------------------------------+------------------------------------------------------------+
+| **Username und Organisation** | Benutzername und Organisations-Zugehörigkeit               |
++-------------------------------+------------------------------------------------------------+
+| **Beschreibung der Schritte** | eine Schritt-für-Schritt-Beschreibung, wie das Problem     |
+|                               | reproduziert werden kann                                   |
++-------------------------------+------------------------------------------------------------+
+| **Erwartung**                 | was haben Sie erwartet?                                    |
++-------------------------------+------------------------------------------------------------+
+| **Realität**                  | was ist, entgegen Ihrer Erwartung, passiert?               |
++-------------------------------+------------------------------------------------------------+
+| **Screenshots/Dateien**       | Screenshots von Fehlermeldungen, Import-Dateien, Downloads |
++-------------------------------+------------------------------------------------------------+
 
-
+.. _support_feedback:
 
 
 “Ich habe einen Vorschlag, wie man das Portal opendata.swiss verbessern könnte”
@@ -58,17 +71,19 @@ Sehr gerne nehmen wir Ihre Weiterentwicklungsvorschläge zu opendata.swiss entge
 Am besten reichen Sie uns Ihre Verbesserungsvorschläge in Form einer User Story
 unter `opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__ ein. So strukturieren Sie Ihre Verbesserungsvorschläge als “User Story”
 
-+---------------------------------+-------------------------------------+
-| Für wen?                        | “Als [Rolle]”                       |
-+---------------------------------+-------------------------------------+
-| Was konkret?                    | “möchte ich/möchten wir [Funktion]” |
-+---------------------------------+-------------------------------------+
-| Was soll damit erreicht werden? | “damit [Nutzen]”                    |
-+---------------------------------+-------------------------------------+
++-------------------------------------+-------------------------------------+
+| **Für wen?**                        | “Als [Rolle]”                       |
++-------------------------------------+-------------------------------------+
+| **Was konkret?**                    | “möchte ich/möchten wir [Funktion]” |
++-------------------------------------+-------------------------------------+
+| **Was soll damit erreicht werden?** | “damit [Nutzen]”                    |
++-------------------------------------+-------------------------------------+
 
 Beispiel: “Als Datennutzer möchte ich Datasets abonnieren können, damit ich über Neuigkeiten informiert werde.”
 
 Gerne unterstützen wir Sie dabei, ihre User Story zu formulieren.
+
+.. _support_beratung:
 
 “Ich benötige Unterstützung bei der Veröffentlichung oder Anpassung meiner Einträge auf opendata.swiss”
 ---------------------------------------------------------------------------------------------------------

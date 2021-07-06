@@ -280,6 +280,14 @@ div.container.support p {
     white-space: normal;
 }
 
+.wy-table-responsive colgroup {
+    display:none;
+}
+
+.wy-table-responsive td:first-of-type {
+    width:30%;
+}
+
 /*=======================================*/
 /* Container important                   */
 /*=======================================*/
