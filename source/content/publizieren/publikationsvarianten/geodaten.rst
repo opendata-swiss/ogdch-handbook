@@ -16,7 +16,7 @@ Wie publiziere ich Geo-Metadaten?
 
     Geodaten sind ein Spezialfall. Die Geometadaten werden primär im geografischen Datenkatalog
     der Schweiz, dem Katalog für Geometadaten
-    `geocat.ch <https://www.geocat.ch/geonetwork/srv/eng/catalog.search>`__.
+    `geocat.ch <https://www.geocat.ch/geonetwork/srv/eng/catalog.search>`__, erfasst und verwaltet.
     Von dort werden die benötigten Attribute dann durch einen automatisierten Prozess
     zu opendata.swiss überführt.
 
