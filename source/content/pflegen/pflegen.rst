@@ -21,3 +21,4 @@ und Nutzern zu Ihren Daten beantworten.
 
     - :doc:`Dataset updaten <datasets-updaten>`
     - :doc:`Auskunft zu Daten geben <auskunft-geben>`
+    - :doc:`Support <support>`
