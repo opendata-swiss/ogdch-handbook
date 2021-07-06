@@ -92,6 +92,7 @@ mit uns teilen möchten?
    :maxdepth: 1
    :caption: Pflegen
 
+   content/pflegen/pflegen
    content/pflegen/datasets-updaten
    content/pflegen/auskunft-geben
    content/pflegen/support
