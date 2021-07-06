@@ -8,6 +8,9 @@
 Support für datenpublizierende Organisationen
 **********************************************
 
+Wie melde ich einen Support Fall?
+=====================================
+
 .. container:: Intro
 
     Die Geschäftsstelle Open Government Data beim BFS unterstützt Sie als Portalbetreiber
