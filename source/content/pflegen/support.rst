@@ -30,15 +30,26 @@ Supportstelle für Sie da ist. So sieht das Vorgehen aus:
 - Damit wir Ihre Anfragen optimal bearbeiten können,
   bitten wir Sie, uns folgende Informationen zuzustellen:
 
-.. container:: support-table
++---------------------------+------------------------------------------------------------+
+| Titel                     | eine grobe Beschreibung des Problems, der Frage            |
++---------------------------+------------------------------------------------------------+
+| URL                       | vollständige URL, auf der Sie eine Aktion durchführen      |
+|                           | und/oder auf der das Problem auftritt                      |
++---------------------------+------------------------------------------------------------+
+| Username und Organisation | Benutzername und Organisations-Zugehörigkeit               |
++---------------------------+------------------------------------------------------------+
+| Beschreibung der Schritte | eine Schritt-für-Schritt-Beschreibung, wie das Problem     |
+|                           | reproduziert werden kann                                   |
++---------------------------+------------------------------------------------------------+
+| Erwartung                 | was haben Sie erwartet?                                    |
++---------------------------+------------------------------------------------------------+
+| Realität                  | was ist, entgegen Ihrer Erwartung, passiert?               |
++---------------------------+------------------------------------------------------------+
+| Screenshots/Dateien       | Screenshots von Fehlermeldungen, Import-Dateien, Downloads |
++---------------------------+------------------------------------------------------------+
 
-    :Titel: eine grobe Beschreibung des Problems, der Frage
-    :URL: vollständige URL, auf der Sie eine Aktion durchführen und/oder auf der das Problem auftritt
-    :Username und Organisation: Benutzername und Organisations-Zugehörigkeit
-    :Beschreibung der Schritte: eine Schritt-für-Schritt-Beschreibung, wie das Problem reproduziert werden kann
-    :Erwartung: was haben Sie erwartet?
-    :Realität: was ist, entgegen Ihrer Erwartung, passiert?
-    :Screenshots/Dateien: Screenshots von Fehlermeldungen, Import-Dateien, Downloads
+
+
 
 “Ich habe einen Vorschlag, wie man das Portal opendata.swiss verbessern könnte”
 ---------------------------------------------------------------------------------
@@ -47,11 +58,13 @@ Sehr gerne nehmen wir Ihre Weiterentwicklungsvorschläge zu opendata.swiss entge
 Am besten reichen Sie uns Ihre Verbesserungsvorschläge in Form einer User Story
 unter `opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__ ein. So strukturieren Sie Ihre Verbesserungsvorschläge als “User Story”
 
-.. container:: support-table
-
-    :Für wen?: “Als [Rolle]”
-    :Was konkret?: “möchte ich/möchten wir [Funktion]”
-    :Was soll damit erreicht werden?: “damit [Nutzen]”
++---------------------------------+-------------------------------------+
+| Für wen?                        | “Als [Rolle]”                       |
++---------------------------------+-------------------------------------+
+| Was konkret?                    | “möchte ich/möchten wir [Funktion]” |
++---------------------------------+-------------------------------------+
+| Was soll damit erreicht werden? | “damit [Nutzen]”                    |
++---------------------------------+-------------------------------------+
 
 Beispiel: “Als Datennutzer möchte ich Datasets abonnieren können, damit ich über Neuigkeiten informiert werde.”
 
