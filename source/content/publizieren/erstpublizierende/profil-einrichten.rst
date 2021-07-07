@@ -14,16 +14,17 @@ Wie kann ich mein Profil editieren?
 
 .. container:: Intro
 
-    Mit dem von uns zugestellten Log-in können Sie sich
+    Mit dem von uns zugestellten Login können Sie sich
     auf der :term:`Abnahmeumgebung <Abnahmeumgebung>`
-    von opendata.swiss einloggen.
+    von opendata.swiss einloggen. Dort können Sie Ihre Organisation
+    sowie auch Ihre aktuellen Einträge auf opendata.swiss managen und erfassen.
 
 Die Schritte auf einen Blick
 ----------------------------
 
-- :ref:`Password setzen <passwort_setzen>`
+- :ref:`Passwort setzen <passwort_setzen>`
 - :ref:`Benutzer-Dashboard <benutzer_dashboard>`
-- :ref:`Benutzerkonten-Verwaltung <benutzerkonten_verwaltung>`
+- :ref:`Benutzerkontenverwaltung <benutzerkonten_verwaltung>`
 - :ref:`Benutzer-Navigation <benutzer_navigation>`
 
 
@@ -32,12 +33,13 @@ Die Schritte auf einen Blick
 Passwort setzen
 --------------------------
 
-Sie erhalten von uns nach der Registrierung eine email mit Ihrem Benutzernamen und
+Sie erhalten von uns nach der Registrierung eine E-Mail mit Ihrem Benutzernamen und
 einem Link zum Setzen Ihres Passworts.
 
 Bitte geben Sie Ihren Benutzernamen ein und Klicken Sie auf «Anforderungen zurücksetzen».
-Sie erhalten dann eine zweite email mit einem direkten Link für das Setzen Ihres Passworts.
-Anschliessend können Sie sich dann im Backend der :term:`Abnahmeumgebung <Abnahmeumgebung>` einloggen.
+Sie erhalten dann eine zweite E-Mail mit einem direkten Link für das Setzen Ihres Passworts.
+Anschliessend können Sie sich dann im Backend der :term:`Abnahmeumgebung <Abnahmeumgebung>`
+von opendata.swiss einloggen.
 
 .. figure:: ../../../_static/images/publizieren/benutzer/passwort_setzen.png
    :alt: Passwort setzen
@@ -56,7 +58,7 @@ indem Sie auf «Meine Organisationen» klicken.
 
 .. _benutzerkonten_verwaltung:
 
-Benutzerkonten-Verwaltung
+Benutzerkontenverwaltung
 --------------------------
 
 Zu ihrem Benutzerkonto gelangen Sie, wenn Sie im Dashboard auf «Bearbeitete Einstellungen» klicken.
@@ -64,17 +66,17 @@ Zu ihrem Benutzerkonto gelangen Sie, wenn Sie im Dashboard auf «Bearbeitete Ein
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-profil.png
    :alt: Benutzer Dashboard im Backend von opendata.swiss
 
-Den «Benutzernamen» haben wir bereits bei Ihrer Registrierung vergeben,
-er dient zu Ihrer eindeutigen Identifikation auf der Plattform und kann nicht geändert werden
-«Vollständiger Name» ist der Name mit dem Sie sich und anderen
+Den «Benutzernamen» haben Sie bereits bei Ihrer Registrierung (von uns) erhalten. Dieser
+dient zu Ihrer eindeutigen Identifikation auf der Plattform und kann nicht geändert werden.
+«Vollständiger Name» ist der Name mit dem Sie sich und andere Benutzerinnen und Benutzer
 im :term:`Backend <Backend>` erscheinen.
-Ihre «Email»  haben wir bereits bei der Registrierung erfasst.
-Bei «Über das Portal» können Sie Zusatzinformationen zu Ihrer Person eingeben.
+Ihre «E-Mail»  haben wir bereits bei der Registrierung erfasst.
+Beim Feld «Über das Portal» können Sie Zusatzinformationen zu Ihrer Person eingeben.
 
 .. container:: important
 
     Nicht vergessen: Bestätigen Sie alle gemachten
-    Änderungen mit einem Klick auf «Profil aktualisieren».
+    Änderungen mit einem Klick auf den Button «Profil aktualisieren».
 
 .. _benutzer_navigation:
 
@@ -87,21 +89,23 @@ Als Benutzer steht Ihnen ganz oben rechts eine Navigationsleiste zur Verfügung:
    :alt: Benutzer Dashboard im Backend von opendat.swiss
 
 - das Dashboard-Icon führt Sie zu Ihrem Benutzer-Dashboard.
-- Wenn Sie auf Ihren Benutzernamen klicken gelangen Sie zu einer
-  Darstellung Ihres Benutzers, wie andere berechtigte Benutzer (etwa ein Sysadmin) Sie sehen.
-- Das Settings-Icon führt zum Editieren Ihres Benutzerprofils.
-- Ganz rechts können Sie sich ausloggen.
+- Wenn Sie auf Ihren Benutzernamen klicken, gelangen Sie zur
+  Darstellung Ihres Benutzers, wie andere berechtigte Benutzerinnen und Benutzer  (etwa ein Sysadmin) Sie sehen.
+- Der Button mit dem Settings-Icon und der Bezeichnung “Manage” führt zum Editieren Ihres Benutzerprofils.
+- Ganz rechts oben können Sie sich ausloggen.
 
 .. container:: materialien
 
     Mehr zum Thema
+
+So loggen Sie sich auf dem Backend von opendata.swiss ein:
 
 - :download:`Screencast zum Login <../../../_static/screencasts/login.gif>` - In diesem Screencast zeigen wir Ihnen das Einloggen auf dem :term:`Backend <Backend>`
 
 
 .. container:: teaser
 
-   :doc:`Nächster Schritt: Informationen zur Organisation ergänzen <organisation-einrichten>`
+   :doc:`Nächster Schritt: Informationen zur publizierenden Organisation ergänzen <organisation-einrichten>`
 
 Ihr Profil ist nun angelegt und ausgefüllt, jetzt
 können Sie Informationen zu Ihrer Organisation eingeben.
