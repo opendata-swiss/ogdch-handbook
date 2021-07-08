@@ -119,7 +119,6 @@ in Ihrem Datenkatalog beheben müssen.
 
 Am Prozess des Testens und der iterativen Verbesserung Ihrer Daten sind Sie von Anfang an
 mit einbezogen. Sie haben selbst Zugang zu Ihrem Harvester, seinen Jobläufen und Fehlerberichten.
-
 Sollten Sie bei allfälligen Fehlern Fragen haben, dann
 `wenden Sie sich gerne an uns <mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen weiter
 
@@ -160,8 +159,8 @@ Sie haben folgende Möglichkeiten:
 - Der Tab «Jobs» führt Sie zu einer Liste vergangener Harvest Jobs
 - Der Tab «Bearbeiten» führt Sie zur Bearbeitung der Einstellungen Ihres Harvesters
 - Der Button «Reharvest» stösst einen erneuten Harvesterlauf an,
-  so dass die Datasets anhand dem eingetragenen Katalog-Endpunkt aktualisiert werden
-  von dem eingetragenen :term:`Katalog Endpunkt <Katalog Endpunkt (Catalogue endpoint)>`
+  so dass die Datasets anhand dem eingetragenen
+  :term:`Katalog-Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` aktualisiert werden
 - Über den Button «View harvest source» gelangen Sie zurück auf die Detailseite Ihres Harvesters
 
 .. container:: important
@@ -238,7 +237,7 @@ Die Harvester sind bezüglich dem Feld «Update frequency» auf «Manual» einge
 obwohl sie täglich laufen, da ihre Startzeit nicht
 über die Weboberfläche, sondern über Prozesse, die im Hintergrund ablaufen,
 gesteuert wird.
-Bei «Configuration» werden gegebenenfalls weitere Konfigurationen eingetragen, die Ihr Harvester benötigt, um Ihre
+Beim Feld «Configuration» werden gegebenenfalls weitere Konfigurationen eingetragen, die Ihr Harvester benötigt, um Ihre
 Daten korrekt zu importieren.
 
 .. container:: important

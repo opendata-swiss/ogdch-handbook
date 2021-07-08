@@ -67,14 +67,14 @@ um Ihre Anfrage zu bearbeiten. `Jetzt Zugang anfordern <mailto:opendata@bfs.admi
 User Management
 ----------------
 
+Es gibt bei opendata.swiss folgende Rollen für Datenpublizierende:
+
 .. admonition:: Benutzer-Rollen bei opendata.swiss
 
-    Es gibt bei opendata.swiss folgende Rollen für Datenpublizierende:
-
-:Administrator: hat Zugriff auf die gesamte Organisation und ihre Mitglieder
-:Redakteur: kann Datasets verwalten, aber hat keinen Zugriff auf die
-            Darstellung der Organisationsdaten
-:Mitglied: passives Mitglied der Organisation ohne Zugiffs-Rechte
+    :Administrator: hat Zugriff auf die gesamte Organisation und ihre Mitglieder
+    :Redakteur: kann Datasets verwalten, aber hat keinen Zugriff auf die
+                Darstellung der Organisationsdaten
+    :Mitglied: passives Mitglied der Organisation ohne Zugiffs-Rechte
 
 .. container:: important
 

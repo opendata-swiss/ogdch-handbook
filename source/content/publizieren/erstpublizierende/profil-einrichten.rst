@@ -36,7 +36,7 @@ Passwort setzen
 Sie erhalten von uns nach der Registrierung eine E-Mail mit Ihrem Benutzernamen und
 einem Link zum Setzen Ihres Passworts.
 
-Bitte geben Sie Ihren Benutzernamen ein und Klicken Sie auf «Anforderungen zurücksetzen».
+Bitte geben Sie Ihren Benutzernamen ein und klicken Sie auf «Anforderungen zurücksetzen».
 Sie erhalten dann eine zweite E-Mail mit einem direkten Link für das Setzen Ihres Passworts.
 Anschliessend können Sie sich dann im Backend der :term:`Abnahmeumgebung <Abnahmeumgebung>`
 von opendata.swiss einloggen.
@@ -51,7 +51,7 @@ Benutzer-Dashboard
 
 Nach dem Einloggen gelangen Sie zu Ihrem Benutzer-Dashboard.
 Von hier aus können Sie zu Ihrer Organisation gelangen,
-indem Sie auf «Meine Organisationen» klicken.
+indem Sie auf den Tab «Meine Organisationen» klicken.
 
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-dashboard.png
    :alt: Benutzer Dashboard im Backend von opendat.swiss

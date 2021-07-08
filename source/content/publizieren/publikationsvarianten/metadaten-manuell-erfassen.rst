@@ -200,7 +200,7 @@ Verwandte Datasets
 Unter «Verwandte Datensätze»
 können Sie aus allen verfügbaren Datasets auf opendata.swiss, jene mit
 thematischem Bezug zu Ihrem aktuellen Dataset auswählen. Damit
-signalisieren Sie den Datennutzenden, dass weitere thematisch interessante Datasets existieren,
+signalisieren Sie den Datennutzenden, dass weitere thematisch interessante Datasets existieren.
 
 Schlagwörter definieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -295,7 +295,8 @@ Ihr Dataset und Ihre Ressource abspeichern oder Sie können mit dem Button
 Dataset weiter bearbeiten
 --------------------------------
 
-Das Hinzufügen weiterer Ressourcen ist auch nach dem Anlage Ihres Dataset noch möglich.
+Das Hinzufügen weiterer Ressourcen ist auch nach dem Anlegen Ihres Dataset noch möglich.
+
 Gehen Sie dazu zur Detailansicht Ihres Datasets im Backend der Abnahmeumgebung und klicken Sie auf
 «Bearbeiten» und anschliessend auf «Ressourcen»:
 
@@ -355,7 +356,7 @@ indem Sie ``ckan`` aus der URL Ihres Datasets entfernen:
 .. figure:: ../../../_static/images/publizieren/dataset/frontend-url.png
    :alt: Beispielansicht eines publizierten Datasets
 
-Bitte prüfen Sie Ihre Daten auch hier nochmal:
+Bitte prüfen Sie hier Ihre Daten nochmals:
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-frontend.png
    :alt: Beispielansicht eines publizierten Datasets
