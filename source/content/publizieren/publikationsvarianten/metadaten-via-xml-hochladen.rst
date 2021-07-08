@@ -14,10 +14,11 @@ Wie importiere ich meine Metadaten als XML-Datei?
 
 .. container:: Intro
 
-    Wenn Sie mehr als 5 Datasets importieren möchten, die regelmässig aktualisiert
+    Wenn Sie mehr als 3 Datasets importieren möchten, die regelmässig aktualisiert
     werden müssen, empfehlen wir die Variante Import als XML-Datei.
-    Voraussetzung dafür ist, dass
-    :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs>`.
+    Ihrer Datenkatalog muss im Format
+    :doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>` vorliegen. Des Weiteren muss
+    :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert sein <../erstpublizierende/kontakt-bfs>`.
     Dies erfolgt in Absprache mit der
     :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`.
     Wir zeigen Ihnen
@@ -36,7 +37,8 @@ Die Schritte auf einen Blick
 
     Sollten Sie zum ersten Mal Daten publizieren, führen wir Sie
     durch den Prozess und unterstützen Sie dabei, die korrekte Übermittlung
-    und Darstellung Ihrer Daten sicherzustellen, unabhängig von der Publikationsvariante.
+    und Darstellung Ihrer Daten sicherzustellen, unabhängig von
+    der :doc:`Publikationsvariante <../publikationsvariante>`.
 
 Alle Schritte im Detail
 =======================
@@ -60,7 +62,7 @@ Gehen Sie zu Ihrer Organisation.
 .. figure:: ../../../_static/images/publizieren/xml-upload/xml-upload-starten.png
    :alt: XML Katalog im Backend von opendata.swiss hochladen
 
-Klicken Sie dann auf das Feld «Add Datasets from XML».
+Klicken Sie dann auf den Button «Datensätze aus XML hinzufügen».
 
 .. figure:: ../../../_static/images/publizieren/xml-upload/upload-button.png
    :alt: XML Katalog importieren: Datei auswählen
@@ -91,16 +93,16 @@ nach dem Hochladen des Datenkatalogs.
 .. figure:: ../../../_static/images/publizieren/xml-upload/upload-fehler.png
    :alt: Fehleransicht nach dem Hochladen einer XML-Datei
 
-Korrieren Sie Ihren Datenkatalog und laden Sie diesen
+Korrigieren Sie Ihren Datenkatalog und laden Sie diesen
 anschliessend erneut hoch.
 
 .. _xml_datensaetze_pruefen:
 
-Datensets prüfen
+Datasets prüfen
 -----------------
 
 Ihre Datasets sind jetzt hochgeladen, aber noch nicht veröffentlicht.
-Finden Sie Ihre Datasets mit der Facettensuche nach «Entwurf»:
+Finden Sie Ihre Datasets mit der Facettensuche nach dem Status «Entwurf»:
 
 .. figure:: ../../../_static/images/publizieren/xml-upload/hochgeladene-datasets-auswaehlen.png
    :alt: Hochgeladene Datasets auswählen
@@ -124,7 +126,7 @@ verschwindet dieses Symbol und Ihr Dataset ist dann auch im Frontend der Abnahme
    :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
 
 Um Ihr Dataset zu veröffentlichen müssen Sie in den Bearbeitungsmodus wechseln.
-Klicken Sie dazu auf «Bearbeiten».
+Klicken Sie dazu auf den Button «Bearbeiten».
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-titel-entwurf.png
    :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
@@ -139,16 +141,15 @@ Scrollen Sie zu dem Feld «Sichtbarkeit»: Es ist auf «Entwurf eingestellt»
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-veroeffentlichen.png
    :alt: Dataset in veroeffentlichen
 
-Sie können Ihr Dataset sofort veröffentlichen indem Sie dan Status auf "Veröffentlicht"
-ändern. Oder sie können eine zukünftige Veröffentlichung terminieren, indem Sie im Feld darunter
-einen geplanten Veröffentlichungstermin in der Zukunft eintragen
+Sie können Ihr Dataset sofort veröffentlichen indem Sie den Status auf "Veröffentlicht"
+ändern. Oder sie können eine zukünftige Veröffentlichung planen, indem Sie im darunterliegenden Feld darunter
+den Veröffentlichungstermin terminieren.
 
-Die Veröffentlichung lässt sich verlässlich auf ein bestimmtes Datum planen, die Festlegung
-der Uhrzeit kann um ± eine Stunde von der effektiven Publikation abweichen.
+Die Veröffentlichung lässt sich verlässlich auf ein bestimmtes Datum planen.
 
 .. container:: important
 
-    Wichtig: Vergessen Sie nicht nach der Änderung auf «Aktualisieren» zu klicken. Sie finden diesen Schalter
+    Wichtig: Vergessen Sie nicht nach der Änderung auf «Aktualisieren» zu klicken. Sie finden diesen Button
     ganz unten im Webformular.
 
 .. _xml_datensaetze_im_frontend:
@@ -156,9 +157,9 @@ der Uhrzeit kann um ± eine Stunde von der effektiven Publikation abweichen.
 Datensets im Frontend prüfen
 -----------------------------
 
-Sobald Ihre Datasets veröffenlicht ist, können sie auch im Frontend der Abnahmeumgebung angesehen werden.
+Sobald Ihre Datasets veröffenlicht sind, können sie auch im Frontend der Abnahmeumgebung angesehen werden.
 Sie gelangen zu der Datenansicht Ihres Datasets im Frontend,
-imdem Sie in die Detailansicht Ihres Datasets gehen und `ckan` aus dem Url Ihres Datasets entfernen:
+imdem Sie in die Detailansicht Ihres Datasets gehen und `ckan` aus dem URL Ihres Datasets entfernen:
 
 .. figure:: ../../../_static/images/publizieren/dataset/ckan-backend-url.png
    :alt: Beispielansicht eines publizierten Datasets
@@ -184,6 +185,8 @@ Sollten Sie zum ersten Mal Daten publizieren, muss Ihr Dataset
 von der Abnahmeumgebung noch auf die Produktionsumgebung übertragen werden.
 Dies übernehmen wir für Sie,
 geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata@bfs.admin.ch>`__.
+Sollten Sie bereits über die Rechte für die Produktionsumgebung verfügen,
+können Sie die Daten dort gleich veröffentlichen.
 
 .. container:: support
 

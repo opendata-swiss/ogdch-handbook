@@ -14,25 +14,28 @@ Was muss ich bei Informationen zu meiner Organisation beachten?
 
 .. container:: Intro
 
-    Wir legen Ihre Organisation für Sie an, Sie ergänzen anschliessend die Informationen über
+    Die Organisation legen wir für Sie an. Diese ergänzen Sie anschliessend mit Informationen über
     Ihre Organisation. Diese Angaben werden später auf
     opendata.swiss veröffentlicht. Die Informationen umfassen den Titel
-    Ihrer Organisation, eine Beschreibung und ein Bild und den Link zur Website.
+    Ihrer Organisation, eine Beschreibung und ein Bild und den Link zur Website  der Organisation.
+    Im :term:`Frontend <Frontend>` der Abnahmeumgebung sehen Sie, wie die
+    Informationen auf opendata.swiss aussehen werden
 
 Die Schritte auf einen Blick
 ----------------------------
 
 - :ref:`Angaben zur Organisation ergänzen <organisation_bearbeiten>`
-- :ref:`Ansicht der Organization prüfen <organisations_ansicht_pruefen>`
+- :ref:`Ansicht der Organisation prüfen <organisations_ansicht_pruefen>`
 
 .. _organisation_bearbeiten:
 
 Informationen zur Organisation ergänzen
 ----------------------------------------
 
-Um die Informationen zu Ihrer Organization ergänzen müssen Sie die Rolle des Organisations-Admins
-in Ihrer Organisation inne haben. Als Organisations-Admin sehen Sie einen Schalter «Bearbeiten»,
-wenn Sie zu Ihrer Organisation gehen.
+Um die Informationen zu Ihrer Organisation ergänzen zu können, Sie die Rolle des Administrators
+in Ihrer Organisation besitzen. (Mehrere Benutzerinnen und Benutzer einer Organisation können die Admininstrator-Rolle
+besitzen/zugeteilt bekommen.) Wenn Sie auf Ihre Organisation gehen, sehen Sie sehen als Administrator
+den Button «Bearbeiten». Hier können Sie die Felder zu Ihrer Organisation ausfüllen.
 
 .. figure:: ../../../_static/images/publizieren/organisation/organisation-bearbeiten.png
    :alt: Bearbeiten der Organisation im Backend von opendata.swiss
@@ -50,6 +53,9 @@ mindestens einer Sprache eingeben.
 
 Der sogenannte :term:`«Name/Slug» <Slug>` Ihrer Organisation wird von uns vergeben
 und sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer Organisation.
+Dieser kann bei Bedarf editiert werden, beachten Sie bitte, dass er nur Kleinbuchstaben (ASCII)
+und diese Zeichen: -_ enthalten darf.
+
 
 .. container:: important
 
@@ -76,8 +82,8 @@ Geben Sie bitte die «politische Ebene» an, auf der Ihre Organisation angesiede
 Unter «URL» verlinken Sie zur Website Ihrer Organisation an.
 
 Bitte wählen Sie ein «Bild» Ihrer Organisation aus
-und verlinken Sie es mit dem Schalter «Link» oder und laden Sie es
-via «Hochladen» hoch. So erhält Ihre Organisation eine bessere Präsenz auf opendata.swiss.
+und verlinken Sie es im Feld «Link» oder und laden Sie es hoch.
+So erhält Ihre Organisation eine bessere Präsenz auf opendata.swiss.
 
 .. container:: important
 
@@ -86,11 +92,11 @@ via «Hochladen» hoch. So erhält Ihre Organisation eine bessere Präsenz auf o
 
 .. _organisations_ansicht_pruefen:
 
-Ansicht der Organization prüfen
+Ansicht der Organisation prüfen
 --------------------------------
 
 Überprüfen Sie die Angaben zu Ihrer Organisation: Nachdem Sie die Angaben zu Ihrer Organisation ergänzt haben,
-klicken Sie auf «Über das Portal».
+klicken Sie auf den Button «Über das Portal».
 
 .. figure:: ../../../_static/images/publizieren/organisation/organisations-info-ansehen.png
    :alt: Organisation im Backend ansehen
@@ -104,7 +110,7 @@ Anschliessend können Sie sich die Darstellung Ihre Organisation im
 :term:`Frontend <Frontend>` der :term:`Abnahmeumgebung <Abnahmeumgebung>` von opendata.swiss ansehen:
 
 Sie gelangen zu der Datenansicht Ihrer Organisation im Frontend, indem Sie
-`ckan` aus dem Backend-Url Ihrer Organisation entfernen:
+`ckan` aus der Backend-URL Ihrer Organisation entfernen:
 
 .. figure:: ../../../_static/images/publizieren/organisation/ckan-organisations-url.png
    :alt: ckan url einer Organisation
@@ -124,5 +130,5 @@ Sie gelangen zu der Datenansicht Ihrer Organisation im Frontend, indem Sie
    :doc:`Nächster Schritt: Publikationsvariante auswählen <../publikationsvariante>`
 
 Nachdem Sie Ihr Profil und Ihre Organisation eingerichtet haben,
-können Sie im nächsten Schritt eine Publikationsvariante
+können Sie als nächsten Schritt eine Publikationsvariante
 für Ihre Datasets auswählen.
