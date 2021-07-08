@@ -56,10 +56,9 @@ und sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer Organisation.
 Dieser kann bei Bedarf editiert werden, beachten Sie bitte, dass er nur Kleinbuchstaben (ASCII)
 und diese Zeichen: -_ enthalten darf.
 
-
 .. container:: important
 
-    Wichtig: Der :term:`Name/Slug <Slug>` darf nicht mehr verändert werden,
+    Wichtig: Der Der interne Organisations-Titel darf nicht mehr verändert werden,
     sobald Sie Datasets veröffentlicht haben.
 
 .. figure:: ../../../_static/images/publizieren/organisation/organisations-beschreibung.png
@@ -80,6 +79,10 @@ in mindestens einer Sprache eingeben
 
 Geben Sie bitte die «politische Ebene» an, auf der Ihre Organisation angesiedelt ist.
 Unter «URL» verlinken Sie zur Website Ihrer Organisation an.
+Falls es sich bei Ihrer Organisation um eine Unterorganisation einer bereits
+auf opendata.swiss vertretenen Organisation handelt, kann das hier eingetragen werden.
+
+Unter «URL» verlinken Sie zur Website Ihrer Organisation
 
 Bitte wählen Sie ein «Bild» Ihrer Organisation aus
 und verlinken Sie es im Feld «Link» oder und laden Sie es hoch.
@@ -110,7 +113,7 @@ Anschliessend können Sie sich die Darstellung Ihre Organisation im
 :term:`Frontend <Frontend>` der :term:`Abnahmeumgebung <Abnahmeumgebung>` von opendata.swiss ansehen:
 
 Sie gelangen zu der Datenansicht Ihrer Organisation im Frontend, indem Sie
-`ckan` aus der Backend-URL Ihrer Organisation entfernen:
+``ckan` aus der Backend-URL Ihrer Organisation entfernen:
 
 .. figure:: ../../../_static/images/publizieren/organisation/ckan-organisations-url.png
    :alt: ckan url einer Organisation
