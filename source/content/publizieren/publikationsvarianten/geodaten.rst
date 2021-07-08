@@ -75,9 +75,8 @@ Harvesting von Geodaten (geocat.ch > opendata.swiss)
 Sie haben eine Frage zum Publizieren von Geometadaten?
 Wenden Sie sich bitte direkt an das
 `geocat.ch-Team <geocat@swisstopo.ch>`__.
-Bei weiteren Fragen, beispielweise zu den allgemeinen OGD-Anforderungen
-dürfen Sie sich gerne
-`an uns wenden <mailto:opendata@bfs.admin.ch>`__.
+Bei weiteren Fragen, beispielsweise zu den allgemeinen OGD-Anforderungen,
+`dürfen Sie sich gerne an uns wenden <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 
