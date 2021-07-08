@@ -13,11 +13,11 @@ Wie gehe ich vor, wenn ich Support benötige oder einen Verbesserungsvorschlag e
 
 .. container:: Intro
 
-    Die Geschäftsstelle Open Government Data beim BFS unterstützt Sie als Portalbetreiber
+    Die Geschäftsstelle Open Government Data beim BFS unterstützt Sie
     bei der Veröffentlichung von Open Government Data auf opendata.swiss. Um die
-    Support-Aktivitäten für Portal-Betreiber und datenpublizierenden
-    Organisationen möglichst effizient zu gestalten, wurden die verschiedene
-    die wichtigsten Support-Prozessen wie folgt festgelegt.
+    Support-Aktivitäten für Portal-Betreiber und datenpublizierende
+    Organisationen möglichst effizient zu gestalten, wurden
+    die wichtigsten Support-Prozesse festgelegt.
 
 .. container:: support
 
@@ -44,19 +44,19 @@ Supportstelle für Sie da ist. So sieht das Vorgehen aus:
   bitten wir Sie, uns folgende Informationen zuzustellen:
 
 +-------------------------------+------------------------------------------------------------+
-| **Titel**                     | eine grobe Beschreibung des Problems, der Frage            |
+| **Titel**                     | Eine grobe Beschreibung des Problems, der Frage            |
 +-------------------------------+------------------------------------------------------------+
-| **URL**                       | vollständige URL, auf der Sie eine Aktion durchführen      |
+| **URL**                       | Vollständige URL, auf der Sie eine Aktion durchführen      |
 |                               | und/oder auf der das Problem auftritt                      |
 +-------------------------------+------------------------------------------------------------+
 | **Username und Organisation** | Benutzername und Organisations-Zugehörigkeit               |
 +-------------------------------+------------------------------------------------------------+
-| **Beschreibung der Schritte** | eine Schritt-für-Schritt-Beschreibung, wie das Problem     |
+| **Beschreibung der Schritte** | Eine Schritt-für-Schritt-Beschreibung, wie das Problem     |
 |                               | reproduziert werden kann                                   |
 +-------------------------------+------------------------------------------------------------+
-| **Erwartung**                 | was haben Sie erwartet?                                    |
+| **Erwartung**                 | Was haben Sie erwartet?                                    |
 +-------------------------------+------------------------------------------------------------+
-| **Realität**                  | was ist, entgegen Ihrer Erwartung, passiert?               |
+| **Realität**                  | Was ist, entgegen Ihrer Erwartung, passiert?               |
 +-------------------------------+------------------------------------------------------------+
 | **Screenshots/Dateien**       | Screenshots von Fehlermeldungen, Import-Dateien, Downloads |
 +-------------------------------+------------------------------------------------------------+
