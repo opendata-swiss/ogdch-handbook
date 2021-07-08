@@ -142,7 +142,7 @@ Scrollen Sie zu dem Feld «Sichtbarkeit»: Es ist auf «Entwurf eingestellt»
    :alt: Dataset in veroeffentlichen
 
 Sie können Ihr Dataset sofort veröffentlichen indem Sie den Status auf "Veröffentlicht"
-ändern. Oder sie können eine zukünftige Veröffentlichung planen, indem Sie im darunterliegenden Feld darunter
+ändern. Oder sie können eine zukünftige Veröffentlichung planen, indem Sie im darunterliegenden Feld
 den Veröffentlichungstermin terminieren.
 
 Die Veröffentlichung lässt sich verlässlich auf ein bestimmtes Datum planen.
@@ -159,7 +159,7 @@ Datensets im Frontend prüfen
 
 Sobald Ihre Datasets veröffenlicht sind, können sie auch im Frontend der Abnahmeumgebung angesehen werden.
 Sie gelangen zu der Datenansicht Ihres Datasets im Frontend,
-imdem Sie in die Detailansicht Ihres Datasets gehen und `ckan` aus dem URL Ihres Datasets entfernen:
+imdem Sie in die Detailansicht Ihres Datasets gehen und ``ckan`` aus der URL Ihres Datasets entfernen:
 
 .. figure:: ../../../_static/images/publizieren/dataset/ckan-backend-url.png
    :alt: Beispielansicht eines publizierten Datasets
