@@ -33,15 +33,15 @@ Die Schritte auf einen Blick
 - :ref:`Harvester testen <harvesting-testen>`
 - :ref:`Den Harvester verwalten <harvesting-verwalten>`
 - :ref:`Harvesting Fehler beheben <harvesting-fehler-beheben>`
-- :ref:`Harvestier Einstellugen <harvester-einstellungen>`
-- :ref:`Datensets prüfen <harvesting-pruefen>`
+- :ref:`Harvester Einstellugen <harvester-einstellungen>`
+- :ref:`Datasets prüfen <harvesting-pruefen>`
 - :ref:`Datenkatalog veröffentlichen <harvesting-veroeffentlichen>`
 
 .. admonition:: Gut zu wissen
 
     Sollten Sie zum ersten Mal Daten publizieren, führen wir Sie durch den
     Prozess und unterstützen Sie dabei, die korrekte Übermittlung und Darstellung
-    Ihrer Daten sicherzustellen, unabhängig von der Publikationsvariante.
+    Ihrer Daten sicherzustellen, unabhängig von der :doc:`Publikationsvariante <../publikationsvariante>`.
 
 Alle Schritte im Detail
 ------------------------
@@ -75,7 +75,7 @@ geliefert werden kann, kann ein spezifisches Mapping definiert werden.
 Katalog-Endpunkt übergeben
 --------------------------
 
-`Senden Sie uns hierfür eine E-Mail <mailto:opendata@bfs.admin.ch>`__ mit der URL,
+Senden Sie uns hierfür eine `E-Mail mit der URL <mailto:opendata@bfs.admin.ch>`__,
 unter der wir Ihren Datenkatalog herunterladen können.
 Diese URL ist gleichzeitig ein RDF-Endpunkt.
 
@@ -103,8 +103,8 @@ Falls Ihr Datenkatalog zu gross ist und nicht in einer einzigen
 Anfrage übermittelt werden kann, besteht die Möglichkeit,
 ihn seitenweise zu übergeben. Dafür empfehlen wir die Paginierung
 mit dem `Hydra Vocabulary <https://www.hydra-cg.com/spec/latest/core/>`__
-zu implementieren. `Senden Sie uns abschliessend eine E-Mail <mailto:opendata@bfs.admin.ch>`__
-mit der entsprechenden URL.
+zu implementieren. Senden Sie uns abschliessend eine
+`E-Mail mit der entsprechenden URL <mailto:opendata@bfs.admin.ch>`__.
 
 .. _harvesting-testen:
 
@@ -117,11 +117,11 @@ lassen wir ihn auf Ihrem Endpunkt in der Abnahmeumgebung erstmalig laufen.
 Unter Umständen liefert der Harvester anfangs Fehler zurück, die Sie dann
 in Ihrem Datenkatalog beheben müssen.
 
-Am Prozess des Testens und iterativen Verbesserns Ihrer Daten sind Sie von Anfang an
+Am Prozess des Testens und der iterativen Verbesserung Ihrer Daten sind Sie von Anfang an
 mit einbezogen. Sie haben selbst Zugang zu Ihrem Harvester, seinen Jobläufen und Fehlerberichten.
 
 Sollten Sie bei allfälligen Fehlern Fragen haben, dann
-`wenden Sie sich gerne an uns <mailto:opendata@bfs.admin.ch>`__, und wir helfen Ihnen weiter
+`wenden Sie sich gerne an uns <mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen weiter
 
 .. _harvesting-verwalten:
 
@@ -130,7 +130,7 @@ Den Harvester verwalten
 
 Im Folgenden erklären wir Ihnen den Zugang zu Ihrem Harvester:
 
-Klicken Sie auf «Harvest Sources». Dann gelangen Sie zu einer Liste aller Harvester. Geben Sie
+Klicken Sie auf den Button «Harvest Sources». Dann gelangen Sie zu einer Liste aller Harvester. Geben Sie
 den Namen Ihres Harvesters ins Suchfeld ein, um nach Ihrem Harvester zu suchen. Den Namen
 des Harvesters erhalten Sie von uns.
 
@@ -147,41 +147,42 @@ In der Detailansicht Ihres Harvesters sind alle Datasets aufgelistet, die ihm zu
 Datasets, die der Harvester über den Zugriff auf
 Ihren :term:`Katalog Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` automatisch erzeugt hat.
 
-Klicken Sie auf «Administrator» um Ihren Harvester zu verwalten. Sie gelangen dann zu einem
+Klicken Sie auf den Button «Administrator» um Ihren Harvester zu verwalten. Sie gelangen dann zu einem
 Dashboard für das Management Ihres Harvesters.
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvest-admin-dashboard.png
    :alt: Organisation im Frontend von opendata.swiss
 
-Hier wird Ihnen jeweils der aktuellste Harvestjob angezeigt.
+Hier wird Ihnen jeweils der aktuellste Harvest Job angezeigt.
 
 Sie haben folgende Möglichkeiten:
 
-- «Jobs» führt Sie zu einer Liste vergangener Harvest Jobs
-- «Bearbeiten» führt Sie zur Bearbeitung der Einstellungen Ihres Harvesters
-- «Reharvest» stösst einen erneuten den Harvesterlauf an, zum Aktualisieren Ihrer Datasets
+- Der Tab «Jobs» führt Sie zu einer Liste vergangener Harvest Jobs
+- Der Tab «Bearbeiten» führt Sie zur Bearbeitung der Einstellungen Ihres Harvesters
+- Der Button «Reharvest» stösst einen erneuten Harvesterlauf an,
+  so dass die Datasets anhand dem eingetragenen Katalog-Endpunkt aktualisiert werden
   von dem eingetragenen :term:`Katalog Endpunkt <Katalog Endpunkt (Catalogue endpoint)>`
-- «View harvest source»: damit gelangen Sie zurück auf die Detailseite Ihres Harvesters
+- Über den Button «View harvest source» gelangen Sie zurück auf die Detailseite Ihres Harvesters
 
 .. container:: important
 
-    Vorsicht: «Clear» Löscht alle Datasets und vergangenen Jobs des Harvester. Machen Sie das nur
+    Vorsicht: Der Button «Clear» löscht alle Datasets und vergangenen Jobs des Harvester. Machen Sie das nur
     wenn das wirklich Ihre Absicht ist.
 
 .. admonition:: Gut zu wissen
 
-    Harvester laufen als Hintergrundprozesse. Wenn Sie Ihren Harvester anstossen, wird dadurch ein Harvesterjob
-    erzeugt und in eine Jobqueue gestellt. Wie schnell Ihr Harvster-Job Ergebnisse liefert, hängt auch davon, wie lang
+    Harvester laufen als Hintergrundprozesse. Wenn Sie Ihren Harvester anstossen, wird dadurch ein Harvest Job
+    erzeugt und in eine Jobqueue gestellt. Wie schnell Ihr Harvest Job Ergebnisse liefert, hängt auch davon, wie lang
     die Jobqueue gerade ist. Deshalb kann die Zeit, die Sie
-    auf die Ergebnisse Ihres Harvesters warten müssen stark varieren.
+    auf die Ergebnisse Ihres Harvesters warten müssen stark variieren.
 
 .. _harvesting-fehler-beheben:
 
 Harvesting Fehler beheben
 --------------------------
 
-Wenn Ihr letzter Harvestjob Fehler gemeldet hat, sehen Sie dass auf dem Dashboard.
-Klicken Sie dann auf «Jobs», um zur Jobliste zu gelangen:
+Wenn Ihr letzter Harvest Job Fehler gemeldet hat, sehen Sie dass auf dem Dashboard.
+Klicken Sie dann auf den Tab «Jobs», um zur Jobliste zu gelangen:
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvest-jobs.png
    :alt: Organisation im Frontend von opendata.swiss
@@ -197,14 +198,14 @@ Hier können Sie die Harvesting Fehler im Detail ansehen:
 Je nach Art des Fehler steht Ihnen noch Einsicht in den «Remote Content» und den «Local Content»
 zur Verfügung:
 
-- «Remote Content» sehen Sie den Daten-Katalog an Ihrem :term:`Katalog Endpunkt <Katalog Endpunkt (Catalogue endpoint)>`
+- Im «Remote Content» sehen Sie den Datenkatalog an Ihrem :term:`Katalog-Endpunkt <Katalog Endpunkt (Catalogue endpoint)>`
   so wie der Harvester ihn abholt.
-- «Local Content» betrifft oft nur ein Dataset: hier können sie in einer JSON Darstellung sehen, wie das Dataset
+- Der «Local Content» betrifft oft nur ein Dataset: hier können sie in einer JSON Darstellung sehen, wie das Dataset
   auf opendata.swiss angekommen ist.
 
 Wenn Sie beim Testen Ihres Harvesters auf Fehler stossen, die Sie nicht verstehen und nicht beheben
 können, dann
-`melden Sie sich gerne bei uns <mailto:opendata@bfs.admin.ch>`__. Wir unterstützen Sie beim Einrichten und Testen
+`melden Sie sich bei uns <mailto:opendata@bfs.admin.ch>`__. Wir unterstützen Sie beim Einrichten und Testen
 Ihres Harvesters.
 
 .. _harvester-einstellungen:
@@ -212,7 +213,7 @@ Ihres Harvesters.
 Harvester Einstellungen
 --------------------------
 
-Harvester haben ausser dem :term:`Katalog Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` noch weitere
+Harvester haben ausser dem :term:`Katalog-Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` noch weitere
 Einstellungen.
 
 .. container:: important
@@ -223,19 +224,21 @@ Einstellungen.
 .. figure:: ../../../_static/images/publizieren/harvesting/harvester-aktualisieren.png
    :alt: Organisation im Frontend von opendata.swiss
 
-Der «Url» ist der :term:`Katalog Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` an dem Ihre Daten abgeholt werden.
+Die «URL» ist der :term:`Katalog-Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` an dem Ihre Daten abgeholt werden.
 
-Unter dem «Titel» finden Sie den Harvester in der Harvester-Liste. «Beschreibung» ist für Anmerkungen gedacht.
+Unter dem «Titel» finden Sie den Harvester in der Harvester-Liste.
+Das Feld «Beschreibung» ist für Anmerkungen gedacht.
 
-Der «Source type» Ihres Harvesters hängt von der Publikationsvariante ab: in der hier beschreibenen Publikationsvariante
-hat Ihr Harvester die Einstellung «DCAT-AP Switzerland RDF Harvester». Auch in der Publikationsvarainte
+Der «Source type» Ihres Harvesters hängt von der Publikationsvariante ab: in der hier beschriebenen Publikationsvariante
+hat der Harvester die Einstellung «DCAT-AP Switzerland RDF Harvester». Auch in der Publikationsvariante
 :doc:`Metadaten via geocat.ch publizieren <geodaten>` kommen Harvester
 zum Einsatz. Diese haben dann den Typ «Geocat Harvester».
 
-Die Harvester sind bezüglich der «Update frequency» auf «Manual» eingestellt, obwohl sie täglich laufen, da ihre Startzeit nicht
+Die Harvester sind bezüglich dem Feld «Update frequency» auf «Manual» eingestellt,
+obwohl sie täglich laufen, da ihre Startzeit nicht
 über die Weboberfläche, sondern über Prozesse, die im Hintergrund ablaufen,
 gesteuert wird.
-Bei «Configuration» werden gegebenfalls weitere Konfigurationen eingetragen, die Ihr Harvester benötigt, um Ihre
+Bei «Configuration» werden gegebenenfalls weitere Konfigurationen eingetragen, die Ihr Harvester benötigt, um Ihre
 Daten korrekt zu importieren.
 
 .. container:: important
@@ -244,7 +247,8 @@ Daten korrekt zu importieren.
 
 .. container:: important
 
-    Wichtig: Bitte löschen Sie Ihren Harvester nicht, sondern `wenden Sie sich an uns <mailto:opendata@bfs.admin.ch>`__,
+    Wichtig: Bitte löschen Sie Ihren Harvester nicht,
+    sondern `wenden Sie sich an uns <mailto:opendata@bfs.admin.ch>`__,
     falls Sie ihn nicht
     mehr benötigen, damit der Harvester und seine Daten fachgerecht entfernt werden können.
 
@@ -253,7 +257,7 @@ Daten korrekt zu importieren.
 Datasets prüfen
 ----------------------------
 
-Sobald Ihr Harvester fehlerfrei durchläuft kontrollieren Sie bitte Ihre Datensätze in der
+Sobald Ihr Harvester fehlerfrei durchläuft, kontrollieren Sie bitte Ihre Datensätze in der
 Detailansicht des Harvesters:
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvester-datasets.png
@@ -262,7 +266,7 @@ Detailansicht des Harvesters:
 Kontrollieren Sie bitte auch die Frontendansicht Ihrer Datasets:
 
 Sie gelangen zu der Ansicht Ihrer Organisation im Frontend,
-imdem Sie ``ckan`` aus dem Url Ihrer Organisation im Backend entfernen:
+indem Sie ``ckan`` aus der URL Ihrer Organisation im Backend entfernen:
 
 .. figure:: ../../../_static/images/publizieren/organisation/ckan-organisations-url.png
    :alt: ckan url einer Organisation
@@ -275,7 +279,7 @@ imdem Sie ``ckan`` aus dem Url Ihrer Organisation im Backend entfernen:
 
 .. container:: bildunterschrift
 
-   Beispielansicht einer publierten Organisation
+   Beispielansicht einer publizierten Organisation
 
 .. figure:: ../../../_static/images/publizieren/harvesting-dataset-frontend-check.png
    :alt: Dataset im Frontend von opendata.swiss
@@ -306,6 +310,6 @@ und wir helfen Ihnen gerne weiter.
 
    Mehr zum Thema
 
-- :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` – Beschreibung des aktuell von opendata.swiss genutzte Datenstandards DCAT-AP-CH
+- :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` – Beschreibung des aktuell von opendata.swiss genutzten Datenstandards DCAT-AP-CH
 - :download:`Harvester konfigurieren <../../../_static/screencasts/configure-harvester.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie Ihren Harvester konfigurieren können
 - :download:`Harvester starten <../../../_static/screencasts/run-harvester.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie Ihren Harvester starten können
