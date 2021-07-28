@@ -15,14 +15,14 @@ Wie lade ich meine Metadaten mittels Harvester hoch?
 .. container:: Intro
 
     Mit einem Harvester lassen sich grössere Datenmengen einfach und schnell publizieren.
-    Es bedeutet, dass Ihre Datasets automatisch durch opendata.swiss angezogen und
+    Es bedeutet, dass Ihre Datasets automatisch durch opendata.swiss
     aktualisiert werden können, der Aufwand für die :doc:`Datenpflege <../../pflegen/pflegen>`
     reduziert sich für Sie. Voraussetzung dafür ist, dass
     :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert ist <../erstpublizierende/kontakt-bfs>`.
     Dies erfolgt in Absprache mit der
     :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`.
     Wir erklären Ihnen hier,
-    wie das sogenannte Harvesting funktioniert.
+    wie das Harvesting funktioniert.
 
 Die Schritte auf einen Blick
 -----------------------------
@@ -101,9 +101,9 @@ Katalog-Endpunkt mit Paginierung übergeben
 
 Falls Ihr Datenkatalog zu gross ist und nicht in einer einzigen
 Anfrage übermittelt werden kann, besteht die Möglichkeit,
-ihn seitenweise zu übergeben. Dafür empfehlen wir die Paginierung
+ihn seitenweise zu übergeben. Dafür empfehlen wir, die Paginierung
 mit dem `Hydra Vocabulary <https://www.hydra-cg.com/spec/latest/core/>`__
-zu implementieren. Senden Sie uns abschliessend eine
+zu implementieren. Senden Sie uns anschliessend eine
 `E-Mail mit der entsprechenden URL <mailto:opendata@bfs.admin.ch>`__.
 
 .. _harvesting-testen:
@@ -142,8 +142,7 @@ des Harvesters:
 .. figure:: ../../../_static/images/publizieren/harvesting/harvester-ansicht.png
    :alt: Organisation im Frontend von opendata.swiss
 
-In der Detailansicht Ihres Harvesters sind alle Datasets aufgelistet, die ihm zugeordnet sind: das sind alle
-Datasets, die der Harvester über den Zugriff auf
+In der Detailansicht Ihres Harvesters sind alle Datasets aufgelistet, die der Harvester über den Zugriff auf
 Ihren :term:`Katalog Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` automatisch erzeugt hat.
 
 Klicken Sie auf den Button «Administrator» um Ihren Harvester zu verwalten. Sie gelangen dann zu einem
@@ -310,5 +309,5 @@ und wir helfen Ihnen gerne weiter.
    Mehr zum Thema
 
 - :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` – Beschreibung des aktuell von opendata.swiss genutzten Datenstandards DCAT-AP-CH
-- :download:`Harvester konfigurieren <../../../_static/screencasts/configure-harvester.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie Ihren Harvester konfigurieren können
-- :download:`Harvester starten <../../../_static/screencasts/run-harvester.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie Ihren Harvester starten können
+- :download:`Harvester konfigurieren <../../../_static/screencasts/configure-harvester.gif>` - In diesem Screencast zeigen wir Ihnen, wie Sie Ihren Harvester konfigurieren können
+- :download:`Harvester starten <../../../_static/screencasts/run-harvester.gif>` - In diesem Screencast zeigen wir Ihnen, wie Sie Ihren Harvester starten können

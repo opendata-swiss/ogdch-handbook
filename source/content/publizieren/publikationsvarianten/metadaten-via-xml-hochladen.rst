@@ -16,13 +16,13 @@ Wie importiere ich meine Metadaten als XML-Datei?
 
     Wenn Sie mehr als 3 Datasets importieren möchten, die regelmässig aktualisiert
     werden müssen, empfehlen wir die Variante Import als XML-Datei.
-    Ihrer Datenkatalog muss im Format
+    Ihr Datenkatalog muss im Format
     :doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>` vorliegen. Des Weiteren muss
     :doc:`Ihre Organisation mitsamt Benutzerinnen und Benutzern registriert sein <../erstpublizierende/kontakt-bfs>`.
     Dies erfolgt in Absprache mit der
     :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`.
     Wir zeigen Ihnen
-    hier Schritt für Schritt, wie das funktioniert.
+    hier Schritt für Schritt, wie der Import funktioniert.
 
 Die Schritte auf einen Blick
 ----------------------------
@@ -54,15 +54,15 @@ besonders komplexe Veröffentlichung testweise durchführen,
 ist die :term:`Abnahmeumgebung <Abnahmeumgebung>` dafür die richtige Wahl.
 Handelt es um eine wiederholte Publikation und Sie möchten
 Ihre Datasets direkt veröffentlichen,
-können Sie sich in die :term:`Produktionsumgebung <Produktionsumgebung>`
-einloggen.
+dann können Sie direkt die :term:`Produktionsumgebung <Produktionsumgebung>`
+verwenden.
 
 Gehen Sie zu Ihrer Organisation.
 
 .. figure:: ../../../_static/images/publizieren/xml-upload/xml-upload-starten.png
    :alt: XML Katalog im Backend von opendata.swiss hochladen
 
-Klicken Sie dann auf den Button «Datensätze aus XML hinzufügen».
+Klicken Sie auf den Button «Datensätze aus XML hinzufügen».
 
 .. figure:: ../../../_static/images/publizieren/xml-upload/upload-button.png
    :alt: XML Katalog importieren: Datei auswählen
@@ -80,8 +80,8 @@ Mit  «Submit» wird der Upload gestartet.
     Wichtig: Der Datenkatalog muss im
     Format :doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>` vorliegen.
 
-Ihre Datasets werden Ihnen nach erfolgreichem Import
-als «Entwurf» gespeichert und in der Liste der Datasets für Ihre Organization mit
+Ihre Datasets werden nach erfolgreichem Import
+als «Entwurf» gespeichert und in der Liste der Datasets Ihrer Organisation mit
 aufgelistet:
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-entwurf.png
@@ -107,7 +107,7 @@ Finden Sie Ihre Datasets mit der Facettensuche nach dem Status «Entwurf»:
 .. figure:: ../../../_static/images/publizieren/xml-upload/hochgeladene-datasets-auswaehlen.png
    :alt: Hochgeladene Datasets auswählen
 
-Gehen Sie in die Detailansicht Ihres Datasets: Sind alle Felder so besetzt,
+Gehen Sie in die Detailansicht Ihres Datasets: Sind alle Felder so ausgefüllt,
 wie Sie es erwarten, können Sie Ihr Dataset veröffentlichen.
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-detailansicht.png
@@ -115,7 +115,7 @@ wie Sie es erwarten, können Sie Ihr Dataset veröffentlichen.
 
 .. _xml_datensaetze_veroeffentlichen:
 
-Datenset veröffentlichen
+Dataset veröffentlichen
 ---------------------------
 
 Vor der Veröffentlichung ist Ihr Dataset in der
@@ -184,7 +184,7 @@ Veröffentlichung in der Produktionsumgebung
 Sollten Sie zum ersten Mal Daten publizieren, muss Ihr Dataset
 von der Abnahmeumgebung noch auf die Produktionsumgebung übertragen werden.
 Dies übernehmen wir für Sie,
-geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata@bfs.admin.ch>`__.
+`geben Sie uns einfach per E-Mail Bescheid <mailto:opendata@bfs.admin.ch>`__.
 Sollten Sie bereits über die Rechte für die Produktionsumgebung verfügen,
 können Sie die Daten dort gleich veröffentlichen.
 
@@ -202,4 +202,4 @@ und wir helfen Ihnen gerne weiter.
 
 - :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` – Beschreibung des aktuell von opendata.swiss genutzte Datenstandards DCAT-AP-CH
 - :download:`Screencast zum Importieren der Metadaten als XML-Datei <../../../_static/screencasts/xml-import.gif>` - In diesem Screencast zeigen wir Ihnen den Import eines Datenkatalogs
-- :download:`Veröffentlichung eines Datasets terminieren <../../../_static/screencasts/schedule-dataset.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie die Veröffentlichung Ihres Datasets terminieren können
+- :download:`Veröffentlichung eines Datasets terminieren <../../../_static/screencasts/schedule-dataset.gif>` - In diesem Screencast zeigen wir Ihnen, wie Sie die Veröffentlichung Ihres Datasets terminieren können

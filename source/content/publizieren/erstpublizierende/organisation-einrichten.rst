@@ -32,9 +32,9 @@ Die Schritte auf einen Blick
 Informationen zur Organisation ergänzen
 ----------------------------------------
 
-Um die Informationen zu Ihrer Organisation ergänzen zu können, Sie die Rolle des Administrators
+Um die Informationen zu Ihrer Organisation ergänzen zu können, müssen Sie die Rolle des Administrators
 in Ihrer Organisation besitzen. (Mehrere Benutzerinnen und Benutzer einer Organisation können die Admininstrator-Rolle
-besitzen/zugeteilt bekommen.) Wenn Sie auf Ihre Organisation gehen, sehen Sie sehen als Administrator
+besitzen/zugeteilt bekommen.) Wenn Sie auf Ihre Organisation gehen, sehen Sie als Administrator
 den Button «Bearbeiten». Hier können Sie die Felder zu Ihrer Organisation ausfüllen.
 
 .. figure:: ../../../_static/images/publizieren/organisation/organisation-bearbeiten.png
@@ -47,25 +47,25 @@ Klicken Sie darauf, um das Webformular für Ihre Organisation zu öffnen:
 
 Bei «Titel (EN) (DE) (FR) (IT)» geben Sie bitte einen Titel respektive den offiziellen Namen
 Ihrer Organisation an.
-Alle Bundesstellen sollen die Angaben mindestens auf Deutsch und Französisch eingeben – wünschenswert
-wären allerdings alle vier Sprachen. Weitere Organisationen sollen Titel und Beschreibung in
+Alle Bundesstellen müssen die Angaben mindestens auf Deutsch und Französisch eingeben – wünschenswert
+wären allerdings alle vier Sprachen. Weitere Organisationen müssen Titel und Beschreibung in
 mindestens einer Sprache eingeben.
 
 Der sogenannte :term:`«Name/Slug» <Slug>` Ihrer Organisation wird von uns vergeben
 und sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer Organisation.
 Dieser kann bei Bedarf editiert werden, beachten Sie bitte, dass er nur Kleinbuchstaben (ASCII)
-und diese Zeichen: -_ enthalten darf.
+und diese Zeichen: ``-_`` enthalten darf.
 
 .. container:: important
 
-    Wichtig: Der Der interne Organisations-Titel darf nicht mehr verändert werden,
+    Wichtig: Der interne Organisations-Titel darf nicht mehr verändert werden,
     sobald Sie Datasets veröffentlicht haben.
 
 .. figure:: ../../../_static/images/publizieren/organisation/organisations-beschreibung.png
    :alt: Organisationsbeschreibung
 
 Bei «Beschreibung (EN) (DE) (FR) (IT)» geben Sie bitte eine Beschreibung Ihrer Organisation an.
-Alle Bundesstellen sollen die Angaben mindestens auf
+Alle Bundesstellen müssen die Angaben mindestens auf
 Deutsch und Französisch eingeben – wünschenswert
 wären allerdings alle vier Sprachen. Weitere
 Organisationen sollen Titel und Beschreibung
@@ -74,13 +74,9 @@ in mindestens einer Sprache eingeben
 .. figure:: ../../../_static/images/publizieren/organisation/organisations-formular.png
    :alt: Organisation: Url und weitere Felder
 
-:Parent: Falls es sich bei Ihrer Organisation um eine Unterorganisation einer bereits
-         auf opendata.swiss vertretenen Organisation handelt, kann das hier eingetragen werden.
-
 Geben Sie bitte die «politische Ebene» an, auf der Ihre Organisation angesiedelt ist.
-Unter «URL» verlinken Sie zur Website Ihrer Organisation an.
-Falls es sich bei Ihrer Organisation um eine Unterorganisation einer bereits
-auf opendata.swiss vertretenen Organisation handelt, kann das hier eingetragen werden.
+Falls es sich bei Ihrer Organisation um eine Unterorganisation einer bereits auf
+opendata.swiss vertretenen Organisation handelt, kann das bei «Parent» eingetragen werden.
 
 Unter «URL» verlinken Sie zur Website Ihrer Organisation
 
@@ -99,7 +95,7 @@ Ansicht der Organisation prüfen
 --------------------------------
 
 Überprüfen Sie die Angaben zu Ihrer Organisation: Nachdem Sie die Angaben zu Ihrer Organisation ergänzt haben,
-klicken Sie auf den Button «Über das Portal».
+klicken Sie auf den Info-Tab «Über das Portal».
 
 .. figure:: ../../../_static/images/publizieren/organisation/organisations-info-ansehen.png
    :alt: Organisation im Backend ansehen
@@ -113,7 +109,7 @@ Anschliessend können Sie sich die Darstellung Ihre Organisation im
 :term:`Frontend <Frontend>` der :term:`Abnahmeumgebung <Abnahmeumgebung>` von opendata.swiss ansehen:
 
 Sie gelangen zu der Datenansicht Ihrer Organisation im Frontend, indem Sie
-``ckan` aus der Backend-URL Ihrer Organisation entfernen:
+``ckan`` aus der Backend-URL Ihrer Organisation entfernen:
 
 .. figure:: ../../../_static/images/publizieren/organisation/ckan-organisations-url.png
    :alt: ckan url einer Organisation

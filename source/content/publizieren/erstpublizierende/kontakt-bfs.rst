@@ -27,7 +27,7 @@ Was muss ich tun, wenn ich zum ersten Mal Daten publizieren möchte?
 Die Schritte auf einen Blick
 ----------------------------
 
-- :ref:`Erste Aktivierung von Organisation und Benutzerrinnen und Benutzer <erste_aktivierung>`
+- :ref:`Erste Aktivierung von Organisation und Benutzerinnen und Benutzer <erste_aktivierung>`
 - :ref:`Zugang anfordern <zugang_anfordern>`
 
 .. _erste_aktivierung:
@@ -35,15 +35,15 @@ Die Schritte auf einen Blick
 Erste Aktivierung von Organisation und Benutzer
 -----------------------------------------------
 
-Für die erste Aktivierung stellen Sie uns bitte folgende
-`Informationen <mailto:opendata@bfs.admin.ch>`__ zur Verfügung:
+Für die erste Aktivierung stellen Sie `uns <mailto:opendata@bfs.admin.ch>`__
+bitte folgende Informationen zur Verfügung:
 
 - **Name und URL zur Webseite der Organisation**, die Daten publizieren wird.
   Genauere Angaben zur Organisation können später hinzugefügt werden.
 - **E-Mail-Adresse der Benutzerinnen und Benutzer**, die
   Metadaten erfassen und verwalten werden. Verwenden Sie bitte für
   die Registrierung keine unpersönlichen Adressen
-  wie zum Beispiel statistik@bfs.admin.ch, da diese das User-Management erschweren.
+  wie zum Beispiel ``statistik@bfs.admin.ch``, da diese das User-Management erschweren.
 - Alle Benutzerinnen und Benutzer erhalten dann die Möglichkeit,
   über das :term:`Backend <Backend>` von opendata.swiss Daten
   Ihrer Organisation zu verwalten oder neue Daten zu erfassen.
@@ -74,7 +74,7 @@ Es gibt bei opendata.swiss folgende Rollen für Datenpublizierende:
     :Administrator: hat Zugriff auf die gesamte Organisation und ihre Mitglieder
     :Redakteur: kann Datasets verwalten, aber hat keinen Zugriff auf die
                 Darstellung der Organisationsdaten
-    :Mitglied: passives Mitglied der Organisation ohne Zugiffs-Rechte
+    :Mitglied: passives Mitglied der Organisation ohne Zugriffsrechte
 
 .. container:: important
 
