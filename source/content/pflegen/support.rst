@@ -46,7 +46,7 @@ Werden Ihre Daten nicht korrekt oder unvollständig angezeigt?
 | **URL**                       | Vollständige URL, auf der Sie eine Aktion durchführen      |
 |                               | und/oder auf der das Problem auftritt                      |
 +-------------------------------+------------------------------------------------------------+
-| **Username und Organisation** | Benutzername und Organisations-Zugehörigkeit               |
+| **Username und Organisation** | Benutzername und Organisationszugehörigkeit               |
 +-------------------------------+------------------------------------------------------------+
 | **Beschreibung der Schritte** | Eine Schritt-für-Schritt-Beschreibung, wie das Problem     |
 |                               | reproduziert werden kann                                   |
