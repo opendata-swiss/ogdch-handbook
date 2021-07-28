@@ -35,8 +35,8 @@ Wie gehe ich vor, wenn ich Support benötige oder einen Verbesserungsvorschlag e
 Ist das Portal opendata.swiss nicht verfügbar?
 Werden Ihre Daten nicht korrekt oder unvollständig angezeigt?
 
-- Melden Sie das Problem bitte an die Geschäftsstelle OGD:
-  `opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__.
+- Melden Sie das Problem bitte an die Geschäftsstelle OGD
+  `Geschäftsstelle OGD <mailto:opendata@bfs.admin.ch>`__.
 - Damit wir Ihre Anfragen optimal bearbeiten können,
   bitten wir Sie, uns folgende Informationen zuzustellen:
 
@@ -46,7 +46,7 @@ Werden Ihre Daten nicht korrekt oder unvollständig angezeigt?
 | **URL**                       | Vollständige URL, auf der Sie eine Aktion durchführen      |
 |                               | und/oder auf der das Problem auftritt                      |
 +-------------------------------+------------------------------------------------------------+
-| **Username und Organisation** | Benutzername und Organisationszugehörigkeit               |
+| **Username und Organisation** | Benutzername und Organisationszugehörigkeit                |
 +-------------------------------+------------------------------------------------------------+
 | **Beschreibung der Schritte** | Eine Schritt-für-Schritt-Beschreibung, wie das Problem     |
 |                               | reproduziert werden kann                                   |
@@ -85,11 +85,8 @@ Gerne unterstützen wir Sie dabei, Ihre User Story zu formulieren.
 “Ich benötige Unterstützung bei der Veröffentlichung oder Anpassung meiner Einträge auf opendata.swiss”
 ---------------------------------------------------------------------------------------------------------
 
-Wenden Sie sich an die Geschäftsstelle OGD um Unterstützung zu erhalten:
-`opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__
-
-Sie benötigen Unterstützung um Ihre Daten neu zu publizieren oder um bestehende Daten anzupassen.
-Die 1st level Supportstelle ist wiederum die `opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__
+Wenden Sie sich an die `Geschäftsstelle OGD <mailto:opendata@bfs.admin.ch>`__
+um Unterstützung zu erhalten.
 
 Gerne organisieren wir mit Ihnen kurze Support-Sitzungen,
 um Ihre Fragen zu klären und dabei den Supportaufwand einzuschätzen.
