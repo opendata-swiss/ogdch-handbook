@@ -38,9 +38,9 @@ Erste Aktivierung von Organisation und Benutzer
 Für die erste Aktivierung stellen Sie `uns <mailto:opendata@bfs.admin.ch>`__
 bitte folgende Informationen zur Verfügung:
 
-- **Name und URL zur Webseite der Organisation**, die Daten publizieren wird.
+- Name und URL zur Webseite der Organisation, die Daten publizieren wird.
   Genauere Angaben zur Organisation können später hinzugefügt werden.
-- **E-Mail-Adresse der Benutzerinnen und Benutzer**, die
+- E-Mail-Adresse der Benutzerinnen und Benutzer, die
   Metadaten erfassen und verwalten werden. Verwenden Sie bitte für
   die Registrierung keine unpersönlichen Adressen
   wie zum Beispiel ``statistik@bfs.admin.ch``, da diese das User-Management erschweren.
@@ -49,7 +49,7 @@ bitte folgende Informationen zur Verfügung:
   Ihrer Organisation zu verwalten oder neue Daten zu erfassen.
 - Wir bitten Sie, uns proaktiv zu kontaktieren,
   wenn Profile deaktiviert werden sollen.
-- Eine **kurze Übersicht der Daten** (z.B. in Form einer Liste),
+- Eine kurze Übersicht der Daten (z.B. in Form einer Liste),
   die Sie voraussichtlich publizieren werden, hilft uns, die Publikation optimal zu planen.
 
 .. _zugang_anfordern:

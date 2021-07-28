@@ -252,7 +252,7 @@ Ressource funktioniert ähnlich wie zuvor beim gesamten Dataset: Wählen Sie ein
 Identifier aus Ihrem Quellsystem aus,
 legen Sie Titel und Beschreibung fest. Für die Sprachversionen
 gelten die gleichen Regeln wie bei Datasets: Alle Bundesstellen
-sollen die Angaben mindestens auf Deutsch und Französisch eingeben –
+müssen die Angaben mindestens auf Deutsch und Französisch eingeben –
 wünschenswert wären allerdings alle vier Sprachen. Weitere Organisationen sollen Titel und Beschreibung
 in mindestens einer Sprache eingeben.
 Falls die Ressource sprachunabhängig ist, wählen Sie unter «Sprache»
