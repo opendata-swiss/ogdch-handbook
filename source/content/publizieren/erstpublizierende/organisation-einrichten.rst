@@ -54,7 +54,7 @@ mindestens einer Sprache eingeben.
 Der sogenannte :term:`«Name/Slug» <Slug>` Ihrer Organisation wird von uns vergeben
 und sorgt für die einwandfreie Zuordnung Ihrer Datasets zu Ihrer Organisation.
 Dieser kann bei Bedarf editiert werden, beachten Sie bitte, dass er nur Kleinbuchstaben (ASCII)
-und diese Zeichen: ``-_`` enthalten darf.
+und diese Zeichen: ``-``, ``_`` enthalten darf.
 
 .. container:: important
 
@@ -68,7 +68,7 @@ Bei «Beschreibung (EN) (DE) (FR) (IT)» geben Sie bitte eine Beschreibung Ihrer
 Alle Bundesstellen müssen die Angaben mindestens auf
 Deutsch und Französisch eingeben – wünschenswert
 wären allerdings alle vier Sprachen. Weitere
-Organisationen sollen Titel und Beschreibung
+Organisationen müssen Titel und Beschreibung
 in mindestens einer Sprache eingeben
 
 .. figure:: ../../../_static/images/publizieren/organisation/organisations-formular.png
@@ -78,7 +78,7 @@ Geben Sie bitte die «politische Ebene» an, auf der Ihre Organisation angesiede
 Falls es sich bei Ihrer Organisation um eine Unterorganisation einer bereits auf
 opendata.swiss vertretenen Organisation handelt, kann das bei «Parent» eingetragen werden.
 
-Unter «URL» verlinken Sie zur Website Ihrer Organisation
+Unter «URL» verlinken Sie zur Website Ihrer Organisation.
 
 Bitte wählen Sie ein «Bild» Ihrer Organisation aus
 und verlinken Sie es im Feld «Link» oder und laden Sie es hoch.

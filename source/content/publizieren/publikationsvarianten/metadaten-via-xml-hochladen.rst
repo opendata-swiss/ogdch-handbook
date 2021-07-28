@@ -30,7 +30,7 @@ Die Schritte auf einen Blick
 - :ref:`Datenkatalog importieren <xml_datenkatalog_hochladen>`
 - :ref:`Datasets prüfen <xml_datensaetze_pruefen>`
 - :ref:`Dataset veröffentlichen <xml_datensaetze_veroeffentlichen>`
-- :ref:`Datensets im Frontend prüfen <xml_datensaetze_im_frontend>`
+- :ref:`Datasets im Frontend prüfen <xml_datensaetze_im_frontend>`
 - :ref:`Veröffentlichung in der Produktionsumgebung <xml_go_live>`
 
 .. admonition:: Gut zu wissen
@@ -159,7 +159,7 @@ Datensets im Frontend prüfen
 
 Sobald Ihre Datasets veröffenlicht sind, können sie auch im Frontend der Abnahmeumgebung angesehen werden.
 Sie gelangen zu der Datenansicht Ihres Datasets im Frontend,
-imdem Sie in die Detailansicht Ihres Datasets gehen und ``ckan`` aus der URL Ihres Datasets entfernen:
+indem Sie in die Detailansicht Ihres Datasets gehen und ``ckan`` aus der URL Ihres Datasets entfernen:
 
 .. figure:: ../../../_static/images/publizieren/dataset/ckan-backend-url.png
    :alt: Beispielansicht eines publizierten Datasets
