@@ -78,5 +78,5 @@ Bei weiteren Fragen, beispielsweise zu den allgemeinen OGD-Anforderungen,
 
    Mehr zum Thema
 
-- :doc:`Transformation ISO-19139_che nach DCAT-AP CH <../../glossar/bibliothek/geocat-mapping>` – Hier finden Sie die Anleitung zur Transformation des Geodaten-Standards ISO-19139_che auf den von opendata.swiss genutzen Standard DCAT-AP-CH.
+- :doc:`Transformation ISO-19139_che nach DCAT-AP CH <../../glossar/bibliothek/geocat-mapping>` – Hier finden Sie die Anleitung zur Transformation des Geodaten-Standards ISO-19139_che auf den von opendata.swiss genutzen Standard DCAT-AP CH.
 - `GM03 <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ ist ein Schweizer Modell für Metadaten. Diese Beschreibung des Datenstandards von Geodaten wird von geocat.ch genutzt.
