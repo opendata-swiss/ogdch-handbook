@@ -14,7 +14,8 @@ Wie publiziere ich Geo-Metadaten?
 
 .. container:: Intro
 
-    Geodaten sind ein Spezialfall. Die Geometadaten werden primär im geografischen Datenkatalog
+    Die Publikation von Geodaten ist ein Spezialfall.
+    Die Geometadaten werden primär im geografischen Datenkatalog
     der Schweiz, dem Katalog für Geometadaten
     `geocat.ch <https://www.geocat.ch/geonetwork/srv/eng/catalog.search>`__, erfasst und verwaltet.
     Von dort werden die benötigten Attribute dann durch einen automatisierten Prozess
@@ -59,10 +60,7 @@ Harvesting von Geodaten (geocat.ch > opendata.swiss)
     Wichtig: Selbstverständlich müssen auch hier die
     :doc:`OGD-Richtlinien <../../glossar/bibliothek/ogd-richtlinien>`
     erfüllt sein.
-
-.. container:: important
-
-    Wichtig: Geo-Metadaten müssen gemäss
+    Zudem müssen Geo-Metadaten gemäss
     :doc:`Standard ISO-19139_che <../../glossar/bibliothek/geocat-mapping>`
     vorliegen. Dabei handelt es sich um einen auf der internationalen
     Norm ISO-19139 basierenden Standard, der mit den Schweizer
@@ -82,5 +80,5 @@ Bei weiteren Fragen, beispielsweise zu den allgemeinen OGD-Anforderungen,
 
    Mehr zum Thema
 
-- :doc:`ISO-19139_che <../../glossar/bibliothek/geocat-mapping>` – beschreibt den Geodaten-Standard. Dieser muss auf den von opendata.swiss genutzten Standard DCAT-AP-CH angepasst werden. :doc:`Hier <../../glossar/bibliothek/geocat-mapping>` finden Sie die Anleitung dazu
-- `GM03 <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ – ist ein Schweizer Modell für Metadaten. Diese Beschreibung des Datenstandards von Geodaten wird von geocat.ch genutzt. `Hier <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ finden Sie weitere Informationen dazu
+- :doc:`ISO-19139_che <../../glossar/bibliothek/geocat-mapping>` – Hier finden Sie die Anleitung zur Transformation des Geodaten-Standards ISO-19139_che auf den von opendata.swiss genutzen Standard DCAT-AP-CH.
+- `GM03 <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ – ist ein Schweizer Modell für Metadaten. Diese Beschreibung des Datenstandards von Geodaten wird von geocat.ch genutzt.
