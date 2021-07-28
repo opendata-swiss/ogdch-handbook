@@ -36,7 +36,7 @@ Passwort setzen
 Sie erhalten von uns nach der Registrierung eine E-Mail mit Ihrem Benutzernamen und
 einem Link zum Setzen Ihres Passworts.
 
-Bitte geben Sie Ihren Benutzernamen ein und klicken Sie auf «Anforderungen zurücksetzen».
+Bitte geben Sie Ihren Benutzernamen ein und klicken Sie auf «Anforderung zurücksetzen».
 Sie erhalten dann eine zweite E-Mail mit einem direkten Link für das Setzen Ihres Passworts.
 Anschliessend können Sie sich dann im Backend der :term:`Abnahmeumgebung <Abnahmeumgebung>`
 von opendata.swiss einloggen.
@@ -50,7 +50,7 @@ Benutzer-Dashboard
 -------------------
 
 Nach dem Einloggen gelangen Sie zu Ihrem Benutzer-Dashboard.
-Von hier aus können Sie zu Ihrer Organisation gelangen,
+Sie können zu Ihrer Organisation wechseln,
 indem Sie auf den Tab «Meine Organisationen» klicken.
 
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-dashboard.png
@@ -61,14 +61,14 @@ indem Sie auf den Tab «Meine Organisationen» klicken.
 Benutzerkontenverwaltung
 --------------------------
 
-Zu ihrem Benutzerkonto gelangen Sie, wenn Sie im Dashboard auf «Bearbeitete Einstellungen» klicken.
+Zu Ihrem Benutzerkonto gelangen Sie, wenn Sie im Dashboard auf «Bearbeitete Einstellungen» klicken.
 
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-profil.png
    :alt: Benutzer Dashboard im Backend von opendata.swiss
 
-Den «Benutzernamen» haben Sie bereits bei Ihrer Registrierung (von uns) erhalten. Dieser
+Den «Benutzernamen» haben Sie bereits bei Ihrer Registrierung erhalten. Dieser
 dient zu Ihrer eindeutigen Identifikation auf der Plattform und kann nicht geändert werden.
-«Vollständiger Name» ist der Name mit dem Sie sich und andere Benutzerinnen und Benutzer
+«Vollständiger Name» ist der Name mit dem Sie und andere Benutzerinnen und Benutzer
 im :term:`Backend <Backend>` erscheinen.
 Ihre «E-Mail»  haben wir bereits bei der Registrierung erfasst.
 Beim Feld «Über das Portal» können Sie Zusatzinformationen zu Ihrer Person eingeben.
@@ -88,10 +88,10 @@ Als Benutzer steht Ihnen ganz oben rechts eine Navigationsleiste zur Verfügung:
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-navigation.png
    :alt: Benutzer Dashboard im Backend von opendat.swiss
 
-- das Dashboard-Icon führt Sie zu Ihrem Benutzer-Dashboard.
+- Das Dashboard-Icon führt Sie zu Ihrem Benutzer-Dashboard.
 - Wenn Sie auf Ihren Benutzernamen klicken, gelangen Sie zur
-  Darstellung Ihres Benutzers, wie andere berechtigte Benutzerinnen und Benutzer  (etwa ein Sysadmin) Sie sehen.
-- Der Button mit dem Settings-Icon und der Bezeichnung “Manage” führt zum Editieren Ihres Benutzerprofils.
+  Darstellung Ihres Profils, wie andere berechtigte Benutzerinnen und Benutzer  (etwa ein Sysadmin) Sie sehen.
+- Der Button mit dem Settings-Icon und der Bezeichnung “Bearbeiten” führt zum Editieren Ihres Benutzerprofils.
 - Ganz rechts oben können Sie sich ausloggen.
 
 .. container:: materialien
