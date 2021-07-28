@@ -26,8 +26,6 @@ Geo-Metadaten auf geocat.ch publizieren
 
 Stellen Sie vor der Veröffentlichung sicher,
 dass Ihre Daten auf geocat.ch vollständig erfasst sind.
-`Hier <https://www.geocat.admin.ch/de/dokumentation/opendata.html>`__
-finden Sie die Anleitung dazu.
 
 Harvesting von Geodaten (geocat.ch > opendata.swiss)
 -----------------------------------------------------
@@ -80,5 +78,5 @@ Bei weiteren Fragen, beispielsweise zu den allgemeinen OGD-Anforderungen,
 
    Mehr zum Thema
 
-- :doc:`ISO-19139_che <../../glossar/bibliothek/geocat-mapping>` – Hier finden Sie die Anleitung zur Transformation des Geodaten-Standards ISO-19139_che auf den von opendata.swiss genutzen Standard DCAT-AP-CH.
-- `GM03 <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ – ist ein Schweizer Modell für Metadaten. Diese Beschreibung des Datenstandards von Geodaten wird von geocat.ch genutzt.
+- :doc:`Transformation ISO-19139_che nach DCAT-AP CH <../../glossar/bibliothek/geocat-mapping>` – Hier finden Sie die Anleitung zur Transformation des Geodaten-Standards ISO-19139_che auf den von opendata.swiss genutzen Standard DCAT-AP-CH.
+- `GM03 <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ ist ein Schweizer Modell für Metadaten. Diese Beschreibung des Datenstandards von Geodaten wird von geocat.ch genutzt.
