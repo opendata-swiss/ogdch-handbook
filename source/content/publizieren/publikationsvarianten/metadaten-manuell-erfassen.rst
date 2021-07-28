@@ -14,12 +14,12 @@ Wie erfasse ich Metadaten manuell im Webformular?
 
 .. container:: Intro
 
-    Hier ist der Name Programm: Bei der manuellen Datenerfassung geben Sie selbst
+    Bei der manuellen Datenerfassung geben Sie selbst
     Ihre Metadaten im :term:`Backend <Backend>` von opendata.swiss ein.
     Voraussetzung dafür ist, dass Ihre Organisation mitsamt
-    Benutzerinnen und Benutzern registriert ist.
-    :doc:`Für die erste Registrierung <../erstpublizierende/kontakt-bfs>`.
-    sind wir zuständig.
+    Benutzerinnen und Benutzern registriert ist. Eine Anleitung für die
+    Erstregistrierung finden Sie
+    :doc:`hier <../erstpublizierende/kontakt-bfs>`.
 
     Hier erklären wir Ihnen
     Schritt für Schritt, wie Sie das Webformular ausfüllen müssen.
@@ -40,7 +40,7 @@ Die Schritte auf einen Blick
 
     Sollten Sie zum ersten Mal Daten publizieren, führen wir Sie durch den Prozess
     und unterstützen Sie dabei, die korrekte Übermittlung und Darstellung
-    Ihrer Daten sicherzustellen, unabhängig von der :doc:`Publikationsvariante <../publikationsvariante>`.
+    Ihrer Daten sicherzustellen.
     Kontaktieren Sie uns, um einen
     `Termin für die Einführung zur Publikation auf opendata.swiss <mailto:opendata@bfs.admin.ch>`__
     zu vereinbaren.
@@ -66,7 +66,7 @@ Gehen Sie auf Ihr :ref:`Dashboard <benutzer_dashboard>`.
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-dashboard.png
    :alt: Benutzer Dashboard im Backend von opendata.swiss
 
-Klicken Sie auf den Button «Dataset hinzufügen», um das Webformular zu öffnen.
+Klicken Sie auf den Button «Datensatz hinzufügen», um das Webformular zu öffnen.
 
 .. _manuell-metadaten-eingeben:
 
@@ -79,17 +79,18 @@ werden verschiedene Metadaten und Beschreibungen zu den Datasets publiziert.
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-anlegen.png
    :alt: Dataset manuell erfassen
 
-Als Erstes müssen Sie Ihrem Dataset einen Namen geben.
-Aus ihm wird der Permalink des Datasets gebildet. Dieses Feld dient nur zur Bildung des
-Permalinks. Später wird der Titel Ihres Datasets aus den Einträgen im
-Datenfeld «Titel (EN) (DE) (FR) (IT)» ermittelt: Bitte legen Sie den Titel Ihres Datasets in
-mindestens einer Landessprache und auf Englisch fest.
-(Der Eintrag in Englisch wird bei der Weitergabe Ihres
-Datasets an das europäische Datenportal benötigt.)
+Als Erstes müssen Sie Ihrem Dataset einen Namen geben (“Titel für den Slug”).
+Aus ihm wird der :term:`Slug <Slug>` des Datasets gebildet. Dieses Feld dient nur
+zur Bildung des Slugs. Später wird der Titel Ihres Datasets aus
+den Einträgen im Datenfeld «Titel (EN) (DE) (FR) (IT)» ermittelt:
+Bitte legen Sie den Titel Ihres Datasets in mindestens einer Landessprache
+und auf Englisch fest.
+(Der Eintrag in Englisch wird bei der Weitergabe Ihres Datasets
+an das :term:`europäische Datenportal <Europäisches Datenportal>` benötigt.)
 
 .. container:: important
 
-    Wichtig: Verändern Sie den Permalink nicht mehr,
+    Wichtig: Verändern Sie den Slug nicht mehr,
     nachdem das Dataset publiziert wurde. Ansonsten können Nutzende,
     die Ihre Daten bereits verwenden, diese nicht mehr erreichen.
 
@@ -136,7 +137,7 @@ Bitte geben Sie im Feld «Beschreibung (EN) (DE) (FR) (IT)» eine Beschreibung I
 Alle Bundesstellen sollen die Angaben mindestens auf Deutsch und auf
 Französisch eingeben – wünschenswert wären allerdings alle vier Sprachen.
 Eine Beschreibung auf Englisch erleichtert das Auffinden Ihres Dataset auf dem
-europäischen Datenportal.
+:term:`europäischen Datenportal <Europäisches Datenportal>`.
 
 Daten
 ^^^^^
@@ -147,7 +148,7 @@ Daten
 Hier gilt es das Pflichtfeld «Publikationsdatum» auszufüllen. Damit ist das Datum
 der ersten Publikation im Quellsystem dieses Datasets gemeint.
 Falls dies nicht bekannt ist, verwenden Sie das Datum der geplanten ersten
-Publikation auf opendata.swiss. Beim Beim Datum der letzten Änderung («Änderungsdatum»)
+Publikation auf opendata.swiss. Beim Datum der letzten Änderung («Änderungsdatum»)
 können Sie nach der Publikation kommunizieren, wann die letzte Änderung
 (Aktualisierung, Korrektur etc.) am Dataset vorgenommen worden ist.
 Weiter sollen Sie hier das Intervall, in dem Aktualisierungen
@@ -188,7 +189,7 @@ ist die Website gemeint, auf der die Daten ursprünglich publiziert wurden,
 falls diese vorhanden ist.
 Unter «Beziehungen» tragen Sie bitte in das Textfeld «legal_basis» ein und geben im
 Feld «Url» den Link auf die gesetzliche Grundlage, die für die Publikation dieses Datasets vorgesehen ist, an.
-
+Wenn dies für Ihre Daten nicht relevant ist, lassen Sie das Feld leer.
 
 Verwandte Datasets
 ^^^^^^^^^^^^^^^^^^^^
@@ -198,7 +199,7 @@ Verwandte Datasets
 
 
 Unter «Verwandte Datensätze»
-können Sie aus allen verfügbaren Datasets auf opendata.swiss, jene mit
+können Sie aus allen verfügbaren Datasets auf opendata.swiss jene mit
 thematischem Bezug zu Ihrem aktuellen Dataset auswählen. Damit
 signalisieren Sie den Datennutzenden, dass weitere thematisch interessante Datasets existieren.
 
@@ -231,7 +232,7 @@ Ressourcen hinzufügen
 -----------------------
 
 Wenn Sie mit der Eingabe der Metadaten für Ihr Dataset
-fertig sind, sollten Sie Ihrem Dataset als nächstes eine oder mehrere Ressourcen
+fertig sind, müssen Sie Ihrem Dataset als nächstes eine oder mehrere Ressourcen
 hinzufügen. Klicken Sie auf den Button «Als nächstes: Distribution hinzufügen», um in das Webformular für
 die Ressourcen zu gelangen.
 
@@ -275,7 +276,7 @@ Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
 
 .. container:: important
 
-    Wichtig: Unter `«Nutzungsbedingungen» müssen
+    Wichtig: `Unter «Nutzungsbedingungen» müssen
     Sie eine der Bedingungen auswählen, die auf opendata.swiss vorgesehen sind <https://opendata.swiss/de/terms-of-use>`__.
 
 .. container:: important
@@ -305,10 +306,10 @@ Gehen Sie dazu zur Detailansicht Ihres Datasets im Backend der Abnahmeumgebung u
 
 .. _manuell-vorschau-pruefen:
 
-Datenset prüfen
+Dataset prüfen
 -----------------
 
-Sehen Sie sich Ihr Dataset in der Detailansicht an: Sind alle Felder so besetzt,
+Sehen Sie sich Ihr Dataset in der Detailansicht an: Sind alle Felder so ausgefüllt,
 wie Sie es erwarten, dann können Sie Ihr Dataset :ref:`veröffentlichen <manuell-datensatz-veroeffentlichen>`.
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-detailansicht.png
@@ -316,7 +317,7 @@ wie Sie es erwarten, dann können Sie Ihr Dataset :ref:`veröffentlichen <manuel
 
 .. _manuell-datensatz-veroeffentlichen:
 
-Datenset veröffentlichen
+Dataset veröffentlichen
 ---------------------------
 
 In der Detailansicht wird Ihnen ganz oben rechts der Status Ihres Datasets angezeigt:
@@ -330,7 +331,7 @@ noch nicht sichtbar. Der Status
 
 Gehen Sie dazu zurück zu «Bearbeiten», «Metadaten bearbeiten» und scrollen Sie
 bis zum Feld «Sichtbarkeit». Sie können Ihr Dataset sofort veröffentlichen, indem Sie den
-Status von auf «Entwurf» auf «Veröffentlicht» ändern. Alternativ können Sie eine zukünftige
+Status von «Entwurf» auf «Veröffentlicht» ändern. Alternativ können Sie eine zukünftige
 Veröffentlichung planen, indem Sie im darunterliegenden Feld einen
 Veröffentlichungstermin in der Zukunft festlegen.
 
@@ -343,7 +344,7 @@ Veröffentlichungstermin in der Zukunft festlegen.
 
 .. _manuell-datensatz-frontend:
 
-Datenset im Frontend prüfen
+Dataset im Frontend prüfen
 -----------------------------
 
 Sobald Ihr Dataset veröffentlicht ist, kann es auch im Frontend der Abnahmeumgebung angesehen werden.
@@ -381,13 +382,13 @@ Sollten Sie zum ersten Mal Daten publizieren, muss Ihr Dataset
 von der :term:`Abnahmeumgebung <Abnahmeumgebung>` noch auf die
 :term:`Produktionsumgebung <Produktionsumgebung>` übertragen werden.
 Dies übernehmen wir für Sie,
-geben Sie uns einfach per E-Mail Bescheid `<mailto:opendata@bfs.admin.ch>`__.
+`geben Sie uns einfach per E-Mail Bescheid <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: support
 
    Support
 
-Sie haben eine Frage zum manuelle Erfassen Ihres Datensatzes?
+Sie haben eine Frage zum manuellen Erfassen Ihres Datasets?
 `Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__
 und wir helfen Ihnen gerne weiter.
 
