@@ -65,8 +65,8 @@ Werden Ihre Daten nicht korrekt oder unvollständig angezeigt?
 ---------------------------------------------------------------------------------
 
 Wir freuen uns über Ihre Weiterentwicklungsvorschläge!
-Am besten reichen Sie uns Ihre Verbesserungsvorschläge in Form einer User Story
-unter `opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__ ein.
+Am besten reichen Sie `uns <mailto:opendata@bfs.admin.ch>`__
+Ihre Verbesserungsvorschläge in Form einer User Story ein.
 
 +-------------------------------------+-------------------------------------+
 | **Für wen?**                        | “Als [Rolle]”                       |
