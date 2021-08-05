@@ -21,7 +21,7 @@ Wie publiziere ich Geo-Metadaten?
     Von dort werden die benötigten Attribute dann durch einen automatisierten Prozess
     zu opendata.swiss überführt.
 
-Geo-Metadaten auf geocat.ch publizieren
+Geometadaten auf geocat.ch publizieren
 ---------------------------------------
 
 Stellen Sie vor der Veröffentlichung sicher,
