@@ -19,7 +19,7 @@ Was muss ich bei Informationen zu meiner Organisation beachten?
     opendata.swiss veröffentlicht. Die Informationen umfassen den Titel
     Ihrer Organisation, eine Beschreibung und ein Bild und den Link zur Website  der Organisation.
     Im :term:`Frontend <Frontend>` der Abnahmeumgebung sehen Sie, wie die
-    Informationen auf opendata.swiss aussehen werden
+    Informationen auf opendata.swiss aussehen werden.
 
 Die Schritte auf einen Blick
 ----------------------------

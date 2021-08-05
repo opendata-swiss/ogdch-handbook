@@ -120,7 +120,7 @@ Sichtbarkeit
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-veroeffentlichen.png
    :alt:  Eingabefeld Sichtbarkeit im Webformular
 
-Dieses Felder dient zur :ref:`Veröffentlichung Ihres Datasets <manuell-datensatz-veroeffentlichen>`.
+Dieses Feld dient zur :ref:`Veröffentlichung Ihres Datasets <manuell-datensatz-veroeffentlichen>`.
 In der Dropdown-Auswahl können Sie die Sichtbarkeit des Datasets auf dem Frontend einstellen.
 Die Voreinstellung für die «Sichtbarkeit» ist
 «Entwurf». Lassen Sie diese Voreinstellung zunächst so. Sie bedeutet, dass Ihr Dataset noch

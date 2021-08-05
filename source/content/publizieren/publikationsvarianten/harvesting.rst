@@ -164,13 +164,13 @@ Sie haben folgende Möglichkeiten:
 
 .. container:: important
 
-    Vorsicht: Der Button «Clear» löscht alle Datasets und vergangenen Jobs des Harvester. Machen Sie das nur
+    Vorsicht: Der Button «Clear» löscht alle Datasets und vergangenen Jobs des Harvester. Machen Sie das nur,
     wenn das wirklich Ihre Absicht ist.
 
 .. admonition:: Gut zu wissen
 
     Harvester laufen als Hintergrundprozesse. Wenn Sie Ihren Harvester anstossen, wird dadurch ein Harvest Job
-    erzeugt und in eine Jobqueue gestellt. Wie schnell Ihr Harvest Job Ergebnisse liefert, hängt auch davon, wie lang
+    erzeugt und in eine Jobqueue gestellt. Wie schnell Ihr Harvest Job Ergebnisse liefert, hängt auch davon ab, wie lang
     die Jobqueue gerade ist. Deshalb kann die Zeit, die Sie
     auf die Ergebnisse Ihres Harvesters warten müssen stark variieren.
 
@@ -190,7 +190,7 @@ Hier können Sie die Harvesting Fehler im Detail ansehen:
 .. figure:: ../../../_static/images/publizieren/harvesting/harvest-job-errors.png
    :alt: Organisation im Frontend von opendata.swiss
 
-- In der «Error Summary» sind die Fehlerarten mit der Häufigkeit Ihres Vorkommens gelistet
+- In der «Error Summary» sind die Fehlerarten mit der Häufigkeit ihres Vorkommens gelistet
 - Im «Error Report» sind alle Fehler einzeln gelistet.
 
 Je nach Art des Fehler steht Ihnen noch Einsicht in den «Remote Content» und den «Local Content»
