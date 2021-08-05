@@ -52,7 +52,7 @@ Loggen Sie sich im Backend von opendata.swiss ein. Handelt es sich
 um eine Erstpublikation oder möchten Sie eine neue oder
 besonders komplexe Veröffentlichung testweise durchführen,
 ist die :term:`Abnahmeumgebung <Abnahmeumgebung>` dafür die richtige Wahl.
-Handelt es um eine wiederholte Publikation und Sie möchten
+Handelt es sich um eine wiederholte Publikation und Sie möchten
 Ihre Datasets direkt veröffentlichen,
 dann können Sie direkt die :term:`Produktionsumgebung <Produktionsumgebung>`
 verwenden.
@@ -108,7 +108,7 @@ Finden Sie Ihre Datasets mit der Facettensuche nach dem Status «Entwurf»:
    :alt: Hochgeladene Datasets auswählen
 
 Gehen Sie in die Detailansicht Ihres Datasets: Sind alle Felder so ausgefüllt,
-wie Sie es erwarten, können Sie Ihr Dataset veröffentlichen.
+wie Sie es erwarten, dann können Sie Ihr Dataset veröffentlichen.
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-detailansicht.png
    :alt: Detailansicht eines Datasets im CKAN Backend
@@ -141,7 +141,7 @@ Scrollen Sie zu dem Feld «Sichtbarkeit»: Es ist auf «Entwurf eingestellt»
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-veroeffentlichen.png
    :alt: Dataset in veroeffentlichen
 
-Sie können Ihr Dataset sofort veröffentlichen indem Sie den Status auf "Veröffentlicht"
+Sie können Ihr Dataset sofort veröffentlichen, indem Sie den Status auf "Veröffentlicht"
 ändern. Oder sie können eine zukünftige Veröffentlichung planen, indem Sie im darunterliegenden Feld
 den Veröffentlichungstermin terminieren.
 
