@@ -165,9 +165,9 @@ Hier müssen Sie Angaben zu Ihnen als datenpublizierende Organisation eingeben.
 Im Pflichtfeld «Publisher» geben Sie die für das Dataset verantwortliche Organisation an.
 Dies können auch mehrere Organisationen sein,
 jedoch keine Personen.
-Im Pflichtfeld «Kontaktstellen» muss eine
-Ansprechperson angegeben werden, die von den Datennutzenden bei Rückfragen
-kontaktiert werden darf. Es ist mindestens eine Person mit E-Mail-Adresse erforderlich.
+Im Pflichtfeld «Kontaktstellen» muss mindestens eine
+Kontaktstelle angegeben werden, die von den Datennutzenden bei Rückfragen
+kontaktiert werden darf.
 
 Sprachen
 ^^^^^^^^
