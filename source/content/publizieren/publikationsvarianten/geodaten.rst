@@ -9,7 +9,7 @@
 Metadaten via geocat.ch publizieren
 ***********************************
 
-Wie publiziere ich Geo-Metadaten?
+Wie publiziere ich Geometadaten?
 =================================
 
 .. container:: Intro
@@ -58,7 +58,7 @@ Harvesting von Geodaten (geocat.ch > opendata.swiss)
     Wichtig: Selbstverständlich müssen auch hier die
     :doc:`OGD-Richtlinien <../../glossar/bibliothek/ogd-richtlinien>`
     erfüllt sein.
-    Zudem müssen Geo-Metadaten gemäss
+    Zudem müssen Geometadaten gemäss
     :doc:`Standard ISO-19139_che <../../glossar/bibliothek/geocat-mapping>`
     vorliegen. Dabei handelt es sich um einen auf der internationalen
     Norm ISO-19139 basierenden Standard, der mit den Schweizer
