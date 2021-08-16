@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"POT-Creation-Date: 2021-08-16 17:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,118 +44,236 @@ msgid ""
 "Als Erstes benötigen Sie ein Profil, um sich auf opendata.swiss einloggen"
 " zu können. Als Betreiber von opendata.swiss stellen wir das User-"
 "Management sicher. Nehmen Sie für die Aktivierung Ihrer Organisation und "
-"Ihres Profils mit uns `Kontakt <mailto:opendata@bfs.admin.ch>`__ auf – am"
-" besten so früh wie möglich, damit wir Ihre Anfrage rasch bearbeiten "
-"können. Melden Sie uns dafür den Namen der Organisation, die Daten "
-"publizieren wird, sowie auch die E-Mail-Adresse der Benutzerinnen und "
-"Benutzer, die Metadaten erfassen und verwalten werden. Verwenden Sie "
-"dafür bitte keine generischen, unpersönlichen Adressen wie "
-"opendata@bfs.admin.ch."
-msgstr "Pour commencer, il vous faut créer un profil pour vous connecter à "
-"opendata.swiss. En tant qu’exploitant d’opendata.swiss, nous assurons la gestion des "
-"utilisateurs. Veuillez `prendre contact avec nous <mailto:opendata@bfs.admin.ch>`__ "
-"le plus tôt possible pour activer votre organisation et votre profil, de sorte que nous "
-"puissions traiter votre demande dans les meilleurs délais. À cet effet, "
-"veuillez nous communiquer le nom de l’organisation qui procédera à la publication de "
-"données ainsi que l’adresse électronique des utilisateurs qui s’occuperont de la saisie "
-"et de la gestion des métadonnées. L’utilisation d’adresses génériques et impersonnelles, "
-"opendata@bfs.admin.ch p. ex., est exclue."
+"Ihres Profils mit uns `Kontakt <mailto:opendata@bfs.admin.ch>`__ auf. "
+"Melden Sie uns dafür den Namen der Organisation, die Daten publizieren "
+"wird, sowie auch die E-Mail-Adresse der Benutzerinnen und Benutzer, die "
+"Metadaten erfassen und verwalten werden. Eine kurze Übersicht über Art "
+"und Umfang der Daten, die Sie publizieren möchten, ist für die Planung "
+"der Publikation hilfreich."
+msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:29
-msgid "Erste Aktivierung von Organisation und Benutzer"
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:28
+msgid "Die Schritte auf einen Blick"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:30
+#, fuzzy
+msgid ""
+":ref:`Erste Aktivierung von Organisation und Benutzerinnen und Benutzer "
+"<erste_aktivierung>`"
 msgstr "Activation initiale de l’organisation et des utilisateurs"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:31
-msgid ""
-"Für die erste Aktivierung stellen Sie uns bitte folgende `Informationen "
-"<mailto:opendata@bfs.admin.ch>`__ zur Verfügung:"
-msgstr "En vue de l’activation initiale, veuillez nous communiquer les `informations <mailto:opendata@bfs.admin.ch>`__ "
-"suivantes:"
+msgid ":ref:`Zugang anfordern <zugang_anfordern>`"
+msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:34
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:36
+msgid "Erste Aktivierung von Organisation und Benutzer"
+msgstr "Activation initiale de l’organisation et des utilisateurs"
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:38
+#, fuzzy
+msgid ""
+"Für die erste Aktivierung stellen Sie `uns "
+"<mailto:opendata@bfs.admin.ch>`__ bitte folgende Informationen zur "
+"Verfügung:"
+msgstr ""
+"En vue de l’activation initiale, veuillez nous communiquer les "
+"`informations <mailto:opendata@bfs.admin.ch>`__ suivantes:"
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:41
 msgid ""
 "Name und URL zur Webseite der Organisation, die Daten publizieren wird. "
 "Genauere Angaben zur Organisation können später hinzugefügt werden."
-msgstr "Le nom et l’URL du site internet de l’organisation qui publiera les données. Vous pourrez compléter ces informations par la suite."
+msgstr ""
+"Le nom et l’URL du site internet de l’organisation qui publiera les "
+"données. Vous pourrez compléter ces informations par la suite."
 
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:36
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:43
+#, fuzzy
 msgid ""
 "E-Mail-Adresse der Benutzerinnen und Benutzer, die Metadaten erfassen und"
 " verwalten werden. Verwenden Sie bitte für die Registrierung keine "
-"unpersönlichen Adressen wie zum Beispiel statistik@bfs.admin.ch, da diese"
-" das User-Management erschweren."
-msgstr "L’adresse électronique des utilisateurs qui s’occuperont de la saisie et de la gestion des métadonnées. L’utilisation d’adresses génériques et impersonnelles, statistik@bfs.admin.ch p. ex. est exclue, celles-ci posant problème lors de la gestion des utilisateurs."
+"unpersönlichen Adressen wie zum Beispiel ``statistik@bfs.admin.ch``, da "
+"diese das User-Management erschweren."
+msgstr ""
+"L’adresse électronique des utilisateurs qui s’occuperont de la saisie et "
+"de la gestion des métadonnées. L’utilisation d’adresses génériques et "
+"impersonnelles, statistik@bfs.admin.ch p. ex. est exclue, celles-ci "
+"posant problème lors de la gestion des utilisateurs."
 
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:40
-msgid ""
-"Eine kurze Übersicht der Daten (z.B. in Form einer Liste), die Sie "
-"voraussichtlich publizieren werden, hilft uns, die Publikation optimal zu"
-" planen."
-msgstr "Un bref aperçu des données (une liste p. ex.) que vous pensez publier nous aide à planifier la publication."
-
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:42
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:47
 msgid ""
 "Alle Benutzerinnen und Benutzer erhalten dann die Möglichkeit, über das "
 ":term:`Backend <Backend>` von opendata.swiss Daten Ihrer Organisation zu "
 "verwalten oder neue Daten zu erfassen."
-msgstr "Chaque utilisateur pourra dès lors recourir à :term:`l’arrière-plan (back-end) <Backend>` "
-"d’opendata.swiss pour saisir et gérer les données de votre organisation."
+msgstr ""
+"Chaque utilisateur pourra dès lors recourir à :term:`l’arrière-plan "
+"(back-end) <Backend>` d’opendata.swiss pour saisir et gérer les données "
+"de votre organisation."
 
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:45
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:50
 msgid ""
 "Wir bitten Sie, uns proaktiv zu kontaktieren, wenn Profile deaktiviert "
 "werden sollen."
-msgstr "Nous vous prions de prendre contact avec nous lorsqu’un profil doit être désactivé."
-
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:50
-msgid "Support"
 msgstr ""
+"Nous vous prions de prendre contact avec nous lorsqu’un profil doit être "
+"désactivé."
 
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:53
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:52
+msgid ""
+"Eine kurze Übersicht der Daten (z.B. in Form einer Liste), die Sie "
+"voraussichtlich publizieren werden, hilft uns, die Publikation optimal zu"
+" planen."
+msgstr ""
+"Un bref aperçu des données (une liste p. ex.) que vous pensez publier "
+"nous aide à planifier la publication."
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:58
 msgid "Zugang anfordern"
 msgstr "Demande d’accès"
 
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:55
-msgid ""
-"Was wir für die Registrierung von Ihnen bzw. allen Personen, die Daten "
-"Ihrer Organisation publizieren möchten, benötigen:"
-msgstr "Veuillez nous communiquer les informations suivantes pour l’enregistrement de chaque personne qui publiera les données de votre organisation:"
-
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:58
-msgid "Name"
-msgstr "Nom"
-
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:59
-msgid "E-mail Adresse"
-msgstr "Adresse e-mail"
-
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:60
-msgid "Name der Organisation"
-msgstr "Nom de l’organisation"
-
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:61
-msgid "URL der Organisation"
-msgstr "URL de l’organisation"
-
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:62
-msgid "Übersicht der zu publizierenden Daten (kurze Liste)"
-msgstr "Aperçu des données à publier (liste succincte)"
+msgid "Support"
+msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:64
+#, fuzzy
 msgid ""
-"Wir benötigen durchschnittlich 5 Werktage, um Ihre Anfrage zu bearbeiten."
-" `Jetzt Zugang anfordern <mailto:opendata@bfs.admin.ch>`__."
-msgstr "En principe, nous traitons les demandes dans un délai de cinq jours ouvrables. "
-"`Cliquez ici pour demander votre accès <mailto:opendata@bfs.admin.ch>`__."
+"Wir benötigen durchschnittlich 2 bis 5 Werktage, um Ihre Anfrage zu "
+"bearbeiten. `Jetzt Zugang anfordern <mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+"En principe, nous traitons les demandes dans un délai de cinq jours "
+"ouvrables. `Cliquez ici pour demander votre accès "
+"<mailto:opendata@bfs.admin.ch>`__."
 
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:69
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:68
+msgid "User Management"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:70
+msgid "Es gibt bei opendata.swiss folgende Rollen für Datenpublizierende:"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:72
+msgid "Benutzer-Rollen bei opendata.swiss"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst
+msgid "Administrator"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:74
+msgid "hat Zugriff auf die gesamte Organisation und ihre Mitglieder"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst
+msgid "Redakteur"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:75
+msgid ""
+"kann Datasets verwalten, aber hat keinen Zugriff auf die Darstellung der "
+"Organisationsdaten"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst
+msgid "Mitglied"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:77
+msgid "passives Mitglied der Organisation ohne Zugriffsrechte"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:81
+msgid ""
+"Wichtig: Bitte vergeben Sie mindestens die Rolle des Administrators. Die "
+"Vergabe weiterer Rollen ist optional."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:86
+msgid ""
+"Wichtig: Das User-Management wird zentral von der Geschäftsstelle OGD "
+"sichergestellt. Neue Benutzerinnen und Benutzer oder Anpassungen an den "
+"bestehenden Berechtigungen sind uns daher immer zu melden."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:92
 msgid ":doc:`Nächster Schritt: Profil verwalten <profil-einrichten>`"
 msgstr ":doc:`Prochaine étape: gestion du profil <profil-einrichten>`"
 
-#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:71
+#: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:94
+#, fuzzy
 msgid ""
-"Sobald wir Ihnen Ihr persönliches Log-in zugestellt haben, können Sie Ihr"
-" Profil ausfüllen und danach Informationen zu Ihrer Organisation "
-"ergänzen."
-msgstr "Dès que nous vous aurons fait parvenir votre login personnel, vous pourrez compléter votre profil puis saisir des informations sur votre organisation."
+"Sobald wir Ihnen Ihr persönliches Login zugestellt haben, können Sie Ihr "
+"Profil ausfüllen und danach Informationen zu Ihrer Organisation ergänzen."
+msgstr ""
+"Dès que nous vous aurons fait parvenir votre login personnel, vous "
+"pourrez compléter votre profil puis saisir des informations sur votre "
+"organisation."
+
+#~ msgid ""
+#~ "Als Erstes benötigen Sie ein Profil, "
+#~ "um sich auf opendata.swiss einloggen zu"
+#~ " können. Als Betreiber von opendata.swiss"
+#~ " stellen wir das User-Management "
+#~ "sicher. Nehmen Sie für die Aktivierung"
+#~ " Ihrer Organisation und Ihres Profils "
+#~ "mit uns `Kontakt <mailto:opendata@bfs.admin.ch>`__"
+#~ " auf – am besten so früh wie"
+#~ " möglich, damit wir Ihre Anfrage "
+#~ "rasch bearbeiten können. Melden Sie uns"
+#~ " dafür den Namen der Organisation, "
+#~ "die Daten publizieren wird, sowie auch"
+#~ " die E-Mail-Adresse der Benutzerinnen "
+#~ "und Benutzer, die Metadaten erfassen und"
+#~ " verwalten werden. Verwenden Sie dafür "
+#~ "bitte keine generischen, unpersönlichen "
+#~ "Adressen wie opendata@bfs.admin.ch."
+#~ msgstr ""
+#~ "Pour commencer, il vous faut créer "
+#~ "un profil pour vous connecter à "
+#~ "opendata.swiss. En tant qu’exploitant "
+#~ "d’opendata.swiss, nous assurons la gestion "
+#~ "des utilisateurs. Veuillez `prendre contact"
+#~ " avec nous <mailto:opendata@bfs.admin.ch>`__ le"
+#~ " plus tôt possible pour activer votre"
+#~ " organisation et votre profil, de "
+#~ "sorte que nous puissions traiter votre"
+#~ " demande dans les meilleurs délais. À"
+#~ " cet effet, veuillez nous communiquer "
+#~ "le nom de l’organisation qui procédera"
+#~ " à la publication de données ainsi"
+#~ " que l’adresse électronique des "
+#~ "utilisateurs qui s’occuperont de la "
+#~ "saisie et de la gestion des "
+#~ "métadonnées. L’utilisation d’adresses génériques "
+#~ "et impersonnelles, opendata@bfs.admin.ch p. "
+#~ "ex., est exclue."
+
+#~ msgid ""
+#~ "Was wir für die Registrierung von "
+#~ "Ihnen bzw. allen Personen, die Daten "
+#~ "Ihrer Organisation publizieren möchten, "
+#~ "benötigen:"
+#~ msgstr ""
+#~ "Veuillez nous communiquer les informations "
+#~ "suivantes pour l’enregistrement de chaque "
+#~ "personne qui publiera les données de "
+#~ "votre organisation:"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#~ msgid "E-mail Adresse"
+#~ msgstr "Adresse e-mail"
+
+#~ msgid "Name der Organisation"
+#~ msgstr "Nom de l’organisation"
+
+#~ msgid "URL der Organisation"
+#~ msgstr "URL de l’organisation"
+
+#~ msgid "Übersicht der zu publizierenden Daten (kurze Liste)"
+#~ msgstr "Aperçu des données à publier (liste succincte)"
 
