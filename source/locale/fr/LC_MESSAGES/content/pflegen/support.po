@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-16 16:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/content/pflegen/support.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:4
+msgid ":doc:`Pflegen <pflegen>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:5
+#: ../../source/content/pflegen/support.rst:9
+msgid "Support und Feedback"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:12
+msgid ""
+"Wie gehe ich vor, wenn ich Support benötige oder einen "
+"Verbesserungsvorschlag einreichen möchte?"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:16
+msgid ""
+"Die Geschäftsstelle Open Government Data beim BFS unterstützt Sie bei der"
+" Veröffentlichung von Open Government Data auf opendata.swiss. Um die "
+"Support-Aktivitäten für Portal-Betreiber und datenpublizierende "
+"Organisationen möglichst effizient zu gestalten, wurden die wichtigsten "
+"Support-Prozesse festgelegt."
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:24
+msgid "Support"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:26
+msgid ":ref:`Ich möchte ein Problem melden <support_problem_melden>`"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:27
+msgid ""
+":ref:`Ich habe einen Vorschlag, wie man das Portal opendata.swiss "
+"verbessern könnte <support_feedback>`"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:28
+msgid ""
+":ref:`Ich benötige Unterstützung bei der Veröffentlichung oder Anpassung "
+"meiner Einträge auf opendata.swiss <support_beratung>`"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:33
+msgid "“Ich möchte ein Problem melden”"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:35
+msgid ""
+"Ist das Portal opendata.swiss nicht verfügbar? Werden Ihre Daten nicht "
+"korrekt oder unvollständig angezeigt?"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:38
+msgid ""
+"Melden Sie das Problem bitte an die Geschäftsstelle OGD `Geschäftsstelle "
+"OGD <mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:40
+msgid ""
+"Damit wir Ihre Anfragen optimal bearbeiten können, bitten wir Sie, uns "
+"folgende Informationen zuzustellen:"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:44
+msgid "**Titel**"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:44
+msgid "Eine grobe Beschreibung des Problems, der Frage"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:46
+msgid "**URL**"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:46
+msgid ""
+"Vollständige URL, auf der Sie eine Aktion durchführen und/oder auf der "
+"das Problem auftritt"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:49
+msgid "**Username und Organisation**"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:49
+msgid "Benutzername und Organisationszugehörigkeit"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:51
+msgid "**Beschreibung der Schritte**"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:51
+msgid ""
+"Eine Schritt-für-Schritt-Beschreibung, wie das Problem reproduziert "
+"werden kann"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:54
+msgid "**Erwartung**"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:54
+msgid "Was haben Sie erwartet?"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:56
+msgid "**Realität**"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:56
+msgid "Was ist, entgegen Ihrer Erwartung, passiert?"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:58
+msgid "**Screenshots/Dateien**"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:58
+msgid "Screenshots von Fehlermeldungen, Import-Dateien, Downloads"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:65
+msgid ""
+"“Ich habe einen Vorschlag, wie man das Portal opendata.swiss verbessern "
+"könnte”"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:67
+msgid ""
+"Wir freuen uns über Ihre Weiterentwicklungsvorschläge! Am besten reichen "
+"Sie `uns <mailto:opendata@bfs.admin.ch>`__ Ihre Verbesserungsvorschläge "
+"in Form einer User Story ein."
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:72
+msgid "**Für wen?**"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:72
+msgid "“Als [Rolle]”"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:74
+msgid "**Was konkret?**"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:74
+msgid "“möchte ich/möchten wir [Funktion]”"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:76
+msgid "**Was soll damit erreicht werden?**"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:76
+msgid "“damit [Nutzen]”"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:79
+msgid ""
+"Beispiel: “Als Datennutzer möchte ich Datasets abonnieren können, damit "
+"ich über Neuigkeiten informiert werde.”"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:81
+msgid "Gerne unterstützen wir Sie dabei, Ihre User Story zu formulieren."
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:86
+msgid ""
+"“Ich benötige Unterstützung bei der Veröffentlichung oder Anpassung "
+"meiner Einträge auf opendata.swiss”"
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:88
+msgid ""
+"Wenden Sie sich an die `Geschäftsstelle OGD "
+"<mailto:opendata@bfs.admin.ch>`__ um Unterstützung zu erhalten."
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:91
+msgid ""
+"Gerne organisieren wir mit Ihnen kurze Support-Sitzungen, um Ihre Fragen "
+"zu klären und dabei den Supportaufwand einzuschätzen."
+msgstr ""
+
+#: ../../source/content/pflegen/support.rst:94
+msgid ""
+"Sie können auch unsere Abnahmeumgebung zum Testen nutzen. Hier können Sie"
+" verschiedene Optionen ausprobieren, bevor Sie Ihre Datasets auf der "
+"Produktionsumgebung publizieren."
+msgstr ""
+
