@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 17:38+0200\n"
+"POT-Creation-Date: 2021-08-17 08:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -242,7 +242,7 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:158
 #, fuzzy
-msgid "Datensets im Frontend prüfen"
+msgid "Datasets im Frontend prüfen"
 msgstr "Vérifier le jeu de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:160
