@@ -193,7 +193,7 @@ Hier können Sie die Harvesting Fehler im Detail ansehen:
 - In der «Error Summary» sind die Fehlerarten mit der Häufigkeit ihres Vorkommens gelistet
 - Im «Error Report» sind alle Fehler einzeln gelistet.
 
-Je nach Art des Fehler steht Ihnen noch Einsicht in den «Remote Content» und den «Local Content»
+Je nach Art des Fehlers steht Ihnen noch Einsicht in den «Remote Content» und den «Local Content»
 zur Verfügung:
 
 - Im «Remote Content» sehen Sie den Datenkatalog an Ihrem :term:`Katalog-Endpunkt <Katalog Endpunkt (Catalogue endpoint)>`

@@ -33,7 +33,7 @@ Informationen zur Organisation ergänzen
 ----------------------------------------
 
 Um die Informationen zu Ihrer Organisation ergänzen zu können, müssen Sie die Rolle des Administrators
-in Ihrer Organisation besitzen. (Mehrere Benutzerinnen und Benutzer einer Organisation können die Admininstrator-Rolle
+in Ihrer Organisation besitzen. (Mehrere Benutzerinnen und Benutzer einer Organisation können die Administrator-Rolle
 besitzen/zugeteilt bekommen.) Wenn Sie auf Ihre Organisation gehen, sehen Sie als Administrator
 den Button «Bearbeiten». Hier können Sie die Felder zu Ihrer Organisation ausfüllen.
 
