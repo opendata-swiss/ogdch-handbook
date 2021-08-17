@@ -154,7 +154,7 @@ Die Veröffentlichung lässt sich verlässlich auf ein bestimmtes Datum planen.
 
 .. _xml_datensaetze_im_frontend:
 
-Datensets im Frontend prüfen
+Datasets im Frontend prüfen
 -----------------------------
 
 Sobald Ihre Datasets veröffenlicht sind, können sie auch im Frontend der Abnahmeumgebung angesehen werden.
