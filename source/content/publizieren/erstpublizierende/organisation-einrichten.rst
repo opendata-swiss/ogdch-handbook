@@ -14,8 +14,8 @@ Was muss ich bei Informationen zu meiner Organisation beachten?
 
 .. container:: Intro
 
-    Die Organisation legen wir für Sie an. Diese ergänzen Sie anschliessend mit Informationen über
-    Ihre Organisation. Diese Angaben werden später auf
+    Die Organisation legen wir für Sie an. Die Die Organisationsseite ergänzen Sie
+    anschliessend mit Informationen. Diese Angaben werden später auf
     opendata.swiss veröffentlicht. Die Informationen umfassen den Titel
     Ihrer Organisation, eine Beschreibung und ein Bild und den Link zur Website  der Organisation.
     Im :term:`Frontend <Frontend>` der Abnahmeumgebung sehen Sie, wie die
@@ -34,7 +34,7 @@ Informationen zur Organisation ergänzen
 
 Um die Informationen zu Ihrer Organisation ergänzen zu können, müssen Sie die Rolle des Administrators
 in Ihrer Organisation besitzen. (Mehrere Benutzerinnen und Benutzer einer Organisation können die Administrator-Rolle
-besitzen/zugeteilt bekommen.) Wenn Sie auf Ihre Organisation gehen, sehen Sie als Administrator
+haben.) Wenn Sie auf Ihre Organisation gehen, sehen Sie als Administrator
 den Button «Bearbeiten». Hier können Sie die Felder zu Ihrer Organisation ausfüllen.
 
 .. figure:: ../../../_static/images/publizieren/organisation/organisation-bearbeiten.png
@@ -81,7 +81,7 @@ opendata.swiss vertretenen Organisation handelt, kann das bei «Parent» eingetr
 Unter «URL» verlinken Sie zur Website Ihrer Organisation.
 
 Bitte wählen Sie ein «Bild» Ihrer Organisation aus
-und verlinken Sie es im Feld «Link» oder und laden Sie es hoch.
+und verlinken Sie es im Feld «Link» oder laden Sie es hoch.
 So erhält Ihre Organisation eine bessere Präsenz auf opendata.swiss.
 
 .. container:: important
@@ -108,7 +108,7 @@ Damit gelangen Sie zur Detailansicht Ihrer Organisation im :term:`Backend <Backe
 Anschliessend können Sie sich die Darstellung Ihre Organisation im
 :term:`Frontend <Frontend>` der :term:`Abnahmeumgebung <Abnahmeumgebung>` von opendata.swiss ansehen:
 
-Sie gelangen zu der Datenansicht Ihrer Organisation im Frontend, indem Sie
+Sie gelangen zur Datenansicht Ihrer Organisation im Frontend, indem Sie
 ``ckan`` aus der Backend-URL Ihrer Organisation entfernen:
 
 .. figure:: ../../../_static/images/publizieren/organisation/ckan-organisations-url.png
