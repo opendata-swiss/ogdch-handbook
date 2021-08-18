@@ -68,7 +68,7 @@ Zu Ihrem Benutzerkonto gelangen Sie, wenn Sie im Dashboard auf «Bearbeitete Ein
 
 Den «Benutzernamen» haben Sie bereits bei Ihrer Registrierung erhalten. Dieser
 dient zu Ihrer eindeutigen Identifikation auf der Plattform und kann nicht geändert werden.
-«Vollständiger Name» ist der Name mit dem Sie und andere Benutzerinnen und Benutzer
+«Vollständiger Name» ist der Name, mit dem Sie und andere Benutzerinnen und Benutzer
 im :term:`Backend <Backend>` erscheinen.
 Ihre «E-Mail»  haben wir bereits bei der Registrierung erfasst.
 Beim Feld «Über das Portal» können Sie Zusatzinformationen zu Ihrer Person eingeben.

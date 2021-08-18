@@ -58,7 +58,7 @@ Handelt es sich um eine Erstpublikation oder möchten Sie eine neue oder
 besonders komplexe Publikation testweise durchführen,
 ist die :term:`Abnahmeumgebung <Abnahmeumgebung>` dafür die richtige Wahl.
 Handelt es sich um eine wiederholte Publikation und Sie möchten Ihre Datasets
-direkt veröffentlichen, können Sie sich in die
+direkt veröffentlichen, können Sie sich direkt in die
 :term:`Produktionsumgebung <Produktionsumgebung>` einloggen.
 
 Gehen Sie auf Ihr :ref:`Dashboard <benutzer_dashboard>`.
@@ -80,8 +80,7 @@ werden verschiedene Metadaten und Beschreibungen zu den Datasets publiziert.
    :alt: Dataset manuell erfassen
 
 Als Erstes müssen Sie Ihrem Dataset einen Namen geben (“Titel für den Slug”).
-Aus ihm wird der :term:`Slug <Slug>` des Datasets gebildet. Dieses Feld dient nur
-zur Bildung des Slugs. Später wird der Titel Ihres Datasets aus
+Aus ihm wird der :term:`Slug <Slug>` des Datasets gebildet. Später wird der Titel Ihres Datasets aus
 den Einträgen im Datenfeld «Titel (EN) (DE) (FR) (IT)» ermittelt:
 Bitte legen Sie den Titel Ihres Datasets in mindestens einer Landessprache
 und auf Englisch fest.
@@ -145,7 +144,7 @@ Daten
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-zeitangaben.png
    :alt: Eingabefeld zur Aktualisierung im Webformular
 
-Hier gilt es das Pflichtfeld «Publikationsdatum» auszufüllen. Damit ist das Datum
+Hier gilt es, das Pflichtfeld «Publikationsdatum» auszufüllen. Damit ist das Datum
 der ersten Publikation im Quellsystem dieses Datasets gemeint.
 Falls dies nicht bekannt ist, verwenden Sie das Datum der geplanten ersten
 Publikation auf opendata.swiss. Beim Datum der letzten Änderung («Änderungsdatum»)
@@ -161,7 +160,7 @@ Publisher-Informationen
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-publishers-kontakte.png
    :alt: Eingabefeld Publisher im Webformular
 
-Hier müssen Sie Angaben zu Ihnen als datenpublizierende Organisation eingeben.
+Hier müssen Sie Angaben zur datenpublizierenden Organisation eingeben.
 Im Pflichtfeld «Publisher» geben Sie die für das Dataset verantwortliche Organisation an.
 Dies können auch mehrere Organisationen sein,
 jedoch keine Personen.
@@ -209,7 +208,7 @@ Schlagwörter definieren
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-schlagwoerter.png
    :alt: Eingabefeld von Schlagworten im Webformular
 
-Es ist wichtig ein oder mehrere Schlagwörter zum Dataset anzugeben. Schlagwörter helfen dabei,
+Es ist wichtig, ein oder mehrere Schlagwörter zum Dataset anzugeben. Schlagwörter helfen dabei,
 die Auffindbarkeit zu steigern.
 So können diese als Filtermöglichkeit verwendet werden, um die Auswahl der Datasets thematisch einzugrenzen.
 Mögliche Schlagwörter können Sie aus Ihren Metadaten oder
@@ -272,7 +271,7 @@ Für jede Ressource müssen Sie unter «Zugangs-URL» eine URL angeben,
 zugegriffen werden kann. Falls sich hinter der URL ein Download verbirgt,
 muss die URL auch im Feld «Download-URL» eingetragen werden. Ebenfalls
 optional kann die «Grösse» der Ressource in Bytes angegeben werden.
-Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
+Unter «Format» wählen Sie das Format Ihrer Ressource.
 
 .. container:: important
 
@@ -284,7 +283,7 @@ Unter «Format» wählen Sie das Format, das dem Ihrer Ressourcen entspricht.
     Wichtig: Bitte berücksichtigen Sie bei der Publikation von Ressourcen die
     :doc:`«OGD-Richtlinien» <../../glossar/bibliothek/ogd-richtlinien>`.
 
-Sie haben jetzt Ihre erste Ressource angelegt und können jetzt entweder mit dem Button «Beenden»
+Sie haben jetzt Ihre erste Ressource angelegt und können entweder mit dem Button «Beenden»
 Ihr Dataset und Ihre Ressource abspeichern oder Sie können mit dem Button
 «Speichern & weitere hinzufügen» mit dem Hinzufügen von Ressourcen fortfahren.
 
@@ -293,10 +292,10 @@ Ihr Dataset und Ihre Ressource abspeichern oder Sie können mit dem Button
 
 .. _manuell-dataset-aktionen:
 
-Dataset weiter bearbeiten
+Dataset weiterbearbeiten
 --------------------------------
 
-Das Hinzufügen weiterer Ressourcen ist auch nach dem Anlegen Ihres Dataset noch möglich.
+Das Hinzufügen weiterer Ressourcen ist auch nach dem Anlegen Ihres Datasets noch möglich.
 
 Gehen Sie dazu zur Detailansicht Ihres Datasets im Backend der Abnahmeumgebung und klicken Sie auf
 «Bearbeiten» und anschliessend auf «Ressourcen»:
@@ -310,7 +309,7 @@ Dataset prüfen
 -----------------
 
 Sehen Sie sich Ihr Dataset in der Detailansicht an: Sind alle Felder so ausgefüllt,
-wie Sie es erwarten, dann können Sie Ihr Dataset :ref:`veröffentlichen <manuell-datensatz-veroeffentlichen>`.
+wie Sie es erwarten, können Sie Ihr Dataset :ref:`veröffentlichen <manuell-datensatz-veroeffentlichen>`.
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-detailansicht.png
    :alt: Detailansicht eines Datasets im CKAN Backend
@@ -348,6 +347,7 @@ Dataset im Frontend prüfen
 -----------------------------
 
 Sobald Ihr Dataset veröffentlicht ist, kann es auch im Frontend der Abnahmeumgebung angesehen werden.
+Bitte beachten Sie, dass die Aktualisierung der Daten bis zu 60 Minuten dauern kann.
 Sie gelangen zu der Datenansicht Ihres Datasets im Frontend,
 indem Sie ``ckan`` aus der URL Ihres Datasets entfernen:
 
@@ -398,7 +398,7 @@ und wir helfen Ihnen gerne weiter.
 
     Mehr zum Thema
 
-- :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` – Beschreibung des aktuell von opendata.swiss genutzte Datenstandards DCAT-AP-CH
+- :doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` – Beschreibung des aktuell von opendata.swiss genutzten Datenstandards DCAT-AP-CH
 - :download:`Veröffentlichung eines Datasets terminieren <../../../_static/screencasts/schedule-dataset.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie die Veröffentlichung Ihres Datasets terminieren können
 - :download:`Dataset aktualisieren <../../../_static/screencasts/update-dataset.gif>`- In diesem Screencast zeigen wir Ihnen das Aktualisieren Ihres Datasets
 - :download:`Ressource hinzufügen <../../../_static/screencasts/add-resource.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie Ihrem Dataset eine Ressource hinzufügen können
