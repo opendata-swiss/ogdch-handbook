@@ -14,7 +14,7 @@ Was muss ich bei Informationen zu meiner Organisation beachten?
 
 .. container:: Intro
 
-    Die Organisation legen wir für Sie an. Die Die Organisationsseite ergänzen Sie
+    Die Organisation legen wir für Sie an. Die Organisationsseite ergänzen Sie
     anschliessend mit Informationen. Diese Angaben werden später auf
     opendata.swiss veröffentlicht. Die Informationen umfassen den Titel
     Ihrer Organisation, eine Beschreibung und ein Bild und den Link zur Website  der Organisation.
