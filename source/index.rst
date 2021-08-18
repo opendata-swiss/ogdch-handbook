@@ -95,6 +95,7 @@ mit uns teilen möchten?
    content/pflegen/pflegen
    content/pflegen/datasets-updaten
    content/pflegen/auskunft-geben
+   content/pflegen/support
 
 .. toctree::
    :maxdepth: 1
