@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-28 14:14+0200\n"
+"POT-Creation-Date: 2021-08-16 17:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,10 +210,23 @@ msgstr ""
 "d’agrégation. "
 
 #: ../../source/content/glossar/begriffe.rst:95
+msgid "Europäisches Datenportal"
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:97
+msgid ""
+"Das europäische Datenportal `data.europa.eu "
+"<https://data.europa.eu/de>`__ ist das offizielle Portal für europäische "
+"Daten. Es sammelt die Metadaten von den nationalen, regionalen, lokalen "
+"und bereichsspezifischen Datenanbietern und bietet Zugang zu mehr als "
+"einer Million offenen Datensätze aus 36 Ländern."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:101
 msgid "Frontend"
 msgstr "Frontal (front-end)"
 
-#: ../../source/content/glossar/begriffe.rst:97
+#: ../../source/content/glossar/begriffe.rst:103
 msgid ""
 "Der Vordergrund oder öffentlich sichtbare Teil einer Website. Das "
 "Frontend der Abnahmeumgebung dient zur Prüfung der Daten und ist daher "
@@ -227,11 +240,11 @@ msgstr ""
 " de ce dernier se trouve à l’adresse `https://opendata.swiss "
 "<https://opendata.swiss/fr>`__."
 
-#: ../../source/content/glossar/begriffe.rst:103
+#: ../../source/content/glossar/begriffe.rst:109
 msgid "Geocat, geocat.ch"
 msgstr "Geocat,geocat.ch"
 
-#: ../../source/content/glossar/begriffe.rst:105
+#: ../../source/content/glossar/begriffe.rst:111
 msgid ""
 "geocat.ch ist der Metadatenkatalog für die Geodaten der Schweiz. "
 "Bundesämter, Kantone, Gemeinden und private Firmen erfassen in geocat.ch "
@@ -245,11 +258,11 @@ msgstr ""
 "donc le point de départ idéal pour rechercher des géodonnées (images "
 "aériennes, sites protégés, dangers naturels, séismes, etc.)."
 
-#: ../../source/content/glossar/begriffe.rst:111
+#: ../../source/content/glossar/begriffe.rst:117
 msgid "Geschäftsstelle Open Government Data (OGD)"
 msgstr "Secrétariat OGD"
 
-#: ../../source/content/glossar/begriffe.rst:113
+#: ../../source/content/glossar/begriffe.rst:119
 msgid ""
 "Die Geschäftsstelle `Open Government Data (OGD) "
 "<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__ beim "
@@ -265,11 +278,11 @@ msgstr ""
 "Département fédéral de l’intérieur (DFI). Il exploite par ailleurs le "
 "portail opendata.swiss et élabore le présent manuel."
 
-#: ../../source/content/glossar/begriffe.rst:119
+#: ../../source/content/glossar/begriffe.rst:125
 msgid "Harvester / Harvesting"
 msgstr "Moissonneur / moissonnage (harvester/harvesting)"
 
-#: ../../source/content/glossar/begriffe.rst:121
+#: ../../source/content/glossar/begriffe.rst:127
 msgid ""
 "Als Harvesting bezeichnet man das automatische «Einsammeln» von Daten "
 "bzw. Metadaten im Fall von opendata.swiss. Mit Hilfe des `CKAN Harvester "
@@ -283,11 +296,11 @@ msgstr ""
 "d’importer automatiquement des jeux de données mis à disposition par "
 "d’autres instances. "
 
-#: ../../source/content/glossar/begriffe.rst:125
+#: ../../source/content/glossar/begriffe.rst:131
 msgid "Linked Open Data"
 msgstr "Données ouvertes liées (linked open data)"
 
-#: ../../source/content/glossar/begriffe.rst:127
+#: ../../source/content/glossar/begriffe.rst:133
 msgid ""
 "Linked Open Data ist ein von Tim Berners-Lee entwickeltes Konzept für "
 "Daten. Es bezeichnet ein Netz aus frei verfügbaren Daten, das im "
@@ -308,11 +321,11 @@ msgstr ""
 "ouvertes liées, veuillez contacter `support-lindas@bar.admin.ch <mailto"
 ":support-lindas@bar.admin.ch>`__."
 
-#: ../../source/content/glossar/begriffe.rst:137
+#: ../../source/content/glossar/begriffe.rst:143
 msgid "Open Government Data"
 msgstr "Open government data "
 
-#: ../../source/content/glossar/begriffe.rst:139
+#: ../../source/content/glossar/begriffe.rst:145
 msgid ""
 "Maschinenlesbare, offene und wiederverwendbare Verwaltungsdaten. `Mehr "
 "Informationen <https://www.admin.ch/opc/de/federal-"
@@ -323,11 +336,11 @@ msgstr ""
 "ordinateur et réutilisables. `Informations complémentaires "
 "<https://www.admin.ch/opc/fr/federal-gazette/2019/855.pdf>`__."
 
-#: ../../source/content/glossar/begriffe.rst:142
+#: ../../source/content/glossar/begriffe.rst:148
 msgid "Open by default"
 msgstr "En libre accès par défaut (open by default)"
 
-#: ../../source/content/glossar/begriffe.rst:144
+#: ../../source/content/glossar/begriffe.rst:150
 msgid ""
 "Prinzip, das im Rahmen der Strategie `Open Government Data 2019 – 2023 "
 "<https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__ auf "
@@ -342,11 +355,11 @@ msgstr ""
 "doivent être publiées en libre accès, lisibles par un ordinateur et "
 "librement exploitables."
 
-#: ../../source/content/glossar/begriffe.rst:145
+#: ../../source/content/glossar/begriffe.rst:151
 msgid "Produktionsumgebung"
 msgstr "Environnement de production"
 
-#: ../../source/content/glossar/begriffe.rst:147
+#: ../../source/content/glossar/begriffe.rst:153
 msgid ""
 "Das CMS von opendata.swiss. Nachdem Datenpublizierende Ihre Daten in der "
 "Abnahmeumgebung geprüft haben, werden diese öffentlich in der "
@@ -359,11 +372,11 @@ msgstr ""
 "dans l’environnement de production. Vous en recevrez l’adresse URL lors "
 "de votre enregistrement."
 
-#: ../../source/content/glossar/begriffe.rst:151
+#: ../../source/content/glossar/begriffe.rst:157
 msgid "Ressource"
 msgstr "Ressource"
 
-#: ../../source/content/glossar/begriffe.rst:153
+#: ../../source/content/glossar/begriffe.rst:159
 msgid ""
 "Eine physische Verkörperung respektive Repräsentanz des Datasets in einem"
 " spezifischen Format. Eine Ressource (oder auch «Distribution») ist eine "
@@ -379,23 +392,28 @@ msgstr ""
 "spécifique), différentes séries chronologiques ou différents niveaux "
 "d’agrégation."
 
-#: ../../source/content/glossar/begriffe.rst:161
+#: ../../source/content/glossar/begriffe.rst:167
 msgid "Showcase"
 msgstr "Exemples"
 
-#: ../../source/content/glossar/begriffe.rst:163
+#: ../../source/content/glossar/begriffe.rst:169
 msgid ""
-"Unter `https://opendata.swiss/de/showcase <https://opendata.swiss/de/showcase>`__ werden laufend unterschiedliche "
+"Unter `https://opendata.swiss/de/showcase "
+"<https://opendata.swiss/de/showcase>`__ werden laufend unterschiedliche "
 "Arten von Nutzungsbeispielen von Open Government Data aufgenommen. Wollen"
 " Sie uns auf weitere Showcases aufmerksam machen, `kontaktieren Sie uns "
 "gern <mailto:opendata@bfs.admin.ch>`__."
-msgstr "Vous trouverez des exemples d’utilisation de données publiques ouvertes sur `https://opendata.swiss/de/showcase <https://opendata.swiss/de/showcase>`__. Ces exemples sont mis à jour régulièrement."
+msgstr ""
+"Vous trouverez des exemples d’utilisation de données publiques ouvertes "
+"sur `https://opendata.swiss/de/showcase "
+"<https://opendata.swiss/de/showcase>`__. Ces exemples sont mis à jour "
+"régulièrement."
 
-#: ../../source/content/glossar/begriffe.rst:169
+#: ../../source/content/glossar/begriffe.rst:175
 msgid "Slug"
 msgstr "Identifiant (slug)"
 
-#: ../../source/content/glossar/begriffe.rst:171
+#: ../../source/content/glossar/begriffe.rst:177
 msgid ""
 "Maschinenlesbarerer Name für ein Dataset oder eine Organisation, welcher "
 "auch im URL verwendet wird."
@@ -403,11 +421,11 @@ msgstr ""
 "Nom lisible par ordinateur attribué à un jeu de données ou à une "
 "organisation. Il est également utilisé dans son URL."
 
-#: ../../source/content/glossar/begriffe.rst:173
+#: ../../source/content/glossar/begriffe.rst:179
 msgid "Verwaltungsdaten"
 msgstr "Données publiques"
 
-#: ../../source/content/glossar/begriffe.rst:175
+#: ../../source/content/glossar/begriffe.rst:181
 msgid ""
 "Verwaltungsdaten sind Daten, die im Rahmen eines gesetzlichen Auftrags "
 "erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Es "
@@ -416,7 +434,14 @@ msgid ""
 "«Ordnungssysteme» gelten nicht als Verwaltungsdaten ebenso nicht wie "
 "«Fachanwendungen» oder «Applikationen», obwohl ihre Inhalte durchaus als "
 "Verwaltungsdaten betrachtet werden können."
-msgstr "Les données publiques sont des données collectées, établies, gérées, traitées et sauvegardées par les pouvoirs publics dans le cadre de leur mandat légal. Il s’agit de collections de données structurées, par exemple sous forme de tableaux ou de bases de données. Bien qu’ils contiennent en général des données publiques, les «dossiers d’affaire» ou les «systèmes de classement» de même que les «applications» ou les «applications métier» ne sont pas, en soi, des données publiques."
+msgstr ""
+"Les données publiques sont des données collectées, établies, gérées, "
+"traitées et sauvegardées par les pouvoirs publics dans le cadre de leur "
+"mandat légal. Il s’agit de collections de données structurées, par "
+"exemple sous forme de tableaux ou de bases de données. Bien qu’ils "
+"contiennent en général des données publiques, les «dossiers d’affaire» ou"
+" les «systèmes de classement» de même que les «applications» ou les "
+"«applications métier» ne sont pas, en soi, des données publiques."
 
 #~ msgid "Jumbbox"
 #~ msgstr ""

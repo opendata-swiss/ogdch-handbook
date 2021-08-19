@@ -93,6 +93,12 @@ Was ist was bei Open Data?
     (z.B. ein bestimmtes Format), unterschiedliche Zeitreihen
     oder auch unterschiedliche Aggregationsstufen sein.
 
+  Europäisches Datenportal
+    Das europäische Datenportal `data.europa.eu <https://data.europa.eu/de>`__
+    ist das offizielle Portal für europäische Daten. Es sammelt die Metadaten von
+    den nationalen, regionalen, lokalen und bereichsspezifischen Datenanbietern
+    und bietet Zugang zu mehr als einer Million offenen Datensätze aus 36 Ländern.
+
   Frontend
     Der Vordergrund oder öffentlich sichtbare Teil
     einer Website. Das Frontend der Abnahmeumgebung
