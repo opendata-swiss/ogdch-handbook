@@ -15,6 +15,9 @@ der vom Bundesrat Ende 2018 verabschiedeten
 `«Open Government Data»-Strategie (OGD-Strategie) 2019–2023 <https://www.bfs.admin.ch/bfs/en/home/services/ogd/strategy.html>`__,
 die drei Hauptziele verfolgt:
 
+.. figure:: ../../_static/images/kommunikation/diagramm.jpg
+   :alt: Ziele der Kommunikation von Open Government Data
+
 Demnach richtet sich die Geschäftsstelle OGD im Wesentlichen an zwei Zielgruppen:
 einerseits an die :term:`Datenanbietenden <Datenpublizierende>`,
 andererseits an die :term:`Datennutzenden <Datennutzende>`.

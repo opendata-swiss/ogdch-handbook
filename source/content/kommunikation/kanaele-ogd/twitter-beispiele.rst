@@ -1,30 +1,17 @@
-.. container:: custom-breadcrumbs
+.. figure:: ../../../_static/images/kommunikation/twitterbeispiel_1.jpg
+   :alt: Beispiel für Twitter Post auf @opendataswiss
 
-   - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Kommunikation Kanäle OGD <../leitfaden>` :fa:`chevron-right`
-   - Twitter Beispiele
+.. figure:: ../../../_static/images/kommunikation/twitterbeispiel_2.jpg
+   :alt: Beispiel für Twitter Post auf @opendataswiss
 
-*************************************
-Twitter Beispiele
-*************************************
+.. figure:: ../../../_static/images/kommunikation/twitterbeispiel_3.jpg
+   :alt: Beispiel für Twitter Post auf @opendataswiss
 
-Twitter Beispiele
-===================
+.. figure:: ../../../_static/images/kommunikation/twitterbeispiel_4.jpg
+   :alt: Beispiel für Twitter Post auf @opendataswiss
 
-.. figure:: ../../../_static/images/kommunikation/Twitterbeispiel_1.JPG
-   :alt: Twitter Post zur Volksabstimmung
+.. figure:: ../../../_static/images/kommunikation/twitterbeispiel_5.jpg
+   :alt: Beispiel für Twitter Post auf @opendataswiss
 
-.. figure:: ../../../_static/images/kommunikation/Twitterbeispiel_2.JPG
-   :alt: Twitter Post zum Sonnendach
-
-.. figure:: ../../../_static/images/kommunikation/Twitterbeispiel_3.JPG
-   :alt: Twitter Post zu Covid19
-
-.. figure:: ../../../_static/images/kommunikation/Twitterbeispiel_4.JPG
-   :alt: Twitter Post zum Post un Fernmeldeverkehr
-
-.. figure:: ../../../_static/images/kommunikation/Twitterbeispiel_5.JPG
-   :alt: Twitter Post zum Amt für Raumentwicklung
-
-.. figure:: ../../../_static/images/kommunikation/Twitterbeispiel_6.JPG
-   :alt: Twitter Post zu Hackathon VersusVirus
+.. figure:: ../../../_static/images/kommunikation/twitterbeispiel_6.jpg
+   :alt: Beispiel für Twitter Post auf @opendataswiss
