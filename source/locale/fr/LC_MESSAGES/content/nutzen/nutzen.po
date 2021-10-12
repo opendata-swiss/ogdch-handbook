@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 10:50+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,27 +30,28 @@ msgstr "Utiliser les données"
 msgid "Auf einen Blick"
 msgstr "Vue d’ensemble"
 
-#: ../../source/content/nutzen/nutzen.rst:15
-msgid ":fa:`wrench` Work in progress: Dieser Inhalt wird aktuell überarbeitet."
-msgstr ":fa:`wrench` Travail en cours: ce contenu est actuellement en cours de révision."
-
-#: ../../source/content/nutzen/nutzen.rst:17
+#: ../../source/content/nutzen/nutzen.rst:13
 msgid ""
 "Wir freuen uns, dass Sie Daten von opendata.swiss nutzen möchten. Hier "
 "finden Sie alles rund um die Nutzung von OGD."
-msgstr "Vous souhaitez utiliser les données d’opendata.swiss? Nous en sommes ravis! Sur ce site, vous trouverez toutes les informations concernant l’utilisation des OGD."
+msgstr ""
+"Vous souhaitez utiliser les données d’opendata.swiss? Nous en sommes "
+"ravis! Sur ce site, vous trouverez toutes les informations concernant "
+"l’utilisation des OGD."
 
-#: ../../source/content/nutzen/nutzen.rst:20
+#: ../../source/content/nutzen/nutzen.rst:16
 msgid ""
 "Wir möchten Ihnen hier Hilfestellungen zur :doc:`Datensuche <daten-"
 "suchen>` und zur :doc:`Nutzung unserer API <api-nutzen>` anbieten. Bitte "
 "beachten Sie, dass die Informationen zur Datensuche aktuell nur in "
 "Englisch vorliegen."
-msgstr "Nous vous :doc:`aidons aussi à rechercher les données souhaitées <daten-suchen>` et "
-"à :doc:`utiliser notre API <api-nutzen>`. "
-"Pour l’instant, les informations sur la recherche de données ne sont disponibles qu’en anglais."
+msgstr ""
+"Nous vous :doc:`aidons aussi à rechercher les données souhaitées <daten-"
+"suchen>` et à :doc:`utiliser notre API <api-nutzen>`. Pour l’instant, les"
+" informations sur la recherche de données ne sont disponibles qu’en "
+"anglais."
 
-#: ../../source/content/nutzen/nutzen.rst:26
+#: ../../source/content/nutzen/nutzen.rst:22
 msgid ""
 "Die Datenpublizierenden stehen Ihnen übrigens gerne für Fragen zur "
 "Verfügung. Kontaktangaben finden Sie jeweils im Dataset unter "
@@ -60,32 +60,37 @@ msgid ""
 ":term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>` "
 "uns über `Ihre Anfrage <mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
-"Les fournisseurs de données se feront par ailleurs un plaisir de répondre à vos questions. "
-"Vous trouverez les coordonnées des personnes responsables de chaque jeu de données sous «Points de contact». "
-"`Veuillez adresser toute question <mailto:opendata@bfs.admin.ch>`__. sur opendata.swiss "
-"ou sur le projet des données publiques ouvertes au :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>`."
+"Les fournisseurs de données se feront par ailleurs un plaisir de répondre"
+" à vos questions. Vous trouverez les coordonnées des personnes "
+"responsables de chaque jeu de données sous «Points de contact». `Veuillez"
+" adresser toute question <mailto:opendata@bfs.admin.ch>`__. sur "
+"opendata.swiss ou sur le projet des données publiques ouvertes au "
+":term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>`."
 
-#: ../../source/content/nutzen/nutzen.rst:34
+#: ../../source/content/nutzen/nutzen.rst:30
 msgid ""
 "Wollen Sie ein Projekt oder eine Initiative im Bereich Open Data "
 "initiieren? Der Verein opendata.ch freut sich, Sie dabei zu unterstützen."
 " `Nehmen Sie Kontakt auf <mailto:info@opendata.ch>`__."
-msgstr "Souhaitez-vous lancer un projet dans le domaine des données publiques ouvertes? L’association opendata.ch se réjouit de vous apporter son soutien. "
-"`Veuillez prendre contact directement avec l’organisation <mailto:info@opendata.ch>`__. "
+msgstr ""
+"Souhaitez-vous lancer un projet dans le domaine des données publiques "
+"ouvertes? L’association opendata.ch se réjouit de vous apporter son "
+"soutien. `Veuillez prendre contact directement avec l’organisation "
+"<mailto:info@opendata.ch>`__. "
 
-#: ../../source/content/nutzen/nutzen.rst:38
+#: ../../source/content/nutzen/nutzen.rst:34
 msgid ":doc:`Daten suchen <daten-suchen>`"
 msgstr ":doc:`Rechercher des données <daten-suchen>`"
 
-#: ../../source/content/nutzen/nutzen.rst:39
+#: ../../source/content/nutzen/nutzen.rst:35
 msgid ":doc:`API nutzen <api-nutzen>`"
 msgstr ":doc:`Utiliser l’API <api-nutzen>`"
 
-#: ../../source/content/nutzen/nutzen.rst:43
+#: ../../source/content/nutzen/nutzen.rst:39
 msgid "Mehr zum Thema"
 msgstr "Informations complémentaires"
 
-#: ../../source/content/nutzen/nutzen.rst:45
+#: ../../source/content/nutzen/nutzen.rst:41
 msgid "`Nutzungsbedingungen (Link) <https://opendata.swiss/de/terms-of-use/>`__,"
 msgstr "`Conditions d’utilisation <https://opendata.swiss/fr/terms-of-use/>`__"
 

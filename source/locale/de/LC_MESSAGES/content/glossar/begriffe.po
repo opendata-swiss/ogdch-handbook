@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,19 +30,11 @@ msgstr ""
 msgid "Was ist was bei Open Data?"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:15
-msgid "Jumbbox"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:18
-msgid "`A`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:21
+#: ../../source/content/glossar/begriffe.rst:14
 msgid "Abnahmeumgebung"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:23
+#: ../../source/content/glossar/begriffe.rst:16
 msgid ""
 "Die Test-Version der Plattform opendata.swiss. In der Abnahmeumgebung "
 "sind wie in der Produktionsumgebung ein Backend und ein Frontend "
@@ -57,15 +48,11 @@ msgid ""
 "Umgebung erhalten Datenpublizierende bei ihrer Registrierung."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:39
-msgid "`B`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:42
+#: ../../source/content/glossar/begriffe.rst:30
 msgid "Backend"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:44
+#: ../../source/content/glossar/begriffe.rst:32
 msgid ""
 "Der Hintergrund oder nicht sichtbare Teil einer Website. Dieser ist nur "
 "Administratoren und bei opendata.swiss den Datenpublizierenden "
@@ -75,37 +62,29 @@ msgid ""
 "Produktionsumgebung sind nahezu identisch."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:54
-msgid "`C`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:57
+#: ../../source/content/glossar/begriffe.rst:39
 msgid "CKAN"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:59
+#: ../../source/content/glossar/begriffe.rst:41
 msgid ""
 "Open Source Software für Datenportale. Mit dieser Software ist auch "
 "opendata.swiss gebaut. `Mehr zu CKAN <https://ckan.org>`__."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:62
+#: ../../source/content/glossar/begriffe.rst:44
 msgid "Katalog Endpunkt (Catalogue endpoint)"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:64
+#: ../../source/content/glossar/begriffe.rst:46
 msgid "URL, mit der ein Datenkatalog abgeholt, sprich «geharvested», werden kann."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:68
-msgid "`D`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:71
+#: ../../source/content/glossar/begriffe.rst:48
 msgid "Dataset"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:73
+#: ../../source/content/glossar/begriffe.rst:50
 msgid ""
 "Ein Dataset entspricht einem Eintrag auf opendata.swiss. Es wird von "
 "einer Organisation publiziert bzw. kuratiert und ist in einer oder "
@@ -115,14 +94,14 @@ msgid ""
 " ein einzelnes, thematisch geschlossenes Dataset. Beispiel:"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:82
+#: ../../source/content/glossar/begriffe.rst:59
 msgid ""
 "`Dataset: Statistiken Dienst Überwachung Post- und Fernmeldeverkehr ÜPF "
 "<https://opendata.swiss/de/dataset/statistiken-dienst-ueberwachung-post-"
 "und-fernmeldeverkehr-uepf>`__"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:84
+#: ../../source/content/glossar/begriffe.rst:61
 msgid ""
 "`Ressource: Detaillierte Statistik 2011 "
 "<https://opendata.swiss/de/dataset/statistiken-dienst-ueberwachung-post-"
@@ -130,27 +109,27 @@ msgid ""
 "ddc3-43b6-9873-e4aef316e4d0>`__"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:85
+#: ../../source/content/glossar/begriffe.rst:62
 msgid "Datenpublizierende"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:87
+#: ../../source/content/glossar/begriffe.rst:64
 msgid "Personen oder Organisationen, die Open Government Data (OGD) publizieren."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:89
+#: ../../source/content/glossar/begriffe.rst:66
 msgid "Datennutzende"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:91
+#: ../../source/content/glossar/begriffe.rst:68
 msgid "Personen oder Organisationen, die Open Government Data (OGD) nutzen."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:93
+#: ../../source/content/glossar/begriffe.rst:70
 msgid "DCAT-AP"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:95
+#: ../../source/content/glossar/begriffe.rst:72
 msgid ""
 "DCAT-AP ist ein Anwendungsprofil des Data Catalog Vocabulary (DCAT) und "
 "dient zur Beschreibung der in Datenportalen verzeichneten Daten. Es "
@@ -161,21 +140,21 @@ msgid ""
 "Fachgruppe OGD weiterentwickelt."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:104
+#: ../../source/content/glossar/begriffe.rst:81
 msgid "DCAT-AP-Katalog"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:106
+#: ../../source/content/glossar/begriffe.rst:83
 msgid ""
 "Ein Katalog, der dem DCAT Application Profile entspricht. Dieser Katalog "
 "ist eine kuratierte Sammlung von Metadaten-Records über offene Daten."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:109
+#: ../../source/content/glossar/begriffe.rst:86
 msgid "Distribution"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:111
+#: ../../source/content/glossar/begriffe.rst:88
 msgid ""
 "Eine physische Verkörperung respektive Repräsentanz des Datasets in einem"
 " spezifischen Format. Eine Distribution (oder auch «Ressource») ist eine "
@@ -185,15 +164,24 @@ msgid ""
 " sein."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:120
-msgid "`F`_"
+#: ../../source/content/glossar/begriffe.rst:95
+msgid "Europäisches Datenportal"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:123
+#: ../../source/content/glossar/begriffe.rst:97
+msgid ""
+"Das europäische Datenportal `data.europa.eu "
+"<https://data.europa.eu/de>`__ ist das offizielle Portal für europäische "
+"Daten. Es sammelt die Metadaten von den nationalen, regionalen, lokalen "
+"und bereichsspezifischen Datenanbietern und bietet Zugang zu mehr als "
+"einer Million offenen Datensätze aus 36 Ländern."
+msgstr ""
+
+#: ../../source/content/glossar/begriffe.rst:101
 msgid "Frontend"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:125
+#: ../../source/content/glossar/begriffe.rst:103
 msgid ""
 "Der Vordergrund oder öffentlich sichtbare Teil einer Website. Das "
 "Frontend der Abnahmeumgebung dient zur Prüfung der Daten und ist daher "
@@ -202,15 +190,11 @@ msgid ""
 "<https://opendata.swiss/de>`__."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:133
-msgid "`G`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:136
+#: ../../source/content/glossar/begriffe.rst:109
 msgid "Geocat, geocat.ch"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:138
+#: ../../source/content/glossar/begriffe.rst:111
 msgid ""
 "geocat.ch ist der Metadatenkatalog für die Geodaten der Schweiz. "
 "Bundesämter, Kantone, Gemeinden und private Firmen erfassen in geocat.ch "
@@ -219,11 +203,11 @@ msgid ""
 "Ortsbilder, Naturgefahren, Erdbeben usw."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:144
+#: ../../source/content/glossar/begriffe.rst:117
 msgid "Geschäftsstelle Open Government Data (OGD)"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:146
+#: ../../source/content/glossar/begriffe.rst:119
 msgid ""
 "Die Geschäftsstelle `Open Government Data (OGD) "
 "<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd.html>`__ beim "
@@ -233,15 +217,11 @@ msgid ""
 "opendata.swiss und das vorliegende Handbuch."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:154
-msgid "`H`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:157
+#: ../../source/content/glossar/begriffe.rst:125
 msgid "Harvester / Harvesting"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:159
+#: ../../source/content/glossar/begriffe.rst:127
 msgid ""
 "Als Harvesting bezeichnet man das automatische «Einsammeln» von Daten "
 "bzw. Metadaten im Fall von opendata.swiss. Mit Hilfe des `CKAN Harvester "
@@ -249,15 +229,11 @@ msgid ""
 "Datasets aus anderen Instanzen automatisch importiert."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:165
-msgid "`L`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:168
+#: ../../source/content/glossar/begriffe.rst:131
 msgid "Linked Open Data"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:170
+#: ../../source/content/glossar/begriffe.rst:133
 msgid ""
 "Linked Open Data ist ein von Tim Berners-Lee entwickeltes Konzept für "
 "Daten. Es bezeichnet ein Netz aus frei verfügbaren Daten, das im "
@@ -269,39 +245,35 @@ msgid ""
 "lindas@bar.admin.ch <mailto:support-lindas@bar.admin.ch>`__."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:182
-msgid "`O`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:185
+#: ../../source/content/glossar/begriffe.rst:143
 msgid "Open Government Data"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:187
+#: ../../source/content/glossar/begriffe.rst:145
 msgid ""
 "Maschinenlesbare, offene und wiederverwendbare Verwaltungsdaten. `Mehr "
 "Informationen <https://www.admin.ch/opc/de/federal-"
 "gazette/2019/879.pdf>`__"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:190
+#: ../../source/content/glossar/begriffe.rst:148
 msgid "Open by default"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:192
+#: ../../source/content/glossar/begriffe.rst:150
 msgid ""
-"Prinzip, das im Rahmen der Strategie `Open Government Data 2019 – 2023 <https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__ auf Bundesebene umgesetzt werden muss. Ab 2020 sollen alle neuen publizierten Daten von Bundesstellen als offene, frei und maschinell nutzbare Verwaltungsdaten publiziert werden."
+"Prinzip, das im Rahmen der Strategie `Open Government Data 2019 – 2023 "
+"<https://www.admin.ch/opc/de/federal-gazette/2019/879.pdf>`__ auf "
+"Bundesebene umgesetzt werden muss. Ab 2020 sollen alle neuen publizierten"
+" Daten von Bundesstellen als offene, frei und maschinell nutzbare "
+"Verwaltungsdaten publiziert werden."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:199
-msgid "`P`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:202
+#: ../../source/content/glossar/begriffe.rst:151
 msgid "Produktionsumgebung"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:204
+#: ../../source/content/glossar/begriffe.rst:153
 msgid ""
 "Das CMS von opendata.swiss. Nachdem Datenpublizierende Ihre Daten in der "
 "Abnahmeumgebung geprüft haben, werden diese öffentlich in der "
@@ -309,15 +281,11 @@ msgid ""
 "Registrierung."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:210
-msgid "`R`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:213
+#: ../../source/content/glossar/begriffe.rst:157
 msgid "Ressource"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:215
+#: ../../source/content/glossar/begriffe.rst:159
 msgid ""
 "Eine physische Verkörperung respektive Repräsentanz des Datasets in einem"
 " spezifischen Format. Eine Ressource (oder auch «Distribution») ist eine "
@@ -327,15 +295,11 @@ msgid ""
 " sein."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:225
-msgid "`S`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:228
+#: ../../source/content/glossar/begriffe.rst:167
 msgid "Showcase"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:230
+#: ../../source/content/glossar/begriffe.rst:169
 msgid ""
 "Unter `https://opendata.swiss/de/showcase "
 "<https://opendata.swiss/de/showcase>`__ werden laufend unterschiedliche "
@@ -344,25 +308,21 @@ msgid ""
 "gern <mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:236
+#: ../../source/content/glossar/begriffe.rst:175
 msgid "Slug"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:238
+#: ../../source/content/glossar/begriffe.rst:177
 msgid ""
 "Maschinenlesbarerer Name für ein Dataset oder eine Organisation, welcher "
 "auch im URL verwendet wird."
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:242
-msgid "`V`_"
-msgstr ""
-
-#: ../../source/content/glossar/begriffe.rst:245
+#: ../../source/content/glossar/begriffe.rst:179
 msgid "Verwaltungsdaten"
 msgstr ""
 
-#: ../../source/content/glossar/begriffe.rst:247
+#: ../../source/content/glossar/begriffe.rst:181
 msgid ""
 "Verwaltungsdaten sind Daten, die im Rahmen eines gesetzlichen Auftrags "
 "erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Es "

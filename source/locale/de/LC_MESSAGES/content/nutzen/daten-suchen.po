@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,17 +127,11 @@ msgstr ""
 
 #: ../../source/content/nutzen/daten-suchen.rst:67
 msgid ""
-"`solrconfig.xml <https://github.com/opendata-swiss/ckanext-"
-"switzerland/blob/master/solr/solrconfig.xml>`__"
+"`Solr configuration and schema of opendata.swiss <https://github.com"
+"/opendata-swiss/ckanext-switzerland-ng/blob/master/solr>`__"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:68
-msgid ""
-"`schema.xml <https://github.com/opendata-swiss/ckanext-"
-"switzerland/blob/master/solr/schema.xml>`__"
-msgstr ""
-
-#: ../../source/content/nutzen/daten-suchen.rst:70
+#: ../../source/content/nutzen/daten-suchen.rst:69
 msgid ""
 "The source of the referenced files in the ``solr.xml`` (e.g. "
 "``italian_stop.txt``, ``fr_elision.txt``, etc.) can be found in the "
@@ -147,11 +140,11 @@ msgid ""
 "All other files (e.g. ``stopwords.txt``) are provided by Solr."
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:77
+#: ../../source/content/nutzen/daten-suchen.rst:76
 msgid "Query syntax"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:79
+#: ../../source/content/nutzen/daten-suchen.rst:78
 msgid ""
 "Solr has its own `query syntax "
 "<https://lucene.apache.org/core/3_6_0/queryparsersyntax.html>`__ to write"
@@ -159,48 +152,48 @@ msgid ""
 "parser to determine what to do."
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:84
+#: ../../source/content/nutzen/daten-suchen.rst:83
 msgid "Search operators"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:86
+#: ../../source/content/nutzen/daten-suchen.rst:85
 msgid ""
 "Use ``+{field}:{value}`` to include a search term, e.g. "
 "``+title_en:power`` to find all datasets, whose English title contains "
 "the word “power”"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:89
+#: ../../source/content/nutzen/daten-suchen.rst:88
 msgid ""
 "Use ``-{field}:{value}`` to exclude a search term, e.g. ``+title_en:power"
 " -title_en:hydraulic`` to find all datasets, whose English title contains"
 " the word “power”, but not “hydraulic”"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:93
+#: ../../source/content/nutzen/daten-suchen.rst:92
 msgid ""
 "Use ``AND`` to combine several search terms that all must match, e.g. "
 "``keywords_en:(geology AND geophysics)`` to find all datasets that have "
 "both tags ``geology`` and ``geophysics``"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:97
+#: ../../source/content/nutzen/daten-suchen.rst:96
 msgid ""
 "Use ``OR`` to combine several search terms, where one of them must match,"
 " e.g. ``organization:(kanton-thurgau OR stadt-zurich)``"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:100
+#: ../../source/content/nutzen/daten-suchen.rst:99
 msgid ""
 "All of these options can be further combined together, e.g. "
 "``organization:(kanton-thurgau OR stadt-zurich) karte``"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:104
+#: ../../source/content/nutzen/daten-suchen.rst:103
 msgid "Searchterm suggestions"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:106
+#: ../../source/content/nutzen/daten-suchen.rst:105
 msgid ""
 "The search-field of opendata.swiss provides searchterm-suggestions when a"
 " user types into it. For each language a self-contained Solr index is "
@@ -208,51 +201,51 @@ msgid ""
 "datasets or new data won’t be reflected in the suggestions immediately."
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:112
+#: ../../source/content/nutzen/daten-suchen.rst:111
 msgid "The index is based on the following fields:"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:114
+#: ../../source/content/nutzen/daten-suchen.rst:113
 msgid "``dataset-title`` (translated)"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:115
+#: ../../source/content/nutzen/daten-suchen.rst:114
 msgid "``keywords`` (translated)"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:116
+#: ../../source/content/nutzen/daten-suchen.rst:115
 msgid "``groups`` (translated)"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:117
+#: ../../source/content/nutzen/daten-suchen.rst:116
 msgid "``organization`` (translated)"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:118
+#: ../../source/content/nutzen/daten-suchen.rst:117
 msgid "``distribution-name`` (translated)"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:119
+#: ../../source/content/nutzen/daten-suchen.rst:118
 msgid "``author``"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:120
+#: ../../source/content/nutzen/daten-suchen.rst:119
 msgid "``maintainer``"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:121
+#: ../../source/content/nutzen/daten-suchen.rst:120
 msgid "``contact_points``"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:122
+#: ../../source/content/nutzen/daten-suchen.rst:121
 msgid "``publishers``"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:123
+#: ../../source/content/nutzen/daten-suchen.rst:122
 msgid "``identifier``"
 msgstr ""
 
-#: ../../source/content/nutzen/daten-suchen.rst:124
+#: ../../source/content/nutzen/daten-suchen.rst:123
 msgid "``distribution-format``"
 msgstr ""
 

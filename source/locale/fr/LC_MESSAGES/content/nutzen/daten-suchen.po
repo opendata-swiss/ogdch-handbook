@@ -4,7 +4,6 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
@@ -254,14 +253,4 @@ msgstr ""
 #: ../../source/content/nutzen/daten-suchen.rst:123
 msgid "``distribution-format``"
 msgstr ""
-
-#~ msgid ""
-#~ "`solrconfig.xml <https://github.com/opendata-swiss"
-#~ "/ckanext-switzerland/blob/master/solr/solrconfig.xml>`__"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`schema.xml <https://github.com/opendata-swiss/ckanext-"
-#~ "switzerland/blob/master/solr/schema.xml>`__"
-#~ msgstr ""
 

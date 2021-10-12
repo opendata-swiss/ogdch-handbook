@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,11 +30,7 @@ msgstr ""
 msgid "Auf einen Blick"
 msgstr ""
 
-#: ../../source/content/pflegen/pflegen.rst:15
-msgid ":fa:`wrench` Work in progress: Dieser Inhalt wird aktuell überarbeitet."
-msgstr ""
-
-#: ../../source/content/pflegen/pflegen.rst:17
+#: ../../source/content/pflegen/pflegen.rst:13
 msgid ""
 "Nachdem Sie Daten auf opendata.swiss publiziert haben, bleiben Sie "
 "weiterhin für Ihre Daten verantwortlich. Das umfasst genau zwei Aufgaben:"
@@ -43,11 +38,15 @@ msgid ""
 "Sie Anfragen von Nutzerinnen und Nutzern zu Ihren Daten beantworten."
 msgstr ""
 
-#: ../../source/content/pflegen/pflegen.rst:22
+#: ../../source/content/pflegen/pflegen.rst:18
 msgid ":doc:`Dataset updaten <datasets-updaten>`"
 msgstr ""
 
-#: ../../source/content/pflegen/pflegen.rst:23
+#: ../../source/content/pflegen/pflegen.rst:19
 msgid ":doc:`Auskunft zu Daten geben <auskunft-geben>`"
+msgstr ""
+
+#: ../../source/content/pflegen/pflegen.rst:20
+msgid ":doc:`Anfrage Support <support>`"
 msgstr ""
 

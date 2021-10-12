@@ -4,7 +4,6 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
@@ -148,7 +147,6 @@ msgstr ""
 "verstehen>`"
 
 #: ../../source/index.rst:56
-#, fuzzy
 msgid ":doc:`Daten vorbereiten <content/vorbereiten/publikationsrichtlinien>`"
 msgstr ":doc:`Publier les données <content/publizieren/publizieren>`"
 
@@ -180,13 +178,3 @@ msgstr ""
 " faire, nous avons besoin des commentaires de nos utilisateurs. Avez-vous"
 " une suggestion ou une information à nous communiquer? `Écrivez-nous "
 "<mailto:opendata(at)bfs.admin.ch>`__."
-
-#~ msgid ""
-#~ ":doc:`Daten vorbereiten – Zu den "
-#~ "Prüfungen für jedes Dataset "
-#~ "<content/vorbereiten/dataset/rechtlicher-check>`"
-#~ msgstr ""
-#~ ":doc:`Préparer les données – vérification "
-#~ "des jeux de données "
-#~ "<content/vorbereiten/dataset/rechtlicher-check>`"
-

@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,14 +49,12 @@ msgid ""
 "Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data "
 "(OGD)>` übernimmt das Controlling des gesamten Katalogs. Es ist "
 "allerdings an den publizierenden Organisationen oder Personen "
-"sicherzustellen, dass die :doc:`rechtlichen <../vorbereiten/dataset"
-"/rechtlicher-check>`, :doc:`technischen <../vorbereiten/dataset"
-"/technischer-check>` und :doc:`organisatorischen <../vorbereiten/dataset"
-"/organisatorischer-check>` :doc:`Anforderungen <../vorbereiten/dataset>` "
-"eingehalten werden."
+"sicherzustellen, dass die rechtlichen, technischen und organisatorischen "
+"Anforderungen eingehalten werden, siehe :doc:`«OGD-Richtlinien» "
+"<../glossar/bibliothek/ogd-richtlinien>`."
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:29
+#: ../../source/content/publizieren/publizieren.rst:26
 msgid ""
 "Bei der ersten Publikation wird für alle Publikationsvarianten ein Test-"
 "Ablauf in der :term:`«Abnahmeumgebung» <Abnahmeumgebung>` von "
@@ -69,7 +66,7 @@ msgid ""
 "Test-Publikationen zur Verfügung."
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:37
+#: ../../source/content/publizieren/publizieren.rst:34
 msgid ""
 "Das User-Management wird zentral von der :term:`Geschäftsstelle OGD "
 "<Geschäftsstelle Open Government Data (OGD)>` sichergestellt. Neue "
@@ -77,7 +74,7 @@ msgid ""
 "Berechtigungen sind uns daher immer zu melden."
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:43
+#: ../../source/content/publizieren/publizieren.rst:40
 msgid ""
 "Erst-Publizierende begleiten wir Schritt für Schritt durch den Prozess. "
 "Im ersten Schritt muss die :term:`Geschäftsstelle OGD <Geschäftsstelle "
@@ -86,7 +83,7 @@ msgid ""
 "starten."
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:50
+#: ../../source/content/publizieren/publizieren.rst:47
 msgid ""
 "Wenn Sie bereits als Nutzerinnen oder Nutzer auf opendata.swiss "
 "registriert sind, können Sie direkt zu den Inhalten für registrierte "
@@ -94,35 +91,35 @@ msgid ""
 "Publikationsvariante für Ihre Daten auswählen."
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:55
+#: ../../source/content/publizieren/publizieren.rst:52
 msgid ":doc:`Für Erst-Publizierende <erstpublizierende>`"
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:57
+#: ../../source/content/publizieren/publizieren.rst:54
 msgid ""
 ":doc:`Benutzer/innen erfassen und verwalten <erstpublizierende/kontakt-"
 "bfs>`"
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:58
+#: ../../source/content/publizieren/publizieren.rst:55
 msgid ":doc:`Profil verwalten <erstpublizierende/profil-einrichten>`"
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:59
+#: ../../source/content/publizieren/publizieren.rst:56
 msgid ""
 ":doc:`Informationen zur Organisation ergänzen <erstpublizierende"
 "/organisation-einrichten>`"
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:62
+#: ../../source/content/publizieren/publizieren.rst:59
 msgid "Für registrierte Nutzerinnen und Nutzer"
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:64
+#: ../../source/content/publizieren/publizieren.rst:61
 msgid ":doc:`Publikationsprozess verstehen <publikationsprozess>`"
 msgstr ""
 
-#: ../../source/content/publizieren/publizieren.rst:65
+#: ../../source/content/publizieren/publizieren.rst:62
 msgid ":doc:`Publikationsvariante auswählen <publikationsvariante>`"
 msgstr ""
 

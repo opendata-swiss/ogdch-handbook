@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 16:43+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,13 +30,7 @@ msgstr "Gérer les données"
 msgid "Auf einen Blick"
 msgstr "Vue d’ensemble"
 
-#: ../../source/content/pflegen/pflegen.rst:15
-msgid ":fa:`wrench` Work in progress: Dieser Inhalt wird aktuell überarbeitet."
-msgstr ""
-":fa:`wrench` Travail en cours: ce contenu est actuellement en cours de "
-"révision."
-
-#: ../../source/content/pflegen/pflegen.rst:17
+#: ../../source/content/pflegen/pflegen.rst:13
 msgid ""
 "Nachdem Sie Daten auf opendata.swiss publiziert haben, bleiben Sie "
 "weiterhin für Ihre Daten verantwortlich. Das umfasst genau zwei Aufgaben:"
@@ -48,15 +41,15 @@ msgstr ""
 "opendata.swiss. Pour ce faire, deux tâches vous incombent: mettre à jour "
 "vos données périodiquement et répondre aux questions des utilisateurs."
 
-#: ../../source/content/pflegen/pflegen.rst:22
+#: ../../source/content/pflegen/pflegen.rst:18
 msgid ":doc:`Dataset updaten <datasets-updaten>`"
 msgstr ":doc:`Mettre à jour les données  <datasets-updaten>`"
 
-#: ../../source/content/pflegen/pflegen.rst:23
+#: ../../source/content/pflegen/pflegen.rst:19
 msgid ":doc:`Auskunft zu Daten geben <auskunft-geben>`"
 msgstr ":doc:`Fournir des renseignements sur les données <auskunft-geben>`"
 
-#: ../../source/content/pflegen/pflegen.rst:24
+#: ../../source/content/pflegen/pflegen.rst:20
 msgid ":doc:`Anfrage Support <support>`"
 msgstr ""
 

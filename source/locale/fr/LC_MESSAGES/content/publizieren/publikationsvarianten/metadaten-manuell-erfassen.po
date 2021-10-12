@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 17:38+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +67,6 @@ msgid ":ref:`Dataset erstellen <manuell-datensatz-erstellen>`"
 msgstr ":ref:`Créer un jeu de données <manuell-datensatz-erstellen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:31
-#, fuzzy
 msgid ":ref:`Metadaten eingeben <manuell-metadaten-eingeben>`"
 msgstr ":ref:`Saisir les métadonnées <manuell-resource-hinzufuegen>`"
 
@@ -77,12 +75,10 @@ msgid ":ref:`Ressourcen hinzufügen <manuell-resource-hinzufuegen>`"
 msgstr ":ref:`Ajouter les ressources <manuell-resource-hinzufuegen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:33
-#, fuzzy
 msgid ":ref:`Dataset weiter bearbeiten <manuell-dataset-aktionen>`"
 msgstr ":ref:`Créer un jeu de données <manuell-datensatz-erstellen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:34
-#, fuzzy
 msgid ":ref:`Dataset prüfen <manuell-vorschau-pruefen>`"
 msgstr ":ref:`Vérifier le jeu de données prévisualisé <manuell-vorschau-pruefen>`"
 
@@ -91,7 +87,6 @@ msgid ":ref:`Dataset veröffentlichen <manuell-datensatz-veroeffentlichen>`"
 msgstr ":ref:`Publier le jeu de données <manuell-datensatz-veroeffentlichen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:36
-#, fuzzy
 msgid ":ref:`Dataset im Frontend prüfen <manuell-datensatz-frontend>`"
 msgstr ":ref:`Créer un jeu de données <manuell-datensatz-erstellen>`"
 
@@ -121,15 +116,14 @@ msgid "Dataset erstellen"
 msgstr "Ajouterun jeu de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:56
-#, fuzzy
 msgid ""
 "Um Datasets zu erfassen, müssen Sie sich im :term:`Backend <Backend>` von"
 " opendata.swiss einloggen. Handelt es sich um eine Erstpublikation oder "
 "möchten Sie eine neue oder besonders komplexe Publikation testweise "
 "durchführen, ist die :term:`Abnahmeumgebung <Abnahmeumgebung>` dafür die "
 "richtige Wahl. Handelt es sich um eine wiederholte Publikation und Sie "
-"möchten Ihre Datasets direkt veröffentlichen, können Sie sich in die "
-":term:`Produktionsumgebung <Produktionsumgebung>` einloggen."
+"möchten Ihre Datasets direkt veröffentlichen, können Sie sich direkt in "
+"die :term:`Produktionsumgebung <Produktionsumgebung>` einloggen."
 msgstr ""
 "Connectez-vous à l’arrière-plan (back-end) d’opendata.swiss pour saisir "
 "des jeux de données. Vous allez procéder à votre première publication, ou"
@@ -168,16 +162,14 @@ msgstr ""
 msgid ""
 "Als Erstes müssen Sie Ihrem Dataset einen Namen geben (“Titel für den "
 "Slug”). Aus ihm wird der :term:`Slug <Slug>` des Datasets gebildet. "
-"Dieses Feld dient nur zur Bildung des Slugs. Später wird der Titel Ihres "
-"Datasets aus den Einträgen im Datenfeld «Titel (EN) (DE) (FR) (IT)» "
-"ermittelt: Bitte legen Sie den Titel Ihres Datasets in mindestens einer "
-"Landessprache und auf Englisch fest. (Der Eintrag in Englisch wird bei "
-"der Weitergabe Ihres Datasets an das :term:`europäische Datenportal "
-"<Europäisches Datenportal>` benötigt.)"
+"Später wird der Titel Ihres Datasets aus den Einträgen im Datenfeld "
+"«Titel (EN) (DE) (FR) (IT)» ermittelt: Bitte legen Sie den Titel Ihres "
+"Datasets in mindestens einer Landessprache und auf Englisch fest. (Der "
+"Eintrag in Englisch wird bei der Weitergabe Ihres Datasets an das "
+":term:`europäische Datenportal <Europäisches Datenportal>` benötigt.)"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:93
-#, fuzzy
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:92
 msgid ""
 "Wichtig: Verändern Sie den Slug nicht mehr, nachdem das Dataset "
 "publiziert wurde. Ansonsten können Nutzende, die Ihre Daten bereits "
@@ -187,11 +179,11 @@ msgstr ""
 "le permalien, sinon les utilisateurs qui recourent déjà à vos données ne "
 "pourront plus y accéder."
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:98
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:97
 msgid "Organisation und Identifier"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:103
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:102
 msgid ""
 "Hier müssen Sie den sogenannten «Identifier» eingeben. Dieser sorgt "
 "dafür, dass das Dataset mit Ihrer Organisation verknüpft wird. Dafür "
@@ -200,7 +192,7 @@ msgid ""
 "Organisation zugeteilt ist."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:108
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:107
 msgid ""
 "Für eine detaillierte Beschreibung des Inhalts der Metadaten-Felder "
 "orientieren Sie sich bitte an der `Publikation eCH-0200 DCAT-"
@@ -212,7 +204,7 @@ msgstr ""
 "DCAT pour les portails de données en Suisse (DCAT-AP CH) "
 "<http://www.ech.ch/fr/dokument/9d2b232a-2535-4343-9e71-be633efc7d2c>`__"
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:114
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:113
 msgid ""
 "Wichtig: Verändern Sie den Identifier nicht mehr, nachdem das Dataset "
 "publiziert ist. Ansonsten können Ihre Daten nicht mehr eindeutig "
@@ -222,11 +214,11 @@ msgstr ""
 "l’identifiant, sinon il ne sera plus possible d’attribuer vos données "
 "correctement."
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:118
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:117
 msgid "Sichtbarkeit"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:123
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:122
 msgid ""
 "Dieses Feld dient zur :ref:`Veröffentlichung Ihres Datasets <manuell-"
 "datensatz-veroeffentlichen>`. In der Dropdown-Auswahl können Sie die "
@@ -237,12 +229,11 @@ msgid ""
 "wählen Sie in der Dropdown-Auswahl die Option “public” aus."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:131
-#, fuzzy
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:130
 msgid "Dataset-Informationen"
 msgstr "Informations relatives au jeu de données"
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:136
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:135
 msgid ""
 "Bitte geben Sie im Feld «Beschreibung (EN) (DE) (FR) (IT)» eine "
 "Beschreibung Ihres Datasets an. Alle Bundesstellen sollen die Angaben "
@@ -252,14 +243,13 @@ msgid ""
 "Datenportal <Europäisches Datenportal>`."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:143
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:142
 msgid "Daten"
 msgstr "Données"
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:148
-#, fuzzy
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:147
 msgid ""
-"Hier gilt es das Pflichtfeld «Publikationsdatum» auszufüllen. Damit ist "
+"Hier gilt es, das Pflichtfeld «Publikationsdatum» auszufüllen. Damit ist "
 "das Datum der ersten Publikation im Quellsystem dieses Datasets gemeint. "
 "Falls dies nicht bekannt ist, verwenden Sie das Datum der geplanten "
 "ersten Publikation auf opendata.swiss. Beim Datum der letzten Änderung "
@@ -279,36 +269,36 @@ msgstr ""
 "mises à jour («Rythmede mise à jour») et la période couverte par le jeu "
 "de données («Couverture temporelle»)."
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:159
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:158
 msgid "Publisher-Informationen"
 msgstr "Informations relatives à l’éditeur"
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:164
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:163
 msgid ""
-"Hier müssen Sie Angaben zu Ihnen als datenpublizierende Organisation "
-"eingeben. Im Pflichtfeld «Publisher» geben Sie die für das Dataset "
-"verantwortliche Organisation an. Dies können auch mehrere Organisationen "
-"sein, jedoch keine Personen. Im Pflichtfeld «Kontaktstellen» muss "
-"mindestens eine Kontaktstelle angegeben werden, die von den "
-"Datennutzenden bei Rückfragen kontaktiert werden darf."
+"Hier müssen Sie Angaben zur datenpublizierenden Organisation eingeben. Im"
+" Pflichtfeld «Publisher» geben Sie die für das Dataset verantwortliche "
+"Organisation an. Dies können auch mehrere Organisationen sein, jedoch "
+"keine Personen. Im Pflichtfeld «Kontaktstellen» muss mindestens eine "
+"Kontaktstelle angegeben werden, die von den Datennutzenden bei Rückfragen"
+" kontaktiert werden darf."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:173
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:172
 msgid "Sprachen"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:178
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:177
 msgid ""
 "Falls Ihre Ressourcen in unterschiedlichen Sprachen vorliegen, können Sie"
 " diese hier angeben. Liegen Ihre Ressourcen sprachunabhängig vor, kann "
 "das Eingabefeld hier leer gelassen werden."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:182
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:181
 msgid "Weitere Informationen"
 msgstr "Informations complémentaires"
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:187
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:186
 msgid ""
 "Mit «Landing Page» ist die Website gemeint, auf der die Daten "
 "ursprünglich publiziert wurden, falls diese vorhanden ist. Unter "
@@ -318,11 +308,11 @@ msgid ""
 "nicht relevant ist, lassen Sie das Feld leer."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:195
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:194
 msgid "Verwandte Datasets"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:201
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:200
 msgid ""
 "Unter «Verwandte Datensätze» können Sie aus allen verfügbaren Datasets "
 "auf opendata.swiss jene mit thematischem Bezug zu Ihrem aktuellen Dataset"
@@ -330,13 +320,13 @@ msgid ""
 "thematisch interessante Datasets existieren."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:207
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:206
 msgid "Schlagwörter definieren"
 msgstr "Définir les mots clés"
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:212
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:211
 msgid ""
-"Es ist wichtig ein oder mehrere Schlagwörter zum Dataset anzugeben. "
+"Es ist wichtig, ein oder mehrere Schlagwörter zum Dataset anzugeben. "
 "Schlagwörter helfen dabei, die Auffindbarkeit zu steigern. So können "
 "diese als Filtermöglichkeit verwendet werden, um die Auswahl der Datasets"
 " thematisch einzugrenzen. Mögliche Schlagwörter können Sie aus Ihren "
@@ -344,21 +334,21 @@ msgid ""
 "meistgenutzten Schlagwörtern auswählen."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:219
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:218
 msgid "Kategorien auswählen"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:225
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:224
 msgid ""
 "Unter «Kategorien» können Sie eine oder mehrere thematische Kategorien "
 "auswählen, denen das Dataset zugeordnet werden kann."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:232
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:231
 msgid "Ressourcen hinzufügen"
 msgstr "Ajouter des ressources"
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:234
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:233
 msgid ""
 "Wenn Sie mit der Eingabe der Metadaten für Ihr Dataset fertig sind, "
 "müssen Sie Ihrem Dataset als nächstes eine oder mehrere Ressourcen "
@@ -366,8 +356,7 @@ msgid ""
 "hinzufügen», um in das Webformular für die Ressourcen zu gelangen."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:246
-#, fuzzy
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:245
 msgid ""
 "Eine «Ressource» ist eine spezifische Repräsentierung. Dies können "
 "unterschiedliche Bereitstellungsformen eines Datasets sein (media-type or"
@@ -397,24 +386,23 @@ msgstr ""
 "rien sous «Langue». Dans le champ obligatoire «Créé», saisissez la date "
 "de publication de la ressource. "
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:265
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:264
 msgid "Wichtig: Jedes Dataset muss mindestens 1 Ressource haben."
 msgstr ""
 "Important: une ressource au moins doit être attribuée à chaque jeu de "
 "données."
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:270
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:269
 msgid ""
 "Für jede Ressource müssen Sie unter «Zugangs-URL» eine URL angeben, über "
 "welche auf die Ressource zugegriffen werden kann. Falls sich hinter der "
 "URL ein Download verbirgt, muss die URL auch im Feld «Download-URL» "
 "eingetragen werden. Ebenfalls optional kann die «Grösse» der Ressource in"
-" Bytes angegeben werden. Unter «Format» wählen Sie das Format, das dem "
-"Ihrer Ressourcen entspricht."
+" Bytes angegeben werden. Unter «Format» wählen Sie das Format Ihrer "
+"Ressource."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:279
-#, fuzzy
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:278
 msgid ""
 "Wichtig: `Unter «Nutzungsbedingungen» müssen Sie eine der Bedingungen "
 "auswählen, die auf opendata.swiss vorgesehen sind "
@@ -424,7 +412,7 @@ msgstr ""
 "sélectionner une des conditions fournies sur opendata.swiss. "
 "<https://opendata.swiss/fr/terms-of-use>`__."
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:284
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:283
 msgid ""
 "Wichtig: Bitte berücksichtigen Sie bei der Publikation von Ressourcen die"
 " :doc:`«OGD-Richtlinien» <../../glossar/bibliothek/ogd-richtlinien>`."
@@ -433,48 +421,47 @@ msgstr ""
 "<../../glossar/bibliothek/ogd-richtlinien>` lorsque vous publiez des "
 "ressources."
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:287
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:286
 msgid ""
-"Sie haben jetzt Ihre erste Ressource angelegt und können jetzt entweder "
-"mit dem Button «Beenden» Ihr Dataset und Ihre Ressource abspeichern oder "
-"Sie können mit dem Button «Speichern & weitere hinzufügen» mit dem "
-"Hinzufügen von Ressourcen fortfahren."
+"Sie haben jetzt Ihre erste Ressource angelegt und können entweder mit dem"
+" Button «Beenden» Ihr Dataset und Ihre Ressource abspeichern oder Sie "
+"können mit dem Button «Speichern & weitere hinzufügen» mit dem Hinzufügen"
+" von Ressourcen fortfahren."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:297
-msgid "Dataset weiter bearbeiten"
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:296
+msgid "Dataset weiterbearbeiten"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:299
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:298
 msgid ""
 "Das Hinzufügen weiterer Ressourcen ist auch nach dem Anlegen Ihres "
-"Dataset noch möglich."
+"Datasets noch möglich."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:301
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:300
 msgid ""
 "Gehen Sie dazu zur Detailansicht Ihres Datasets im Backend der "
 "Abnahmeumgebung und klicken Sie auf «Bearbeiten» und anschliessend auf "
 "«Ressourcen»:"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:310
-#, fuzzy
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:309
 msgid "Dataset prüfen"
 msgstr "Vérifier le jeu de données prévisualisé"
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:312
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:311
 msgid ""
 "Sehen Sie sich Ihr Dataset in der Detailansicht an: Sind alle Felder so "
-"ausgefüllt, wie Sie es erwarten, dann können Sie Ihr Dataset "
+"ausgefüllt, wie Sie es erwarten, können Sie Ihr Dataset "
 ":ref:`veröffentlichen <manuell-datensatz-veroeffentlichen>`."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:321
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:320
 msgid "Dataset veröffentlichen"
 msgstr "Publier le jeu de données"
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:323
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:322
 msgid ""
 "In der Detailansicht wird Ihnen ganz oben rechts der Status Ihres "
 "Datasets angezeigt: «Entwurf» bedeutet, Sie bearbeiten die Metadaten des "
@@ -483,7 +470,7 @@ msgid ""
 " dass das Dataset in der Abnahmeumgebung publiziert ist."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:332
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:331
 msgid ""
 "Gehen Sie dazu zurück zu «Bearbeiten», «Metadaten bearbeiten» und "
 "scrollen Sie bis zum Feld «Sichtbarkeit». Sie können Ihr Dataset sofort "
@@ -493,8 +480,7 @@ msgid ""
 "Zukunft festlegen."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:343
-#, fuzzy
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:342
 msgid ""
 "Wichtig: Vergessen Sie nicht nach der Änderung auf «Aktualisieren» zu "
 "klicken."
@@ -502,16 +488,17 @@ msgstr ""
 "Important: après chaque modification de données déjà publiées, veuillez "
 "cliquer sur «Mettre à jour»."
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:348
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:347
 msgid "Dataset im Frontend prüfen"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:350
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:349
 msgid ""
 "Sobald Ihr Dataset veröffentlicht ist, kann es auch im Frontend der "
-"Abnahmeumgebung angesehen werden. Sie gelangen zu der Datenansicht Ihres "
-"Datasets im Frontend, indem Sie ``ckan`` aus der URL Ihres Datasets "
-"entfernen:"
+"Abnahmeumgebung angesehen werden. Bitte beachten Sie, dass die "
+"Aktualisierung der Daten bis zu 60 Minuten dauern kann. Sie gelangen zu "
+"der Datenansicht Ihres Datasets im Frontend, indem Sie ``ckan`` aus der "
+"URL Ihres Datasets entfernen:"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:360
@@ -531,7 +518,6 @@ msgid "Veröffentlichung in der Produktionsumgebung"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:381
-#, fuzzy
 msgid ""
 "Sollten Sie zum ersten Mal Daten publizieren, muss Ihr Dataset von der "
 ":term:`Abnahmeumgebung <Abnahmeumgebung>` noch auf die "
@@ -550,7 +536,6 @@ msgid "Support"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:391
-#, fuzzy
 msgid ""
 "Sie haben eine Frage zum manuellen Erfassen Ihres Datasets? `Schreiben "
 "Sie uns <mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne "
@@ -567,7 +552,7 @@ msgstr ""
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:401
 msgid ""
 ":doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` "
-"– Beschreibung des aktuell von opendata.swiss genutzte Datenstandards "
+"– Beschreibung des aktuell von opendata.swiss genutzten Datenstandards "
 "DCAT-AP-CH"
 msgstr ""
 
@@ -942,4 +927,106 @@ msgstr ""
 #~ "est assurée, mais le moment exact "
 #~ "peut varier de plus ou moins une"
 #~ " heure par rapport à l’heure choisie."
+
+#~ msgid ""
+#~ "Als Erstes müssen Sie Ihrem Dataset "
+#~ "einen Namen geben (“Titel für den "
+#~ "Slug”). Aus ihm wird der :term:`Slug "
+#~ "<Slug>` des Datasets gebildet. Dieses "
+#~ "Feld dient nur zur Bildung des "
+#~ "Slugs. Später wird der Titel Ihres "
+#~ "Datasets aus den Einträgen im Datenfeld"
+#~ " «Titel (EN) (DE) (FR) (IT)» "
+#~ "ermittelt: Bitte legen Sie den Titel "
+#~ "Ihres Datasets in mindestens einer "
+#~ "Landessprache und auf Englisch fest. "
+#~ "(Der Eintrag in Englisch wird bei "
+#~ "der Weitergabe Ihres Datasets an das "
+#~ ":term:`europäische Datenportal <Europäisches "
+#~ "Datenportal>` benötigt.)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Hier müssen Sie Angaben zu Ihnen "
+#~ "als datenpublizierende Organisation eingeben. "
+#~ "Im Pflichtfeld «Publisher» geben Sie die"
+#~ " für das Dataset verantwortliche "
+#~ "Organisation an. Dies können auch "
+#~ "mehrere Organisationen sein, jedoch keine "
+#~ "Personen. Im Pflichtfeld «Kontaktstellen» muss"
+#~ " mindestens eine Kontaktstelle angegeben "
+#~ "werden, die von den Datennutzenden bei"
+#~ " Rückfragen kontaktiert werden darf."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Es ist wichtig ein oder mehrere "
+#~ "Schlagwörter zum Dataset anzugeben. "
+#~ "Schlagwörter helfen dabei, die Auffindbarkeit"
+#~ " zu steigern. So können diese als "
+#~ "Filtermöglichkeit verwendet werden, um die "
+#~ "Auswahl der Datasets thematisch einzugrenzen."
+#~ " Mögliche Schlagwörter können Sie aus "
+#~ "Ihren Metadaten oder Ihrem Quellsystem "
+#~ "ermitteln. Sie können auch aus den "
+#~ "meistgenutzten Schlagwörtern auswählen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Für jede Ressource müssen Sie unter "
+#~ "«Zugangs-URL» eine URL angeben, über "
+#~ "welche auf die Ressource zugegriffen "
+#~ "werden kann. Falls sich hinter der "
+#~ "URL ein Download verbirgt, muss die "
+#~ "URL auch im Feld «Download-URL» "
+#~ "eingetragen werden. Ebenfalls optional kann"
+#~ " die «Grösse» der Ressource in Bytes"
+#~ " angegeben werden. Unter «Format» wählen"
+#~ " Sie das Format, das dem Ihrer "
+#~ "Ressourcen entspricht."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sie haben jetzt Ihre erste Ressource "
+#~ "angelegt und können jetzt entweder mit"
+#~ " dem Button «Beenden» Ihr Dataset und"
+#~ " Ihre Ressource abspeichern oder Sie "
+#~ "können mit dem Button «Speichern & "
+#~ "weitere hinzufügen» mit dem Hinzufügen "
+#~ "von Ressourcen fortfahren."
+#~ msgstr ""
+
+#~ msgid "Dataset weiter bearbeiten"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Das Hinzufügen weiterer Ressourcen ist "
+#~ "auch nach dem Anlegen Ihres Dataset "
+#~ "noch möglich."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sehen Sie sich Ihr Dataset in der"
+#~ " Detailansicht an: Sind alle Felder "
+#~ "so ausgefüllt, wie Sie es erwarten, "
+#~ "dann können Sie Ihr Dataset "
+#~ ":ref:`veröffentlichen <manuell-datensatz-"
+#~ "veroeffentlichen>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sobald Ihr Dataset veröffentlicht ist, "
+#~ "kann es auch im Frontend der "
+#~ "Abnahmeumgebung angesehen werden. Sie gelangen"
+#~ " zu der Datenansicht Ihres Datasets "
+#~ "im Frontend, indem Sie ``ckan`` aus "
+#~ "der URL Ihres Datasets entfernen:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`DCAT-AP-CH (Link, englisch) "
+#~ "<../../glossar/bibliothek/dcat-ap-ch>` – "
+#~ "Beschreibung des aktuell von opendata.swiss"
+#~ " genutzte Datenstandards DCAT-AP-CH"
+#~ msgstr ""
 

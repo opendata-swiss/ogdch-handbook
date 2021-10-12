@@ -4,7 +4,6 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
@@ -82,56 +81,4 @@ msgstr ":doc:`Lignes directrices OGD <publikationsrichtlinien>`"
 #: ../../source/content/vorbereiten/vorbereiten.rst:32
 msgid ":doc:`OGD-Richtlinien lesen <publikationsrichtlinien>`"
 msgstr ":doc:`Lire les lignes directrices OGD <publikationsrichtlinien>`"
-
-#~ msgid ":doc:`Für jedes Dataset <dataset>`"
-#~ msgstr ":doc:`Pour chaque jeu de données <dataset>`"
-
-#~ msgid ":doc:`Rechtliche Anforderungen prüfen <dataset/rechtlicher-check>`"
-#~ msgstr ":doc:`Vérifier les exigences légales <dataset/rechtlicher-check>`"
-
-#~ msgid ":doc:`Technische Anforderungen prüfen <dataset/technischer-check>`"
-#~ msgstr ":doc:`Vérifier les exigences techniques <dataset/technischer-check>`"
-
-#~ msgid ""
-#~ ":doc:`Organisatorische Anforderungen prüfen <dataset"
-#~ "/organisatorischer-check>`"
-#~ msgstr ""
-#~ ":doc:`Vérifier les exigences organisationnelles "
-#~ "<dataset/organisatorischer-check>`"
-
-#~ msgid ""
-#~ "Am Anfang steht eine gute Vorbereitung."
-#~ " Bevor Sie Daten als Open Government"
-#~ " Data publizieren können, müssen Sie "
-#~ "sicherstellen, dass die Anforderungen für "
-#~ "eine Publikation der OGD erfüllt sind."
-#~ " Die Anforderungen lassen sich in "
-#~ "drei Kategorien einteilen: Rechtliche "
-#~ "Anforderungen, technische Anforderungen und "
-#~ "organisatorische Anforderungen. Diese Anforderungen"
-#~ " sind wichtig, damit die reibungslose "
-#~ "Verwendung der Daten durch Dritte "
-#~ "gewährleistet ist."
-#~ msgstr ""
-#~ "Toute publication nécessite une préparation"
-#~ " minutieuse. Avant de publier des "
-#~ "données publiques ouvertes, veuillez vous "
-#~ "assurer que les exigences légales, "
-#~ "techniques et organisationnelles en matière"
-#~ " d’OGD sont remplies. Le respect de"
-#~ " ces exigences garantit que ces "
-#~ "données peuvent être utilisées efficacement."
-
-#~ msgid ""
-#~ "In diesem Kapitel unterstützen wir Sie"
-#~ " dabei zu prüfen, ob diese "
-#~ "Anforderungen erfüllt werden – passend "
-#~ "zu Ihren jeweiligen Daten und mit "
-#~ "so wenig Aufwand wie möglich."
-#~ msgstr ""
-#~ "Ce chapitre vous montre comment vérifier"
-#~ " si les exigences sont respectées, en"
-#~ " fonction de vos données et en "
-#~ "veillant à réduire le travail autant "
-#~ "que possible."
 

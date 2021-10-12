@@ -4,7 +4,6 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
@@ -57,7 +56,6 @@ msgid "Die Schritte auf einen Blick"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:30
-#, fuzzy
 msgid ""
 ":ref:`Erste Aktivierung von Organisation und Benutzerinnen und Benutzer "
 "<erste_aktivierung>`"
@@ -72,7 +70,6 @@ msgid "Erste Aktivierung von Organisation und Benutzer"
 msgstr "Activation initiale de l’organisation et des utilisateurs"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:38
-#, fuzzy
 msgid ""
 "Für die erste Aktivierung stellen Sie `uns "
 "<mailto:opendata@bfs.admin.ch>`__ bitte folgende Informationen zur "
@@ -90,7 +87,6 @@ msgstr ""
 "données. Vous pourrez compléter ces informations par la suite."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:43
-#, fuzzy
 msgid ""
 "E-Mail-Adresse der Benutzerinnen und Benutzer, die Metadaten erfassen und"
 " verwalten werden. Verwenden Sie bitte für die Registrierung keine "
@@ -138,7 +134,6 @@ msgid "Support"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:64
-#, fuzzy
 msgid ""
 "Wir benötigen durchschnittlich 2 bis 5 Werktage, um Ihre Anfrage zu "
 "bearbeiten. `Jetzt Zugang anfordern <mailto:opendata@bfs.admin.ch>`__."
@@ -203,7 +198,6 @@ msgid ":doc:`Nächster Schritt: Profil verwalten <profil-einrichten>`"
 msgstr ":doc:`Prochaine étape: gestion du profil <profil-einrichten>`"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:94
-#, fuzzy
 msgid ""
 "Sobald wir Ihnen Ihr persönliches Login zugestellt haben, können Sie Ihr "
 "Profil ausfüllen und danach Informationen zu Ihrer Organisation ergänzen."
@@ -211,69 +205,4 @@ msgstr ""
 "Dès que nous vous aurons fait parvenir votre login personnel, vous "
 "pourrez compléter votre profil puis saisir des informations sur votre "
 "organisation."
-
-#~ msgid ""
-#~ "Als Erstes benötigen Sie ein Profil, "
-#~ "um sich auf opendata.swiss einloggen zu"
-#~ " können. Als Betreiber von opendata.swiss"
-#~ " stellen wir das User-Management "
-#~ "sicher. Nehmen Sie für die Aktivierung"
-#~ " Ihrer Organisation und Ihres Profils "
-#~ "mit uns `Kontakt <mailto:opendata@bfs.admin.ch>`__"
-#~ " auf – am besten so früh wie"
-#~ " möglich, damit wir Ihre Anfrage "
-#~ "rasch bearbeiten können. Melden Sie uns"
-#~ " dafür den Namen der Organisation, "
-#~ "die Daten publizieren wird, sowie auch"
-#~ " die E-Mail-Adresse der Benutzerinnen "
-#~ "und Benutzer, die Metadaten erfassen und"
-#~ " verwalten werden. Verwenden Sie dafür "
-#~ "bitte keine generischen, unpersönlichen "
-#~ "Adressen wie opendata@bfs.admin.ch."
-#~ msgstr ""
-#~ "Pour commencer, il vous faut créer "
-#~ "un profil pour vous connecter à "
-#~ "opendata.swiss. En tant qu’exploitant "
-#~ "d’opendata.swiss, nous assurons la gestion "
-#~ "des utilisateurs. Veuillez `prendre contact"
-#~ " avec nous <mailto:opendata@bfs.admin.ch>`__ le"
-#~ " plus tôt possible pour activer votre"
-#~ " organisation et votre profil, de "
-#~ "sorte que nous puissions traiter votre"
-#~ " demande dans les meilleurs délais. À"
-#~ " cet effet, veuillez nous communiquer "
-#~ "le nom de l’organisation qui procédera"
-#~ " à la publication de données ainsi"
-#~ " que l’adresse électronique des "
-#~ "utilisateurs qui s’occuperont de la "
-#~ "saisie et de la gestion des "
-#~ "métadonnées. L’utilisation d’adresses génériques "
-#~ "et impersonnelles, opendata@bfs.admin.ch p. "
-#~ "ex., est exclue."
-
-#~ msgid ""
-#~ "Was wir für die Registrierung von "
-#~ "Ihnen bzw. allen Personen, die Daten "
-#~ "Ihrer Organisation publizieren möchten, "
-#~ "benötigen:"
-#~ msgstr ""
-#~ "Veuillez nous communiquer les informations "
-#~ "suivantes pour l’enregistrement de chaque "
-#~ "personne qui publiera les données de "
-#~ "votre organisation:"
-
-#~ msgid "Name"
-#~ msgstr "Nom"
-
-#~ msgid "E-mail Adresse"
-#~ msgstr "Adresse e-mail"
-
-#~ msgid "Name der Organisation"
-#~ msgstr "Nom de l’organisation"
-
-#~ msgid "URL der Organisation"
-#~ msgstr "URL de l’organisation"
-
-#~ msgid "Übersicht der zu publizierenden Daten (kurze Liste)"
-#~ msgstr "Aperçu des données à publier (liste succincte)"
 

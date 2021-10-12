@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,39 +17,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/_templates/footer.html:25
-#: ../../source/_templates/footer.html:28
+#: ../../source/_templates/footer.html:7
+msgid "Sie haben Fragen?"
+msgstr ""
+
+#: ../../source/_templates/footer.html:8
+msgid "Schreiben Sie uns."
+msgstr ""
+
+#: ../../source/_templates/footer.html:24
+#: ../../source/_templates/footer.html:27
 msgid "Copyright"
 msgstr ""
 
-#: ../../source/_templates/footer.html:35
+#: ../../source/_templates/footer.html:34
 msgid "Build"
 msgstr ""
 
-#: ../../source/_templates/footer.html:41
+#: ../../source/_templates/footer.html:40
 msgid "Revision"
 msgstr ""
 
-#: ../../source/_templates/footer.html:45
+#: ../../source/_templates/footer.html:44
 #, python-format
 msgid "Last updated on %(last_updated)s."
 msgstr ""
 
-#: ../../source/_templates/footer.html:58
+#: ../../source/_templates/footer.html:57
 #, python-format
 msgid "Built with %(sphinx_web)s using a"
 msgstr ""
 
-#: ../../source/_templates/footer.html:60
+#: ../../source/_templates/footer.html:59
 msgid "theme"
 msgstr ""
 
-#: ../../source/_templates/footer.html:62
+#: ../../source/_templates/footer.html:61
 #, python-format
 msgid "provided by %(readthedocs_web)s"
 msgstr ""
 
-#: ../../source/_templates/searchbox.html:4
+#: ../../source/_templates/searchbox.html:7
 msgid "Handbuch durchsuchen"
 msgstr ""
 

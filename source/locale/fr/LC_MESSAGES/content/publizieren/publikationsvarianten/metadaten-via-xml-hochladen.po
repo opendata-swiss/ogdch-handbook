@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-17 08:33+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,7 +65,6 @@ msgid ":ref:`Datenkatalog importieren <xml_datenkatalog_hochladen>`"
 msgstr ":ref:`Importer le catalogue de données <xml_datenkatalog_hochladen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:31
-#, fuzzy
 msgid ":ref:`Datasets prüfen <xml_datensaetze_pruefen>`"
 msgstr ":ref:`Vérifier le jeu de données <xml_datensaetze_pruefen>`"
 
@@ -75,7 +73,6 @@ msgid ":ref:`Dataset veröffentlichen <xml_datensaetze_veroeffentlichen>`"
 msgstr ":ref:`Publier le jeu de données <xml_datensaetze_veroeffentlichen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:33
-#, fuzzy
 msgid ":ref:`Datasets im Frontend prüfen <xml_datensaetze_im_frontend>`"
 msgstr ":ref:`Vérifier le jeu de données <xml_datensaetze_pruefen>`"
 
@@ -88,7 +85,6 @@ msgid "Gut zu wissen"
 msgstr "Bon à savoir"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:38
-#, fuzzy
 msgid ""
 "Sollten Sie zum ersten Mal Daten publizieren, führen wir Sie durch den "
 "Prozess und unterstützen Sie dabei, die korrekte Übermittlung und "
@@ -108,7 +104,6 @@ msgid "Datenkatalog importieren"
 msgstr "Importer le catalogue de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:51
-#, fuzzy
 msgid ""
 "Loggen Sie sich im Backend von opendata.swiss ein. Handelt es sich um "
 "eine Erstpublikation oder möchten Sie eine neue oder besonders komplexe "
@@ -174,7 +169,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:102
-#, fuzzy
 msgid "Datasets prüfen"
 msgstr "Vérifier le jeu de données"
 
@@ -220,7 +214,7 @@ msgstr ""
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:144
 msgid ""
 "Sie können Ihr Dataset sofort veröffentlichen, indem Sie den Status auf "
-"\"Veröffentlicht\" ändern. Oder sie können eine zukünftige "
+"\"Veröffentlicht\" ändern. Oder Sie können eine zukünftige "
 "Veröffentlichung planen, indem Sie im darunterliegenden Feld den "
 "Veröffentlichungstermin terminieren."
 msgstr ""
@@ -232,7 +226,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:152
-#, fuzzy
 msgid ""
 "Wichtig: Vergessen Sie nicht nach der Änderung auf «Aktualisieren» zu "
 "klicken. Sie finden diesen Button ganz unten im Webformular."
@@ -241,14 +234,13 @@ msgstr ""
 "cliquer sur «Mettre à jour»."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:158
-#, fuzzy
 msgid "Datasets im Frontend prüfen"
 msgstr "Vérifier le jeu de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:160
 msgid ""
-"Sobald Ihre Datasets veröffenlicht sind, können sie auch im Frontend der "
-"Abnahmeumgebung angesehen werden. Sie gelangen zu der Datenansicht Ihres "
+"Sobald Ihre Datasets veröffentlicht sind, können sie auch im Frontend der"
+" Abnahmeumgebung angesehen werden. Sie gelangen zur Datenansicht Ihres "
 "Datasets im Frontend, indem Sie in die Detailansicht Ihres Datasets gehen"
 " und ``ckan`` aus der URL Ihres Datasets entfernen:"
 msgstr ""
@@ -515,4 +507,24 @@ msgstr ""
 #~ "vous, il suffit de nous envoyer un"
 #~ " e-mail ((Mail to: opendata(at)bfs.admin.ch))."
 #~ " "
+
+#~ msgid ""
+#~ "Sie können Ihr Dataset sofort "
+#~ "veröffentlichen, indem Sie den Status "
+#~ "auf \"Veröffentlicht\" ändern. Oder sie "
+#~ "können eine zukünftige Veröffentlichung "
+#~ "planen, indem Sie im darunterliegenden "
+#~ "Feld den Veröffentlichungstermin terminieren."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sobald Ihre Datasets veröffenlicht sind, "
+#~ "können sie auch im Frontend der "
+#~ "Abnahmeumgebung angesehen werden. Sie gelangen"
+#~ " zu der Datenansicht Ihres Datasets "
+#~ "im Frontend, indem Sie in die "
+#~ "Detailansicht Ihres Datasets gehen und "
+#~ "``ckan`` aus der URL Ihres Datasets "
+#~ "entfernen:"
+#~ msgstr ""
 
