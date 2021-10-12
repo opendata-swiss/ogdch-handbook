@@ -4,7 +4,6 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
@@ -210,24 +209,4 @@ msgstr ""
 "que vos données sont conformes aux lignes directrices OGD. "
 "Si vous avez sauté cette étape, "
 "il suffit de cliquer :doc:`ici pour y retourner et préparer vos données <../vorbereiten/dataset>`"
-
-#~ msgid ""
-#~ "Bevor Sie mit dem Publikationsprozess "
-#~ "starten, ist es wichtig, dass Sie "
-#~ "die Rechtsgrundlage Ihrer Daten geprüft "
-#~ "und die Nutzungsbedingung festgelegt haben."
-#~ " Sie haben diesen Schritt verpasst? "
-#~ "Kein Problem, mit einem Klick können "
-#~ "Sie dies nachholen und Ihre :doc:`Daten"
-#~ " hier vorbereiten "
-#~ "<../vorbereiten/publikationsrichtlinien>`."
-#~ msgstr ""
-#~ "Avant de lancer la procédure de "
-#~ "publication, vous devez avoir vérifié la"
-#~ " base juridique de vos données et "
-#~ "choisi les conditions d’utilisation. Si "
-#~ "vous avez sauté cette étape, il "
-#~ "suffit de cliquer :doc:`ici pour y "
-#~ "retourner et préparer vos données "
-#~ "<../vorbereiten/dataset>`"
 

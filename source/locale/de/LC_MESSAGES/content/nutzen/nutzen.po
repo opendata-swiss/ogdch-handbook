@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,17 +30,13 @@ msgstr ""
 msgid "Auf einen Blick"
 msgstr ""
 
-#: ../../source/content/nutzen/nutzen.rst:15
-msgid ":fa:`wrench` Work in progress: Dieser Inhalt wird aktuell überarbeitet."
-msgstr ""
-
-#: ../../source/content/nutzen/nutzen.rst:17
+#: ../../source/content/nutzen/nutzen.rst:13
 msgid ""
 "Wir freuen uns, dass Sie Daten von opendata.swiss nutzen möchten. Hier "
 "finden Sie alles rund um die Nutzung von OGD."
 msgstr ""
 
-#: ../../source/content/nutzen/nutzen.rst:20
+#: ../../source/content/nutzen/nutzen.rst:16
 msgid ""
 "Wir möchten Ihnen hier Hilfestellungen zur :doc:`Datensuche <daten-"
 "suchen>` und zur :doc:`Nutzung unserer API <api-nutzen>` anbieten. Bitte "
@@ -49,7 +44,7 @@ msgid ""
 "Englisch vorliegen."
 msgstr ""
 
-#: ../../source/content/nutzen/nutzen.rst:26
+#: ../../source/content/nutzen/nutzen.rst:22
 msgid ""
 "Die Datenpublizierenden stehen Ihnen übrigens gerne für Fragen zur "
 "Verfügung. Kontaktangaben finden Sie jeweils im Dataset unter "
@@ -59,26 +54,26 @@ msgid ""
 "uns über `Ihre Anfrage <mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
 
-#: ../../source/content/nutzen/nutzen.rst:34
+#: ../../source/content/nutzen/nutzen.rst:30
 msgid ""
 "Wollen Sie ein Projekt oder eine Initiative im Bereich Open Data "
 "initiieren? Der Verein opendata.ch freut sich, Sie dabei zu unterstützen."
 " `Nehmen Sie Kontakt auf <mailto:info@opendata.ch>`__."
 msgstr ""
 
-#: ../../source/content/nutzen/nutzen.rst:38
+#: ../../source/content/nutzen/nutzen.rst:34
 msgid ":doc:`Daten suchen <daten-suchen>`"
 msgstr ""
 
-#: ../../source/content/nutzen/nutzen.rst:39
+#: ../../source/content/nutzen/nutzen.rst:35
 msgid ":doc:`API nutzen <api-nutzen>`"
 msgstr ""
 
-#: ../../source/content/nutzen/nutzen.rst:43
+#: ../../source/content/nutzen/nutzen.rst:39
 msgid "Mehr zum Thema"
 msgstr ""
 
-#: ../../source/content/nutzen/nutzen.rst:45
+#: ../../source/content/nutzen/nutzen.rst:41
 msgid "`Nutzungsbedingungen (Link) <https://opendata.swiss/de/terms-of-use/>`__,"
 msgstr ""
 

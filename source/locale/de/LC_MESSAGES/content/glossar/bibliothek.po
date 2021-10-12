@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,16 +46,29 @@ msgid ""
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek.rst:26
-msgid "Standards für Daten"
+msgid ""
+"Richtlinien für die Veröffentlichung von Open Government Data («OGD-"
+"Richtlinien»)"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek.rst:28
+msgid ""
+":doc:`Die «OGD-Richtlinien» <bibliothek/ogd-richtlinien>` dienen als "
+"Orientierung für die Einheiten der Bundesverwaltung bei der Umsetzung des"
+" Prinzips open data by default."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek.rst:31
+msgid "Standards für Daten"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek.rst:33
 msgid ""
 ":doc:`DCAT-AP-CH <bibliothek/dcat-ap-ch>` dokumentiert den DCAT-AP-CH "
 "Standard, der auf opendata.swiss implementiert ist."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek.rst:29
+#: ../../source/content/glossar/bibliothek.rst:34
 msgid ""
 ":doc:`ISO-19139_che zu DCAT-AP-CH <bibliothek/geocat-mapping>` "
 "dokumentiert die Umwandlung des GM03-Standards, der für Geodaten genutzt "
@@ -64,30 +76,30 @@ msgid ""
 "ist."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek.rst:30
+#: ../../source/content/glossar/bibliothek.rst:35
 msgid ""
 ":doc:`Linked Open Data <bibliothek/linked-open-data>` führt Sie in das "
 "Thema Linked Open Data ein."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek.rst:31
+#: ../../source/content/glossar/bibliothek.rst:36
 msgid ""
 ":doc:`Standard-Formate für Ressourcen <bibliothek/formate-ressourcen>` "
 "dokumentiert alle gängigen Formate und enthält Links zu Ihren "
 "Definitionen."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek.rst:34
+#: ../../source/content/glossar/bibliothek.rst:39
 msgid "Anderes:"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek.rst:36
+#: ../../source/content/glossar/bibliothek.rst:41
 msgid ""
 ":doc:`Q&A Hosting <bibliothek/hosting>` enthält Fragen und Antworten zum "
 "Thema Hosting von Daten."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek.rst:37
+#: ../../source/content/glossar/bibliothek.rst:42
 msgid ""
 ":doc:`Embedding Datasets <bibliothek/embed>` gibt Tipps zum Einbetten von"
 " Datasets auf anderen Websites."

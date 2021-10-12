@@ -4,7 +4,6 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
@@ -60,7 +59,4 @@ msgid ""
 msgstr ""
 ":doc:`Vérifier les exigences organisationnelles <dataset"
 "/organisatorischer-check>`"
-
-#~ msgid ":doc:`Préparer <vorbereiten>` :fa:`chevron-right`"
-#~ msgstr ""
 

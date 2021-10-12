@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,52 +40,142 @@ msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:17
 msgid ""
-"Mit dem von uns zugestellten Log-in können Sie sich in Ihr Profil auf der"
-" :term:`Abnahmeumgebung <Abnahmeumgebung>` von opendata.swiss einloggen. "
-"Auf der Seite «Benutzer» können Sie Ihre Profilinformationen editieren "
-"und Ihr Konto verwalten."
+"Mit dem von uns zugestellten Login können Sie sich auf der "
+":term:`Abnahmeumgebung <Abnahmeumgebung>` von opendata.swiss einloggen. "
+"Dort können Sie Ihre Organisation sowie auch Ihre aktuellen Einträge auf "
+"opendata.swiss managen und erfassen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:23
+msgid "Die Schritte auf einen Blick"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:25
+msgid ":ref:`Passwort setzen <passwort_setzen>`"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:26
-msgid "Die wichtigsten Angaben im Überblick"
+msgid ":ref:`Benutzer-Dashboard <benutzer_dashboard>`"
 msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:29
-msgid "Benutzerkonten-Verwaltung"
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:27
+msgid ":ref:`Benutzerkontenverwaltung <benutzerkonten_verwaltung>`"
 msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst
-msgid "Neues Passwort"
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:28
+msgid ":ref:`Benutzer-Navigation <benutzer_navigation>`"
 msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:31
-msgid "(* Pflichtfeld)"
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:34
+msgid "Passwort setzen"
 msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:33
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:36
 msgid ""
-"Sie haben Ihr Passwort vergessen? Kein Problem. Klicken Sie auf «Passwort"
-" generieren» und Sie erhalten in Kürze eine E-Mail, um Ihr Passwort zu "
-"ändern."
+"Sie erhalten von uns nach der Registrierung eine E-Mail mit Ihrem "
+"Benutzernamen und einem Link zum Setzen Ihres Passworts."
 msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:38
-msgid "Änderungen speichern"
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:39
+msgid ""
+"Bitte geben Sie Ihren Benutzernamen ein und klicken Sie auf «Anforderung "
+"zurücksetzen». Sie erhalten dann eine zweite E-Mail mit einem direkten "
+"Link für das Setzen Ihres Passworts. Anschliessend können Sie sich dann "
+"im Backend der :term:`Abnahmeumgebung <Abnahmeumgebung>` von "
+"opendata.swiss einloggen."
 msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:40
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:50
+msgid "Benutzer-Dashboard"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:52
+msgid ""
+"Nach dem Einloggen gelangen Sie zu Ihrem Benutzer-Dashboard. Sie können "
+"zu Ihrer Organisation wechseln, indem Sie auf den Tab «Meine "
+"Organisationen» klicken."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:62
+msgid "Benutzerkontenverwaltung"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:64
+msgid ""
+"Zu Ihrem Benutzerkonto gelangen Sie, wenn Sie im Dashboard auf "
+"«Bearbeitete Einstellungen» klicken."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:69
+msgid ""
+"Den «Benutzernamen» haben Sie bereits bei Ihrer Registrierung erhalten. "
+"Dieser dient zu Ihrer eindeutigen Identifikation auf der Plattform und "
+"kann nicht geändert werden. «Vollständiger Name» ist der Name, mit dem "
+"Sie und andere Benutzerinnen und Benutzer im :term:`Backend <Backend>` "
+"erscheinen. Ihre «E-Mail»  haben wir bereits bei der Registrierung "
+"erfasst. Beim Feld «Über das Portal» können Sie Zusatzinformationen zu "
+"Ihrer Person eingeben."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:78
 msgid ""
 "Nicht vergessen: Bestätigen Sie alle gemachten Änderungen mit einem Klick"
-" auf «Profil aktualisieren»."
+" auf den Button «Profil aktualisieren»."
 msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:45
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:84
+msgid "Benutzer-Navigation"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:86
 msgid ""
-":doc:`Nächster Schritt: Informationen zur Organisation ergänzen "
-"<organisation-einrichten>`"
+"Als Benutzer steht Ihnen ganz oben rechts eine Navigationsleiste zur "
+"Verfügung:"
 msgstr ""
 
-#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:47
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:91
+msgid "Das Dashboard-Icon führt Sie zu Ihrem Benutzer-Dashboard."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:92
+msgid ""
+"Wenn Sie auf Ihren Benutzernamen klicken, gelangen Sie zur Darstellung "
+"Ihres Profils, wie andere berechtigte Benutzerinnen und Benutzer  (etwa "
+"ein Sysadmin) Sie sehen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:94
+msgid ""
+"Der Button mit dem Settings-Icon und der Bezeichnung “Bearbeiten” führt "
+"zum Editieren Ihres Benutzerprofils."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:95
+msgid "Ganz rechts oben können Sie sich ausloggen."
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:99
+msgid "Mehr zum Thema"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:101
+msgid "So loggen Sie sich auf dem Backend von opendata.swiss ein:"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:103
+msgid ""
+":download:`Screencast zum Login <../../../_static/screencasts/login.gif>`"
+" - In diesem Screencast zeigen wir Ihnen das Einloggen auf dem "
+":term:`Backend <Backend>`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:108
+msgid ""
+":doc:`Nächster Schritt: Informationen zur publizierenden Organisation "
+"ergänzen <organisation-einrichten>`"
+msgstr ""
+
+#: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:110
 msgid ""
 "Ihr Profil ist nun angelegt und ausgefüllt, jetzt können Sie "
 "Informationen zu Ihrer Organisation eingeben."

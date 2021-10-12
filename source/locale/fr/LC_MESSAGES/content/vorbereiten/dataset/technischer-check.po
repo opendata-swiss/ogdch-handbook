@@ -4,7 +4,6 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
@@ -328,7 +327,6 @@ msgid "Mehr zum Thema"
 msgstr "Informations complémentaires"
 
 #: ../../source/content/vorbereiten/dataset/technischer-check.rst:128
-#, fuzzy
 msgid ""
 ":doc:`Linked Open Data <../../glossar/bibliothek/linked-open-data>` – "
 "Eine Einführung in das Thema Linked Open Data"
@@ -365,11 +363,4 @@ msgstr ""
 " veiller au respect des exigences organisationnelles ou liées aux "
 "procédures. Cette approche est indispensable pour garantir en tout temps "
 "une publication durable et efficace des données."
-
-#~ msgid ""
-#~ "`https://www.europeandataportal.eu/de/training/data-"
-#~ "providers-guide "
-#~ "<https://www.europeandataportal.eu/fr/training/data-"
-#~ "providers-guide>`__"
-#~ msgstr ""
 

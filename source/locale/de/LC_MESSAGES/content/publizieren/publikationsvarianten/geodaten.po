@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,89 +38,123 @@ msgid "Metadaten via geocat.ch publizieren"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:13
-msgid "Wie publiziere ich Geo-Metadaten?"
+msgid "Wie publiziere ich Geometadaten?"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:17
 msgid ""
-"Geodaten sind ein Spezialfall. Um Geo-Metadaten auf opendata.swiss zu "
-"publizieren, müssen die Metadaten zuerst im geografischen Datenkatalog "
-"der Schweiz, dem Katalog für Geometadaten `geocat.ch "
-"<https://www.geocat.ch/geonetwork/srv/eng/catalog.search>`__, publiziert "
-"werden. Von dort werden die benötigten Attribute dann durch einen "
+"Die Publikation von Geodaten ist ein Spezialfall. Die Geometadaten werden"
+" primär im geografischen Datenkatalog der Schweiz, dem Katalog für "
+"Geometadaten `geocat.ch "
+"<https://www.geocat.ch/geonetwork/srv/eng/catalog.search>`__, erfasst und"
+" verwaltet. Von dort werden die benötigten Attribute dann durch einen "
 "automatisierten Prozess zu opendata.swiss überführt."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:24
-msgid "Geo-Metadaten auf geocat.ch publizieren"
-msgstr ""
-
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:25
-msgid ""
-"Unter dem folgenden Link finden Sie eine `Anleitung "
-"<https://www.geocat.admin.ch/de/dokumentation/opendata.html>`__, wie Sie "
-"Ihre Metadaten auf geocat.ch publizieren können"
+msgid "Geometadaten auf geocat.ch publizieren"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:30
-msgid "Harvesting von Geodaten"
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:27
+msgid ""
+"Stellen Sie vor der Veröffentlichung sicher, dass Ihre Daten auf "
+"geocat.ch vollständig erfasst sind."
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:31
-msgid ""
-"Für das Einrichten des Harvesters benötigen Sie einen sogenannten CSW-"
-"Endpoint auf geocat.ch. Senden Sie dazu eine entsprechende `Anfrage an "
-"das geocat.ch-Team <geocat@swisstopo.ch>`__. Sobald der csw-Endpoint "
-"eingerichtet ist, werden vom geocat.ch-Team in Absprache mit Ihnen die "
-"Harvesting-Tests durchgeführt. Gerne erinnern wir Sie daran, dass die "
-"Registrierung Ihrer Organisation auf opendata.swiss weiterhin eine "
-"Voraussetzung bleibt. Falls Ihre Organisation noch nicht eingerichtet "
-"ist, `kontaktieren Sie uns gern <mailto:opendata@bfs.admin.ch>`__."
+msgid "Harvesting von Geodaten (geocat.ch > opendata.swiss)"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:43
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst
+msgid "Schritt 1"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:33
 msgid ""
-"Wichtig: Die verschiedenen :doc:`rechtlichen, technischen und "
-"organisatorischen Anforderungen <../../vorbereiten/dataset>` müssen "
-"weiterhin erfüllt werden."
+"Die Registrierung Ihrer Organisation auf opendata.swiss bleibt weiterhin "
+"eine Voraussetzung. Falls Ihre Organisation noch nicht eingerichtet ist, "
+"finden Sie :doc:`hier <../erstpublizierende>` den Prozess beschrieben."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst
+msgid "Schritt 2"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:37
+msgid ""
+"Sobald die publizierende Organisation vorhanden ist, muss ein «geocat-"
+"Harvester» eingerichtet werden. Dafür benötigen Sie einen sogenannten "
+"CSW-Endpoint auf geocat.ch. Das `geocat.ch-Team "
+"<mailto:geocat@swisstopo.ch>`__ unterstützt Sie dabei."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst
+msgid "Schritt 3"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:42
+msgid ""
+"Nachdem der CSW-Endpoint eingerichtet ist, werden vom geocat.ch-Team in "
+"Absprache mit Ihnen die Harvesting-Tests durchgeführt. Dabei wird "
+"geprüft, ob der Prozess zum automatischen Transfer der Metadaten von "
+"geocat.ch zu opendata.swiss optimal funktioniert. `Hier "
+"<https://www.geocat.admin.ch/de/dokumentation/opendata.html>`__ finden "
+"Sie die Anleitung dazu."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst
+msgid "Schritt 4"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:49
 msgid ""
-"Wichtig: Geo-Metadaten müssen gemäss :doc:`Standard ISO-19139_che "
+"Wenn die Vorbereitung der Veröffentlichung mit dem geocat.ch-Team "
+"abgeschlossen ist, informieren Sie `opendata.swiss "
+"<mailto:opendata@bfs.admin.ch>`__ darüber. Wir werden eine letzte Prüfung"
+" der Einträge durchführen und gemeinsam mit Ihnen den «Go-Live» auf "
+"opendata.swiss planen. Denken Sie bitte daran, dass wir in der Regel ca. "
+"5 Arbeitstage für diesen Schritt benötigen."
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:58
+msgid ""
+"Wichtig: Selbstverständlich müssen auch hier die :doc:`OGD-Richtlinien "
+"<../../glossar/bibliothek/ogd-richtlinien>` erfüllt sein. Zudem müssen "
+"Geometadaten gemäss :doc:`Standard ISO-19139_che "
 "<../../glossar/bibliothek/geocat-mapping>` vorliegen. Dabei handelt es "
 "sich um einen auf der internationalen Norm ISO-19139 basierenden "
 "Standard, der mit den Schweizer Erweiterungen der Norm GM03 ergänzt "
 "wurde."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:57
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:69
 msgid "Support"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:59
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:71
 msgid ""
-"Sie haben eine Frage zum Publizieren von Geo-Metadaten? `Wenden Sie sich "
-"bitte direkt an das geocat.ch-Team <geocat@swisstopo.ch>`__. Bei weiteren"
-" Fragen beispielweise zu den allgemeinen OGD-Anforderungen `melden Sie "
-"sich gerne bei uns <mailto:opendata@bfs.admin.ch>`__."
+"Sie haben eine Frage zum Publizieren von Geometadaten? Wenden Sie sich "
+"bitte direkt an das `geocat.ch-Team <geocat@swisstopo.ch>`__. Bei "
+"weiteren Fragen, beispielsweise zu den allgemeinen OGD-Anforderungen, "
+"`dürfen Sie sich gerne an uns wenden <mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:66
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:79
 msgid "Mehr zum Thema"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:68
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:81
 msgid ""
-":doc:`ISO-19139_che <../../glossar/bibliothek/geocat-mapping>` – "
-"Beschreibung des Geo-Metadaten-Standards, der auf den von opendata.swiss "
-"genutzten Standard DCAT-AP-CH angepasst werden kann."
+":doc:`Transformation ISO-19139_che nach DCAT-AP CH "
+"<../../glossar/bibliothek/geocat-mapping>` – Hier finden Sie die "
+"Anleitung zur Transformation des Geodaten-Standards ISO-19139_che auf den"
+" von opendata.swiss genutzen Standard DCAT-AP CH."
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:69
+#: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:82
 msgid ""
-"`GM03 <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ – "
-"Beschreibung des Datenstandards von Geodaten, der von geocat.ch genutzt "
-"wird."
+"`GM03 <https://www.geocat.admin.ch/de/dokumentation/gm03.html>`__ ist ein"
+" Schweizer Modell für Metadaten. Diese Beschreibung des Datenstandards "
+"von Geodaten wird von geocat.ch genutzt."
 msgstr ""
 

@@ -4,12 +4,11 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-16 17:38+0200\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,7 +97,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:62
-#, fuzzy
 msgid "Benutzerkontenverwaltung"
 msgstr "Gérer les comptes d’utilisateur"
 
@@ -112,15 +110,14 @@ msgstr ""
 msgid ""
 "Den «Benutzernamen» haben Sie bereits bei Ihrer Registrierung erhalten. "
 "Dieser dient zu Ihrer eindeutigen Identifikation auf der Plattform und "
-"kann nicht geändert werden. «Vollständiger Name» ist der Name mit dem Sie"
-" und andere Benutzerinnen und Benutzer im :term:`Backend <Backend>` "
+"kann nicht geändert werden. «Vollständiger Name» ist der Name, mit dem "
+"Sie und andere Benutzerinnen und Benutzer im :term:`Backend <Backend>` "
 "erscheinen. Ihre «E-Mail»  haben wir bereits bei der Registrierung "
 "erfasst. Beim Feld «Über das Portal» können Sie Zusatzinformationen zu "
 "Ihrer Person eingeben."
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:78
-#, fuzzy
 msgid ""
 "Nicht vergessen: Bestätigen Sie alle gemachten Änderungen mit einem Klick"
 " auf den Button «Profil aktualisieren»."
@@ -175,7 +172,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:108
-#, fuzzy
 msgid ""
 ":doc:`Nächster Schritt: Informationen zur publizierenden Organisation "
 "ergänzen <organisation-einrichten>`"
@@ -190,46 +186,4 @@ msgid ""
 msgstr ""
 "Votre profil a été créé et renseigné. Vous pouvez dès à présent saisir "
 "des informations sur votre organisation"
-
-#~ msgid ""
-#~ "Mit dem von uns zugestellten Log-"
-#~ "in können Sie sich in Ihr Profil"
-#~ " auf der :term:`Abnahmeumgebung "
-#~ "<Abnahmeumgebung>` von opendata.swiss einloggen. "
-#~ "Auf der Seite «Benutzer» können Sie "
-#~ "Ihre Profilinformationen editieren und Ihr "
-#~ "Konto verwalten."
-#~ msgstr ""
-#~ "Le login que nous vous envoyons "
-#~ "vous permet de vous connecter à "
-#~ "votre profil sur :term:`l’environnement de "
-#~ "test <Abnahmeumgebung>` d’opendata.swiss. À la"
-#~ " page «Profil», vous pouvez modifier "
-#~ "votre profil et gérer votre compte."
-
-#~ msgid "Die wichtigsten Angaben im Überblick"
-#~ msgstr "Aperçu des principales informations"
-
-#~ msgid "Neues Passwort"
-#~ msgstr "Nouveau mot de passe"
-
-#~ msgid "(* Pflichtfeld)"
-#~ msgstr "(* champ obligatoire)"
-
-#~ msgid ""
-#~ "Sie haben Ihr Passwort vergessen? Kein"
-#~ " Problem. Klicken Sie auf «Passwort "
-#~ "generieren» und Sie erhalten in Kürze"
-#~ " eine E-Mail, um Ihr Passwort zu "
-#~ "ändern."
-#~ msgstr ""
-#~ "Vous avez oublié votre mot de "
-#~ "passe? Aucun souci. Il vous suffit "
-#~ "de cliquer sur «Générer un mot de"
-#~ " passe». Vous recevrez un e-mail qui"
-#~ " vous permettra de réinitialiser votre "
-#~ "mot de passe."
-
-#~ msgid "Änderungen speichern"
-#~ msgstr "Enregistrer les modifications"
 

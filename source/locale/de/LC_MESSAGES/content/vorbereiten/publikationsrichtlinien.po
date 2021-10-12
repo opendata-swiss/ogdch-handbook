@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-23 18:26+0100\n"
+"POT-Creation-Date: 2021-10-12 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,22 +19,22 @@ msgstr ""
 
 #: ../../source/content/vorbereiten/publikationsrichtlinien.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
-msgstr ":fa:`home` :doc:`Manuel <../../index>` :fa:`chevron-right`"
+msgstr ""
 
 #: ../../source/content/vorbereiten/publikationsrichtlinien.rst:4
 msgid ":doc:`Vorbereiten <vorbereiten>` :fa:`chevron-right`"
-msgstr ":doc:`Préparer <vorbereiten>` :fa:`chevron-right`"
+msgstr ""
 
 #: ../../source/content/vorbereiten/publikationsrichtlinien.rst:5
 #: ../../source/content/vorbereiten/publikationsrichtlinien.rst:9
 msgid "Publikationsrichtlinien"
-msgstr "Lignes directrices OGD"
+msgstr ""
 
 #: ../../source/content/vorbereiten/publikationsrichtlinien.rst:12
 msgid ""
 "Richtlinien für die Veröffentlichung von Open Government Data («OGD-"
 "Richtlinien»)"
-msgstr "Lignes directrices pour la publication de données en libre accès (lignes directrices OGD)"
+msgstr ""
 
 #: ../../source/content/vorbereiten/publikationsrichtlinien.rst:16
 msgid ""
@@ -42,7 +42,7 @@ msgid ""
 "Stakeholdern hat die Geschäftsstelle OGD die «OGD-Richtlinien» definiert."
 " Diese dienen zur Orientierung für die Veröffentlichung der Open "
 "Government Data und somit zur Umsetzung der OGD-Strategie."
-msgstr "Sur la base de la stratégie Open Goverment Data 2019-2023 et en collaboration avec diverses parties prenantes, le secrétariat Open Government Data (OGD) a défini les présentes «lignes directrices OGD». Ces dernières servent de guide pour la publication de données publiques ouvertes et donc pour la mise en œuvre de la stratégie OGD."
+msgstr ""
 
 #: ../../source/content/vorbereiten/publikationsrichtlinien.rst:21
 msgid ""
@@ -50,9 +50,9 @@ msgid ""
 "überprüft und definiert. Datennutzende und -publizierende sind "
 "eingeladen, ihre Vorschläge oder Fragen `der Geschäftsstelle Open "
 "Government Data zu melden <mailto:opendata@bfs.admin.ch>`__."
-msgstr "Chaque année, le secrétariat OGD examine la pertinence de ces lignes directrices et, au besoin, il les actualise. Les utilisateurs et les fournisseurs de données sont invités à soumettre leurs suggestions `au secrétariat Open Government Data <mailto:opendata@bfs.admin.ch>`__.."
+msgstr ""
 
 #: ../../source/content/vorbereiten/publikationsrichtlinien.rst:27
 msgid ":doc:`Die Richtlinien lesen <../glossar/bibliothek/ogd-richtlinien>`"
-msgstr ":doc:`Lire les lignes directrices <../glossar/bibliothek/ogd-richtlinien>`"
+msgstr ""
 

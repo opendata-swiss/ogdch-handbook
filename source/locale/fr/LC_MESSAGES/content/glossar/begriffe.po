@@ -4,7 +4,6 @@
 # Opendata.swiss package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
@@ -442,46 +441,4 @@ msgstr ""
 "contiennent en général des données publiques, les «dossiers d’affaire» ou"
 " les «systèmes de classement» de même que les «applications» ou les "
 "«applications métier» ne sont pas, en soi, des données publiques."
-
-#~ msgid "Jumbbox"
-#~ msgstr ""
-
-#~ msgid "`A`_"
-#~ msgstr ""
-
-#~ msgid "`B`_"
-#~ msgstr ""
-
-#~ msgid "`C`_"
-#~ msgstr ""
-
-#~ msgid "`D`_"
-#~ msgstr ""
-
-#~ msgid "`F`_"
-#~ msgstr ""
-
-#~ msgid "`G`_"
-#~ msgstr ""
-
-#~ msgid "`H`_"
-#~ msgstr ""
-
-#~ msgid "`L`_"
-#~ msgstr ""
-
-#~ msgid "`O`_"
-#~ msgstr ""
-
-#~ msgid "`P`_"
-#~ msgstr ""
-
-#~ msgid "`R`_"
-#~ msgstr ""
-
-#~ msgid "`S`_"
-#~ msgstr ""
-
-#~ msgid "`V`_"
-#~ msgstr ""
 
