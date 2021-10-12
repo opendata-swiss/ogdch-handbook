@@ -35,4 +35,9 @@ Vorgaben für Tweets
 - Wenn möglich mit Bild und/oder Hashtags
 - Gewünschtes Erscheinungsdatum
 
+.. _twitter-beispiele:
 
+Beispieltweets zu OGD-Themen
+---------------------------------
+
+.. include:: twitter-beispiele.rst
