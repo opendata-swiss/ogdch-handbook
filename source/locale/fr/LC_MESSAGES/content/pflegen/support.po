@@ -19,22 +19,23 @@ msgstr ""
 
 #: ../../source/content/pflegen/support.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/pflegen/support.rst:4
 msgid ":doc:`Pflegen <pflegen>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Gérer <pflegen>` :fa:`chevron-right`"
 
 #: ../../source/content/pflegen/support.rst:5
 #: ../../source/content/pflegen/support.rst:9
 msgid "Support und Feedback"
-msgstr ""
+msgstr "Aide et retour"
 
 #: ../../source/content/pflegen/support.rst:12
 msgid ""
 "Wie gehe ich vor, wenn ich Support benötige oder einen "
 "Verbesserungsvorschlag einreichen möchte?"
-msgstr ""
+msgstr "J’ai besoin d’aide ou j’aimerais "
+"suggérer une amélioration. Comment procéder?"
 
 #: ../../source/content/pflegen/support.rst:16
 msgid ""
@@ -43,7 +44,12 @@ msgid ""
 "Support-Aktivitäten für Portal-Betreiber und datenpublizierende "
 "Organisationen möglichst effizient zu gestalten, wurden die wichtigsten "
 "Support-Prozesse festgelegt."
-msgstr ""
+msgstr "Le secrétariat Open Government Data (OGD), rattaché à l’Office fédéral "
+"de la statistique, vous apporte son soutien pour la publication de données "
+"publiques ouvertes sur opendata.swiss. Afin de rendre le processus le plus "
+"efficace possible pour les exploitants du portail et les organisations qui "
+"fournissent les données, des procédures ont été établies pour les questions"
+" les plus fréquentes."
 
 #: ../../source/content/pflegen/support.rst:24
 msgid "Support"
@@ -51,171 +57,182 @@ msgstr ""
 
 #: ../../source/content/pflegen/support.rst:26
 msgid ":ref:`Ich möchte ein Problem melden <support_problem_melden>`"
-msgstr ""
+msgstr ":ref:`Signaler un problème. <support_problem_melden>`"
 
 #: ../../source/content/pflegen/support.rst:27
 msgid ""
 ":ref:`Ich habe einen Vorschlag, wie man das Portal opendata.swiss "
 "verbessern könnte <support_feedback>`"
-msgstr ""
+msgstr ":ref:`Proposer une amélioration du portail "
+"opendata.swiss. <support_feedback>`"
 
 #: ../../source/content/pflegen/support.rst:28
 msgid ""
 ":ref:`Ich benötige Unterstützung bei der Veröffentlichung oder Anpassung "
 "meiner Einträge auf opendata.swiss <support_beratung>`"
-msgstr ""
+msgstr ":ref:`Besoin d’aide pour publier ou modifier des données "
+"sur opendata.swiss. <support_beratung>`"
 
 #: ../../source/content/pflegen/support.rst:33
 msgid "“Ich möchte ein Problem melden”"
-msgstr ""
+msgstr "«Signaler un problème»"
 
 #: ../../source/content/pflegen/support.rst:35
 msgid ""
 "Ist das Portal opendata.swiss nicht verfügbar? Werden Ihre Daten nicht "
 "korrekt oder unvollständig angezeigt?"
-msgstr ""
+msgstr "Le portail n’est pas accessible? "
+"Vos données sont erronées ou incomplètes?"
 
 #: ../../source/content/pflegen/support.rst:38
 msgid ""
 "Melden Sie das Problem bitte an die Geschäftsstelle OGD `Geschäftsstelle "
 "OGD <mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgstr "Veuillez vous adresser au `secrétariat OGD <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/pflegen/support.rst:40
 msgid ""
 "Damit wir Ihre Anfragen optimal bearbeiten können, bitten wir Sie, uns "
 "folgende Informationen zuzustellen:"
-msgstr ""
+msgstr "Afin de pouvoir traiter au mieux votre demande, "
+"nous vous demandons de fournir les informations suivantes:"
 
 #: ../../source/content/pflegen/support.rst:44
 msgid "**Titel**"
-msgstr ""
+msgstr "**Titre**"
 
 #: ../../source/content/pflegen/support.rst:44
 msgid "Eine grobe Beschreibung des Problems, der Frage"
-msgstr ""
+msgstr "Description sommaire du problème, de la question"
 
 #: ../../source/content/pflegen/support.rst:46
 msgid "**URL**"
-msgstr ""
+msgstr "**URL**"
 
 #: ../../source/content/pflegen/support.rst:46
 msgid ""
 "Vollständige URL, auf der Sie eine Aktion durchführen und/oder auf der "
 "das Problem auftritt"
-msgstr ""
+msgstr "URL que vous souhaitez modifier ou sur laquelle le problème survient"
 
 #: ../../source/content/pflegen/support.rst:49
 msgid "**Username und Organisation**"
-msgstr ""
+msgstr "**Nom d’utilisateur et organisation**"
 
 #: ../../source/content/pflegen/support.rst:49
 msgid "Benutzername und Organisationszugehörigkeit"
-msgstr ""
+msgstr "Votre nom d’utilisateur et le nom de votre organisation"
 
 #: ../../source/content/pflegen/support.rst:51
 msgid "**Beschreibung der Schritte**"
-msgstr ""
+msgstr "**Description du problème**"
 
 #: ../../source/content/pflegen/support.rst:51
 msgid ""
 "Eine Schritt-für-Schritt-Beschreibung, wie das Problem reproduziert "
 "werden kann"
-msgstr ""
+msgstr "Description des étapes qui mènent au problème"
 
 #: ../../source/content/pflegen/support.rst:54
 msgid "**Erwartung**"
-msgstr ""
+msgstr "**En théorie**"
 
 #: ../../source/content/pflegen/support.rst:54
 msgid "Was haben Sie erwartet?"
-msgstr ""
+msgstr "Qu’aurait-il dû se passer?"
 
 #: ../../source/content/pflegen/support.rst:56
 msgid "**Realität**"
-msgstr ""
+msgstr "**En pratique**"
 
 #: ../../source/content/pflegen/support.rst:56
 msgid "Was ist, entgegen Ihrer Erwartung, passiert?"
-msgstr ""
+msgstr "Que s’est-il passé?"
 
 #: ../../source/content/pflegen/support.rst:58
 msgid "**Screenshots/Dateien**"
-msgstr ""
+msgstr "**Captures d’écran et fichiers**"
 
 #: ../../source/content/pflegen/support.rst:58
 msgid "Screenshots von Fehlermeldungen, Import-Dateien, Downloads"
-msgstr ""
+msgstr "Captures des messages d’erreur, fichiers d’importation, téléchargements"
 
 #: ../../source/content/pflegen/support.rst:65
 msgid ""
 "“Ich habe einen Vorschlag, wie man das Portal opendata.swiss verbessern "
 "könnte”"
-msgstr ""
+msgstr "«Proposer une amélioration du portail opendata.swiss»"
 
 #: ../../source/content/pflegen/support.rst:67
 msgid ""
 "Wir freuen uns über Ihre Weiterentwicklungsvorschläge! Am besten reichen "
 "Sie `uns <mailto:opendata@bfs.admin.ch>`__ Ihre Verbesserungsvorschläge "
 "in Form einer User Story ein."
-msgstr ""
+msgstr "Nous vous remercions de vos propositions d’amélioration! Le mieux "
+"serait de `nous <mailto:opendata@bfs.admin.ch>`__ "
+"les communiquer sous la forme d’un récit utilisateur."
 
 #: ../../source/content/pflegen/support.rst:72
 msgid "**Für wen?**"
-msgstr ""
+msgstr "**Pour qui?**"
 
 #: ../../source/content/pflegen/support.rst:72
 msgid "“Als [Rolle]”"
-msgstr ""
+msgstr "«En tant que [fonction],»"
 
 #: ../../source/content/pflegen/support.rst:74
 msgid "**Was konkret?**"
-msgstr ""
+msgstr "**Quelle demande concrète?**"
 
 #: ../../source/content/pflegen/support.rst:74
 msgid "“möchte ich/möchten wir [Funktion]”"
-msgstr ""
+msgstr "«j’aimerais/nous aimerions [prestation]»"
 
 #: ../../source/content/pflegen/support.rst:76
 msgid "**Was soll damit erreicht werden?**"
-msgstr ""
+msgstr "**Dans quel but?**"
 
 #: ../../source/content/pflegen/support.rst:76
 msgid "“damit [Nutzen]”"
-msgstr ""
+msgstr "«pour que [utilité].»"
 
 #: ../../source/content/pflegen/support.rst:79
 msgid ""
 "Beispiel: “Als Datennutzer möchte ich Datasets abonnieren können, damit "
 "ich über Neuigkeiten informiert werde.”"
-msgstr ""
+msgstr "Exemple: «En tant qu’utilisateur de données, j’aimerais m’abonner "
+"à certains jeux de données pour rester au courant des nouveautés.»"
 
 #: ../../source/content/pflegen/support.rst:81
 msgid "Gerne unterstützen wir Sie dabei, Ihre User Story zu formulieren."
-msgstr ""
+msgstr "Nous nous ferons un plaisir de vous aider à formuler votre récit utilisateur."
 
 #: ../../source/content/pflegen/support.rst:86
 msgid ""
 "“Ich benötige Unterstützung bei der Veröffentlichung oder Anpassung "
 "meiner Einträge auf opendata.swiss”"
-msgstr ""
+msgstr "«Besoin d’aide pour publier ou modifier des données sur opendata.swiss»"
 
 #: ../../source/content/pflegen/support.rst:88
 msgid ""
 "Wenden Sie sich an die `Geschäftsstelle OGD "
 "<mailto:opendata@bfs.admin.ch>`__ um Unterstützung zu erhalten."
-msgstr ""
+msgstr "Veuillez contacter "
+"`le secrétariat OGD <mailto:opendata@bfs.admin.ch>`__ pour obtenir une assistance."
 
 #: ../../source/content/pflegen/support.rst:91
 msgid ""
 "Gerne organisieren wir mit Ihnen kurze Support-Sitzungen, um Ihre Fragen "
 "zu klären und dabei den Supportaufwand einzuschätzen."
-msgstr ""
+msgstr "Nous organisons avec vous de courtes séances afin d’éclaircir vos "
+"questions et d’ainsi évaluer le volume de l’aide nécessaire."
 
 #: ../../source/content/pflegen/support.rst:94
 msgid ""
 "Sie können auch unsere Abnahmeumgebung zum Testen nutzen. Hier können Sie"
 " verschiedene Optionen ausprobieren, bevor Sie Ihre Datasets auf der "
 "Produktionsumgebung publizieren."
-msgstr ""
+msgstr "Vous pouvez également utiliser notre environnement de test pour examiner "
+"différentes options avant de publier vos jeux de données "
+"sur l’environnement de production."
 
