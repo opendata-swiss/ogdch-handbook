@@ -32,4 +32,4 @@ Hier als Beispiel einige aktive Accounts der Gemeinschaft:
 .. admonition:: Gut zu wissen
 
     Anregungen und Beispiele von Tweets zu OGD-Themen finden Sie unter diesem
-    :doc:`Link <../kanaele-ogd/twitter-beispiele>`.
+    :ref:`Link <twitter-beispiele>`.
