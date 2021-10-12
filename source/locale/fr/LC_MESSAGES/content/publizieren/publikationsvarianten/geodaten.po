@@ -51,7 +51,11 @@ msgid ""
 "<https://www.geocat.ch/geonetwork/srv/eng/catalog.search>`__, erfasst und"
 " verwaltet. Von dort werden die benötigten Attribute dann durch einen "
 "automatisierten Prozess zu opendata.swiss überführt."
-msgstr ""
+msgstr "La publication des géométadonnées constitue un cas particulier. Les géométadonnées sont ""
+"d’abord saisies et gérées dans le catalogue suisse de géométadonnées "
+"`geocat.ch <https://www.geocat.ch/geonetwork/srv/eng/catalog.search>`__. "
+"Dans un deuxième temps, une procédure automatisée transmet les attributs requis de "
+"ce catalogue vers opendata.swiss."
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:25
 msgid "Geometadaten auf geocat.ch publizieren"
@@ -61,26 +65,28 @@ msgstr "Publier des géométadonnées sur geocat.ch"
 msgid ""
 "Stellen Sie vor der Veröffentlichung sicher, dass Ihre Daten auf "
 "geocat.ch vollständig erfasst sind."
-msgstr ""
+msgstr "Tout d’abord, assurez-vous que vos géométadonnées soient complètes sur geocat.ch."
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:31
 msgid "Harvesting von Geodaten (geocat.ch > opendata.swiss)"
-msgstr ""
+msgstr "Moissonner les géodonnées (geocat.ch > opendata.swiss)"
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst
 msgid "Schritt 1"
-msgstr ""
+msgstr "1re étape"
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:33
 msgid ""
 "Die Registrierung Ihrer Organisation auf opendata.swiss bleibt weiterhin "
 "eine Voraussetzung. Falls Ihre Organisation noch nicht eingerichtet ist, "
 "finden Sie :doc:`hier <../erstpublizierende>` den Prozess beschrieben."
-msgstr ""
+msgstr "Il est indispensable d’enregistrer votre organisation sur le portail opendata.swiss. "
+"Si cela n’a pas encore été fait, veuillez procéder comme indiqué "
+":doc:`ici <../erstpublizierende>`."
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst
 msgid "Schritt 2"
-msgstr ""
+msgstr "2e étape"
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:37
 msgid ""
@@ -88,11 +94,15 @@ msgid ""
 "Harvester» eingerichtet werden. Dafür benötigen Sie einen sogenannten "
 "CSW-Endpoint auf geocat.ch. Das `geocat.ch-Team "
 "<mailto:geocat@swisstopo.ch>`__ unterstützt Sie dabei."
-msgstr ""
+msgstr "Une fois que le nom de l’organisation apparaît "
+"sur opendata.swiss, un «moissonneur geocat» doit "
+"être installé. Pour ce faire, vous avez besoin d’un point de terminaison CSW (CSW endpoint) "
+"sur geocat.ch. `L’équipe geocat.ch <mailto:geocat@swisstopo.ch>`__ se "
+"tient à votre disposition pour le configurer."
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst
 msgid "Schritt 3"
-msgstr ""
+msgstr "3e étape"
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:42
 msgid ""
@@ -102,11 +112,15 @@ msgid ""
 "geocat.ch zu opendata.swiss optimal funktioniert. `Hier "
 "<https://www.geocat.admin.ch/de/dokumentation/opendata.html>`__ finden "
 "Sie die Anleitung dazu."
-msgstr ""
+msgstr "Une fois le point de terminaison CSW configuré, l’équipe geocat.ch "
+"prend contact avec vous pour lancer les tests de moissonnage. Il s’agit de "
+"vérifier si la procédure de transfert automatique de geocat.ch à opendata.swiss "
+"fonctionne correctement. Vous trouverez "
+"`ici <https://www.geocat.admin.ch/de/dokumentation/opendata.html>`__ les instructions."
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst
 msgid "Schritt 4"
-msgstr ""
+msgstr "4e étape"
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:49
 msgid ""
@@ -116,7 +130,12 @@ msgid ""
 " der Einträge durchführen und gemeinsam mit Ihnen den «Go-Live» auf "
 "opendata.swiss planen. Denken Sie bitte daran, dass wir in der Regel ca. "
 "5 Arbeitstage für diesen Schritt benötigen."
-msgstr ""
+msgstr "Lorsque le travail de préparation des publications avec l’équipe "
+"geocat.ch est terminé, nous vous prions d’en informer "
+"`opendata.swiss <mailto:opendata@bfs.admin.ch>`__. "
+"Nous effectuons une dernière vérification des entrées et planifions ensemble "
+"la mise en ligne sur opendata.swiss. Veuillez noter que cette étape dure environ "
+"cinq jours ouvrés."
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:58
 msgid ""
@@ -127,11 +146,13 @@ msgid ""
 "sich um einen auf der internationalen Norm ISO-19139 basierenden "
 "Standard, der mit den Schweizer Erweiterungen der Norm GM03 ergänzt "
 "wurde."
-msgstr ""
-"Important: les géométadonnées doivent respecter la :doc:`norme ISO-"
-"19139_che <../../glossar/bibliothek/geocat-mapping>`. Reposant sur la "
-"norme internationale ISO-19139, cette norme a été complétée des éléments "
-"suisses de la norme GM03."
+msgstr "Remarque: les géométadonnées doivent respecter "
+":doc:`la norme ISO-19139_che <../../glossar/bibliothek/geocat-mapping>`, "
+"qui se base sur la  norme internationale ISO-19139. Elle comprend également "
+"les éléments du modèle suisse GM03. Dans ce contexte, il convient également "
+"de tenir compte des "
+":doc:`lignes directrices pour la publication de "
+"données en libre accès <../../glossar/bibliothek/ogd-richtlinien>`."
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:69
 msgid "Support"
@@ -143,7 +164,11 @@ msgid ""
 "bitte direkt an das `geocat.ch-Team <geocat@swisstopo.ch>`__. Bei "
 "weiteren Fragen, beispielsweise zu den allgemeinen OGD-Anforderungen, "
 "`dürfen Sie sich gerne an uns wenden <mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgstr "Vous avez des questions sur la publication de géométadonnées? "
+"Adressez-vous directement à `l’équipe geocat.ch <geocat@swisstopo.ch>`__. "
+"Pour toute autre question, "
+"notamment sur les exigences en matière d’OGD, "
+"`veuillez vous adresser à nous <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:79
 msgid "Mehr zum Thema"
@@ -155,7 +180,9 @@ msgid ""
 "<../../glossar/bibliothek/geocat-mapping>` – Hier finden Sie die "
 "Anleitung zur Transformation des Geodaten-Standards ISO-19139_che auf den"
 " von opendata.swiss genutzen Standard DCAT-AP CH."
-msgstr ""
+msgstr ":doc:`Conversion de données en ISO-19139_che vers "
+"la norme DCAT-AP CH <../../glossar/bibliothek/geocat-mapping>`: "
+"vous trouverez ici la procédure de conversion."
 
 #: ../../source/content/publizieren/publikationsvarianten/geodaten.rst:82
 msgid ""
