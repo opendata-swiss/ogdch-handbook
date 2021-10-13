@@ -11,8 +11,11 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 
+import os
 import sphinx_rtd_theme
 import sphinx_fontawesome
+
+from dotenv import load_dotenv
 
 
 # -- Project information -----------------------------------------------------
@@ -36,6 +39,7 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_fontawesome',
     'notfound.extension',
+    'sphinx_comments',
 ]
 
 notfound_no_urls_prefix = True
@@ -105,3 +109,13 @@ nitpicky = True
 
 locale_dirs = ['locale/']
 gettext_compact = False
+
+# -- Options for sphinx-comments ---------------------------------------------
+
+# Loads .env file for local development, if present.
+load_dotenv()
+enable_hypothesis = bool(os.environ.get('ENABLE_HYPOTHESIS'))
+
+comments_config = {
+    "hypothesis": enable_hypothesis,
+}
