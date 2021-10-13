@@ -1,7 +1,6 @@
 sphinx
 sphinx_fontawesome
 sphinx-rtd-theme
-fabric
 sphinx-notfound-page
 sphinx_comments
 python-dotenv
