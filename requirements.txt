@@ -3,4 +3,5 @@ sphinx_fontawesome
 sphinx-rtd-theme
 fabric
 sphinx-notfound-page
-sphinx-intl==2.0.1
+sphinx_comments
+python-dotenv
