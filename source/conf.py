@@ -27,7 +27,7 @@ author = 'bfs.admin.ch'
 # The full version, including alpha/beta/rc tags
 release = '1.0'
 
-pygments_style = 'monokai'
+pygments_style = 'friendly'
 
 
 # -- General configuration ---------------------------------------------------
@@ -40,6 +40,7 @@ extensions = [
     'sphinx_fontawesome',
     'notfound.extension',
     'sphinx_comments',
+    'sphinxcontrib.contentui',
 ]
 
 notfound_no_urls_prefix = True
