@@ -523,7 +523,7 @@ Different methods can be used to provide data access for machines, as:
 
 The SPARQL Protocol and RDF Query Language (SPARQL) is the standard
 query language for RDF. The current version, SPARQL 1.1, is defined by a
-`W3C recommandation <https://www.w3.org/TR/sparql11-overview/>`__.
+`W3C recommendation <https://www.w3.org/TR/sparql11-overview/>`__.
 
 It is common practice for Linked Data to provide a service that accepts
 SPARQL queries: a SPARQL endpoint. The endpoint returns data in the
