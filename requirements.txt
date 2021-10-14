@@ -5,3 +5,4 @@ sphinx-notfound-page
 sphinx_comments
 python-dotenv
 sphinx-intl==2.0.1
+sphinxcontrib-contentui

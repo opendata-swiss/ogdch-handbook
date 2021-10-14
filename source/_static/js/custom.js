@@ -30,21 +30,6 @@ $(document).ready(function(){
   });
 });
 
-// ---------------------------------------------------------------
-// Toggle container attribute
-// ---------------------------------------------------------------
-// toggle so that attribute definitions are not shown
-// initially but can be revealed on demand
-// ---------------------------------------------------------------
-$(document).ready(function(){
-  var attributeHeader = $('.attribute p');
-  attributeHeader.each(function() {
-      $(this).nextAll().hide();
-      $(this).click(function (event) {
-          $(this).nextAll().toggle();
-      });
-  });
-});
 
 // ---------------------------------------------------------------
 // Exchange logo on french translations in the footer
