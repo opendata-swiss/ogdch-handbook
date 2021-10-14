@@ -5,7 +5,7 @@
    - DCAT-AP Switzerland
 
 **********
-DCAT-AP-CH
+DCAT-AP CH
 **********
 
 Der Schweizer Metadaten-Datenstandard
@@ -17,7 +17,7 @@ Der Schweizer Metadaten-Datenstandard
 
 .. container:: Intro
 
-    DCAT-AP-CH ist der Schweizer Datenstandard, der derzeit auf
+    DCAT-AP CH ist der Schweizer Datenstandard, der derzeit auf
     `opendata.swiss <https://opendata.swiss/de/>`__
     implementiert ist. Er basiert auf dem internationalen DCAT-AP Standard.
 
@@ -28,7 +28,7 @@ Der Schweizer Metadaten-Datenstandard
     und auch nicht angezeigt. Auf der anderen Seite haben wir Mindest-Erwartungen
     an Ihre Metadaten, die hier beschrieben sind. Ebenso finden Sie hier eine Beschreibung
     optionaler Felder, die von opendata.swiss unterstützt werden.
-    Der DCAT-AP ist in ständiger Weiterentwicklung. Das gilt auch für den DCAT-AP-CH
+    Der DCAT-AP ist in ständiger Weiterentwicklung. Das gilt auch für den DCAT-AP CH
     und für den Daten-Standard, der auf opendata.swiss implementiert ist.
     Daher gibt es teilweise Abweichungen zwischen diesen Datenstandards.
     Sollten Sie solche feststellen,
@@ -36,13 +36,13 @@ Der Schweizer Metadaten-Datenstandard
 
     Diese Dokumentation ist derzeit nur in Englisch verfügbar.
 
-
-DCAT-AP-CH Standard Overview
+DCAT-AP CH Standard Overview
 ----------------------------
 
 - :ref:`RDF-File Structure & Example <dcat-ap-ch-example-rdf>`
 - :ref:`Namespaces <dcat-ap-ch-namespaces>`
 - :ref:`Internationalisation <dcat-ap-ch-internationalisation>`
+- :ref:`Overview <dcat-ap-ch-overview>`
 - :ref:`DCAT Catalog <dcat-ap-ch-catalog>`
 - :ref:`DCAT Dataset <dcat-ap-ch-dataset>`
 - :ref:`DCAT Resource <dcat-ap-ch-distribution>`
@@ -51,55 +51,68 @@ DCAT-AP-CH Standard Overview
 .. _dcat-ap-ch-example-rdf:
 
 RDF-File Structure & Example
-----------------------------
+------------------------------
 
-An RDF Datacatalog has the following structure:
+Your data catalog must follow the DCAT-AP CH standard.
+It consists of the following 4 Classes:
 
-.. code-block:: xml
+- the catalog
+- the publishers
+- the datasets
+- the distributions
 
-  <rdf:RDF>
-    <dcat:Catalog>
-      <dcat:dataset>
-        <dcat:Dataset>
-        ...
-        </dcat:Dataset>
-      </dcat:dataset>
-      <dcat:dataset>
-        <dcat:Dataset>
-        ...
-        </dcat:Dataset>
-      </dcat:dataset>
-      <dcat:dataset>
-        <dcat:Dataset>
-        ...
-        </dcat:Dataset>
-      </dcat:dataset>
-      ...
-    </dcat:Catalog>
-  </rdf:RDF>
+These classes relate to each other as described below.
+All examples will be provided in both ``turtle`` and ``rdf``. ``rdf`` is used for the actual import of the data.
+You can use a converter to convert between these two formats:
+https://www.easyrdf.org/converter
 
-Each Dataset contains Resources, which contain the actual data:
+It is important to provide URIs for each of the classes in your catalog.
 
-.. code-block:: xml
+.. toggle-header::
+    :header: Data Catalog in Turtle
 
-    <dcat:Dataset>
-      <dcat:distribution>
-        <dcat:Distribution>
-        ...
-        </dcat:Distributiont>
-      </dcat:distribution>
-      <dcat:distribution>
-        <dcat:Distribution>
-        ...
-        </dcat:Distributiont>
-      </dcat:distribution>
-      <dcat:distribution>
-        <dcat:Distribution>
-        ...
-        </dcat:Distributiont>
-      </dcat:distribution>
-      ...
-    </dcat:Dataset>
+    .. code-block:: turtle
+        :caption: Here you can see how every class in the catalog has a URI
+
+        @prefix dcat: <http://www.w3.org/ns/dcat#> .
+        @prefix dct: <http://purl.org/dc/terms/> .
+        @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+        <https://tierstatistik.identitas.ch/data/fig-cattle-pyr.csv>
+          a dcat:Dataset ;
+          dcat:distribution <https://tierstatistik.identitas.ch/de/fig-cattle-pyr.html> ;
+          dct:publisher <https://tierstatistik.identitas.ch> .
+
+        <https://tierstatistik.identitas.ch/de/fig-cattle-pyr.html>
+          a dcat:Distribution .
+
+.. toggle-header::
+    :header: Data Catalog in RDF
+
+    .. code-block:: xml
+        :caption: In RDF the URIs are stored in the ``about`` attribute
+
+        <?xml version="1.0" encoding="utf-8" ?>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:dcat="http://www.w3.org/ns/dcat#"
+                 xmlns:dct="http://purl.org/dc/terms/"
+                 xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+          <dcat:Dataset rdf:about="https://tierstatistik.identitas.ch/data/fig-cattle-pyr.csv">
+            <dcat:distribution>
+              <dcat:Distribution rdf:about="https://tierstatistik.identitas.ch/de/fig-cattle-pyr.html">
+                </dcat:Distribution>
+              </dcat:distribution>
+          </dcat:Dataset>
+
+        </rdf:RDF>
+
+The example catalogs above show the classes without any further properties.
+Here you can find an overview of all possible properties and which of these you must provide.
+
+- ``mandatory`` means you MUST provide them
+- ``conditional`` means you must provide them under certain conditions
+- ``optional`` means you may provide them
 
 Example for Download
 ^^^^^^^^^^^^^^^^^^^^
@@ -110,791 +123,902 @@ Have a look at the following file for a quickstart:
 .. _dcat-ap-ch-namespaces:
 
 Namespaces
-----------
+------------
 
-.. code:: xml
+All classes and properties have definitions that are accessible with a URI.
+Usually these URIs are provided in the header of the data catalog and receive an alias there,
+so that they can be easily referenced in the rest of the catalog:
+A ``dcat:Dataset`` really means ``http://www.w3.org/ns/dcat#Dataset``. To avoid having to
+write that throughout the document, a namespace is defined by ``@prefix dcat: <http://www.w3.org/ns/dcat#> .`` in ``turtle``
+or ``xmlns:dcat="http://www.w3.org/ns/dcat#"`` in ``RDF``.
 
-   <rdf:RDF
-     xmlns:dct="http://purl.org/dc/terms/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:dcat="http://www.w3.org/ns/dcat#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-     xmlns:odrs="http://schema.theodi.org/odrs#"
-     xmlns:schema="http://schema.org/">
+These are the namespaces that are used in DCAT-AP CH:
+
+.. code-block:: turtle
+    :caption: DCAT-AP CH namespaces in turtle
+
+    @prefix dcat: <http://www.w3.org/ns/dcat#> .
+    @prefix dct: <http://purl.org/dc/terms/> .
+    @prefix dc: <http://purl.org/dc/elements/1.1/> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+    @prefix schema: <http://schema.org/> .
+
+.. code-block:: xml
+    :caption: DCAT-AP CH namespaces in rdf
+
+    <rdf:RDF
+      xmlns:dcat="http://www.w3.org/ns/dcat#"
+      xmlns:dct="http://purl.org/dc/terms/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+      xmlns:schema="http://schema.org/"
+    >
 
 .. _dcat-ap-ch-internationalisation:
 
 Internationalisation
 --------------------
 
-The DCAT-AP for Switzerland Standard expects that text elements of the
-datasets and their distributions be translated in the following four
-languages: \* French (fr) \* German (de) \* Italian (it) \* English (en)
+The DCAT-AP CH Standard expects that text elements of
+datasets and their distributions are translated in the following four
+languages:
 
-The multi-lingual elements have to contain the ``xml:lang`` attribute,
-as the following example show:
+- French (fr)
+- German (de)
+- Italian (it)
+- English (en)
 
-.. code:: xml
+Examples are provided for how to translate those
+elements for all relevant properties.
 
-   <dct:title xml:lang="fr">FR Titre</dct:title>
-   <dct:title xml:lang="de">DE Titel</dct:title>
-   <dct:title xml:lang="it">IT Titolo</dct:title>
-   <dct:title xml:lang="en">EN Title</dct:title>
+.. _dcat-ap-ch-overview:
+
+Overview
+---------
+
+Below you find a list of classes that you need to implement in your catalog.
+Translatable elements are marked as such under usage notes.
+
+.. list-table:: Classes of DCAT-AP CH
+    :widths: 20 20 30
+    :header-rows: 1
+    :stub-columns: 1
+
+    * - class
+      - URI
+      - usage notes
+    * - :ref:`Catalog <dcat-ap-ch-catalog>`
+      - dcat:Catalog
+      - **mandatory**
+    * - :ref:`Dataset <dcat-ap-ch-dataset>`
+      - dcat:Dataset
+      - **mandatory**
+    * - :ref:`Distribution <dcat-ap-ch-distribution>`
+      - dcat:Distribution
+      - **mandatory**
+
+.. list-table:: Properties of dcat:Catalog
+    :widths: 20 20 30
+    :header-rows: 1
+    :stub-columns: 1
+
+    * - property
+      - URI
+      - usage notes
+    * - :ref:`dataset <dcat-catalog-dataset>`
+      - dcat:dataset
+      - **mandatory**
+
+.. list-table:: Properties of dcat:Dataset
+    :widths: 20 20 30
+    :header-rows: 1
+    :stub-columns: 1
+
+    * - property
+      - URI
+      - usage notes
+    * - :ref:`title <dcat-dataset-title>`
+      - dct:title
+      - **mandatory**, multilingual
+    * - :ref:`description <dcat-dataset-description>`
+      - dct:description
+      - **mandatory**, multilingual
+    * - :ref:`publisher <dcat-dataset-publisher>`
+      - dct:publisher
+      - **mandatory**
+    * - :ref:`contact point <dcat-dataset-contact-point>`
+      - dcat:contactPoint
+      - **mandatory**
+    * - :ref:`identifier <dcat-dataset-identifier>`
+      - dct:identifier
+      - **mandatory**
+    * - :ref:`distribution <dcat-dataset-distribution>`
+      - dcat:distribution
+      - **mandatory**
+    * - :ref:`issued <dcat-dataset-issued>`
+      - dct:issued
+      - conditional
+    * - :ref:`modified <dcat-dataset-modified>`
+      - dct:modified
+      - conditional
+    * - :ref:`theme <dcat-dataset-theme>`
+      - dcat:theme
+      - conditional
+    * - :ref:`landing page <dcat-dataset-landing-page>`
+      - dcat:landingPage
+      - conditional
+    * - :ref:`language <dcat-dataset-language>`
+      - dct:language
+      - conditional
+    * - :ref:`keyword <dcat-dataset-keyword>`
+      - dcat:keyword
+      - optional, multilingual
+    * - :ref:`spatial <dcat-dataset-spatial>`
+      - dct:spatial
+      - optional
+    * - :ref:`coverage <dcat-dataset-coverage>`
+      - dct:coverage
+      - optional
+    * - :ref:`temporal <dcat-dataset-temporal>`
+      - dct:temporal
+      - optional
+    * - :ref:`accrual periodicity <dcat-dataset-accrual-periodicity>`
+      - dct:accrualPeriodicity
+      - optional
+    * - :ref:`coverage <dcat-dataset-relation>`
+      - dct:relation
+      - optional
+    * - :ref:`see also <dcat-dataset-see-also>`
+      - rdfs:seeAlso
+      - optional
+
+
+.. list-table:: Properties of dcat:Distribution
+    :widths: 20 20 30
+    :header-rows: 1
+    :stub-columns: 1
+
+    * - property
+      - URI
+      - usage notes
+    * - :ref:`issued <dcat-distribution-issued>`
+      - dct:issued
+      - **mandatory**
+    * - :ref:`access url <dcat-distribution-access-url>`
+      - dcat:accessURL
+      - **mandatory**
+    * - :ref:`rights <dcat-distribution-rights>`
+      - dct:rights
+      - **mandatory**
+    * - :ref:`title <dcat-distribution-title>`
+      - dct:title
+      - conditional, multilingual
+    * - :ref:`description <dcat-distribution-description>`
+      - dct:description
+      - conditional, multilingual
+    * - :ref:`byte size <dcat-distribution-byte-size>`
+      - dct:byteSize
+      - conditional
+    * - :ref:`media type <dcat-distribution-media-type>`
+      - dct:mediaType
+      - conditional
+    * - :ref:`format <dcat-distribution-format>`
+      - dct:format
+      - conditional
+    * - :ref:`language <dcat-distribution-language>`
+      - dct:language
+      - conditional
+    * - :ref:`modified <dcat-distribution-modified>`
+      - dct:modified
+      - conditional
+    * - :ref:`license <dcat-distribution-license>`
+      - dcat:license
+      - optional
+    * - :ref:`identifier <dcat-distribution-identifier>`
+      - dct:identifier
+      - optional
+    * - :ref:`download url <dcat-distribution-download-url>`
+      - dcat:downloadURL
+      - optional
+    * - :ref:`coverage <dcat-distribution-coverage>`
+      - dct:coverage
+      - optional
 
 .. _dcat-ap-ch-catalog:
 
 Catalog
--------
+----------------------
 
-.. container:: instructions
+.. _dcat-catalog-class:
 
-    Please click on the text below for more details.
+dcat:Catalog (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
 
-.. container:: attribute
+.. container:: Mapping
 
-    **dcat:Catalog** 1..1
+    .. include:: dcat-definitions/catalog-class.rst
 
-    :Content: Contains nested elements of type :ref:`dcat:Dataset <dcat-ap-ch-dataset>`
-    :Mandatory: yes
-    :Cardinality: 1..1
-    :Description: Catalog with datasets
+.. toggle-header::
+    :header: Class ``dcat:Catalog`` in Turtle
 
-    .. code-block:: xml
-       :caption: dcat:Catalog
+    .. include:: dcat-examples/catalog-class-ttl.rst
 
-       <dcat:Catalog>
-           <dcat:dataset>
-               [...]
-           </dcat:dataset>
-           [further dcat:dataset]
-       </dcat:Catalog>
+.. toggle-header::
+    :header: Class ``dcat:Catalog`` in RDF
 
-.. container:: attribute
+    .. include:: dcat-examples/catalog-class-rdf.rst
 
-    **dcat:dataset** 1..n
+.. _dcat-catalog-dataset:
 
-    :Content: Contains single nested element of :ref:`dcat:Dataset <dcat-ap-ch-dataset>`.
-    :Mandatory: yes
-    :Cardinality: 1..n
-    :Description: Wrapper for a dataset of the catalog
+dcat:dataset (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
 
-    .. code-block:: xml
-       :caption: dcat:dataset
+.. container:: Mapping
 
-       <dcat:dataset>
-           <dcat:Dataset rdf:about="http://swisstopo/325">
-               [Content of dataset]
-           </dcat:Dataset>
-       </dcat:dataset>
-       [further dcat:dataset]
+    .. include:: dcat-definitions/catalog-datasets.rst
+
+.. toggle-header::
+    :header: Property ``dcat:dataset`` of ``dcat:Catalog`` in Turtle
+
+    .. include:: dcat-examples/catalog-datasets-ttl.rst
+
+.. toggle-header::
+    :header:  Property ``dcat:dataset`` of ``dcat:Catalog`` in RDF
+
+    .. include:: dcat-examples/catalog-datasets-rdf.rst
 
 .. _dcat-ap-ch-dataset:
 
 Dataset
--------
+----------------------
 
-.. container:: attribute
+.. _dcat-dataset-class:
 
-    **dcat:Dataset** 1..1
+dcat:Dataset (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
 
-    :Content: Contains single nested element of :ref:`dcat:Dataset <dcat-ap-ch-dataset>`.
-    :Mandatory: yes
-    :Cardinality: 1..1
-    :Attributes:
-       - Name: ``rdf:about``
-       - Content: Unique identifier for dataset
-       - Mandatory: yes
-    :Description: A single dataset of the catalog
+.. container:: Mapping
 
-    .. code-block:: xml
-       :caption: dcat:Dataset
+    .. include:: dcat-definitions/dataset-class.rst
 
-       <dcat:Dataset rdf:about="http://swisstopo/325">
-           [Content of dataset]
-       </dcat:Dataset>
+.. toggle-header::
+    :header: Class ``dcat:Dataset`` with a URI in Turtle
 
-.. container:: attribute
+    .. include:: dcat-examples/dataset-class-ttl.rst
 
-    **dct:identifier** 1..1
+.. toggle-header::
+    :header:  Class ``dcat:Dataset`` with a URI in RDF
 
-    :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Mandatory: yes
-    :Cardinality: 1..1
-    :Description: Unique identifier of the dataset across all publishers. A good way
-                  to make sure this identifier is unique is to link the source system
-                  ID with the ID of the publisher:
-                  ``[Source-Dataset-ID]@[Source-Organisation-ID]``.
-                  It is recommended that the identifier consists out of the following
-                  characters: ``A-Za-z``, ``0-9`` without special characters, except
-                  ``-`` and ``_``
+    .. include:: dcat-examples/dataset-class-rdf.rst
 
-    .. code-block:: xml
-       :caption: dct:identifier
+.. _dcat-dataset-identifier:
 
-       <dct:identifier>325@swisstopo</dct:identifier>
+dct:identifier (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
 
-.. container:: attribute
+.. container:: Mapping
 
-    **dct:title** 1..n
+    .. include:: dcat-definitions/dataset-identifier.rst
 
-    :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Mandatory: yes
-    :Cardinality: 1..n (one for each language)
-    :Attributes: - Name: ``xml:lang``
-                 - Content: ``en``, ``de``, ``fr``, ``it``
-                 - Description: Language of the element
-                 - Mandatory : yes
-    :Description: Title of the dataset in the language defined by the
-                  ``xml:lang`` attribute
+.. toggle-header::
+    :header: Property ``dcat:identifier`` of ``dcat:Dataset`` in Turtle
 
-    .. code-block:: xml
-       :caption: dct:title
+    .. include:: dcat-examples/dataset-identifier-ttl.rst
 
-        <dct:title xml:lang="de">Eisenbahnlärm Nacht</dct:title>
+.. toggle-header::
+    :header:  Property ``dcat:identifier`` of ``dcat:Dataset`` in RDF
 
-.. container:: attribute
+    .. include:: dcat-examples/dataset-identifier-rdf.rst
 
-    **dct:description** 1..n
+.. _dcat-dataset-title:
 
-    :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Mandatory: yes
-    :Cardinality: 1..n (one for each language)
-    :Attributes: - Name: ``xml:lang``
-                 - Content: ``en``, ``de``, ``fr``, ``it``
-                 - Description: Language of the element
-                 - Mandatory : yes
-    :Description: Description of the dataset in the the language defined by the
-                  ``xml:lang`` attribute
+dct:title (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
 
-    .. code-block:: xml
-       :caption: dct:description
-
-       <dct:description xml:lang="de">
-           Die Karte zeigt, welcher Lärmbelastung die Bevölkerung
-           durch den Schienenverkehr ausgesetzt ist.
-       </dct:description>
-
-.. container:: attribute
-
-    dct:issued 0..n
-
-    :Type: Date and time in `ISO-8601 <https://en.wikipedia.org/wiki/ISO_8601>`__ format
-    :Mandatory:  Can be left out if there is no :ref:`distribution <dcat-ap-ch-distribution>`
-    :Cardinality: 0..1
-    :Attributes: - Name: ``rdf:datatype``
-                 - Content: \http://www.w3.org/2001/XMLSchema#dateTime
-                 - Description: Type of the field
-                 - Mandatory: yes
-
-    .. code-block:: xml
-       :caption: dct:issued
-
-       <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-04-26T01:00:00Z</dct:issued>
-
-.. container:: attribute
-
-    dct:modified 0..1
-
-    :Type: Date and time in `ISO-8601 <https://en.wikipedia.org/wiki/ISO_8601>`__ format
-    :Mandatory:  Only when the dataset has changed since the first publication
-    :Cardinality: 0..1
-    :Attributes: - Name: ``rdf:datatype``
-                 - Content: \http://www.w3.org/2001/XMLSchema#dateTime
-                 - Description: Type of the field
-                 - Mandatory: yes
-    :Description: Date of the last change (since the first publication on opendata.swiss)
-
-    .. code-block:: xml
-       :caption: dct:modified
-
-       <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-04-26T01:00:00Z</dct:modified>
-
-.. container:: attribute
-
-    **dct:publisher** 1..n
-
-    :Elements: ``rdf:Description``
-    :Type: Nested element
-    :Mandatory: yes
-    :Cardinality: 1..n
-    :Description: The publishers of the dataset.
-                  ``rdf:about`` is an optional attribute.
-
-    .. code-block:: xml
-       :caption: dct:publisher
-
-       <dct:publisher>
-           <rdf:Description rdf:about="https://www.bafu.admin.ch/">
-               <rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
-           </rdf:Description>
-       </dct:publisher>
-
-.. container:: attribute
-
-    **dcat:contactPoint** 1..n
-
-    :Elements: ``vcard:Organization``
-    :Type: ``vcard:Kind``
-    :Mandatory: yes
-    :Cardinality: 1..n
-    :Description: One or more contact email addresses for this dataset
-                  ``vcard:fn``. Description of the point of contact
-                  ``vcard:hasEmail`` has an attribute ``rdf:resource`` which
-                  contains the email of the point of contact (including mailto:)
-
-    .. code-block:: xml
-       :caption: dcat:contactPoint
-
-       <dcat:contactPoint>
-           <vcard:Organization>
-               <vcard:fn>Abteilung Lärm BAFU</vcard:fn>
-               <vcard:hasEmail rdf:resource="mailto:noise@bafu.admin.ch"/>
-           </vcard:Organization>
-       </dcat:contactPoint>
-
-       <dcat:contactPoint>
-           <vcard:Individual>
-               <vcard:fn>Sekretariat BAFU</vcard:fn>
-               <vcard:hasEmail rdf:resource="mailto:sekretariat@bafu.admin.ch"/>
-           </vcard:Individual>
-       </dcat:contactPoint>
-
-.. container:: attribute
-
-    **dcat:theme** 1..n
-
-    :Type: ``skos:Concept``
-           http://www.w3.org/2009/08/skos-reference/skos.html#Concept
-    :Mandatory: yes
-    :Cardinality: 1..n
-    :Attributes: - Name: ``rdf:resource``
-                 - Description: URI to the category
-                 - Mandatory: yes
-    :Description: Categorisation of the data. In the ``rdf:resource``
-                  attribute, the unique URI of the category from
-                  :download:`SKOS-RDF <../../../_static/examples/opendataswiss-themes.rdf>`
-                  (RDF) must be given.
-                  The following values are accepted from Themes:
-                  https://opendata.swiss/group/work,
-                  https://opendata.swiss/group/construction,
-                  https://opendata.swiss/group/population,
-                  https://opendata.swiss/group/education,
-                  https://opendata.swiss/group/energy,
-                  https://opendata.swiss/group/finances,
-                  https://opendata.swiss/group/geography,
-                  https://opendata.swiss/group/legislation,
-                  https://opendata.swiss/group/health,
-                  https://opendata.swiss/group/trade,
-                  https://opendata.swiss/group/industry,
-                  https://opendata.swiss/group/crime,
-                  https://opendata.swiss/group/culture,
-                  https://opendata.swiss/group/agriculture,
-                  https://opendata.swiss/group/mobility,
-                  https://opendata.swiss/group/public-order,
-                  https://opendata.swiss/group/politics,
-                  https://opendata.swiss/group/prices,
-                  https://opendata.swiss/group/territory,
-                  https://opendata.swiss/group/social-security,
-                  https://opendata.swiss/group/statistical-basis,
-                  https://opendata.swiss/group/tourism,
-                  https://opendata.swiss/group/administration,
-                  https://opendata.swiss/group/national-economy,
-
-    .. code-block:: xml
-      :caption: dcat:theme
-
-       <dcat:theme rdf:resource="https://opendata.swiss/group/population"/>
-
-.. container:: attribute
-
-    dct:language 0..n
-
-    :Type: ``rdfs:Literal`` ISO 639-1 two-letter code
-    :Content: ``en``, ``de``, ``fr``, ``it``
-    :Mandatory: no
-    :Cardinality: 0..n (for each language)
-    :Description: Should contain all languages for which a distribution is available. This field is not validated and is used for display purposes. If all
-                  distributions are language-independant, this field can be left out.
-
-    .. code-block:: xml
-      :caption: dct:language
-
-       <dct:language>de</dct:language>
-
-.. container:: attribute
-
-    dct:relation 0..n
-
-    :Elements:  ``rdf:Description``
-    :Type: Nested element
-    :Mandatory: no
-    :Cardinality: 0..n
-    :Description: A relation to a document. The
-                  ``rdf:about`` must link to a
-                  related document.
-
-    .. code-block:: xml
-      :caption: dct:language
-
-       <dct:relation>
-           <rdf:Description rdf:about="http://www.bafu.admin.ch/laerm/index.html?lang=de">
-               <rdfs:label>Webseite des BAFU</rdfs:label>
-           </rdf:Description>
-       </dct:relation>
-
-.. container:: attribute
-
-    dcat:keyword 0..n
-
-    :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Mandatory: no
-    :Cardinality: 0..n
-    :Attributes: - Name: ``xml:lang``
-                 - Content:  ``en``, ``de``, ``fr``, ``it``
-                 - Description: Language of the element
-                 - Mandatory: yes
-    :Description: Keyword who describes this dataset
-
-    .. code-block:: xml
-      :caption: dct:language
-
-       <dcat:keyword xml:lang="de">Nacht</dcat:keyword>
-       <dcat:keyword xml:lang="fr">Nuit</dcat:keyword>
-       <dcat:keyword xml:lang="it">Noche</dcat:keyword>
-       <dcat:keyword xml:lang="en">Night</dcat:keyword>
-
-.. container:: attribute
-
-    dcat:landingPage 0..1
-
-    :Type: ``foaf:Document`` http://xmlns.com/foaf/spec/#term_Document
-    :Mandatory: no
-    :Cardinality: 0..n
-    :Description: Website of the dataset with related information
-
-    .. code-block:: xml
-      :caption: dcat:landingPage
-
-       <dcat:landingPage>http://www.bafu.admin.ch/laerm/index.html?lang=de</dcat:landingPage>
-
-.. container:: attribute
-
-    dct:spatial 0..n
-
-    :Type: ``dct:Location`` https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/#terms-Location
-    :Mandatory: no
-    :Cardinality: 0..n
-    :Description: Geographical classification of the dataset. Can be a description, coordinates,
-                  a bounding-box or a polygon.
-                  This field currently supports GeoJSON with the
-                  `LOCN extension <https://www.w3.org/community/locadd/wiki/LOCN_extension:_Metadata>`__ .
-                  See also: `How should dct:spatial and dct:Location be used? <https://joinup.ec.europa.eu/release/how-should-dctspatial-and-dctlocation-be-used>`__                                |
-
-    .. code-block:: xml
-      :caption: dct:spatial
-
-       <dct:spatial rdf:resource="http://publications.europa.eu/mdr/authority/country/ZWE"/>
-       <dct:spatial>Bern</dct:spatial>
-       <dct:spatial>
-         <dct:Location>
-           <locn:geometry rdf:datatype="https://www.iana.org/assignments/media-types/application/vnd.geo+json">
-           <![CDATA[
-             {
-               "type":"Polygon",
-               "crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},
-               "coordinates":[[[-6.41736,55.7447],[2.05827,55.7447],[2.05827,49.8625],[-6.41736,49.8625],[-6.41736,55.7447]]]
-             }
-           ]]>
-           </locn:geometry>
-         </dct:Location>
-       </dct.spatial>
-
-.. container:: attribute
-
-    dct:coverage 0..n
-
-    :Type: ``dct:LocationPeriodOrJurisdiction``
-           \http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#LocationPeriodOrJurisdiction
-    :Mandatory: no
-    :Cardinality: 0..n
-    :Description: This field is currently not used,
-                  use ``dct:spatial`` instead.
-
-    .. code-block:: xml
-      :caption: dct:coverage
-
-       <dct:coverage/>
-
-.. container:: attribute
-
-    dcat:temporal 0..n
-
-    :Type: ``dct:PeriodOfTime``
-           https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/#terms-PeriodOfTime
-    :Mandatory: no
-    :Cardinality: 0..n
-    :Description: One or more time period(s) that cover the dataset.
-                  ``<schema:startDate>`` contains the start date,
-                  ``<schema:endDate>`` contains the end date format for dates:
-                  \http://www.w3.org/2001/XMLSchema#date
-
-    .. code-block:: xml
-      :caption: dct:temporal
-
-       <dct:temporal>
-           <dct:PeriodOfTime>
-               <schema:startDate rdf:datatype="<http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
-               <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-05</schema:endDate>
-           </dct:PeriodOfTime>
-       </dct:temporal>
-
-.. container:: attribute
-
-    dct:accrualPeriodicity 0..n
-
-    :Mandatory: no
-    :Cardinality: 0..n
-    :Attributes: - Name: ``rdf:resource``
-                 - Type: ``dct:Frequency``
-                 - Mandatory: yes
-    :Description: The frequency in which this dataset is updated. Values for
-                  ``dct:Frequency``: http://dublincore.org/groups/collections/frequency/
-
-    .. code-block:: xml
-      :caption: dct:accrualPeriodicity
-
-       <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
-
-.. container:: attribute
-
-    rdfs:seeAlso 0..n
-
-    :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Mandatory: no
-    :Cardinality: 0..n
-    :Attributes: - Name: ``rdf:resource``
-                 - Type: ``dct:Frequency``
-                 - Mandatory: yes
-    :Description: Link to related datasets. Contains the identifier of the linked dataset.
-
-    .. code-block:: xml
-      :caption: rdfs:seeAlso
-
-       <rdfs:seeAlso>326@swisstopo</rdfs:seeAlso>
-
-.. container:: attribute
-
-    **dcat:distribution** 1..n
-
-    :Content: Contains single nested element of type ``dcat:Distribution``. See
-              :ref:`Definition of dcat:Distribution <dcat-ap-ch-distribution>`.
-    :Mandatory: yes
-    :Cardinality: 1..n
-    :Description: Wrapper for a distribution of the dataset
-
-    .. code-block:: xml
-      :caption: dcat:distribution
-
-       <dcat:distribution>
-           <dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
-               [Content of distribution]
-           </dcat:Distribution>
-       </dcat:distribution>
-       [further distributions]
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-title.rst
+
+.. toggle-header::
+    :header: Property ``dct:title`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-title-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:title`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-title-rdf.rst
+
+.. _dcat-dataset-description:
+
+dct:description (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-description.rst
+
+.. toggle-header::
+    :header: Property ``dct:description`` of ``dcat:Dataset`` using Markdown in Turtle
+
+    .. include:: dcat-examples/dataset-description-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:description`` of ``dcat:Dataset`` using Markdown in RDF
+
+    .. include:: dcat-examples/dataset-description-rdf.rst
+
+.. _dcat-dataset-publisher:
+
+dct:publisher (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-publisher.rst
+
+.. toggle-header::
+    :header: Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-publisher-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-publisher-rdf.rst
+
+.. _dcat-dataset-contact-point:
+
+dcat:contactPoint (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-contact-point.rst
+
+.. toggle-header::
+    :header: Property ``dcat:contactPoints`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-contact-point-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:contactPoints`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-contact-point-rdf.rst
+
+.. _dcat-dataset-distribution:
+
+dcat:distribution (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-distribution.rst
+
+.. toggle-header::
+    :header: Property ``dcat:distribution`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-distribution-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:distribution`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-distribution-rdf.rst
+
+.. _dcat-dataset-issued:
+
+dct:issued (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-issued.rst
+
+.. toggle-header::
+    :header: Property ``dct:issued`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-issued-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:issued`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-issued-rdf.rst
+
+.. _dcat-dataset-modified:
+
+dct-modified (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/dataset-modified.rst
+
+.. toggle-header::
+    :header: Property ``dct:modified`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-modified-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:modified`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-modified-rdf.rst
+
+.. _dcat-dataset-theme:
+
+dcat:theme (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-theme.rst
+
+.. toggle-header::
+    :header: Property ``dcat:theme`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-theme-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:theme`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-theme-rdf.rst
+
+.. _dcat-dataset-language:
+
+dct:language (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-language.rst
+
+.. toggle-header::
+    :header: Property ``dct:language`` of ``dcat:Dataset``  in Turtle
+
+    .. include:: dcat-examples/dataset-language-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:language`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-language-rdf.rst
+
+
+.. _dcat-dataset-landing-page:
+
+dcat:landingPage (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-landing-page.rst
+
+.. toggle-header::
+    :header: Property ``dcat:landingPage`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-landing-page-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:landingPage`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-landing-page-rdf.rst
+
+.. _dcat-dataset-relation:
+
+dct:relation (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-relation.rst
+
+.. toggle-header::
+    :header: Property ``dct:relation`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-relation-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:relation`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-relation-rdf.rst
+
+.. _dcat-dataset-keyword:
+
+dcat:keyword (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/dataset-keyword.rst
+
+.. toggle-header::
+    :header: Property ``dct:keyword`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-keyword-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:keyword`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-keyword-rdf.rst
+
+.. _dcat-dataset-spatial:
+
+dct:spatial (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-spatial.rst
+
+.. toggle-header::
+    :header: Property ``dct:spatial`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-spatial-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:spatial`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-spatial-rdf.rst
+
+.. _dcat-dataset-coverage:
+
+dct:coverage (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-coverage.rst
+
+.. toggle-header::
+    :header: Property ``dct:coverage`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-coverage-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:coverage`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-coverage-rdf.rst
+
+.. _dcat-dataset-temporal:
+
+dct:temporal (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-temporal.rst
+
+.. toggle-header::
+    :header: Property ``dct:temporal`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-temporal-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:temporal`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-temporal-rdf.rst
+
+.. _dcat-dataset-accrual-periodicity:
+
+dct:accrual-periodicity (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-accrual-periodicity.rst
+
+.. toggle-header::
+    :header: Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-accrual-periodicity-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-accrual-periodicity-rdf.rst
+
+.. _dcat-dataset-see-also:
+
+dcat:seeAlso (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/dataset-see-also.rst
+
+.. toggle-header::
+    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-see-also-ttl.rst
+
+.. toggle-header::
+    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/dataset-see-also-rdf.rst
 
 .. _dcat-ap-ch-distribution:
 
 Distribution
 ------------
 
-.. container:: attribute
+.. _dcat-distribution-class:
 
-    **dcat:Distribution** 1..1
+dcat:Distribution (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-    :Mandatory: yes
-    :Cardinality: 1..1
-    :Attributes: - Name: ``rdf:about``
-                 - Content: Unique identifier for distribution
-                 - Mandatory: yes
-    :Description: A single distribution of the dataset
+.. container:: Mapping
 
-    .. code-block:: xml
-      :caption: dcat:Distribution
+    .. include:: dcat-definitions/distribution-class.rst
 
-       <dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
-           [Content of distribution]
-       </dcat:Distribution>
+.. toggle-header::
+    :header: Class ``dcat:Distribution`` with a URI in Turtle
 
-.. container:: attribute
+    .. include:: dcat-examples/distribution-class-ttl.rst
 
-    dct:identifier 0..1
+.. toggle-header::
+    :header: Class ``dcat:Distribution`` with a URI in RDF
 
-    :Type:       ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Mandatory: no
-    :Cardinality: 0..1
-    :Description: Identifier of the distribution in the source system
+    .. include:: dcat-examples/distribution-class-rdf.rst
 
-    .. code-block:: xml
-      :caption: dct:identifier
+.. _dcat-distribution-access-url:
 
-      <dct:identifier>ch.bafu.laerm-bahnlaerm_nacht</dct:identifier>
+dcat:accessURL (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. container:: attribute
+.. container:: Mapping
 
-    dcat:title 0..n
+   .. include:: dcat-definitions/distribution-access-url.rst
 
-    :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Mandatory: no - except if the distribution does not contain
-                all the content of the dataset.
-    :Cardinality: 0..n (one for each language)
-    :Attributes: - Name: ``xml:lang``
-                 - Content: ``en``, ``de``, ``fr``, ``it``
-                 - Description: Language of the element
-                 - Mandatory: yes
-    :Description: The title of the distribution in the language defined
-                  by the ``xml:lang?`` attribute. If this element is left out,
-                  the ``dct:title`` of the dataset is used instead.
+.. toggle-header::
+    :header: Property ``dcat:accessURL`` of ``dcat:Distribution`` in Turtle
 
-    .. code-block:: xml
-      :caption: dcat:title
+    .. include:: dcat-examples/distribution-access-url-ttl.rst
 
-      <dct:title xml:lang="de">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
+.. toggle-header::
+    :header: Property ``dcat:accessURL`` of ``dcat:Distribution`` in RDF
 
-.. container:: attribute
+    .. include:: dcat-examples/distribution-access-url-rdf.rst
 
-    dct:description 0..n
 
-    :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Mandatory: no - except if the distribution does not contain
-                all the content of the dataset.
-    :Cardinality: 0..n (one for each language)
-    :Attributes: - Name: ``xml:lang``
-                 - Content: ``en``, ``de``, ``fr``, ``it``
-                 - Description: Language of the element
-                 - Mandatory: yes
-    :Description: Description of the distribution in the
-                  language defined by the ``xml:lang?`` attribute.
+.. _dcat-distribution-download-url:
 
-    .. code-block:: xml
-      :caption: dct:description
+dcat:downloadURL (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-      <dct:title xml:lang="de">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
+.. container:: Mapping
 
-.. container:: attribute
+   .. include:: dcat-definitions/distribution-download-url.rst
 
-    **dct:issued 0..1**
+.. toggle-header::
+    :header: Property ``dcat:downloadURL`` of ``dcat:Distribution`` in Turtle
 
-    :Type: Date and time in `ISO-8601 <https://en.wikipedia.org/wiki/ISO_8601>`__ format
-    :Mandatory:  yes
-    :Cardinality: 0..1
-    :Attributes: - Name: ``rdf:datatype``
-                 - Content: \http://www.w3.org/2001/XMLSchema#dateTime
-                 - Description: Type of the field
-                 - Mandatory: yes
-    :Description: Date of the publication of this distribution
+    .. include:: dcat-examples/distribution-download-url-ttl.rst
 
-    .. code-block:: xml
-      :caption: dct:issued
+.. toggle-header::
+    :header: Property ``dcat:downloadURL`` of ``dcat:Distribution`` in RDF
 
-      <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2013-05-11T00:00:00Z</dct:issued>
-
-.. container:: attribute
+    .. include:: dcat-examples/distribution-download-url-rdf.rst
 
-    dct:modified 0..1
-
-    :Type: Date and time in `ISO-8601 <https://en.wikipedia.org/wiki/ISO_8601>`__ format
-    :Mandatory:  Only when the distribution has changed since the first
-                 publication.
-                 If this distribution was changed several times,
-                 this corresponds to the date of the latest change.
-    :Cardinality: 0..1
-    :Attributes: - Name: ``rdf:datatype``
-                 - Content: \http://www.w3.org/2001/XMLSchema#dateTime
-                 - Description: Type of the field
-                 - Mandatory: yes
-    :Description: Date of the last change of the distribution
-
-    .. code-block:: xml
-      :caption: dct:modified
-
-      <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"> 2015-04-26T00:00:00Z</dct:modified>
-
-.. container:: attribute
-
-    dct:language 0..n
-
-    :Type: ``rdfs:Literal`` ISO 639-1 two-letter code
-    :Content: ``en``, ``de``, ``fr``, ``it``
-    :Mandatory: no
-    :Cardinality: 0..n (for each language)
-    :Description: Languages in which this distribution is available.
-                  If the distribution is language-independant, this can
-                  be left out.
-
-    .. code-block:: xml
-      :caption: dct:language
-
-      <dct:language>de</dct:language>
-
-.. container:: attribute
-
-    **dcat:accessURL** 1..n
-
-    :Type: \http://www.w3.org/2001/XMLSchema#anyURI
-    :Mandatory: yes
-    :Cardinality: 1..n
-    :Attributes: - Name: ``rdf:datatype``
-                 - Content: \http://www.w3.org/2001/XMLSchema#anyURI
-                 - Description: Type of the field
-                 - Mandatory: yes
-    :Description: URL where the distribution can be found.
-                  This could be either a download URL, an API URL or
-                  a landing page URL. If the distribution is only
-                  available through a landing page, this field must
-                  contain the URL of the landing page. If a download
-                  URL was given for this distribution, this field has
-                  to contain the same value.
-
-    .. code-block:: xml
-      :caption: dcat:accessURL
-
-      <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> http://wms.geo.admin.ch/</dcat:accessURL>
+.. _dcat-distribution-issued:
 
-.. container:: attribute
+dct:issued (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-    dcat:downloadURL 0..1
+.. container:: Mapping
 
-    :Type: \https://www.w3.org/ns/dcat#downloadURL
-    :Mandatory: no
-    :Cardinality: 0..n
-    :Attributes: - Name: ``rdf:datatype``
-                 - Content: \http://www.w3.org/2001/XMLSchema#anyURI
-                 - Description: Type of the field
-                 - Mandatory: yes
-    :Description: URL of a data file, if the distribution can be downloaded.
-                  For each of these, a ``dcat:accessURL`` has to exist.
+   .. include:: dcat-definitions/distribution-issued.rst
 
-    .. code-block:: xml
-      :caption: dcat:downloadURL
+.. toggle-header::
+    :header: Property ``dct:issued`` of ``dcat:Distribution`` in Turtle
 
-      <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema"> http://data.geo.admin.ch.s3.amazonaws.com/ch.fill/data.zip</dcat:downloadURL>
+    .. include:: dcat-examples/distribution-issued-ttl.rst
 
-.. container:: attribute
+.. toggle-header::
+    :header: Property ``dct:issued`` of ``dcat:Distribution`` in RDF
 
-    **dct:rights** 1..1
+    .. include:: dcat-examples/distribution-issued-rdf.rst
 
-    :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Content:
-              - NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired (acceptable for opendata.swiss, Open Definition compliant)
-              - NonCommercialAllowed-CommercialAllowed-ReferenceRequired (acceptable for opendata.swiss, Open Definition compliant)
-              - NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired (acceptable for opendata.swiss)
-              - NonCommercialAllowed-CommercialWithPermission-ReferenceRequired (acceptable for opendata.swiss)
-              - NonCommercialAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)
-              - NonCommercialAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)
-              - NonCommercialNotAllowed-CommercialNotAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)
-              - NonCommercialNotAllowed-CommercialNotAllowed-ReferenceRequired (not acceptable for opendata.swiss)
-              - NonCommercialNotAllowed-CommercialAllowed-ReferenceNotRequired (not acceptable for opendata.swiss)
-              - NonCommercialNotAllowed-CommercialAllowed-ReferenceRequired (not acceptable for opendata.swiss)
-              - NonCommercialNotAllowed-CommercialWithPermission-ReferenceNotRequired (not acceptable for opendata.swiss)
-              - NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired (not acceptable for opendata.swiss)
+.. _dcat-distribution-rights:
 
-    :Mandatory: yes
-    :Cardinality: 1..1
-    :Description: Rights statement of this distribution. This is composed of 3
-                  elements that can be summarized in a string literal:
-                  - Non-commercial use: allowed or not allowed
-                  - Commercial use: allowed, allowed with permission and not allowed
-                  - Reference: required or not required
-                  For each of these, a ``dcat:accessURL`` has to exist.
+dct:rights (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-    .. code-block:: xml
-      :caption: rdfs:seeAlso
+.. container:: Mapping
 
-      <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:rights>
+    .. include:: dcat-definitions/distribution-rights.rst
 
-.. container:: attribute
+.. toggle-header::
+    :header: Property ``dct:rights`` of ``dcat:Distribution`` in Turtle
 
-    dct:license 0..1
+    .. include:: dcat-examples/distribution-rights-ttl.rst
 
-    :Type: ``dct:LicenseDocument``
-    :Mandatory: no
-    :Cardinality: 0..1
-    :Description: Not used, see ``dct:rights``. This field ensures compatibility
-                  to other metadata standards.
+.. toggle-header::
+    :header: Property ``dct:rights`` of ``dcat:Distribution`` in RDF
 
-    .. code-block:: xml
-      :caption: dct:license
+    .. include:: dcat-examples/distribution-rights-rdf.rst
 
-      <dct:license/>
+.. _dcat-distribution-media-type:
 
-.. container:: attribute
+dct:mediaType (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-    dcat:byteSize 0..1
+.. container:: Mapping
 
-    :Type: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-    :Mandatory: no - except if the distribution is available as a
-                data download (see ``downloadURL``).
-    :Cardinality: 0..1
-    :Description: Size of the data in bytes
+    .. include:: dcat-definitions/distribution-media-type.rst
 
-    .. code-block:: xml
-      :caption: dcat:byteSize
+.. toggle-header::
+    :header: Property ``dcat:mediaType`` of ``dcat:Distribution`` in Turtle
 
-      <dcat:byteSize>1024</dcat:byteSize>
+    .. include:: dcat-examples/distribution-media-type-ttl.rst
 
-.. container:: attribute
+.. toggle-header::
+    :header: Property ``dcat:mediaType`` of ``dcat:Distribution`` in RDF
 
-    dcat:mediaType 0..1
+    .. include:: dcat-examples/distribution-media-type-rdf.rst
 
-    :Type: ``dct:MediaTypeOrExtent``
-           http://www.iana.org/assignments/media-types/media-types.xhtml
-    :Mandatory: no - except if the distribution is available
-                as a data download (see ``downloadURL``).
-    :Cardinality: 0..1
-    :Description: This value will be used to display the ressource-format
-                  if the downloadURL is empty. Only values from the list
-                  of IANA MIME types
-                  http://www.iana.org/assignments/media-types/media-types.xhtml
+.. _dcat-distribution-format:
 
-    .. code-block:: xml
-      :caption: dcat:mediaType
+dct:format (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-      <dcat:mediaType>text/html</dcat:mediaType>
+.. container:: Mapping
 
-.. container:: attribute
+    .. include:: dcat-definitions/distribution-format.rst
 
-    dct:format 0..1
+.. toggle-header::
+    :header: Property ``dct:format`` of ``dcat:Distribution`` in Turtle
 
-    :Type: ``dct:MediaTypeOrExtent``
-    :Mandatory: no
-    :Cardinality: 0..1
-    :Description: If neither the ``downloadURL``
-                  nor the ``mediaType`` provide a
-                  valid format this value is used
-                  to display the format of the ressource.
+    .. include:: dcat-examples/distribution-format-ttl.rst
 
-    .. code-block:: xml
-      :caption: dct:format
+.. toggle-header::
+    :header: Property ``dct:format`` of ``dcat:Distribution`` in RDF
 
-      <dct:format/>
+    .. include:: dcat-examples/distribution-format-rdf.rst
 
-.. container:: attribute
+.. _dcat-distribution-byte-size:
 
-    dct:coverage 0..n
+dcat:byteSize (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-    :Type: ``dct:LocationPeriodOrJurisdiction``
-           https://www.dublincore.org/specifications/dublin-core/dcmi-terms/2012-06-14/#terms-LocationPeriodOrJurisdiction
-    :Mandatory: no
-    :Cardinality: 0..n
-    :Description: Distributions can be classified by their location
-                  or time period (for example, one for each canton,
-                  one for each year, etc.)
+.. container:: Mapping
 
-    .. code-block:: xml
-      :caption: dct:coverage
+   .. include:: dcat-definitions/distribution-byte-size.rst
 
-      <dct:coverage/>
+.. toggle-header::
+    :header: Property ``dcat:byteSize`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-byte-size-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:byteSize`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-byte-size-rdf.rst
+
+.. _dcat-distribution-modified:
+
+dct:modified (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-modified.rst
+
+.. toggle-header::
+    :header: Property ``dct:modified`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-modified-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:modified`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-modified-rdf.rst
+
+.. _dcat-distribution-title:
+
+dct:title (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-title.rst
+
+.. toggle-header::
+    :header: Property ``dct:title`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-title-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:title`` of ``dcat:Dataset`` in RDF
+
+    .. include:: dcat-examples/distribution-title-rdf.rst
+
+.. _dcat-distribution-description:
+
+dct:description (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-description.rst
+
+.. toggle-header::
+    :header: Property ``dct:description`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-description-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:description`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-description-rdf.rst
+
+.. _dcat-distribution-language:
+
+dct:language (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-language.rst
+
+.. toggle-header::
+    :header: Property ``dct:language`` of ``dcat:Distribution``  in Turtle
+
+    .. include:: dcat-examples/distribution-language-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:language`` of ``dcat:Distribution``  in RDF
+
+    .. include:: dcat-examples/distribution-language-rdf.rst
+
+.. _dcat-distribution-identifier:
+
+dct:identifier (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-identifier.rst
+
+.. toggle-header::
+    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-identifier-ttl.rst
+
+.. toggle-header::
+    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-identifier-rdf.rst
+
+.. _dcat-distribution-coverage:
+
+dct:coverage (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-coverage.rst
+
+.. toggle-header::
+    :header: Property ``dct:coverage`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-coverage-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:coverage`` of ``dcat:Distribution`` in RDF
+
+    .. include:: dcat-examples/distribution-coverage-rdf.rst
+
+.. _dcat-distribution-license:
+
+dct:license (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+   .. include:: dcat-definitions/distribution-license.rst

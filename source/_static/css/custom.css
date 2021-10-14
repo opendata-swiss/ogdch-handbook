@@ -28,6 +28,12 @@ a, a:hover, a:visited, a:active, a:focus {
     background: white;
 }
 
+/* give space before headers */
+
+h4 {
+    margin-top:20px;
+}
+
 /*=======================================*/
 /* Search Window with Logo                */
 /*=======================================*/
@@ -203,6 +209,15 @@ div.container.intro ul {
 }
 
 /*=======================================*/
+/* Container Mapping                       */
+/*=======================================*/
+
+div.container.mapping {
+    background: #f0f0f0;
+    padding-top: 20px;
+}
+
+/*=======================================*/
 /* Container teaser                      */
 /*=======================================*/
 
@@ -349,6 +364,10 @@ div.container.content-divider p {
     font-size:16px;
 }
 
+html.writer-html5 .rst-content dl.field-list > dd {
+    margin-top: -2px;
+}
+
 /*=======================================*/
 /* Container attribute                   */
 /*=======================================*/
@@ -361,12 +380,32 @@ div.container.attribute > p {
 
 div.container.attribute {
     background:whitesmoke;
-    border-top:1px dashed #099;
+    margin-top: 30px;
 }
 
 .rst-content .section div.container.attribute li p {
     margin-bottom: 0!important;
 }
+
+/*=======================================*/
+/* Container dcat-attribute              */
+/*=======================================*/
+
+div.container.dcat-attribute > p {
+    color: #099;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+div.container.dcat-attribute {
+    background:whitesmoke;
+    margin-top: 30px;
+}
+
+.rst-content .section div.container.dcat-attribute li p {
+    margin-bottom: 0!important;
+}
+
 
 /*=======================================*/
 /* Container instruction                 */
@@ -478,7 +517,7 @@ footer {
 }
 
 /*=======================================*/
-/* Container construction                 */
+/* Container construction                */
 /*=======================================*/
 
 div.container.construction {
@@ -488,3 +527,26 @@ div.container.construction {
 div.container.construction p {
 }
 
+/*=======================================*/
+/* Tables                                */
+/*=======================================*/
+
+html.writer-html5 .rst-content table.docutils th {
+    text-align: left;
+}
+
+/*=======================================*/
+/* sphinxcontrib.contentui               */
+/*=======================================*/
+
+.wy-nav-content-wrap  .wy-nav-content {
+    max-width: 900px;
+}
+
+.toggle-header::after {
+    color:#099;
+}
+
+.toggle-header p {
+    color:#099;
+}
