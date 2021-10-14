@@ -372,7 +372,7 @@ Dataset
                  - Mandatory: yes
     :Description: Categorisation of the data. In the ``rdf:resource``
                   attribute, the unique URI of the category from
-                  :download:`SKOS-RDF <../../../_static/examples/opendataswiss-themes.rdf>`
+                  :download:`SKOS-RDF <../../../_static/vocabulary/theme.rdf>`
                   (RDF) must be given.
                   The following values are accepted from Themes:
                   https://opendata.swiss/group/work,
