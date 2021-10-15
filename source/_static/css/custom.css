@@ -529,7 +529,7 @@ html.writer-html5 .rst-content table.docutils th {
 /*=======================================*/
 
 .wy-nav-content-wrap  .wy-nav-content {
-    max-width: 900px;
+    max-width: 800px;
 }
 
 .toggle-header::after {
