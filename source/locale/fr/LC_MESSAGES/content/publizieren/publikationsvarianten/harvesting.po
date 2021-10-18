@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 06:58+0200\n"
+"POT-Creation-Date: 2021-10-18 17:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
@@ -245,6 +245,9 @@ msgid ""
 " Sie von uns."
 msgstr ""
 
+msgid "Organisation im Frontend von opendata.swiss"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:139
 msgid ""
 "Wenn Sie Ihren Harvester gefunden haben: klicken Sie auf den Link, dann "
@@ -447,9 +450,18 @@ msgid ""
 "``ckan`` aus der URL Ihrer Organisation im Backend entfernen:"
 msgstr ""
 
+msgid "ckan url einer Organisation"
+msgstr ""
+
+msgid "Frontend url einer Organisation"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:280
 msgid "Beispielansicht einer publizierten Organisation"
 msgstr "«Exemple d’un jeu de donné publié»"
+
+msgid "Dataset im Frontend von opendata.swiss"
+msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:287
 msgid "Beispielansicht eines publizierten Datasets"
