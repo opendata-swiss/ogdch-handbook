@@ -57,7 +57,10 @@ language = 'de'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['content/glossar/bibliothek/dcat-examples/*.rst',
+                    'content/glossar/bibliothek/geocat-examples/*.rst',
+                    'content/glossar/bibliothek/geocat-mappings/*.rst',
+                    'content/glossar/bibliothek/dcat-definitions/*.rst',]
 
 
 # -- Options for HTML output -------------------------------------------------
