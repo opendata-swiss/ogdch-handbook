@@ -32,7 +32,7 @@ Hier als Beispiel einige aktive Accounts der Gemeinschaft:
 
 .. admonition:: Gut zu wissen
 
-    :doc:`Anregungen <event>` und Beispiele von Tweets zu OGD-Themen finden Sie unter diesem
+    Anregungen und Beispiele von Tweets zu OGD-Themen finden Sie unter diesem
     :ref:`Link <twitter-beispiele>`.
 
 .. container:: teaser

@@ -23,7 +23,7 @@ Datennutzende sind eingeladen, selbst Beiträge für diese NewsMail zu verfassen
 Sie möchten Ihre Neuigkeiten über das «Open Government Data»-NewsMail teilen?
 --------------------------------------------------------------------------------
 
-`Schreiben Sie uns an opendata@bfs.admin.ch <mailto:opendata@bfs.admin.ch>`__.
+`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
 Wir nehmen Sie gerne in unsere Kontaktliste auf und schreiben Sie vor der
 Veröffentlichung einer neuen Ausgabe an, damit Sie Ihre Beiträge einreichen können.
 
@@ -39,3 +39,7 @@ Vorgaben für Ihre Beiträge
 +----------------------------------------------------+
 | Wenn möglich mit Bild                              |
 +----------------------------------------------------+
+
+.. container:: teaser
+
+    :doc:`Showcases <showcases>`

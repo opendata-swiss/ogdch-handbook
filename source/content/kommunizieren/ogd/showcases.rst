@@ -45,3 +45,7 @@ Vorgaben für Ihren Beitrag
 +-----------------------------------------------------------------------------------+
 | Bild                                                                              |
 +-----------------------------------------------------------------------------------+
+
+.. container:: teaser
+
+    :doc:`Kommunizieren mit den Datenutzenden <../datennutzende>`
