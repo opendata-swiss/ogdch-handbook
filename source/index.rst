@@ -109,8 +109,8 @@ mit uns teilen möchten?
    :maxdepth: 1
    :caption: Kommunikation
 
-   content/kommunikation/leitfaden
-   content/kommunikation/datennutzende
+   content/kommunizieren/ogd
+   content/kommunizieren/datennutzende
 
 .. toctree::
    :maxdepth: 1
@@ -142,12 +142,12 @@ mit uns teilen möchten?
    content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen
    content/publizieren/publikationsvarianten/harvesting
    content/publizieren/publikationsvarianten/geodaten
-   content/kommunikation/datennutzende/event
-   content/kommunikation/datennutzende/online
-   content/kommunikation/kanaele-ogd/twitter
-   content/kommunikation/kanaele-ogd/showcases
-   content/kommunikation/kanaele-ogd/newsmail
-   content/kommunikation/kanaele-ogd/twitter-beispiele
+   content/kommunizieren/datennutzende/event
+   content/kommunizieren/datennutzende/online
+   content/kommunizieren/ogd/twitter
+   content/kommunizieren/ogd/showcases
+   content/kommunizieren/ogd/newsmail
+   content/kommunizieren/ogd/twitter-beispiele
    content/glossar/bibliothek/ogd-richtlinien
    content/glossar/bibliothek/dcat-ap-ch
    content/glossar/bibliothek/geocat-mapping
