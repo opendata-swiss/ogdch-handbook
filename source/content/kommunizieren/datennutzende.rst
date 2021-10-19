@@ -1,7 +1,7 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - Kommunikation Datennutzende
+   - Mit den Datennutzenden
 
 *************************************
 Mit den Datennutzenden kommunizieren
@@ -10,7 +10,7 @@ Mit den Datennutzenden kommunizieren
 Worin besteht der Mehrwert?
 ==============================
 
-Der Dialog zwischen :term:`Datenanbietenden <Datenpublizierende>`
+Der Dialog zwischen :term:`Datenanbietenden <Datenpublizierende / Datenanbietende>`
 und :term:`Datennutzenden <Datennutzende>`
 trägt dazu bei, die Datenqualität zu verbessern und koordinierte, bedarfsgerechte Daten zu veröffentlichen.
 Bessere Daten steigern letztlich die Wiederverwendbarkeit und den Mehrwert der Daten.

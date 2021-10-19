@@ -1,7 +1,7 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Kommunikation Kanäle OGD <../leitfaden>` :fa:`chevron-right`
+   - :doc:`Über unsere Kanäle <../ogd>` :fa:`chevron-right`
    - NewsMail
 
 *************************************
@@ -28,9 +28,14 @@ Wir nehmen Sie gerne in unsere Kontaktliste auf und schreiben Sie vor der
 Veröffentlichung einer neuen Ausgabe an, damit Sie Ihre Beiträge einreichen können.
 
 Vorgaben für Ihre Beiträge
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Titel: max. 60 Zeichen (inkl. Leerschläge)
-- Text: max. 350 Zeichen
-- Link zu weiterführenden Informationen
-- Wenn möglich mit Bild
++----------------------------------------------------+
+| Titel: max. 60 Zeichen (inkl. Leerschläge)         |
++----------------------------------------------------+
+| Text: max. 350 Zeichen                             |
++----------------------------------------------------+
+| Link zu weiterführenden Informationen              |
++----------------------------------------------------+
+| Wenn möglich mit Bild                              |
++----------------------------------------------------+

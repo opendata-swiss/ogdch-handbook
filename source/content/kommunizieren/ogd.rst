@@ -1,10 +1,10 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - Kommunikation Kanäle OGD
+   - Über unsere Kanäle
 
 ******************************
-Kommunikationsleitfaden
+Über unsere Kanäle
 ******************************
 
 Welche Aufgaben verfolgt die Geschäftsstelle OGD bei ihrer Kommunikationsarbeit und an welche Zielgruppen richtet sie sich?
@@ -12,14 +12,14 @@ Welche Aufgaben verfolgt die Geschäftsstelle OGD bei ihrer Kommunikationsarbeit
 Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data (OGD)>`
 des Bundesamtes für Statistik (BFS) begleitet die Umsetzung
 der vom Bundesrat Ende 2018 verabschiedeten
-`«Open Government Data»-Strategie (OGD-Strategie) 2019–2023 <https://www.bfs.admin.ch/bfs/en/home/services/ogd/strategy.html>`__,
+`«Open Government Data»-Strategie (OGD-Strategie) 2019–2023 <https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie.html>`__,
 die drei Hauptziele verfolgt:
 
-.. figure:: ../../_static/images/kommunikation/diagramm.jpg
+.. figure:: ../../_static/images/kommunizieren/diagramm.jpg
    :alt: Ziele der Kommunikation von Open Government Data
 
 Demnach richtet sich die Geschäftsstelle OGD im Wesentlichen an zwei Zielgruppen:
-einerseits an die :term:`Datenanbietenden <Datenpublizierende>`,
+einerseits an die :term:`Datenanbietenden <Datenpublizierende / Datenanbietende>`,
 andererseits an die :term:`Datennutzenden <Datennutzende>`.
 Da die OGD-Strategie 2019–2023 für die Bundesverwaltung verbindlich ist,
 betreffen die Kommunikationsmassnahmen prioritär die Datenanbietenden in den
@@ -46,13 +46,13 @@ Themen mehr Sichtbarkeit und stärkt die Open-Data-Gemeinschaft.
 Welche Kommunikationskanäle nutzt die Geschäftsstelle OGD?
 -------------------------------------------------------------
 
-- :doc:`Twitter <kanaele-ogd/twitter>`
-- :doc:`NewsMail <kanaele-ogd/newsmail>`
-- :doc:`Showcases <kanaele-ogd/showcases>`
+- :doc:`Twitter <ogd/twitter>`
+- :doc:`NewsMail <ogd/newsmail>`
+- :doc:`Showcases <ogd/showcases>`
 
 Für andere Kommunikationsmassnahmen wie Medienmitteilungen,
 Schulungen oder Events wenden Sie sich bitte
-an die `Geschäftsstelle OGD <mailto:opendata@bfs.admin.ch>`.
+an die `Geschäftsstelle OGD <mailto:opendata@bfs.admin.ch>`__.
 
 
 

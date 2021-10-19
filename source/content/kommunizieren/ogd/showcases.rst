@@ -1,7 +1,7 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
-   - :doc:`Kommunikation Kanäle OGD <../leitfaden>` :fa:`chevron-right`
+   - :doc:`Über unsere Kanäle <../ogd>` :fa:`chevron-right`
    - Showcases
 
 *************************************
@@ -28,10 +28,20 @@ Sie wollen ein Beispiel für die Datennutzung unter «Showcases» veröffentlich
 `Mailen <mailto:opendata@bfs.admin.ch>`__ Sie uns Ihren Beitrag unter Einhaltung der Vorgaben.
 
 Vorgaben für Ihren Beitrag
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- Titel: Thematischer Inhalt («App», «Datenvisualisierung» oder «Veranstaltung»)
-- Beschreibung (1–10 Zeilen mit Kurzbeschrieb des Showcases)
-- Name der Entwickler/innen
-- E-Mail-Adresse für die Kontaktaufnahme
-- URL Verwendeter Datensatz (bitte die URL von opendata.swiss angeben)
-- Bild
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
++-----------------------------------------------------------------------------------+
+| Titel: Thematischer Inhalt («App», «Datenvisualisierung» oder «Veranstaltung»)    |
++-----------------------------------------------------------------------------------+
+| Beschreibung (1–10 Zeilen mit Kurzbeschrieb des Showcases)                        |
++-----------------------------------------------------------------------------------+
+| Name der Entwickler/innen                                                         |
++-----------------------------------------------------------------------------------+
+| E-Mail-Adresse für die Kontaktaufnahme                                            |
++-----------------------------------------------------------------------------------+
+| URL der Website Ihres Showcases                                                   |
++-----------------------------------------------------------------------------------+
+| Verwendeter Datensatz (bitte die URL von opendata.swiss angeben)                  |
++-----------------------------------------------------------------------------------+
+| Bild                                                                              |
++-----------------------------------------------------------------------------------+
