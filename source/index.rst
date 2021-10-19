@@ -107,7 +107,7 @@ mit uns teilen möchten?
 
 .. toctree::
    :maxdepth: 1
-   :caption: Kommunikation
+   :caption: Kommunizieren
 
    content/kommunizieren/ogd
    content/kommunizieren/datennutzende
