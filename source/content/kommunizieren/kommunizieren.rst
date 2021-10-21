@@ -13,7 +13,11 @@ Auf einen Blick
 Nachdem Sie Ihre Daten publiziert haben, ist es wichtig,
 dass Sie das Datenangebot und Ihre Aktivitäten für Open Data bei den Datennutzenden
 bekannt machen. Damit soll die Wiederverwendung Ihrer Datasets gefördert werden.
-Der Austausch zwischen Datenanbietenden ((Link to: https://handbook.opendata.swiss/de/content/glossar/begriffe.html#term-Datenpublizierende)) und –nutzenden ((Link to: https://handbook.opendata.swiss/de/content/glossar/begriffe.html#term-Datennutzende)) ist zentral, da er es ermöglicht, das Datenangebot entsprechend den Bedürfnissen der Datennutzenden zu verbessern. Dies führt letztlich zu mehr Innovation und bietet einen Mehrwert für die Gesellschaft und die Wirtschaft.
+Der Austausch zwischen
+:term:`Datenanbietenden <Datenpublizierende / Datenanbietende>` und :term:`–nutzenden <Datennutzende>`
+ist zentral, da er es ermöglicht, das Datenangebot entsprechend den
+Bedürfnissen der Datennutzenden zu verbessern. Dies führt letztlich zu mehr
+Innovation und bietet einen Mehrwert für die Gesellschaft und die Wirtschaft.
 
 In diesem Leitfaden wird erklärt, wie man über das Thema Open Government Data kommuniziert:
 
