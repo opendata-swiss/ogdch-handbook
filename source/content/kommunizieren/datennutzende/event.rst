@@ -36,8 +36,13 @@ innovative Lösungen und neue Apps z.B. im digitalen Bereich zu kreieren.
 Wozu dienen Hackathons?
 ---------------------------
 
-Bei diesen Veranstaltungen haben die Datennutzenden die Gelegenheit, Daten der Verwaltung wiederzuverwenden.
-Die Datenanbietenden sehen konkret, wie ihre Daten genutzt werden. Beide Seiten können sich austauschen, was langfristig dazu beiträgt, die Datenqualität zu verbessern. Solche Veranstaltungen wirken sich zudem auf die Kommunikation und die Visibilität der Datenanbietenden aus, die sich dadurch in der öffentlichen Meinung und bei der Open-Data-Gemeinschaft als innovative Akteure positionieren können.
+Bei diesen Veranstaltungen haben die Datennutzenden die Gelegenheit, Daten der
+Verwaltung wiederzuverwenden.
+Die Datenanbietenden sehen konkret, wie ihre Daten genutzt werden. Beide Seiten
+können sich austauschen, was langfristig dazu beiträgt, die Datenqualität zu verbessern.
+Solche Veranstaltungen wirken sich zudem auf die Kommunikation und die Visibilität der
+Datenanbietenden aus, die sich dadurch in der öffentlichen Meinung und bei der
+Open-Data-Gemeinschaft als innovative Akteure positionieren können.
 Hier einige Beispiele von Hackathons, die der Bund mitorganisiert hat:
 
 - `Hackathon Versus Virus <https://www.versusvirus.ch/>`__
