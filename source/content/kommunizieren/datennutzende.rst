@@ -1,11 +1,12 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
+   - :doc:`Kommunizieren <kommunizieren>` :fa:`chevron-right`
    - Mit den Datennutzenden
 
-*************************************
-Mit den Datennutzenden kommunizieren
-*************************************
+*************************
+Mit den Datennutzenden
+*************************
 
 Worin besteht der Mehrwert?
 ==============================

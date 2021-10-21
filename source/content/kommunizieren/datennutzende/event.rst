@@ -1,6 +1,7 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
+   - :doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`
    - :doc:`Mit den Datennutzenden <../datennutzende>` :fa:`chevron-right`
    - Eventkommunikation
 

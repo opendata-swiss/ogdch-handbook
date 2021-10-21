@@ -1,6 +1,7 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
+   - :doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`
    - :doc:`Über unsere Kanäle <../ogd>` :fa:`chevron-right`
    - Twitter
 

@@ -109,6 +109,7 @@ mit uns teilen möchten?
    :maxdepth: 1
    :caption: Kommunizieren
 
+   content/kommunizieren/kommunizieren
    content/kommunizieren/ogd
    content/kommunizieren/datennutzende
 

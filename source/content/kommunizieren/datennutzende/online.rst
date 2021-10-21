@@ -1,6 +1,7 @@
 .. container:: custom-breadcrumbs
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
+   - :doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`
    - :doc:`Mit den Datennutzenden <../datennutzende>` :fa:`chevron-right`
    - Onlinekommunikation
 
@@ -11,7 +12,8 @@ Onlinekommunikation
 Auf welchen Onlinekanälen sind die Datennutzenden präsent?
 =============================================================
 
-Wie die Open-Data-Gemeinschaft sind auch die Datennutzenden auf :doc:`Twitter <../twitter>`
+Wie die Open-Data-Gemeinschaft sind auch die Datennutzenden auf
+`Twitter <https://twitter.com>`__
 vertreten. Zu den Themen, die die Gemeinschaft besonders interessiert,
 gehören neu veröffentlichte Datensätze, Showcases und Open-Data-Anlässe.
 
