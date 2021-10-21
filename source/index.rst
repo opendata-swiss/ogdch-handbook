@@ -107,6 +107,14 @@ mit uns teilen möchten?
 
 .. toctree::
    :maxdepth: 1
+   :caption: Kommunizieren
+
+   content/kommunizieren/kommunizieren
+   content/kommunizieren/ogd
+   content/kommunizieren/datennutzende
+
+.. toctree::
+   :maxdepth: 1
    :caption: Glossar
 
    content/glossar/bibliothek
@@ -135,6 +143,12 @@ mit uns teilen möchten?
    content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen
    content/publizieren/publikationsvarianten/harvesting
    content/publizieren/publikationsvarianten/geodaten
+   content/kommunizieren/datennutzende/event
+   content/kommunizieren/datennutzende/online
+   content/kommunizieren/ogd/twitter
+   content/kommunizieren/ogd/showcases
+   content/kommunizieren/ogd/newsmail
+   content/kommunizieren/ogd/twitter-beispiele
    content/glossar/bibliothek/ogd-richtlinien
    content/glossar/bibliothek/dcat-ap-ch
    content/glossar/bibliothek/geocat-mapping
