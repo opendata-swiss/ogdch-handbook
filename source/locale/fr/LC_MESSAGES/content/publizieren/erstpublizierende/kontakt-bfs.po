@@ -32,7 +32,7 @@ msgstr ":doc:`première publication <../erstpublizierende>` :fa:`chevron-right`"
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:6
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:10
 msgid "Organisation und Benutzer/innen erfassen und verwalten"
-msgstr "Saisir et gérer l’organisation et les utilisateurs"
+msgstr "Saisie et gestion de l’organisation et des utilisateurs"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:13
 msgid "Was muss ich tun, wenn ich zum ersten Mal Daten publizieren möchte?"
@@ -50,20 +50,28 @@ msgid ""
 "und Umfang der Daten, die Sie publizieren möchten, ist für die Planung "
 "der Publikation hilfreich."
 msgstr ""
+Pour commencer, il vous faut créer un profil pour vous connecter à opendata.swiss. "
+"En tant qu’exploitant de opendata.swiss, nous assurons la gestion des utilisateurs. "
+"Veuillez prendre `contact <mailto:opendata@bfs.admin.ch>`__ avec nous pour "
+"activer votre organisation et votre profil. "
+"À cet effet, veuillez nous communiquer le nom de l’organisation qui procédera à "
+"la publication de données ainsi que l’adresse électronique des utilisateurs qui s’occuperont "
+"de la saisie et de la gestion des métadonnées. Un bref aperçu du type et du volume des "
+"données que vous pensez publier nous aidera à planifier la publication."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:28
 msgid "Die Schritte auf einen Blick"
-msgstr ""
+msgstr "Vue d’ensemble des étapes"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:30
 msgid ""
 ":ref:`Erste Aktivierung von Organisation und Benutzerinnen und Benutzer "
 "<erste_aktivierung>`"
-msgstr "Activation initiale de l’organisation et des utilisateurs"
+msgstr ":ref:`Activation initiale de l’organisation et des utilisateurs. <erste_aktivierung>`"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:31
 msgid ":ref:`Zugang anfordern <zugang_anfordern>`"
-msgstr ""
+msgstr ":ref:`Demande d’accès. <zugang_anfordern>`"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:36
 msgid "Erste Aktivierung von Organisation und Benutzer"
@@ -75,16 +83,16 @@ msgid ""
 "<mailto:opendata@bfs.admin.ch>`__ bitte folgende Informationen zur "
 "Verfügung:"
 msgstr ""
-"En vue de l’activation initiale, veuillez nous communiquer les "
-"`informations <mailto:opendata@bfs.admin.ch>`__ suivantes:"
+"En vue de l’activation initiale, veuillez `nous <mailto:opendata@bfs.admin.ch>`__ "
+"communiquer les informations suivantes: "
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:41
 msgid ""
 "Name und URL zur Webseite der Organisation, die Daten publizieren wird. "
 "Genauere Angaben zur Organisation können später hinzugefügt werden."
 msgstr ""
-"Le nom et l’URL du site internet de l’organisation qui publiera les "
-"données. Vous pourrez compléter ces informations par la suite."
+"Le nom et l’URL du site Internet de l’organisation qui publiera les données. "
+"Vous pourrez compléter ces informations par la suite."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:43
 msgid ""
@@ -93,10 +101,10 @@ msgid ""
 "unpersönlichen Adressen wie zum Beispiel ``statistik@bfs.admin.ch``, da "
 "diese das User-Management erschweren."
 msgstr ""
-"L’adresse électronique des utilisateurs qui s’occuperont de la saisie et "
-"de la gestion des métadonnées. L’utilisation d’adresses génériques et "
-"impersonnelles, statistik@bfs.admin.ch p. ex. est exclue, celles-ci "
-"posant problème lors de la gestion des utilisateurs."
+"L’adresse électronique des utilisateurs qui s’occuperont de la saisie "
+"et de la gestion des métadonnées. L’utilisation d’adresses génériques et "
+"impersonnelles, ``statistik@bfs.admin.ch`` p. ex., est exclue, celles-ci "
+"posant problème lors de la gestion des utilisateurs.
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:47
 msgid ""
@@ -104,17 +112,15 @@ msgid ""
 ":term:`Backend <Backend>` von opendata.swiss Daten Ihrer Organisation zu "
 "verwalten oder neue Daten zu erfassen."
 msgstr ""
-"Chaque utilisateur pourra dès lors recourir à :term:`l’arrière-plan "
-"(back-end) <Backend>` d’opendata.swiss pour saisir et gérer les données "
-"de votre organisation."
+"Chaque utilisateur pourra dès lors recourir à :term:`l’arrière-plan (back-end) <Backend>`"
+"d’opendata.swiss pour saisir et gérer les données de votre organisation."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:50
 msgid ""
 "Wir bitten Sie, uns proaktiv zu kontaktieren, wenn Profile deaktiviert "
 "werden sollen."
 msgstr ""
-"Nous vous prions de prendre contact avec nous lorsqu’un profil doit être "
-"désactivé."
+"Nous vous prions de prendre contact avec nous lorsqu’un profil doit être désactivé."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:52
 msgid ""
@@ -123,7 +129,7 @@ msgid ""
 " planen."
 msgstr ""
 "Un bref aperçu des données (une liste p. ex.) que vous pensez publier "
-"nous aide à planifier la publication."
+"nous aidera à planifier la publication."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:58
 msgid "Zugang anfordern"
@@ -138,60 +144,65 @@ msgid ""
 "Wir benötigen durchschnittlich 2 bis 5 Werktage, um Ihre Anfrage zu "
 "bearbeiten. `Jetzt Zugang anfordern <mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
-"En principe, nous traitons les demandes dans un délai de cinq jours "
-"ouvrables. `Cliquez ici pour demander votre accès "
-"<mailto:opendata@bfs.admin.ch>`__."
+"En principe, nous traitons les demandes dans un délai de deux à cinq "
+"jours ouvrables. `Demande d’accès <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:68
 msgid "User Management"
-msgstr ""
+msgstr "Gestion des utilisateurs"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:70
 msgid "Es gibt bei opendata.swiss folgende Rollen für Datenpublizierende:"
-msgstr ""
+msgstr "Les fournisseurs de données peuvent endosser les rôles suivants sur "
+"le portail opendata.swiss:"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:72
 msgid "Benutzer-Rollen bei opendata.swiss"
-msgstr ""
+msgstr "Rôles des utilisateurs sur le portail opendata.swiss"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst
 msgid "Administrator"
-msgstr ""
+msgstr "Administrateur"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:74
 msgid "hat Zugriff auf die gesamte Organisation und ihre Mitglieder"
-msgstr ""
+msgstr "Ce rôle permet d’accéder à toute l’organisation et à l’ensemble de ses membres."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst
 msgid "Redakteur"
-msgstr ""
+msgstr "Rédacteur"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:75
 msgid ""
 "kann Datasets verwalten, aber hat keinen Zugriff auf die Darstellung der "
 "Organisationsdaten"
-msgstr ""
+msgstr "Sa fonction est de gérer des jeux de données, toutefois il ne "
+"peut décider de la présentation des données de l’organisation."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst
 msgid "Mitglied"
-msgstr ""
+msgstr "Membre"
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:77
 msgid "passives Mitglied der Organisation ohne Zugriffsrechte"
-msgstr ""
+msgstr "Il s’agit des membres passifs de l’organisation, ils ne "
+"bénéficient d’aucun droit d’accès."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:81
 msgid ""
 "Wichtig: Bitte vergeben Sie mindestens die Rolle des Administrators. Die "
 "Vergabe weiterer Rollen ist optional."
-msgstr ""
+msgstr "Important: le rôle d’administrateur doit être attribué, les autres "
+"rôles sont facultatifs."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:86
 msgid ""
 "Wichtig: Das User-Management wird zentral von der Geschäftsstelle OGD "
 "sichergestellt. Neue Benutzerinnen und Benutzer oder Anpassungen an den "
 "bestehenden Berechtigungen sind uns daher immer zu melden."
-msgstr ""
+msgstr "Important: le secrétariat OGD assure la gestion des utilisateurs de "
+"manière centralisée. Pour cette raison, nous vous prions de nous communiquer "
+"systématiquement tout changement d’utilisateur."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:92
 msgid ":doc:`Nächster Schritt: Profil verwalten <profil-einrichten>`"
@@ -202,7 +213,6 @@ msgid ""
 "Sobald wir Ihnen Ihr persönliches Login zugestellt haben, können Sie Ihr "
 "Profil ausfüllen und danach Informationen zu Ihrer Organisation ergänzen."
 msgstr ""
-"Dès que nous vous aurons fait parvenir votre login personnel, vous "
-"pourrez compléter votre profil puis saisir des informations sur votre "
-"organisation."
+"Dès que nous vous aurons fait parvenir votre login personnel, vous pourrez "
+"compléter votre profil puis saisir des informations sur votre organisation."
 
