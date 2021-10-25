@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 06:58+0200\n"
+"POT-Creation-Date: 2021-10-25 15:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
@@ -128,6 +128,9 @@ msgstr ""
 msgid "Gehen Sie auf Ihr :ref:`Dashboard <benutzer_dashboard>`."
 msgstr ""
 
+msgid "Benutzer Dashboard im Backend von opendata.swiss"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:69
 msgid ""
 "Klicken Sie auf den Button «Datensatz hinzufügen», um das Webformular zu "
@@ -143,6 +146,9 @@ msgid ""
 "Um sicherzustellen, dass die Datasets wiederverwendet werden können, "
 "werden verschiedene Metadaten und Beschreibungen zu den Datasets "
 "publiziert."
+msgstr ""
+
+msgid "Dataset manuell erfassen"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:82
@@ -165,6 +171,9 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:97
 msgid "Organisation und Identifier"
+msgstr ""
+
+msgid "Eingabefeld Identifier im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:102
@@ -195,6 +204,9 @@ msgstr ""
 msgid "Sichtbarkeit"
 msgstr ""
 
+msgid "Eingabefeld Sichtbarkeit im Webformular"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:122
 msgid ""
 "Dieses Feld dient zur :ref:`Veröffentlichung Ihres Datasets <manuell-"
@@ -210,6 +222,9 @@ msgstr ""
 msgid "Dataset-Informationen"
 msgstr ""
 
+msgid "Eingabefeld Beschreibung im Webformular"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:135
 msgid ""
 "Bitte geben Sie im Feld «Beschreibung (EN) (DE) (FR) (IT)» eine "
@@ -222,6 +237,9 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:142
 msgid "Daten"
+msgstr ""
+
+msgid "Eingabefeld zur Aktualisierung im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:147
@@ -241,6 +259,9 @@ msgstr ""
 msgid "Publisher-Informationen"
 msgstr ""
 
+msgid "Eingabefeld Publisher im Webformular"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:163
 msgid ""
 "Hier müssen Sie Angaben zur datenpublizierenden Organisation eingeben. Im"
@@ -255,6 +276,9 @@ msgstr ""
 msgid "Sprachen"
 msgstr ""
 
+msgid "Eingabefeld Sprachen im Webformular"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:177
 msgid ""
 "Falls Ihre Ressourcen in unterschiedlichen Sprachen vorliegen, können Sie"
@@ -264,6 +288,9 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:181
 msgid "Weitere Informationen"
+msgstr ""
+
+msgid "Eingabefeld Weitere Inforamtionen im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:186
@@ -280,6 +307,9 @@ msgstr ""
 msgid "Verwandte Datasets"
 msgstr ""
 
+msgid "Eingabefeld Kategorien im Webformular"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:200
 msgid ""
 "Unter «Verwandte Datensätze» können Sie aus allen verfügbaren Datasets "
@@ -290,6 +320,9 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:206
 msgid "Schlagwörter definieren"
+msgstr ""
+
+msgid "Eingabefeld von Schlagworten im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:211
@@ -322,6 +355,9 @@ msgid ""
 "müssen Sie Ihrem Dataset als nächstes eine oder mehrere Ressourcen "
 "hinzufügen. Klicken Sie auf den Button «Als nächstes: Distribution "
 "hinzufügen», um in das Webformular für die Ressourcen zu gelangen."
+msgstr ""
+
+msgid "Abschnitt Ressource im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:245
@@ -376,6 +412,9 @@ msgid ""
 " von Ressourcen fortfahren."
 msgstr ""
 
+msgid "Mögliche Aktionen nach der Anlage der ersten Resource im Webformular"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:296
 msgid "Dataset weiterbearbeiten"
 msgstr ""
@@ -393,6 +432,9 @@ msgid ""
 "«Ressourcen»:"
 msgstr ""
 
+msgid "Mögliche Aktionen nach der Anlage des Dataset"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:309
 msgid "Dataset prüfen"
 msgstr ""
@@ -402,6 +444,9 @@ msgid ""
 "Sehen Sie sich Ihr Dataset in der Detailansicht an: Sind alle Felder so "
 "ausgefüllt, wie Sie es erwarten, können Sie Ihr Dataset "
 ":ref:`veröffentlichen <manuell-datensatz-veroeffentlichen>`."
+msgstr ""
+
+msgid "Detailansicht eines Datasets im CKAN Backend"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:320
@@ -417,6 +462,9 @@ msgid ""
 " dass das Dataset in der Abnahmeumgebung publiziert ist."
 msgstr ""
 
+msgid "Dataset Titel in dem das Dataset als Entwurf markiert ist"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:331
 msgid ""
 "Gehen Sie dazu zurück zu «Bearbeiten», «Metadaten bearbeiten» und "
@@ -425,6 +473,9 @@ msgid ""
 "ändern. Alternativ können Sie eine zukünftige Veröffentlichung planen, "
 "indem Sie im darunterliegenden Feld einen Veröffentlichungstermin in der "
 "Zukunft festlegen."
+msgstr ""
+
+msgid "Dataset in veroeffentlichen"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:342
@@ -446,12 +497,12 @@ msgid ""
 "URL Ihres Datasets entfernen:"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:360
-msgid "Bitte prüfen Sie hier Ihre Daten nochmals:"
-msgstr ""
-
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:367
 msgid "Beispielansicht eines publizierten Datasets"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:360
+msgid "Bitte prüfen Sie hier Ihre Daten nochmals:"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:374
