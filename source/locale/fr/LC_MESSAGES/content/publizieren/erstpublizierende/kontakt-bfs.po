@@ -112,7 +112,7 @@ msgid ""
 ":term:`Backend <Backend>` von opendata.swiss Daten Ihrer Organisation zu "
 "verwalten oder neue Daten zu erfassen."
 msgstr ""
-"Chaque utilisateur pourra dès lors recourir à :term:`l’arrière-plan (back-end) <Backend>`"
+"Chaque utilisateur pourra dès lors recourir à l’:term:`arrière-plan (back-end) <Backend>` "
 "d’opendata.swiss pour saisir et gérer les données de votre organisation."
 
 #: ../../source/content/publizieren/erstpublizierende/kontakt-bfs.rst:50

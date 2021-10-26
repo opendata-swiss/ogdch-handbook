@@ -425,7 +425,7 @@ msgid ""
 "Die «URL» ist der :term:`Katalog-Endpunkt <Katalog Endpunkt (Catalogue "
 "endpoint)>` an dem Ihre Daten abgeholt werden."
 msgstr "L’«URL» est "
-"le :term:point de terminaison du catalogue <Katalog Endpunkt (Catalogue endpoint)>` "
+"le :term:`point de terminaison du catalogue <Katalog Endpunkt (Catalogue endpoint)>` "
 "où sont récupérées vos données."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:227
