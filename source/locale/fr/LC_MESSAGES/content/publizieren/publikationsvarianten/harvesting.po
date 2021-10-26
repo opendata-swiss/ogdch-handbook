@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-12 06:58+0200\n"
+"POT-Creation-Date: 2021-10-25 15:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:10
 msgid "Metadaten mit Harvester hochladen"
-msgstr "Télécharger les métadonnées au moyen du moissonneur"
+msgstr "Téléchargement des métadonnées au moyen d’un moissonneur"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:13
 msgid "Wie lade ich meine Metadaten mittels Harvester hoch?"
@@ -55,15 +55,15 @@ msgid ""
 "OGD <Geschäftsstelle Open Government Data (OGD)>`. Wir erklären Ihnen "
 "hier, wie das Harvesting funktioniert."
 msgstr ""
-"Un moissonneur permet de saisir rapidement de grandes quantités de "
-"données. Concrètement, opendata.swiss attire et met à jour "
-"automatiquement vos jeux de données, ce qui se traduit par un gain de "
-"temps en matière de :doc:`maintenance des données "
-"<../../pflegen/pflegen>`. Pour ce faire, :doc:`votre organisation et "
-"l’ensemble de ses utilisateurs doivent être enregistrés "
-"<../erstpublizierende/kontakt-bfs>` en accord avec le :term:`secrétariat "
-"OGD <Geschäftsstelle Open Government Data (OGD)>`. Nous vous expliquons "
-"ci-dessous le fonctionnement du moissonneur."
+"Un moissonneur permet de saisir rapidement de grandes quantités de données. "
+"Concrètement, opendata.swiss peut automatiquement mettre à jour vos "
+"jeux de données, ce qui se traduit par un gain de temps en "
+"matière de :doc:`maintenance des données <../../pflegen/pflegen>`. Pour ce "
+"faire, :doc:`votre organisation "
+"et l’ensemble de ses utilisateurs doivent être enregistrés <../erstpublizierende/kontakt-bfs>`, "
+"en accord avec "
+"le :term:`secrétariat OGD <Geschäftsstelle Open Government Data (OGD)>`. Nous vous expliquons ci-dessous le "
+"fonctionnement du moissonneur."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:28
 msgid "Die Schritte auf einen Blick"
@@ -71,43 +71,41 @@ msgstr "Vue d’ensemble des étapes"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:30
 msgid ":ref:`Harvester einrichten <harvesting-katalog-endpunkt>`"
-msgstr ":ref:`Paramétrer le moissonneur <harvesting-katalog-endpunkt>`"
+msgstr ":ref:`Paramétrage du moissonneur <harvesting-katalog-endpunkt>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:31
 msgid ":ref:`Katalog-Endpunkt übergeben <harvesting-katalog-endpunkt>`"
 msgstr ""
-":ref:`Transmettre le point de terminaison du catalogue <harvesting-"
-"katalog-endpunkt>`"
+":ref:`Transmission du point de terminaison du catalogue <harvesting-katalog-endpunkt>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:32
 msgid ":ref:`Katalog-Endpunkt mit Paginierung übergeben <harvesting-paginierung>`"
 msgstr ""
-":ref:`Transmettre le point de terminaison du catalogue avec pagination "
-"<harvesting-paginierung>`"
+":ref:`Transmission du point de terminaison du catalogue avec pagination <harvesting-paginierung>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:33
 msgid ":ref:`Harvester testen <harvesting-testen>`"
-msgstr ":ref:`Tester le moissonneur <harvesting-testen>`"
+msgstr ":ref:`Test du moissonneur <harvesting-testen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:34
 msgid ":ref:`Den Harvester verwalten <harvesting-verwalten>`"
-msgstr ":ref:`Tester le moissonneur <harvesting-testen>`"
+msgstr ":ref:`Gestion du moissonneur <harvesting-verwalten>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:35
 msgid ":ref:`Harvesting Fehler beheben <harvesting-fehler-beheben>`"
-msgstr ":ref:`Tester le moissonneur <harvesting-testen>`"
+msgstr ":ref:`Correction d’erreurs du moissonneur <harvesting-fehler-beheben>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:36
 msgid ":ref:`Harvester Einstellugen <harvester-einstellungen>`"
-msgstr ":ref:`Tester le moissonneur <harvesting-testen>`"
+msgstr ":ref:`Paramétrage du moissonneur <harvester-einstellungen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:37
 msgid ":ref:`Datasets prüfen <harvesting-pruefen>`"
-msgstr ":ref:`Tester le moissonneur <harvesting-testen>`"
+msgstr ":ref:`Contrôle du jeu de données <harvesting-pruefen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:38
 msgid ":ref:`Datenkatalog veröffentlichen <harvesting-veroeffentlichen>`"
-msgstr ":ref:`Publier le jeu de données <harvesting-veroeffentlichen>`"
+msgstr ":ref:`Publication du jeu de données <harvesting-veroeffentlichen>`"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:40
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:63
@@ -122,9 +120,10 @@ msgid ""
 "Darstellung Ihrer Daten sicherzustellen, unabhängig von der "
 ":doc:`Publikationsvariante <../publikationsvariante>`."
 msgstr ""
-"Pour votre première publication, nous vous guidons tout au long de la "
-"procédure en vous aidant à transmettre et à présenter vos données comme "
-"il se doit, quelle que soit la variante de publication choisie."
+"Pour votre première publication, nous vous guidons tout au long "
+"de la procédure en vous aidant à transmettre et à présenter vos "
+"données comme il se doit, quelle que soit "
+"la :doc:`variante de publication <../publikationsvariante>` choisie."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:47
 msgid "Alle Schritte im Detail"
@@ -132,7 +131,7 @@ msgstr "Les étapes en détail"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:52
 msgid "Harvester einrichten"
-msgstr "Paramétrer le moissonneur"
+msgstr "Paramétrage du moissonneur"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:54
 msgid ""
@@ -145,14 +144,13 @@ msgid ""
 "kann, kann ein spezifisches Mapping definiert werden. `Bitte kontaktieren"
 " Sie uns hierfür <mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
-"Si vos données supportent la :doc:`norme DCAT-AP CH "
-"<../../glossar/bibliothek/dcat-ap-ch>`, nous nous chargeons de paramétrer"
-" le moissonneur. Votre seule tâche consiste à nous transmettre l’URL "
-"contenant le :term:`point de terminaison du catalogue <Katalog Endpunkt "
-"(Catalogue endpoint)>`. Exceptionnellement, p. ex. si le catalogue de "
-"données n’est pas disponible selon la norme DCAT-AP CH, il est possible "
-"de définir un mapping spécifique. `Merci de prendre contact avec nous le "
-"cas échéant <mailto:opendata@bfs.admin.ch>`__."
+"Si vos données supportent la norme :doc:DCAT-AP CH <../../glossar/bibliothek/dcat-ap-ch>`, "
+nous nous chargeons de paramétrer le moissonneur. Votre seule "
+"tâche consiste à nous transmettre l’URL contenant le :term:`point de "
+"terminaison du catalogue <Katalog Endpunkt (Catalogue endpoint)>`. Exceptionnellement, p. ex. si le "
+"catalogue de données n’est pas disponible selon la norme DCAT-AP CH, "
+"il est possible de définir un mapping spécifique. "
+"`Merci de prendre contact avec nous le cas échéant <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:65
 msgid ""
@@ -162,11 +160,17 @@ msgid ""
 "Datenkatalogs die besondere Struktur des Dataset-Identifiers, die im "
 ":doc:`Standard DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>` "
 "beschrieben ist und für jede Organisation individuell ist."
-msgstr ""
+msgstr "Un point de terminaison par organisation est requis pour le moissonnage. "
+"Si vous gérez les données de plusieurs organisations, il nous faudra "
+"par conséquent le nombre correspondant de points de terminaison. "
+"Lors de la préparation de votre catalogue de données, veuillez tenir "
+"compte de la structure particulière de votre identifiant de jeu de données "
+"décrit dans la :doc:`norme DCAT-AP CH <../../glossar/bibliothek/dcat-ap-ch>`– "
+"spécifique à chaque organisation."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:76
 msgid "Katalog-Endpunkt übergeben"
-msgstr "Transmettre le point de terminaison du catalogue"
+msgstr "Transmission du point de terminaison du catalogue"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:78
 msgid ""
@@ -174,22 +178,22 @@ msgid ""
 "<mailto:opendata@bfs.admin.ch>`__, unter der wir Ihren Datenkatalog "
 "herunterladen können. Diese URL ist gleichzeitig ein RDF-Endpunkt."
 msgstr ""
-"À cet effet, veuillez nous envoyer `l’URL par e-mail "
-"<mailto:opendata@bfs.admin.ch>`__ de sorte que nous puissions télécharger"
-" votre catalogue de données. Cette URL constitue également un point de "
-"terminaison RDF."
+"À cet effet, veuillez nous "
+"envoyer `l’URL par e-mail <mailto:opendata@bfs.admin.ch>`__ de sorte que nous "
+"puissions télécharger votre catalogue de données. "
+"Cette URL constitue également un point de terminaison RDF."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:84
 msgid ""
 "Wichtig: Der Datenkatalog muss im Format :doc:`DCAT-AP-CH "
 "<../../glossar/bibliothek/dcat-ap-ch>` vorliegen."
 msgstr ""
-"Important: le catalogue de données doit utiliser le format :doc:`DCAT-AP "
-"CH <../../glossar/bibliothek/dcat-ap-ch>`."
+"Important: le catalogue de données doit être au "
+"format :doc:`DCAT-AP CH <../../glossar/bibliothek/dcat-ap-ch>`."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:90
 msgid "Katalog-Endpunkt mit Paginierung übergeben"
-msgstr "Transmettre le point de terminaison du catalogue avec pagination"
+msgstr "Transmission du point de terminaison du catalogue avec pagination"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:102
 msgid ""
@@ -201,15 +205,15 @@ msgid ""
 "<mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
 "Si le catalogue de données s’avère trop volumineux pour un transfert "
-"unique, il est possible de le transférer page par page. Pour ce faire, "
-"nous recommandons de recourir à la pagination `Hydra Vocabulary "
-"<https://www.hydra-cg.com/spec/latest/core/>`__. Une fois la pagination "
-"effectuée, envoyez-nous `l’URL correspondante par e-mail "
-"<mailto:opendata@bfs.admin.ch>`__."
+"unique, il est possible de le transférer page par page. "
+"Pour ce faire, nous recommandons "
+"de recourir à la pagination `Hydra Vocabulary <https://www.hydra-cg.com/spec/latest/core/>`__. "
+"Une fois la pagination "
+"effectuée, envoyez-nous `l’URL correspondante par e-mail <mailto:opendata@bfs.admin.ch>`__.
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:112
 msgid "Harvester testen"
-msgstr "Tester le moissonneur"
+msgstr "Test du moissonneur"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:114
 msgid ""
@@ -218,7 +222,12 @@ msgid ""
 "haben, lassen wir ihn auf Ihrem Endpunkt in der Abnahmeumgebung erstmalig"
 " laufen. Unter Umständen liefert der Harvester anfangs Fehler zurück, die"
 " Sie dann in Ihrem Datenkatalog beheben müssen."
-msgstr ""
+msgstr "Nous nous occupons de tester le moissonnage des jeux de données "
+"selon la norme DCAT-AP CH. Après la réception de l’URL et une fois "
+"le moissonneur configuré, nous lançons ce dernier en fonction de votre "
+"point de terminaison dans l’environnement de test. Au début, le"
+" moissonneur peut générer quelques erreurs qu’il vous faudra "
+"corriger dans votre catalogue de données."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:120
 msgid ""
@@ -227,15 +236,19 @@ msgid ""
 "Harvester, seinen Jobläufen und Fehlerberichten. Sollten Sie bei "
 "allfälligen Fehlern Fragen haben, dann `wenden Sie sich bitte an uns "
 "<mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen weiter"
-msgstr ""
+msgstr "Nous vous intégrons au processus de test et d’amélioration itérative "
+"de vos données dès le commencement. Vous avez bien sûr accès à votre "
+"moissonneur, à ses processus et à ses rapports d’erreurs. "
+"Si vous avez des questions par rapport à une erreur, `n’hésitez "
+"pas à vous adresser à nous <mailto:opendata@bfs.admin.ch>`__ et nous nous ferons un plaisir de vous aider."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:128
 msgid "Den Harvester verwalten"
-msgstr "Paramétrer le moissonneur"
+msgstr "Gestion du moissonneur"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:130
 msgid "Im Folgenden erklären wir Ihnen den Zugang zu Ihrem Harvester:"
-msgstr ""
+msgstr "Voici comment accéder à votre moissonneur."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:132
 msgid ""
@@ -243,64 +256,77 @@ msgid ""
 "Liste aller Harvester. Geben Sie den Namen Ihres Harvesters ins Suchfeld "
 "ein, um nach Ihrem Harvester zu finden. Den Namen des Harvesters erhalten"
 " Sie von uns."
+msgstr "Cliquez sur «Harvest Sources», ce qui vous affiche une liste "
+"de l’ensemble des moissonneurs. Saisissez le nom de votre "
+"moissonneur (fourni par nous) dans le champ de recherche."
+
+msgid "Organisation im Frontend von opendata.swiss"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:139
 msgid ""
 "Wenn Sie Ihren Harvester gefunden haben: klicken Sie auf den Link, dann "
 "gelangen Sie zur Detailansicht des Harvesters:"
-msgstr ""
+msgstr "Une fois que vous avez trouvé votre moissonneur, "
+"cliquez sur le lien pour afficher sa vue détaillée."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:145
 msgid ""
 "In der Detailansicht Ihres Harvesters sind alle Datasets aufgelistet, die"
 " der Harvester über den Zugriff auf Ihren :term:`Katalog Endpunkt "
 "<Katalog Endpunkt (Catalogue endpoint)>` automatisch erzeugt hat."
-msgstr ""
+msgstr "Cette vue détaillée répertorie tous les jeux de données que votre "
+"moissonneur a générés automatiquement en accédant au "
+":term:`point de terminaison de votre catalogue <Katalog Endpunkt (Catalogue endpoint)>`."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:148
 msgid ""
 "Klicken Sie auf den Button «Administrator» um Ihren Harvester zu "
 "verwalten. Sie gelangen dann zu einem Dashboard für das Management Ihres "
 "Harvesters."
-msgstr ""
+msgstr "Cliquez sur «Administrateur» pour gérer votre moissonneur, "
+"un tableau de bord s’affiche."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:154
 msgid "Hier wird Ihnen jeweils der aktuellste Harvest Job angezeigt."
-msgstr ""
+msgstr "Ce tableau montre le dernier moissonnage effectué."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:156
 msgid "Sie haben folgende Möglichkeiten:"
-msgstr ""
+msgstr "Vos options:"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:158
 msgid "Der Tab «Jobs» führt Sie zu einer Liste vergangener Harvest Jobs"
-msgstr ""
+msgstr "L’onglet «Jobs» ouvre la liste des moissonnages faits par le passé."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:159
 msgid ""
 "Der Tab «Bearbeiten» führt Sie zur Bearbeitung der Einstellungen Ihres "
 "Harvesters"
-msgstr ""
+msgstr "L’onglet «Éditer» permet de paramétrer votre moissonneur."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:160
 msgid ""
 "Der Button «Reharvest» stösst einen erneuten Harvesterlauf an, so dass "
 "die Datasets anhand dem eingetragenen :term:`Katalog-Endpunkt <Katalog "
 "Endpunkt (Catalogue endpoint)>` aktualisiert werden"
-msgstr ""
+msgstr "En cliquant sur «Reharvest», vous lancez un nouveau moissonnage, "
+"ce qui met à jour les jeux de données en fonction du :term:`point "
+"de terminaison de votre catalogue défini <Katalog Endpunkt (Catalogue endpoint)>` "
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:163
 msgid ""
 "Über den Button «View harvest source» gelangen Sie zurück auf die "
 "Detailseite Ihres Harvesters"
-msgstr ""
+msgstr "Cliquer sur «View harvest source» vous ramène à "
+"la vue détaillée de votre moissonneur."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:167
 msgid ""
 "Vorsicht: Der Button «Clear» löscht alle Datasets und vergangenen Jobs "
 "des Harvester. Machen Sie das nur, wenn das wirklich Ihre Absicht ist."
-msgstr ""
+msgstr "Attention: le bouton «Clear» efface tous les jeux de données et tous "
+"les travaux effectués par le moissonneur. Voulez-vous vraiment les supprimer?"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:172
 msgid ""
@@ -309,52 +335,60 @@ msgid ""
 "gestellt. Wie schnell Ihr Harvest Job Ergebnisse liefert, hängt auch "
 "davon ab, wie lang die Jobqueue gerade ist. Deshalb kann die Zeit, die "
 "Sie auf die Ergebnisse Ihres Harvesters warten müssen, stark variieren."
-msgstr ""
+msgstr "Un moissonneur fonctionne en arrière-plan. "
+"Chaque fois que vous lancez votre moissonneur, il crée un "
+"moissonnage qu’il place dans une file. La vitesse à laquelle votre "
+"moissonneur fournit des résultats dépend notamment du nombre de "
+"travaux se trouvant dans la file, l’attente peut donc varier."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:180
 msgid "Harvesting Fehler beheben"
-msgstr "Tester le moissonneur"
+msgstr "Correction d’erreurs du moissonneur"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:182
 msgid ""
 "Wenn Ihr letzter Harvest Job Fehler gemeldet hat, sehen Sie das auf dem "
 "Dashboard. Klicken Sie dann auf den Tab «Jobs», um zur Jobliste zu "
 "gelangen:"
-msgstr ""
+msgstr "Votre tableau de bord vous indique si votre dernier moissonnage a "
+"produit des erreurs. Cliquez ensuite sur "
+"l’onglet «Jobs» pour afficher la liste des tâches."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:188
 msgid "Hier können Sie die Harvesting Fehler im Detail ansehen:"
-msgstr ""
+msgstr "Vous y verrez les erreurs de moissonnage en détail."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:193
 msgid ""
 "In der «Error Summary» sind die Fehlerarten mit der Häufigkeit ihres "
 "Vorkommens gelistet"
-msgstr ""
+msgstr "Le «Error Summary» inventorie les types d’erreurs et leur fréquence."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:194
 msgid "Im «Error Report» sind alle Fehler einzeln gelistet."
-msgstr ""
+msgstr "Le «Error Report» inventorie toutes les erreurs."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:196
 msgid ""
 "Je nach Art des Fehlers steht Ihnen noch Einsicht in den «Remote Content»"
 " und den «Local Content» zur Verfügung:"
-msgstr ""
+msgstr "Selon le type d’erreur, vous pouvez voir le «Remote Content» et le «Local Content»."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:199
 msgid ""
 "Im «Remote Content» sehen Sie den Datenkatalog an Ihrem :term:`Katalog-"
 "Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` so wie der Harvester "
 "ihn abholt."
-msgstr ""
+msgstr "Le «Remote Content» affiche le catalogue de données au :term:`point de "
+"terminaison de votre catalogue <Katalog Endpunkt (Catalogue endpoint)>` où le moissonneur le recueille."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:201
 msgid ""
 "Der «Local Content» betrifft oft nur ein Dataset: hier können Sie in "
 "einer JSON Darstellung sehen, wie das Dataset auf opendata.swiss "
 "angekommen ist."
-msgstr ""
+msgstr "Souvent, le «Local Content» ne concerne qu’un jeu de données: une "
+"représentation JSON vous indique comment le jeu de données est arrivé sur opendata.swiss."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:204
 msgid ""
@@ -362,36 +396,44 @@ msgid ""
 "verstehen und nicht beheben können, dann `melden Sie sich bei uns "
 "<mailto:opendata@bfs.admin.ch>`__. Wir unterstützen Sie beim Einrichten "
 "und Testen Ihres Harvesters."
-msgstr ""
+msgstr "Si le test de moissonnage produit des erreurs que vous ne comprenez "
+"pas ou ne pouvez pas corriger, `n’hésitez pas à vous adresser à nous <mailto:opendata@bfs.admin.ch>`__. "
+"Nous nous ferons un plaisir de vous aider pour paramétrer et tester votre moissonneur."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:212
 msgid "Harvester Einstellungen"
-msgstr "Paramétrer le moissonneur"
+msgstr "Paramétrage du moissonneur"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:214
 msgid ""
 "Harvester haben ausser dem :term:`Katalog-Endpunkt <Katalog Endpunkt "
 "(Catalogue endpoint)>` noch weitere Einstellungen."
-msgstr ""
+msgstr "En plus du "
+":term:`point de terminaison du catalogue <Katalog Endpunkt (Catalogue endpoint)>`, "
+"il est possible de définir d’autres paramètres."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:219
 msgid ""
 "Wichtig: Wir haben Ihren Harvester bereits für Sie konfiguriert. Im "
 "Normalfall sollten die Einstellungen so bleiben, wie wir es für Sie "
 "eingerichtet haben."
-msgstr ""
+msgstr "Important: nous avons d’ores et déjà configuré votre moissonneur. "
+"Sauf cas exceptionnel, il n’est pas nécessaire de modifier les paramètres."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:225
 msgid ""
 "Die «URL» ist der :term:`Katalog-Endpunkt <Katalog Endpunkt (Catalogue "
 "endpoint)>` an dem Ihre Daten abgeholt werden."
-msgstr ""
+msgstr "L’«URL» est "
+"le :term:`point de terminaison du catalogue <Katalog Endpunkt (Catalogue endpoint)>` "
+"où sont récupérées vos données."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:227
 msgid ""
 "Unter dem «Titel» finden Sie den Harvester in der Harvester-Liste. Das "
 "Feld «Beschreibung» ist für Anmerkungen gedacht."
-msgstr ""
+msgstr "Sous le «titre», vous trouverez votre moissonneur dans la liste de "
+"moissonneurs. Vous pouvez saisir vos remarques dans le champ «description»."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:230
 msgid ""
@@ -401,7 +443,11 @@ msgid ""
 "Publikationsvariante :doc:`Metadaten via geocat.ch publizieren "
 "<geodaten>` kommen Harvester zum Einsatz. Diese haben dann den Typ "
 "«Geocat Harvester»."
-msgstr ""
+msgstr "Le «Source type» de votre moissonneur dépend de la variante "
+"de publication: avec la variante décrite ici, le moissonneur est "
+"paramétré selon «DCAT-AP Switzerland RDF Harvester». La variante de "
+"publication  :doc:`«publier des métadonnées via geocat.ch» <geodaten>` recourt également "
+"à un moissonneur, qui sera de type «Geocat Harvester»."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:235
 msgid ""
@@ -411,13 +457,19 @@ msgid ""
 "Feld «Configuration» werden gegebenenfalls weitere Konfigurationen "
 "eingetragen, die Ihr Harvester benötigt, um Ihre Daten korrekt zu "
 "importieren."
-msgstr ""
+msgstr "Le champ «Update frequency» des moissonneurs est réglée "
+"sur «Manual», bien qu’ils fonctionnent chaque jour. En effet, le "
+"démarrage n’est pas contrôlé via l’interface web mais via des "
+"processus en arrière-plan. Si votre moissonneur nécessite d’autres "
+"configurations pour importer les données, elles sont saisies "
+"dans le champ «Configuration»."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:244
 msgid ""
 "Wichtig: Pro Organisation kann es nur einen Harvester mit derselben "
 "Konfiguration geben."
-msgstr ""
+msgstr "Important: chaque organisation ne peut avoir qu’un "
+"seul moissonneur avec la même configuration."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:248
 msgid ""
@@ -425,31 +477,47 @@ msgid ""
 "sich an uns <mailto:opendata@bfs.admin.ch>`__, falls Sie ihn nicht mehr "
 "benötigen, damit der Harvester und seine Daten fachgerecht entfernt "
 "werden können."
-msgstr ""
+msgstr "Important: si vous n’avez plus besoin du moissonneur, "
+"ne le supprimez surtout "
+"pas! `Prenez contact avec nous <mailto:opendata@bfs.admin.ch>`__, afin que "
+"nous puissions désinstaller le moissonneur et ses "
+"données dans les règles de l’art."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:256
 msgid "Datasets prüfen"
-msgstr ""
+msgstr "Contrôle du jeu de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:258
 msgid ""
 "Sobald Ihr Harvester fehlerfrei durchläuft, kontrollieren Sie bitte Ihre "
 "Datensätze in der Detailansicht des Harvesters:"
-msgstr ""
+msgstr "Une fois que votre moissonneur n’émet plus de messages d’erreur, "
+"veuillez contrôler vos jeux de données dans la vue détaillée du moissonneur."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:264
 msgid "Kontrollieren Sie bitte auch die Frontendansicht Ihrer Datasets:"
-msgstr ""
+msgstr "Veuillez également contrôler vos jeux de données dans le frontal."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:266
 msgid ""
 "Sie gelangen zur Ansicht Ihrer Organisation im Frontend, indem Sie "
 "``ckan`` aus der URL Ihrer Organisation im Backend entfernen:"
+msgstr "Pour afficher l’aperçu de votre organisation dans le frontal, "
+"il vous suffit de supprimer ``ckan`` dans l’URL de "
+"votre organisation dans l’arrière-plan."
+
+msgid "ckan url einer Organisation"
+msgstr ""
+
+msgid "Frontend url einer Organisation"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:280
 msgid "Beispielansicht einer publizierten Organisation"
-msgstr "«Exemple d’un jeu de donné publié»"
+msgstr "Exemple d’une organisation publiée"
+
+msgid "Dataset im Frontend von opendata.swiss"
+msgstr "«Exemple d’un jeu de données publié»."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:287
 msgid "Beispielansicht eines publizierten Datasets"
@@ -457,7 +525,7 @@ msgstr "«Exemple d’un jeu de donné publié»"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:292
 msgid "Datasets veröffentlichen"
-msgstr "Publier un catalogue de données"
+msgstr "Publication du jeu de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:294
 msgid ""
@@ -465,10 +533,10 @@ msgid ""
 "Harvesting für Sie in der Produktionsumgebung ein. `Kontaktieren Sie uns "
 "<mailto:opendata@bfs.admin.ch>`__, um das Go-Live gemeinsam zu planen."
 msgstr ""
-"Après une vérification finale de votre jeu de données, nous paramétrons "
-"le moissonneur dans l’environnement de production. Prenez contact avec "
-"nous ((Mail to: opendata(at)bfs.admin.ch)) pour organiser la mise en "
-"service."
+"Après une vérification finale de votre jeu de données, nous paramétrons le "
+"moissonneur dans l’environnement de production. "
+"`Prenez contact avec nous <mailto:opendata@bfs.admin.ch>`__ "
+"pour organiser la mise en service."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:301
 msgid "Support"
@@ -479,9 +547,8 @@ msgid ""
 "Sie haben eine Frage zum Harvester? `Schreiben Sie uns "
 "<mailto:opendata@bfs.admin.ch>`__ und wir helfen Ihnen gerne weiter."
 msgstr ""
-"Avez-vous des questions sur le moissonneur? `Écrivez-nous "
-"<mailto:opendata@bfs.admin.ch>`__, nous nous ferons un plaisir de vous "
-"aider."
+"Avez-vous des questions sur le moissonneur? "
+"`Écrivez-nous <mailto:opendata@bfs.admin.ch>`__, nous nous ferons un plaisir de vous aider."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:309
 msgid "Mehr zum Thema"
@@ -493,21 +560,23 @@ msgid ""
 "– Beschreibung des aktuell von opendata.swiss genutzten Datenstandards "
 "DCAT-AP-CH"
 msgstr ""
-":doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>` - Description de "
-"la norme de données DCAT-AP CH utilisée par opendata.swiss sous DCAT-AP "
-"CH (Link, englisch)"
+":doc:`DCAT-AP-CH <../../glossar/bibliothek/dcat-ap-ch>` "
+"- Description de la norme de données "
+"DCAT-AP-CH (lien, en anglais) utilisée par opendata.swiss"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:312
 msgid ""
 ":download:`Harvester konfigurieren <../../../_static/screencasts"
 "/configure-harvester.gif>` - In diesem Screencast zeigen wir Ihnen, wie "
 "Sie Ihren Harvester konfigurieren können"
-msgstr ""
+msgstr ":download:`Configuration du moissonneur <../../../_static/screencasts/configure-harvester.gif>`"
+" – Ce screencast vous montre comment configurer votre moissonneur."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:313
 msgid ""
 ":download:`Harvester starten <../../../_static/screencasts/run-"
 "harvester.gif>` - In diesem Screencast zeigen wir Ihnen, wie Sie Ihren "
 "Harvester starten können"
-msgstr ""
+msgstr ":download:`Lancement du moissonneur  <../../../_static/screencasts/run-harvester.gif>`"
+" – Ce screencast vous montre comment lancer le moissonneur."
 
