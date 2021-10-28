@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 20:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:4
+msgid ":doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:5
+msgid ":doc:`Über unsere Kanäle <../ogd>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:6
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:10
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:13
+msgid "NewsMail"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:15
+msgid ""
+"Die Geschäftsstelle OGD publiziert drei- bis viermal jährlich ein `«Open "
+"Government Data»-NewsMail "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/newsmail.html>`__,"
+" mit dem sie abonnierte Datenanbietende und Datennutzende über "
+"Neuigkeiten aus der Open-Data-Gemeinschaft informiert. Mögliche Themen "
+"sind etwa die Umsetzung der OGD-Strategie, neue frei zugängliche "
+"Datensätze, interessante :term:`Anwendungsbeispiele <Showcase>` sowie "
+"Open-Data-Anlässe und -Schulungen. Datenanbietende und Datennutzende sind"
+" eingeladen, selbst Beiträge für diese NewsMail zu verfassen."
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:25
+msgid ""
+"Sie möchten Ihre Neuigkeiten über das «Open Government Data»-NewsMail "
+"teilen?"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:27
+msgid ""
+"`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__. Wir nehmen Sie "
+"gerne in unsere Kontaktliste auf und schreiben Sie vor der "
+"Veröffentlichung einer neuen Ausgabe an, damit Sie Ihre Beiträge "
+"einreichen können."
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:32
+msgid "Vorgaben für Ihre Beiträge"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:35
+msgid "Titel: max. 60 Zeichen (inkl. Leerschläge)"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:37
+msgid "Text: max. 350 Zeichen"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:39
+msgid "Link zu weiterführenden Informationen"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:41
+msgid "Wenn möglich mit Bild"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:46
+msgid ":doc:`Showcases <showcases>`"
+msgstr ""
+

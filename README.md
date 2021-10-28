@@ -56,7 +56,14 @@ The generated files will be located in `build/gettext/`.
 From those `.po` files for each language: `de` and `fr` translateable items 
 can be created with the following command:
 
+make sure the `.po` files are exactly as they are now in the repo before 
+generating for new translations
+
 ```
+git checkout master
+git reset --hard
+make clean
+make gettext
 sphinx-intl update -p build/gettext -l de -l fr
 ```
 

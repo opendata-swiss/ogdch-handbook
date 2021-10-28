@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 20:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:4
+msgid "Kommunizieren"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:8
+msgid "Auf einen Blick"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:11
+msgid "Über das Thema Open Government Data kommunizieren"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:13
+msgid ""
+"Nachdem Sie Ihre Daten publiziert haben, ist es wichtig, dass Sie das "
+"Datenangebot und Ihre Aktivitäten für Open Data bei den Datennutzenden "
+"bekannt machen. Damit soll die Wiederverwendung Ihrer Datasets gefördert "
+"werden. Der Austausch zwischen :term:`Datenanbietenden "
+"<Datenpublizierende / Datenanbietende>` und :term:`–nutzenden "
+"<Datennutzende>` ist zentral, da er es ermöglicht, das Datenangebot "
+"entsprechend den Bedürfnissen der Datennutzenden zu verbessern. Dies "
+"führt letztlich zu mehr Innovation und bietet einen Mehrwert für die "
+"Gesellschaft und die Wirtschaft."
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:22
+msgid ""
+"In diesem Leitfaden wird erklärt, wie man über das Thema Open Government "
+"Data kommuniziert:"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:24
+msgid ""
+":doc:`Verbreitung von Neuigkeiten über die Kanäle der Geschäftsstelle OGD"
+" <ogd>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:25
+msgid ":doc:`Kommunikation mit Datennutzenden <datennutzende>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:27
+msgid "Durch eine gute Kommunikation werden folgende Ziele unterstützt:"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:30
+msgid "Erhöhung der Sichtbarkeit von offenen Verwaltungsdaten"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:32
+msgid "Förderung der Wiederverwendung von Datensätzen"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:34
+msgid "Aufbau der Open-Data-Gemeinschaft"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:36
+msgid "Förderung des Dialogs zwischen Datenanbietenden und –nutzenden"
+msgstr ""
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:38
+msgid "Verbesserung des Datenangebots entsprechend dem Bedarf der Datennutzenden"
+msgstr ""
+

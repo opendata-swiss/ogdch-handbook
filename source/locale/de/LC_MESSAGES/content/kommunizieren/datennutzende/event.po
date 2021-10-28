@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 20:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:4
+msgid ":doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:5
+msgid ":doc:`Mit den Datennutzenden <../datennutzende>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:6
+#: ../../source/content/kommunizieren/datennutzende/event.rst:10
+msgid "Eventkommunikation"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:13
+msgid "Möchten Sie wissen, wer Ihre Daten wie nutzt?"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:15
+msgid ""
+"`Kontaktieren Sie uns <mailto:opendata@bfs.admin.ch>`__, falls Sie einen "
+"Anlass planen. Wir bringen Sie gern mit unseren Kontakten in Verbindung, "
+"die auf die Organisation von Open-Data-Events spezialisiert sind."
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:21
+msgid ""
+"Welche Anlässe eignen sich für den Austausch mit der Open-Data-"
+"Gemeinschaft?"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:23
+msgid ":ref:`Hackathons <event-hackathon>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:24
+msgid ":ref:`“Open Data Beer”-Anlässe <event-open-data-beer>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:25
+msgid ":ref:`Workshops <event-workshops>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:30
+msgid "Hackathons"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:31
+msgid ""
+"Hackathons sind kollaborative Veranstaltungen, an denen Entwicklerinnen, "
+"Datennutzer, Studierende, Datendesignerinnen und Datenanalysten "
+"freiwillig zusammenkommen, um an einem oder mehreren Tagen gemeinsam "
+"projektbezogene IT-Lösungen zu entwickeln. Ziel des Prozesses ist es, "
+"innovative Lösungen und neue Apps z.B. im digitalen Bereich zu kreieren."
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:37
+msgid "Wozu dienen Hackathons?"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:39
+msgid ""
+"Bei diesen Veranstaltungen haben die Datennutzenden die Gelegenheit, "
+"Daten der Verwaltung wiederzuverwenden. Die Datenanbietenden sehen "
+"konkret, wie ihre Daten genutzt werden. Beide Seiten können sich "
+"austauschen, was langfristig dazu beiträgt, die Datenqualität zu "
+"verbessern. Solche Veranstaltungen wirken sich zudem auf die "
+"Kommunikation und die Visibilität der Datenanbietenden aus, die sich "
+"dadurch in der öffentlichen Meinung und bei der Open-Data-Gemeinschaft "
+"als innovative Akteure positionieren können. Hier einige Beispiele von "
+"Hackathons, die der Bund mitorganisiert hat:"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:48
+msgid "`Hackathon Versus Virus <https://www.versusvirus.ch/>`__"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:49
+msgid ""
+"`Open Farming Hackdays <https://hightechzentrum.ch/event/open-farming-"
+"hackdays-2021>`__"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:50
+msgid ""
+"`Energy Data Hackdays <https://opendata.ch/projects/energy-data-"
+"hackdays-2020/>`__"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:52
+msgid ""
+"Wen kann ich kontaktieren, wenn ich einen Hackathon organisieren will? "
+"Das Team von `Opendata.ch <https://opendata.ch/>`__ organisiert "
+"zahlreiche Hackathons in der Schweiz."
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:59
+msgid "«Open Data Beer»-Anlässe"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:60
+msgid ""
+"`«Open Data Beer» <https://opendatabeer.ch/>`__ ist eine Netzwerk-"
+"Eventreihe. Sie ermöglicht Begegnungen zwischen Menschen, die Daten "
+"publizieren, und denjenigen, die sie nutzen. Pro Jahr finden rund vier "
+"Anlässe statt, die von der Open-Data-Gemeinschaft sehr geschätzt werden. "
+"Organisiert werden sie von den Kantonen Basel-Stadt, Thurgau und Zürich "
+"sowie der Stadt Zürich. Jede Austragung wird von einem anderen Gastgeber "
+"mitorganisiert. Die Gastgeber gehören verschiedensten Organisationen an, "
+"die Daten liefern, beispielsweise die SBB und das Bundesamt für "
+"Statistik. Bei jeder Austragung gibt es zwei Präsentationen, eine von "
+"einem Datenanbietenden und eine von einem Datennutzenden. Im Anschluss "
+"findet ein Apéro (mit Hopfensaft) zum Networken statt. Im Schnitt nehmen "
+"50 bis 60 Interessierte an diesen Veranstaltungen teil."
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:73
+msgid ""
+"An wen muss ich mich wenden, wenn ich ein «Open Data Beer» veranstalten "
+"will? Kontaktieren Sie das `Organisationsteam "
+"<https://opendatabeer.ch/kontakt/>`__."
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:80
+msgid "Spontane Workshops mit Datennutzenden"
+msgstr ""
+
+#: ../../source/content/kommunizieren/datennutzende/event.rst:82
+msgid ""
+"Sie können direkt und spontan Workshops mit Personen organisieren, die "
+"Ihre Daten nutzen. Schon an einem kurzen (z.B. zweistündigen) Austausch "
+"können Sie Rückmeldungen einholen und darüber diskutieren, für welche "
+"Datensätze und in welchen Formaten eine Nachfrage besteht. Wir empfehlen,"
+" maximal ca. 10 bis 15 Teilnehmende pro Workshop persönlich einzuladen. "
+"Das Thema eines Workshops könnte beispielsweise am häufigsten von "
+"Datenjournalistinnen und Datenjournalisten gestellten Fragen sein."
+msgstr ""
+
