@@ -36,7 +36,7 @@ msgstr "Utiliser"
 #: ../../source/index.rst:108
 #, fuzzy
 msgid "Kommunizieren"
-msgstr "Publier"
+msgstr "Communiquer"
 
 #: ../../source/index.rst:116
 msgid "Glossar"
