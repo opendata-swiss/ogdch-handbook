@@ -55,7 +55,7 @@ templates_path = ['_templates']
 language = 'de'
 
 # make sure alt texts of images are translateable
-gettext_additional_targets = ['image']
+# gettext_additional_targets = ['image']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
