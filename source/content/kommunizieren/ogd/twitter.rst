@@ -34,11 +34,11 @@ Vorgaben für Tweets
 ^^^^^^^^^^^^^^^^^^^^^
 
 +----------------------------------------------------+
-| Eine grobe Beschreibung des Problems, der Frage    |
+| Text: max. 250 Zeichen (inkl. Leerschläge)         |
 +----------------------------------------------------+
 | Link zu weiterführenden Informationen              |
 +----------------------------------------------------+
-| Benutzername und Organisationszugehörigkeit        |
+| Wenn möglich mit Bild und/oder Hashtags            |
 +----------------------------------------------------+
 | Gewünschtes Erscheinungsdatum                      |
 +----------------------------------------------------+
