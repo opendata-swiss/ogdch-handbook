@@ -28,7 +28,7 @@ Welche Anlässe eignen sich für den Austausch mit der Open-Data-Gemeinschaft?
 
 Hackathons
 =================
-d.h. kollaborative Veranstaltungen, an denen Entwicklerinnen, Datennutzer,
+Hackathons sind kollaborative Veranstaltungen, an denen Entwicklerinnen, Datennutzer,
 Studierende, Datendesignerinnen und Datenanalysten freiwillig zusammenkommen, um an einem oder
 mehreren Tagen gemeinsam projektbezogene IT-Lösungen zu entwickeln. Ziel des Prozesses ist es,
 innovative Lösungen und neue Apps z.B. im digitalen Bereich zu kreieren.
