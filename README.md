@@ -37,7 +37,7 @@ The documentation can be built locally:
 ```
 (p3venv) cd docs
 (p3venv) make clean
-(p3venv) make html
+(p3venv) make -e SPHINXOPTS="-D language='de'" BUILDDIR="build/de" html
 ```
 
 ## Update translations
@@ -49,18 +49,19 @@ make gettext
 ```
 
 The generated files will be located in `build/gettext/`.
-To generate `.po` files for one or more languages, e.g. `en` and `fr`
+To generate `.po` files for one or more languages, e.g. `de` and `fr`
 
 ```
-sphinx-intl update -p build/gettext -l en -l fr
+sphinx-intl update -p build/gettext -l de -l fr
 ```
 
-The generated files will be located in `source/locale/en/LC_MESSAGES`.
+The generated files will be located in `source/locale/fr/LC_MESSAGES`.
 Fill in the translated strings in the `.po` files. Then do the following to
 compile `.mo` files and build the translated html files for one language:
 
 ```
- make -e SPHINXOPTS="-D language='en'" BUILDDIR="build/en" html
+ make -e SPHINXOPTS="-D language='fr'" BUILDDIR="build/fr" html
+make -e SPHINXOPTS="-D language='de'" BUILDDIR="build/de" html
  ```
 
 See the [sphinx-intl documentation](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html)
