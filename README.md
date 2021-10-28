@@ -53,16 +53,22 @@ make gettext
 
 The generated files will be located in `build/gettext/`.
 
-Next generate `.po` files for each language: `de` and `fr` with the 
-following command:
+From those `.po` files for each language: `de` and `fr` translateable items 
+can be created with the following command:
 
 ```
 sphinx-intl update -p build/gettext -l de -l fr
 ```
 
 The generated files will be located in `source/locale/fr/LC_MESSAGES`.
+It is best to manually check which `.po` to update since sphinx-intl sometimes
+generates updated translations where only the creation time of the file has 
+changed.
 
-Fill in the translated strings in the `.po` files. Then do the following to
+Check the generated `po` files and fill in translated strings in the where 
+needed. 
+
+To test the translations do the following to
 compile `.mo` files and build the translated html files for both languages:
 
 ```
