@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/content/kommunizieren/ogd.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:4
+msgid ":doc:`Kommunizieren <kommunizieren>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:5
+#: ../../source/content/kommunizieren/ogd.rst:9
+msgid "Über unsere Kanäle"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:12
+msgid ""
+"Welche Aufgaben verfolgt die Geschäftsstelle OGD bei ihrer "
+"Kommunikationsarbeit und an welche Zielgruppen richtet sie sich?"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:13
+msgid ""
+"Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data "
+"(OGD)>` des Bundesamtes für Statistik (BFS) begleitet die Umsetzung der "
+"vom Bundesrat Ende 2018 verabschiedeten `«Open Government Data»-Strategie"
+" (OGD-Strategie) 2019–2023 "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie.html>`__,"
+" die drei Hauptziele verfolgt:"
+msgstr ""
+
+msgid "Ziele der Kommunikation von Open Government Data"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:22
+msgid ""
+"Demnach richtet sich die Geschäftsstelle OGD im Wesentlichen an zwei "
+"Zielgruppen: einerseits an die :term:`Datenanbietenden "
+"<Datenpublizierende / Datenanbietende>`, andererseits an die "
+":term:`Datennutzenden <Datennutzende>`. Da die OGD-Strategie 2019–2023 "
+"für die Bundesverwaltung verbindlich ist, betreffen die "
+"Kommunikationsmassnahmen prioritär die Datenanbietenden in den "
+"Bundesstellen. Kantone, Gemeinden, Städte und staatsnahe Betriebe werden "
+"in einem zweiten Schritt angegangen. Das Ökosystem der Datennutzenden "
+"besteht aus Datenjournalistinnen, Entwicklern von Apps und "
+"Datenvisualisierungen, Forschenden sowie aus verwaltungsinternen "
+"Nutzerinnen und Nutzern."
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:33
+msgid "Wozu dient der Austausch?"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:35
+msgid ""
+"Die noch relativ junge Open-Data-Gemeinschaft (Datenanbietende und "
+"Datennutzende) soll und muss wachsen, und zwar mit vereinten Kräften. Es "
+"braucht eine solide Grundlage, damit Informationen ausgetauscht werden "
+"und gemeinsames Lernen möglich ist. Daher sind Datenanbietende wie "
+"Datennutzende gleichermassen aufgefordert, ihre Kommunikationsmassnahmen "
+"mit der Geschäftsstelle OGD zu koordinieren."
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:42
+msgid ""
+"Die Geschäftsstelle OGD unterhält mehrere Kommunikationskanäle mit einer "
+"Vielzahl an aktiven Abonnenten. Neuigkeiten aus der Gemeinschaft teilt "
+"sie regelmässig über diese Kanäle. Dieses Angebot verleiht den relevanten"
+" Themen mehr Sichtbarkeit und stärkt die Open-Data-Gemeinschaft."
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:48
+msgid "Welche Kommunikationskanäle nutzt die Geschäftsstelle OGD?"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:50
+msgid ":doc:`Twitter <ogd/twitter>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:51
+msgid ":doc:`NewsMail <ogd/newsmail>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:52
+msgid ":doc:`Showcases <ogd/showcases>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:54
+msgid ""
+"Für andere Kommunikationsmassnahmen wie Medienmitteilungen, Schulungen "
+"oder Events wenden Sie sich bitte an die `Geschäftsstelle OGD "
+"<mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+
