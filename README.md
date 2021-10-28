@@ -1,7 +1,9 @@
 # Handbook for opendata.swiss
 
 This is the handbook for opendata.swiss https://opendata.swiss/.
-It is published at https://handbook.opendata.swiss.
+It is published at https://handbook.opendata.swiss. It is currently 
+available in the two languages German and French. German is its original 
+language and French is added as a tranlation.
  
 This repo replaces the previous version of the handbook, which can be found here: 
 https://github.com/opendata-swiss/ogd-handbook-site
@@ -42,25 +44,29 @@ The documentation can be built locally:
 
 ## Update translations
 
-To extract message strings into `.pot` files:
+First extract message strings into `.pot` files:
 
 ```
+make clean
 make gettext
 ```
 
 The generated files will be located in `build/gettext/`.
-To generate `.po` files for one or more languages, e.g. `de` and `fr`
+
+Next generate `.po` files for each language: `de` and `fr` with the 
+following command:
 
 ```
 sphinx-intl update -p build/gettext -l de -l fr
 ```
 
 The generated files will be located in `source/locale/fr/LC_MESSAGES`.
+
 Fill in the translated strings in the `.po` files. Then do the following to
-compile `.mo` files and build the translated html files for one language:
+compile `.mo` files and build the translated html files for both languages:
 
 ```
- make -e SPHINXOPTS="-D language='fr'" BUILDDIR="build/fr" html
+make -e SPHINXOPTS="-D language='fr'" BUILDDIR="build/fr" html
 make -e SPHINXOPTS="-D language='de'" BUILDDIR="build/de" html
  ```
 
