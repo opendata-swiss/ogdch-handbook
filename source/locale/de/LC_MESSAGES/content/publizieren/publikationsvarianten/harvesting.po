@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:53+0200\n"
+"POT-Creation-Date: 2021-10-28 17:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
@@ -205,9 +205,6 @@ msgid ""
 "Liste aller Harvester. Geben Sie den Namen Ihres Harvesters ins Suchfeld "
 "ein, um nach Ihrem Harvester zu finden. Den Namen des Harvesters erhalten"
 " Sie von uns."
-msgstr ""
-
-msgid "Organisation im Frontend von opendata.swiss"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:139
@@ -412,17 +409,8 @@ msgid ""
 "``ckan`` aus der URL Ihrer Organisation im Backend entfernen:"
 msgstr ""
 
-msgid "ckan url einer Organisation"
-msgstr ""
-
-msgid "Frontend url einer Organisation"
-msgstr ""
-
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:280
 msgid "Beispielansicht einer publizierten Organisation"
-msgstr ""
-
-msgid "Dataset im Frontend von opendata.swiss"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:287
@@ -474,4 +462,16 @@ msgid ""
 "harvester.gif>` - In diesem Screencast zeigen wir Ihnen, wie Sie Ihren "
 "Harvester starten können"
 msgstr ""
+
+#~ msgid "Organisation im Frontend von opendata.swiss"
+#~ msgstr ""
+
+#~ msgid "ckan url einer Organisation"
+#~ msgstr ""
+
+#~ msgid "Frontend url einer Organisation"
+#~ msgstr ""
+
+#~ msgid "Dataset im Frontend von opendata.swiss"
+#~ msgstr ""
 

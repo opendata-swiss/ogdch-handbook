@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:53+0200\n"
+"POT-Creation-Date: 2021-10-28 17:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
@@ -67,9 +67,6 @@ msgid ""
 "<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html>`__."
 msgstr ""
 
-msgid "Schema Arbeitshilfe-Publikation"
-msgstr ""
-
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:43
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:116
 msgid "Support"
@@ -101,7 +98,6 @@ msgid ""
 "angezeigt werden:"
 msgstr ""
 
-#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:68
 msgid "Freie Nutzung"
 msgstr ""
@@ -123,7 +119,6 @@ msgstr ""
 msgid "Eine Quellenangabe wird empfohlen (Autor, Titel und Link zum Datensatz)."
 msgstr ""
 
-#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:78
 msgid "Freie Nutzung. Quellenangabe ist Pflicht."
 msgstr ""
@@ -133,7 +128,6 @@ msgstr ""
 msgid "Eine Quellenangabe ist Pflicht (Autor, Titel und Link zum Datensatz)."
 msgstr ""
 
-#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:88
 msgid ""
 "Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des "
@@ -147,7 +141,6 @@ msgid ""
 "eine entsprechende Bewilligung beim Datenlieferanten eingeholt haben."
 msgstr ""
 
-#: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst
 #: ../../source/content/vorbereiten/dataset/rechtlicher-check.rst:98
 msgid ""
 "Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit "
@@ -218,4 +211,7 @@ msgid ""
 "zweiten Schritt um die technischen Anforderungen, die die Ihr Dataset "
 "erfüllen muss."
 msgstr ""
+
+#~ msgid "Schema Arbeitshilfe-Publikation"
+#~ msgstr ""
 

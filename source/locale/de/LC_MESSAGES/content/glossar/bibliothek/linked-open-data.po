@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:53+0200\n"
+"POT-Creation-Date: 2021-10-28 17:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
@@ -772,7 +772,6 @@ msgstr ""
 msgid "To clarify the notion of URL, URI and IRI:"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/linked-open-data.rst
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:448
 msgid "URL-URI-IRI"
 msgstr ""
@@ -955,10 +954,6 @@ msgid ""
 "often illustrated in the form of this “layercake”:"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/linked-open-data.rst
-msgid "RDF layer cake"
-msgstr ""
-
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:562
 msgid ""
 "Figure 3. The layer cake for RDF technologies (Source: `w3.org "
@@ -1028,10 +1023,6 @@ msgstr ""
 msgid "Each triple can be represented visually as for instance:"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/linked-open-data.rst
-msgid "RDF triple"
-msgstr ""
-
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:608
 msgid "Figure 4. RDF triple"
 msgstr ""
@@ -1046,10 +1037,6 @@ msgstr ""
 msgid "Here is a visual representation of the few triples here above:"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/linked-open-data.rst
-msgid "RDF Graph"
-msgstr ""
-
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:618
 msgid "Figure 5. RDF Graph"
 msgstr ""
@@ -1058,10 +1045,6 @@ msgstr ""
 msgid ""
 "RDF data, and thus Linked Data, form a Graph Database, which is different"
 " from the more common Relational or Hierarchical Databases:"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/linked-open-data.rst
-msgid "structured data formats"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:626
@@ -1089,10 +1072,6 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:647
 msgid "Here is the real RDF graph, with fully qualified URIs:"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/linked-open-data.rst
-msgid "RDF graph with URIs"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/linked-open-data.rst:652
@@ -1489,5 +1468,20 @@ msgstr ""
 #~ "version, SPARQL 1.1, is defined by "
 #~ "a `W3C recommandation "
 #~ "<https://www.w3.org/TR/sparql11-overview/>`__."
+#~ msgstr ""
+
+#~ msgid "RDF layer cake"
+#~ msgstr ""
+
+#~ msgid "RDF triple"
+#~ msgstr ""
+
+#~ msgid "RDF Graph"
+#~ msgstr ""
+
+#~ msgid "structured data formats"
+#~ msgstr ""
+
+#~ msgid "RDF graph with URIs"
 #~ msgstr ""
 

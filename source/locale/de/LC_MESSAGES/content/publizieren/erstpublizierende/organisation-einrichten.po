@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:53+0200\n"
+"POT-Creation-Date: 2021-10-28 17:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
@@ -71,14 +71,8 @@ msgid ""
 "Ihrer Organisation ausfüllen."
 msgstr ""
 
-msgid "Bearbeiten der Organisation im Backend von opendata.swiss"
-msgstr ""
-
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:43
 msgid "Klicken Sie darauf, um das Webformular für Ihre Organisation zu öffnen:"
-msgstr ""
-
-msgid "Organisationstitel und Slug"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:48
@@ -105,9 +99,6 @@ msgid ""
 "werden, sobald Sie Datasets veröffentlicht haben."
 msgstr ""
 
-msgid "Organisationsbeschreibung"
-msgstr ""
-
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:67
 msgid ""
 "Bei «Beschreibung (EN) (DE) (FR) (IT)» geben Sie bitte eine Beschreibung "
@@ -115,9 +106,6 @@ msgid ""
 "auf Deutsch und Französisch eingeben – wünschenswert wären allerdings "
 "alle vier Sprachen. Weitere Organisationen müssen Titel und Beschreibung "
 "in mindestens einer Sprache eingeben"
-msgstr ""
-
-msgid "Organisation: Url und weitere Felder"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:77
@@ -156,16 +144,10 @@ msgid ""
 "das Portal»."
 msgstr ""
 
-msgid "Organisation im Backend ansehen"
-msgstr ""
-
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:103
 msgid ""
 "Damit gelangen Sie zur Detailansicht Ihrer Organisation im :term:`Backend"
 " <Backend>`:"
-msgstr ""
-
-msgid "Organisation im Backend"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:108
@@ -179,15 +161,6 @@ msgstr ""
 msgid ""
 "Sie gelangen zur Datenansicht Ihrer Organisation im Frontend, indem Sie "
 "``ckan`` aus der Backend-URL Ihrer Organisation entfernen:"
-msgstr ""
-
-msgid "ckan url einer Organisation"
-msgstr ""
-
-msgid "Frontend url einer Organisation"
-msgstr ""
-
-msgid "Organisation im Frontend"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:125
@@ -206,4 +179,31 @@ msgid ""
 "Sie als nächsten Schritt eine Publikationsvariante für Ihre Datasets "
 "auswählen."
 msgstr ""
+
+#~ msgid "Bearbeiten der Organisation im Backend von opendata.swiss"
+#~ msgstr ""
+
+#~ msgid "Organisationstitel und Slug"
+#~ msgstr ""
+
+#~ msgid "Organisationsbeschreibung"
+#~ msgstr ""
+
+#~ msgid "Organisation: Url und weitere Felder"
+#~ msgstr ""
+
+#~ msgid "Organisation im Backend ansehen"
+#~ msgstr ""
+
+#~ msgid "Organisation im Backend"
+#~ msgstr ""
+
+#~ msgid "ckan url einer Organisation"
+#~ msgstr ""
+
+#~ msgid "Frontend url einer Organisation"
+#~ msgstr ""
+
+#~ msgid "Organisation im Frontend"
+#~ msgstr ""
 
