@@ -138,7 +138,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/content/glossar/begriffe.rst:62
-#, fuzzy
 msgid "Datenpublizierende / Datenanbietende"
 msgstr "Fournisseurs de données"
 
