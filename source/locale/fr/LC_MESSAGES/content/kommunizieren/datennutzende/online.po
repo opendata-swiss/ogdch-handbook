@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ":fa:`home` :doc:`Manuel <../../../index>` :fa:`chevron-right`"
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:4
+msgid ":doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`"
+msgstr ":doc:`Communiquer <../kommunizieren>` :fa:`chevron-right`"
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:5
+msgid ":doc:`Mit den Datennutzenden <../datennutzende>` :fa:`chevron-right`"
+msgstr ":doc:`Avec les utilisateurs de données <../datennutzende>` :fa:`chevron-right`"
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:6
+#: ../../source/content/kommunizieren/datennutzende/online.rst:10
+msgid "Onlinekommunikation"
+msgstr "Communication en ligne"
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:13
+msgid "Auf welchen Onlinekanälen sind die Datennutzenden präsent?"
+msgstr "Sur quels canaux en ligne les utilisateurs de données sont-ils présents?"
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:15
+msgid ""
+"Wie die Open-Data-Gemeinschaft sind auch die Datennutzenden auf `Twitter "
+"<https://twitter.com>`__ vertreten. Zu den Themen, die die Gemeinschaft "
+"besonders interessiert, gehören neu veröffentlichte Datensätze, Showcases"
+" und Open-Data-Anlässe."
+msgstr ""
+"Les utilisateurs de données et la communauté open data sont très "
+"présents sur `Twitter <https://twitter.com>`__. Les thématiques les plus "
+"appréciées par la communauté concernent la publication de nouveaux "
+"jeux de données, les exemples de réutilisation de données "
+"publiques et les évènements open data. "
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:20
+msgid ""
+"Die von der Gemeinschaft am häufigsten verwendeten Hashtags sind "
+"``#OpenGovernmentData``, ``#opendatach``, ``#opendata``, ``#OGD``."
+msgstr "Les hashtags principaux utilisés par la communauté open "
+"data sont: #OpenGovernmentData, #opendatach #opendata, #OGD. "
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:23
+msgid ""
+"Wir empfehlen, auf Fragen, die Sie über Twitter erhalten, innerhalb von "
+"24 Stunden zu reagieren."
+msgstr ""
+"Nous vous encourageons à répondre en moins de 24h aux questions "
+"que les utilisateurs de données vous adressent via Twitter."
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:25
+msgid ""
+"Hier als Beispiel einige aktive Accounts der Gemeinschaft: "
+"`@opendataswiss <https://twitter.com/opendataswiss>`__, `@OpenDataZurich "
+"<https://twitter.com/opendatazurich>`__, `@ogd_tg  "
+"<https://twitter.com/ogd_tg>`__, `@OpendataCH "
+"<https://twitter.com/opendatach>`__, `@opendatabeerCH "
+"<https://twitter.com/opendatabeerch>`__, `@BFEgeoinfo "
+"<https://twitter.com/bfegeoinfo>`__, `@OpenDataBS "
+"<https://twitter.com/opendatabs>`__, `@OpenDataZH "
+"<https://twitter.com/opendatazh>`__,"
+msgstr ""
+"Voici pour inspiration quelques comptes actifs de la "
+"communauté: "
+"`@opendataswiss <https://twitter.com/opendataswiss>`__, `@OpenDataZurich "
+"<https://twitter.com/opendatazurich>`__, `@ogd_tg  "
+"<https://twitter.com/ogd_tg>`__, `@OpendataCH "
+"<https://twitter.com/opendatach>`__, `@opendatabeerCH "
+"<https://twitter.com/opendatabeerch>`__, `@BFEgeoinfo "
+"<https://twitter.com/bfegeoinfo>`__, `@OpenDataBS "
+"<https://twitter.com/opendatabs>`__, `@OpenDataZH "
+"<https://twitter.com/opendatazh>`__,"
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:35
+msgid "Gut zu wissen"
+msgstr "Bon à savoir"
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:37
+msgid ""
+"Anregungen und Beispiele von Tweets zu OGD-Themen finden Sie unter diesem"
+" :ref:`Link <twitter-beispiele>`."
+msgstr "Vous trouverez pour inspiration "
+":ref:`sous ce lien <twitter-beispiele>` des "
+"exemples de tweets concernant le domaine Open Government Data. "
+
+#: ../../source/content/kommunizieren/datennutzende/online.rst:42
+msgid ":doc:`Eventkommunikation <event>`"
+msgstr ":doc:`Communication évènementielle <event>`"
+

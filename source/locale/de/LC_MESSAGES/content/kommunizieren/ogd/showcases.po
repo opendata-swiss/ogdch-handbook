@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:4
+msgid ":doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:5
+msgid ":doc:`Über unsere Kanäle <../ogd>` :fa:`chevron-right`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:6
+#: ../../source/content/kommunizieren/ogd/showcases.rst:10
+#: ../../source/content/kommunizieren/ogd/showcases.rst:13
+msgid "Showcases"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:15
+msgid ""
+"Die Geschäftsstelle OGD pflegt auf dem Portal opendata.swiss unter "
+"`«Showcases» <https://opendata.swiss/de/showcase>`__ einen Katalog mit "
+"Beispielen, wie offene Daten weiterverwendet werden können (z.B. für "
+"Apps, Visualisierungen, Anlässe, die auf frei zugänglichen Daten "
+"basieren). Die aufgelisteten Showcases veranschaulichen, welche "
+"Möglichkeiten das Prinzip :term:`Open Government Data <Open Government "
+"Data>` für die Gesellschaft und die Innovation eröffnet. Sie können "
+"Datenanbietende inspirieren, wie im offenen Format publizierte Daten "
+"genutzt werden können. Datenanbietende und Datennutzende werden gebeten, "
+"ihre Showcases zu teilen."
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:27
+msgid ""
+"Sie wollen ein Beispiel für die Datennutzung unter «Showcases» "
+"veröffentlichen?"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:29
+msgid ""
+"`Mailen <mailto:opendata@bfs.admin.ch>`__ Sie uns Ihren Beitrag unter "
+"Einhaltung der Vorgaben."
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:32
+msgid "Vorgaben für Ihren Beitrag"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:35
+msgid ""
+"Titel: Thematischer Inhalt («App», «Datenvisualisierung» oder "
+"«Veranstaltung»)"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:37
+msgid "Beschreibung (1–10 Zeilen mit Kurzbeschrieb des Showcases)"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:39
+msgid "Name der Entwickler/innen"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:41
+msgid "E-Mail-Adresse für die Kontaktaufnahme"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:43
+msgid "URL der Website Ihres Showcases"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:45
+msgid "Verwendeter Datensatz (bitte die URL von opendata.swiss angeben)"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:47
+msgid "Bild"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/showcases.rst:52
+msgid ":doc:`Kommunizieren mit den Datenutzenden <../datennutzende>`"
+msgstr ""
+

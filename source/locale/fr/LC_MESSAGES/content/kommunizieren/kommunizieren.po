@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../index>` :fa:`chevron-right`"
+msgstr ":fa:`home` :doc:`Manuel <../../index>` :fa:`chevron-right`"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:4
+msgid "Kommunizieren"
+msgstr "Communiquer"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:8
+msgid "Auf einen Blick"
+msgstr "Vue d’ensemble"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:11
+msgid "Über das Thema Open Government Data kommunizieren"
+msgstr "Communiquer sur le thème Open Government Data"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:13
+msgid ""
+"Nachdem Sie Ihre Daten publiziert haben, ist es wichtig, dass Sie das "
+"Datenangebot und Ihre Aktivitäten für Open Data bei den Datennutzenden "
+"bekannt machen. Damit soll die Wiederverwendung Ihrer Datasets gefördert "
+"werden. Der Austausch zwischen :term:`Datenanbietenden "
+"<Datenpublizierende / Datenanbietende>` und :term:`–nutzenden "
+"<Datennutzende>` ist zentral, da er es ermöglicht, das Datenangebot "
+"entsprechend den Bedürfnissen der Datennutzenden zu verbessern. Dies "
+"führt letztlich zu mehr Innovation und bietet einen Mehrwert für die "
+"Gesellschaft und die Wirtschaft."
+msgstr "Suite à la publication de données ouvertes, il convient de faire "
+"connaitre votre offre de données et vos activités open data auprès des "
+"utilisateurs. Ceci, afin d’encourager la réutilisation de vos jeux de "
+"données. L’échange entre les `fournisseurs et utilisateurs de données "
+"<Datenpublizierende / Datenanbietende>` "
+"est central, puisqu’il permet d’améliorer l’offre de données en "
+"fonction des besoins des utilisateurs. Ce qui au final augmente "
+"l’innovation et offre une véritable plus-value pour "
+"la société et l’économie. "
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:22
+msgid ""
+"In diesem Leitfaden wird erklärt, wie man über das Thema Open Government "
+"Data kommuniziert:"
+msgstr "Ce guide explique comment communiquer sur le thème des données "
+"publiques ouvertes:"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:24
+msgid ""
+":doc:`Verbreitung von Neuigkeiten über die Kanäle der Geschäftsstelle OGD"
+" <ogd>`"
+msgstr ":doc:`Partager ses nouvelles via les canaux du secrétariat OGD  <ogd>`"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:25
+msgid ":doc:`Kommunikation mit Datennutzenden <datennutzende>`"
+msgstr ":doc:`Communiquer avec les utilisateurs de données <datennutzende>`"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:27
+msgid "Durch eine gute Kommunikation werden folgende Ziele unterstützt:"
+msgstr "Une bonne communication permet de soutenir les objectifs suivants:"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:30
+msgid "Erhöhung der Sichtbarkeit von offenen Verwaltungsdaten"
+msgstr "Augmenter la visibilité des données publiques ouvertes"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:32
+msgid "Förderung der Wiederverwendung von Datensätzen"
+msgstr "Promouvoir la réutilisation de jeux de données"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:34
+msgid "Aufbau der Open-Data-Gemeinschaft"
+msgstr "Participer à la construction de la communauté open data"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:36
+msgid "Förderung des Dialogs zwischen Datenanbietenden und –nutzenden"
+msgstr "Encourager le dialogue entre fournisseurs et utilisateurs de données"
+
+#: ../../source/content/kommunizieren/kommunizieren.rst:38
+msgid "Verbesserung des Datenangebots entsprechend dem Bedarf der Datennutzenden"
+msgstr "Améliorer l’offre des données en fonction des besoins des utilisateurs"
+
