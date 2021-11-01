@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 msgid "Beispiel für Twitter Post auf @opendataswiss"
-msgstr ""
+msgstr "Exemples de tweets sur le thème OGD"
 
 #: ../../source/content/kommunizieren/ogd/twitter-beispiele.rst:21
 msgid ":doc:`NewsMail <newsmail>`"
