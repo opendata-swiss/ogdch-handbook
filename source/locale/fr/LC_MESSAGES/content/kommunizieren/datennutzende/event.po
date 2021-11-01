@@ -20,53 +20,56 @@ msgstr ""
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:4
 msgid ":doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Communiquer <../kommunizieren>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:5
 msgid ":doc:`Mit den Datennutzenden <../datennutzende>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Avec les utilisateurs de données <../datennutzende>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:6
 #: ../../source/content/kommunizieren/datennutzende/event.rst:10
 msgid "Eventkommunikation"
-msgstr ""
+msgstr "Communication évènementielle"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:13
 msgid "Möchten Sie wissen, wer Ihre Daten wie nutzt?"
-msgstr ""
+msgstr "Vous souhaitez rencontrer les utilisateurs de vos données?"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:15
 msgid ""
 "`Kontaktieren Sie uns <mailto:opendata@bfs.admin.ch>`__, falls Sie einen "
 "Anlass planen. Wir bringen Sie gern mit unseren Kontakten in Verbindung, "
 "die auf die Organisation von Open-Data-Events spezialisiert sind."
-msgstr ""
+msgstr "N’hésitez pas à `nous contacter <mailto:opendata@bfs.admin.ch>`__ lorsque "
+"vous prévoyiez un évènement, afin de bénéficier d’une mise en relation "
+"avec nos contacts spécialisés dans l’organisation d’évènements open data."
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:21
 msgid ""
 "Welche Anlässe eignen sich für den Austausch mit der Open-Data-"
 "Gemeinschaft?"
-msgstr ""
+msgstr "Quels types d’évènements puis-je organiser pour rencontrer "
+"la communauté open data?"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:23
 msgid ":ref:`Hackathons <event-hackathon>`"
-msgstr ""
+msgstr ":ref:`Hackathons <event-hackathon>`"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:24
 msgid ":ref:`“Open Data Beer”-Anlässe <event-open-data-beer>`"
-msgstr ""
+msgstr ":ref:`“Open Data Beer”-Anlässe <event-open-data-beer>`"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:25
 msgid ":ref:`Workshops <event-workshops>`"
-msgstr ""
+msgstr ":ref:`Workshop ad hoc avec les utilisateurs de données <event-workshops>`"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:30
 msgid "Hackathons"
-msgstr ""
+msgstr "Les Hackathons"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:31
 msgid ""
@@ -75,11 +78,17 @@ msgid ""
 "freiwillig zusammenkommen, um an einem oder mehreren Tagen gemeinsam "
 "projektbezogene IT-Lösungen zu entwickeln. Ziel des Prozesses ist es, "
 "innovative Lösungen und neue Apps z.B. im digitalen Bereich zu kreieren."
-msgstr ""
+msgstr "Ce sont des évènements durant lequel des groupes de développeurs, "
+"d’utilisateurs de données, d’étudiants, de designers et/ou "
+"d’analystes de données se retrouvent volontairement pendant un ou "
+"plusieurs jours, afin de travailler sur des projets de programmation "
+"informatique de manière collaborative. Ce processus est axé sur "
+"la création de solutions innovantes ou de nouvelles applications "
+"dans le domaine numérique par exemple."
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:37
 msgid "Wozu dienen Hackathons?"
-msgstr ""
+msgstr "Pourquoi organiser un hackathon?"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:39
 msgid ""
@@ -92,34 +101,50 @@ msgid ""
 "dadurch in der öffentlichen Meinung und bei der Open-Data-Gemeinschaft "
 "als innovative Akteure positionieren können. Hier einige Beispiele von "
 "Hackathons, die der Bund mitorganisiert hat:"
-msgstr ""
+msgstr "L’évènement permet la réutilisation des données de "
+"l’administration par les utilisateurs de données. Il montre "
+"ainsi concrètement au fournisseur de données comment ses "
+"données peuvent être réutilisées. Cet échange permet également "
+"aux fournisseurs et utilisateurs de dialoguer, ayant pour "
+"effet une amélioration sur le long terme de la qualité des données. "
+"De plus, la réalisation d’un tel évènement a un grand impact "
+"en terme de communication et de visibilité pour le fournisseur "
+"de données, lui permettant de se positionner comme un acteur innovant "
+"auprès de l’opinion publique et de la communauté open data. Voici ci-dessous "
+"pour inspiration quelques exemples de hackathons coorganisés par "
+"la Confédération suisse: "
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:48
 msgid "`Hackathon Versus Virus <https://www.versusvirus.ch/>`__"
-msgstr ""
+msgstr "`Hackathon Versus Virus <https://www.versusvirus.ch/>`__"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:49
 msgid ""
 "`Open Farming Hackdays <https://hightechzentrum.ch/event/open-farming-"
 "hackdays-2021>`__"
-msgstr ""
+msgstr "`Open Farming Hackdays <https://hightechzentrum.ch/event/open-farming-"
+"hackdays-2021>`__"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:50
 msgid ""
 "`Energy Data Hackdays <https://opendata.ch/projects/energy-data-"
 "hackdays-2020/>`__"
 msgstr ""
+"`Energy Data Hackdays <https://opendata.ch/projects/energy-data-"
+"hackdays-2020/>`__"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:52
 msgid ""
 "Wen kann ich kontaktieren, wenn ich einen Hackathon organisieren will? "
 "Das Team von `Opendata.ch <https://opendata.ch/>`__ organisiert "
 "zahlreiche Hackathons in der Schweiz."
-msgstr ""
+msgstr "Qui contacter pour organiser un hackathon? "
+"L’organisation `Opendata.ch <https://opendata.ch/>`__ organise "
+"de nombreux hackathons en Suisse. "
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:59
 msgid "«Open Data Beer»-Anlässe"
-msgstr ""
+msgstr "Le format «Open Data Beer»"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:60
 msgid ""
@@ -135,18 +160,31 @@ msgid ""
 "einem Datenanbietenden und eine von einem Datennutzenden. Im Anschluss "
 "findet ein Apéro (mit Hopfensaft) zum Networken statt. Im Schnitt nehmen "
 "50 bis 60 Interessierte an diesen Veranstaltungen teil."
-msgstr ""
+msgstr "Les évènements `«Open Data Beer» <https://opendatabeer.ch/>`__ sont "
+"une suite de rencontres entre fournisseurs et utilisateurs (env. 4 "
+"rencontres par an). Ces échanges, très appréciés par la communauté open "
+"data, sont organisés par les cantons de Bâle Ville, de Thurgovie et de "
+"Zurich, ainsi que par la ville de Zurich. Chaque rencontre est coorganisée "
+"avec un hôte différent. Les hôtes de ces rencontres proviennent de "
+"différentes organisations fournissant des données comme par exemple "
+"les CFF, l’Office fédéral de la statistique, etc. Chaque rencontre "
+"est axée autour de la présentation d’un fournisseur de données et "
+"de celle d’un utilisateur de données. Un apéritif dédié au networking "
+"suit les présentations, permettant à la communauté de se rencontrer. "
+"En général, ces évènements comptent environ 50-60 participants."
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:73
 msgid ""
 "An wen muss ich mich wenden, wenn ich ein «Open Data Beer» veranstalten "
 "will? Kontaktieren Sie das `Organisationsteam "
 "<https://opendatabeer.ch/kontakt/>`__."
-msgstr ""
+msgstr "Qui contacter pour être l’hôte d’un «Open Data Beer»? "
+"Vous pouvez "
+"`contacter les organisateurs ici <https://opendatabeer.ch/kontakt/>`__."
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:80
 msgid "Spontane Workshops mit Datennutzenden"
-msgstr ""
+msgstr "Workshop ad hoc avec les utilisateurs de données"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:82
 msgid ""
@@ -158,4 +196,12 @@ msgid ""
 "Das Thema eines Workshops könnte beispielsweise am häufigsten von "
 "Datenjournalistinnen und Datenjournalisten gestellten Fragen sein."
 msgstr ""
+"Vous pouvez directement organiser de manière plus spontanée un workshop "
+"avec les utilisateurs de vos données. Un échange court (par exemple 2h) "
+"permet d’entendre les feedbacks des utilisateurs et de discuter la "
+"demande pour certains jeux de données ou le format des données "
+"publiées. Nous conseillons d’inviter environ 10-15 participants par "
+"workshop maximum et sur invitation uniquement. Un workshop peut par exemple "
+"aider à répondre aux questions fréquentes que vous recevez de la part "
+"de journalistes de données. "
 
