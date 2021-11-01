@@ -20,15 +20,16 @@ msgstr ""
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:4
 msgid ":doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Communiquer <../kommunizieren>` :fa:`chevron-right`"
+
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:5
 msgid ":doc:`Über unsere Kanäle <../ogd>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Via nos canaux <../ogd>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:6
 #: ../../source/content/kommunizieren/ogd/twitter.rst:10
@@ -37,7 +38,7 @@ msgstr ""
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:13
 msgid "Kommunikation über Twitter"
-msgstr ""
+msgstr "Communiquer via Twitter"
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:15
 msgid ""
@@ -45,7 +46,13 @@ msgid ""
 "Gemeinschaft sehr geschätzt. Die Geschäftsstelle OGD besitzt den Twitter-"
 "Account `@opendataswiss <https://twitter.com/opendataswiss>`__, über den "
 "sie regelmässig Neuigkeiten aus der Open-Data-Gemeinschaft teilt."
-msgstr ""
+msgstr "Ce réseau social est une plateforme d’échange "
+"d’information (tweets) fort appréciée par la communauté "
+"open data, fournisseurs et utilisateurs de données compris. "
+"Le secrétariat OGD possède un compte "
+"Twitter `@opendataswiss <https://twitter.com/opendataswiss>`__, "
+"via lequel il partage régulièrement les dernières nouvelles "
+"de la communauté open data."
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:20
 msgid ""
@@ -55,43 +62,54 @@ msgid ""
 "Datensätze, interessante :term:`Anwendungsbeispiele <Showcase>` und Open-"
 "Data-Anlässe."
 msgstr ""
+"N’hésitez pas à mentionner le secrétariat OGD dans vos tweets "
+"concernant le thème de l’Open (Government) Data en "
+"utilisant @opendataswiss, afin que nous vous "
+"retweetions. Les thématiques les plus appréciées par la communauté "
+"concernent la publication de nouveaux jeux de données, les exemples "
+"de réutilisation de données publiques (:term:` Showcases <Showcase>`)"
+"et les évènements open data."
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:27
 msgid ""
 "Sie haben eine wichtige Neuigkeit, die die Open-Data-Gemeinschaft "
 "interessieren könnte, aber besitzen keinen Twitter-Account?"
-msgstr ""
+msgstr "Vous avez une nouvelle importante pour la communauté "
+"open data, mais vous ne possédez pas de compte Twitter?"
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:29
 msgid ""
 "Dann mailen Sie Ihre Tweet-Vorschläge an `uns "
 "<mailto:opendata@bfs.admin.ch>`__. Wir teilen Ihre Informationen gern "
 "über `unseren Twitter-Account <https://twitter.com/opendataswiss>`__."
-msgstr ""
+msgstr "Vous pouvez `nous envoyer votre "
+"proposition de tweet par email <mailto:opendata@bfs.admin.ch>`__. "
+"Nous pourrons volontiers organiser la diffusion de "
+"votre nouvelle via `notre compte Twitter <https://twitter.com/opendataswiss>`__."
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:34
 msgid "Vorgaben für Tweets"
-msgstr ""
+msgstr "Consignes pour la rédaction"
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:37
 msgid "Text: max. 250 Zeichen (inkl. Leerschläge)"
-msgstr ""
+msgstr "Texte: max. 250 caractères (y compris les espaces) "
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:39
 msgid "Link zu weiterführenden Informationen"
-msgstr ""
+msgstr "Lien vers des informations plus détaillées"
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:41
 msgid "Wenn möglich mit Bild und/oder Hashtags"
-msgstr ""
+msgstr "Image / Hashtags (si disponible)"
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:43
 msgid "Gewünschtes Erscheinungsdatum"
-msgstr ""
+msgstr "Date souhaitée pour la publication"
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:49
 msgid "Beispieltweets zu OGD-Themen"
-msgstr ""
+msgstr "Exemples de tweets sur le thème OGD"
 
 msgid "Beispiel für Twitter Post auf @opendataswiss"
 msgstr ""
