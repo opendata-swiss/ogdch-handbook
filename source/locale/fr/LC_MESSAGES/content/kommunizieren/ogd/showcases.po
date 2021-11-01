@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:4
 msgid ":doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Communiquer <../kommunizieren>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:5
 msgid ":doc:`Über unsere Kanäle <../ogd>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Via nos canaux <../ogd>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:6
 #: ../../source/content/kommunizieren/ogd/showcases.rst:10
@@ -49,54 +49,70 @@ msgid ""
 "genutzt werden können. Datenanbietende und Datennutzende werden gebeten, "
 "ihre Showcases zu teilen."
 msgstr ""
+"Le secrétariat OGD répertorie des exemples "
+"de réutilisation de données publiques ouvertes (exemples d’applications, "
+"de visualisations ou d’évènements créés à partir de données publiques "
+"ouvertes) sur la page `«Showcases» <https://opendata.swiss/de/showcase>`__ "
+"du portail opendata.swiss. Les exemples sélectionnés servent de "
+"vitrine illustrant l’impact du principe "
+":term:`Open Government Data <Open Government Data>` "
+"pour l’innovation et la "
+"société. Ils servent également d’inspiration pour les fournisseurs "
+"de données, en leur montrant comment les données, publiées dans "
+"un format ouvert, ont pu être réutilisées. Les fournisseurs et "
+"utilisateurs de données sont invités à proposer leurs exemples "
+"de réutilisation d’OGD."
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:27
 msgid ""
 "Sie wollen ein Beispiel für die Datennutzung unter «Showcases» "
 "veröffentlichen?"
-msgstr ""
+msgstr "Vous souhaitez publier un exemple de réutilisation dans nos «Showcases»?"
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:29
 msgid ""
 "`Mailen <mailto:opendata@bfs.admin.ch>`__ Sie uns Ihren Beitrag unter "
 "Einhaltung der Vorgaben."
-msgstr ""
+msgstr "Envoyez-nous votre proposition, contenant les consignes ci-dessous, en "
+"`nous écrivant ici <mailto:opendata@bfs.admin.ch>`__. "
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:32
 msgid "Vorgaben für Ihren Beitrag"
-msgstr ""
+msgstr "Consignes pour la rédaction "
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:35
 msgid ""
 "Titel: Thematischer Inhalt («App», «Datenvisualisierung» oder "
 "«Veranstaltung»)"
-msgstr ""
+msgstr "Titre: Type de contenu (à choisir entre «applications», "
+"«visualisations» et «évènements»)"
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:37
 msgid "Beschreibung (1–10 Zeilen mit Kurzbeschrieb des Showcases)"
-msgstr ""
+msgstr "Description (1 à 10 lignes présentant brièvement le showcase)"
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:39
 msgid "Name der Entwickler/innen"
-msgstr ""
+msgstr "Nom du/des développeur/s"
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:41
 msgid "E-Mail-Adresse für die Kontaktaufnahme"
-msgstr ""
+msgstr "E-mail de contact"
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:43
 msgid "URL der Website Ihres Showcases"
-msgstr ""
+msgstr "URL du site Internet du Showcase"
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:45
 msgid "Verwendeter Datensatz (bitte die URL von opendata.swiss angeben)"
-msgstr ""
+msgstr "Jeux de données utilisées (veuillez ajouter l’URL provenant "
+"d’opendata.swiss)"
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:47
 msgid "Bild"
-msgstr ""
+msgstr "Image "
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:52
 msgid ":doc:`Kommunizieren mit den Datenutzenden <../datennutzende>`"
-msgstr ""
+msgstr "Communiquer avec les utilisateurs de données"
 
