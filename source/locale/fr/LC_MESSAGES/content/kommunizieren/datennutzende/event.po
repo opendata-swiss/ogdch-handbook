@@ -61,7 +61,7 @@ msgstr ":ref:`Hackathons <event-hackathon>`"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:24
 msgid ":ref:`“Open Data Beer”-Anlässe <event-open-data-beer>`"
-msgstr ":ref:`“Open Data Beer”-Anlässe <event-open-data-beer>`"
+msgstr ":ref:`“Open Data Beer” <event-open-data-beer>`"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:25
 msgid ":ref:`Workshops <event-workshops>`"

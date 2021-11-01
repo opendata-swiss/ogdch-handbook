@@ -34,7 +34,6 @@ msgid "Nutzen"
 msgstr "Utiliser"
 
 #: ../../source/index.rst:108
-#, fuzzy
 msgid "Kommunizieren"
 msgstr "Communiquer"
 

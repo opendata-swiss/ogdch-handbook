@@ -48,8 +48,9 @@ msgid ""
 msgstr "Suite à la publication de données ouvertes, il convient de faire "
 "connaitre votre offre de données et vos activités open data auprès des "
 "utilisateurs. Ceci, afin d’encourager la réutilisation de vos jeux de "
-"données. L’échange entre les `fournisseurs et utilisateurs de données "
-"<Datenpublizierende / Datenanbietende>` "
+"données. L’échange entre les "
+":term:`fournisseurs et utilisateurs de "
+"données <Datenpublizierende / Datenanbietende>` "
 "est central, puisqu’il permet d’améliorer l’offre de données en "
 "fonction des besoins des utilisateurs. Ce qui au final augmente "
 "l’innovation et offre une véritable plus-value pour "
@@ -74,7 +75,7 @@ msgstr ":doc:`Communiquer avec les utilisateurs de données <datennutzende>`"
 
 #: ../../source/content/kommunizieren/kommunizieren.rst:27
 msgid "Durch eine gute Kommunikation werden folgende Ziele unterstützt:"
-msgstr "Une bonne communication permet de soutenir les objectifs suivants:"
+msgstr "Une communication coordonnée permet de soutenir les objectifs suivants:"
 
 #: ../../source/content/kommunizieren/kommunizieren.rst:30
 msgid "Erhöhung der Sichtbarkeit von offenen Verwaltungsdaten"
