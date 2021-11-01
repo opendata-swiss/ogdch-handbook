@@ -36,6 +36,7 @@ msgid ""
 "Welche Aufgaben verfolgt die Geschäftsstelle OGD bei ihrer "
 "Kommunikationsarbeit und an welche Zielgruppen richtet sie sich?"
 msgstr ""
+"Quelle sont la mission et les cibles de communication du secrétariat OGD?"
 
 #: ../../source/content/kommunizieren/ogd.rst:13
 msgid ""

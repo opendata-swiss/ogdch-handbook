@@ -114,5 +114,5 @@ msgstr "Image "
 
 #: ../../source/content/kommunizieren/ogd/showcases.rst:52
 msgid ":doc:`Kommunizieren mit den Datenutzenden <../datennutzende>`"
-msgstr "Communiquer avec les utilisateurs de données"
+msgstr ":doc:`Communiquer avec les utilisateurs de données <../datennutzende>`"
 

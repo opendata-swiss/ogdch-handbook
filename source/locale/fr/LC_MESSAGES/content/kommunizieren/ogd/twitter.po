@@ -67,7 +67,8 @@ msgstr ""
 "utilisant @opendataswiss, afin que nous vous "
 "retweetions. Les thématiques les plus appréciées par la communauté "
 "concernent la publication de nouveaux jeux de données, les exemples "
-"de réutilisation de données publiques (:term:` Showcases <Showcase>`)"
+"de réutilisation de données publiques "
+"(:term:`Showcases <Showcase>`) "
 "et les évènements open data."
 
 #: ../../source/content/kommunizieren/ogd/twitter.rst:27
