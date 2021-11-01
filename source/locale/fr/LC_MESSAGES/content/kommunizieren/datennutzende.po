@@ -20,20 +20,20 @@ msgstr ""
 
 #: ../../source/content/kommunizieren/datennutzende.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/datennutzende.rst:4
 msgid ":doc:`Kommunizieren <kommunizieren>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Communiquer <kommunizieren>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/datennutzende.rst:5
 #: ../../source/content/kommunizieren/datennutzende.rst:9
 msgid "Mit den Datennutzenden"
-msgstr ""
+msgstr "Avec les utilisateurs de données"
 
 #: ../../source/content/kommunizieren/datennutzende.rst:12
 msgid "Worin besteht der Mehrwert?"
-msgstr ""
+msgstr "Pourquoi communiquer avec les utilisateurs de données?"
 
 #: ../../source/content/kommunizieren/datennutzende.rst:14
 msgid ""
@@ -43,10 +43,17 @@ msgid ""
 "Daten zu veröffentlichen. Bessere Daten steigern letztlich die "
 "Wiederverwendbarkeit und den Mehrwert der Daten."
 msgstr ""
+"Le dialogue entre :term:`fournisseurs "
+"et utilisateurs de données <Datenpublizierende / Datenanbietende>` "
+"permet d’améliorer les données, ainsi que de "
+"publier des données coordonnées et adaptées à la demande. "
+"Au final, l’amélioration des données permet une "
+"meilleure réutilisation de ces dernières et de ce "
+"fait une plus grande création de valeur. "
 
 #: ../../source/content/kommunizieren/datennutzende.rst:20
 msgid "Wer nutzt die Daten?"
-msgstr ""
+msgstr "Qui sont les utilisateurs de données? "
 
 #: ../../source/content/kommunizieren/datennutzende.rst:21
 msgid ""
@@ -54,16 +61,20 @@ msgid ""
 "Entwicklern von Apps und Datenvisualisierungen, Forschenden sowie aus "
 "verwaltungsinternen Nutzerinnen und Nutzern."
 msgstr ""
+"L’écosystème des utilisateurs de données est constitué de journalistes "
+"des données, de développeurs d’applications, de développeurs de "
+"visualisations, de chercheurs, mais également "
+"d’utilisateurs interne à l’administration."
 
 #: ../../source/content/kommunizieren/datennutzende.rst:25
 msgid "Welche Kommunikationswege gibt es?"
-msgstr ""
+msgstr "Comment communiquer avec les utilisateurs de données?"
 
 #: ../../source/content/kommunizieren/datennutzende.rst:27
 msgid ":doc:`Onlinekommunikation <datennutzende/online>`"
-msgstr ""
+msgstr ":doc:`Communication en ligne <datennutzende/online>`"
 
 #: ../../source/content/kommunizieren/datennutzende.rst:28
 msgid ":doc:`Eventkommunikation <datennutzende/event>`"
-msgstr ""
+msgstr ":doc:`Communication évènementielle <datennutzende/event>`"
 
