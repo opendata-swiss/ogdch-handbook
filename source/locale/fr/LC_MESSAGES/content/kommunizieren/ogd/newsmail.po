@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":fa:`home` :doc:`Manuel <../../../index>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:4
 msgid ":doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Communiquer <../kommunizieren>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:5
 msgid ":doc:`Über unsere Kanäle <../ogd>` :fa:`chevron-right`"
-msgstr ""
+msgstr ":doc:`Via nos canaux <../ogd>` :fa:`chevron-right`"
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:6
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:10
@@ -48,12 +48,24 @@ msgid ""
 "Open-Data-Anlässe und -Schulungen. Datenanbietende und Datennutzende sind"
 " eingeladen, selbst Beiträge für diese NewsMail zu verfassen."
 msgstr ""
+"Le secrétariat OGD publie 3 à 4 fois par an une "
+"`NewsMail Open Government "
+"Data <https://www.bfs.admin.ch/bfs/fr/home/services/ogd/newsmail.html>__ "
+"ayant pour objectif d’informer les fournisseurs et "
+"utilisateurs de données abonnées concernant les "
+"nouveautés de la communauté open data: implémentation de la stratégie OGD, "
+"nouveaux jeux de données en libre accès, exemples "
+"d’utilisations intéressants (:term:`Showcases <Showcase>`, "
+"évènements et formations open data, "
+"etc. Les fournisseurs et utilisateurs de données "
+"sont invités à proposer leurs contributions pour cette NewsMail."
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:25
 msgid ""
 "Sie möchten Ihre Neuigkeiten über das «Open Government Data»-NewsMail "
 "teilen?"
-msgstr ""
+msgstr "Vous souhaitez pouvoir partager vos informations via la "
+"NewsMail Open Government Data?"
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:27
 msgid ""
@@ -62,26 +74,29 @@ msgid ""
 "Veröffentlichung einer neuen Ausgabe an, damit Sie Ihre Beiträge "
 "einreichen können."
 msgstr ""
+"`Contactez-nous <mailto:opendata@bfs.admin.ch>`__. Nous vous ajouterons "
+"à notre liste de contact, afin de vous contacter avant "
+"la parution de chaque NewsMail pour vous demander vos contributions. "
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:32
 msgid "Vorgaben für Ihre Beiträge"
-msgstr ""
+msgstr "Consignes pour la rédaction"
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:35
 msgid "Titel: max. 60 Zeichen (inkl. Leerschläge)"
-msgstr ""
+msgstr "Titre: max. 60 caractères (y compris les espaces)"
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:37
 msgid "Text: max. 350 Zeichen"
-msgstr ""
+msgstr "Texte: max. 350 caractères"
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:39
 msgid "Link zu weiterführenden Informationen"
-msgstr ""
+msgstr "Lien vers des informations plus détaillées"
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:41
 msgid "Wenn möglich mit Bild"
-msgstr ""
+msgstr "Image: si disponible"
 
 #: ../../source/content/kommunizieren/ogd/newsmail.rst:46
 msgid ":doc:`Showcases <showcases>`"
