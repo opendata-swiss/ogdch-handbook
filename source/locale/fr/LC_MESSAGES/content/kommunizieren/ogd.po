@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/content/kommunizieren/ogd.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ":fa:`home` :doc:`Manuel <../../index>` :fa:`chevron-right`"
+
+#: ../../source/content/kommunizieren/ogd.rst:4
+msgid ":doc:`Kommunizieren <kommunizieren>` :fa:`chevron-right`"
+msgstr ":doc:`Communiquer <kommunizieren>` :fa:`chevron-right`"
+
+#: ../../source/content/kommunizieren/ogd.rst:5
+#: ../../source/content/kommunizieren/ogd.rst:9
+msgid "Über unsere Kanäle"
+msgstr "Via nos canaux"
+
+#: ../../source/content/kommunizieren/ogd.rst:12
+msgid ""
+"Welche Aufgaben verfolgt die Geschäftsstelle OGD bei ihrer "
+"Kommunikationsarbeit und an welche Zielgruppen richtet sie sich?"
+msgstr ""
+"Quelle sont la mission et les cibles de communication du secrétariat OGD?"
+
+#: ../../source/content/kommunizieren/ogd.rst:13
+msgid ""
+"Die :term:`Geschäftsstelle OGD <Geschäftsstelle Open Government Data "
+"(OGD)>` des Bundesamtes für Statistik (BFS) begleitet die Umsetzung der "
+"vom Bundesrat Ende 2018 verabschiedeten `«Open Government Data»-Strategie"
+" (OGD-Strategie) 2019–2023 "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/strategie.html>`__,"
+" die drei Hauptziele verfolgt:"
+msgstr ""
+"Le :term:`secrétariat Open Government Data  <Geschäftsstelle Open Government Data (OGD)>`"
+", rattaché à l’Office fédéral de la statistique (OFS), accompagne la mise "
+"en place de la `stratégie Open Government "
+"Data 2019-2023 <https://www.bfs.admin.ch/bfs/fr/home/services/ogd/strategie.html>`__, "
+"approuvée par le Conseil fédéral fin 2018. Trois objectifs principaux "
+"ressortent de la stratégie Open Government Data 2019-2023 :"
+
+msgid "Ziele der Kommunikation von Open Government Data"
+msgstr "Communiquer via les canaux du secrétariat OGD"
+
+#: ../../source/content/kommunizieren/ogd.rst:22
+msgid ""
+"Demnach richtet sich die Geschäftsstelle OGD im Wesentlichen an zwei "
+"Zielgruppen: einerseits an die :term:`Datenanbietenden "
+"<Datenpublizierende / Datenanbietende>`, andererseits an die "
+":term:`Datennutzenden <Datennutzende>`. Da die OGD-Strategie 2019–2023 "
+"für die Bundesverwaltung verbindlich ist, betreffen die "
+"Kommunikationsmassnahmen prioritär die Datenanbietenden in den "
+"Bundesstellen. Kantone, Gemeinden, Städte und staatsnahe Betriebe werden "
+"in einem zweiten Schritt angegangen. Das Ökosystem der Datennutzenden "
+"besteht aus Datenjournalistinnen, Entwicklern von Apps und "
+"Datenvisualisierungen, Forschenden sowie aus verwaltungsinternen "
+"Nutzerinnen und Nutzern."
+msgstr ""
+"Le secrétariat OGD se focalise ainsi sur deux cibles principales: "
+"les :term:`fournisseurs et les utilisateurs de "
+"données <Datenpublizierende / Datenanbietende>`. "
+"Les mesures de communication ciblent en priorité les fournisseurs de données de "
+"l’administration fédérale, étant donné que la stratégie OGD 2019-2023 "
+"est obligatoire pour cette dernière. Les fournisseurs de données des cantons, "
+"communes, villes et entreprises parapubliques sont ciblées dans un "
+"deuxième temps. L’écosystème des utilisateurs de données est "
+"constitué de journalistes de données, de développeurs d’applications, "
+"de développeurs de visualisations, de chercheurs, "
+"mais également d’utilisateurs interne à l’administration."
+
+#: ../../source/content/kommunizieren/ogd.rst:33
+msgid "Wozu dient der Austausch?"
+msgstr ""
+"Pourquoi communiquer ensemble?"
+
+#: ../../source/content/kommunizieren/ogd.rst:35
+msgid ""
+"Die noch relativ junge Open-Data-Gemeinschaft (Datenanbietende und "
+"Datennutzende) soll und muss wachsen, und zwar mit vereinten Kräften. Es "
+"braucht eine solide Grundlage, damit Informationen ausgetauscht werden "
+"und gemeinsames Lernen möglich ist. Daher sind Datenanbietende wie "
+"Datennutzende gleichermassen aufgefordert, ihre Kommunikationsmassnahmen "
+"mit der Geschäftsstelle OGD zu koordinieren."
+msgstr ""
+"La communauté open data (fournisseurs et utilisateurs) étant encore relativement jeune, il est essentiel de la faire grandir ensemble. Pour cela, il faut créer une base solide d’échange d’information et d’apprentissage en commun. C’est pourquoi, les fournisseurs et utilisateurs de données sont invités à coordonner leurs mesures de communication avec le secrétariat OGD. "
+
+#: ../../source/content/kommunizieren/ogd.rst:42
+msgid ""
+"Die Geschäftsstelle OGD unterhält mehrere Kommunikationskanäle mit einer "
+"Vielzahl an aktiven Abonnenten. Neuigkeiten aus der Gemeinschaft teilt "
+"sie regelmässig über diese Kanäle. Dieses Angebot verleiht den relevanten"
+" Themen mehr Sichtbarkeit und stärkt die Open-Data-Gemeinschaft."
+msgstr ""
+"Le secrétariat OGD dispose de plusieurs canaux de communication et d’un nombre considérable d’abonnés actifs sur ces derniers. Le secrétariat OGD partage régulièrement les nouvelles de la communauté via ses canaux. Cela offre notamment une plus grande visibilité des thèmes et permet de bâtir ensemble la communauté open data. "
+
+#: ../../source/content/kommunizieren/ogd.rst:48
+msgid "Welche Kommunikationskanäle nutzt die Geschäftsstelle OGD?"
+msgstr "Quelle sont la mission et les cibles de communication du secrétariat OGD? "
+
+#: ../../source/content/kommunizieren/ogd.rst:50
+msgid ":doc:`Twitter <ogd/twitter>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:51
+msgid ":doc:`NewsMail <ogd/newsmail>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:52
+msgid ":doc:`Showcases <ogd/showcases>`"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd.rst:54
+msgid ""
+"Für andere Kommunikationsmassnahmen wie Medienmitteilungen, Schulungen "
+"oder Events wenden Sie sich bitte an die `Geschäftsstelle OGD "
+"<mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+"Pour toute autre mesure de communication (par ex: communiqué de presse, "
+"formation, évènement ou autre), vous pouvez "
+"`contacter le secrétariat OGD <mailto:opendata@bfs.admin.ch>`__."
+

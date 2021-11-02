@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, bfs.admin.ch
+# This file is distributed under the same license as the Handbuch
+# Opendata.swiss package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handbuch Opendata.swiss \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:3
+msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
+msgstr ":fa:`home` :doc:`Manuel <../../../index>` :fa:`chevron-right`"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:4
+msgid ":doc:`Kommunizieren <../kommunizieren>` :fa:`chevron-right`"
+msgstr ":doc:`Communiquer <../kommunizieren>` :fa:`chevron-right`"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:5
+msgid ":doc:`Über unsere Kanäle <../ogd>` :fa:`chevron-right`"
+msgstr ":doc:`Via nos canaux <../ogd>` :fa:`chevron-right`"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:6
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:10
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:13
+msgid "NewsMail"
+msgstr ""
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:15
+msgid ""
+"Die Geschäftsstelle OGD publiziert drei- bis viermal jährlich ein `«Open "
+"Government Data»-NewsMail "
+"<https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/newsmail.html>`__,"
+" mit dem sie abonnierte Datenanbietende und Datennutzende über "
+"Neuigkeiten aus der Open-Data-Gemeinschaft informiert. Mögliche Themen "
+"sind etwa die Umsetzung der OGD-Strategie, neue frei zugängliche "
+"Datensätze, interessante :term:`Anwendungsbeispiele <Showcase>` sowie "
+"Open-Data-Anlässe und -Schulungen. Datenanbietende und Datennutzende sind"
+" eingeladen, selbst Beiträge für diese NewsMail zu verfassen."
+msgstr ""
+"Le secrétariat OGD publie 3 à 4 fois par an une "
+"`NewsMail Open Government "
+"Data <https://www.bfs.admin.ch/bfs/fr/home/services/ogd/newsmail.html>`__ "
+"ayant pour objectif d’informer les fournisseurs et "
+"utilisateurs de données abonnés concernant les "
+"nouveautés de la communauté open data: implémentation de la stratégie OGD, "
+"nouveaux jeux de données en libre accès, exemples "
+"d’utilisations intéressants (:term:`Showcases <Showcase>`), "
+"évènements et formations open data, "
+"etc. Les fournisseurs et utilisateurs de données "
+"sont invités à proposer leurs contributions pour cette NewsMail."
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:25
+msgid ""
+"Sie möchten Ihre Neuigkeiten über das «Open Government Data»-NewsMail "
+"teilen?"
+msgstr "Vous souhaitez pouvoir partager vos informations via la "
+"NewsMail Open Government Data?"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:27
+msgid ""
+"`Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__. Wir nehmen Sie "
+"gerne in unsere Kontaktliste auf und schreiben Sie vor der "
+"Veröffentlichung einer neuen Ausgabe an, damit Sie Ihre Beiträge "
+"einreichen können."
+msgstr ""
+"`Contactez-nous <mailto:opendata@bfs.admin.ch>`__. Nous vous ajouterons "
+"à notre liste de contact, afin de vous contacter avant "
+"la parution de chaque NewsMail pour vous demander vos contributions. "
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:32
+msgid "Vorgaben für Ihre Beiträge"
+msgstr "Consignes pour la rédaction"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:35
+msgid "Titel: max. 60 Zeichen (inkl. Leerschläge)"
+msgstr "Titre: max. 60 caractères (y compris les espaces)"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:37
+msgid "Text: max. 350 Zeichen"
+msgstr "Texte: max. 350 caractères"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:39
+msgid "Link zu weiterführenden Informationen"
+msgstr "Lien vers des informations plus détaillées"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:41
+msgid "Wenn möglich mit Bild"
+msgstr "Image: si disponible"
+
+#: ../../source/content/kommunizieren/ogd/newsmail.rst:46
+msgid ":doc:`Showcases <showcases>`"
+msgstr ""
+
