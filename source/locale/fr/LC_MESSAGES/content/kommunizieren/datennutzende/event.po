@@ -116,7 +116,7 @@ msgstr "L’évènement permet la réutilisation des données de "
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:48
 msgid "`Hackathon Versus Virus <https://www.versusvirus.ch/>`__"
-msgstr "`Hackathon Versus Virus <https://www.versusvirus.ch/>`__"
+msgstr "`Hackathon Versus Virus <https://www.fr.versusvirus.ch/>`__"
 
 #: ../../source/content/kommunizieren/datennutzende/event.rst:49
 msgid ""
