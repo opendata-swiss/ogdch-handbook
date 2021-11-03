@@ -27,7 +27,7 @@ Wie lade ich meine Metadaten mittels Harvester hoch?
 Die Schritte auf einen Blick
 -----------------------------
 
-- :ref:`Harvester einrichten <harvesting-katalog-endpunkt>`
+- :ref:`Harvester einrichten <harvesting-einrichten>`
 - :ref:`Katalog-Endpunkt übergeben <harvesting-katalog-endpunkt>`
 - :ref:`Katalog-Endpunkt mit Paginierung übergeben <harvesting-paginierung>`
 - :ref:`Harvester testen <harvesting-testen>`

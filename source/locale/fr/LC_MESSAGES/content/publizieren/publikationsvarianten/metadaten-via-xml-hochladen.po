@@ -147,6 +147,8 @@ msgid ""
 "In der Upload-Maske können Sie einen Datenkatalog als XML-Datei von Ihrem"
 " PC auswählen und hochladen."
 msgstr ""
+"Dans le masque de téléchargement, vous pouvez sélectionner et télécharger un catalogue "
+"de données sous forme de fichier XML depuis votre PC."
 
 #, fuzzy
 msgid "XML Katalog importieren: Upload starten"
@@ -237,7 +239,7 @@ msgid ""
 "Um Ihr Dataset zu veröffentlichen müssen Sie in den Bearbeitungsmodus "
 "wechseln. Klicken Sie dazu auf den Button «Bearbeiten»."
 msgstr "Pour publier votre jeu de données, veuillez passer en mode traitement. "
-Pour ce faire, cliquez sur «Éditer»."
+"Pour ce faire, cliquez sur «Éditer»."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:134
 msgid "Sie gelangen in das Webformular Ihres Datasets:"
