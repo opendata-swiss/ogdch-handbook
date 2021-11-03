@@ -257,10 +257,10 @@ msgid ""
 msgstr "Ce champ sert à :ref:`publier votre jeu de données<manuell-datensatz-veroeffentlichen>`. "
 "Ouvrez le menu déroulant pour sélectionner la visibilité de votre "
 "jeu de données dans le frontal. "
-"Par défaut, le paramètre de la visibilité est sur «projet». Dans "
+"Par défaut, le paramètre de la visibilité est sur «brouillon». Dans "
 "un premier temps, ne le modifiez pas. Cela signifie que votre jeu de "
 "données n’est pas encore visible par le public. Dès que vous voulez le ""
-"rendre visible dans le frontal, ouvrez le menu déroulant et sélectionnez «public»."
+"rendre visible dans le frontal, ouvrez le menu déroulant et sélectionnez «publié»."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:130
 msgid "Dataset-Informationen"
@@ -303,7 +303,7 @@ msgid ""
 "Zeitraum, den das Dataset umfasst («Zeitliche Abdeckung»), angeben."
 msgstr ""
 "Il s’agit ici de compléter le champ obligatoire «date de publication», qui "
-"définit la date de la première publication du jeu de données en question dans le"
+"définit la date de la première publication du jeu de données en question dans le "
 "système source. Si vous ne connaissez pas cette date, saisissez "
 "celle de la première publication prévue sur opendata.swiss. Une fois la "
 "publication effectuée, vous pouvez indiquer sous «Date de la dernière modification»"
@@ -604,7 +604,7 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:347
 msgid "Dataset im Frontend prüfen"
-msgstr "Vérification du jeu de données dans le frontal"
+msgstr "Contrôle du jeu de données dans le frontal"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:349
 msgid ""
@@ -614,7 +614,7 @@ msgid ""
 "der Datenansicht Ihres Datasets im Frontend, indem Sie ``ckan`` aus der "
 "URL Ihres Datasets entfernen:"
 msgstr "Dès que votre jeu de données est publié, il apparaît aussi dans "
-"le frontal de l’environnement de test. (sachant que la mise à jour des "
+"le frontal de l’environnement de test (sachant que la mise à jour des "
 "données peut prendre une soixantaine de minutes). Pour afficher l’aperçu "
 "des données de votre jeu dans le frontal, il vous suffit de supprimer ``ckan`` "
 "dans l’URL de votre jeu de données."
@@ -629,7 +629,7 @@ msgstr "Veuillez vérifier vos données."
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:374
 msgid "Beispielansicht einer publizierten Ressource"
-msgstr "«Exemple d’un jeu de données publié»"
+msgstr "«Exemple d’une ressource publiée»"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:379
 msgid "Veröffentlichung in der Produktionsumgebung"
@@ -671,8 +671,8 @@ msgid ""
 ":doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` "
 "– Beschreibung des aktuell von opendata.swiss genutzten Datenstandards "
 "DCAT-AP-CH"
-msgstr "":doc:`DCAT-AP-CH (Link, englisch) <../../glossar/bibliothek/dcat-ap-ch>` - "
-"Description de la norme de données DCAT-AP-CH (lien, en anglais) utilisée par opendata.swiss"
+msgstr "":doc:`DCAT-AP-CH (lien, en anglais) <../../glossar/bibliothek/dcat-ap-ch>` - "
+"Description de la norme de données DCAT-AP-CH utilisée par opendata.swiss"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:402
 msgid ""

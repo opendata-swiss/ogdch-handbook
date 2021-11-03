@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:62
 msgid "Benutzerkontenverwaltung"
-msgstr "Gérer les comptes d’utilisateur"
+msgstr "Gestion des comptes utilisateurs"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:64
 msgid ""
