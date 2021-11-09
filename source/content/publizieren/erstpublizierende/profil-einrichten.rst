@@ -54,7 +54,7 @@ Sie können zu Ihrer Organisation wechseln,
 indem Sie auf den Tab «Meine Organisationen» klicken.
 
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-dashboard.png
-   :alt: Benutzer Dashboard im Backend von opendat.swiss
+   :alt: Benutzer Dashboard im Backend von opendata.swiss
 
 .. _benutzerkonten_verwaltung:
 
@@ -86,7 +86,7 @@ Benutzer-Navigation
 Als Benutzer steht Ihnen ganz oben rechts eine Navigationsleiste zur Verfügung:
 
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-navigation.png
-   :alt: Benutzer Dashboard im Backend von opendat.swiss
+   :alt: Benutzer Dashboard im Backend von opendata.swiss
 
 - Das Dashboard-Icon führt Sie zu Ihrem Benutzer-Dashboard.
 - Wenn Sie auf Ihren Benutzernamen klicken, gelangen Sie zur
