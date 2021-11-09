@@ -64,7 +64,7 @@ Benutzerkontenverwaltung
 Zu Ihrem Benutzerkonto gelangen Sie, wenn Sie im Dashboard auf «Bearbeitete Einstellungen» klicken.
 
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-profil.png
-   :alt: Benutzer Dashboard im Backend von opendata.swiss
+   :alt: Webformular für das Benutzerprofil
 
 Den «Benutzernamen» haben Sie bereits bei Ihrer Registrierung erhalten. Dieser
 dient zu Ihrer eindeutigen Identifikation auf der Plattform und kann nicht geändert werden.
@@ -86,7 +86,7 @@ Benutzer-Navigation
 Als Benutzer steht Ihnen ganz oben rechts eine Navigationsleiste zur Verfügung:
 
 .. figure:: ../../../_static/images/publizieren/benutzer/benutzer-navigation.png
-   :alt: Benutzer Dashboard im Backend von opendata.swiss
+   :alt: Benutzer Navigationsleiste im Backend von opendata.swiss
 
 - Das Dashboard-Icon führt Sie zu Ihrem Benutzer-Dashboard.
 - Wenn Sie auf Ihren Benutzernamen klicken, gelangen Sie zur

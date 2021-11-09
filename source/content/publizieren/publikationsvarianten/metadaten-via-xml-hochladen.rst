@@ -139,7 +139,7 @@ Sie gelangen in das Webformular Ihres Datasets:
 Scrollen Sie zu dem Feld «Sichtbarkeit»: Es ist auf «Entwurf eingestellt»
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-veroeffentlichen.png
-   :alt: Felder zum Veröffentlichen des Datasets im Webformular
+   :alt: Eingabefeld «Sichtbarkeit» im Webformular
 
 Sie können Ihr Dataset sofort veröffentlichen, indem Sie den Status auf "Veröffentlicht"
 ändern. Oder Sie können eine zukünftige Veröffentlichung planen, indem Sie im darunterliegenden Feld
@@ -165,7 +165,7 @@ indem Sie in die Detailansicht Ihres Datasets gehen und ``ckan`` aus der URL Ihr
    :alt: CKAN URL eines Datasets
 
 .. figure:: ../../../_static/images/publizieren/dataset/frontend-url.png
-   :alt: Frontend URL eines Datasets
+   :alt: Frontend URL eines publizierten Datasets
 
 Bitte prüfen Sie Ihre Daten auch hier nochmal:
 
