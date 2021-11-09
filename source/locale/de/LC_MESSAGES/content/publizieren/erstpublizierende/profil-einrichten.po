@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:53+0200\n"
+"POT-Creation-Date: 2021-11-09 17:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,7 +96,7 @@ msgid ""
 "Organisationen» klicken."
 msgstr ""
 
-msgid "Benutzer Dashboard im Backend von opendat.swiss"
+msgid "Benutzer Dashboard im Backend von opendata.swiss"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:62
@@ -109,7 +109,7 @@ msgid ""
 "«Bearbeitete Einstellungen» klicken."
 msgstr ""
 
-msgid "Benutzer Dashboard im Backend von opendata.swiss"
+msgid "Webformular für das Benutzerprofil"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:69
@@ -137,6 +137,9 @@ msgstr ""
 msgid ""
 "Als Benutzer steht Ihnen ganz oben rechts eine Navigationsleiste zur "
 "Verfügung:"
+msgstr ""
+
+msgid "Benutzer Navigationsleiste im Backend von opendata.swiss"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:91
@@ -186,4 +189,7 @@ msgid ""
 "Ihr Profil ist nun angelegt und ausgefüllt, jetzt können Sie "
 "Informationen zu Ihrer Organisation eingeben."
 msgstr ""
+
+#~ msgid "Benutzer Dashboard im Backend von opendat.swiss"
+#~ msgstr ""
 

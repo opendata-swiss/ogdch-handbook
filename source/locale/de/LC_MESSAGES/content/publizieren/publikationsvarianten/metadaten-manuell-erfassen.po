@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:53+0200\n"
+"POT-Creation-Date: 2021-11-09 17:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,7 +173,7 @@ msgstr ""
 msgid "Organisation und Identifier"
 msgstr ""
 
-msgid "Eingabefeld Identifier im Webformular"
+msgid "Eingabefeld «Identifier» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:102
@@ -204,7 +204,7 @@ msgstr ""
 msgid "Sichtbarkeit"
 msgstr ""
 
-msgid "Eingabefeld Sichtbarkeit im Webformular"
+msgid "Eingabefeld «Sichtbarkeit» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:122
@@ -222,7 +222,7 @@ msgstr ""
 msgid "Dataset-Informationen"
 msgstr ""
 
-msgid "Eingabefeld Beschreibung im Webformular"
+msgid "Eingabefeld «Beschreibung» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:135
@@ -239,7 +239,7 @@ msgstr ""
 msgid "Daten"
 msgstr ""
 
-msgid "Eingabefeld zur Aktualisierung im Webformular"
+msgid "Eingabefeld zur «Aktualisierung» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:147
@@ -259,7 +259,7 @@ msgstr ""
 msgid "Publisher-Informationen"
 msgstr ""
 
-msgid "Eingabefeld Publisher im Webformular"
+msgid "Eingabefeld «Publisher» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:163
@@ -276,7 +276,7 @@ msgstr ""
 msgid "Sprachen"
 msgstr ""
 
-msgid "Eingabefeld Sprachen im Webformular"
+msgid "Eingabefeld «Sprachen» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:177
@@ -290,7 +290,7 @@ msgstr ""
 msgid "Weitere Informationen"
 msgstr ""
 
-msgid "Eingabefeld Weitere Inforamtionen im Webformular"
+msgid "Eingabefeld «Weitere Informationen» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:186
@@ -307,7 +307,7 @@ msgstr ""
 msgid "Verwandte Datasets"
 msgstr ""
 
-msgid "Eingabefeld Kategorien im Webformular"
+msgid "Eingabefeld von «verwandten Datasets» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:200
@@ -322,7 +322,7 @@ msgstr ""
 msgid "Schlagwörter definieren"
 msgstr ""
 
-msgid "Eingabefeld von Schlagworten im Webformular"
+msgid "Eingabefeld von «Schlagworten» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:211
@@ -337,6 +337,9 @@ msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:218
 msgid "Kategorien auswählen"
+msgstr ""
+
+msgid "Eingabefeld von «Kategorien» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:224
@@ -381,6 +384,9 @@ msgstr ""
 msgid "Wichtig: Jedes Dataset muss mindestens 1 Ressource haben."
 msgstr ""
 
+msgid "Eingabefelder für Ressourcen im Webformular"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:269
 msgid ""
 "Für jede Ressource müssen Sie unter «Zugangs-URL» eine URL angeben, über "
@@ -412,7 +418,7 @@ msgid ""
 " von Ressourcen fortfahren."
 msgstr ""
 
-msgid "Mögliche Aktionen nach der Anlage der ersten Resource im Webformular"
+msgid "Mögliche Aktionen nach der Anlage der ersten Ressource im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:296
@@ -432,7 +438,7 @@ msgid ""
 "«Ressourcen»:"
 msgstr ""
 
-msgid "Mögliche Aktionen nach der Anlage des Dataset"
+msgid "Mögliche Aktionen nach der Anlage des Datasets"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:309
@@ -475,7 +481,7 @@ msgid ""
 "Zukunft festlegen."
 msgstr ""
 
-msgid "Dataset in veroeffentlichen"
+msgid "Dataset im Frontend veroeffentlichen"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:342
@@ -497,12 +503,18 @@ msgid ""
 "URL Ihres Datasets entfernen:"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:367
-msgid "Beispielansicht eines publizierten Datasets"
+msgid "CKAN URL eines Datasets"
+msgstr ""
+
+msgid "Frontend URL eines publizierten Datasets"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:360
 msgid "Bitte prüfen Sie hier Ihre Daten nochmals:"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:367
+msgid "Beispielansicht eines publizierten Datasets"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:374
@@ -572,4 +584,40 @@ msgid ""
 "resource.gif>`- In diesem Screencast zeigen wir Ihnen, wie Sie bei Ihrem "
 "Dataset eine Ressource aktualisieren können"
 msgstr ""
+
+#~ msgid "Eingabefeld Identifier im Webformular"
+#~ msgstr ""
+
+#~ msgid "Eingabefeld Sichtbarkeit im Webformular"
+#~ msgstr ""
+
+#~ msgid "Eingabefeld Beschreibung im Webformular"
+#~ msgstr ""
+
+#~ msgid "Eingabefeld zur Aktualisierung im Webformular"
+#~ msgstr ""
+
+#~ msgid "Eingabefeld Publisher im Webformular"
+#~ msgstr ""
+
+#~ msgid "Eingabefeld Sprachen im Webformular"
+#~ msgstr ""
+
+#~ msgid "Eingabefeld Weitere Inforamtionen im Webformular"
+#~ msgstr ""
+
+#~ msgid "Eingabefeld Kategorien im Webformular"
+#~ msgstr ""
+
+#~ msgid "Eingabefeld von Schlagworten im Webformular"
+#~ msgstr ""
+
+#~ msgid "Mögliche Aktionen nach der Anlage der ersten Resource im Webformular"
+#~ msgstr ""
+
+#~ msgid "Mögliche Aktionen nach der Anlage des Dataset"
+#~ msgstr ""
+
+#~ msgid "Dataset in veroeffentlichen"
+#~ msgstr ""
 

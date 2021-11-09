@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-03 22:55+0100\n"
+"POT-Creation-Date: 2021-11-09 17:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -267,8 +267,9 @@ msgstr ""
 "l’ensemble des moissonneurs. Saisissez le nom de votre moissonneur "
 "(fourni par nous) dans le champ de recherche."
 
-msgid "Organisation im Frontend von opendata.swiss"
-msgstr ""
+#, fuzzy
+msgid "Harvester Suche im Backend von opendata.swiss"
+msgstr "«Exemple d’un jeu de données publié»."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:139
 msgid ""
@@ -277,6 +278,10 @@ msgid ""
 msgstr ""
 "Une fois que vous avez trouvé votre moissonneur, cliquez sur le lien pour"
 " afficher sa vue détaillée."
+
+#, fuzzy
+msgid "Harvester verwalten"
+msgstr "Gestion du moissonneur"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:145
 msgid ""
@@ -296,6 +301,9 @@ msgid ""
 msgstr ""
 "Cliquez sur «Administrateur» pour gérer votre moissonneur, un tableau de "
 "bord s’affiche."
+
+msgid "Dashboard für Management eines Harvesters"
+msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:154
 msgid "Hier wird Ihnen jeweils der aktuellste Harvest Job angezeigt."
@@ -339,8 +347,8 @@ msgid ""
 "des Harvester. Machen Sie das nur, wenn das wirklich Ihre Absicht ist."
 msgstr ""
 "Attention: le bouton «Clear» efface tous les jeux de données et tous les "
-"travaux effectués par le moissonneur. Attention, ne faites cela que si vous "
-"voulez vraiment les supprimer définitivement."
+"travaux effectués par le moissonneur. Attention, ne faites cela que si "
+"vous voulez vraiment les supprimer définitivement."
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:172
 msgid ""
@@ -370,9 +378,15 @@ msgstr ""
 " des erreurs. Cliquez ensuite sur l’onglet «Jobs» pour afficher la liste "
 "des tâches."
 
+msgid "Übersicht Harvester-Jobs"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:188
 msgid "Hier können Sie die Harvesting Fehler im Detail ansehen:"
 msgstr "Vous y verrez les erreurs de moissonnage en détail."
+
+msgid "Detailreport Harvester-Job"
+msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:193
 msgid ""
@@ -444,6 +458,9 @@ msgid ""
 msgstr ""
 "Important: nous avons d’ores et déjà configuré votre moissonneur. Sauf "
 "cas exceptionnel, il n’est pas nécessaire de modifier les paramètres."
+
+msgid "Harvester-Konfiguration im Webformular"
+msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:225
 msgid ""
@@ -524,6 +541,9 @@ msgstr ""
 "Une fois que votre moissonneur n’émet plus de messages d’erreur, veuillez"
 " contrôler vos jeux de données dans la vue détaillée du moissonneur."
 
+msgid "Datasets eines Harvesters"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:264
 msgid "Kontrollieren Sie bitte auch die Frontendansicht Ihrer Datasets:"
 msgstr "Veuillez également contrôler vos jeux de données dans le frontal."
@@ -537,10 +557,13 @@ msgstr ""
 "suffit de supprimer ``ckan`` dans l’URL de votre organisation dans l"
 "’arrière-plan."
 
-msgid "ckan url einer Organisation"
+msgid "CKAN URL einer Organisation"
 msgstr ""
 
-msgid "Frontend url einer Organisation"
+msgid "Frontend URL einer Organisation"
+msgstr ""
+
+msgid "Organisation im Frontend von opendata.swiss"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:280
@@ -591,8 +614,8 @@ msgid ""
 "– Beschreibung des aktuell von opendata.swiss genutzten Datenstandards "
 "DCAT-AP-CH"
 msgstr ""
-":doc:`DCAT-AP-CH (lien, en anglais) <../../glossar/bibliothek/dcat-ap-ch>` - Description de "
-"la norme de données DCAT-AP-CH utilisée par "
+":doc:`DCAT-AP-CH (lien, en anglais) <../../glossar/bibliothek/dcat-ap-"
+"ch>` - Description de la norme de données DCAT-AP-CH utilisée par "
 "opendata.swiss"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:312
@@ -617,4 +640,10 @@ msgstr ""
 
 #~ msgid ":ref:`Harvester einrichten <harvesting-katalog-endpunkt>`"
 #~ msgstr ":ref:`Paramétrage du moissonneur <harvesting-katalog-endpunkt>`"
+
+#~ msgid "ckan url einer Organisation"
+#~ msgstr ""
+
+#~ msgid "Frontend url einer Organisation"
+#~ msgstr ""
 
