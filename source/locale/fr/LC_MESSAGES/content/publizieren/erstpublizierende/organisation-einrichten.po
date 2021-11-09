@@ -86,14 +86,14 @@ msgstr ""
 "des informations sur votre organisation."
 
 msgid "Bearbeiten der Organisation im Backend von opendata.swiss"
-msgstr ""
+msgstr "Traitement de l’organisation dans l’arrière-plan opendata.swiss"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:43
 msgid "Klicken Sie darauf, um das Webformular für Ihre Organisation zu öffnen:"
 msgstr "Cliquez sur ce bouton pour ouvrir le formulaire web de votre organisation:"
 
 msgid "Organisationstitel und Slug"
-msgstr ""
+msgstr "Titre et slug de l’organisation"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:48
 msgid ""
@@ -132,7 +132,7 @@ msgstr ""
 "modifier l’intitulé interne de l’organisation."
 
 msgid "Organisationsbeschreibung"
-msgstr ""
+msgstr "Description de l’organisation"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:67
 msgid ""
@@ -149,7 +149,7 @@ msgstr ""
 " la description dans une langue au moins."
 
 msgid "Organisation: URL und weitere Felder"
-msgstr ""
+msgstr "Organisation: URL et autres champs"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:77
 msgid ""
@@ -200,7 +200,7 @@ msgstr ""
 "«À propos»."
 
 msgid "Organisation im Backend ansehen"
-msgstr ""
+msgstr "Afficher l’organisation dans l’arrière-plan"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:103
 msgid ""
@@ -211,7 +211,7 @@ msgstr ""
 ":`arrière-plan <Backend>`."
 
 msgid "Organisation im Backend"
-msgstr ""
+msgstr "Organisation dans l’arrière-plan"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:108
 msgid ""
@@ -232,16 +232,14 @@ msgstr ""
 " il vous suffit de supprimer ``ckan`` dans l’URL d’arrière-plan de votre "
 "organisation."
 
-#, fuzzy
 msgid "CKAN URL einer Organisation"
-msgstr "Compléter les informations sur l’organisation"
+msgstr "URL CKAN d’une organisation"
 
-#, fuzzy
 msgid "Frontend URL einer Organisation"
-msgstr "Compléter les informations sur l’organisation"
+msgstr "URL frontal d’une organisation"
 
 msgid "Organisation im Frontend"
-msgstr ""
+msgstr "Organisation dans le frontal"
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:125
 msgid "Beispielansicht einer Organisation im Frontend von opendata.swiss"
@@ -264,10 +262,4 @@ msgstr ""
 "Une fois votre profil et votre organisation configurés, passez à l’étape "
 "suivante pour sélectionner la variante de publication appropriée pour vos"
 " jeux de données."
-
-#~ msgid "Organisation: Url und weitere Felder"
-#~ msgstr ""
-
-#~ msgid "ckan url einer Organisation"
-#~ msgstr ""
 
