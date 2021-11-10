@@ -72,7 +72,7 @@ Organisationen müssen Titel und Beschreibung
 in mindestens einer Sprache eingeben
 
 .. figure:: ../../../_static/images/publizieren/organisation/organisations-formular.png
-   :alt: Organisation: Url und weitere Felder
+   :alt: Organisation: URL und weitere Felder
 
 Geben Sie bitte die «politische Ebene» an, auf der Ihre Organisation angesiedelt ist.
 Falls es sich bei Ihrer Organisation um eine Unterorganisation einer bereits auf
@@ -112,10 +112,10 @@ Sie gelangen zur Datenansicht Ihrer Organisation im Frontend, indem Sie
 ``ckan`` aus der Backend-URL Ihrer Organisation entfernen:
 
 .. figure:: ../../../_static/images/publizieren/organisation/ckan-organisations-url.png
-   :alt: ckan url einer Organisation
+   :alt: CKAN URL einer Organisation
 
 .. figure:: ../../../_static/images/publizieren/organisation/frontend-organisations-url.png
-   :alt: Frontend url einer Organisation
+   :alt: Frontend URL einer Organisation
 
 .. figure:: ../../../_static/images/publizieren/organisation/organisation-frontend.png
    :alt: Organisation im Frontend

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:53+0200\n"
+"POT-Creation-Date: 2021-11-09 17:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgid "Die Schritte auf einen Blick"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:30
-msgid ":ref:`Harvester einrichten <harvesting-katalog-endpunkt>`"
+msgid ":ref:`Harvester einrichten <harvesting-einrichten>`"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:31
@@ -207,13 +207,16 @@ msgid ""
 " Sie von uns."
 msgstr ""
 
-msgid "Organisation im Frontend von opendata.swiss"
+msgid "Harvester Suche im Backend von opendata.swiss"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:139
 msgid ""
 "Wenn Sie Ihren Harvester gefunden haben: klicken Sie auf den Link, dann "
 "gelangen Sie zur Detailansicht des Harvesters:"
+msgstr ""
+
+msgid "Harvester verwalten"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:145
@@ -228,6 +231,9 @@ msgid ""
 "Klicken Sie auf den Button «Administrator» um Ihren Harvester zu "
 "verwalten. Sie gelangen dann zu einem Dashboard für das Management Ihres "
 "Harvesters."
+msgstr ""
+
+msgid "Dashboard für Management eines Harvesters"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:154
@@ -287,8 +293,14 @@ msgid ""
 "gelangen:"
 msgstr ""
 
+msgid "Übersicht Harvester-Jobs"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:188
 msgid "Hier können Sie die Harvesting Fehler im Detail ansehen:"
+msgstr ""
+
+msgid "Detailreport Harvester-Job"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:193
@@ -344,6 +356,9 @@ msgid ""
 "Wichtig: Wir haben Ihren Harvester bereits für Sie konfiguriert. Im "
 "Normalfall sollten die Einstellungen so bleiben, wie wir es für Sie "
 "eingerichtet haben."
+msgstr ""
+
+msgid "Harvester-Konfiguration im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:225
@@ -402,6 +417,9 @@ msgid ""
 "Datensätze in der Detailansicht des Harvesters:"
 msgstr ""
 
+msgid "Datasets eines Harvesters"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:264
 msgid "Kontrollieren Sie bitte auch die Frontendansicht Ihrer Datasets:"
 msgstr ""
@@ -412,10 +430,13 @@ msgid ""
 "``ckan`` aus der URL Ihrer Organisation im Backend entfernen:"
 msgstr ""
 
-msgid "ckan url einer Organisation"
+msgid "CKAN URL einer Organisation"
 msgstr ""
 
-msgid "Frontend url einer Organisation"
+msgid "Frontend URL einer Organisation"
+msgstr ""
+
+msgid "Organisation im Frontend von opendata.swiss"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:280
@@ -474,4 +495,13 @@ msgid ""
 "harvester.gif>` - In diesem Screencast zeigen wir Ihnen, wie Sie Ihren "
 "Harvester starten können"
 msgstr ""
+
+#~ msgid ":ref:`Harvester einrichten <harvesting-katalog-endpunkt>`"
+#~ msgstr ""
+
+#~ msgid "ckan url einer Organisation"
+#~ msgstr ""
+
+#~ msgid "Frontend url einer Organisation"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:53+0200\n"
+"POT-Creation-Date: 2021-11-09 17:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,7 +117,7 @@ msgid ""
 "in mindestens einer Sprache eingeben"
 msgstr ""
 
-msgid "Organisation: Url und weitere Felder"
+msgid "Organisation: URL und weitere Felder"
 msgstr ""
 
 #: ../../source/content/publizieren/erstpublizierende/organisation-einrichten.rst:77
@@ -181,10 +181,10 @@ msgid ""
 "``ckan`` aus der Backend-URL Ihrer Organisation entfernen:"
 msgstr ""
 
-msgid "ckan url einer Organisation"
+msgid "CKAN URL einer Organisation"
 msgstr ""
 
-msgid "Frontend url einer Organisation"
+msgid "Frontend URL einer Organisation"
 msgstr ""
 
 msgid "Organisation im Frontend"
@@ -206,4 +206,13 @@ msgid ""
 "Sie als nächsten Schritt eine Publikationsvariante für Ihre Datasets "
 "auswählen."
 msgstr ""
+
+#~ msgid "Organisation: Url und weitere Felder"
+#~ msgstr ""
+
+#~ msgid "ckan url einer Organisation"
+#~ msgstr ""
+
+#~ msgid "Frontend url einer Organisation"
+#~ msgstr ""
 

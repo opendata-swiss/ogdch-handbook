@@ -97,7 +97,7 @@ Organisation und Identifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-identifier.png
-   :alt: Eingabefeld Identifier im Webformular
+   :alt: Eingabefeld «Identifier» im Webformular
 
 Hier müssen Sie den sogenannten «Identifier» eingeben. Dieser sorgt dafür,
 dass das Dataset mit Ihrer Organisation verknüpft wird. Dafür können
@@ -117,7 +117,7 @@ Sichtbarkeit
 ^^^^^^^^^^^^^
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-veroeffentlichen.png
-   :alt:  Eingabefeld Sichtbarkeit im Webformular
+   :alt: Eingabefeld «Sichtbarkeit» im Webformular
 
 Dieses Feld dient zur :ref:`Veröffentlichung Ihres Datasets <manuell-datensatz-veroeffentlichen>`.
 In der Dropdown-Auswahl können Sie die Sichtbarkeit des Datasets auf dem Frontend einstellen.
@@ -130,7 +130,7 @@ Dataset-Informationen
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-beschreibung.png
-   :alt: Eingabefeld Beschreibung im Webformular
+   :alt: Eingabefeld «Beschreibung» im Webformular
 
 Bitte geben Sie im Feld «Beschreibung (EN) (DE) (FR) (IT)» eine Beschreibung Ihres Datasets an.
 Alle Bundesstellen sollen die Angaben mindestens auf Deutsch und auf
@@ -142,7 +142,7 @@ Daten
 ^^^^^
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-zeitangaben.png
-   :alt: Eingabefeld zur Aktualisierung im Webformular
+   :alt: Eingabefeld zur «Aktualisierung» im Webformular
 
 Hier gilt es, das Pflichtfeld «Publikationsdatum» auszufüllen. Damit ist das Datum
 der ersten Publikation im Quellsystem dieses Datasets gemeint.
@@ -158,7 +158,7 @@ Publisher-Informationen
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-publishers-kontakte.png
-   :alt: Eingabefeld Publisher im Webformular
+   :alt: Eingabefeld «Publisher» im Webformular
 
 Hier müssen Sie Angaben zur datenpublizierenden Organisation eingeben.
 Im Pflichtfeld «Publisher» geben Sie die für das Dataset verantwortliche Organisation an.
@@ -172,7 +172,7 @@ Sprachen
 ^^^^^^^^
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-sprachen.png
-   :alt: Eingabefeld Sprachen im Webformular
+   :alt: Eingabefeld «Sprachen» im Webformular
 
 Falls Ihre Ressourcen in unterschiedlichen Sprachen vorliegen, können Sie diese hier angeben.
 Liegen Ihre Ressourcen sprachunabhängig vor, kann das Eingabefeld hier leer gelassen werden.
@@ -181,7 +181,7 @@ Weitere Informationen
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-weitere-informationen-landing-page.png
-   :alt: Eingabefeld Weitere Inforamtionen im Webformular
+   :alt: Eingabefeld «Weitere Informationen» im Webformular
 
 Mit «Landing Page»
 ist die Website gemeint, auf der die Daten ursprünglich publiziert wurden,
@@ -194,7 +194,7 @@ Verwandte Datasets
 ^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-verwandte-datasets.png
-   :alt: Eingabefeld Kategorien im Webformular
+   :alt: Eingabefeld von «verwandten Datasets» im Webformular
 
 
 Unter «Verwandte Datensätze»
@@ -206,7 +206,7 @@ Schlagwörter definieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-schlagwoerter.png
-   :alt: Eingabefeld von Schlagworten im Webformular
+   :alt: Eingabefeld von «Schlagworten» im Webformular
 
 Es ist wichtig, ein oder mehrere Schlagwörter zum Dataset anzugeben. Schlagwörter helfen dabei,
 die Auffindbarkeit zu steigern.
@@ -218,7 +218,7 @@ Kategorien auswählen
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-kategorien.png
-   :alt: Eingabefeld Kategorien im Webformular
+   :alt: Eingabefeld von «Kategorien» im Webformular
 
 
 Unter «Kategorien» können Sie eine oder mehrere thematische Kategorien
@@ -236,11 +236,11 @@ hinzufügen. Klicken Sie auf den Button «Als nächstes: Distribution hinzufüge
 die Ressourcen zu gelangen.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-speichern.png
-   :alt: Eingabefeld Kategorien im Webformular
+   :alt: Ressourcen hinzufügen
 
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/resource-anlegen.png
-   :alt: Abschnitt Ressource im Webformular
+   :alt: Abschnitt «Ressource» im Webformular
 
 Eine «Ressource» ist eine spezifische Repräsentierung.
 Dies können unterschiedliche Bereitstellungsformen eines Datasets
@@ -264,7 +264,7 @@ das Datum der Veröffentlichung der Ressource angeben.
     Wichtig: Jedes Dataset muss mindestens 1 Ressource haben.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/resource-urls-nutzungsrechte-format.png
-   :alt: Abschnitt Ressource im Webformular
+   :alt: Eingabefelder für Ressourcen im Webformular
 
 Für jede Ressource müssen Sie unter «Zugangs-URL» eine URL angeben,
 über welche auf die Ressource
@@ -288,7 +288,7 @@ Ihr Dataset und Ihre Ressource abspeichern oder Sie können mit dem Button
 «Speichern & weitere hinzufügen» mit dem Hinzufügen von Ressourcen fortfahren.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/resource-aktionen.png
-   :alt: Mögliche Aktionen nach der Anlage der ersten Resource im Webformular
+   :alt: Mögliche Aktionen nach der Anlage der ersten Ressource im Webformular
 
 .. _manuell-dataset-aktionen:
 
@@ -301,7 +301,7 @@ Gehen Sie dazu zur Detailansicht Ihres Datasets im Backend der Abnahmeumgebung u
 «Bearbeiten» und anschliessend auf «Ressourcen»:
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/resource-hinzufuegen.png
-   :alt: Mögliche Aktionen nach der Anlage des Dataset
+   :alt: Mögliche Aktionen nach der Anlage des Datasets
 
 .. _manuell-vorschau-pruefen:
 
@@ -335,7 +335,7 @@ Veröffentlichung planen, indem Sie im darunterliegenden Feld einen
 Veröffentlichungstermin in der Zukunft festlegen.
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-veroeffentlichen.png
-   :alt: Dataset in veroeffentlichen
+   :alt: Dataset im Frontend veroeffentlichen
 
 .. container:: important
 
@@ -352,10 +352,10 @@ Sie gelangen zu der Datenansicht Ihres Datasets im Frontend,
 indem Sie ``ckan`` aus der URL Ihres Datasets entfernen:
 
 .. figure:: ../../../_static/images/publizieren/dataset/ckan-backend-url.png
-   :alt: Beispielansicht eines publizierten Datasets
+   :alt: CKAN URL eines Datasets
 
 .. figure:: ../../../_static/images/publizieren/dataset/frontend-url.png
-   :alt: Beispielansicht eines publizierten Datasets
+   :alt: Frontend URL eines publizierten Datasets
 
 Bitte prüfen Sie hier Ihre Daten nochmals:
 

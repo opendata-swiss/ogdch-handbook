@@ -123,7 +123,7 @@ Abnahmeumgebung mit dem Vermerk «Entwurf» und einem Schlosssymbol markiert. Na
 verschwindet dieses Symbol und Ihr Dataset ist dann auch im Frontend der Abnahmeumgebung sichtbar.
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-entwurf.png
-   :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
+   :alt: Dataset das als Entwurf markiert ist
 
 Um Ihr Dataset zu veröffentlichen müssen Sie in den Bearbeitungsmodus wechseln.
 Klicken Sie dazu auf den Button «Bearbeiten».
@@ -134,12 +134,12 @@ Klicken Sie dazu auf den Button «Bearbeiten».
 Sie gelangen in das Webformular Ihres Datasets:
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-webformular.png
-   :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
+   :alt: Dataset im Webformular
 
 Scrollen Sie zu dem Feld «Sichtbarkeit»: Es ist auf «Entwurf eingestellt»
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-veroeffentlichen.png
-   :alt: Dataset in veroeffentlichen
+   :alt: Eingabefeld «Sichtbarkeit» im Webformular
 
 Sie können Ihr Dataset sofort veröffentlichen, indem Sie den Status auf "Veröffentlicht"
 ändern. Oder Sie können eine zukünftige Veröffentlichung planen, indem Sie im darunterliegenden Feld
@@ -162,10 +162,10 @@ Sie gelangen zur Datenansicht Ihres Datasets im Frontend,
 indem Sie in die Detailansicht Ihres Datasets gehen und ``ckan`` aus der URL Ihres Datasets entfernen:
 
 .. figure:: ../../../_static/images/publizieren/dataset/ckan-backend-url.png
-   :alt: Beispielansicht eines publizierten Datasets
+   :alt: CKAN URL eines Datasets
 
 .. figure:: ../../../_static/images/publizieren/dataset/frontend-url.png
-   :alt: Beispielansicht eines publizierten Datasets
+   :alt: Frontend URL eines publizierten Datasets
 
 Bitte prüfen Sie Ihre Daten auch hier nochmal:
 

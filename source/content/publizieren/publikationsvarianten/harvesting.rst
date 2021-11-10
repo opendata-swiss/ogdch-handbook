@@ -27,7 +27,7 @@ Wie lade ich meine Metadaten mittels Harvester hoch?
 Die Schritte auf einen Blick
 -----------------------------
 
-- :ref:`Harvester einrichten <harvesting-katalog-endpunkt>`
+- :ref:`Harvester einrichten <harvesting-einrichten>`
 - :ref:`Katalog-Endpunkt übergeben <harvesting-katalog-endpunkt>`
 - :ref:`Katalog-Endpunkt mit Paginierung übergeben <harvesting-paginierung>`
 - :ref:`Harvester testen <harvesting-testen>`
@@ -134,13 +134,13 @@ den Namen Ihres Harvesters ins Suchfeld ein, um nach Ihrem Harvester zu finden. 
 des Harvesters erhalten Sie von uns.
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvester-suche.png
-   :alt: Organisation im Frontend von opendata.swiss
+   :alt: Harvester Suche im Backend von opendata.swiss
 
 Wenn Sie Ihren Harvester gefunden haben: klicken Sie auf den Link, dann gelangen Sie zur Detailansicht
 des Harvesters:
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvester-ansicht.png
-   :alt: Organisation im Frontend von opendata.swiss
+   :alt: Harvester verwalten
 
 In der Detailansicht Ihres Harvesters sind alle Datasets aufgelistet, die der Harvester über den Zugriff auf
 Ihren :term:`Katalog Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` automatisch erzeugt hat.
@@ -149,7 +149,7 @@ Klicken Sie auf den Button «Administrator» um Ihren Harvester zu verwalten. Si
 Dashboard für das Management Ihres Harvesters.
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvest-admin-dashboard.png
-   :alt: Organisation im Frontend von opendata.swiss
+   :alt: Dashboard für das Management eines Harvesters
 
 Hier wird Ihnen jeweils der aktuellste Harvest Job angezeigt.
 
@@ -183,12 +183,12 @@ Wenn Ihr letzter Harvest Job Fehler gemeldet hat, sehen Sie das auf dem Dashboar
 Klicken Sie dann auf den Tab «Jobs», um zur Jobliste zu gelangen:
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvest-jobs.png
-   :alt: Organisation im Frontend von opendata.swiss
+   :alt: Übersicht Harvester-Jobs
 
 Hier können Sie die Harvesting Fehler im Detail ansehen:
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvest-job-errors.png
-   :alt: Organisation im Frontend von opendata.swiss
+   :alt: Detailreport Harvester-Job
 
 - In der «Error Summary» sind die Fehlerarten mit der Häufigkeit ihres Vorkommens gelistet
 - Im «Error Report» sind alle Fehler einzeln gelistet.
@@ -220,7 +220,7 @@ Einstellungen.
     Einstellungen so bleiben, wie wir es für Sie eingerichtet haben.
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvester-aktualisieren.png
-   :alt: Organisation im Frontend von opendata.swiss
+   :alt: Harvester-Konfiguration im Webformular
 
 Die «URL» ist der :term:`Katalog-Endpunkt <Katalog Endpunkt (Catalogue endpoint)>` an dem Ihre Daten abgeholt werden.
 
@@ -259,7 +259,7 @@ Sobald Ihr Harvester fehlerfrei durchläuft, kontrollieren Sie bitte Ihre Datens
 Detailansicht des Harvesters:
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvester-datasets.png
-   :alt: Organisation im Frontend von opendata.swiss
+   :alt: Datasets eines Harvesters
 
 Kontrollieren Sie bitte auch die Frontendansicht Ihrer Datasets:
 
@@ -267,10 +267,10 @@ Sie gelangen zur Ansicht Ihrer Organisation im Frontend,
 indem Sie ``ckan`` aus der URL Ihrer Organisation im Backend entfernen:
 
 .. figure:: ../../../_static/images/publizieren/organisation/ckan-organisations-url.png
-   :alt: ckan url einer Organisation
+   :alt: CKAN URL einer Organisation
 
 .. figure:: ../../../_static/images/publizieren/organisation/frontend-organisations-url.png
-   :alt: Frontend url einer Organisation
+   :alt: Frontend URL einer Organisation
 
 .. figure:: ../../../_static/images/publizieren/harvesting-frontend-check.png
    :alt: Organisation im Frontend von opendata.swiss

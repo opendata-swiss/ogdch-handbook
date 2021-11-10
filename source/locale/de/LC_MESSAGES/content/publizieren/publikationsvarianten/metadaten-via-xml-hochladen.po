@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-25 15:53+0200\n"
+"POT-Creation-Date: 2021-11-09 17:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,15 +210,21 @@ msgid ""
 "wechseln. Klicken Sie dazu auf den Button «Bearbeiten»."
 msgstr ""
 
+msgid "Dataset das als Entwurf markiert ist"
+msgstr ""
+
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:134
 msgid "Sie gelangen in das Webformular Ihres Datasets:"
+msgstr ""
+
+msgid "Dataset im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:139
 msgid "Scrollen Sie zu dem Feld «Sichtbarkeit»: Es ist auf «Entwurf eingestellt»"
 msgstr ""
 
-msgid "Dataset in veroeffentlichen"
+msgid "Eingabefeld «Sichtbarkeit» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:144
@@ -253,12 +259,18 @@ msgid ""
 " und ``ckan`` aus der URL Ihres Datasets entfernen:"
 msgstr ""
 
-#: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:177
-msgid "Beispielansicht eines publizierten Datasets"
+msgid "CKAN URL eines Datasets"
+msgstr ""
+
+msgid "Frontend URL eines publizierten Datasets"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:170
 msgid "Bitte prüfen Sie Ihre Daten auch hier nochmal:"
+msgstr ""
+
+#: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:177
+msgid "Beispielansicht eines publizierten Datasets"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:182
@@ -310,4 +322,7 @@ msgid ""
 "Screencast zeigen wir Ihnen, wie Sie die Veröffentlichung Ihres Datasets "
 "terminieren können"
 msgstr ""
+
+#~ msgid "Dataset in veroeffentlichen"
+#~ msgstr ""
 

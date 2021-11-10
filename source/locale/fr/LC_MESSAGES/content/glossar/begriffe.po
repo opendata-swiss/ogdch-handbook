@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../../source/content/glossar/begriffe.rst:95
 msgid "Europäisches Datenportal"
-msgstr ""
+msgstr "Portail des données européennes"
 
 #: ../../source/content/glossar/begriffe.rst:97
 msgid ""
@@ -220,6 +220,10 @@ msgid ""
 "und bereichsspezifischen Datenanbietern und bietet Zugang zu mehr als "
 "einer Million offenen Datensätze aus 36 Ländern."
 msgstr ""
+"Le site `data.europa.eu <https://data.europa.eu/fr>`__ est le portail officiel des données européennes. "
+"Recueillant les métadonnées des fournisseurs de données nationaux, régionaux et "
+"locaux ainsi que des fournisseurs spécifiques à un domaine, ce portail donne "
+"accès à plus d’un million de jeux de données ouverts en provenance de 36 pays."
 
 #: ../../source/content/glossar/begriffe.rst:101
 msgid "Frontend"
