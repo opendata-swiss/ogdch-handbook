@@ -123,13 +123,13 @@ Abnahmeumgebung mit dem Vermerk «Entwurf» und einem Schlosssymbol markiert. Na
 verschwindet dieses Symbol und Ihr Dataset ist dann auch im Frontend der Abnahmeumgebung sichtbar.
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-entwurf.png
-   :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
+   :alt: Dataset das als Entwurf markiert ist
 
 Um Ihr Dataset zu veröffentlichen müssen Sie in den Bearbeitungsmodus wechseln.
 Klicken Sie dazu auf den Button «Bearbeiten».
 
 .. figure:: ../../../_static/images/publizieren/dataset/dataset-titel-entwurf.png
-   :alt: Dataset das als Entwurf markiert ist
+   :alt: Dataset Titel in dem das Dataset als Entwurf markiert ist
 
 Sie gelangen in das Webformular Ihres Datasets:
 

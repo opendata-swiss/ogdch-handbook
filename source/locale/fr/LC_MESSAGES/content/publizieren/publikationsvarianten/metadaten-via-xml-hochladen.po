@@ -137,14 +137,14 @@ msgid "Gehen Sie zu Ihrer Organisation."
 msgstr "Sélectionnez votre organisation."
 
 msgid "XML Katalog im Backend von opendata.swiss hochladen"
-msgstr ""
+msgstr "Téléversement du catalogue XML dans l’arrière-plan opendata.swiss"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:65
 msgid "Klicken Sie auf den Button «Datensätze aus XML hinzufügen»."
 msgstr "Cliquez sur «Ajouter des jeux de données à partir de XML»."
 
 msgid "XML Katalog importieren: Datei auswählen"
-msgstr ""
+msgstr "Importation du catalogue XML: sélectionner le fichier"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:70
 msgid ""
@@ -154,9 +154,8 @@ msgstr ""
 "Dans le masque de téléchargement, vous pouvez sélectionner et télécharger"
 " un catalogue de données sous forme de fichier XML depuis votre PC."
 
-#, fuzzy
 msgid "XML Katalog importieren: Upload starten"
-msgstr "Importer le catalogue de données"
+msgstr "Importation du catalogue XML: lancer le téléversement"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:76
 msgid "Mit  «Submit» wird der Upload gestartet."
@@ -180,7 +179,7 @@ msgstr ""
 "organisation."
 
 msgid "unveröffentlichter Datensatz im Backend von opendata.swiss"
-msgstr ""
+msgstr "Jeu de données non publié dans l’arrière-plan opendata.swiss"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:90
 msgid ""
@@ -189,7 +188,7 @@ msgid ""
 msgstr "Un message d’erreur rouge s’affiche si l’import a échoué."
 
 msgid "Fehleransicht nach dem Hochladen einer XML-Datei"
-msgstr ""
+msgstr "Message d’erreur suite au téléversement d’un fichier XML"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:96
 msgid ""
@@ -211,7 +210,7 @@ msgstr ""
 "«brouillon»."
 
 msgid "Hochgeladene Datasets auswählen"
-msgstr ""
+msgstr "Sélection des jeux de données téléversés"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:110
 msgid ""
@@ -223,7 +222,7 @@ msgstr ""
 " complété tous les champs, vous pouvez publier votre jeu de données."
 
 msgid "Detailansicht eines Datasets im CKAN Backend"
-msgstr ""
+msgstr "Vue détaillée d’un jeu de données dans l’arrière-plan CKAN"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:119
 msgid "Dataset veröffentlichen"
@@ -242,7 +241,7 @@ msgstr ""
 "apparaît aussi dans le frontal de l’environnement de test."
 
 msgid "Dataset Titel in dem das Dataset als Entwurf markiert ist"
-msgstr ""
+msgstr "Titre du jeu de données dans lequel le jeu est marqué comme brouillon"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:128
 msgid ""
@@ -269,7 +268,7 @@ msgstr ""
 " «brouillon»."
 
 msgid "Eingabefeld «Sichtbarkeit» im Webformular"
-msgstr ""
+msgstr "Champ «Visibilité» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:144
 msgid ""
@@ -315,7 +314,6 @@ msgstr ""
 msgid "CKAN URL eines Datasets"
 msgstr ""
 
-#, fuzzy
 msgid "Frontend URL eines publizierten Datasets"
 msgstr "«Exemple d’un jeu de données publié»."
 
@@ -395,7 +393,4 @@ msgstr ""
 ":download:`Choix de la date de publication d’un jeu de données "
 "<../../../_static/screencasts/schedule-dataset.gif>` – Ce screencast vous"
 " montre comment choisir la date de publication de votre jeu de données."
-
-#~ msgid "Dataset in veroeffentlichen"
-#~ msgstr "Publier le jeu de données"
 
