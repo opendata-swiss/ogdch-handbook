@@ -240,7 +240,7 @@ die Ressourcen zu gelangen.
 
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/resource-anlegen.png
-   :alt: Abschnitt Ressource im Webformular
+   :alt: Abschnitt «Ressource» im Webformular
 
 Eine «Ressource» ist eine spezifische Repräsentierung.
 Dies können unterschiedliche Bereitstellungsformen eines Datasets

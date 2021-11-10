@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 17:59+0100\n"
+"POT-Creation-Date: 2021-11-10 11:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -360,7 +360,7 @@ msgid ""
 "hinzufügen», um in das Webformular für die Ressourcen zu gelangen."
 msgstr ""
 
-msgid "Abschnitt Ressource im Webformular"
+msgid "Abschnitt «Ressource» im Webformular"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:245
@@ -619,5 +619,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Dataset in veroeffentlichen"
+#~ msgstr ""
+
+#~ msgid "Abschnitt Ressource im Webformular"
+#~ msgstr ""
+
+#~ msgid "Abschnitt «Ressources» im Webformular"
 #~ msgstr ""
 

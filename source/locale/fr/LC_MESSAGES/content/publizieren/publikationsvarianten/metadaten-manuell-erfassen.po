@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 17:59+0100\n"
+"POT-Creation-Date: 2021-11-10 11:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,7 +153,7 @@ msgid "Gehen Sie auf Ihr :ref:`Dashboard <benutzer_dashboard>`."
 msgstr "Allez sur votre  :ref:`tableau de bord <benutzer_dashboard>`."
 
 msgid "Benutzer Dashboard im Backend von opendata.swiss"
-msgstr ""
+msgstr "Tableau de bord utilisateurs dans l’arrière-plan opendata.swiss"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:69
 msgid ""
@@ -175,7 +175,7 @@ msgstr ""
 "pour assurer la réutilisation de ce dernier."
 
 msgid "Dataset manuell erfassen"
-msgstr "Saisir les métadonnées manuellement"
+msgstr "Saisie manuelle du jeu de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:82
 msgid ""
@@ -211,7 +211,7 @@ msgid "Organisation und Identifier"
 msgstr "Organisation et identifiant"
 
 msgid "Eingabefeld «Identifier» im Webformular"
-msgstr ""
+msgstr "Champ «Identifiant» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:102
 msgid ""
@@ -253,7 +253,7 @@ msgid "Sichtbarkeit"
 msgstr "Visibilité"
 
 msgid "Eingabefeld «Sichtbarkeit» im Webformular"
-msgstr ""
+msgstr "Champ «Visibilité» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:122
 msgid ""
@@ -278,7 +278,7 @@ msgid "Dataset-Informationen"
 msgstr "Informations sur le jeu de données"
 
 msgid "Eingabefeld «Beschreibung» im Webformular"
-msgstr ""
+msgstr "Champ «Description» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:135
 msgid ""
@@ -301,7 +301,7 @@ msgid "Daten"
 msgstr "Données"
 
 msgid "Eingabefeld zur «Aktualisierung» im Webformular"
-msgstr ""
+msgstr "Champ «Actualisation» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:147
 msgid ""
@@ -330,7 +330,7 @@ msgid "Publisher-Informationen"
 msgstr "Informations relatives à l’éditeur"
 
 msgid "Eingabefeld «Publisher» im Webformular"
-msgstr ""
+msgstr "Champ «Éditeurs» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:163
 msgid ""
@@ -353,7 +353,7 @@ msgid "Sprachen"
 msgstr "Langues"
 
 msgid "Eingabefeld «Sprachen» im Webformular"
-msgstr ""
+msgstr "Champ «Langues» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:177
 msgid ""
@@ -370,7 +370,7 @@ msgid "Weitere Informationen"
 msgstr "Informations complémentaires"
 
 msgid "Eingabefeld «Weitere Informationen» im Webformular"
-msgstr ""
+msgstr "Champ «Autres informations» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:186
 msgid ""
@@ -411,7 +411,7 @@ msgid "Schlagwörter definieren"
 msgstr "Définition des mots clés"
 
 msgid "Eingabefeld von «Schlagworten» im Webformular"
-msgstr ""
+msgstr "Champ «Mots-clés» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:211
 msgid ""
@@ -434,7 +434,7 @@ msgid "Kategorien auswählen"
 msgstr "Sélection des catégories"
 
 msgid "Eingabefeld von «Kategorien» im Webformular"
-msgstr ""
+msgstr "Champ «Catégorie» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:224
 msgid ""
@@ -460,8 +460,8 @@ msgstr ""
 "«Suivant: Ajouter des distributions» pour accéder au formulaire web des "
 "ressources."
 
-msgid "Abschnitt Ressource im Webformular"
-msgstr ""
+msgid "Abschnitt «Ressource» im Webformular"
+msgstr "Chapitre «Ressources» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:245
 msgid ""
@@ -551,6 +551,8 @@ msgstr ""
 
 msgid "Mögliche Aktionen nach der Anlage der ersten Ressource im Webformular"
 msgstr ""
+"Actions possibles après la création de la première ressource dans le "
+"formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:296
 msgid "Dataset weiterbearbeiten"
@@ -575,7 +577,7 @@ msgstr ""
 " «Ressources»."
 
 msgid "Mögliche Aktionen nach der Anlage des Datasets"
-msgstr ""
+msgstr "Actions possibles après la création du jeu de données"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:309
 msgid "Dataset prüfen"
@@ -592,7 +594,7 @@ msgstr ""
 "veroeffentlichen>` votre jeu de données."
 
 msgid "Detailansicht eines Datasets im CKAN Backend"
-msgstr ""
+msgstr "Vue détaillée d’un jeu de données dans l’arrière-plan CKAN"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:320
 msgid "Dataset veröffentlichen"
@@ -614,7 +616,7 @@ msgstr ""
 "de test."
 
 msgid "Dataset Titel in dem das Dataset als Entwurf markiert ist"
-msgstr ""
+msgstr "Titre du jeu de données dans lequel le jeu est marqué comme brouillon"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:331
 msgid ""
@@ -631,9 +633,8 @@ msgstr ""
 "«Publié». Si vous souhaitez le publier plus tard, il suffit de définir la"
 " date prévue dans le champ plus bas."
 
-#, fuzzy
 msgid "Dataset im Frontend veroeffentlichen"
-msgstr "Publier le jeu de données"
+msgstr "Publication du jeu de données dans le frontal"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:342
 msgid ""
@@ -767,37 +768,4 @@ msgstr ""
 ":download:`Mise à jour des ressources <../../../_static/screencasts"
 "/update-resource.gif>` – Ce screencast vous montre comment mettre à jour "
 "une ressource d’un jeu de données."
-
-#~ msgid "Eingabefeld Identifier im Webformular"
-#~ msgstr ""
-
-#~ msgid "Eingabefeld Sichtbarkeit im Webformular"
-#~ msgstr ""
-
-#~ msgid "Eingabefeld Beschreibung im Webformular"
-#~ msgstr ""
-
-#~ msgid "Eingabefeld zur Aktualisierung im Webformular"
-#~ msgstr ""
-
-#~ msgid "Eingabefeld Publisher im Webformular"
-#~ msgstr ""
-
-#~ msgid "Eingabefeld Sprachen im Webformular"
-#~ msgstr ""
-
-#~ msgid "Eingabefeld Weitere Inforamtionen im Webformular"
-#~ msgstr ""
-
-#~ msgid "Eingabefeld Kategorien im Webformular"
-#~ msgstr ""
-
-#~ msgid "Eingabefeld von Schlagworten im Webformular"
-#~ msgstr ""
-
-#~ msgid "Mögliche Aktionen nach der Anlage der ersten Resource im Webformular"
-#~ msgstr ""
-
-#~ msgid "Mögliche Aktionen nach der Anlage des Dataset"
-#~ msgstr ""
 
