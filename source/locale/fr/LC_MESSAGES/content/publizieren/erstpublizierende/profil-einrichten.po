@@ -111,7 +111,7 @@ msgstr ""
 "organisations»."
 
 msgid "Benutzer Dashboard im Backend von opendata.swiss"
-msgstr ""
+msgstr "Tableau de bord utilisateurs dans l’arrière-plan opendata.swiss"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:62
 msgid "Benutzerkontenverwaltung"
@@ -227,7 +227,4 @@ msgid ""
 msgstr ""
 "Votre profil a été créé et renseigné. Vous pouvez dès à présent saisir "
 "des informations sur votre organisation."
-
-#~ msgid "Benutzer Dashboard im Backend von opendat.swiss"
-#~ msgstr ""
 
