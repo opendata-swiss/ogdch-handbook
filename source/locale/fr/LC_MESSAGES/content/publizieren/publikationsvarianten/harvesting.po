@@ -558,13 +558,13 @@ msgstr ""
 "’arrière-plan."
 
 msgid "CKAN URL einer Organisation"
-msgstr ""
+msgstr "URL CKAN d’une organisation"
 
 msgid "Frontend URL einer Organisation"
-msgstr ""
+msgstr "URL frontal d’une organisation"
 
 msgid "Organisation im Frontend von opendata.swiss"
-msgstr ""
+msgstr "Organisation dans le frontal opendata.swiss"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:280
 msgid "Beispielansicht einer publizierten Organisation"
@@ -637,13 +637,4 @@ msgstr ""
 ":download:`Lancement du moissonneur  <../../../_static/screencasts/run-"
 "harvester.gif>` – Ce screencast vous montre comment lancer le "
 "moissonneur."
-
-#~ msgid ":ref:`Harvester einrichten <harvesting-katalog-endpunkt>`"
-#~ msgstr ":ref:`Paramétrage du moissonneur <harvesting-katalog-endpunkt>`"
-
-#~ msgid "ckan url einer Organisation"
-#~ msgstr ""
-
-#~ msgid "Frontend url einer Organisation"
-#~ msgstr ""
 

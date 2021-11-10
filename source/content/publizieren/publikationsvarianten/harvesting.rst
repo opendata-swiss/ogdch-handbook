@@ -149,7 +149,7 @@ Klicken Sie auf den Button «Administrator» um Ihren Harvester zu verwalten. Si
 Dashboard für das Management Ihres Harvesters.
 
 .. figure:: ../../../_static/images/publizieren/harvesting/harvest-admin-dashboard.png
-   :alt: Dashboard für Management eines Harvesters
+   :alt: Dashboard für das Management eines Harvesters
 
 Hier wird Ihnen jeweils der aktuellste Harvest Job angezeigt.
 
