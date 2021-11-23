@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 17:59+0100\n"
+"POT-Creation-Date: 2021-11-23 11:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -269,7 +269,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Harvester Suche im Backend von opendata.swiss"
-msgstr "«Exemple d’un jeu de données publié»."
+msgstr "Recherche de moissonneurs dans l’arrière-plan opendata.swiss"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:139
 msgid ""
@@ -279,7 +279,6 @@ msgstr ""
 "Une fois que vous avez trouvé votre moissonneur, cliquez sur le lien pour"
 " afficher sa vue détaillée."
 
-#, fuzzy
 msgid "Harvester verwalten"
 msgstr "Gestion du moissonneur"
 
@@ -302,7 +301,7 @@ msgstr ""
 "Cliquez sur «Administrateur» pour gérer votre moissonneur, un tableau de "
 "bord s’affiche."
 
-msgid "Dashboard für Management eines Harvesters"
+msgid "Dashboard für das Management eines Harvesters"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:154
@@ -379,14 +378,14 @@ msgstr ""
 "des tâches."
 
 msgid "Übersicht Harvester-Jobs"
-msgstr ""
+msgstr "Vue d’ensemble des moissonnages"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:188
 msgid "Hier können Sie die Harvesting Fehler im Detail ansehen:"
 msgstr "Vous y verrez les erreurs de moissonnage en détail."
 
 msgid "Detailreport Harvester-Job"
-msgstr ""
+msgstr "Rapport détaillé d’un moissonnage"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:193
 msgid ""
@@ -460,7 +459,7 @@ msgstr ""
 "cas exceptionnel, il n’est pas nécessaire de modifier les paramètres."
 
 msgid "Harvester-Konfiguration im Webformular"
-msgstr ""
+msgstr "Configuration du moissonneur dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:225
 msgid ""
@@ -542,7 +541,7 @@ msgstr ""
 " contrôler vos jeux de données dans la vue détaillée du moissonneur."
 
 msgid "Datasets eines Harvesters"
-msgstr ""
+msgstr "Jeu de données d’un moissonneur"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:264
 msgid "Kontrollieren Sie bitte auch die Frontendansicht Ihrer Datasets:"
@@ -637,4 +636,7 @@ msgstr ""
 ":download:`Lancement du moissonneur  <../../../_static/screencasts/run-"
 "harvester.gif>` – Ce screencast vous montre comment lancer le "
 "moissonneur."
+
+#~ msgid "Dashboard für Management eines Harvesters"
+#~ msgstr "Tableau de bord de gestion d’un moissonneur"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 17:59+0100\n"
+"POT-Creation-Date: 2021-11-23 11:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,7 +233,7 @@ msgid ""
 "Harvesters."
 msgstr ""
 
-msgid "Dashboard für Management eines Harvesters"
+msgid "Dashboard für das Management eines Harvesters"
 msgstr ""
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:154
@@ -495,13 +495,4 @@ msgid ""
 "harvester.gif>` - In diesem Screencast zeigen wir Ihnen, wie Sie Ihren "
 "Harvester starten können"
 msgstr ""
-
-#~ msgid ":ref:`Harvester einrichten <harvesting-katalog-endpunkt>`"
-#~ msgstr ""
-
-#~ msgid "ckan url einer Organisation"
-#~ msgstr ""
-
-#~ msgid "Frontend url einer Organisation"
-#~ msgstr ""
 

@@ -252,14 +252,14 @@ msgstr ""
 "Pour ce faire, cliquez sur «Éditer»."
 
 msgid "Dataset das als Entwurf markiert ist"
-msgstr ""
+msgstr "Jeu de données marqué comme brouillon"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:134
 msgid "Sie gelangen in das Webformular Ihres Datasets:"
 msgstr "Le formulaire web de votre jeu de données s’affiche."
 
 msgid "Dataset im Webformular"
-msgstr ""
+msgstr "Jeu de données dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:139
 msgid "Scrollen Sie zu dem Feld «Sichtbarkeit»: Es ist auf «Entwurf eingestellt»"
@@ -312,10 +312,10 @@ msgstr ""
 "l’URL de votre jeu de données."
 
 msgid "CKAN URL eines Datasets"
-msgstr ""
+msgstr "URL CKAN d’un jeu de données"
 
 msgid "Frontend URL eines publizierten Datasets"
-msgstr "«Exemple d’un jeu de données publié»."
+msgstr "URL frontal d’un jeu de données publié"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-via-xml-hochladen.rst:170
 msgid "Bitte prüfen Sie Ihre Daten auch hier nochmal:"

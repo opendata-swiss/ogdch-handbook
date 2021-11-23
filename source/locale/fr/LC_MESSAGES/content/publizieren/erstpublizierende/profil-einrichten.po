@@ -126,7 +126,7 @@ msgstr ""
 "paramètres» dans le tableau de bord."
 
 msgid "Webformular für das Benutzerprofil"
-msgstr ""
+msgstr "Formulaire web pour le profil d’utilisateur"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:69
 msgid ""
@@ -164,7 +164,7 @@ msgid ""
 msgstr "Les utilisateurs disposent d’une barre de navigation en haut à droite:"
 
 msgid "Benutzer Navigationsleiste im Backend von opendata.swiss"
-msgstr ""
+msgstr "Barre de navigation utilisateurs dans l’arrière-plan opendata.swiss"
 
 #: ../../source/content/publizieren/erstpublizierende/profil-einrichten.rst:91
 msgid "Das Dashboard-Icon führt Sie zu Ihrem Benutzer-Dashboard."
