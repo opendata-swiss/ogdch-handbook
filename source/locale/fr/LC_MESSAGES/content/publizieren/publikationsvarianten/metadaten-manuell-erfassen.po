@@ -392,7 +392,7 @@ msgid "Verwandte Datasets"
 msgstr "Jeux de données relationnels"
 
 msgid "Eingabefeld von «verwandten Datasets» im Webformular"
-msgstr ""
+msgstr "Champ «Jeux de données relationnels» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:200
 msgid ""
@@ -500,7 +500,7 @@ msgstr ""
 "données."
 
 msgid "Eingabefelder für Ressourcen im Webformular"
-msgstr ""
+msgstr "Champs «Ressources» dans le formulaire web"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:269
 msgid ""
@@ -663,11 +663,11 @@ msgstr ""
 "``ckan`` dans l’URL de votre jeu de données."
 
 msgid "CKAN URL eines Datasets"
-msgstr ""
+msgstr "URL CKAN d’un jeu de données"
 
 #, fuzzy
 msgid "Frontend URL eines publizierten Datasets"
-msgstr "«Exemple d’un jeu de données publié»"
+msgstr "URL frontal d’un jeu de données publié"
 
 #: ../../source/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.rst:360
 msgid "Bitte prüfen Sie hier Ihre Daten nochmals:"
