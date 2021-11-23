@@ -267,7 +267,6 @@ msgstr ""
 "l’ensemble des moissonneurs. Saisissez le nom de votre moissonneur "
 "(fourni par nous) dans le champ de recherche."
 
-#, fuzzy
 msgid "Harvester Suche im Backend von opendata.swiss"
 msgstr "Recherche de moissonneurs dans l’arrière-plan opendata.swiss"
 
@@ -302,7 +301,7 @@ msgstr ""
 "bord s’affiche."
 
 msgid "Dashboard für das Management eines Harvesters"
-msgstr ""
+msgstr "Tableau de bord de gestion d’un moissonneur"
 
 #: ../../source/content/publizieren/publikationsvarianten/harvesting.rst:154
 msgid "Hier wird Ihnen jeweils der aktuellste Harvest Job angezeigt."
