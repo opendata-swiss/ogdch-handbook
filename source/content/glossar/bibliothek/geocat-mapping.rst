@@ -34,7 +34,7 @@ DCAT-AP-CH Standard Overview
 - :ref:`Distribution <iso_19139_che-distribution>`
 
 This documentation describes the mapping from ISO-19139_che to :doc:`DCAT-AP Switzerland <dcat-ap-ch>`.
-ISO-19139_che is a standard used by `Geocat <https://www.geocat.ch>`__,
+ISO-19139_che is a standard used by `geocat.ch <https://www.geocat.ch>`__,
 a data source from which opendata.swiss harvests datasets.
 
 In this documentation we focus on the XML serialization of ISO-19139_che
