@@ -19,9 +19,9 @@
     :caption: Mapping of protocol names to dct:title of dcat:Distribution
 
     protocol_to_name_mapping = {
-        "OGC:WMTS": "WMTS (GetCapabilities)",
-        "OGC:WMS": "WMS (GetCapabilities)",
-        "OGC:WFS": "WFS (GetCapabilities)",
+        "OGC:WMTS": "WMTS",
+        "OGC:WMS": "WMS",
+        "OGC:WFS": "WFS",
         "WWW:DOWNLOAD": "Download",
         "LINKED:DATA": "Linked Data (Dienst)",
         "MAP:Preview": "Map (Preview)",
