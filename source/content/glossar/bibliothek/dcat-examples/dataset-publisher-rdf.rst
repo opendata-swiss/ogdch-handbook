@@ -9,12 +9,12 @@
              xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 
       <dcat:Dataset rdf:about="https://swisstopo/123">
-        <dc:publisher>
+        <dct:publisher>
           <rdf:Description>
             <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Description"/>
             <rdfs:label:>Bundesamt für Landestopografie swisstopo</rdfs:label:>
           </rdf:Description>
-        </dc:publisher>
+        </dct:publisher>
 
       </dcat:Dataset>
 

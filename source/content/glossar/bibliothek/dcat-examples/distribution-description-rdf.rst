@@ -8,8 +8,8 @@
              xmlns:dc="http://purl.org/dc/terms/">
 
       <dcat:Distribution rdf:about="https://swisstopo/123456">
-        <dc:description xml:lang="en">Railway noises at night</dc:description>
-        <dc:description xml:lang="de">Eisenbahnlärm in der Nacht</dc:description>
+        <dct:description xml:lang="en">Railway noises at night</dct:description>
+        <dct:description xml:lang="de">Eisenbahnlärm in der Nacht</dct:description>
       </dcat:Distribution>
 
     </rdf:RDF>

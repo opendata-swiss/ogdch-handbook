@@ -8,7 +8,7 @@
              xmlns:dc="http://purl.org/dc/terms/">
 
       <dcat:Distribution rdf:about="https://swisstopo/123">
-        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dc:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:modified>
       </dcat:Distribution>
 
     </rdf:RDF>

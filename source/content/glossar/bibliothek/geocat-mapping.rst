@@ -17,10 +17,10 @@ Transformation des Geodaten-Standards für opendata.swiss
 
 .. container:: Intro
 
-    Um Geodaten auf opendata.swiss publizieren zu können, muss der Geodaten-Standard
+    Um Geodaten auf opendata.swiss publizieren zu können, muss der Geodatenstandard
     ISO-19139_che auf den von opendata.swiss genutzten DCAT-AP-CH abgebildet werden.
     Diese Dokumentation beschreibt die Standard-Transformation von ISO-19139_che
-    nach :doc:`DCAT-AP-CH <dcat-ap-ch>`,
+    nach :doc:`DCAT-AP CH <dcat-ap-ch>`,
     so wie sie für das Harvesting von Geodaten auf opendata.swiss
     benötigt wird. Es geht dabei um die XML-Serialisierung durch XPath.
     Diese Dokumentation ist aktuell nur in Englisch verfügbar.
@@ -33,7 +33,7 @@ DCAT-AP-CH Standard Overview
 - :ref:`Dataset <iso_19139_che-dataset>`
 - :ref:`Distribution <iso_19139_che-distribution>`
 
-This documentation describes the mapping from ISO-19139_che to :doc:`DCAT-AP Switzerland <dcat-ap-ch>`.
+This documentation describes the mapping from ISO-19139_che to :doc:`DCAT-AP CH <dcat-ap-ch>`.
 ISO-19139_che is a standard used by `geocat.ch <https://www.geocat.ch>`__,
 a data source from which opendata.swiss harvests datasets.
 
@@ -190,7 +190,7 @@ Dataset
 
 .. _geocat-dataset-identifier:
 
-//gmd:fileIdentifier to dct:identifier (geocat)
+``//gmd:fileIdentifier`` to ``dct:identifier``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -204,8 +204,8 @@ Dataset
 
 .. _geocat-dataset-title:
 
-/gmd:identificationInfo//gmd:citation//gmd:title to dct:title
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``/gmd:identificationInfo//gmd:citation//gmd:title`` to ``dct:title``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -218,8 +218,8 @@ Dataset
 
 .. _geocat-dataset-description:
 
-/gmd:identificationInfo//gmd:abstract to dct:description
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``/gmd:identificationInfo//gmd:abstract`` to ``dct:description``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -232,8 +232,8 @@ Dataset
 
 .. _geocat-dataset-publisher:
 
-gmd:pointOfContact or //gmd:contact to dct:publisher
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``gmd:pointOfContact`` or ``//gmd:contact`` to ``dct:publisher``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -246,8 +246,8 @@ gmd:pointOfContact or //gmd:contact to dct:publisher
 
 .. _geocat-dataset-contact-point:
 
-gmd:pointOfContact or //gmd:contact  to dct:contactPoint
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``gmd:pointOfContact or //gmd:contact``  to ``dct:contactPoint``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -260,8 +260,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-distribution:
 
-//gmd:distributionInfo/gmd:MD_Distribution to dcat:distribution
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:distributionInfo/gmd:MD_Distribution`` to ``dcat:distribution``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -274,8 +274,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-issued:
 
-//gmd:identificationInfo//gmd:citation//gmd:CI_Date to dct:issued
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:identificationInfo//gmd:citation//gmd:CI_Date`` to ``dct:issued``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -288,8 +288,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-modified:
 
-//gmd:identificationInfo//gmd:citation//gmd:CI_Date to dct:modified
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:identificationInfo//gmd:citation//gmd:CI_Date`` to ``dct:modified``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -303,8 +303,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-theme:
 
-//gmd:identificationInfo//gmd:topicCategory/ to dcat:theme
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:identificationInfo//gmd:topicCategory/`` to ``dcat:theme``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -318,8 +318,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-language:
 
-//gmd:identificationInfo//gmd:language to dct:language
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:identificationInfo//gmd:language`` to ``dct:language``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -332,8 +332,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-landing-page:
 
-//gmd:distributionInfo/gmd:MD_Distribution to dct:landing-page
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:distributionInfo/gmd:MD_Distribution`` to ``dct:landing-page``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -346,8 +346,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-relation:
 
-//gmd:distributionInfo/gmd:MD_Distribution to dct:relation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:distributionInfo/gmd:MD_Distribution`` to ``dct:relation``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -360,8 +360,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-keyword:
 
-//gmd:identificationInfo//gmd:descriptiveKeywords to dct:keyword
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:identificationInfo//gmd:descriptiveKeywords`` to ``dcat:keyword``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -374,8 +374,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-spatial:
 
-//gmd:identificationInfo//gmd:extent//gmd:description to dct:spatial
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:identificationInfo//gmd:extent//gmd:description`` to ``dct:spatial``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -388,8 +388,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-temporal:
 
-//gmd:identificationInfo//gmd:extent//gmd:temporalElement to dct:temporal
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:identificationInfo//gmd:extent//gmd:temporalElement`` to ``dct:temporal``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -402,8 +402,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-accrual-periodicity:
 
-//gmd:identificationInfo//che:CHE_MD_MaintenanceInformation to dct:accrualPeriodicity
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:identificationInfo//che:CHE_MD_MaintenanceInformation`` to ``dct:accrualPeriodicity``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -416,8 +416,8 @@ gmd:pointOfContact or //gmd:contact  to dct:contactPoint
 
 .. _geocat-dataset-see-also:
 
-//gmd:identificationInfo//gmd:aggregationInfo to dct:seeAlso
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:identificationInfo//gmd:aggregationInfo`` to ``dct:seeAlso``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -435,7 +435,7 @@ Distribution
 
 .. _geocat-distribution-access-url:
 
-Set dcat:accessURL
+Set ``dcat:accessURL``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -449,7 +449,7 @@ Set dcat:accessURL
 
 .. _geocat-distribution-download-url:
 
-Set dcat:downloadURL
+Set ``dcat:downloadURL``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -463,7 +463,7 @@ Set dcat:downloadURL
 
 .. _geocat-distribution-rights:
 
-Set dct:rights
+Set ``dct:rights``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -477,7 +477,7 @@ Set dct:rights
 
 .. _geocat-distribution-media-type:
 
-Set dcat:mediaType
+Set ``dcat:mediaType``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -491,7 +491,7 @@ Set dcat:mediaType
 
 .. _geocat-distribution-title:
 
-Set dct:title
+Set ``dct:title``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -505,8 +505,8 @@ Set dct:title
 
 .. _geocat-distribution-description:
 
-Set dct:description
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Set ``dct:description``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -519,8 +519,8 @@ Set dct:description
 
 .. _geocat-distribution-language:
 
-Set dct:language
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Set ``dct:language``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 

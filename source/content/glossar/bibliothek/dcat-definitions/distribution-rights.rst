@@ -12,6 +12,7 @@
 
 .. code-block::
     :caption: Values acceptable for opendata.swiss
+    :emphasize-lines: 1,2,3,4
 
     NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
     NonCommercialAllowed-CommercialAllowed-ReferenceRequired

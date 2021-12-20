@@ -7,7 +7,7 @@
 
     <https://tierstatistik.identitas.ch/data/fig-dogs-pyr.csv>
       a dcat:Dataset ;
-      dct:keyword "Hunde"@de,
+      dcat:keyword "Hunde"@de,
                   "statistics"@de,
                   "Chien"@fr,
                   "Dogs"@en,
