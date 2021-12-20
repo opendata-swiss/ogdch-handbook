@@ -8,10 +8,10 @@
            xmlns:dc="http://purl.org/dc/terms/">
 
        <dcat:Distribution rdf:about="https://tierstatistik.identitas.ch/data/fig-dogs-pyr.csv">
-          <dc:title xml:lang="de">Hunde</dc:title>
-          <dc:title xml:lang="fr">Chien</dc:title>
-          <dc:title xml:lang="en">Dogs</dc:title>
-          <dc:title xml:lang="it">Cani</dc:title>
+          <dct:title xml:lang="de">Hunde</dct:title>
+          <dct:title xml:lang="fr">Chien</dct:title>
+          <dct:title xml:lang="en">Dogs</dct:title>
+          <dct:title xml:lang="it">Cani</dct:title>
        </dcat:Distribution>
 
     </rdf:RDF>

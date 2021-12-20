@@ -13,6 +13,6 @@
         vcard:hasEmail <mailto:noise@bafu.admin.ch>
       ], [
         a vcard:Individual ;
-        vcard:fn "Sekretariat BAFU" ;
-        vcard:hasEmail <mailto:sekretariat@bafu.admin.ch>
+        vcard:fn "Markus Meier, BAFU Datenspezialist" ;
+        vcard:hasEmail <mailto:marcus-meier@bafu.admin.ch>
       ] .

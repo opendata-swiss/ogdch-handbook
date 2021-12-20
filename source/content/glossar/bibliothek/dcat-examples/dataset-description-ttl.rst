@@ -8,7 +8,7 @@
     <https://swisstopo/123>
       a dcat:Dataset ;
       dct:description """#Railway noises at night
-                               - [read more here](https://swisstopo/railwaynoises.pdf"""@en, """#Eisenbahnlärm in der Nacht
+                               - [read more here](https://swisstopo/railwaynoises.pdf)"""@en, """#Eisenbahnlärm in der Nacht
                                - [eine ausführliche Beschreibung finden Sie hier]
                                  (https://swisstopo/railwaynoises.pdf)"""@de .
 
