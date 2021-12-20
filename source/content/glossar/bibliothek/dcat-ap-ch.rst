@@ -8,20 +8,19 @@
 DCAT-AP CH
 **********
 
-Der Schweizer Metadaten-Datenstandard
+Der Schweizer Metadatenstandard
 =====================================
 
 .. container:: Intro
 
-    DCAT-AP CH ist der Schweizer Datenstandard, der derzeit auf
-    `opendata.swiss <https://opendata.swiss/de/>`__
-    implementiert ist. Er basiert auf dem internationalen DCAT-AP Standard.
+    DCAT-AP CH ist das DCAT-Anwendungsprofil für Datenportale in der Schweiz.
+    Er basiert auf dem internationalen :term:`DCAT-AP <DCAT-AP>` Standard.
 
     Datasets, die auf opendata.swiss geharvestet werden oder per XML-Upload auf
     die Plattform importiert werden, werden in diesem Format erwartet. DCAT-AP
     ist ein offener Standard. Ihre Datasets können also auch Felder enthalten,
     die über diesen Standard hinausgehen. Diese werden bei uns nicht berücksichtigt
-    und auch nicht angezeigt. Auf der anderen Seite haben wir Mindest-Erwartungen
+    und auch nicht angezeigt. Auf der anderen Seite haben wir Mindestanforderungen
     an Ihre Metadaten, die hier beschrieben sind. Ebenso finden Sie hier eine Beschreibung
     optionaler Felder, die von opendata.swiss unterstützt werden.
     Der DCAT-AP ist in ständiger Weiterentwicklung. Das gilt auch für den DCAT-AP CH
@@ -30,7 +29,7 @@ Der Schweizer Metadaten-Datenstandard
     Sollten Sie solche feststellen,
     `wenden Sie sich mit Ihren Fragen gerne an uns <mailto:opendata@bfs.admin.ch>`__.
 
-    Diese Dokumentation ist derzeit nur in Englisch verfügbar.
+    Diese Dokumentation ist nur in Englisch verfügbar.
 
 DCAT-AP CH Standard Overview
 ----------------------------
@@ -58,7 +57,7 @@ It consists of the following 4 Classes:
 - the distributions
 
 These classes relate to each other as described below.
-All examples will be provided in both ``turtle`` and ``rdf``. ``rdf`` is used for the actual import of the data.
+All examples will be provided in both ``turtle`` and ``rdf/xml``. ``rdf/xml`` is used for the actual import of the data.
 You can use a converter to convert between these two formats:
 https://www.easyrdf.org/converter
 
