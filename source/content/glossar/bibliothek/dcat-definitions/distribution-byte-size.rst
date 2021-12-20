@@ -1,4 +1,4 @@
-:DCAT URI: dct:byteSize
+:DCAT URI: dcat:byteSize
 :Domain: dcat:Distribution
 :Value: ``rdfs:Literal`` typed as ``xsd:decimal``
 :Requirement Level: conditional, required if the distribution is accessible by a ``dcat:downloadURL``

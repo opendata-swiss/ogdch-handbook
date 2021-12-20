@@ -8,20 +8,19 @@
 DCAT-AP CH
 **********
 
-Der Schweizer Metadaten-Datenstandard
+Der Schweizer Metadatenstandard
 =====================================
 
 .. container:: Intro
 
-    DCAT-AP CH ist der Schweizer Datenstandard, der derzeit auf
-    `opendata.swiss <https://opendata.swiss/de/>`__
-    implementiert ist. Er basiert auf dem internationalen DCAT-AP Standard.
+    DCAT-AP CH ist das DCAT-Anwendungsprofil für Datenportale in der Schweiz.
+    Er basiert auf dem internationalen :term:`DCAT-AP <DCAT-AP>` Standard.
 
     Datasets, die auf opendata.swiss geharvestet werden oder per XML-Upload auf
     die Plattform importiert werden, werden in diesem Format erwartet. DCAT-AP
     ist ein offener Standard. Ihre Datasets können also auch Felder enthalten,
     die über diesen Standard hinausgehen. Diese werden bei uns nicht berücksichtigt
-    und auch nicht angezeigt. Auf der anderen Seite haben wir Mindest-Erwartungen
+    und auch nicht angezeigt. Auf der anderen Seite haben wir Mindestanforderungen
     an Ihre Metadaten, die hier beschrieben sind. Ebenso finden Sie hier eine Beschreibung
     optionaler Felder, die von opendata.swiss unterstützt werden.
     Der DCAT-AP ist in ständiger Weiterentwicklung. Das gilt auch für den DCAT-AP CH
@@ -30,7 +29,7 @@ Der Schweizer Metadaten-Datenstandard
     Sollten Sie solche feststellen,
     `wenden Sie sich mit Ihren Fragen gerne an uns <mailto:opendata@bfs.admin.ch>`__.
 
-    Diese Dokumentation ist derzeit nur in Englisch verfügbar.
+    Diese Dokumentation ist nur in Englisch verfügbar.
 
 DCAT-AP CH Standard Overview
 ----------------------------
@@ -58,7 +57,7 @@ It consists of the following 4 Classes:
 - the distributions
 
 These classes relate to each other as described below.
-All examples will be provided in both ``turtle`` and ``rdf``. ``rdf`` is used for the actual import of the data.
+All examples will be provided in both ``turtle`` and ``rdf/xml``. ``rdf/xml`` is used for the actual import of the data.
 You can use a converter to convert between these two formats:
 https://www.easyrdf.org/converter
 
@@ -135,7 +134,6 @@ These are the namespaces that are used in DCAT-AP CH:
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
     @prefix dct: <http://purl.org/dc/terms/> .
-    @prefix dc: <http://purl.org/dc/elements/1.1/> .
     @prefix foaf: <http://xmlns.com/foaf/0.1/> .
     @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
     @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -149,7 +147,6 @@ These are the namespaces that are used in DCAT-AP CH:
     <rdf:RDF
       xmlns:dcat="http://www.w3.org/ns/dcat#"
       xmlns:dct="http://purl.org/dc/terms/"
-      xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:foaf="http://xmlns.com/foaf/0.1/"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -348,7 +345,7 @@ dcat:Catalog (DCAT)
     .. include:: dcat-examples/catalog-class-ttl.rst
 
 .. toggle-header::
-    :header: Class ``dcat:Catalog`` in RDF
+    :header: Class ``dcat:Catalog`` in Rdf/xml
 
     .. include:: dcat-examples/catalog-class-rdf.rst
 
@@ -367,7 +364,7 @@ dcat:dataset (DCAT)
     .. include:: dcat-examples/catalog-datasets-ttl.rst
 
 .. toggle-header::
-    :header:  Property ``dcat:dataset`` of ``dcat:Catalog`` in RDF
+    :header:  Property ``dcat:dataset`` of ``dcat:Catalog`` in Rdf/xml
 
     .. include:: dcat-examples/catalog-datasets-rdf.rst
 
@@ -391,7 +388,7 @@ dcat:Dataset (DCAT)
     .. include:: dcat-examples/dataset-class-ttl.rst
 
 .. toggle-header::
-    :header:  Class ``dcat:Dataset`` with a URI in RDF
+    :header:  Class ``dcat:Dataset`` with a URI in Rdf/xml
 
     .. include:: dcat-examples/dataset-class-rdf.rst
 
@@ -405,12 +402,12 @@ dct:identifier (DCAT)
     .. include:: dcat-definitions/dataset-identifier.rst
 
 .. toggle-header::
-    :header: Property ``dcat:identifier`` of ``dcat:Dataset`` in Turtle
+    :header: Property ``dct:identifier`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-identifier-ttl.rst
 
 .. toggle-header::
-    :header:  Property ``dcat:identifier`` of ``dcat:Dataset`` in RDF
+    :header:  Property ``dct:identifier`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-identifier-rdf.rst
 
@@ -429,7 +426,7 @@ dct:title (DCAT)
     .. include:: dcat-examples/dataset-title-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:title`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:title`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-title-rdf.rst
 
@@ -448,7 +445,7 @@ dct:description (DCAT)
     .. include:: dcat-examples/dataset-description-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:description`` of ``dcat:Dataset`` using Markdown in RDF
+    :header: Property ``dct:description`` of ``dcat:Dataset`` using Markdown in Rdf/xml
 
     .. include:: dcat-examples/dataset-description-rdf.rst
 
@@ -467,7 +464,7 @@ dct:publisher (DCAT)
     .. include:: dcat-examples/dataset-publisher-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:publisher`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:publisher`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-publisher-rdf.rst
 
@@ -486,7 +483,7 @@ dcat:contactPoint (DCAT)
     .. include:: dcat-examples/dataset-contact-point-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:contactPoints`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dcat:contactPoints`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-contact-point-rdf.rst
 
@@ -505,7 +502,7 @@ dcat:distribution (DCAT)
     .. include:: dcat-examples/dataset-distribution-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:distribution`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dcat:distribution`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-distribution-rdf.rst
 
@@ -524,7 +521,7 @@ dct:issued (DCAT)
     .. include:: dcat-examples/dataset-issued-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:issued`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:issued`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-issued-rdf.rst
 
@@ -543,7 +540,7 @@ dct-modified (DCAT)
     .. include:: dcat-examples/dataset-modified-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:modified`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:modified`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-modified-rdf.rst
 
@@ -562,7 +559,7 @@ dcat:theme (DCAT)
     .. include:: dcat-examples/dataset-theme-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:theme`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dcat:theme`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-theme-rdf.rst
 
@@ -581,7 +578,7 @@ dct:language (DCAT)
     .. include:: dcat-examples/dataset-language-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:language`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:language`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-language-rdf.rst
 
@@ -601,7 +598,7 @@ dcat:landingPage (DCAT)
     .. include:: dcat-examples/dataset-landing-page-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:landingPage`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dcat:landingPage`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-landing-page-rdf.rst
 
@@ -620,7 +617,7 @@ dct:relation (DCAT)
     .. include:: dcat-examples/dataset-relation-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:relation`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:relation`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-relation-rdf.rst
 
@@ -634,12 +631,12 @@ dcat:keyword (DCAT)
    .. include:: dcat-definitions/dataset-keyword.rst
 
 .. toggle-header::
-    :header: Property ``dct:keyword`` of ``dcat:Dataset`` in Turtle
+    :header: Property ``dcat:keyword`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-keyword-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:keyword`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dcat:keyword`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-keyword-rdf.rst
 
@@ -658,7 +655,7 @@ dct:spatial (DCAT)
     .. include:: dcat-examples/dataset-spatial-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:spatial`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:spatial`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-spatial-rdf.rst
 
@@ -677,7 +674,7 @@ dct:coverage (DCAT)
     .. include:: dcat-examples/dataset-coverage-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:coverage`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:coverage`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-coverage-rdf.rst
 
@@ -696,7 +693,7 @@ dct:temporal (DCAT)
     .. include:: dcat-examples/dataset-temporal-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:temporal`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:temporal`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-temporal-rdf.rst
 
@@ -715,7 +712,7 @@ dct:accrual-periodicity (DCAT)
     .. include:: dcat-examples/dataset-accrual-periodicity-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-accrual-periodicity-rdf.rst
 
@@ -734,7 +731,7 @@ dcat:seeAlso (DCAT)
     .. include:: dcat-examples/dataset-see-also-ttl.rst
 
 .. toggle-header::
-    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in RDF
+    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-see-also-rdf.rst
 
@@ -758,7 +755,7 @@ dcat:Distribution (DCAT)
     .. include:: dcat-examples/distribution-class-ttl.rst
 
 .. toggle-header::
-    :header: Class ``dcat:Distribution`` with a URI in RDF
+    :header: Class ``dcat:Distribution`` with a URI in Rdf/xml
 
     .. include:: dcat-examples/distribution-class-rdf.rst
 
@@ -777,7 +774,7 @@ dcat:accessURL (DCAT)
     .. include:: dcat-examples/distribution-access-url-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:accessURL`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dcat:accessURL`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-access-url-rdf.rst
 
@@ -797,7 +794,7 @@ dcat:downloadURL (DCAT)
     .. include:: dcat-examples/distribution-download-url-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:downloadURL`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dcat:downloadURL`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-download-url-rdf.rst
 
@@ -816,7 +813,7 @@ dct:issued (DCAT)
     .. include:: dcat-examples/distribution-issued-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:issued`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dct:issued`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-issued-rdf.rst
 
@@ -835,7 +832,7 @@ dct:rights (DCAT)
     .. include:: dcat-examples/distribution-rights-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:rights`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dct:rights`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-rights-rdf.rst
 
@@ -854,7 +851,7 @@ dct:mediaType (DCAT)
     .. include:: dcat-examples/distribution-media-type-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:mediaType`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dcat:mediaType`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-media-type-rdf.rst
 
@@ -873,7 +870,7 @@ dct:format (DCAT)
     .. include:: dcat-examples/distribution-format-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:format`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dct:format`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-format-rdf.rst
 
@@ -892,7 +889,7 @@ dcat:byteSize (DCAT)
     .. include:: dcat-examples/distribution-byte-size-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:byteSize`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dcat:byteSize`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-byte-size-rdf.rst
 
@@ -911,7 +908,7 @@ dct:modified (DCAT)
     .. include:: dcat-examples/distribution-modified-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:modified`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dct:modified`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-modified-rdf.rst
 
@@ -930,7 +927,7 @@ dct:title (DCAT)
     .. include:: dcat-examples/distribution-title-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:title`` of ``dcat:Dataset`` in RDF
+    :header: Property ``dct:title`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-title-rdf.rst
 
@@ -949,7 +946,7 @@ dct:description (DCAT)
     .. include:: dcat-examples/distribution-description-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:description`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dct:description`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-description-rdf.rst
 
@@ -968,7 +965,7 @@ dct:language (DCAT)
     .. include:: dcat-examples/distribution-language-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:language`` of ``dcat:Distribution``  in RDF
+    :header: Property ``dct:language`` of ``dcat:Distribution``  in Rdf/xml
 
     .. include:: dcat-examples/distribution-language-rdf.rst
 
@@ -982,12 +979,12 @@ dct:identifier (DCAT)
    .. include:: dcat-definitions/distribution-identifier.rst
 
 .. toggle-header::
-    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in RDF
+    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in Turtle
 
     .. include:: dcat-examples/distribution-identifier-ttl.rst
 
 .. toggle-header::
-    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in RDF
+    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-identifier-rdf.rst
 
@@ -1006,7 +1003,7 @@ dct:coverage (DCAT)
     .. include:: dcat-examples/distribution-coverage-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:coverage`` of ``dcat:Distribution`` in RDF
+    :header: Property ``dct:coverage`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-coverage-rdf.rst
 

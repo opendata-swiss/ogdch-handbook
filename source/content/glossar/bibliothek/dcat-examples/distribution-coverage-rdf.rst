@@ -8,7 +8,7 @@
              xmlns:dct="http://purl.org/dc/terms/">
 
       <dcat:Distribution rdf:about="https://swisstopo/distribution/1235">
-        <dct:coverage>2021-04-26</dc:coverage>
+        <dct:coverage>2021-04-26</dct:coverage>
       </dcat:Distribution>
 
     </rdf:RDF>
