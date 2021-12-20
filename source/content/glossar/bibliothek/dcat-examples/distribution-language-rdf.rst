@@ -8,7 +8,7 @@
              xmlns:dc="http://purl.org/dc/terms/">
 
       <dcat:Distribution rdf:about="https://swisstopo/123">
-        <dc:language>fr</dc:language>
+        <dct:language>fr</dct:language>
       </dcat:Distribution>
 
     </rdf:RDF>

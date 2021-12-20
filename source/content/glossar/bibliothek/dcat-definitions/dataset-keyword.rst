@@ -1,4 +1,4 @@
-:DCAT URI: dct:keyword
+:DCAT URI: dcat:keyword
 :Domain: dcat:Dataset
 :Value: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
 :Requirement Level: optional
