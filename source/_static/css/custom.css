@@ -476,3 +476,15 @@ footer {
     margin-left: 0 2px;
     padding: 0;
 }
+
+/*=======================================*/
+/* Container construction                 */
+/*=======================================*/
+
+div.container.construction {
+    background: yellow;
+}
+
+div.container.construction p {
+}
+

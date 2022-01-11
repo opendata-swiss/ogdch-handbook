@@ -11,6 +11,10 @@ DCAT-AP-CH
 Der Schweizer Metadaten-Datenstandard
 =====================================
 
+.. container:: construction
+
+    Note: This page is outdated and will be revised soon.
+
 .. container:: Intro
 
     DCAT-AP-CH ist der Schweizer Datenstandard, der derzeit auf
