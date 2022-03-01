@@ -17,23 +17,26 @@ Der Schweizer Metadatenstandard
 
 .. container:: Intro
 
-    DCAT-AP CH ist das DCAT-Anwendungsprofil für Datenportale in der Schweiz.
-    Er basiert auf dem internationalen :term:`DCAT-AP <DCAT-AP>` Standard.
+    DCAT-AP CH ist das DCAT-Anwendungsprofil für Datenportale in der Schweiz und basiert auf dem
+    internationalen :term:`DCAT-AP <DCAT-AP>` Standard. Es ist auf opendata.swiss implementiert.
 
-    Datasets, die auf opendata.swiss geharvestet werden oder per XML-Upload auf
-    die Plattform importiert werden, werden in diesem Format erwartet. DCAT-AP
-    ist ein offener Standard. Ihre Datasets können also auch Felder enthalten,
-    die über diesen Standard hinausgehen. Diese werden bei uns nicht berücksichtigt
-    und auch nicht angezeigt. Auf der anderen Seite haben wir Mindestanforderungen
-    an Ihre Metadaten, die hier beschrieben sind. Ebenso finden Sie hier eine Beschreibung
-    optionaler Felder, die von opendata.swiss unterstützt werden.
-    Der DCAT-AP ist in ständiger Weiterentwicklung. Das gilt auch für den DCAT-AP CH
-    und für den Daten-Standard, der auf opendata.swiss implementiert ist.
-    Daher gibt es teilweise Abweichungen zwischen diesen Datenstandards.
-    Sollten Sie solche feststellen,
-    `wenden Sie sich mit Ihren Fragen gerne an uns <mailto:opendata@bfs.admin.ch>`__.
+    Die Metadaten der Datasets, die von opendata.swiss
+    :doc:`geharvestet <../../publizieren/publikationsvarianten/harvesting>`
+    oder per :doc:`XML-Upload <../../publizieren/publikationsvarianten/metadaten-via-xml-hochladen>`
+    auf die Plattform importiert werden, müssen den DCAT-AP CH Standard erfüllen.
+    Unten finden Sie beschrieben, welche Mindestanforderungen Ihre Metadaten erfüllen
+    müssen (mandatory, conditional). Ebenso finden Sie eine Beschreibung optionaler Felder,
+    die von opendata.swiss unterstützt werden (optional).
 
-    Diese Dokumentation ist nur in Englisch verfügbar.
+    DCAT-AP und DCAT-AP CH werden stetig weiterentwickelt. Daher kann es zeitweise zu Abweichungen
+    zwischen dem auf opendata.swiss implementierten und dem weiterentwickelten Standard kommen.
+    Sollten Sie solche Unterschiede feststellen, dürfen Sie sich gerne
+    `an uns wenden <mailto:opendata@bfs.admin.ch>`__.
+
+    Falls Ihre Datasets Metadaten enthalten, die über den auf opendata.swiss implementierten
+    Standard hinausgehen, werden diese bei uns weder berücksichtigt noch angezeigt.
+
+    Diese Dokumentation ist derzeit nur in Englisch verfügbar.
 
 DCAT-AP CH Standard Overview
 ----------------------------
@@ -983,12 +986,12 @@ dct:identifier (DCAT)
    .. include:: dcat-definitions/distribution-identifier.rst
 
 .. toggle-header::
-    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in Turtle
+    :header:  Property ``dct:identifier`` of ``dcat:Distribution`` in Turtle
 
     .. include:: dcat-examples/distribution-identifier-ttl.rst
 
 .. toggle-header::
-    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in Rdf/xml
+    :header:  Property ``dct:identifier`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-identifier-rdf.rst
 
