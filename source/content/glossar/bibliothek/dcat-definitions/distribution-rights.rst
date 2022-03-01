@@ -4,7 +4,7 @@
 :Requirement Level: mandatory
 :Cardinality: 1..1
 :Description: Rights statement that is relevant for the dcat:accessURL of this distribution.
-:Usage Notes: The rights statement declares for which purpose and in which context
+:Usage Notes: The `rights statement / terms of use <https://opendata.swiss/de/terms-of-use>`__ declares for which purpose and in which context
               the data of a distribution can be used: for commercial purposes or only for
               non commercial purposes. Does it need to be referenced, when it is used? These
               conditions are all captured in the right statements. For the exact values,

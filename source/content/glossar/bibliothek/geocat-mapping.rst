@@ -2,13 +2,13 @@
 
    - :fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`
    - :doc:`Bibliothek <../bibliothek>` :fa:`chevron-right`
-   - ISO-19139_che zu DCAT-AP-CH
+   - ISO-19139_che zu DCAT-AP CH
 
 ***************************
-ISO-19139_che zu DCAT-AP-CH
+ISO-19139_che zu DCAT-AP CH
 ***************************
 
-Transformation des Geodaten-Standards für opendata.swiss
+Transformation des Geodatenstandard für opendata.swiss
 ========================================================
 
 .. container:: construction
@@ -18,14 +18,15 @@ Transformation des Geodaten-Standards für opendata.swiss
 .. container:: Intro
 
     Um Geodaten auf opendata.swiss publizieren zu können, muss der Geodatenstandard
-    ISO-19139_che auf den von opendata.swiss genutzten DCAT-AP-CH abgebildet werden.
+    `ISO-19139_che <https://www.geocat.admin.ch/de/documentation/gm03-metadata-model.html>`__
+    auf den von opendata.swiss genutzten DCAT-AP CH abgebildet werden.
     Diese Dokumentation beschreibt die Standard-Transformation von ISO-19139_che
     nach :doc:`DCAT-AP CH <dcat-ap-ch>`,
     so wie sie für das Harvesting von Geodaten auf opendata.swiss
-    benötigt wird. Es geht dabei um die XML-Serialisierung durch XPath.
+    benötigt wird. Es geht dabei um die `XML-Serialisierung durch XPath <https://de.wikipedia.org/wiki/XPath>`__ .
     Diese Dokumentation ist aktuell nur in Englisch verfügbar.
 
-DCAT-AP-CH Standard Overview
+DCAT-AP CH Standard Overview
 ----------------------------
 
 - :ref:`Example Catalog <iso_19139_che-example>`
@@ -74,25 +75,25 @@ Mapping to dcat:Dataset
       - Usage Notes
     * - :ref:`dct:title <dcat-dataset-title>`
       - :ref:`//gmd:identificationInfo//gmd:citation//gmd:title <geocat-dataset-title>`
-      - 1*
+      - multilingual
     * - :ref:`dct:description <dcat-dataset-description>`
       - :ref:`//gmd:identificationInfo//gmd:abstract <geocat-dataset-description>`
-      - 1*
+      - multilingual
     * - :ref:`dct:publisher <geocat-dataset-publisher>`
       - :ref:`//gmd:identificationInfo//gmd:pointOfContact <geocat-dataset-publisher>`
-      - 1
+      -
     * - :ref:`dcat:contactPoint <dcat-dataset-contact-point>`
       - :ref:`//gmd:identificationInfo//gmd:pointOfContact or //gmd:contact <geocat-dataset-contact-point>`
-      - 1, could be N
+      -
     * - :ref:`dct:identifier <dcat-dataset-identifier>`
       - :ref:`//gmd:fileIdentifier <geocat-dataset-identifier>`
-      - 1
+      -
     * - :ref:`dcat:Distribution <dcat-dataset-distribution>`
       - :ref:`//gmd:distributionInfo <geocat-dataset-distribution>`
-      - N
+      -
     * - :ref:`dct:issued <dcat-dataset-issued>`
       - :ref:`//gmd:identificationInfo//gmd:citation//gmd:CI_Date <geocat-dataset-issued>`
-      - 1
+      -
     * - :ref:`modified <dcat-dataset-modified>`
       - :ref:`//gmd:identificationInfo//gmd:citation//gmd:CI_Date <geocat-dataset-modified>`
       -
@@ -424,7 +425,7 @@ Dataset
     .. include:: geocat-mappings/dataset-see-also.rst
 
 .. toggle-header::
-    :header: Definition of ``dcat:seeAlso`` in DCAT-AP-CH
+    :header: Definition of ``dcat:seeAlso`` in DCAT-AP CH
 
     .. include:: geocat-examples/dataset-see-also.rst
 

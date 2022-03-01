@@ -1,7 +1,7 @@
 :DCAT: :ref:`dct:theme <dcat-dataset-theme>`
 :XPATH: ``//gmd:identificationInfo//gmd:topicCategory/``
 :Mapping of values: Geocat topicCategory values are mapped to themes from the DCAT-AP CH themes vocabulary:
-                    `in rdf <https://www.dcat-ap.ch/vocabulary/themes/20210623.rdf>`__
+                    `in rdf/xml <https://www.dcat-ap.ch/vocabulary/themes/20210623.rdf>`__
                     `in turtle <https://www.dcat-ap.ch/vocabulary/themes/20210623.ttl>`__
                     For details of the mapping, see below.
 
