@@ -986,12 +986,12 @@ dct:identifier (DCAT)
    .. include:: dcat-definitions/distribution-identifier.rst
 
 .. toggle-header::
-    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in Turtle
+    :header:  Property ``dct:identifier`` of ``dcat:Distribution`` in Turtle
 
     .. include:: dcat-examples/distribution-identifier-ttl.rst
 
 .. toggle-header::
-    :header:  Property ``dcat:identifier`` of ``dcat:Distribution`` in Rdf/xml
+    :header:  Property ``dct:identifier`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-identifier-rdf.rst
 
