@@ -7,4 +7,4 @@
 
     <https://swisstopo/123>
               a dcat:Dataset ;
-              dcterms:accrualPeriodicity <http://purl.org/cld/freq/daily>  .
+              dct:accrualPeriodicity <http://purl.org/cld/freq/daily>  .
