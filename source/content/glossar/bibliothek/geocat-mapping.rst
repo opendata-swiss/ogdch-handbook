@@ -11,10 +11,6 @@ ISO-19139_che zu DCAT-AP CH
 Transformation des Geodatenstandard für opendata.swiss
 ========================================================
 
-.. container:: construction
-
-    Note: This page is outdated and will be revised soon.
-
 .. container:: Intro
 
     Um Geodaten auf opendata.swiss publizieren zu können, muss der Geodatenstandard
