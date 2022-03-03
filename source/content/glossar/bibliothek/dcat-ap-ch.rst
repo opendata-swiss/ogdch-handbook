@@ -11,10 +11,6 @@ DCAT-AP CH
 Der Schweizer Metadatenstandard
 =====================================
 
-.. container:: construction
-
-    Note: This page is outdated and will be revised soon.
-
 .. container:: Intro
 
     DCAT-AP CH ist das DCAT-Anwendungsprofil für Datenportale in der Schweiz und basiert auf dem
