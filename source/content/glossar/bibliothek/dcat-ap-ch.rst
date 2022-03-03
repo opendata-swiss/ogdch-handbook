@@ -231,9 +231,9 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`description <dcat-dataset-description>`
       - dct:description
       - **mandatory**, multilingual
-    * - :ref:`publisher <dcat-dataset-publisher>`
+    * - :fa:`exclamation` :ref:`publisher <dcat-dataset-publisher>`
       - dct:publisher
-      - **mandatory**
+      - **mandatory**, :fa:`exclamation` import format changed
     * - :ref:`contact point <dcat-dataset-contact-point>`
       - dcat:contactPoint
       - **mandatory**
@@ -252,9 +252,9 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`theme <dcat-dataset-theme>`
       - dcat:theme
       - conditional
-    * - :ref:`landing page <dcat-dataset-landing-page>`
+    * - :fa:`exclamation` :ref:`landing page <dcat-dataset-landing-page>`
       - dcat:landingPage
-      - conditional
+      - conditional,  :fa:`exclamation` import format changed
     * - :ref:`language <dcat-dataset-language>`
       - dct:language
       - conditional
@@ -270,9 +270,9 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`temporal <dcat-dataset-temporal>`
       - dct:temporal
       - optional
-    * - :ref:`accrual periodicity <dcat-dataset-accrual-periodicity>`
+    * - :fa:`exclamation` :ref:`accrual periodicity <dcat-dataset-accrual-periodicity>`
       - dct:accrualPeriodicity
-      - optional
+      - optional, :fa:`exclamation` import format changed
     * - :ref:`coverage <dcat-dataset-relation>`
       - dct:relation
       - optional
@@ -466,14 +466,24 @@ dct:publisher (DCAT)
     .. include:: dcat-definitions/dataset-publisher.rst
 
 .. toggle-header::
-    :header: Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
+    :header: :fa:`exclamation` Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-publisher-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:publisher`` of ``dcat:Dataset`` in Rdf/xml
+    :header: :fa:`exclamation` Property ``dct:publisher`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-publisher-rdf.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``dct:publisher`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/deprecated/dataset-publisher-ttl.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``dct:publisher`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples/deprecated/dataset-publisher-rdf.rst
 
 .. _dcat-dataset-contact-point:
 
@@ -600,14 +610,24 @@ dcat:landingPage (DCAT)
     .. include:: dcat-definitions/dataset-landing-page.rst
 
 .. toggle-header::
-    :header: Property ``dcat:landingPage`` of ``dcat:Dataset`` in Turtle
+    :header: :fa:`exclamation` Property ``dcat:landingPage`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-landing-page-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dcat:landingPage`` of ``dcat:Dataset`` in Rdf/xml
+    :header: :fa:`exclamation` Property ``dcat:landingPage`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-landing-page-rdf.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``dcat:landingPage`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/deprecated/dataset-landing-page-ttl.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``dcat:landingPage`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples/deprecated/dataset-landing-page-rdf.rst
 
 .. _dcat-dataset-relation:
 
@@ -714,14 +734,24 @@ dct:accrual-periodicity (DCAT)
     .. include:: dcat-definitions/dataset-accrual-periodicity.rst
 
 .. toggle-header::
-    :header: Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in Turtle
+    :header: :fa:`exclamation` Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-accrual-periodicity-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in Rdf/xml
+    :header: :fa:`exclamation` Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-accrual-periodicity-rdf.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/deprecated/dataset-accrual-periodicity-ttl.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``dct:accrualPeriodicity`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples/deprecated/dataset-accrual-periodicity-rdf.rst
 
 .. _dcat-dataset-see-also:
 

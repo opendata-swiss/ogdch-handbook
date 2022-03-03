@@ -1,6 +1,6 @@
 .. code-block:: Turtle
     :caption: Keywords are given as localized strings
-    :emphasize-lines: 6,7,8,9,10
+    :emphasize-lines: 5,6,7,8,9
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
 

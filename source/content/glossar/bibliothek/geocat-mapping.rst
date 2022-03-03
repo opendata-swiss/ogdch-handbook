@@ -111,7 +111,7 @@ Mapping to dcat:Dataset
       -
     * - :ref:`dcat:keyword <dcat-dataset-keyword>`
       - :ref:`//gmd:identificationInfo//gmd:descriptiveKeywords <geocat-dataset-keyword>`
-      -
+      - multilingual
     * - :ref:`dct:spatial <dcat-dataset-spatial>`
       - :ref:`//gmd:identificationInfo//gmd:extent <geocat-dataset-spatial>`
       -

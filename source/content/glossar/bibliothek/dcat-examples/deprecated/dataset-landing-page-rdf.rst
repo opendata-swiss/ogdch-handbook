@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: :fa:`exclamation` The landing page is provided as a resource
+    :caption: The landing page is provided as a string
     :emphasize-lines: 6
 
     <?xml version="1.0" encoding="utf-8" ?>
@@ -7,7 +7,5 @@
              xmlns:dcat="http://www.w3.org/ns/dcat#">
 
       <dcat:Dataset rdf:about="https://swisstopo/123">
-        <dcat:landingPage rdf:resource="http://www.bafu.admin.ch/laerm/index.html"/>
+        <dcat:landingPage>http://www.bafu.admin.ch/laerm/index.html</dcat:landingPage>
       </dcat:Dataset>
-
-    </rdf:RDF>

@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: :fa:`exclamation` EU frequency vocabulary is used
+    :caption: dataset that is updated on a daily basis
     :emphasize-lines: 6
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
@@ -7,4 +7,4 @@
 
     <https://swisstopo/123>
               a dcat:Dataset ;
-              dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> .
+              dct:accrualPeriodicity <http://purl.org/cld/freq/daily>  .
