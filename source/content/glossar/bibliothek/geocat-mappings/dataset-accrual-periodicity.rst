@@ -12,14 +12,24 @@
     :caption: Mapping of the Frequency Codes
 
     frequency_mapping = {
-        'continual': 'http://purl.org/cld/freq/continuous',
-        'daily': 'http://purl.org/cld/freq/daily',
-        'weekly': 'http://purl.org/cld/freq/weekly',
-        'fortnightly': 'http://purl.org/cld/freq/biweekly',
-        'monthly': 'http://purl.org/cld/freq/monthly',
-        'quarterly': 'http://purl.org/cld/freq/quarterly',
-        'biannually': 'http://purl.org/cld/freq/semiannual',
-        'annually': 'http://purl.org/cld/freq/annual',
-        'asNeeded': 'http://purl.org/cld/freq/irregular',
-        'irregular': 'http://purl.org/cld/freq/irregular',
+        'continual':
+          'http://publications.europa.eu/resource/authority/frequency/CONT',
+        'daily':
+          'http://publications.europa.eu/resource/authority/frequency/DAILY',
+        'weekly':
+          'http://publications.europa.eu/resource/authority/frequency/WEEKLY',
+        'fortnightly':
+          'http://publications.europa.eu/resource/authority/frequency/BIWEEKLY',
+        'monthly':
+          'http://publications.europa.eu/resource/authority/frequency/MONTHLY',
+        'quarterly':
+          'http://publications.europa.eu/resource/authority/frequency/QUARTERLY',
+        'biannually':
+          'http://publications.europa.eu/resource/authority/frequency/ANNUAL_2',
+        'annually':
+          'http://publications.europa.eu/resource/authority/frequency/ANNUAL',
+        'asNeeded':
+          'http://publications.europa.eu/resource/authority/frequency/IRREG',
+        'irregular':
+          'http://publications.europa.eu/resource/authority/frequency/IRREG',
     }
