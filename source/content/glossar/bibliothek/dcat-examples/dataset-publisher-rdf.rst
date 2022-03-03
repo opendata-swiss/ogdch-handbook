@@ -1,19 +1,19 @@
 .. code-block:: xml
-    :caption: Publisher of a dataset in RDF
+    :caption: :fa:`exclamation` publisher as foaf:Organization which is a subtype of foaf:Agent
     :emphasize-lines: 8,9,10,11,12
 
     <?xml version="1.0" encoding="utf-8" ?>
     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
              xmlns:dcat="http://www.w3.org/ns/dcat#"
-             xmlns:dc="http://purl.org/dc/terms/"
-             xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+             xmlns:dct="http://purl.org/dc/terms/"
+             xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
       <dcat:Dataset rdf:about="https://swisstopo/123">
         <dct:publisher>
-          <rdf:Description>
-            <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Description"/>
-            <rdfs:label:>Bundesamt für Landestopografie swisstopo</rdfs:label:>
-          </rdf:Description>
+          <foaf:Organization rdf:about="https://swisstopo">
+            <foaf:name: xml:lang="de">Landesamt für Topographie Swisstopo</foaf:name:>
+            <foaf:name: xml:lang="en">Federal Office of Topography</foaf:name:>
+          </foaf:Organization>
         </dct:publisher>
 
       </dcat:Dataset>
