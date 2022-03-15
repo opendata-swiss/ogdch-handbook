@@ -13,7 +13,8 @@ Der Schweizer Metadatenstandard
 
 .. container:: Intro
 
-    DCAT-AP CH ist das DCAT-Anwendungsprofil für Datenportale in der Schweiz und basiert auf dem
+    `DCAT-AP CH <https://dcat-ap.ch/>`__ ist das Schweizer Anwendungsprofil des Data Catalog Vocabulary
+    (DCAT) für Datenportale und basiert auf dem
     internationalen :term:`DCAT-AP <DCAT-AP>` Standard. Es ist auf opendata.swiss implementiert.
 
     Die Metadaten der Datasets, die von opendata.swiss
@@ -163,7 +164,7 @@ These are the namespaces that are used in DCAT-AP CH:
 Internationalisation
 --------------------
 
-The DCAT-AP CH Standard expects that text elements of
+The DCAT-AP CH Standard allows/supports that text elements of
 datasets and their distributions are translated in the following four
 languages:
 
