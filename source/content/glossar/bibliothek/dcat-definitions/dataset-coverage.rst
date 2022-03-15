@@ -5,6 +5,6 @@
 :Requirement Level: optional
 :Cardinality: 0..n
 :Description: The location or time a dataset covers.
-:Usage Notes: This property is deprecated.
+:Usage Notes: This property is deprecated and might be excluded from future versions of DCAT-AP CH
               Consider using ``dct:temporal`` or ``dct:spatial``.
               If a date is provided, it does not have to be an ISO date.
