@@ -19,8 +19,7 @@
                     </gmd:textGroup>
                     <gmd:textGroup>
                         <gmd:LocalisedCharacterString locale="#IT">Opendata BY: Libero utilizzo. Indicazione
-                            della fonte obbligatoria. Utilizzo a fini commerciali ammesso soltanto previo
-                            consenso del titolare dei dati
+                            della fonte obbligatoria.
                         </gmd:LocalisedCharacterString>
                     </gmd:textGroup>
                     <gmd:textGroup>
