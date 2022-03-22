@@ -1,7 +1,7 @@
 :DCAT: :ref:`dcat:accessURL <dcat-distribution-access-url>`
 :XPATH: ``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource``
 :Mapping: The mapping depends on the protocol. If the protocol starts in the following way it is mapped to a
-          dcat:Distribution: ``WWW:DOWNLOAD``, ``"OGC:WMTS``, ``OGC:WFS``, ``"OGC:WMS``, ``LINKED:DATA``,
+          dcat:Distribution: ``WWW:DOWNLOAD``, ``OGC:WMTS``, ``OGC:WFS``, ``"OGC:WMS``, ``LINKED:DATA``,
           ``ESRI:REST``, ``MAP:Preview``
 
 :Value: ``.//gmd:linkage/gmd:URL/text()``
