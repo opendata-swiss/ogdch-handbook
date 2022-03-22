@@ -24,5 +24,5 @@
             u'Utilisation libre. Utilisation à des fins commerciales uniquement avec l’autorisation du fournisseur des données.': 'NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired',
 
             u'Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit Bewilligung des Datenlieferanten zulässig.': 'NonCommercialAllowed-CommercialWithPermission-ReferenceRequired',
-            u'Utilisation libre. Obligation d’indiquer la source. Utilisation commerciale uniquement avec l’autorisation du fournisseur des données.': 'NonCommercialAllowed-CommercialWithPermission-ReferenceRequired' # noqa
+            u'Utilisation libre. Obligation d’indiquer la source. Utilisation commerciale uniquement avec l’autorisation du fournisseur des données.': 'NonCommercialAllowed-CommercialWithPermission-ReferenceRequired'
         }
