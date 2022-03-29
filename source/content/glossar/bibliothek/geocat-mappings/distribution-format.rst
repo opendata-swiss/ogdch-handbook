@@ -1,5 +1,5 @@
 :DCAT: :ref:`dct:format <dcat-distribution-format>`
-:Usage-Notes: For protocol "WWW:DOWNLOAD" the media type is derived in the same way as the media type,
+:Usage-Notes: For protocol "WWW:DOWNLOAD" the format is derived in the same way as the
               :ref:`media type <geocat-distribution-media-type>`.
               For the other protocols the format is derived from the protocol
               as described in the mapping below.

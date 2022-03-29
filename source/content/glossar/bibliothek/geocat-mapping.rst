@@ -13,13 +13,15 @@ Transformation des Geodatenstandard für opendata.swiss
 
 .. container:: Intro
 
-    Um Geodaten auf opendata.swiss publizieren zu können, muss der Geodatenstandard
+    Um Geometadaten auf opendata.swiss publizieren zu können, muss der Geometadatenstandard
     `ISO-19139_che <https://www.geocat.admin.ch/de/documentation/gm03-metadata-model.html>`__
     auf den von opendata.swiss genutzten DCAT-AP CH abgebildet werden.
     Diese Dokumentation beschreibt die Standard-Transformation von ISO-19139_che
     nach :doc:`DCAT-AP CH <dcat-ap-ch>`,
-    so wie sie für das Harvesting von Geodaten auf opendata.swiss
-    benötigt wird. Es geht dabei um die `XML-Serialisierung durch XPath <https://de.wikipedia.org/wiki/XPath>`__ .
+    so wie sie für das Harvesting von Geometadaten auf opendata.swiss
+    benötigt wird. Es geht dabei um
+    die `XML-Serialisierung durch XPath <https://de.wikipedia.org/wiki/XPath>`__ .
+
     Diese Dokumentation ist aktuell nur in Englisch verfügbar.
 
 DCAT-AP CH Standard Overview
