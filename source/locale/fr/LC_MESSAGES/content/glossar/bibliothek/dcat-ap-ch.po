@@ -36,7 +36,7 @@ msgstr ""
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:12
 #, fuzzy
 msgid "Der Schweizer Metadatenstandard"
-msgstr "La norme suisse régissant les métadonnées concernant des données"
+msgstr "La norme suisse en matière de métadonnées"
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:16
 msgid ""
@@ -45,6 +45,12 @@ msgid ""
 "internationalen :term:`DCAT-AP <DCAT-AP>` Standard. Es ist auf "
 "opendata.swiss implementiert."
 msgstr ""
+"`DCAT-AP CH <https://dcat-ap.ch/>`__ , le profil d’application suisse "
+"du vocabulaire de catalogage "
+"de données (Data Catalog Vocabulary, DCAT) pour les portails de données, "
+"se base sur le profil "
+"d’application international :term:`DCAT-AP <DCAT-AP>` standard. "
+"Il est implémenté sur opendata.swiss."
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:20
 msgid ""
@@ -57,6 +63,14 @@ msgid ""
 "conditional). Ebenso finden Sie eine Beschreibung optionaler Felder, die "
 "von opendata.swiss unterstützt werden (optional)."
 msgstr ""
+"Les métadonnées de jeux de "
+"données :doc:`moissonnées <../../publizieren/publikationsvarianten/harvesting>` par opendata.swiss ou "
+"importées sur la plateforme par "
+":doc:`téléchargement XML <../../publizieren/publikationsvarianten/metadaten-via-xml-hochladen>` "
+"doivent respecter la norme DCAT-AP CH. "
+"Les exigences minimales auxquelles vos métadonnées doivent répondre (mandatory, conditional) "
+"sont décrites ci-dessous, de même que les champs "
+"facultatifs qu’opendata.swiss prend en charge (optional)."
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:28
 msgid ""
@@ -65,7 +79,9 @@ msgid ""
 " und dem weiterentwickelten Standard kommen. Sollten Sie solche "
 "Unterschiede feststellen, dürfen Sie sich gerne `an uns wenden "
 "<mailto:opendata@bfs.admin.ch>`__."
-msgstr ""
+msgstr "Les normes DCAT-AP et DCAT-AP CH sont en constant développement. "
+"Il se peut par conséquent qu’elles diffèrent par moment de la norme implémentée sur opendata.swiss. "
+"Si c’est le cas, n’hésitez pas `à nous contacter <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:33
 msgid ""
@@ -73,10 +89,13 @@ msgid ""
 "implementierten Standard hinausgehen, werden diese bei uns weder "
 "berücksichtigt noch angezeigt."
 msgstr ""
+"Si les métadonnées de vos jeux de données vont au-delà de la norme "
+"implémentée sur opendata.swiss, elles ne seront pas prises en compte "
+"et ne s’afficheront pas chez nous."
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:36
 msgid "Diese Dokumentation ist derzeit nur in Englisch verfügbar."
-msgstr "La documentation ci-après n’est pour l’heure disponible qu’en anglais."
+msgstr "Cette documentation n’est pour l’heure disponible qu’en anglais."
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:39
 msgid "DCAT-AP CH Standard Overview"
