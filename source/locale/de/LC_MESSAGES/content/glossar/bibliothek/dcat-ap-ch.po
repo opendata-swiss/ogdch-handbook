@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2022-03-29 18:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
@@ -30,1053 +30,2550 @@ msgid "DCAT-AP Switzerland"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:9
-msgid "DCAT-AP-CH"
+msgid "DCAT-AP CH"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:12
-msgid "Der Schweizer Metadaten-Datenstandard"
+msgid "Der Schweizer Metadatenstandard"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:16
 msgid ""
-"DCAT-AP-CH ist der Schweizer Datenstandard, der derzeit auf "
-"`opendata.swiss <https://opendata.swiss/de/>`__ implementiert ist. Er "
-"basiert auf dem internationalen DCAT-AP Standard."
+"`DCAT-AP CH <https://dcat-ap.ch/>`__ ist das Schweizer Anwendungsprofil "
+"des Data Catalog Vocabulary (DCAT) für Datenportale und basiert auf dem "
+"internationalen :term:`DCAT-AP <DCAT-AP>` Standard. Es ist auf "
+"opendata.swiss implementiert."
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:20
 msgid ""
-"Datasets, die auf opendata.swiss geharvestet werden oder per XML-Upload "
-"auf die Plattform importiert werden, werden in diesem Format erwartet. "
-"DCAT-AP ist ein offener Standard. Ihre Datasets können also auch Felder "
-"enthalten, die über diesen Standard hinausgehen. Diese werden bei uns "
-"nicht berücksichtigt und auch nicht angezeigt. Auf der anderen Seite "
-"haben wir Mindest-Erwartungen an Ihre Metadaten, die hier beschrieben "
-"sind. Ebenso finden Sie hier eine Beschreibung optionaler Felder, die von"
-" opendata.swiss unterstützt werden. Der DCAT-AP ist in ständiger "
-"Weiterentwicklung. Das gilt auch für den DCAT-AP-CH und für den Daten-"
-"Standard, der auf opendata.swiss implementiert ist. Daher gibt es "
-"teilweise Abweichungen zwischen diesen Datenstandards. Sollten Sie solche"
-" feststellen, `wenden Sie sich mit Ihren Fragen gerne an uns "
+"Die Metadaten der Datasets, die von opendata.swiss :doc:`geharvestet "
+"<../../publizieren/publikationsvarianten/harvesting>` oder per :doc:`XML-"
+"Upload <../../publizieren/publikationsvarianten/metadaten-via-xml-"
+"hochladen>` auf die Plattform importiert werden, müssen den DCAT-AP CH "
+"Standard erfüllen. Unten finden Sie beschrieben, welche "
+"Mindestanforderungen Ihre Metadaten erfüllen müssen (mandatory, "
+"conditional). Ebenso finden Sie eine Beschreibung optionaler Felder, die "
+"von opendata.swiss unterstützt werden (optional)."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:28
+msgid ""
+"DCAT-AP und DCAT-AP CH werden stetig weiterentwickelt. Daher kann es "
+"zeitweise zu Abweichungen zwischen dem auf opendata.swiss implementierten"
+" und dem weiterentwickelten Standard kommen. Sollten Sie solche "
+"Unterschiede feststellen, dürfen Sie sich gerne `an uns wenden "
 "<mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:33
+msgid ""
+"Falls Ihre Datasets Metadaten enthalten, die über den auf opendata.swiss "
+"implementierten Standard hinausgehen, werden diese bei uns weder "
+"berücksichtigt noch angezeigt."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:36
 msgid "Diese Dokumentation ist derzeit nur in Englisch verfügbar."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:37
-msgid "DCAT-AP-CH Standard Overview"
-msgstr ""
-
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:39
-msgid ":ref:`RDF-File Structure & Example <dcat-ap-ch-example-rdf>`"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:40
-msgid ":ref:`Namespaces <dcat-ap-ch-namespaces>`"
+msgid "DCAT-AP CH Standard Overview"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:41
-msgid ":ref:`Internationalisation <dcat-ap-ch-internationalisation>`"
+msgid ":ref:`RDF-File Structure & Example <dcat-ap-ch-example-rdf>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:42
-msgid ":ref:`DCAT Catalog <dcat-ap-ch-catalog>`"
+msgid ":ref:`Namespaces <dcat-ap-ch-namespaces>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:43
-msgid ":ref:`DCAT Dataset <dcat-ap-ch-dataset>`"
+msgid ":ref:`Internationalisation <dcat-ap-ch-internationalisation>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:44
+msgid ":ref:`Overview <dcat-ap-ch-overview>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:45
+msgid ":ref:`DCAT Catalog <dcat-ap-ch-catalog>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:46
+msgid ":ref:`DCAT Dataset <dcat-ap-ch-dataset>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:47
 msgid ":ref:`DCAT Resource <dcat-ap-ch-distribution>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:50
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:53
 msgid "RDF-File Structure & Example"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:52
-msgid "An RDF Datacatalog has the following structure:"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:55
+msgid ""
+"Your data catalog must follow the DCAT-AP CH standard. It consists of the"
+" following 4 Classes:"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:77
-msgid "Each Dataset contains Resources, which contain the actual data:"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:58
+msgid "the catalog"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:101
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:59
+msgid "the publishers"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:60
+msgid "the datasets"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:61
+msgid "the distributions"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:63
+msgid ""
+"These classes relate to each other as described below. All examples will "
+"be provided in both ``turtle`` and ``rdf/xml``. ``rdf/xml`` is used for "
+"the actual import of the data. You can use a converter to convert between"
+" these two formats: https://www.easyrdf.org/converter"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:68
+msgid "It is important to provide URIs for each of the classes in your catalog."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:73
+msgid "Here you can see how every class in the catalog has a URI"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:91
+msgid "In RDF the URIs are stored in the ``about`` attribute"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:109
+msgid ""
+"The example catalogs above show the classes without any further "
+"properties. Here you can find an overview of all possible properties and "
+"which of these you must provide."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:112
+msgid "``mandatory`` means you MUST provide them"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:113
+msgid "``conditional`` means you must provide them under certain conditions"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:114
+msgid "``optional`` means you may provide them"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:117
 msgid "Example for Download"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:103
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:119
 msgid ""
 "Have a look at the following file for a quickstart: :download:`full "
 "dataset example <../../../_static/examples/ogdch_dcatap_import.rdf>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:109
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:125
 msgid "Namespaces"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:128
-msgid "Internationalisation"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:130
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:127
 msgid ""
-"The DCAT-AP for Switzerland Standard expects that text elements of the "
-"datasets and their distributions be translated in the following four "
-"languages: \\* French (fr) \\* German (de) \\* Italian (it) \\* English "
-"(en)"
+"All classes and properties have definitions that are accessible with a "
+"URI. Usually these URIs are provided in the header of the data catalog "
+"and receive an alias there, so that they can be easily referenced in the "
+"rest of the catalog: A ``dcat:Dataset`` really means "
+"``http://www.w3.org/ns/dcat#Dataset``. To avoid having to write that "
+"throughout the document, a namespace is defined by ``@prefix dcat: "
+"<http://www.w3.org/ns/dcat#> .`` in ``turtle`` or "
+"``xmlns:dcat=\"http://www.w3.org/ns/dcat#\"`` in ``RDF``."
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:134
+msgid "These are the namespaces that are used in DCAT-AP CH:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:136
+msgid "DCAT-AP CH namespaces in turtle"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:148
+msgid "DCAT-AP CH namespaces in rdf"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:165
+msgid "Internationalisation"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:167
 msgid ""
-"The multi-lingual elements have to contain the ``xml:lang`` attribute, as"
-" the following example show:"
+"The DCAT-AP CH Standard allows/supports that text elements of datasets "
+"and their distributions are translated in the following four languages:"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:147
-msgid "Catalog"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:171
+msgid "French (fr)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:151
-msgid "Please click on the text below for more details."
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:172
+msgid "German (de)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:155
-msgid "**dcat:Catalog** 1..1"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst
-msgid "Content"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:157
-msgid "Contains nested elements of type :ref:`dcat:Dataset <dcat-ap-ch-dataset>`"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst
-msgid "Mandatory"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:158
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:177
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:201
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:221
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:241
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:260
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:318
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:338
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:368
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:591
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:614
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:688
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:744
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:801
-msgid "yes"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst
-msgid "Cardinality"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:159
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:202
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:222
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:615
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:802
-msgid "1..1"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst
-msgid "Description"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:160
-msgid "Catalog with datasets"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:162
-msgid "dcat:Catalog"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:173
+msgid "Italian (it)"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:174
-msgid "**dcat:dataset** 1..n"
+msgid "English (en)"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:176
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:200
 msgid ""
-"Contains single nested element of :ref:`dcat:Dataset <dcat-ap-ch-"
-"dataset>`."
+"Examples are provided for how to translate those elements for all "
+"relevant properties."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:178
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:319
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:339
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:369
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:592
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:745
-msgid "1..n"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:182
+msgid "Overview"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:179
-msgid "Wrapper for a dataset of the catalog"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:184
+msgid ""
+"Below you find a list of classes that you need to implement in your "
+"catalog. Translatable elements are marked as such under usage notes."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:181
-msgid "dcat:dataset"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:187
+msgid "Classes of DCAT-AP CH"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:192
+msgid "class"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:193
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:211
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:223
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:287
+msgid "URI"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:194
-msgid "Dataset"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:212
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:224
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:288
+msgid "usage notes"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:195
+msgid ":ref:`Catalog <dcat-ap-ch-catalog>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:196
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-class.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst:2
+msgid "dcat:Catalog"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:197
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:200
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:203
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:215
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:236
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:239
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:242
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:291
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:294
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:297
+msgid "**mandatory**"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:198
-msgid "**dcat:Dataset** 1..1"
+msgid ":ref:`Dataset <dcat-ap-ch-dataset>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst
-msgid "Attributes"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:204
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:616
-msgid "Name: ``rdf:about``"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:205
-msgid "Content: Unique identifier for dataset"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:206
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:287
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:304
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:372
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:455
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:559
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:577
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:618
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:653
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:674
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:693
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:714
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:749
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:773
-msgid "Mandatory: yes"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:207
-msgid "A single dataset of the catalog"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:209
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:199
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-class.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst:2
 msgid "dcat:Dataset"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:218
-msgid "**dct:identifier** 1..1"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:201
+msgid ":ref:`Distribution <dcat-ap-ch-distribution>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst
-msgid "Type"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:202
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-class.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst:2
+msgid "dcat:Distribution"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:220
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:240
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:259
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:449
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:572
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:632
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:646
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:667
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:786
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:834
-msgid "``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:205
+msgid "Properties of dcat:Catalog"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:223
-msgid ""
-"Unique identifier of the dataset across all publishers. A good way to "
-"make sure this identifier is unique is to link the source system ID with "
-"the ID of the publisher: ``[Source-Dataset-ID]@[Source-Organisation-"
-"ID]``. It is recommended that the identifier consists out of the "
-"following characters: ``A-Za-z``, ``0-9`` without special characters, "
-"except ``-`` and ``_``"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:210
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:222
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:286
+msgid "property"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:231
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:637
-msgid "dct:identifier"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:213
+msgid ":ref:`dataset <dcat-catalog-dataset>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:238
-msgid "**dct:title** 1..n"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:214
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst:1
+msgid "dcat:dataset"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:242
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:261
-msgid "1..n (one for each language)"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:217
+msgid "Properties of dcat:Dataset"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:243
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:262
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:452
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:650
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:671
-msgid "Name: ``xml:lang``"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:225
+msgid ":ref:`title <dcat-dataset-title>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:244
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:263
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:651
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:672
-msgid "Content: ``en``, ``de``, ``fr``, ``it``"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:245
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:264
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:454
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:652
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:673
-msgid "Description: Language of the element"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:246
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:265
-msgid "Mandatory : yes"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:247
-msgid "Title of the dataset in the language defined by the ``xml:lang`` attribute"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:250
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:226
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:299
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst:1
 msgid "dct:title"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:257
-msgid "**dct:description** 1..n"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:227
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:230
+msgid "**mandatory**, multilingual"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:266
-msgid ""
-"Description of the dataset in the the language defined by the "
-"``xml:lang`` attribute"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:228
+msgid ":ref:`description <dcat-dataset-description>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:269
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:678
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:229
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:302
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst:1
 msgid "dct:description"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:279
-msgid "dct:issued 0..n"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:231
+msgid ":fa:`exclamation` :ref:`publisher <dcat-dataset-publisher>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:232
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst:1
+msgid "dct:publisher"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:233
+msgid "**mandatory**, :fa:`exclamation` import format changed"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:234
+msgid ":ref:`contact point <dcat-dataset-contact-point>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:235
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst:1
+msgid "dcat:contactPoint"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:237
+msgid ":ref:`identifier <dcat-dataset-identifier>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:238
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:323
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst:1
+msgid "dct:identifier"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:240
+msgid ":ref:`distribution <dcat-dataset-distribution>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:241
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst:1
+msgid "dcat:distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:243
+msgid ":ref:`issued <dcat-dataset-issued>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:244
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:290
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst:1
+msgid "dct:issued"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:245
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:248
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:251
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:257
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:306
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:309
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:312
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:315
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:318
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst:4
+msgid "conditional"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:246
+msgid ":ref:`modified <dcat-dataset-modified>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:247
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:317
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst:1
+msgid "dct:modified"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:249
+msgid ":ref:`theme <dcat-dataset-theme>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:250
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst:1
+msgid "dcat:theme"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:252
+msgid ":fa:`exclamation` :ref:`landing page <dcat-dataset-landing-page>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:253
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst:1
+msgid "dcat:landingPage"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:254
+msgid "conditional,  :fa:`exclamation` import format changed"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:255
+msgid ":ref:`language <dcat-dataset-language>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:256
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:314
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst:1
+msgid "dct:language"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:258
+msgid ":ref:`keyword <dcat-dataset-keyword>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:259
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst:1
+msgid "dcat:keyword"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:260
+msgid "optional, multilingual"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:261
+msgid ":ref:`spatial <dcat-dataset-spatial>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:262
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst:1
+msgid "dct:spatial"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:263
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:266
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:269
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:275
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:278
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:321
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:324
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:327
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:330
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst:4
+msgid "optional"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:264
+msgid ":ref:`coverage <dcat-dataset-coverage>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:265
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:329
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst:1
+msgid "dct:coverage"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:267
+msgid ":ref:`temporal <dcat-dataset-temporal>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:268
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst:1
+msgid "dct:temporal"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:270
+msgid ""
+":fa:`exclamation` :ref:`accrual periodicity <dcat-dataset-accrual-"
+"periodicity>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:271
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst:1
+msgid "dct:accrualPeriodicity"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:272
+msgid "optional, :fa:`exclamation` import format changed"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:273
+msgid ":ref:`coverage <dcat-dataset-relation>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:274
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst:1
+msgid "dct:relation"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:276
+msgid ":ref:`see also <dcat-dataset-see-also>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:277
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst:1
+msgid "rdfs:seeAlso"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:281
+msgid "Properties of dcat:Distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:289
+msgid ":ref:`issued <dcat-distribution-issued>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:292
+msgid ":ref:`access url <dcat-distribution-access-url>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:293
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst:1
+msgid "dcat:accessURL"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:295
+msgid ":ref:`rights <dcat-distribution-rights>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:296
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst:1
+msgid "dct:rights"
+msgstr ""
+
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:298
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:687
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:705
+msgid ":ref:`title <dcat-distribution-title>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:300
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:303
+msgid "conditional, multilingual"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:301
+msgid ":ref:`description <dcat-distribution-description>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:304
+msgid ":ref:`byte size <dcat-distribution-byte-size>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:305
+msgid "dct:byteSize"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:307
+msgid ":ref:`media type <dcat-distribution-media-type>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:308
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst:1
+msgid "dct:mediaType"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:310
+msgid ":ref:`format <dcat-distribution-format>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:311
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst:1
+msgid "dct:format"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:313
+msgid ":ref:`language <dcat-distribution-language>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:316
+msgid ":ref:`modified <dcat-distribution-modified>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:319
+msgid ":ref:`license <dcat-distribution-license>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:320
+msgid "dcat:license"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:322
+msgid ":ref:`identifier <dcat-distribution-identifier>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:325
+msgid ":ref:`download url <dcat-distribution-download-url>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:326
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst:1
+msgid "dcat:downloadURL"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:328
+msgid ":ref:`coverage <dcat-distribution-coverage>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:335
+msgid "Catalog"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:340
+msgid "dcat:Catalog (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst
+msgid "DCAT URI"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst
+msgid "Requirement Level"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-class.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-class.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-class.rst:2
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst:4
+msgid "mandatory"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst
+msgid "Cardinality"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-class.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst:6
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst:5
+msgid "1..1"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst
+msgid "Description"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-class.rst:4
+msgid "Catalog with datasets, usually a catalog endpoint"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-class.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst
+msgid "Usage Notes"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-class.rst:5
+msgid "If possible provide a URI, where the catalog can be accessed"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/catalog-class-ttl.rst:1
+msgid "A ``dcat:Catalog`` with a URI in Turtle"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/catalog-class-rdf.rst:1
+msgid "A ``dcat:Catalog`` with a URI in RDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:359
+msgid "dcat:dataset (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst
+msgid "Domain"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst
+msgid "Value"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst:3
+msgid "``dcat:Dataset``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-class.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-class.rst:3
+msgid "1..n"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst:6
+msgid "Datasets that are included in the catalog"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/catalog-datasets.rst:7
+msgid "Provide at least one dataset per catalog"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/catalog-datasets-ttl.rst:1
+msgid "A ``dcat:Catalog`` containing two datasets in Turtle"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/catalog-datasets-rdf.rst:1
+msgid "A ``dcat:Catalog`` containing two datasets in RDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:378
+msgid "Dataset"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:383
+msgid "dcat:Dataset (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-class.rst:4
+msgid "A single dataset of the catalog"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-class.rst:5
+msgid ""
+"Provide at least one dataset per catalog. Provide a URI per dataset if "
+"possible"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-class-ttl.rst:1
+msgid "a ``dcat:Dataset`` with a URI in Turtle"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-class-rdf.rst:1
+msgid "a ``dcat:Dataset`` with a URI in rdf"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:402
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:1009
+msgid "dct:identifier (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst:3
+msgid ""
+"``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal with special"
+" requirements, see Usage Notes"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst:7
+msgid "Unique identifier of the dataset across all publishers."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-identifier.rst:8
+msgid ""
+"The identifier is expected in the following structure: ``[Source-Dataset-"
+"ID]@[Source-Organisation-ID]`` where ``[Source-Organisation-ID]`` is the "
+":term:`slug <Slug>` of the organization on opendata.swiss. ``[Source-"
+"Dataset-ID]`` must be unique within the datasets of the organization. A "
+"recommended way to choose this is to use the ID in the source system of "
+"the publisher. It can consist of the following characters: ``A-Za-z``, "
+"``0-9`` and ``-`` and ``_``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-identifier-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-identifier-ttl.rst:1
+msgid ""
+"The ``dct:identifier`` is made up of the organization slug and an id to "
+"uniquely identify the dataset on opendata.swiss"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:421
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:952
+msgid "dct:title (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst:3
+msgid "``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst:5
+msgid "1..4 (one for each language)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst:6
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst:6
+msgid "Title of the dataset in different languages"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-title.rst:7
+msgid "Provide at least one of the languages ``en``, ``de``, ``fr``, ``it``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-title-ttl.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-title-ttl.rst:1
+msgid "In Turtle strings are marked by the language they are in"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-title-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-title-rdf.rst:1
+msgid "In RDF the language is stored in the ``xml:lang`` attribute"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:440
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:971
+msgid "dct:description (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst:6
+msgid "Description of the dataset in different languages"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-description.rst:7
+msgid ""
+"Provide at least one of the languages ``en``, ``de``, ``fr``, ``it``. "
+"Markdown can be used."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-description-ttl.rst:1
+msgid "Description of a dataset using Markdown in Turtle"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-description-rdf.rst:1
+msgid "Description of a dataset using Markdown in RDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:459
+msgid "dct:publisher (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst:3
+msgid ""
+":fa:`exclamation` ``foaf:Organziation`` "
+"http://xmlns.com/foaf/spec/#term_Organization"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst:6
+msgid ""
+"The publisher is the organization with the legal authority to publish the"
+" dataset."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst:8
+msgid ""
+"See here for the difference between ``dct:publisher`` and "
+"``dcat:contactPoint``: https://joinup.ec.europa.eu/release/how-are-"
+"publisher-and-contact-point-modelled"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst
+msgid "Update"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-publisher.rst:11
+msgid ":fa:`exclamation` Publisher must be a foaf:Organzation DCAT-AP."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-publisher-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-publisher-ttl.rst:1
+msgid ""
+":fa:`exclamation` publisher as foaf:Organization which is a subtype of "
+"foaf:Agent"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/deprecated/dataset-publisher-ttl.rst:1
+msgid "Publisher of a dataset in Turtle"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/deprecated/dataset-publisher-rdf.rst:1
+msgid "Publisher of a dataset in RDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:488
+msgid "dcat:contactPoint (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst:3
+msgid "``vcard:Kind``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst:6
+msgid "One or more contact email addresses for this dataset"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-contact-point.rst:7
+msgid ""
+"``vcard:Kind`` is in itself a class: choose between "
+"``vcard:Organization`` and ``vcard:Individual`` and set the attributes "
+"``vcard:hasEmail`` and ``vcard:fn``."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-contact-point-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-contact-point-ttl.rst:1
+msgid ""
+"``vcard:Kind`` is a class: choose between ``vcard:Organization`` and "
+"``vcard:Individual``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:507
+msgid "dcat:distribution (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst:3
+msgid "``dcat:Distribution``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst:6
+msgid "Distributions that belong to the dataset"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-distribution.rst:7
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-class.rst:5
+msgid "Provide at least one distribution per dataset"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-distribution-ttl.rst:1
+msgid "``dcat:Distribution`` with URIs in Turtle"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-distribution-rdf.rst:1
+msgid "``dcat:Distribution`` with URIs in RDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:526
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:838
+msgid "dct:issued (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst:3
 msgid ""
 "Date and time in `ISO-8601 <https://en.wikipedia.org/wiki/ISO_8601>`__ "
 "format"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:282
-msgid ""
-"Can be left out if there is no :ref:`distribution <dcat-ap-ch-"
-"distribution>`"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst:4
+msgid "conditional: required once the the dataset is published"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:283
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:300
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:634
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:689
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:710
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:821
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:837
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:853
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:870
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst:6
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst:6
 msgid "0..1"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:284
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:301
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:690
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:711
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:746
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:770
-msgid "Name: ``rdf:datatype``"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst:6
+msgid "Date of the first publication of the dataset"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:285
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:302
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:691
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:712
-msgid "Content: \\http://www.w3.org/2001/XMLSchema#dateTime"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-issued.rst:7
+msgid "Can be empty while the dataset is in preparation."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:286
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:303
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:692
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:713
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:748
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:772
-msgid "Description: Type of the field"
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-issued-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-issued-ttl.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-issued-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-issued-ttl.rst:1
+msgid "The issued date is expected in ISO Format"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:289
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:696
-msgid "dct:issued"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:545
+msgid "dct-modified (DCAT)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:296
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:703
-msgid "dct:modified 0..1"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:299
-msgid "Only when the dataset has changed since the first publication"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:305
-msgid "Date of the last change (since the first publication on opendata.swiss)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:307
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:717
-msgid "dct:modified"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:314
-msgid "**dct:publisher** 1..n"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst
-msgid "Elements"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:316
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:428
-msgid "``rdf:Description``"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:317
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:429
-msgid "Nested element"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:320
-msgid "The publishers of the dataset. ``rdf:about`` is an optional attribute."
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:323
-msgid "dct:publisher"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:334
-msgid "**dcat:contactPoint** 1..n"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:336
-msgid "``vcard:Organization``"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:337
-msgid "``vcard:Kind``"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:340
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst:4
 msgid ""
-"One or more contact email addresses for this dataset ``vcard:fn``. "
-"Description of the point of contact ``vcard:hasEmail`` has an attribute "
-"``rdf:resource`` which contains the email of the point of contact "
-"(including mailto:)"
+"conditional: required when the dataset has changed since its first "
+"publication"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:345
-msgid "dcat:contactPoint"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-modified.rst:7
+msgid "Date of the last change"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:364
-msgid "**dcat:theme** 1..n"
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-modified-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-modified-ttl.rst:1
+msgid "The date of the last modification is expected in ISO Format"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:366
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:564
+msgid "dcat:theme (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst:3
 msgid ""
-"``skos:Concept`` http://www.w3.org/2009/08/skos-"
-"reference/skos.html#Concept"
+"DCAT-AP-CH has its own `controlled vocabulary for the themes <https"
+"://dcat-ap.ch/vocabulary/themes>`__"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:370
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:557
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:575
-msgid "Name: ``rdf:resource``"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:371
-msgid "Description: URI to the category"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:373
-msgid ""
-"Categorisation of the data. In the ``rdf:resource`` attribute, the unique"
-" URI of the category from :download:`SKOS-RDF <../../../_static/examples"
-"/opendataswiss-themes.rdf>` (RDF) must be given. The following values are"
-" accepted from Themes: https://opendata.swiss/group/work, "
-"https://opendata.swiss/group/construction, "
-"https://opendata.swiss/group/population, "
-"https://opendata.swiss/group/education, "
-"https://opendata.swiss/group/energy, "
-"https://opendata.swiss/group/finances, "
-"https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/legislation, "
-"https://opendata.swiss/group/health, https://opendata.swiss/group/trade, "
-"https://opendata.swiss/group/industry, "
-"https://opendata.swiss/group/crime, https://opendata.swiss/group/culture,"
-" https://opendata.swiss/group/agriculture, "
-"https://opendata.swiss/group/mobility, https://opendata.swiss/group"
-"/public-order, https://opendata.swiss/group/politics, "
-"https://opendata.swiss/group/prices, "
-"https://opendata.swiss/group/territory, https://opendata.swiss/group"
-"/social-security, https://opendata.swiss/group/statistical-basis, "
-"https://opendata.swiss/group/tourism, "
-"https://opendata.swiss/group/administration, https://opendata.swiss/group"
-"/national-economy,"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:403
-msgid "dcat:theme"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:410
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:724
-msgid "dct:language 0..n"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:412
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:726
-msgid "``rdfs:Literal`` ISO 639-1 two-letter code"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:413
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:727
-msgid "``en``, ``de``, ``fr``, ``it``"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:414
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:430
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:450
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:471
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:485
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:518
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:534
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:555
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:573
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:633
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:728
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:768
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:820
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:869
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:887
-msgid "no"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:415
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:729
-msgid "0..n (for each language)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:416
-msgid ""
-"Should contain all languages for which a distribution is available. This "
-"field is not validated and is used for display purposes. If all "
-"distributions are language-independant, this field can be left out."
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:419
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:436
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:458
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:734
-msgid "dct:language"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:426
-msgid "dct:relation 0..n"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:431
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:451
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:472
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:486
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:519
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:535
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:556
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:574
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:769
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:888
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst:6
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst:6
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst:6
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst:5
 msgid "0..n"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:432
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-theme.rst:7
+msgid "Categories that match the topic of the dataset"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-theme-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-theme-ttl.rst:1
+msgid "The categories are selected from a Swiss controlled vocabulary"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:583
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:990
+msgid "dct:language (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst
+msgid "DCAT-URI"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst:3
 msgid ""
-"A relation to a document. The ``rdf:about`` must link to a related "
-"document."
+"`ISO 639-1 two-letter code "
+"<https://id.loc.gov/vocabulary/iso639-1.html>`__"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:447
-msgid "dcat:keyword 0..n"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst:6
+msgid "Languages in which distributions are available"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:453
-msgid "Content:  ``en``, ``de``, ``fr``, ``it``"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-language.rst:7
+msgid ""
+"Should contain all languages for which a distribution of the dataset is "
+"available. If all distributions are language-independent, this field can "
+"be left out. Only the languages \"de\", \"fr\", \"en\", \"it\" are "
+"currently imported to opendata.swiss"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:456
-msgid "Keyword who describes this dataset"
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-language-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-language-ttl.rst:1
+msgid "A ``dcat:Dataset`` with multiple ``dct:language`` properties"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:468
-msgid "dcat:landingPage 0..1"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:603
+msgid "dcat:landingPage (DCAT)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:470
-msgid "``foaf:Document`` http://xmlns.com/foaf/spec/#term_Document"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst:3
+msgid ""
+":fa:`exclamation` ``foaf:Document`` "
+"http://xmlns.com/foaf/spec/#term_Document"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:473
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst:6
 msgid "Website of the dataset with related information"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:475
-msgid "dcat:landingPage"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst:7
+msgid ""
+"If data of the dataset is only accessible via a landing page (i.e. direct"
+" download URLs are not known), the landing page must be set and the link "
+"should be duplicated as ``dcat:accessURL`` on a distribution."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:482
-msgid "dct:spatial 0..n"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-landing-page.rst:10
+msgid ""
+":fa:`exclamation` Use a resource instead of a string literal for the "
+"landing page"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:484
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-landing-page-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-landing-page-ttl.rst:1
+msgid ":fa:`exclamation` The landing page is provided as a resource"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/deprecated/dataset-landing-page-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/deprecated/dataset-landing-page-ttl.rst:1
+msgid "The landing page is provided as a string"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:632
+msgid "dct:relation (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst:3
+msgid "``rdfs:Resource``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst:6
+msgid "related resource"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-relation.rst:7
+msgid ""
+"Link to documents that provide further information for the dataset. This "
+"property is also used to link to the legal basis regarding the "
+"publication of the dataset"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-relation-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-relation-ttl.rst:1
+msgid ""
+"``dct:relation`` values should be of the class ``rdfs:Resource`` or a "
+"subclass. They should therefore each have a URI, according to DCAT"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:651
+msgid "dcat:keyword (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst:6
+msgid ""
+"Keywords that match the topic of the dataset and help data users to find "
+"it"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-keyword.rst:7
+msgid ""
+"Keywords must be added as localized strings in the 4 languages ``en``, "
+"``de``, ``fr``, ``it``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-keyword-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-keyword-ttl.rst:1
+msgid "Keywords are given as localized strings"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:670
+msgid "dct:spatial (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst:3
 msgid ""
 "``dct:Location`` https://www.dublincore.org/specifications/dublin-core"
 "/dcmi-terms/2012-06-14/#terms-Location"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:487
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst:6
+msgid "Geographical classification of the dataset."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-spatial.rst:7
 msgid ""
-"Geographical classification of the dataset. Can be a description, "
-"coordinates, a bounding-box or a polygon. This field currently supports "
-"GeoJSON with the `LOCN extension "
+"Can be a description, coordinates, a bounding-box or a polygon. This "
+"field currently supports GeoJSON with the `LOCN extension "
 "<https://www.w3.org/community/locadd/wiki/LOCN_extension:_Metadata>`__ . "
 "See also: `How should dct:spatial and dct:Location be used? "
 "<https://joinup.ec.europa.eu/release/how-should-dctspatial-and-"
 "dctlocation-be-used>`__                                |"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:493
-msgid "dct:spatial"
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-spatial-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-spatial-ttl.rst:1
+msgid "Property spatial"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:514
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:883
-msgid "dct:coverage 0..n"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:689
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:1028
+msgid "dct:coverage (DCAT)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:516
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst:3
 msgid ""
-"``dct:LocationPeriodOrJurisdiction`` "
-"\\http://dublincore.org/documents/2012/06/14/dcmi-"
+"``dct:LocationPeriodOrJurisdiction``, see "
+"http://dublincore.org/documents/2012/06/14/dcmi-"
 "terms/?v=terms#LocationPeriodOrJurisdiction"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:520
-msgid "This field is currently not used, use ``dct:spatial`` instead."
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst:7
+msgid "The location or time a dataset covers."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:523
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:893
-msgid "dct:coverage"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:530
-msgid "dcat:temporal 0..n"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:532
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-coverage.rst:8
 msgid ""
-"``dct:PeriodOfTime`` https://www.dublincore.org/specifications/dublin-"
+"This property is deprecated and might be excluded from future versions of"
+" DCAT-AP CH. Consider using ``dct:temporal`` or ``dct:spatial``. If a "
+"date is provided, it does not have to be an ISO date."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-coverage-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-coverage-ttl.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-coverage-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-coverage-ttl.rst:1
+msgid ""
+"Coverage can be a date or a location: it does not have to be an isodate, "
+"but can be any date format"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:708
+msgid "dct:temporal (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst:3
+msgid ""
+"``dct:PeriodOfTime``: https://www.dublincore.org/specifications/dublin-"
 "core/dcmi-terms/2012-06-14/#terms-PeriodOfTime"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:536
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst:6
+msgid "One or more time period(s) that the dataset covers."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-temporal.rst:7
 msgid ""
-"One or more time period(s) that cover the dataset. ``<schema:startDate>``"
-" contains the start date, ``<schema:endDate>`` contains the end date "
-"format for dates: \\http://www.w3.org/2001/XMLSchema#date"
+"``<schema:startDate>`` contains the start date, ``<schema:endDate>`` "
+"contains the end date. Valid date formats can be found here: "
+"http://www.w3.org/2001/XMLSchema#date"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:541
-msgid "dct:temporal"
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-temporal-ttl.rst:1
+msgid "A time period in Turtle: there can be multiple of these"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:553
-msgid "dct:accrualPeriodicity 0..n"
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-temporal-rdf.rst:1
+msgid "A time period in RDF: there can be multiple of these"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:558
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:576
-msgid "Type: ``dct:Frequency``"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:727
+msgid "dct:accrual-periodicity (DCAT)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:560
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst:3
 msgid ""
-"The frequency in which this dataset is updated. Values for "
-"``dct:Frequency``: http://dublincore.org/groups/collections/frequency/"
+":fa:`exclamation` Controlled vocabulary "
+"http://publications.europa.eu/resource/authority/frequency"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:563
-msgid "dct:accrualPeriodicity"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst:6
+msgid "The frequency with which this dataset is updated."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:570
-msgid "rdfs:seeAlso 0..n"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst:7
+msgid "Provide a term of the controlled vocabulary in the form of a URI."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:578
-msgid "Link to related datasets. Contains the identifier of the linked dataset."
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-accrual-periodicity.rst:8
+msgid ":fa:`exclamation` Use EU vocabulary that is mandatory on DCAT-AP."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:580
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:810
-msgid "rdfs:seeAlso"
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-accrual-periodicity-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-accrual-periodicity-ttl.rst:1
+msgid ":fa:`exclamation` EU frequency vocabulary is used"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:587
-msgid "**dcat:distribution** 1..n"
+#: ../../source/content/glossar/bibliothek/dcat-examples/deprecated/dataset-accrual-periodicity-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/deprecated/dataset-accrual-periodicity-ttl.rst:1
+msgid "dataset that is updated on a daily basis"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:589
-msgid ""
-"Contains single nested element of type ``dcat:Distribution``. See "
-":ref:`Definition of dcat:Distribution <dcat-ap-ch-distribution>`."
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:756
+msgid "dcat:seeAlso (DCAT)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:593
-msgid "Wrapper for a distribution of the dataset"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst:6
+msgid "Link to related datasets."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:595
-msgid "dcat:distribution"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/dataset-see-also.rst:7
+msgid "Contains the identifier of the linked dataset."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:608
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-see-also-ttl.rst:1
+msgid "A ``dcat:Dataset`` with a ``rdfs:seeAlso`` in Turtle"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/dataset-see-also-rdf.rst:1
+msgid "A ``dcat:Dataset`` with a ``rdfs:seeAlso`` in RDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:775
 msgid "Distribution"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:612
-msgid "**dcat:Distribution** 1..1"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:780
+msgid "dcat:Distribution (DCAT)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:617
-msgid "Content: Unique identifier for distribution"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-class.rst:4
+msgid "A single distribution of a dataset"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:619
-msgid "A single distribution of the dataset"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:621
-msgid "dcat:Distribution"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:630
-msgid "dct:identifier 0..1"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:635
-msgid "Identifier of the distribution in the source system"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:644
-msgid "dcat:title 0..n"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:647
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:668
-msgid ""
-"no - except if the distribution does not contain all the content of the "
-"dataset."
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:649
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:670
-msgid "0..n (one for each language)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:654
-msgid ""
-"The title of the distribution in the language defined by the "
-"``xml:lang?`` attribute. If this element is left out, the ``dct:title`` "
-"of the dataset is used instead."
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:658
-msgid "dcat:title"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:665
-msgid "dct:description 0..n"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:675
-msgid ""
-"Description of the distribution in the language defined by the "
-"``xml:lang?`` attribute."
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:685
-msgid "**dct:issued 0..1**"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:694
-msgid "Date of the publication of this distribution"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:706
-msgid ""
-"Only when the distribution has changed since the first publication. If "
-"this distribution was changed several times, this corresponds to the date"
-" of the latest change."
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:715
-msgid "Date of the last change of the distribution"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:730
-msgid ""
-"Languages in which this distribution is available. If the distribution is"
-" language-independant, this can be left out."
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:741
-msgid "**dcat:accessURL** 1..n"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:743
-msgid "\\http://www.w3.org/2001/XMLSchema#anyURI"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:747
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:771
-msgid "Content: \\http://www.w3.org/2001/XMLSchema#anyURI"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:750
-msgid ""
-"URL where the distribution can be found. This could be either a download "
-"URL, an API URL or a landing page URL. If the distribution is only "
-"available through a landing page, this field must contain the URL of the "
-"landing page. If a download URL was given for this distribution, this "
-"field has to contain the same value."
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:758
-msgid "dcat:accessURL"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:765
-msgid "dcat:downloadURL 0..1"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:767
-msgid "\\https://www.w3.org/ns/dcat#downloadURL"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:774
-msgid ""
-"URL of a data file, if the distribution can be downloaded. For each of "
-"these, a ``dcat:accessURL`` has to exist."
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:777
-msgid "dcat:downloadURL"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:784
-msgid "**dct:rights** 1..1"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:788
-msgid ""
-"NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired (acceptable "
-"for opendata.swiss, Open Definition compliant)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:789
-msgid ""
-"NonCommercialAllowed-CommercialAllowed-ReferenceRequired (acceptable for "
-"opendata.swiss, Open Definition compliant)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:790
-msgid ""
-"NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired "
-"(acceptable for opendata.swiss)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:791
-msgid ""
-"NonCommercialAllowed-CommercialWithPermission-ReferenceRequired "
-"(acceptable for opendata.swiss)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:792
-msgid ""
-"NonCommercialAllowed-CommercialNotAllowed-ReferenceNotRequired (not "
-"acceptable for opendata.swiss)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:793
-msgid ""
-"NonCommercialAllowed-CommercialNotAllowed-ReferenceRequired (not "
-"acceptable for opendata.swiss)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:794
-msgid ""
-"NonCommercialNotAllowed-CommercialNotAllowed-ReferenceNotRequired (not "
-"acceptable for opendata.swiss)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:795
-msgid ""
-"NonCommercialNotAllowed-CommercialNotAllowed-ReferenceRequired (not "
-"acceptable for opendata.swiss)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:796
-msgid ""
-"NonCommercialNotAllowed-CommercialAllowed-ReferenceNotRequired (not "
-"acceptable for opendata.swiss)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:797
-msgid ""
-"NonCommercialNotAllowed-CommercialAllowed-ReferenceRequired (not "
-"acceptable for opendata.swiss)"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:798
-msgid ""
-"NonCommercialNotAllowed-CommercialWithPermission-ReferenceNotRequired "
-"(not acceptable for opendata.swiss)"
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-class-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-class-ttl.rst:1
+msgid "a ``dcat:Distribution`` with a URI"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:799
-msgid ""
-"NonCommercialNotAllowed-CommercialWithPermission-ReferenceRequired (not "
-"acceptable for opendata.swiss)"
+msgid "dcat:accessURL (DCAT)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:803
-msgid ""
-"Rights statement of this distribution. This is composed of 3 elements "
-"that can be summarized in a string literal: - Non-commercial use: allowed"
-" or not allowed - Commercial use: allowed, allowed with permission and "
-"not allowed - Reference: required or not required For each of these, a "
-"``dcat:accessURL`` has to exist."
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst:3
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst:3
+msgid "URI: http://www.w3.org/2001/XMLSchema#anyURI"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:817
-msgid "dct:license 0..1"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-access-url.rst:6
+msgid ""
+"URL where the distribution can be found. This could be a download URL, an"
+" API URL or a landing page URL. If the distribution is only available "
+"through a landing page, this field must contain the URL of the landing "
+"page. If a download URL was given for this distribution, this field must "
+"contain the same value."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-access-url-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-access-url-ttl.rst:1
+msgid "The access url is mandatory"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:819
-msgid "``dct:LicenseDocument``"
+msgid "dcat:downloadURL (DCAT)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:822
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst:6
+msgid "URL for the download, if the distribution can be downloaded"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-download-url.rst:7
 msgid ""
-"Not used, see ``dct:rights``. This field ensures compatibility to other "
-"metadata standards."
+"If the distribution can be downloaded, this property usually contains the"
+" same url as ``dcat:accessURL``. See also "
+"https://www.w3.org/ns/dcat#downloadURL"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:825
-msgid "dct:license"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:832
-msgid "dcat:byteSize 0..1"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:835
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:851
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-download-url-ttl.rst:1
 msgid ""
-"no - except if the distribution is available as a data download (see "
-"``downloadURL``)."
+"The download url can be used for files and will then be the same as the "
+"access url"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:838
-msgid "Size of the data in bytes"
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-download-url-rdf.rst:1
+msgid "The download url can be used for files"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:840
-msgid "dcat:byteSize"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-issued.rst:6
+msgid "Date of the publication of this distribution"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:847
-msgid "dcat:mediaType 0..1"
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:857
+msgid "dct:rights (DCAT)"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:849
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst:6
+msgid ""
+"Rights statement that is relevant for the dcat:accessURL of this "
+"distribution."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst:7
+msgid ""
+"The `rights statement / terms of use <https://opendata.swiss/de/terms-of-"
+"use>`__ declares for which purpose and in which context the data of a "
+"distribution can be used: for commercial purposes or only for non "
+"commercial purposes. Does it need to be referenced, when it is used? "
+"These conditions are all captured in the right statements. For the exact "
+"values, see the list below."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst:13
+msgid "Values acceptable for opendata.swiss"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-rights.rst:22
+msgid "Values not acceptable for opendata.swiss"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-rights-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-rights-ttl.rst:1
+msgid "the rights statement comes from a controlled vocabulary"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:876
+msgid "dct:mediaType (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst:3
+msgid ""
+"`dct:MediaTypeOrExtent`` must be a MIME type of "
+"http://www.iana.org/assignments/media-types/media-types.xhtml"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst:4
+msgid ""
+"conditional, required if the distribution is  a file accessible by a "
+"``dcat:downloadURL``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst:6
+msgid "Resource format of the data provided by the ``dcat:downloadURL``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-media-type.rst:7
+msgid "Not required for distributions that have only a ``dcat:accessURL``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-media-type-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-media-type-ttl.rst:1
+msgid "The mediaType is used to specify the file format of a download url"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:895
+msgid "dct:format (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst:3
 msgid ""
 "``dct:MediaTypeOrExtent`` http://www.iana.org/assignments/media-types"
 "/media-types.xhtml"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:854
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst:4
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst:4
 msgid ""
-"This value will be used to display the ressource-format if the "
-"downloadURL is empty. Only values from the list of IANA MIME types "
-"http://www.iana.org/assignments/media-types/media-types.xhtml"
+"conditional, required if the distribution is accessible by a "
+"``dcat:downloadURL``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:859
-msgid "dcat:mediaType"
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst:6
+msgid "Format of the distribution"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:866
-msgid "dct:format 0..1"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:868
-msgid "``dct:MediaTypeOrExtent``"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:871
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-format.rst:7
 msgid ""
 "If neither the ``downloadURL`` nor the ``mediaType`` provide a valid "
-"format this value is used to display the format of the ressource."
+"format, this value is used to display the format of the distribution."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:876
-msgid "dct:format"
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-format-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-format-ttl.rst:1
+msgid "The format is used for distributions that have no download url"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:885
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:914
+msgid "dcat:byteSize (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst:1
+msgid "dcat:byteSize"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst:3
+msgid "``rdfs:Literal`` typed as ``xsd:decimal``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst:6
+msgid "Size of the data in bytes"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-byte-size.rst:7
+msgid "Should be an integer"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-byte-size-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-byte-size-ttl.rst:1
+msgid "The size in bytes of a distribution is given as a decimal"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:933
+msgid "dct:modified (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst:1
+msgid "RDF-property ``dct:modified`` of ``dcat:Distribution``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst:4
 msgid ""
-"``dct:LocationPeriodOrJurisdiction`` "
-"https://www.dublincore.org/specifications/dublin-core/dcmi-"
-"terms/2012-06-14/#terms-LocationPeriodOrJurisdiction"
+"conditional: required if the distribution has changed since its first "
+"publication."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:889
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-modified.rst:7
 msgid ""
-"Distributions can be classified by their location or time period (for "
-"example, one for each canton, one for each year, etc.)"
+"Date of the last change to the distribution. If this distribution has "
+"been changed several times, this corresponds to the date of the latest "
+"change."
 msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-modified-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-modified-ttl.rst:1
+msgid "The modified date is expected in ISO Format"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst:5
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst:5
+msgid "0..4 (one for each language)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst:6
+msgid "The title of the distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-title.rst:7
+msgid ""
+"The title is mandatory if the distribution contains only a part of the "
+"content covered by the dataset: for example if it contains only the data "
+"for one year, whereas the dataset covers several years in total."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst:4
+msgid ""
+"conditional: required if the distribution does not contain all the "
+"content of the dataset."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-description.rst:7
+msgid ""
+"Provide at least one of the languages ``en``, ``de``, ``fr``, ``it``. "
+"Markdown can be used in the descriptions"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-description-ttl.rst:1
+msgid "Description of a distribution in Turtle"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-description-rdf.rst:1
+msgid "Description of a distribution in RDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst:6
+msgid "Languages in which this distribution is available."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-language.rst:7
+msgid ""
+"If the distribution is language independent, this can be left out. Only "
+"the languages \"de\", \"fr\", \"en\", \"it\" are currently imported to "
+"opendata.swiss"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-language-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-language-ttl.rst:1
+msgid "The language of a distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-identifier.rst:6
+msgid "Identifier of the distribution in the source system"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-identifier-rdf.rst:1
+#: ../../source/content/glossar/bibliothek/dcat-examples/distribution-identifier-ttl.rst:1
+msgid "A ``dcat:Distribution`` with a ``dct:identifier`` in RDF"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst:7
+msgid ""
+"Distributions can be marked by a location or time period (for example, "
+"one for each canton, one for each year, etc.)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-coverage.rst:9
+msgid ""
+"This property is a string. When it is used to indicate a date, a custom "
+"format can be used."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:1047
+msgid "dct:license (DCAT)"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst:1
+msgid "dct:license"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst:3
+msgid "``dct:LicenseDocument``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst:6
+msgid ""
+"Rights statement of this distribution. It relates to the "
+"``dcat:accessURL``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/dcat-definitions/distribution-license.rst:7
+msgid ""
+"Not used, see ``dct:rights``. This field ensures compatibility to other "
+"metadata standards."
+msgstr ""
+
+#~ msgid "DCAT-AP-CH"
+#~ msgstr ""
+
+#~ msgid "Der Schweizer Metadaten-Datenstandard"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "DCAT-AP-CH ist der Schweizer "
+#~ "Datenstandard, der derzeit auf `opendata.swiss"
+#~ " <https://opendata.swiss/de/>`__ implementiert ist. "
+#~ "Er basiert auf dem internationalen "
+#~ "DCAT-AP Standard."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Datasets, die auf opendata.swiss geharvestet"
+#~ " werden oder per XML-Upload auf "
+#~ "die Plattform importiert werden, werden "
+#~ "in diesem Format erwartet. DCAT-AP "
+#~ "ist ein offener Standard. Ihre Datasets"
+#~ " können also auch Felder enthalten, "
+#~ "die über diesen Standard hinausgehen. "
+#~ "Diese werden bei uns nicht "
+#~ "berücksichtigt und auch nicht angezeigt. "
+#~ "Auf der anderen Seite haben wir "
+#~ "Mindest-Erwartungen an Ihre Metadaten, die"
+#~ " hier beschrieben sind. Ebenso finden "
+#~ "Sie hier eine Beschreibung optionaler "
+#~ "Felder, die von opendata.swiss unterstützt "
+#~ "werden. Der DCAT-AP ist in "
+#~ "ständiger Weiterentwicklung. Das gilt auch "
+#~ "für den DCAT-AP-CH und für "
+#~ "den Daten-Standard, der auf "
+#~ "opendata.swiss implementiert ist. Daher gibt"
+#~ " es teilweise Abweichungen zwischen diesen"
+#~ " Datenstandards. Sollten Sie solche "
+#~ "feststellen, `wenden Sie sich mit Ihren"
+#~ " Fragen gerne an uns "
+#~ "<mailto:opendata@bfs.admin.ch>`__."
+#~ msgstr ""
+
+#~ msgid "DCAT-AP-CH Standard Overview"
+#~ msgstr ""
+
+#~ msgid "An RDF Datacatalog has the following structure:"
+#~ msgstr ""
+
+#~ msgid "Each Dataset contains Resources, which contain the actual data:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The DCAT-AP for Switzerland Standard "
+#~ "expects that text elements of the "
+#~ "datasets and their distributions be "
+#~ "translated in the following four "
+#~ "languages: \\* French (fr) \\* German"
+#~ " (de) \\* Italian (it) \\* English"
+#~ " (en)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The multi-lingual elements have to "
+#~ "contain the ``xml:lang`` attribute, as "
+#~ "the following example show:"
+#~ msgstr ""
+
+#~ msgid "Please click on the text below for more details."
+#~ msgstr ""
+
+#~ msgid "**dcat:Catalog** 1..1"
+#~ msgstr ""
+
+#~ msgid "Content"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Contains nested elements of type "
+#~ ":ref:`dcat:Dataset <dcat-ap-ch-dataset>`"
+#~ msgstr ""
+
+#~ msgid "Mandatory"
+#~ msgstr ""
+
+#~ msgid "yes"
+#~ msgstr ""
+
+#~ msgid "Catalog with datasets"
+#~ msgstr ""
+
+#~ msgid "**dcat:dataset** 1..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Contains single nested element of "
+#~ ":ref:`dcat:Dataset <dcat-ap-ch-dataset>`."
+#~ msgstr ""
+
+#~ msgid "Wrapper for a dataset of the catalog"
+#~ msgstr ""
+
+#~ msgid "**dcat:Dataset** 1..1"
+#~ msgstr ""
+
+#~ msgid "Attributes"
+#~ msgstr ""
+
+#~ msgid "Name: ``rdf:about``"
+#~ msgstr ""
+
+#~ msgid "Content: Unique identifier for dataset"
+#~ msgstr ""
+
+#~ msgid "Mandatory: yes"
+#~ msgstr ""
+
+#~ msgid "**dct:identifier** 1..1"
+#~ msgstr ""
+
+#~ msgid "Type"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Unique identifier of the dataset across"
+#~ " all publishers. A good way to "
+#~ "make sure this identifier is unique "
+#~ "is to link the source system ID"
+#~ " with the ID of the publisher: "
+#~ "``[Source-Dataset-ID]@[Source-Organisation-ID]``."
+#~ " It is recommended that the "
+#~ "identifier consists out of the following"
+#~ " characters: ``A-Za-z``, ``0-9`` without "
+#~ "special characters, except ``-`` and "
+#~ "``_``"
+#~ msgstr ""
+
+#~ msgid "**dct:title** 1..n"
+#~ msgstr ""
+
+#~ msgid "1..n (one for each language)"
+#~ msgstr ""
+
+#~ msgid "Name: ``xml:lang``"
+#~ msgstr ""
+
+#~ msgid "Content: ``en``, ``de``, ``fr``, ``it``"
+#~ msgstr ""
+
+#~ msgid "Description: Language of the element"
+#~ msgstr ""
+
+#~ msgid "Mandatory : yes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Title of the dataset in the "
+#~ "language defined by the ``xml:lang`` "
+#~ "attribute"
+#~ msgstr ""
+
+#~ msgid "**dct:description** 1..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Description of the dataset in the "
+#~ "the language defined by the ``xml:lang``"
+#~ " attribute"
+#~ msgstr ""
+
+#~ msgid "dct:issued 0..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Can be left out if there is "
+#~ "no :ref:`distribution <dcat-ap-ch-"
+#~ "distribution>`"
+#~ msgstr ""
+
+#~ msgid "Name: ``rdf:datatype``"
+#~ msgstr ""
+
+#~ msgid "Content: \\http://www.w3.org/2001/XMLSchema#dateTime"
+#~ msgstr ""
+
+#~ msgid "Description: Type of the field"
+#~ msgstr ""
+
+#~ msgid "dct:modified 0..1"
+#~ msgstr ""
+
+#~ msgid "Only when the dataset has changed since the first publication"
+#~ msgstr ""
+
+#~ msgid "Date of the last change (since the first publication on opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid "**dct:publisher** 1..n"
+#~ msgstr ""
+
+#~ msgid "Elements"
+#~ msgstr ""
+
+#~ msgid "``rdf:Description``"
+#~ msgstr ""
+
+#~ msgid "Nested element"
+#~ msgstr ""
+
+#~ msgid "The publishers of the dataset. ``rdf:about`` is an optional attribute."
+#~ msgstr ""
+
+#~ msgid "**dcat:contactPoint** 1..n"
+#~ msgstr ""
+
+#~ msgid "``vcard:Organization``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "One or more contact email addresses "
+#~ "for this dataset ``vcard:fn``. Description "
+#~ "of the point of contact "
+#~ "``vcard:hasEmail`` has an attribute "
+#~ "``rdf:resource`` which contains the email "
+#~ "of the point of contact (including "
+#~ "mailto:)"
+#~ msgstr ""
+
+#~ msgid "**dcat:theme** 1..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``skos:Concept`` http://www.w3.org/2009/08/skos-"
+#~ "reference/skos.html#Concept"
+#~ msgstr ""
+
+#~ msgid "Name: ``rdf:resource``"
+#~ msgstr ""
+
+#~ msgid "Description: URI to the category"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Categorisation of the data. In the "
+#~ "``rdf:resource`` attribute, the unique URI "
+#~ "of the category from :download:`SKOS-RDF"
+#~ " <../../../_static/examples/opendataswiss-themes.rdf>` "
+#~ "(RDF) must be given. The following "
+#~ "values are accepted from Themes: "
+#~ "https://opendata.swiss/group/work, "
+#~ "https://opendata.swiss/group/construction, "
+#~ "https://opendata.swiss/group/population, "
+#~ "https://opendata.swiss/group/education, "
+#~ "https://opendata.swiss/group/energy, "
+#~ "https://opendata.swiss/group/finances, "
+#~ "https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/legislation, "
+#~ "https://opendata.swiss/group/health, "
+#~ "https://opendata.swiss/group/trade, "
+#~ "https://opendata.swiss/group/industry, "
+#~ "https://opendata.swiss/group/crime, "
+#~ "https://opendata.swiss/group/culture, "
+#~ "https://opendata.swiss/group/agriculture, "
+#~ "https://opendata.swiss/group/mobility, "
+#~ "https://opendata.swiss/group/public-order, "
+#~ "https://opendata.swiss/group/politics, "
+#~ "https://opendata.swiss/group/prices, "
+#~ "https://opendata.swiss/group/territory, "
+#~ "https://opendata.swiss/group/social-security, "
+#~ "https://opendata.swiss/group/statistical-basis, "
+#~ "https://opendata.swiss/group/tourism, "
+#~ "https://opendata.swiss/group/administration, "
+#~ "https://opendata.swiss/group/national-economy,"
+#~ msgstr ""
+
+#~ msgid "dct:language 0..n"
+#~ msgstr ""
+
+#~ msgid "``rdfs:Literal`` ISO 639-1 two-letter code"
+#~ msgstr ""
+
+#~ msgid "``en``, ``de``, ``fr``, ``it``"
+#~ msgstr ""
+
+#~ msgid "no"
+#~ msgstr ""
+
+#~ msgid "0..n (for each language)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Should contain all languages for which"
+#~ " a distribution is available. This "
+#~ "field is not validated and is used"
+#~ " for display purposes. If all "
+#~ "distributions are language-independant, this"
+#~ " field can be left out."
+#~ msgstr ""
+
+#~ msgid "dct:relation 0..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A relation to a document. The "
+#~ "``rdf:about`` must link to a related "
+#~ "document."
+#~ msgstr ""
+
+#~ msgid "dcat:keyword 0..n"
+#~ msgstr ""
+
+#~ msgid "Content:  ``en``, ``de``, ``fr``, ``it``"
+#~ msgstr ""
+
+#~ msgid "Keyword who describes this dataset"
+#~ msgstr ""
+
+#~ msgid "dcat:landingPage 0..1"
+#~ msgstr ""
+
+#~ msgid "``foaf:Document`` http://xmlns.com/foaf/spec/#term_Document"
+#~ msgstr ""
+
+#~ msgid "dct:spatial 0..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Geographical classification of the dataset."
+#~ " Can be a description, coordinates, a"
+#~ " bounding-box or a polygon. This "
+#~ "field currently supports GeoJSON with "
+#~ "the `LOCN extension "
+#~ "<https://www.w3.org/community/locadd/wiki/LOCN_extension:_Metadata>`__"
+#~ " . See also: `How should dct:spatial"
+#~ " and dct:Location be used? "
+#~ "<https://joinup.ec.europa.eu/release/how-should-"
+#~ "dctspatial-and-dctlocation-be-used>`__"
+#~ "                                |"
+#~ msgstr ""
+
+#~ msgid "dct:coverage 0..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``dct:LocationPeriodOrJurisdiction`` "
+#~ "\\http://dublincore.org/documents/2012/06/14/dcmi-"
+#~ "terms/?v=terms#LocationPeriodOrJurisdiction"
+#~ msgstr ""
+
+#~ msgid "This field is currently not used, use ``dct:spatial`` instead."
+#~ msgstr ""
+
+#~ msgid "dcat:temporal 0..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``dct:PeriodOfTime`` https://www.dublincore.org/specifications"
+#~ "/dublin-core/dcmi-terms/2012-06-14/#terms-PeriodOfTime"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "One or more time period(s) that "
+#~ "cover the dataset. ``<schema:startDate>`` "
+#~ "contains the start date, ``<schema:endDate>``"
+#~ " contains the end date format for "
+#~ "dates: \\http://www.w3.org/2001/XMLSchema#date"
+#~ msgstr ""
+
+#~ msgid "dct:accrualPeriodicity 0..n"
+#~ msgstr ""
+
+#~ msgid "Type: ``dct:Frequency``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The frequency in which this dataset "
+#~ "is updated. Values for ``dct:Frequency``: "
+#~ "http://dublincore.org/groups/collections/frequency/"
+#~ msgstr ""
+
+#~ msgid "rdfs:seeAlso 0..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Link to related datasets. Contains the"
+#~ " identifier of the linked dataset."
+#~ msgstr ""
+
+#~ msgid "**dcat:distribution** 1..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Contains single nested element of type"
+#~ " ``dcat:Distribution``. See :ref:`Definition of"
+#~ " dcat:Distribution <dcat-ap-ch-"
+#~ "distribution>`."
+#~ msgstr ""
+
+#~ msgid "Wrapper for a distribution of the dataset"
+#~ msgstr ""
+
+#~ msgid "**dcat:Distribution** 1..1"
+#~ msgstr ""
+
+#~ msgid "Content: Unique identifier for distribution"
+#~ msgstr ""
+
+#~ msgid "A single distribution of the dataset"
+#~ msgstr ""
+
+#~ msgid "dct:identifier 0..1"
+#~ msgstr ""
+
+#~ msgid "dcat:title 0..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "no - except if the distribution "
+#~ "does not contain all the content "
+#~ "of the dataset."
+#~ msgstr ""
+
+#~ msgid "0..n (one for each language)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The title of the distribution in "
+#~ "the language defined by the "
+#~ "``xml:lang?`` attribute. If this element "
+#~ "is left out, the ``dct:title`` of "
+#~ "the dataset is used instead."
+#~ msgstr ""
+
+#~ msgid "dcat:title"
+#~ msgstr ""
+
+#~ msgid "dct:description 0..n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Description of the distribution in the"
+#~ " language defined by the ``xml:lang?`` "
+#~ "attribute."
+#~ msgstr ""
+
+#~ msgid "**dct:issued 0..1**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Only when the distribution has changed"
+#~ " since the first publication. If this"
+#~ " distribution was changed several times,"
+#~ " this corresponds to the date of "
+#~ "the latest change."
+#~ msgstr ""
+
+#~ msgid "Date of the last change of the distribution"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Languages in which this distribution is"
+#~ " available. If the distribution is "
+#~ "language-independant, this can be left "
+#~ "out."
+#~ msgstr ""
+
+#~ msgid "**dcat:accessURL** 1..n"
+#~ msgstr ""
+
+#~ msgid "\\http://www.w3.org/2001/XMLSchema#anyURI"
+#~ msgstr ""
+
+#~ msgid "Content: \\http://www.w3.org/2001/XMLSchema#anyURI"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "URL where the distribution can be "
+#~ "found. This could be either a "
+#~ "download URL, an API URL or a "
+#~ "landing page URL. If the distribution"
+#~ " is only available through a landing"
+#~ " page, this field must contain the"
+#~ " URL of the landing page. If a"
+#~ " download URL was given for this "
+#~ "distribution, this field has to contain"
+#~ " the same value."
+#~ msgstr ""
+
+#~ msgid "dcat:downloadURL 0..1"
+#~ msgstr ""
+
+#~ msgid "\\https://www.w3.org/ns/dcat#downloadURL"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "URL of a data file, if the "
+#~ "distribution can be downloaded. For each"
+#~ " of these, a ``dcat:accessURL`` has "
+#~ "to exist."
+#~ msgstr ""
+
+#~ msgid "**dct:rights** 1..1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialAllowed-CommercialAllowed-"
+#~ "ReferenceNotRequired (acceptable for opendata.swiss,"
+#~ " Open Definition compliant)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+#~ " (acceptable for opendata.swiss, Open "
+#~ "Definition compliant)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialAllowed-CommercialWithPermission-"
+#~ "ReferenceNotRequired (acceptable for opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialAllowed-CommercialWithPermission-"
+#~ "ReferenceRequired (acceptable for opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialAllowed-CommercialNotAllowed-"
+#~ "ReferenceNotRequired (not acceptable for "
+#~ "opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialAllowed-CommercialNotAllowed-"
+#~ "ReferenceRequired (not acceptable for "
+#~ "opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialNotAllowed-CommercialNotAllowed-"
+#~ "ReferenceNotRequired (not acceptable for "
+#~ "opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialNotAllowed-CommercialNotAllowed-"
+#~ "ReferenceRequired (not acceptable for "
+#~ "opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialNotAllowed-CommercialAllowed-"
+#~ "ReferenceNotRequired (not acceptable for "
+#~ "opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialNotAllowed-CommercialAllowed-"
+#~ "ReferenceRequired (not acceptable for "
+#~ "opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialNotAllowed-CommercialWithPermission-"
+#~ "ReferenceNotRequired (not acceptable for "
+#~ "opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NonCommercialNotAllowed-CommercialWithPermission-"
+#~ "ReferenceRequired (not acceptable for "
+#~ "opendata.swiss)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Rights statement of this distribution. "
+#~ "This is composed of 3 elements "
+#~ "that can be summarized in a string"
+#~ " literal: - Non-commercial use: "
+#~ "allowed or not allowed - Commercial "
+#~ "use: allowed, allowed with permission "
+#~ "and not allowed - Reference: required"
+#~ " or not required For each of "
+#~ "these, a ``dcat:accessURL`` has to "
+#~ "exist."
+#~ msgstr ""
+
+#~ msgid "dct:license 0..1"
+#~ msgstr ""
+
+#~ msgid "dcat:byteSize 0..1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "no - except if the distribution is"
+#~ " available as a data download (see"
+#~ " ``downloadURL``)."
+#~ msgstr ""
+
+#~ msgid "dcat:mediaType 0..1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This value will be used to display"
+#~ " the ressource-format if the "
+#~ "downloadURL is empty. Only values from"
+#~ " the list of IANA MIME types "
+#~ "http://www.iana.org/assignments/media-types/media-"
+#~ "types.xhtml"
+#~ msgstr ""
+
+#~ msgid "dcat:mediaType"
+#~ msgstr ""
+
+#~ msgid "dct:format 0..1"
+#~ msgstr ""
+
+#~ msgid "``dct:MediaTypeOrExtent``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If neither the ``downloadURL`` nor the"
+#~ " ``mediaType`` provide a valid format "
+#~ "this value is used to display the"
+#~ " format of the ressource."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``dct:LocationPeriodOrJurisdiction`` "
+#~ "https://www.dublincore.org/specifications/dublin-core/dcmi-"
+#~ "terms/2012-06-14/#terms-LocationPeriodOrJurisdiction"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Distributions can be classified by their"
+#~ " location or time period (for "
+#~ "example, one for each canton, one "
+#~ "for each year, etc.)"
+#~ msgstr ""
 

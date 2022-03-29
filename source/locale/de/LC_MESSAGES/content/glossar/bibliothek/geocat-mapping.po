@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-03 12:26+0200\n"
+"POT-Creation-Date: 2022-03-29 18:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:3
 msgid ":fa:`home` :doc:`Handbuch <../../../index>` :fa:`chevron-right`"
@@ -27,724 +27,1897 @@ msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:5
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:9
-msgid "ISO-19139_che zu DCAT-AP-CH"
+msgid "ISO-19139_che zu DCAT-AP CH"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:12
-msgid "Transformation des Geodaten-Standards für opendata.swiss"
+msgid "Transformation des Geodatenstandard für opendata.swiss"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:16
 msgid ""
-"Um Geodaten auf opendata.swiss publizieren zu können, muss der Geodaten-"
-"Standard ISO-19139_che auf den von opendata.swiss genutzten DCAT-AP-CH "
-"abgebildet werden. Diese Dokumentation beschreibt die Standard-"
-"Transformation von ISO-19139_che nach :doc:`DCAT-AP-CH <dcat-ap-ch>`, so "
-"wie sie für das Harvesting von Geodaten auf opendata.swiss benötigt wird."
-" Es geht dabei um die XML-Serialisierung durch XPath. Diese Dokumentation"
-" ist aktuell nur in Englisch verfügbar."
+"Um Geometadaten auf opendata.swiss publizieren zu können, muss der "
+"Geometadatenstandard `ISO-19139_che "
+"<https://www.geocat.admin.ch/de/documentation/gm03-metadata-"
+"model.html>`__ auf den von opendata.swiss genutzten DCAT-AP CH abgebildet"
+" werden. Diese Dokumentation beschreibt die Standard-Transformation von "
+"ISO-19139_che nach :doc:`DCAT-AP CH <dcat-ap-ch>`, so wie sie für das "
+"Harvesting von Geometadaten auf opendata.swiss benötigt wird. Es geht "
+"dabei um die `XML-Serialisierung durch XPath "
+"<https://de.wikipedia.org/wiki/XPath>`__ ."
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:25
-msgid "DCAT-AP-CH Standard Overview"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:27
-msgid ":ref:`Example Catalog <iso_19139_che-example>`"
+msgid "Diese Dokumentation ist aktuell nur in Englisch verfügbar."
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:28
-msgid ":ref:`Dataset <iso_19139_che-dataset>`"
+msgid "DCAT-AP CH Standard Overview"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:29
-msgid ":ref:`Distribution <iso_19139_che-distribution>`"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:30
+msgid ":ref:`Example Catalog <iso_19139_che-example>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:31
-msgid ""
-"This documentation describes the mapping from ISO-19139_che to :doc"
-":`DCAT-AP Switzerland <dcat-ap-ch>`. ISO-19139_che is a standard used by "
-"`Geocat <https://www.geocat.ch>`__, a data source from which "
-"opendata.swiss harvests datasets."
+msgid ":ref:`Overview <iso_19139_che-overview>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:32
+msgid ":ref:`Dataset <iso_19139_che-dataset>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:33
+msgid ":ref:`Distribution <iso_19139_che-distribution>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:35
+msgid ""
+"This documentation describes the mapping from ISO-19139_che to :doc"
+":`DCAT-AP CH <dcat-ap-ch>`. ISO-19139_che is a standard used by "
+"`geocat.ch <https://www.geocat.ch>`__, a data source from which "
+"opendata.swiss harvests datasets."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:39
 msgid ""
 "In this documentation we focus on the XML serialization of ISO-19139_che "
 "and therefore describe the mapping in form of XPath (if not noted "
 "differently)."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:41
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:45
 msgid "Example-Catalog"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:43
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:47
 msgid ""
 "`Example XML serialization of an ISO-19139_che dataset "
 "<https://www.geocat.ch/geonetwork/srv/ger/xml.metadata.get?uuid=c5bc9d6b-"
 "cafb-4617-97d7-868ab4cd5506>`__"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:48
-msgid "Dataset"
-msgstr ""
-
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:52
-msgid "Please click on the text below for more details."
+msgid "Overview"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:56
-msgid "**dct:identifier**"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst
-msgid "Display name on opendata.swiss"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:54
+msgid ""
+"Geocat Distributions "
+"``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource``"
+" are mapped either to the :ref:`dcat:Dataset <iso_19139_che-dataset-"
+"mapping>` class or to the :ref:`dcat:Distribution <iso_19139_che-"
+"distribution-mapping>` class, depending on ``.//gmd:protocol``"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:58
-msgid "Identifier"
+msgid ""
+"The \"Mapped from\" column in the table gives just a hint on where the "
+"metadata is taken from. Please see the field descriptions for the actual "
+"mapping."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst
-msgid "ISO-19139_che XPath"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:64
+msgid "Mapping to dcat:Dataset"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst
-msgid "Format"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:66
+msgid "Mappings to dcat:Dataset"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:65
-msgid "the identifier should be of the form ``<id>@<organization-slug>``"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:71
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:139
+msgid "DCAT property"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:67
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:828
-msgid "dct:identifier"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:72
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:140
+msgid "Mapped from"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:73
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:141
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-language.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst
+msgid "Usage Notes"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:74
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst:1
+msgid ":ref:`dct:title <dcat-dataset-title>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:75
+msgid ""
+":ref:`//gmd:identificationInfo//gmd:citation//gmd:title <geocat-dataset-"
+"title>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:76
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:79
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:112
+msgid "multilingual"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:77
-msgid "**dct:title**"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst:1
+msgid ":ref:`dct:description <dcat-dataset-description>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:79
-msgid "Pagetitle"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:78
+msgid ":ref:`//gmd:identificationInfo//gmd:abstract <geocat-dataset-description>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:80
+msgid ":ref:`dct:publisher <geocat-dataset-publisher>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:81
+msgid ""
+":ref:`//gmd:identificationInfo//gmd:pointOfContact <geocat-dataset-"
+"publisher>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:83
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-contact-point.rst:1
+msgid ":ref:`dcat:contactPoint <dcat-dataset-contact-point>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:84
+msgid ""
+":ref:`//gmd:identificationInfo//gmd:pointOfContact or //gmd:contact "
+"<geocat-dataset-contact-point>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:86
-msgid "Example of getting dct:title: only 4 languages are taken: DE, EN, FR, IT"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-identifier.rst:1
+msgid ":ref:`dct:identifier <dcat-dataset-identifier>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:87
+msgid ":ref:`//gmd:fileIdentifier <geocat-dataset-identifier>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:89
+msgid ":ref:`dcat:Distribution <dcat-dataset-distribution>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:90
+msgid ":ref:`//gmd:distributionInfo <geocat-dataset-distribution>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:92
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst:1
+msgid ":ref:`dct:issued <dcat-dataset-issued>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:93
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:143
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:170
+msgid ""
+":ref:`//gmd:identificationInfo//gmd:citation//gmd:CI_Date <geocat-"
+"dataset-issued>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:95
+msgid ":ref:`modified <dcat-dataset-modified>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:96
+msgid ""
+":ref:`//gmd:identificationInfo//gmd:citation//gmd:CI_Date <geocat-"
+"dataset-modified>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:98
+msgid ":ref:`dcat:theme <dcat-dataset-theme>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:99
+msgid ":ref:`//gmd:identificationInfo//gmd:topicCategory <geocat-dataset-theme>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:101
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst:1
+msgid ":ref:`dcat:landingPage <dcat-dataset-landing-page>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:102
+msgid ":ref:`//gmd:distributionInfo <geocat-dataset-landing-page>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:103
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:106
+msgid "depends on gmd:protocol"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:104
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst:1
+msgid ":ref:`dct:relation <dcat-dataset-relation>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:105
+msgid ":ref:`//gmd:distributionInfo <geocat-dataset-relation>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:107
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-language.rst:1
+msgid ":ref:`dct:language <dcat-dataset-language>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:108
+msgid ":ref:`//gmd:identificationInfo//gmd:language <geocat-dataset-language>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:110
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-keyword.rst:1
+msgid ":ref:`dcat:keyword <dcat-dataset-keyword>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:111
+msgid ""
+":ref:`//gmd:identificationInfo//gmd:descriptiveKeywords <geocat-dataset-"
+"keyword>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:113
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-spatial.rst:1
+msgid ":ref:`dct:spatial <dcat-dataset-spatial>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:114
+msgid ":ref:`//gmd:identificationInfo//gmd:extent <geocat-dataset-spatial>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:116
+msgid ":ref:`dct:coverage <dcat-dataset-coverage>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:118
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:159
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:174
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:177
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:183
+msgid "mapping not implemented"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:119
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-temporal.rst:1
+msgid ":ref:`dct:temporal <dcat-dataset-temporal>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:120
+msgid ""
+":ref:`//gmd:identificationInfo//gmd:extent//gmd:temporalElement <geocat-"
+"dataset-temporal>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:122
+msgid ":ref:`accrual periodicity <dcat-dataset-accrual-periodicity>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:123
-msgid "**dct:description**"
+msgid ""
+":ref:`//gmd:identificationInfo//che:CHE_MD_MaintenanceInformation "
+"<geocat-dataset-accrual-periodicity>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:125
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:678
-msgid "Description"
+msgid ":ref:`see also <dcat-dataset-see-also>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:126
+msgid ""
+":ref:`//gmd:identificationInfo//gmd:aggregationInfo <geocat-dataset-see-"
+"also>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:132
-msgid ""
-"Example of getting dct:description: only 4 languages are taken: DE, EN, "
-"FR, IT"
+msgid "Mapping to dcat:Distribution"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:159
-msgid "dct:issued"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:134
+msgid "Mappings of //gmd:DistributionInfo to dcat:Distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:142
+msgid ":ref:`dct:issued <dcat-distribution-issued>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:144
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:171
+msgid "taken from the Dataset"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:145
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst:1
+msgid ":ref:`dcat:accessURL <dcat-distribution-access-url>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:146
+msgid ":ref:`.//gmd:linkage <geocat-distribution-access-url>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:148
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-rights.rst:1
+msgid ":ref:`dct:rights <dcat-distribution-rights>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:149
+msgid ":ref:`//gmd:resourceConstraints <geocat-distribution-rights>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:150
+msgid "derived for the dataset"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:151
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst:1
+msgid ":ref:`dct:title <dcat-distribution-title>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:152
+msgid ":ref:`.//gmd:name <geocat-distribution-title>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:153
+msgid "in combination with protocol"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:154
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-description.rst:1
+msgid ":ref:`dct:description <dcat-distribution-description>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:155
+msgid ":ref:`.//gmd:description <geocat-distribution-description>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:157
+msgid ":ref:`dcat:byteSize <dcat-distribution-byte-size>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:160
+msgid ":ref:`media type <dcat-distribution-media-type>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:161
-msgid "Issued date"
+msgid ":ref:`.//gmd:protocol <geocat-distribution-media-type>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:162
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:165
+msgid "derived from the protocol"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:163
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-format.rst:1
+msgid ":ref:`dct:format <dcat-distribution-format>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:164
-msgid "The first found date is taken in the order defined below:"
+msgid ":ref:`.//gmd:protocol <geocat-distribution-format>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:171
-msgid "Example: codeListValue=\"publication\" was found, 2012-05-11 is taken"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:166
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-language.rst:1
+msgid ":ref:`dct:language <dcat-distribution-language>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:167
+msgid ":ref:`.//gmd:linkage//che:LocalisedURL <geocat-distribution-language>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:168
+msgid "depends on localized urls"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:169
+msgid ":ref:`dct:modified <dcat-distribution-modified>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:172
+msgid ":ref:`dct:license <dcat-distribution-license>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:175
+msgid ":ref:`dct:identifier <geocat-distribution-identifier>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:178
+msgid ":ref:`download url <dcat-distribution-download-url>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:179
+msgid ":ref:`.//gmd:linkage <geocat-distribution-download-url>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:180
+msgid "download protocols only"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:181
+msgid ":ref:`coverage <dcat-distribution-coverage>`"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:188
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:747
-msgid "dct:modified"
+msgid "Dataset"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:190
-msgid "Modified date"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:193
+msgid "``//gmd:fileIdentifier`` to ``dct:identifier``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:197
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-language.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-see-also.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-spatial.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-temporal.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-theme.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-description.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-format.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-language.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-media-type.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-rights.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst
+msgid "DCAT"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-language.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-see-also.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-spatial.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-temporal.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-theme.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-description.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-rights.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst
+msgid "XPATH"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-identifier.rst:2
+msgid "``//gmd:fileIdentifier``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-contact-point.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-identifier.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-keyword.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-language.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-see-also.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-spatial.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-temporal.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst
+msgid "Value"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-identifier.rst:3
+msgid "``gco:CharacterString/text()``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-identifier.rst:4
 msgid ""
-"Example of getting dct:modified: codeListValue=\"revision\" was found, "
-"2020-02-23 is taken"
+"the internal id of the dataset is taken from the XPath "
+"``//gmd:fileIdentifier`` and combined with the slug of the publishing "
+"organization to form the value of ``dct:identifier``, with the format "
+"``<id>@<organization-slug>``."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-identifier.rst:8
+msgid "ISO-19139_che XPath for ``dct:identifier``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-identifier.rst:1
+msgid "getting the internal id of a dataset from ``//gmd:fileIdentifier``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:207
+msgid "``/gmd:identificationInfo//gmd:citation//gmd:title`` to ``dct:title``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst:2
+msgid "``//gmd:identificationInfo//gmd:citation//gmd:title``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst:3
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst:3
+msgid ""
+"``.//gmd:textGroup/gmd:LocalisedCharacterString[@locale=\"<lang "
+"code>\"]/text()``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst
+msgid "Fallback-Value"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst:4
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst:4
+msgid "``.//gmd:CharacterString/text()``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst:5
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst:5
+msgid ""
+"<lang code> is expected as ``DE``, ``EN``, ``FR``, ``IT``. In case the "
+"localized strings are not there the Fallback will be used for all 4 "
+"languages"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-title.rst:8
+msgid "ISO-19139_che XPath for ``dct:title``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-title.rst:1
+msgid ""
+"Example of getting ``dct:title``. Only four languages are taken: DE, EN, "
+"FR, IT."
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:221
-msgid "**dct:publisher**"
+msgid "``/gmd:identificationInfo//gmd:abstract`` to ``dct:description``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:223
-msgid "Publishers"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst:2
+msgid "``//gmd:identificationInfo//gmd:abstract``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:226
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:265
-msgid "The first one is taken in the following order:"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-description.rst:8
+msgid "ISO-19139_che XPath for ``dct:description``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:236
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-description.rst:1
 msgid ""
-"Example of getting dct:publisher: codeListValue=\"pointOfContact\" is "
-"detected,"
+"Example of getting ``dct:description``: only 4 languages are taken: DE, "
+"EN, FR, IT"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:260
-msgid "**dcat:contactPoint**"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:235
+msgid "``gmd:pointOfContact`` or ``//gmd:contact`` to ``dct:publisher``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:262
-msgid "Contact points"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst:1
+msgid ":ref:`dct:publisher <dcat-dataset-publisher>`"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:275
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst:2
 msgid ""
-"Example of getting dcat:contactPoint: codeListValue=\"pointOfContact\" "
-"was found"
+"``//gmd:identificationInfo/gmd:pointOfContact`` or "
+"``//gmd:contact//che:CHE_CI_ResponsibleParty``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:307
-msgid "**dcat:theme**"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst
+msgid "Filter"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:309
-msgid "Categories"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst:3
+msgid "``.//gmd:CI_RoleCode/@codeListValue``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:317
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst:4
+msgid "``.//gmd:organisationName/gco:CharacterString/text()``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst:5
 msgid ""
-"`imageryBaseMapsEarthCover` => [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+"The publisher consists of a name and a uri. Currently only the publisher "
+"name is mapped from the geocat dataset: For the uri the url of the "
+"organization that the dataset belongs on opendata.swiss is taken: "
+"https://opendata.swiss/de/organization"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:318
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-publisher.rst:10
 msgid ""
-"`imageryBaseMapsEarthCover_BaseMaps` => "
-"[https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+"ISO-19139_che XPath for ``dct:publisher``: the first is taken in the "
+"following order:"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:319
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-publisher.rst:1
 msgid ""
-"`imageryBaseMapsEarthCover_EarthCover`: "
-"[https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+"The role publisher is taken in this example. Note that the localized "
+"string would not be considered in this mapping"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:320
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:249
+msgid "``gmd:pointOfContact or //gmd:contact``  to ``dct:contactPoint``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-contact-point.rst:2
+msgid "``//gmd:identificationInfo/gmd:pointOfContact or //gmd:contact``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-contact-point.rst:3
+msgid "``gmd:electronicMailAddress/gco:CharacterString``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-contact-point.rst:4
+msgid "Only one contact email is taken. A corresponding name is not taken."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-contact-point.rst:6
 msgid ""
-"`imageryBaseMapsEarthCover_Imagery`: "
-"[https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+"ISO-19139_che XPath for ``dcat:contactPoint``: the first is taken in the "
+"following order"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-contact-point.rst:1
+msgid ""
+"``//gmd:contact`` the role \"pointOfContact\" is taken for "
+"``dcat:contactPoint``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:263
+msgid "``//gmd:distributionInfo/gmd:MD_Distribution`` to ``dcat:distribution``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst:1
+msgid ":ref:`dcat:distribution <dcat-dataset-distribution>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst:2
+msgid "``//gmd:distributionInfo/gmd:MD_Distribution[//gmd:transferOptions//gmd:CI_OnlineResource``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst
+msgid "protocol"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst:3
+msgid "``//gmd:distributionInfo/gmd:MD_Distribution[//gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst
+msgid "Mapping"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst:4
+msgid ""
+"The mapping depends on the protocol. If the Protocol starts in the "
+"following way it is mapped to a dcat:Distribution: ``WWW:DOWNLOAD``, "
+"``OGC:WMTS``, ``OGC:WFS``, ``OGC:WMS``, ``LINKED:DATA``, ``ESRI:REST``, "
+"``MAP:Preview``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst:8
+msgid ""
+"Only the above geocat Distributions will be mapped to dcat:Distribution. "
+"There are other protocols that will be mapped to dcat:landingPage and "
+"dct:relation."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-distribution.rst:12
+msgid "ISO-19139_che XPath for getting the protocols for the geocat distributions"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-distribution.rst:1
+msgid ""
+"Getting all distribution protocols for a dataset with "
+"``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:277
+msgid "``//gmd:identificationInfo//gmd:citation//gmd:CI_Date`` to ``dct:issued``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst:2
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst:2
+msgid "``//gmd:identificationInfo//gmd:citation//gmd:CI_Date``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst
+msgid "Role"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst:3
+msgid "``publication`` or ``creation`` or ``revision``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst:4
+msgid "``.//gco:Date`` or ``.//gco:DateTime``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst:5
+msgid "This also serves as dct:issued for dcat:Distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-issued.rst:8
+msgid "The first found date is taken in the order defined below:"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-issued.rst:1
+msgid ""
+"getting the \"creation\" date from "
+"``//gmd:identificationInfo//gmd:citation//gmd:CI_Date`` to map onto "
+"``dct:issued``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:291
+msgid ""
+"``//gmd:identificationInfo//gmd:citation//gmd:CI_Date`` to "
+"``dct:modified``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst:1
+msgid ":ref:`dct:modified <dcat-dataset-modified>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst:3
+msgid "``revision``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst:4
+msgid "``//gco:Date`` or ``//gco:DateTime``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst:5
+msgid "This also serves as dct:modified for dcat:Distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-modified.rst:7
+msgid "The date for the role ``revision`` is taken"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-modified.rst:1
+msgid ""
+"getting the \"revision\" date from "
+"``//gmd:identificationInfo//gmd:citation//gmd:CI_Date`` to map onto "
+"``dct:modified``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:306
+msgid "``//gmd:identificationInfo//gmd:topicCategory/`` to ``dcat:theme``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-theme.rst:1
+msgid ":ref:`dct:theme <dcat-dataset-theme>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-theme.rst:2
+msgid "``//gmd:identificationInfo//gmd:topicCategory/``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-accrual-periodicity.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-theme.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-rights.rst
+msgid "Mapping of values"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-theme.rst:3
+msgid ""
+"Geocat topicCategory values are mapped to themes from the DCAT-AP CH "
+"themes vocabulary: `in rdf/xml <https://www.dcat-"
+"ap.ch/vocabulary/themes/20210623.rdf>`__ `in turtle <https://www.dcat-"
+"ap.ch/vocabulary/themes/20210623.ttl>`__ For details of the mapping, see "
+"below."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-theme.rst:8
+msgid "getting category with XPATH"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-theme.rst:13
+msgid "Mapping of topicCategory to themes"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-theme.rst:1
+msgid "Example of getting ``dcat:theme`` from gmd with ISO-19139_che XPath"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:321
-msgid ""
-"`location`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+msgid "``//gmd:identificationInfo//gmd:language`` to ``dct:language``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:322
-msgid ""
-"`elevation`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-language.rst:2
+msgid "``//gmd:identificationInfo//gmd:language``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:323
-msgid ""
-"`boundaries`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-language.rst:3
+msgid "``gmd:LanguageCode``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:324
-msgid ""
-"`planningCadastre`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-language.rst:4
+msgid "only the languages German, French, Italian and English are mapped"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:325
-msgid ""
-"`planningCadastre_Planning`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-language.rst:6
+msgid "ISO-19139_che XPath for ``dct:language``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:326
-msgid ""
-"`planningCadastre_Cadastre`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-language.rst:11
+msgid "Mapping of the language code from a 3 letter code to 2 letter code"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:327
-msgid ""
-"`geoscientificInformation`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:328
-msgid ""
-"`geoscientificInformation_Geology`: "
-"[https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:329
-msgid ""
-"`geoscientificInformation_Soils`: "
-"[https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:330
-msgid ""
-"`geoscientificInformation_NaturalHazards`: "
-"[https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:331
-msgid ""
-"`biota`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory, "
-"https://opendata.swiss/group/agriculture]"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:332
-msgid ""
-"`oceans`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:333
-msgid ""
-"`inlandWaters`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:334
-msgid ""
-"`climatologyMeteorologyAtmosphere`: "
-"[https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-language.rst:1
+msgid "The language code is mapped from a 3 letter code to a 2 letter code"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:335
+msgid "``//gmd:distributionInfo/gmd:MD_Distribution`` to ``dct:landing-page``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst:2
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst:2
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst:2
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst:2
+msgid "``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst
+msgid "Protocol"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst:3
+msgid "``WWW:LINK``, ``WWW:LINK-1.0-http--link``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst:4
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst:7
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst:4
+msgid "``.//gmd:linkage/gmd:URL/text()``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst:5
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst:8
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst:5
+msgid "``'.//che:LocalisedURL`` for any language"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst:6
 msgid ""
-"`environment`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+"The protocol ``WWW:LINK-1.0-http--link`` is deprecated, please use "
+"``WWW:LINK`` instead"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:336
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst:8
+msgid "ISO-19139_che XPath for geocat distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-landing-page.rst:13
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst:15
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst:17
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-format.rst:7
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-media-type.rst:6
+msgid "ISO-19139_che XPath for distribution protocol"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-landing-page.rst:1
 msgid ""
-"`environment_EnvironmentalProtection`: "
-"[https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+"Mapping of the landing page from the first resource with protocol "
+"``WWW:LINK``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:337
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:349
+msgid "``//gmd:distributionInfo/gmd:MD_Distribution`` to ``dct:relation``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst:3
 msgid ""
-"`environment_NatureProtection`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+"``WWW:LINK``, ``CHTOPO:specialised-geoportal``, ``WWW:LINK-1.0-http--"
+"link``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:338
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst:4
 msgid ""
-"`society`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/culture, "
-"https://opendata.swiss/group/population]"
+"For the url: ``.//gmd:linkage/gmd:URL/text()``; for the text: "
+"``.//gmd:description``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:339
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst:5
 msgid ""
-"`health`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/health]"
+"For the url: ``.//che:LocalisedURL`` for any language; for the text: the "
+"url is used as a fallback"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:340
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst:6
 msgid ""
-"`structure`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/construction]"
+"The protocol ``WWW:LINK-1.0-http--link`` is deprecated, please use "
+"``WWW:LINK`` instead The first ``WWWW:LINK`` is taken as "
+"dcat:landingPage, all further ``WWW-LINK`` Resources are added to "
+"dct:relation"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:341
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-relation.rst:10
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst:12
+msgid "ISO-19139_che XPath for geocat distribution`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-relation.rst:1
 msgid ""
-"`transportation`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/mobility]"
+"Example adding a resource of protocol \"CHTOPO:specialised:geoportal\" to"
+" ``dct:relation``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:342
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:363
+msgid "``//gmd:identificationInfo//gmd:descriptiveKeywords`` to ``dcat:keyword``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-keyword.rst:2
+msgid "``//gmd:identificationInfo//gmd:descriptiveKeywords//gmd:keyword``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-keyword.rst:3
+msgid "``//gmd:textGroup//gmd:LocalisedCharacterString``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-keyword.rst:4
 msgid ""
-"`utilitiesCommunication`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory, "
-"https://opendata.swiss/group/energy, "
-"https://opendata.swiss/group/culture]"
+"all keywords with the Locale ``#DE``, ``#FR``, ``#EN``, ``#IT`` are "
+"taken. The keyword opendata.swiss is not taken: it serves to mark which "
+"datasets should be imported to opendata.swiss"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:343
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-keyword.rst:8
+msgid "ISO-19139_che XPath for dcat:keyword"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-keyword.rst:1
+msgid "Note that the keyword opendata.swiss is not imported"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:377
 msgid ""
-"`utilitiesCommunication_Energy`: [https://opendata.swiss/group/geography,"
-" https://opendata.swiss/group/energy, "
-"https://opendata.swiss/group/territory]"
+"``//gmd:identificationInfo//gmd:extent//gmd:description`` to "
+"``dct:spatial``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:344
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-spatial.rst:2
+msgid "``//gmd:identificationInfo//gmd:extent//gmd:description``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-spatial.rst:3
+msgid "``./gco:CharacterString/text()``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-spatial.rst:5
+msgid "ISO-19139_che XPath for dacat"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-spatial.rst:1
+msgid "The general character string is currently taken"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:391
 msgid ""
-"`utilitiesCommunication_Utilities`: "
-"[https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/territory]"
+"``//gmd:identificationInfo//gmd:extent//gmd:temporalElement`` to "
+"``dct:temporal``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:345
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-temporal.rst:2
+msgid "``//gmd:identificationInfo//gmd:extent//gmd:temporalElement``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-temporal.rst:3
 msgid ""
-"`utilitiesCommunication_Communication`: "
-"[https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/culture]"
+"``//gml:TimePeriod/gml:beginPosition``, "
+"``//gml:TimePeriod/gml:endPosition``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:346
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-temporal.rst:5
+msgid "getting temporals with XPATH"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-temporal.rst:1
 msgid ""
-"`intelligenceMilitary`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/public-order]"
+"Getting a time period for a dataset with "
+"``//gmd:identificationInfo//gmd:extent//gmd:temporalElement``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:347
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:405
 msgid ""
-"`farming`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/agriculture]"
+"``//gmd:identificationInfo//che:CHE_MD_MaintenanceInformation`` to "
+"``dct:accrualPeriodicity``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:348
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-accrual-periodicity.rst:1
+msgid ":ref:`dcat:accrualPeriodicity <dcat-dataset-accrual-periodicity>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-accrual-periodicity.rst:2
+msgid "``//gmd:identificationInfo//che:CHE_MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-accrual-periodicity.rst:3
+msgid "``gmd:MD_MaintenanceFrequencyCode/@codeListValue``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-accrual-periodicity.rst:4
+msgid "For the mapping of Frequency Codes see below"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-accrual-periodicity.rst:6
+msgid "getting frequency with XPATH"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-accrual-periodicity.rst:11
+msgid "Mapping of the Frequency Codes"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-accrual-periodicity.rst:1
+msgid "Picking up the update frequency: here \"annually\""
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:419
+msgid "``//gmd:identificationInfo//gmd:aggregationInfo`` to ``dct:seeAlso``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-see-also.rst:1
+msgid ":ref:`rdfs:seeAlso <dcat-dataset-see-also>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-see-also.rst:2
+msgid "``//gmd:identificationInfo//gmd:aggregationInfo//gmd:aggregateDataSetIdentifier/gmd:MD_Identifier``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-see-also.rst:3
+msgid "``/gmd:code/gco:CharacterString``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-see-also.rst
+msgid "Mapping of Values"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-see-also.rst:4
 msgid ""
-"`economy`: [https://opendata.swiss/group/geography, "
-"https://opendata.swiss/group/work, https://opendata.swiss/group/national-"
-"economy]"
+"The geocat identifier is mapped to a dct:identifier by attaching "
+"``@<organization-slug>``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:350
-msgid "Example of getting dcat:theme from gmd with ISO-19139_che XPath"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/dataset-see-also.rst:6
+msgid "XPATH for rdfs:seeAlso: all such values are taken"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:360
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:709
-msgid "dct:language"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:362
-msgid "Languages"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:369
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:686
-msgid "Example of getting dct:description from gmd with ISO-19139_che XPath"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:378
-msgid "**dcat:distribution**"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:380
-msgid "See `distributions documentation below <#distributions>`__"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:381
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:422
-msgid "Resources"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:395
-msgid "Example of getting dcat:distribution from gmd with ISO-19139_che XPath"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:420
-msgid "dct:relation"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:423
-msgid "See :ref:`distributions documentation below <iso_19139_che-distribution>`"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:426
-msgid ""
-"Every first link of the online resources gets put as landingPage, every "
-"additional link gets put into the relations."
+#: ../../source/content/glossar/bibliothek/geocat-examples/dataset-see-also.rst:1
+msgid "Geocat Identifiers for ``rdfs:seeAlso``"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:433
-msgid "Example of getting dct:relation from gmd with ISO-19139_che XPath"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:458
-msgid "dcat:keyword"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:460
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:874
-msgid "Keywords of the dataset"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:467
-msgid "Example of getting dcat:keyword from gmd with ISO-19139_che XPath"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:503
-msgid "dcat:landingPage"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:505
-msgid "Landing page"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:513
-msgid "Example of getting dcat:landingPage from gmd with ISO-19139_che XPath"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:538
-msgid "dct:spatial"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:540
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:547
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:648
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:711
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:823
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:830
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:837
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:867
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:898
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:905
-msgid "Currently not implemented"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:545
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:903
-msgid "dct:coverage"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:552
-msgid "dct:temporal"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:554
-msgid "Temporal Coverage"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:562
-msgid "Example of getting dct:temporal from gmd with ISO-19139_che XPath"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:576
-msgid "dct:accrualPeriodicity"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:578
-msgid "Update interval"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:580
-msgid "continual => \\http://purl.org/cld/freq/continuous"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:581
-msgid "daily => \\http://purl.org/cld/freq/daily"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:582
-msgid "weekly => \\http://purl.org/cld/freq/weekly"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:583
-msgid "fortnightly => \\http://purl.org/cld/freq/biweekly"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:584
-msgid "monthly => \\http://purl.org/cld/freq/monthly"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:585
-msgid "quarterly => \\http://purl.org/cld/freq/quarterly"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:586
-msgid "biannually => \\http://purl.org/cld/freq/semiannual"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:587
-msgid "annually => \\http://purl.org/cld/freq/annual"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:588
-msgid "asNeeded => \\http://purl.org/cld/freq/completelyIrregular"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:589
-msgid "irregular => \\http://purl.org/cld/freq/completelyIrregular"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:590
-msgid "notPlanned => \\http://purl.org/cld/freq/completelyIrregular"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:591
-msgid "unknown => \\http://purl.org/cld/freq/completelyIrregular"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:598
-msgid ""
-"Example of getting dct:accrualPeriodicity from gmd with ISO-19139_che "
-"XPath"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:630
-msgid "rdfs:seeAlso"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:632
-msgid "Further Information"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:642
 msgid "Distribution"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:646
-msgid "dct:title"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:438
+msgid "Set ``dcat:accessURL``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:656
-msgid "Example of getting dct:title from gmd with ISO-19139_che XPath"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:676
-msgid "dct:description"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:680
-msgid "In geoservices: Description of dataset"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:713
-msgid "Locales from"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:719
-msgid "Example of getting dct:language from gmd with ISO-19139_che XPath"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:738
-msgid "**dct:issued**"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:740
-msgid "Issued Date"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:742
-msgid "issued from dataset"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:749
-msgid "Modified Date"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:751
-msgid "modified from dataset"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:755
-msgid "**dcat:accessURL**"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:757
-msgid "Access URL"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:772
-msgid "Example of getting dcat:accessURL from gmd with ISO-19139_che XPath"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:791
-msgid "**dct:rights**"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:793
-msgid "Terms of use"
-msgstr ""
-
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:795
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst:3
 msgid ""
-"**NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired**: Freie "
-"Nutzung / Utilisation libre"
+"The mapping depends on the protocol. If the protocol starts in the "
+"following way it is mapped to a dcat:Distribution: ``WWW:DOWNLOAD``, "
+"``OGC:WMTS``, ``OGC:WFS``, ``\"OGC:WMS``, ``LINKED:DATA``, ``ESRI:REST``,"
+" ``MAP:Preview``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:796
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-access-url.rst:9
 msgid ""
-"**NonCommercialAllowed-CommercialAllowed-ReferenceRequired**: Freie "
-"Nutzung. Quellenangabe ist Pflicht. Utilisation libre. Obligation "
-"d’indiquer la source."
+"For the protocol ``WWW:DOWNLOAD`` the protocol should include the format "
+"of the resource: for example ``WWW:DOWNLOAD:INTERLIS``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:797
+#: ../../source/content/glossar/bibliothek/geocat-examples/distribution-access-url.rst:1
 msgid ""
-"**NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired**: "
-"Freie Nutzung. Kommerzielle Nutzung nur mit Bewilligung des "
-"Datenlieferanten zulässig. / Utilisation libre. Utilisation à des fins "
-"commerciales uniquement avec l’autorisation du fournisseur des données."
+"Example of mapping to the ``dcat:accessURL`` for a distribution of "
+"protocol \"LINKED:DATA\""
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:798
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:452
+msgid "Set ``dcat:downloadURL``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst:1
+msgid ":ref:`dcat:downloadURL <dcat-distribution-download-url>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst:3
+msgid "``.//gmd:protocol/gco:CharacterString`` ``WWW:DOWNLOAD``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst:6
 msgid ""
-"**NonCommercialAllowed-CommercialWithPermission-ReferenceRequired**: "
-"Freie Nutzung. Quellenangabe ist Pflicht. Kommerzielle Nutzung nur mit "
-"Bewilligung des Datenlieferanten zulässig. / Utilisation libre. "
-"Obligation d’indiquer la source. Utilisation commerciale uniquement avec "
-"l’autorisation du fournisseur des données."
+"For the protocol ``WWW:DOWNLOAD`` the same url is mapped to both "
+"dcat:accessURL and dcat:downloadURL"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:800
-msgid "The first one in the following order:"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-download-url.rst:8
+msgid "default path of the download url within the geocat distribution"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:807
-msgid "Example of getting dct:rights from gmd with ISO-19139_che XPath"
+#: ../../source/content/glossar/bibliothek/geocat-examples/distribution-download-url.rst:1
+msgid ""
+"Example of mapping to ``dcat:downloadURL`` for a Distribution with "
+"protocol \"WWW:DOWNLOAD:INTERLIS\""
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:821
-msgid "dct:license"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:466
+msgid "Set ``dct:rights``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:835
-msgid "dcat:downloadURL"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-rights.rst:2
+msgid "``//gmd:resourceConstraints//gmd:otherConstraints``"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:845
-msgid "Example of getting dcat:downloadURL from gmd with ISO-19139_che XPath"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-rights.rst:3
+msgid ""
+"Geocat rights statements are mapped to rights statements from the DCAT-AP"
+" CH rights vocabulary: :download:`RIGHTS-RDF "
+"</_static/vocabulary/rights.rdf>`, :download:`RIGHTS-Turtle "
+"</_static/vocabulary/rights.ttl>`. For details of the mapping, see below."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:865
-msgid "dcat:byteSize"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-rights.rst:8
+msgid "getting rights statements with XPATH"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:872
-msgid "dcat:mediaType"
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-rights.rst:13
+msgid "Mapping of rights statements"
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:882
-msgid "Example of getting dcat:mediaType from gmd with ISO-19139_che XPath"
+#: ../../source/content/glossar/bibliothek/geocat-examples/distribution-rights.rst:1
+msgid ""
+"Example of getting rights statements from "
+"``//gmd:resourceConstraints//gmd:otherConstraints``."
 msgstr ""
 
-#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:896
-msgid "dct:format"
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:480
+msgid "Set ``dcat:mediaType``"
 msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-media-type.rst:1
+msgid ":ref:`dcat:mediaType <dcat-distribution-media-type>`"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-format.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-language.rst
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-media-type.rst
+msgid "Usage-Notes"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-media-type.rst:2
+msgid ""
+"For protocol \"WWW:DOWNLOAD\" the media type is derived by splitting the "
+"protocol name: the protocol name is expected as ``<download-protocol"
+">:<media-type>``. For protocols \"OGC:WMTS\", \"OGC:WMS\", \"OGC:WFS\", "
+"\"LINKED:DATA\", \"MAP:Preview\", \"ESRI:REST\" the dcat:mediaType is "
+"\"SERVICE\""
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/distribution-media-type.rst:1
+msgid ""
+"Example of mapping to ``dcat:mediaType`` for a Distribution with protocol"
+" \"WWW:DOWNLOAD:INTERLIS\""
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:494
+msgid "Set ``dct:format``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-format.rst:2
+msgid ""
+"For protocol \"WWW:DOWNLOAD\" the format is derived in the same way as "
+"the :ref:`media type <geocat-distribution-media-type>`. For the other "
+"protocols the format is derived from the protocol as described in the "
+"mapping below."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-format.rst:12
+msgid "Mapping of protocol names to dct:format of dcat:Distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/distribution-format.rst:1
+msgid ""
+"Example of mapping to ``dct:format`` for a Distribution with protocol "
+"\"WWW:WMS\" to \"WMS\""
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:508
+msgid "Set ``dct:title``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst:2
+msgid ""
+"Mapping depends on the type of distribution that is derived from the "
+"protocol"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst:3
+msgid "``//gmd:transferOptions//gmd:CI_OnlineResource//gmd:protocol/gco:CharacterString``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst
+msgid "Name"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst:4
+msgid "``.//gmd:distributionInfo//gmd:transferOptions//gmd:name``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst:5
+msgid ""
+"The title of the distribution is derived by mapping the normed protocol "
+"name to a derived protocol name and then adding the name of the "
+"Distribution."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst:8
+msgid "relative XPath to the protocol of a Distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst:13
+msgid "ISO-19139_che XPath for the name of a Distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-title.rst:18
+msgid "Mapping of protocol names to dct:title of dcat:Distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/distribution-title.rst:1
+msgid ""
+"Example of mapping to ``dcat:mediaType`` for a Distribution with protocol"
+" ``OGC:WFS`` The derived title is \"OGC:WFS (GetCapabilities) DE#WFS\""
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:522
+msgid "Set ``dct:description``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-description.rst:2
+msgid "``//gmd:distributionInfo//gmd:transferOptions//gmd:description``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-description.rst:4
+msgid "relative XPath in the Distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/distribution-description.rst:1
+msgid ""
+"Example of getting ``dct:description`` for ``dcat:Distribution`` from a "
+"geocat distribution"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mapping.rst:536
+msgid "Set ``dct:language``"
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-mappings/distribution-language.rst:2
+msgid ""
+"The language is derived from the languages that a localized url is "
+"offered for."
+msgstr ""
+
+#: ../../source/content/glossar/bibliothek/geocat-examples/distribution-language.rst:1
+msgid ""
+"Example of mapping to ``dct:language`` for a Distribution with protocol "
+"``WWW:DOWNLOAD``"
+msgstr ""
+
+#~ msgid "ISO-19139_che zu DCAT-AP-CH"
+#~ msgstr ""
+
+#~ msgid "Transformation des Geodaten-Standards für opendata.swiss"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Um Geodaten auf opendata.swiss publizieren "
+#~ "zu können, muss der Geodaten-Standard"
+#~ " ISO-19139_che auf den von "
+#~ "opendata.swiss genutzten DCAT-AP-CH "
+#~ "abgebildet werden. Diese Dokumentation "
+#~ "beschreibt die Standard-Transformation von "
+#~ "ISO-19139_che nach :doc:`DCAT-AP-CH "
+#~ "<dcat-ap-ch>`, so wie sie für "
+#~ "das Harvesting von Geodaten auf "
+#~ "opendata.swiss benötigt wird. Es geht "
+#~ "dabei um die XML-Serialisierung durch"
+#~ " XPath. Diese Dokumentation ist aktuell "
+#~ "nur in Englisch verfügbar."
+#~ msgstr ""
+
+#~ msgid "DCAT-AP-CH Standard Overview"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This documentation describes the mapping "
+#~ "from ISO-19139_che to :doc:`DCAT-AP "
+#~ "Switzerland <dcat-ap-ch>`. ISO-19139_che"
+#~ " is a standard used by `Geocat "
+#~ "<https://www.geocat.ch>`__, a data source from"
+#~ " which opendata.swiss harvests datasets."
+#~ msgstr ""
+
+#~ msgid "Please click on the text below for more details."
+#~ msgstr ""
+
+#~ msgid "**dct:identifier**"
+#~ msgstr ""
+
+#~ msgid "Display name on opendata.swiss"
+#~ msgstr ""
+
+#~ msgid "Identifier"
+#~ msgstr ""
+
+#~ msgid "ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "Format"
+#~ msgstr ""
+
+#~ msgid "the identifier should be of the form ``<id>@<organization-slug>``"
+#~ msgstr ""
+
+#~ msgid "dct:identifier"
+#~ msgstr ""
+
+#~ msgid "**dct:title**"
+#~ msgstr ""
+
+#~ msgid "Pagetitle"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Example of getting dct:title: only 4 "
+#~ "languages are taken: DE, EN, FR, "
+#~ "IT"
+#~ msgstr ""
+
+#~ msgid "**dct:description**"
+#~ msgstr ""
+
+#~ msgid "Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Example of getting dct:description: only "
+#~ "4 languages are taken: DE, EN, FR,"
+#~ " IT"
+#~ msgstr ""
+
+#~ msgid "dct:issued"
+#~ msgstr ""
+
+#~ msgid "Issued date"
+#~ msgstr ""
+
+#~ msgid "Example: codeListValue=\"publication\" was found, 2012-05-11 is taken"
+#~ msgstr ""
+
+#~ msgid "dct:modified"
+#~ msgstr ""
+
+#~ msgid "Modified date"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Example of getting dct:modified: "
+#~ "codeListValue=\"revision\" was found, 2020-02-23 "
+#~ "is taken"
+#~ msgstr ""
+
+#~ msgid "**dct:publisher**"
+#~ msgstr ""
+
+#~ msgid "Publishers"
+#~ msgstr ""
+
+#~ msgid "The first one is taken in the following order:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Example of getting dct:publisher: "
+#~ "codeListValue=\"pointOfContact\" is detected,"
+#~ msgstr ""
+
+#~ msgid "**dcat:contactPoint**"
+#~ msgstr ""
+
+#~ msgid "Contact points"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Example of getting dcat:contactPoint: "
+#~ "codeListValue=\"pointOfContact\" was found"
+#~ msgstr ""
+
+#~ msgid "**dcat:theme**"
+#~ msgstr ""
+
+#~ msgid "Categories"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`imageryBaseMapsEarthCover` => "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`imageryBaseMapsEarthCover_BaseMaps` => "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`imageryBaseMapsEarthCover_EarthCover`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`imageryBaseMapsEarthCover_Imagery`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`location`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`elevation`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`boundaries`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`planningCadastre`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`planningCadastre_Planning`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`planningCadastre_Cadastre`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`geoscientificInformation`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`geoscientificInformation_Geology`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`geoscientificInformation_Soils`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`geoscientificInformation_NaturalHazards`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`biota`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory, "
+#~ "https://opendata.swiss/group/agriculture]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`oceans`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`inlandWaters`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`climatologyMeteorologyAtmosphere`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`environment`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`environment_EnvironmentalProtection`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`environment_NatureProtection`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`society`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/culture, "
+#~ "https://opendata.swiss/group/population]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`health`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/health]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`structure`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/construction]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`transportation`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/mobility]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`utilitiesCommunication`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory, "
+#~ "https://opendata.swiss/group/energy, "
+#~ "https://opendata.swiss/group/culture]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`utilitiesCommunication_Energy`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/energy, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`utilitiesCommunication_Utilities`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/territory]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`utilitiesCommunication_Communication`: "
+#~ "[https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/culture]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`intelligenceMilitary`: [https://opendata.swiss/group/geography,"
+#~ " https://opendata.swiss/group/public-order]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`farming`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/agriculture]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`economy`: [https://opendata.swiss/group/geography, "
+#~ "https://opendata.swiss/group/work, https://opendata.swiss/group"
+#~ "/national-economy]"
+#~ msgstr ""
+
+#~ msgid "Example of getting dcat:theme from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "dct:language"
+#~ msgstr ""
+
+#~ msgid "Languages"
+#~ msgstr ""
+
+#~ msgid "Example of getting dct:description from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "**dcat:distribution**"
+#~ msgstr ""
+
+#~ msgid "See `distributions documentation below <#distributions>`__"
+#~ msgstr ""
+
+#~ msgid "Resources"
+#~ msgstr ""
+
+#~ msgid "Example of getting dcat:distribution from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "dct:relation"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "See :ref:`distributions documentation below "
+#~ "<iso_19139_che-distribution>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Every first link of the online "
+#~ "resources gets put as landingPage, every"
+#~ " additional link gets put into the"
+#~ " relations."
+#~ msgstr ""
+
+#~ msgid "Example of getting dct:relation from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "dcat:keyword"
+#~ msgstr ""
+
+#~ msgid "Keywords of the dataset"
+#~ msgstr ""
+
+#~ msgid "Example of getting dcat:keyword from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "dcat:landingPage"
+#~ msgstr ""
+
+#~ msgid "Landing page"
+#~ msgstr ""
+
+#~ msgid "Example of getting dcat:landingPage from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "dct:spatial"
+#~ msgstr ""
+
+#~ msgid "Currently not implemented"
+#~ msgstr ""
+
+#~ msgid "dct:coverage"
+#~ msgstr ""
+
+#~ msgid "dct:temporal"
+#~ msgstr ""
+
+#~ msgid "Temporal Coverage"
+#~ msgstr ""
+
+#~ msgid "Example of getting dct:temporal from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "dct:accrualPeriodicity"
+#~ msgstr ""
+
+#~ msgid "Update interval"
+#~ msgstr ""
+
+#~ msgid "continual => \\http://purl.org/cld/freq/continuous"
+#~ msgstr ""
+
+#~ msgid "daily => \\http://purl.org/cld/freq/daily"
+#~ msgstr ""
+
+#~ msgid "weekly => \\http://purl.org/cld/freq/weekly"
+#~ msgstr ""
+
+#~ msgid "fortnightly => \\http://purl.org/cld/freq/biweekly"
+#~ msgstr ""
+
+#~ msgid "monthly => \\http://purl.org/cld/freq/monthly"
+#~ msgstr ""
+
+#~ msgid "quarterly => \\http://purl.org/cld/freq/quarterly"
+#~ msgstr ""
+
+#~ msgid "biannually => \\http://purl.org/cld/freq/semiannual"
+#~ msgstr ""
+
+#~ msgid "annually => \\http://purl.org/cld/freq/annual"
+#~ msgstr ""
+
+#~ msgid "asNeeded => \\http://purl.org/cld/freq/completelyIrregular"
+#~ msgstr ""
+
+#~ msgid "irregular => \\http://purl.org/cld/freq/completelyIrregular"
+#~ msgstr ""
+
+#~ msgid "notPlanned => \\http://purl.org/cld/freq/completelyIrregular"
+#~ msgstr ""
+
+#~ msgid "unknown => \\http://purl.org/cld/freq/completelyIrregular"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Example of getting dct:accrualPeriodicity from"
+#~ " gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "rdfs:seeAlso"
+#~ msgstr ""
+
+#~ msgid "Further Information"
+#~ msgstr ""
+
+#~ msgid "dct:title"
+#~ msgstr ""
+
+#~ msgid "Example of getting dct:title from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "dct:description"
+#~ msgstr ""
+
+#~ msgid "In geoservices: Description of dataset"
+#~ msgstr ""
+
+#~ msgid "Locales from"
+#~ msgstr ""
+
+#~ msgid "Example of getting dct:language from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "**dct:issued**"
+#~ msgstr ""
+
+#~ msgid "Issued Date"
+#~ msgstr ""
+
+#~ msgid "issued from dataset"
+#~ msgstr ""
+
+#~ msgid "Modified Date"
+#~ msgstr ""
+
+#~ msgid "modified from dataset"
+#~ msgstr ""
+
+#~ msgid "**dcat:accessURL**"
+#~ msgstr ""
+
+#~ msgid "Access URL"
+#~ msgstr ""
+
+#~ msgid "Example of getting dcat:accessURL from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "**dct:rights**"
+#~ msgstr ""
+
+#~ msgid "Terms of use"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**NonCommercialAllowed-CommercialAllowed-"
+#~ "ReferenceNotRequired**: Freie Nutzung / "
+#~ "Utilisation libre"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**NonCommercialAllowed-CommercialAllowed-"
+#~ "ReferenceRequired**: Freie Nutzung. Quellenangabe"
+#~ " ist Pflicht. Utilisation libre. Obligation"
+#~ " d’indiquer la source."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**NonCommercialAllowed-CommercialWithPermission-"
+#~ "ReferenceNotRequired**: Freie Nutzung. Kommerzielle"
+#~ " Nutzung nur mit Bewilligung des "
+#~ "Datenlieferanten zulässig. / Utilisation "
+#~ "libre. Utilisation à des fins "
+#~ "commerciales uniquement avec l’autorisation du"
+#~ " fournisseur des données."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**NonCommercialAllowed-CommercialWithPermission-"
+#~ "ReferenceRequired**: Freie Nutzung. Quellenangabe"
+#~ " ist Pflicht. Kommerzielle Nutzung nur "
+#~ "mit Bewilligung des Datenlieferanten zulässig."
+#~ " / Utilisation libre. Obligation d’indiquer"
+#~ " la source. Utilisation commerciale "
+#~ "uniquement avec l’autorisation du fournisseur"
+#~ " des données."
+#~ msgstr ""
+
+#~ msgid "The first one in the following order:"
+#~ msgstr ""
+
+#~ msgid "Example of getting dct:rights from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "dct:license"
+#~ msgstr ""
+
+#~ msgid "dcat:downloadURL"
+#~ msgstr ""
+
+#~ msgid "Example of getting dcat:downloadURL from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "dcat:byteSize"
+#~ msgstr ""
+
+#~ msgid "dcat:mediaType"
+#~ msgstr ""
+
+#~ msgid "Example of getting dcat:mediaType from gmd with ISO-19139_che XPath"
+#~ msgstr ""
+
+#~ msgid "dct:format"
+#~ msgstr ""
 
