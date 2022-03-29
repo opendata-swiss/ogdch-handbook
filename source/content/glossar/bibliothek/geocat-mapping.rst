@@ -159,8 +159,8 @@ Mapping to dcat:Distribution
       - :ref:`.//gmd:protocol <geocat-distribution-media-type>`
       - derived from the protocol
     * - :ref:`dct:format <dcat-distribution-format>`
-      -
-      - mapping not implemented
+      -  :ref:`.//gmd:protocol <geocat-distribution-format>`
+      - derived from the protocol
     * - :ref:`dct:language <dcat-distribution-language>`
       - :ref:`.//gmd:linkage//che:LocalisedURL <geocat-distribution-language>`
       - depends on localized urls
@@ -485,6 +485,20 @@ Set ``dcat:mediaType``
     :header: Example of a "WWW:DOWNLOAD" Distribution with ``dcat:mediaType`` "INTERLIS"
 
     .. include:: geocat-examples/distribution-media-type.rst
+
+.. _geocat-distribution-format:
+
+Set ``dct:format``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/distribution-format.rst
+
+.. toggle-header::
+    :header: Example of a "WWW:WMS" Distribution with ``dct:format`` "WMS"
+
+    .. include:: geocat-examples/distribution-format.rst
 
 .. _geocat-distribution-title:
 
