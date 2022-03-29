@@ -47,10 +47,17 @@ msgid ""
 "dabei um die `XML-Serialisierung durch XPath "
 "<https://de.wikipedia.org/wiki/XPath>`__ ."
 msgstr ""
+"Pour pouvoir être publiées sur opendata.swiss, les géométadonnées doivent être converties "
+"de la norme "
+"`ISO 19139 <https://www.geocat.admin.ch/fr/documentation/gm03-metadata-model.html>`__  "
+"dans celle,DCAT-AP CH, appliquée par le portail des données ouvertes. "
+"La présente documentation décrit comment procéder en général à la conversion de géométadonnées réunies sous "
+"ISO 19139 vers la norme :doc:`DCAT-AP CH <dcat-ap-ch>`, passage obligé pour publier des géométadonnées sur opendata.swiss. "
+"Il s’agit concrètement d’une `sérialisation XML via XPath <https://fr.wikipedia.org/wiki/XPath>`__ ."
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:25
 msgid "Diese Dokumentation ist aktuell nur in Englisch verfügbar."
-msgstr ""
+msgstr "Cette documentation n’est pour l’heure disponible qu’en anglais."
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:28
 msgid "DCAT-AP CH Standard Overview"
