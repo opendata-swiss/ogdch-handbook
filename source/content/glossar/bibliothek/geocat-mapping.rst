@@ -15,7 +15,7 @@ Transformation des Geodatenstandard für opendata.swiss
 
     Um Geometadaten auf opendata.swiss publizieren zu können, muss der Geometadatenstandard
     `ISO-19139_che <https://www.geocat.admin.ch/de/documentation/gm03-metadata-model.html>`__
-    auf den von opendata.swiss genutzten :doc:`DCAT-AP CH <dcat-ap-ch> abgebildet werden.
+    auf den von opendata.swiss genutzten :doc:`DCAT-AP CH <dcat-ap-ch>` abgebildet werden.
     Diese Dokumentation beschreibt die Standard-Transformation von ISO-19139_che
     nach :doc:`DCAT-AP CH <dcat-ap-ch>`,
     so wie sie für das Harvesting von Geometadaten auf opendata.swiss
