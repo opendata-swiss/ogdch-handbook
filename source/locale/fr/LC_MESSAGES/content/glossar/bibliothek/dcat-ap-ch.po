@@ -34,7 +34,6 @@ msgid "DCAT-AP CH"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/dcat-ap-ch.rst:12
-#, fuzzy
 msgid "Der Schweizer Metadatenstandard"
 msgstr "La norme suisse en matière de métadonnées"
 
