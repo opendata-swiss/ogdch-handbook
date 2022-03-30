@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-30 12:16+0200\n"
+"POT-Creation-Date: 2022-03-30 13:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgid "ISO-19139_che zu DCAT-AP CH"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:12
-msgid "Transformation des Geodatenstandard für opendata.swiss"
+msgid "Transformation des Geometadatenstandards für opendata.swiss"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:16
@@ -1936,5 +1936,8 @@ msgstr ""
 #~ " benötigt wird. Es geht dabei um "
 #~ "die `XML-Serialisierung durch XPath "
 #~ "<https://de.wikipedia.org/wiki/XPath>`__ ."
+#~ msgstr ""
+
+#~ msgid "Transformation des Geodatenstandard für opendata.swiss"
 #~ msgstr ""
 
