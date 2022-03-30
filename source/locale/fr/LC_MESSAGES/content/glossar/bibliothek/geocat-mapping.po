@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Handbuch Opendata.swiss \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-30 12:16+0200\n"
+"POT-Creation-Date: 2022-03-30 13:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,12 +31,10 @@ msgid "ISO-19139_che zu DCAT-AP CH"
 msgstr ""
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:12
-#, fuzzy
-msgid "Transformation des Geodatenstandard für opendata.swiss"
-msgstr "Conversion des géodonnées pour opendata.swiss"
+msgid "Transformation des Geometadatenstandards für opendata.swiss"
+msgstr "Conversion des géométadonnées pour opendata.swiss"
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:16
-#, fuzzy
 msgid ""
 "Um Geometadaten auf opendata.swiss publizieren zu können, muss der "
 "Geometadatenstandard `ISO-19139_che "
@@ -51,15 +49,13 @@ msgstr ""
 "Pour pouvoir être publiées sur opendata.swiss, les géométadonnées doivent"
 " être converties de la norme `ISO 19139 "
 "<https://www.geocat.admin.ch/fr/documentation/gm03-metadata-"
-"model.html>`__  dans celle
-"appliquée par le portail des données ouvertes"
-"(:doc:`DCAT-AP CH <dcat-ap-ch>`). "
-"La présente documentation décrit comment procéder en "
-"général à la conversion de géométadonnées réunies sous ISO 19139 vers la "
-"norme :doc:`DCAT-AP CH <dcat-ap-ch>`, "
-"passage obligé pour les publier sur opendata.swiss."
-"Il s’agit concrètement d’une "
-"`sérialisation XML via XPath <https://fr.wikipedia.org/wiki/XPath>`__ ."
+"model.html>`__  dans celle appliquée par le portail des données "
+"ouvertes(:doc:`DCAT-AP CH <dcat-ap-ch>`). La présente documentation "
+"décrit comment procéder en général à la conversion de géométadonnées "
+"réunies sous ISO 19139 vers la norme :doc:`DCAT-AP CH <dcat-ap-ch>`, "
+"passage obligé pour les publier sur opendata.swiss.Il s’agit concrètement"
+" d’une `sérialisation XML via XPath "
+"<https://fr.wikipedia.org/wiki/XPath>`__ ."
 
 #: ../../source/content/glossar/bibliothek/geocat-mapping.rst:25
 msgid "Diese Dokumentation ist aktuell nur in Englisch verfügbar."

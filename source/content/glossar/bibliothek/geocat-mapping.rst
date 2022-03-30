@@ -8,8 +8,8 @@
 ISO-19139_che zu DCAT-AP CH
 ***************************
 
-Transformation des Geodatenstandard für opendata.swiss
-========================================================
+Transformation des Geometadatenstandards für opendata.swiss
+============================================================
 
 .. container:: Intro
 
