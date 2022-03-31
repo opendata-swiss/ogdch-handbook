@@ -3,6 +3,6 @@
 :Value: ``./gco:CharacterString/text()``
 
 .. code-block:: xml
-    :caption: ISO-19139_che XPath for dct:keyword
+    :caption: ISO-19139_che XPath for dacat
 
     //gmd:identificationInfo//gmd:extent//gmd:description/gco:CharacterString/text()

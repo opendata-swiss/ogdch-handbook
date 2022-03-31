@@ -1,5 +1,5 @@
-:DCAT URI: dcat:downloadURL
-:Domain: dcat:Dataset
+:DCAT URI: dcat:accessURL
+:Domain: dcat:Distribution
 :Value: URI: http://www.w3.org/2001/XMLSchema#anyURI
 :Requirement Level: mandatory
 :Cardinality: 1..n

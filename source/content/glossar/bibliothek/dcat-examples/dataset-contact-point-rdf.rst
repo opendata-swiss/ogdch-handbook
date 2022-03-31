@@ -17,8 +17,8 @@
 
         <dcat:contactPoint>
           <vcard:Individual>
-            <vcard:fn>Sekretariat BAFU</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:sekretariat@bafu.admin.ch"/>
+            <vcard:fn>Max Muster, BAFU Datenspezialist</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:max-muster@bafu.admin.ch"/>
           </vcard:Individual>
         </dcat:contactPoint>
 

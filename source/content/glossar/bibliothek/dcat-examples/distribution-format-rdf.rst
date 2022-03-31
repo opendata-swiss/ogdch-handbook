@@ -9,7 +9,7 @@
 
       <dcat:Distribution rdf:about="http://stratigraphy.org/ICSchart/ChronostratChart2017-02.jpg">
         <dcat:accessURL rdf:resource="http://stratigraphy.org/ICSchart/ChronostratChart2017-02.jpg"/>
-        <dc:format rdf:resource="https://www.iana.org/assignments/media-types/img/jpeg"/>
+        <dct:format rdf:resource="https://www.iana.org/assignments/media-types/img/jpeg"/>
       </dcat:Distribution>
 
     </rdf:RDF>

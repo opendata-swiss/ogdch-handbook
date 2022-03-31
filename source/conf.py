@@ -27,7 +27,7 @@ author = 'bfs.admin.ch'
 # The full version, including alpha/beta/rc tags
 release = '1.0'
 
-pygments_style = 'monokai'
+pygments_style = 'friendly'
 
 
 # -- General configuration ---------------------------------------------------
@@ -40,6 +40,7 @@ extensions = [
     'sphinx_fontawesome',
     'notfound.extension',
     'sphinx_comments',
+    'sphinxcontrib.contentui',
 ]
 
 notfound_no_urls_prefix = True
@@ -58,6 +59,7 @@ language = 'de'
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['content/glossar/bibliothek/dcat-examples/*.rst',
+                    'content/glossar/bibliothek/dcat-examples/deprecated/*.rst',
                     'content/glossar/bibliothek/geocat-examples/*.rst',
                     'content/glossar/bibliothek/geocat-mappings/*.rst',
                     'content/glossar/bibliothek/dcat-definitions/*.rst',]
