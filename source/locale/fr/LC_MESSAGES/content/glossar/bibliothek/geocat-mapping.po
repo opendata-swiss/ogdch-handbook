@@ -53,7 +53,7 @@ msgstr ""
 "ouvertes (:doc:`DCAT-AP CH <dcat-ap-ch>`). La présente documentation "
 "décrit comment procéder en général à la conversion de géométadonnées "
 "réunies sous ISO 19139 vers la norme :doc:`DCAT-AP CH <dcat-ap-ch>`, "
-"passage obligé pour les publier sur opendata.swiss.Il s’agit concrètement"
+"passage obligé pour les publier sur opendata.swiss. Il s’agit concrètement"
 " d’une `sérialisation XML via XPath "
 "<https://fr.wikipedia.org/wiki/XPath>`__ ."
 
