@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:dcat="http://www.w3.org/ns/dcat#"
-         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:dct="http://purl.org/dc/terms/"
          xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:schema="http://schema.org/"
@@ -19,7 +19,11 @@
     <dct:description xml:lang="en">The map shows how the population is exposed by the noise pollution of the rail system.</dct:description>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
-    <dct:publisher rdf:resource="https://www.swisstopo.admin.ch/"/>
+    <dct:publisher>
+      <foaf:Organization rdf:about="https://www.swisstopo.admin.ch/">
+        <foaf:name>Bundesamt für Umwelt</foaf:name>
+      </foaf:Organization>
+    </dct:publisher>
     <dcat:contactPoint>
       <vcard:Organization>
         <vcard:fn>Abteilung Lärm BAFU</vcard:fn>
@@ -89,10 +93,6 @@
 
   </dcat:Dataset>
 
-  <foaf:Organization rdf:about="https://www.swisstopo.admin.ch/">
-    <foaf:name:>Bundesamt für Umwelt</foaf:name:>
-  </foaf:Organization>
-
   <dcat:Dataset rdf:about="http://swisstopo/swissBOUNDARIES">
     <dct:identifier>swissBOUNDARIES@swisstopo</dct:identifier>
     <dct:title xml:lang="de">Landesgrenzen</dct:title>
@@ -105,7 +105,11 @@
     <dct:description xml:lang="en">swissBOUNDARIES national boundaries constitute the borders of Switzerland and the principality of Liechtenstein.</dct:description>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
-    <dct:publisher rdf:resource="https://www.swisstopo.admin.ch/"/>
+    <dct:publisher>
+      <foaf:Organization rdf:about="https://www.swisstopo.admin.ch/">
+        <foaf:name>Bundesamt für Umwelt</foaf:name>
+      </foaf:Organization>
+    </dct:publisher>
     <dcat:contactPoint>
       <vcard:Organization>
         <vcard:fn>geodata Bundesamt für Landestopografie</vcard:fn>
@@ -114,7 +118,6 @@
     </dcat:contactPoint>
 
     <dcat:theme rdf:resource="http://opendata.swiss/themes/territory"/>
-    <dct:relation rdf:resource="http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html"/>
     <dcat:keyword xml:lang="de">Landesgrenze</dcat:keyword>
     <dcat:keyword xml:lang="fr">Frontières nationales</dcat:keyword>
     <dcat:keyword xml:lang="it">Frontiere nazionali</dcat:keyword>
@@ -162,10 +165,6 @@
     </dcat:distribution>
 
   </dcat:Dataset>
-
-  <rdf:Description rdf:about="http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html">
-    <rdfs:label>Webseite swissBOUNDARIES</rdfs:label>
-  </rdf:Description>
 
   <dcat:Catalog rdf:nodeID="genid7">
     <dcat:dataset rdf:resource="http://swisstopo/325"/>

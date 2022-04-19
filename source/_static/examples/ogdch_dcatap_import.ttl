@@ -105,7 +105,117 @@
 
 <https://www.swisstopo.admin.ch/>
   a foaf:Organization ;
-  foaf:name: "Bundesamt für Umwelt" .
+  foaf:name "Bundesamt für Umwelt" .
+
+[]
+  a dcat:Catalog ;
+  dcat:dataset <http://swisstopo/325>, <http://swisstopo/swissBOUNDARIES> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://swisstopo/325>
+  a dcat:Dataset ;
+  dc:identifier "325@swisstopo" ;
+  dc:title "Eisenbahnlärm Nacht"@de, "Bruit ferroviaire nuit"@fr, "Rumore ferroviario notte"@it, "Railway noise night"@en ;
+  dc:description "Die Karte zeigt, welcher Lärmbelastung die Bevölkerung durch den Schienenverkehr ausgesetzt ist."@de, "La carte montre que la pollution sonore est suspendu par le système de rail, la population."@fr, "La mappa mostra che l'inquinamento acustico è sospeso dal sistema ferroviario, la popolazione."@it, "The map shows how the population is exposed by the noise pollution of the rail system."@en ;
+  dc:issued "2013-04-26T01:00:00Z"^^xsd:dateTime ;
+  dc:modified "2015-04-26T00:00:00Z"^^xsd:dateTime ;
+  dc:publisher <https://www.swisstopo.admin.ch/> ;
+  dcat:contactPoint [
+    a vcard:Organization ;
+    vcard:fn "Abteilung Lärm BAFU" ;
+    vcard:hasEmail <mailto:noise@bafu.admin.ch>
+  ], [
+    a vcard:Individual ;
+    vcard:fn "Heinz Müller" ;
+    vcard:hasEmail <mailto:heinz@bafu.admin.ch>
+  ] ;
+  dcat:theme <http://opendata.swiss/themes/population>, <http://opendata.swiss/themes/territory> ;
+  dc:language "de", "en" ;
+  dc:relation <http://www.bafu.admin.ch/laerm/index.html?lang=de> ;
+  dcat:keyword "Eisenbahn"@de, "Chemin-de-fer"@fr, "Ferrovia"@it, "Railroad"@en, "Nacht"@de, "Nuit"@fr, "Noche"@it, "Night"@en ;
+  dcat:landingPage <http://www.bafu.admin.ch/laerm/index.html> ;
+  dc:temporal [
+    a dc:PeriodOfTime ;
+    schema:startDate "1905-03-01"^^xsd:date ;
+    schema:endDate "2013-01-05"^^xsd:date
+  ], [
+    a dc:PeriodOfTime ;
+    schema:startDate "2013-03-01"^^xsd:date ;
+    schema:endDate "2015-01-05"^^xsd:date
+  ] ;
+  dc:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/DAILY> ;
+  rdfs:seeAlso "326@swisstopo" ;
+  dcat:distribution <http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht> .
+
+<https://www.swisstopo.admin.ch/>
+  a foaf:Organization ;
+  foaf:name "Bundesamt für Umwelt" .
+
+<http://www.bafu.admin.ch/laerm/index.html?lang=de> rdfs:label "Webseite des BAFU" .
+<http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht>
+  a dcat:Distribution ;
+  dc:identifier "ch.bafu.laerm-bahnlaerm_nacht" ;
+  dc:title "WMS (ch.bafu.laerm-bahnlaerm_nacht)"@de, "WMS (ch.bafu.laerm-bahnlaerm_nacht)"@en ;
+  dc:description "Die Angaben basieren auf flächendeckenden Modellberechnungen."@de, "The information is based on comprehensive model calculations."@en ;
+  dc:issued "2013-05-11T00:00:00Z"^^xsd:dateTime ;
+  dc:modified "2015-04-26T00:00:00Z"^^xsd:dateTime ;
+  dc:language "de", "en" ;
+  dcat:accessURL <http://wms.geo.admin.ch/> ;
+  dc:rights "NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired" ;
+  dcat:byteSize "1024" ;
+  dcat:mediaType "text/html" .
+
+<http://swisstopo/swissBOUNDARIES>
+  a dcat:Dataset ;
+  dc:identifier "swissBOUNDARIES@swisstopo" ;
+  dc:title "Landesgrenzen"@de, "Frontières nationales"@fr, "Frontiere nazionali"@it, "National boundaries"@en ;
+  dc:description "swissBOUNDARIES3D Landesgrenzen umfasst die Landesgrenzen der Schweiz und des Fürstentums Liechtenstein."@de, "swissBOUNDARIES3D frontières nationales comprend la frontière de la Suisse et de la Principauté de Liechtenstein."@fr, "swissBOUNDARIES3D frontiere nazionali contiene la frontiera della Svizzera e del Principato del Liechtenstein."@it, "swissBOUNDARIES national boundaries constitute the borders of Switzerland and the principality of Liechtenstein."@en ;
+  dc:issued "2013-04-26T01:00:00Z"^^xsd:dateTime ;
+  dc:modified "2015-04-26T00:00:00Z"^^xsd:dateTime ;
+  dc:publisher <https://www.swisstopo.admin.ch/> ;
+  dcat:contactPoint [
+    a vcard:Organization ;
+    vcard:fn "geodata Bundesamt für Landestopografie" ;
+    vcard:hasEmail <mailto:geodata@swisstopo.ch>
+  ] ;
+  dcat:theme <http://opendata.swiss/themes/territory> ;
+  dcat:keyword "Landesgrenze"@de, "Frontières nationales"@fr, "Frontiere nazionali"@it, "National boundaries"@en, "Verwaltungseinheiten"@de, "Unités administratives"@fr, "Unita amministrative"@it, "Administrative units"@en ;
+  dcat:landingPage <http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html> ;
+  dc:temporal [
+    a dc:PeriodOfTime ;
+    schema:startDate "2015-01-01"^^xsd:date ;
+    schema:endDate "2015-12-31"^^xsd:date
+  ] ;
+  dc:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+  rdfs:seeAlso "87986@swisstopo" ;
+  dcat:distribution <http://swisstopo/swissBOUNDARIES/swissboundaries3d-land-flaeche>, <http://swisstopo/swissBOUNDARIES/3> .
+
+<http://swisstopo/swissBOUNDARIES/swissboundaries3d-land-flaeche>
+  a dcat:Distribution ;
+  dc:identifier "swissboundaries3d-land-flaeche" ;
+  dc:issued "2014-12-31T00:00:00Z"^^xsd:dateTime ;
+  dcat:accessURL <http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/data.zip> ;
+  dcat:downloadURL <http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/data.zip> ;
+  dc:rights "NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired" ;
+  dcat:byteSize "209870" ;
+  dcat:mediaType "application/zip" ;
+  dc:format "Shapefile" .
+
+<http://swisstopo/swissBOUNDARIES/3>
+  a dcat:Distribution ;
+  dc:title "ReadMe"@de, "ReadMe"@fr, "ReadMe"@it, "ReadMe"@en ;
+  dc:issued "2014-12-31T00:00:00Z"^^xsd:dateTime ;
+  dcat:accessURL <http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/readme.txt> ;
+  dcat:downloadURL <http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/readme.txt> ;
+  dc:rights "NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired" ;
+  dcat:byteSize "1389" ;
+  dcat:mediaType "text/plain" .
 
 []
   a dcat:Catalog ;
