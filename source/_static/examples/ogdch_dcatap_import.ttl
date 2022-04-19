@@ -1,49 +1,19 @@
-# provide all the namespaces that are used in you catalog
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix schema: <http://schema.org/> .
 
-# if possible provide a URI fpr you dataset: for harvested datasets this could be the catalog endpoint
-# Otherwise us [] which indicates a blanknode: URI not known
-<https://swisstopo/catalog-endpoint>
-  a dcat:Catalog ;
-  dcat:dataset <http://swisstopo/325>,
-               <http://swisstopo/swissBOUNDARIES> .
-
-# This should be a URi: where the dataset can be reached
 <http://swisstopo/325>
   a dcat:Dataset ;
-
-  # take the identifier of the dataset in your system and add the slug of your organization
   dct:identifier "325@swisstopo" ;
-
-  # MANDATORY: Provide the title of the dataset in at least one of these 4 languages
-  dct:title "Eisenbahnlärm Nacht"@de,
-           "Bruit ferroviaire nuit"@fr,
-           "Rumore ferroviario notte"@it,
-           "Railway noise night"@en ;
-
-  # MANDATORY: Provide the description of the dataset in at least one of these 4 languages
-  dct:description "Die Karte zeigt, welcher Lärmbelastung die Bevölkerung durch den Schienenverkehr ausgesetzt ist."@de,
-                 "La carte montre que la pollution sonore est suspendu par le système de rail, la population."@fr,
-                 "La mappa mostra che l'inquinamento acustico è sospeso dal sistema ferroviario, la popolazione."@it,
-                 "The map shows how the population is exposed by the noise pollution of the rail system."@en ;
-
-  # CONDTIONAL: Provide the date on which the dataset was first published, if the dataset has been
-  #             published already
-  dct:issued "2013-04-26T01:00:00Z"^^xsd:dateTime ;#
-          
-  # CONDTIONAL: Provide the date on which the dataset was last updated, if an update has occured
+  dct:title "Eisenbahnlärm Nacht"@de, "Bruit ferroviaire nuit"@fr, "Rumore ferroviario notte"@it, "Railway noise night"@en ;
+  dct:description "Die Karte zeigt, welcher Lärmbelastung die Bevölkerung durch den Schienenverkehr ausgesetzt ist."@de, "La carte montre que la pollution sonore est suspendu par le système de rail, la population."@fr, "La mappa mostra che l'inquinamento acustico è sospeso dal sistema ferroviario, la popolazione."@it, "The map shows how the population is exposed by the noise pollution of the rail system."@en ;
+  dct:issued "2013-04-26T01:00:00Z"^^xsd:dateTime ;
   dct:modified "2015-04-26T00:00:00Z"^^xsd:dateTime ;
-          
-  # MANDATORY: provide the publisher with a URI and a label
-  # the publisher is the organization that has the legal authority to publish the dataset        
-  dct:publisher <https://www.swisstopo.admin.ch/>, [ rdfs:label "Bundesamt für Umwelt" ] ;
-          
-  # MANDATORY: provide at least one contact for the dataset
+  dct:publisher <https://www.swisstopo.admin.ch/> ;
   dcat:contactPoint [
     a vcard:Organization ;
     vcard:fn "Abteilung Lärm BAFU" ;
@@ -53,25 +23,11 @@
     vcard:fn "Heinz Müller" ;
     vcard:hasEmail <mailto:heinz@bafu.admin.ch>
   ] ;
-
-  # OPTIONAL: chose categories
-  #           categories are provided as URIs to a controlled vocabulary
-  dcat:theme <http://opendata.swiss/themes/population>,
-             <http://opendata.swiss/themes/territory> ;
-
-  # CCONDITIONAL:
+  dcat:theme <http://opendata.swiss/themes/population>, <http://opendata.swiss/themes/territory> ;
   dct:language "de", "en" ;
   dct:relation <http://www.bafu.admin.ch/laerm/index.html?lang=de> ;
   dcat:keyword "Eisenbahn"@de, "Chemin-de-fer"@fr, "Ferrovia"@it, "Railroad"@en, "Nacht"@de, "Nuit"@fr, "Noche"@it, "Night"@en ;
-  dcat:landingPage "http://www.bafu.admin.ch/laerm/index.html?lang=de" ;
-
-  # OPTIONAL
-  dct:spatial "" ;
-
-  # OPTIONAL
-  dct:coverage "" ;
-
-  # OPTIONAL: provide a date or periads of dates that the dataset covers
+  dcat:landingPage <http://www.bafu.admin.ch/laerm/index.html> ;
   dct:temporal [
     a dct:PeriodOfTime ;
     schema:startDate "1905-03-01"^^xsd:date ;
@@ -81,37 +37,23 @@
     schema:startDate "2013-03-01"^^xsd:date ;
     schema:endDate "2015-01-05"^^xsd:date
   ] ;
-
-  # OPTIONAL: provide an update frequency for that dataset
-  #           provide value as URI from the controlled vocabulary http://purl.org/cld/freq/
-  dct:accrualPeriodicity <http://purl.org/cld/freq/daily> ;
-
-  # OPTIONAL: provide identifiers of related datasets
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/DAILY>  ;
   rdfs:seeAlso "326@swisstopo" ;
-
-  # MANDATORY: provide at least one distribution for the dataset:
-  #            list with URI if possible, otherwise with a blanknode:
   dcat:distribution <http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht> .
 
-# provide URI of a distribution if possible
+<http://www.bafu.admin.ch/laerm/index.html?lang=de> rdfs:label "Webseite des BAFU" .
 <http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht>
   a dcat:Distribution ;
-
-  # OPTIONAL: provide an identifier for the distribution
   dct:identifier "ch.bafu.laerm-bahnlaerm_nacht" ;
-
   dct:title "WMS (ch.bafu.laerm-bahnlaerm_nacht)"@de, "WMS (ch.bafu.laerm-bahnlaerm_nacht)"@en ;
   dct:description "Die Angaben basieren auf flächendeckenden Modellberechnungen."@de, "The information is based on comprehensive model calculations."@en ;
   dct:issued "2013-05-11T00:00:00Z"^^xsd:dateTime ;
   dct:modified "2015-04-26T00:00:00Z"^^xsd:dateTime ;
   dct:language "de", "en" ;
-  dcat:accessURL "http://wms.geo.admin.ch/"^^xsd:anyURI ;
+  dcat:accessURL <http://wms.geo.admin.ch/> ;
   dct:rights "NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired" ;
-  dct:license "" ;
   dcat:byteSize "1024" ;
-  dcat:mediaType "text/html" ;
-  dct:format "" ;
-  dct:coverage "" .
+  dcat:mediaType "text/html" .
 
 <http://swisstopo/swissBOUNDARIES>
   a dcat:Dataset ;
@@ -120,7 +62,7 @@
   dct:description "swissBOUNDARIES3D Landesgrenzen umfasst die Landesgrenzen der Schweiz und des Fürstentums Liechtenstein."@de, "swissBOUNDARIES3D frontières nationales comprend la frontière de la Suisse et de la Principauté de Liechtenstein."@fr, "swissBOUNDARIES3D frontiere nazionali contiene la frontiera della Svizzera e del Principato del Liechtenstein."@it, "swissBOUNDARIES national boundaries constitute the borders of Switzerland and the principality of Liechtenstein."@en ;
   dct:issued "2013-04-26T01:00:00Z"^^xsd:dateTime ;
   dct:modified "2015-04-26T00:00:00Z"^^xsd:dateTime ;
-  dct:publisher [ rdfs:label "Bundesamt für Landestopografie swisstopo" ] ;
+  dct:publisher <https://www.swisstopo.admin.ch/> ;
   dcat:contactPoint [
     a vcard:Organization ;
     vcard:fn "geodata Bundesamt für Landestopografie" ;
@@ -129,15 +71,13 @@
   dcat:theme <http://opendata.swiss/themes/territory> ;
   dct:relation <http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html> ;
   dcat:keyword "Landesgrenze"@de, "Frontières nationales"@fr, "Frontiere nazionali"@it, "National boundaries"@en, "Verwaltungseinheiten"@de, "Unités administratives"@fr, "Unita amministrative"@it, "Administrative units"@en ;
-  dcat:landingPage "http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html" ;
-  dct:spatial "" ;
-  dct:coverage "" ;
+  dcat:landingPage <http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html> ;
   dct:temporal [
     a dct:PeriodOfTime ;
     schema:startDate "2015-01-01"^^xsd:date ;
     schema:endDate "2015-12-31"^^xsd:date
   ] ;
-  dct:accrualPeriodicity <http://purl.org/cld/freq/annual> ;
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL>  ;
   rdfs:seeAlso "87986@swisstopo" ;
   dcat:distribution <http://swisstopo/swissBOUNDARIES/swissboundaries3d-land-flaeche>, <http://swisstopo/swissBOUNDARIES/3> .
 
@@ -146,27 +86,26 @@
   a dcat:Distribution ;
   dct:identifier "swissboundaries3d-land-flaeche" ;
   dct:issued "2014-12-31T00:00:00Z"^^xsd:dateTime ;
-  dcat:accessURL "http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/data.zip"^^xsd:anyURI ;
-  dcat:downloadURL "http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/data.zip"^^xsd:anyURI ;
+  dcat:accessURL <http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/data.zip> ;
+  dcat:downloadURL <http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/data.zip> ;
   dct:rights "NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired" ;
-  dct:license "" ;
   dcat:byteSize "209870" ;
   dcat:mediaType "application/zip" ;
-  dct:format "Shapefile" ;
-  dct:coverage "" .
+  dct:format "Shapefile" .
 
 <http://swisstopo/swissBOUNDARIES/3>
   a dcat:Distribution ;
   dct:title "ReadMe"@de, "ReadMe"@fr, "ReadMe"@it, "ReadMe"@en ;
   dct:issued "2014-12-31T00:00:00Z"^^xsd:dateTime ;
-  dcat:accessURL "http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/readme.txt"^^xsd:anyURI ;
-  dcat:downloadURL "http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/readme.txt"^^xsd:anyURI ;
+  dcat:accessURL <http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/readme.txt> ;
+  dcat:downloadURL <http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/readme.txt> ;
   dct:rights "NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired" ;
-  dct:license "" ;
   dcat:byteSize "1389" ;
-  dcat:mediaType "text/plain" ;
-  dct:format "" ;
-  dct:coverage "" .
+  dcat:mediaType "text/plain" .
+
+<https://www.swisstopo.admin.ch/>
+  a foaf:Organization ;
+  foaf:name: "Bundesamt für Umwelt" .
 
 []
   a dcat:Catalog ;

@@ -1,188 +1,175 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF
- xmlns:dct="http://purl.org/dc/terms/"
- xmlns:dc="http://purl.org/dc/elements/1.1/"
- xmlns:dcat="http://www.w3.org/ns/dcat#"
- xmlns:foaf="http://xmlns.com/foaf/0.1/"
- xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
- xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
- xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
- xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
- xmlns:odrs="http://schema.theodi.org/odrs#"
- xmlns:schema="http://schema.org/">
-  <dcat:Catalog>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="http://swisstopo/325">
-        <dct:identifier>325@swisstopo</dct:identifier>
-        <dct:title xml:lang="de">Eisenbahnlärm Nacht</dct:title>
-        <dct:title xml:lang="fr">Bruit ferroviaire nuit</dct:title>
-        <dct:title xml:lang="it">Rumore ferroviario notte</dct:title>
-        <dct:title xml:lang="en">Railway noise night</dct:title>
-        <dct:description xml:lang="de">Die Karte zeigt, welcher Lärmbelastung die Bevölkerung durch den Schienenverkehr ausgesetzt ist.</dct:description>
-        <dct:description xml:lang="fr">La carte montre que la pollution sonore est suspendu par le système de rail, la population.</dct:description>
-        <dct:description xml:lang="it">La mappa mostra che l'inquinamento acustico è sospeso dal sistema ferroviario, la popolazione.</dct:description>
-        <dct:description xml:lang="en">The map shows how the population is exposed by the noise pollution of the rail system.</dct:description>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:issued>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:schema="http://schema.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <dcat:Dataset rdf:about="http://swisstopo/325">
+    <dct:identifier>325@swisstopo</dct:identifier>
+    <dct:title xml:lang="de">Eisenbahnlärm Nacht</dct:title>
+    <dct:title xml:lang="fr">Bruit ferroviaire nuit</dct:title>
+    <dct:title xml:lang="it">Rumore ferroviario notte</dct:title>
+    <dct:title xml:lang="en">Railway noise night</dct:title>
+    <dct:description xml:lang="de">Die Karte zeigt, welcher Lärmbelastung die Bevölkerung durch den Schienenverkehr ausgesetzt ist.</dct:description>
+    <dct:description xml:lang="fr">La carte montre que la pollution sonore est suspendu par le système de rail, la population.</dct:description>
+    <dct:description xml:lang="it">La mappa mostra che l'inquinamento acustico è sospeso dal sistema ferroviario, la popolazione.</dct:description>
+    <dct:description xml:lang="en">The map shows how the population is exposed by the noise pollution of the rail system.</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
+    <dct:publisher rdf:resource="https://www.swisstopo.admin.ch/"/>
+    <dcat:contactPoint>
+      <vcard:Organization>
+        <vcard:fn>Abteilung Lärm BAFU</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:noise@bafu.admin.ch"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
+
+    <dcat:contactPoint>
+      <vcard:Individual>
+        <vcard:fn>Heinz Müller</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:heinz@bafu.admin.ch"/>
+      </vcard:Individual>
+    </dcat:contactPoint>
+
+    <dcat:theme rdf:resource="http://opendata.swiss/themes/population"/>
+    <dcat:theme rdf:resource="http://opendata.swiss/themes/territory"/>
+    <dct:language>de</dct:language>
+    <dct:language>en</dct:language>
+    <dct:relation>
+      <rdf:Description rdf:about="http://www.bafu.admin.ch/laerm/index.html?lang=de">
+        <rdfs:label>Webseite des BAFU</rdfs:label>
+      </rdf:Description>
+    </dct:relation>
+
+    <dcat:keyword xml:lang="de">Eisenbahn</dcat:keyword>
+    <dcat:keyword xml:lang="fr">Chemin-de-fer</dcat:keyword>
+    <dcat:keyword xml:lang="it">Ferrovia</dcat:keyword>
+    <dcat:keyword xml:lang="en">Railroad</dcat:keyword>
+    <dcat:keyword xml:lang="de">Nacht</dcat:keyword>
+    <dcat:keyword xml:lang="fr">Nuit</dcat:keyword>
+    <dcat:keyword xml:lang="it">Noche</dcat:keyword>
+    <dcat:keyword xml:lang="en">Night</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://www.bafu.admin.ch/laerm/index.html"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
+        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
+        <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-05</schema:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+
+    <dct:temporal>
+      <dct:PeriodOfTime>
+        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-03-01</schema:startDate>
+        <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-05</schema:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+    <rdfs:seeAlso>326@swisstopo</rdfs:seeAlso>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
+        <dct:identifier>ch.bafu.laerm-bahnlaerm_nacht</dct:identifier>
+        <dct:title xml:lang="de">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
+        <dct:title xml:lang="en">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
+        <dct:description xml:lang="de">Die Angaben basieren auf flächendeckenden Modellberechnungen.</dct:description>
+        <dct:description xml:lang="en">The information is based on comprehensive model calculations.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-11T00:00:00Z</dct:issued>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
-        <dct:publisher>
-          <rdf:Description rdf:about="https://www.swisstopo.admin.ch/">
-            <rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
-          </rdf:Description>
-        </dct:publisher>
-        <dct:publisher>
-          <rdf:Description>
-            <rdfs:label>Bundesamt für Umwelt</rdfs:label>
-          </rdf:Description>
-        </dct:publisher>
-        <dcat:contactPoint>
-          <vcard:Organization>
-            <vcard:fn>Abteilung Lärm BAFU</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:noise@bafu.admin.ch"/>
-          </vcard:Organization>
-        </dcat:contactPoint>
-        <dcat:contactPoint>
-          <vcard:Individual>
-            <vcard:fn>Heinz Müller</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:heinz@bafu.admin.ch"/>
-          </vcard:Individual>
-        </dcat:contactPoint>
-        <dcat:theme rdf:resource="http://opendata.swiss/themes/population"/>
-        <dcat:theme rdf:resource="http://opendata.swiss/themes/territory"/>
         <dct:language>de</dct:language>
         <dct:language>en</dct:language>
-        <dct:relation>
-          <rdf:Description rdf:about="http://www.bafu.admin.ch/laerm/index.html?lang=de">
-            <rdfs:label>Webseite des BAFU</rdfs:label>
-          </rdf:Description>
-        </dct:relation>
-        <dcat:keyword xml:lang="de">Eisenbahn</dcat:keyword>
-        <dcat:keyword xml:lang="fr">Chemin-de-fer</dcat:keyword>
-        <dcat:keyword xml:lang="it">Ferrovia</dcat:keyword>
-        <dcat:keyword xml:lang="en">Railroad</dcat:keyword>
-        <dcat:keyword xml:lang="de">Nacht</dcat:keyword>
-        <dcat:keyword xml:lang="fr">Nuit</dcat:keyword>
-        <dcat:keyword xml:lang="it">Noche</dcat:keyword>
-        <dcat:keyword xml:lang="en">Night</dcat:keyword>
-        <dcat:landingPage>http://www.bafu.admin.ch/laerm/index.html?lang=de</dcat:landingPage>
-        <dct:spatial/>
-        <dct:coverage/>
-        <dct:temporal>
-          <dct:PeriodOfTime>
-            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
-            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-05</schema:endDate>
-          </dct:PeriodOfTime>
-        </dct:temporal>
-        <dct:temporal>
-          <dct:PeriodOfTime>
-            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-03-01</schema:startDate>
-            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-05</schema:endDate>
-          </dct:PeriodOfTime>
-        </dct:temporal>
-        <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
-        <rdfs:seeAlso>326@swisstopo</rdfs:seeAlso>
-        <dcat:distribution>
-          <dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
-            <dct:identifier>ch.bafu.laerm-bahnlaerm_nacht</dct:identifier>
-            <dct:title xml:lang="de">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
-            <dct:title xml:lang="en">WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
-            <dct:description xml:lang="de">Die Angaben basieren auf flächendeckenden Modellberechnungen.</dct:description>
-            <dct:description xml:lang="en">The information is based on comprehensive model calculations.</dct:description>
-            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-11T00:00:00Z</dct:issued>
-            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
-            <dct:language>de</dct:language>
-            <dct:language>en</dct:language>
-            <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://wms.geo.admin.ch/</dcat:accessURL>
-            <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:rights>
-            <dct:license/>
-            <dcat:byteSize>1024</dcat:byteSize>
-            <dcat:mediaType>text/html</dcat:mediaType>
-            <dct:format/>
-            <dct:coverage/>
-          </dcat:Distribution>
-        </dcat:distribution>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="http://swisstopo/swissBOUNDARIES">
-        <dct:identifier>swissBOUNDARIES@swisstopo</dct:identifier>
-        <dct:title xml:lang="de">Landesgrenzen</dct:title>
-        <dct:title xml:lang="fr">Frontières nationales</dct:title>
-        <dct:title xml:lang="it">Frontiere nazionali</dct:title>
-        <dct:title xml:lang="en">National boundaries</dct:title>
-        <dct:description xml:lang="de">swissBOUNDARIES3D Landesgrenzen umfasst die Landesgrenzen der Schweiz und des Fürstentums Liechtenstein.</dct:description>
-        <dct:description xml:lang="fr">swissBOUNDARIES3D frontières nationales comprend la frontière de la Suisse et de la Principauté de Liechtenstein.</dct:description>
-        <dct:description xml:lang="it">swissBOUNDARIES3D frontiere nazionali contiene la frontiera della Svizzera e del Principato del Liechtenstein.</dct:description>
-        <dct:description xml:lang="en">swissBOUNDARIES national boundaries constitute the borders of Switzerland and the principality of Liechtenstein.</dct:description>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:issued>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
-        <dct:publisher>
-          <rdf:Description>
-            <rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
-          </rdf:Description>
-        </dct:publisher>
-        <dcat:contactPoint>
-          <vcard:Organization>
-            <vcard:fn>geodata Bundesamt für Landestopografie</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:geodata@swisstopo.ch"/>
-          </vcard:Organization>
-        </dcat:contactPoint>
-        <dcat:theme rdf:resource="http://opendata.swiss/themes/territory"/>
-        <dct:relation>
-            <rdf:Description rdf:about="http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html">
-            <rdfs:label>Webseite swissBOUNDARIES</rdfs:label>
-          </rdf:Description>
-        </dct:relation>
-        <dcat:keyword xml:lang="de">Landesgrenze</dcat:keyword>
-        <dcat:keyword xml:lang="fr">Frontières nationales</dcat:keyword>
-        <dcat:keyword xml:lang="it">Frontiere nazionali</dcat:keyword>
-        <dcat:keyword xml:lang="en">National boundaries</dcat:keyword>
-        <dcat:keyword xml:lang="de">Verwaltungseinheiten</dcat:keyword>
-        <dcat:keyword xml:lang="fr">Unités administratives</dcat:keyword>
-        <dcat:keyword xml:lang="it">Unita amministrative</dcat:keyword>
-        <dcat:keyword xml:lang="en">Administrative units</dcat:keyword>
-        <dcat:landingPage>http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html</dcat:landingPage>
-        <dct:spatial/>
-        <dct:coverage/>
-        <dct:temporal>
-          <dct:PeriodOfTime>
-            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</schema:startDate>
-            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-12-31</schema:endDate>
-          </dct:PeriodOfTime>
-        </dct:temporal>
-        <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
-        <rdfs:seeAlso>87986@swisstopo</rdfs:seeAlso>
-        <dcat:distribution>
-          <dcat:Distribution rdf:about="http://swisstopo/swissBOUNDARIES/swissboundaries3d-land-flaeche">
-            <dct:identifier>swissboundaries3d-land-flaeche</dct:identifier>
-            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-31T00:00:00Z</dct:issued>
-            <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/data.zip</dcat:accessURL>
-            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/data.zip</dcat:downloadURL>
-            <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:rights>
-            <dct:license/>
-            <dcat:byteSize>209870</dcat:byteSize>
-            <dcat:mediaType>application/zip</dcat:mediaType>
-            <dct:format>Shapefile</dct:format>
-            <dct:coverage/>
-          </dcat:Distribution>
-        </dcat:distribution>
-        <dcat:distribution>
-          <dcat:Distribution rdf:about="http://swisstopo/swissBOUNDARIES/3">
-            <dct:title xml:lang="de">ReadMe</dct:title>
-            <dct:title xml:lang="fr">ReadMe</dct:title>
-            <dct:title xml:lang="it">ReadMe</dct:title>
-            <dct:title xml:lang="en">ReadMe</dct:title>
-            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-31T00:00:00Z</dct:issued>
-            <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/readme.txt</dcat:accessURL>
-            <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/readme.txt</dcat:downloadURL>
-            <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:rights>
-            <dct:license/>
-            <dcat:byteSize>1389</dcat:byteSize>
-            <dcat:mediaType>text/plain</dcat:mediaType>
-            <dct:format/>
-            <dct:coverage/>
-          </dcat:Distribution>
-        </dcat:distribution>
-      </dcat:Dataset>
-    </dcat:dataset>
+        <dcat:accessURL rdf:resource="http://wms.geo.admin.ch/"/>
+        <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:rights>
+        <dcat:byteSize>1024</dcat:byteSize>
+        <dcat:mediaType>text/html</dcat:mediaType>
+      </dcat:Distribution>
+    </dcat:distribution>
+
+  </dcat:Dataset>
+
+  <foaf:Organization rdf:about="https://www.swisstopo.admin.ch/">
+    <foaf:name:>Bundesamt für Umwelt</foaf:name:>
+  </foaf:Organization>
+
+  <dcat:Dataset rdf:about="http://swisstopo/swissBOUNDARIES">
+    <dct:identifier>swissBOUNDARIES@swisstopo</dct:identifier>
+    <dct:title xml:lang="de">Landesgrenzen</dct:title>
+    <dct:title xml:lang="fr">Frontières nationales</dct:title>
+    <dct:title xml:lang="it">Frontiere nazionali</dct:title>
+    <dct:title xml:lang="en">National boundaries</dct:title>
+    <dct:description xml:lang="de">swissBOUNDARIES3D Landesgrenzen umfasst die Landesgrenzen der Schweiz und des Fürstentums Liechtenstein.</dct:description>
+    <dct:description xml:lang="fr">swissBOUNDARIES3D frontières nationales comprend la frontière de la Suisse et de la Principauté de Liechtenstein.</dct:description>
+    <dct:description xml:lang="it">swissBOUNDARIES3D frontiere nazionali contiene la frontiera della Svizzera e del Principato del Liechtenstein.</dct:description>
+    <dct:description xml:lang="en">swissBOUNDARIES national boundaries constitute the borders of Switzerland and the principality of Liechtenstein.</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
+    <dct:publisher rdf:resource="https://www.swisstopo.admin.ch/"/>
+    <dcat:contactPoint>
+      <vcard:Organization>
+        <vcard:fn>geodata Bundesamt für Landestopografie</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:geodata@swisstopo.ch"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
+
+    <dcat:theme rdf:resource="http://opendata.swiss/themes/territory"/>
+    <dct:relation rdf:resource="http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html"/>
+    <dcat:keyword xml:lang="de">Landesgrenze</dcat:keyword>
+    <dcat:keyword xml:lang="fr">Frontières nationales</dcat:keyword>
+    <dcat:keyword xml:lang="it">Frontiere nazionali</dcat:keyword>
+    <dcat:keyword xml:lang="en">National boundaries</dcat:keyword>
+    <dcat:keyword xml:lang="de">Verwaltungseinheiten</dcat:keyword>
+    <dcat:keyword xml:lang="fr">Unités administratives</dcat:keyword>
+    <dcat:keyword xml:lang="it">Unita amministrative</dcat:keyword>
+    <dcat:keyword xml:lang="en">Administrative units</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
+        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</schema:startDate>
+        <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-12-31</schema:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <rdfs:seeAlso>87986@swisstopo</rdfs:seeAlso>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="http://swisstopo/swissBOUNDARIES/swissboundaries3d-land-flaeche">
+        <dct:identifier>swissboundaries3d-land-flaeche</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-31T00:00:00Z</dct:issued>
+        <dcat:accessURL rdf:resource="http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/data.zip"/>
+        <dcat:downloadURL rdf:resource="http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/data.zip"/>
+        <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:rights>
+        <dcat:byteSize>209870</dcat:byteSize>
+        <dcat:mediaType>application/zip</dcat:mediaType>
+        <dct:format>Shapefile</dct:format>
+      </dcat:Distribution>
+    </dcat:distribution>
+
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="http://swisstopo/swissBOUNDARIES/3">
+        <dct:title xml:lang="de">ReadMe</dct:title>
+        <dct:title xml:lang="fr">ReadMe</dct:title>
+        <dct:title xml:lang="it">ReadMe</dct:title>
+        <dct:title xml:lang="en">ReadMe</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-31T00:00:00Z</dct:issued>
+        <dcat:accessURL rdf:resource="http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/readme.txt"/>
+        <dcat:downloadURL rdf:resource="http://data.geo.admin.ch.s3.amazonaws.com/ch.swisstopo.swissboundaries3d-land-flaeche.fill/readme.txt"/>
+        <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:rights>
+        <dcat:byteSize>1389</dcat:byteSize>
+        <dcat:mediaType>text/plain</dcat:mediaType>
+      </dcat:Distribution>
+    </dcat:distribution>
+
+  </dcat:Dataset>
+
+  <rdf:Description rdf:about="http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html">
+    <rdfs:label>Webseite swissBOUNDARIES</rdfs:label>
+  </rdf:Description>
+
+  <dcat:Catalog rdf:nodeID="genid7">
+    <dcat:dataset rdf:resource="http://swisstopo/325"/>
+    <dcat:dataset rdf:resource="http://swisstopo/swissBOUNDARIES"/>
   </dcat:Catalog>
+
 </rdf:RDF>
