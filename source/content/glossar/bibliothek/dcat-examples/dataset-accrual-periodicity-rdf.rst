@@ -8,7 +8,7 @@
              xmlns:dc="http://purl.org/dc/terms/">
 
       <dcat:Dataset rdf:about="https://swisstopo/123">
-        <dc:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
       </dcat:Dataset>
 
     </rdf:RDF>
