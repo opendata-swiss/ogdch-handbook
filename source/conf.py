@@ -129,10 +129,10 @@ comments_config = {
 
 # Set the robots directive to the value specified in the env vars
 robots_directive = os.environ.get('ROBOTS_DIRECTIVE')
-
-rst_prolog = """
+if robots_directive is not None:
+    rst_prolog = """
 .. meta::
     :robots: {directive}
-""".format(
-    directive=robots_directive,
-)
+    """.format(
+        directive=robots_directive,
+    )
