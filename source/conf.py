@@ -124,3 +124,15 @@ enable_hypothesis = bool(os.environ.get('ENABLE_HYPOTHESIS'))
 comments_config = {
     "hypothesis": enable_hypothesis,
 }
+
+# -- Custom options ----------------------------------------------------------
+
+# Set the robots directive to the value specified in the env vars
+robots_directive = os.environ.get('ROBOTS_DIRECTIVE')
+if robots_directive is not None:
+    rst_prolog = """
+.. meta::
+    :robots: {directive}
+    """.format(
+        directive=robots_directive,
+    )
