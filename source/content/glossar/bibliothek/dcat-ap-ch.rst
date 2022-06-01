@@ -270,7 +270,7 @@ Translatable elements are marked as such under usage notes.
     * - :fa:`exclamation` :ref:`accrual periodicity <dcat-dataset-accrual-periodicity>`
       - dct:accrualPeriodicity
       - optional, :fa:`exclamation` import format changed
-    * - :ref:`coverage <dcat-dataset-relation>`
+    * - :ref:`related resource <dcat-dataset-relation>`
       - dct:relation
       - optional
     * - :ref:`see also <dcat-dataset-see-also>`

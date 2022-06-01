@@ -1,7 +1,6 @@
 .. code-block:: Turtle
     :caption: ``dct:relation`` values should be of the class ``rdfs:Resource`` or a subclass.
               They should therefore each have a URI, according to DCAT
-
     :emphasize-lines: 7,9
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
