@@ -83,6 +83,7 @@ in your browser.
 ## Build the German locale
 
 The German locale is built from `source/locale/de` with the following commands:
+The commands to build the Locale are started from the main directory of the project. 
 
 ```commandline
 make clean
