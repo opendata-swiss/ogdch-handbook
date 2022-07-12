@@ -69,11 +69,11 @@ If you want to be able to build the handbook locally from its
 **Source**, then you need to set up the virtual python3 environment and install the 
 requirements, as shown below:
 
-```
+```commandline
 python3 -m venv p3venv 
 source p3venv/bin/activate
-(p3venv) pip install wheel
-(p3venv) pip install -r requirements.txt
+pip install wheel
+pip install -r requirements.txt
 ```
 
 Now everything is setup and you will be able to build the handbook locally and then view it 
@@ -83,8 +83,8 @@ in your browser.
 
 The German locale is built from `source/locale/de` with the following command:
 
-```
-(p3venv) make -e SPHINXOPTS="-D language='de'" BUILDDIR="build/de" html
+```commandline
+make -e SPHINXOPTS="-D language='de'" BUILDDIR="build/de" html
 ```
 
 - go to `build/de/` 
@@ -95,8 +95,8 @@ The German locale is built from `source/locale/de` with the following command:
 
 The French locale is built from `source/locale/fr` with the following command:
 
-```
-(p3venv) make -e SPHINXOPTS="-D language='fr'" BUILDDIR="build/fr" html
+```commandline
+make -e SPHINXOPTS="-D language='fr'" BUILDDIR="build/fr" html
 ```
 
 - go to `build/fr/` 
@@ -221,7 +221,7 @@ Now you would be again ready to build the French Locale.
 The translatable string can be automatically transfered from the `.pot`files to the 
 Locales. 
 
-```
+```commandline
 sphinx-intl update -p build/gettext -l de -l fr
 ```
 
@@ -235,8 +235,8 @@ sphinx-intl update -p build/gettext -l de -l fr
 Sphinx also comes with a builtin linkchecker command. 
 When called, it will checks all external links in the documentation.
 
-```
-(p3venv) make linkcheck
+```commandline
+make linkcheck
 ``` 
 
 ## Environmemt specific settings
