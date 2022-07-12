@@ -74,6 +74,7 @@ python3 -m venv p3venv
 source p3venv/bin/activate
 pip install wheel
 pip install -r requirements.txt
+cp .env.dist .env
 ```
 
 Now everything is setup and you will be able to build the handbook locally and then view it 
@@ -81,11 +82,17 @@ in your browser.
 
 ## Build the German locale
 
-The German locale is built from `source/locale/de` with the following command:
+The German locale is built from `source/locale/de` with the following commands:
 
 ```commandline
+make clean
 make -e SPHINXOPTS="-D language='de'" BUILDDIR="build/de" html
 ```
+
+`make clean` ensure that the build process starts from scratch. Otherwise some 
+existing parts might be kept by Sphinx to make the build faster. For text changes 
+it is usually sufficient to just call the build command, but for js, css changes 
+or when adding new pages to the navigation the build must be started from scratch.
 
 - go to `build/de/` 
 - run `index.html` in a browser of your choice
