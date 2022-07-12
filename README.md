@@ -81,7 +81,7 @@ in your browser.
 
 ## Build the German locale
 
-The German locale is build from `source/locale/de` with the following command:
+The German locale is built from `source/locale/de` with the following command:
 
 ```
 (p3venv) make -e SPHINXOPTS="-D language='de'" BUILDDIR="build/de" html
@@ -93,7 +93,7 @@ The German locale is build from `source/locale/de` with the following command:
 
 ## Build the French locale
 
-The French locale is build from `source/locale/fr` with the following command:
+The French locale is built from `source/locale/fr` with the following command:
 
 ```
 (p3venv) make -e SPHINXOPTS="-D language='fr'" BUILDDIR="build/fr" html
@@ -118,7 +118,7 @@ text, that has a French translation stored in the French locale.
 
 When you changed a text in the **Source**, that has a translation in the French Locale,
 you also need to change the corresponding extracted string in the Locale, so that the new 
-string can be found together with it's' translation when the Locale is build:
+string can be found together with its translation when the Locale is built:
 
 ### Identify the change in the Source:
 
@@ -168,7 +168,7 @@ msgstr ""
 "apportons notre soutien!"
 ```
 
-Once that is done the French locale can be build again and the translation will be fixed.
+Once that is done the French locale can be built again and the translation will be fixed.
 
 ## Extracting translatable strings from the Source
 
@@ -177,13 +177,13 @@ The way to generate them is the following:
 
 ### Command for translatable strings extraction:
 
-The following comman extracts all translatable strings from the **Source**:
+The following command extracts all translatable strings from the **Source**:
 
 ```
 make gettext
 ```
 
-It generates a new directory in the `build` directory: `build/getext` 
+It generates a new directory in the `build` directory: `build/gettext` 
 The directory tree matches that of the `source/locale` directory trees.
 So for every `.rst` file in the **Source** it contains a `.pot` file 
 
@@ -191,7 +191,7 @@ So for every `.rst` file in the **Source** it contains a `.pot` file
 
 Find the `.pot` file that contains the translatable strings. 
 
-In the example above this would be `build/getext/index.pot`
+In the example above this would be `build/gettext/index.pot`
 
 ```
 #: ../../source/index.rst:15
@@ -201,7 +201,7 @@ msgstr ""
 
 ### Transfer the translatable string to the Locale
 
-Copy thins into the `locale/fr/LC_MESSAGES/index.po` and replace the old phrase there by this 
+Copy this into the `locale/fr/LC_MESSAGES/index.po` and replace the old phrase there with this 
 new phrase: 
 
 ```
@@ -227,12 +227,12 @@ sphinx-intl update -p build/gettext -l de -l fr
 
 :WARNING: Use this command with care as it has the following pitfalls:
 
-- some translations are marked with `#, fuzzy` in the Locales by the command and this command has to be removed, so that the translations will work
+- some translations are marked with `#, fuzzy` in the Locales by the command and this line has to be removed, so that the translations will work
 - The command can't be restricted to just some files: it will update all file in the Locales that it identifies as needing a change
 
 ## Linkchecker
 
-Sphinx also comes with a buildin linkchecker command. 
+Sphinx also comes with a builtin linkchecker command. 
 When called, it will checks all external links in the documentation.
 
 ```
