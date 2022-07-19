@@ -64,6 +64,10 @@ exclude_patterns = ['content/glossar/bibliothek/dcat-examples/*.rst',
                     'content/glossar/bibliothek/geocat-mappings/*.rst',
                     'content/glossar/bibliothek/dcat-definitions/*.rst',]
 
+environment = os.environ.get('ENV')
+if environment == 'TEST':
+    exclude_patterns.append('content/styleguide')
+
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -136,3 +140,11 @@ if robots_directive is not None:
     """.format(
         directive=robots_directive,
     )
+
+
+# Edit on github
+
+html_context = {
+    'display_github': True,
+    'github_repo': 'opendata-swiss/ogdch-handbook',
+}

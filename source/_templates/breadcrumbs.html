@@ -1,7 +1,18 @@
 {# no regular breadcrumbs used #}
+{%- if check_meta and 'github_url' in meta %}
+{%- set display_github = True %}
+{%- endif %}
 <div id="ogdch-header">
     <a href="https://opendata.swiss">
         {% set ogdch_logo = 'logo_horizontal.png' %}
         <img class="ogdch-logo" src="{{ pathto('_images/' + ogdch_logo, 1) }}" alt="logo opendata.swiss"/>
+        {%- if display_github %}
+        {%- if check_meta and 'github_url' in meta %}
+        <!-- User defined GitHub URL -->
+        <a href="{{ meta['github_url'] }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
+        {%- else %}
+        <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode or "blob" }}/master/source/{{ pagename }}{{ page_source_suffix }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a>
+        {%- endif %}
+        {%- endif %}
     </a>
 </div>

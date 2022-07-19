@@ -129,6 +129,14 @@ mit uns teilen möchten?
    content/ueberdashandbuch/rechtliche-hinweise
 
 .. toctree::
+   :maxdepth: 1
+   :caption: Developers:
+
+   content/developer/developer
+   content/developer/styleguide
+   content/developer/documentation
+
+.. toctree::
    :hidden:
    :maxdepth: 1
    :caption: (Versteckt):
@@ -157,3 +165,6 @@ mit uns teilen möchten?
    content/glossar/bibliothek/formate-ressourcen
    content/glossar/bibliothek/embed
    content/branding/images
+   content/developer/developer
+   content/developer/styleguide
+   content/developer/documentation
