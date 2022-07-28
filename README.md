@@ -109,9 +109,9 @@ The French locale is built from `source/locale/fr` with the following command:
 ```commandline
 make -e SPHINXOPTS="-D language='fr'" BUILDDIR="build/fr" html
 ```
-"""
+```
 in windows: sphinx-build source build/fr -D language='fr' -b html
-"""
+```
 
 - go to `build/fr/` 
 - run `index.html` in a browser of your choice
