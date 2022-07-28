@@ -89,6 +89,9 @@ The commands to build the Locale are started from the main directory of the proj
 make clean
 make -e SPHINXOPTS="-D language='de'" BUILDDIR="build/de" html
 ```
+"""
+in windows: sphinx-build source build/de -D language='de' -b html
+"""
 
 `make clean` ensure that the build process starts from scratch. Otherwise some 
 existing parts might be kept by Sphinx to make the build faster. For text changes 
@@ -106,9 +109,14 @@ The French locale is built from `source/locale/fr` with the following command:
 ```commandline
 make -e SPHINXOPTS="-D language='fr'" BUILDDIR="build/fr" html
 ```
+"""
+in windows: sphinx-build source build/fr -D language='fr' -b html
+"""
 
 - go to `build/fr/` 
 - run `index.html` in a browser of your choice
+
+
 
 ## Make changes to the Source
 
