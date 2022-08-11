@@ -2,7 +2,7 @@
 :XPATH: ``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource``
 :Mapping: The mapping depends on the protocol. If the protocol starts in the following way it is mapped to a
           dcat:Distribution: ``WWW:DOWNLOAD``, ``OGC:WMTS``, ``OGC:WFS``, ``"OGC:WMS``, ``LINKED:DATA``,
-          ``ESRI:REST``, ``MAP:Preview``
+          ``ESRI:REST``, ``MAP:Preview``, ``WWW:DOWNLOAD-APP``
 
 :Value: ``.//gmd:linkage/gmd:URL/text()``
 :Fallback-Value: ``'.//che:LocalisedURL`` for any language
