@@ -3,3 +3,4 @@ p3venv/
 .idea
 *.mo
 .env
+.vscode
