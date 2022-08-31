@@ -11,7 +11,7 @@
       <dcat:Dataset rdf:about="https://swisstopo/123">
         <dct:publisher>
           <foaf:Organization rdf:about="https://swisstopo">
-            <foaf:name>Landesamt für Topographie Swisstopo</foaf:name:>
+            <foaf:name>Landesamt für Topographie Swisstopo</foaf:name>
           </foaf:Organization>
         </dct:publisher>
 
