@@ -5,6 +5,7 @@ env:
 jobs:
   build_and_deploy_to_test:
     container: python:latest
+    runs-on: ubuntu-latest
     env:
       HTACCESS_VARIANT: .test
       ENABLE_HYPOTHESIS: "true"
@@ -16,6 +17,7 @@ jobs:
   build_and_deploy_to_prod:
     if: contains( github.ref, 'master') # Only run this action for the master branch
     container: python:latest
+    runs-on: ubuntu-latest
     env:
       HTACCESS_VARIANT: .live
     steps:
