@@ -6,20 +6,23 @@ jobs:
   build_and_deploy_to_test:
     container: python:latest
     runs-on: ubuntu-latest
+    environment: test
     env:
-      HTACCESS_VARIANT: .test
+      SSH_PORT: ${{ secrets.SSH_PORT }}
+      SSH_USER: ${{ secrets.SSH_USER }}
+      SSH_HOST: ${{ secrets.SSH_HOST }}
+      SSH_PRIVATE_KEY: ${{ secrets.$SSH_PRIVATE_KEY }}
+      DEST_PATH: ${{ secrets.DEST_PATH }}
+      HOSTNAME: ${{ secrets.HOSTNAME }}
+      HTACCESS_VARIANT: ".test"
       ENABLE_HYPOTHESIS: "true"
       ROBOTS_DIRECTIVE: "noindex"
     steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          submodules: true
-          fetch-depth: 0
-          token: $ACCESS_TOKEN
+          token: ${{ secrets.ACCESS_TOKEN }}
       - run: |
-          pwd
-          ls -lah
           ./bin/setup.sh
           ./bin/deploy.sh
 
@@ -27,9 +30,20 @@ jobs:
     if: contains( github.ref, 'master') # Only run this action for the master branch
     container: python:latest
     runs-on: ubuntu-latest
+    environment: prod
     env:
-      HTACCESS_VARIANT: .live
+      SSH_PORT: ${{ secrets.SSH_PORT }}
+      SSH_USER: ${{ secrets.SSH_USER }}
+      SSH_HOST: ${{ secrets.SSH_HOST }}
+      SSH_PRIVATE_KEY: ${{ secrets.$SSH_PRIVATE_KEY }}
+      DEST_PATH: ${{ secrets.DEST_PATH }}
+      HOSTNAME: ${{ secrets.HOSTNAME }}
+      HTACCESS_VARIANT: ".live"
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
       - run: |
             ./bin/setup.sh
             ./bin/deploy.sh
