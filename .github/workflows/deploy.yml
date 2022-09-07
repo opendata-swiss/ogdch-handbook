@@ -1,7 +1,7 @@
 name: Build and Deploy
 jobs:
   build_and_deploy_to_test:
-    on: workflow_dispatch # Trigger this action manually
+    on: [push, workflow_dispatch] # Trigger this action manually - and temporarily on push
     container: python:latest
     steps:
       - run: bin/setup.sh
