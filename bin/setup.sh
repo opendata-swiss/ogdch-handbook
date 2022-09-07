@@ -15,4 +15,4 @@ python -V
 pip install virtualenv
 virtualenv venv
 source venv/bin/activate
-pip install -r docs/requirements.txt
+pip install -r requirements.txt
