@@ -12,6 +12,8 @@ jobs:
       ROBOTS_DIRECTIVE: "noindex"
     steps:
       - run: |
+          pwd
+          ls -lah
           ./bin/setup.sh
           ./bin/deploy.sh
 
