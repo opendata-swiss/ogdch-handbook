@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export ENABLE_HYPOTHESIS=${ENABLE_HYPOTHESIS}
-export ROBOTS_DIRECTIVE=${ROBOTS_DIRECTIVE}
 cd docs
 make clean
 make gettext

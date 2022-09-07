@@ -11,7 +11,7 @@ jobs:
       SSH_PORT: ${{ secrets.SSH_PORT }}
       SSH_USER: ${{ secrets.SSH_USER }}
       SSH_HOST: ${{ secrets.SSH_HOST }}
-      SSH_PRIVATE_KEY: ${{ secrets.$SSH_PRIVATE_KEY }}
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       DEST_PATH: ${{ secrets.DEST_PATH }}
       HOSTNAME: ${{ secrets.HOSTNAME }}
       HTACCESS_VARIANT: ".test"
@@ -35,7 +35,7 @@ jobs:
       SSH_PORT: ${{ secrets.SSH_PORT }}
       SSH_USER: ${{ secrets.SSH_USER }}
       SSH_HOST: ${{ secrets.SSH_HOST }}
-      SSH_PRIVATE_KEY: ${{ secrets.$SSH_PRIVATE_KEY }}
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       DEST_PATH: ${{ secrets.DEST_PATH }}
       HOSTNAME: ${{ secrets.HOSTNAME }}
       HTACCESS_VARIANT: ".live"
