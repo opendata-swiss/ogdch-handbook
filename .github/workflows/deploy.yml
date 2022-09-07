@@ -14,7 +14,6 @@ jobs:
       SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       DEST_PATH: ${{ secrets.DEST_PATH }}
       HOSTNAME: ${{ secrets.HOSTNAME }}
-      HTACCESS_VARIANT: ".test"
       ENABLE_HYPOTHESIS: "true"
       ROBOTS_DIRECTIVE: "noindex"
     steps:
@@ -38,7 +37,6 @@ jobs:
       SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       DEST_PATH: ${{ secrets.DEST_PATH }}
       HOSTNAME: ${{ secrets.HOSTNAME }}
-      HTACCESS_VARIANT: ".live"
     steps:
       - name: Checkout
         uses: actions/checkout@v2
