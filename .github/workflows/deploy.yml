@@ -16,7 +16,7 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-          token: ${{ secrets.SECRET_TOKEN }}
+          token: $ACCESS_TOKEN
       - run: |
           pwd
           ls -lah
