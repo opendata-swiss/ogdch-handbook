@@ -11,6 +11,12 @@ jobs:
       ENABLE_HYPOTHESIS: "true"
       ROBOTS_DIRECTIVE: "noindex"
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+          token: ${{ secrets.SECRET_TOKEN }}
       - run: |
           pwd
           ls -lah
