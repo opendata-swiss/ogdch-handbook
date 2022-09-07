@@ -21,9 +21,10 @@ jobs:
         uses: actions/checkout@v2
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-      - run: |
-          ./bin/setup.sh
-          ./bin/deploy.sh
+      - name: Setup
+        run: ./bin/setup.sh
+      - name: Deploy
+        run: ./bin/deploy.sh
 
   build_and_deploy_to_prod:
     if: contains( github.ref, 'master') # Only run this action for the master branch
@@ -42,6 +43,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-      - run: |
-            ./bin/setup.sh
-            ./bin/deploy.sh
+      - name: Setup
+        run: ./bin/setup.sh
+      - name: Deploy
+        run: ./bin/deploy.sh
