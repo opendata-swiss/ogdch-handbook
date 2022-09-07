@@ -1,7 +1,7 @@
 name: Build and Deploy
+on: [push, workflow_dispatch] # Trigger this action manually - and temporarily on push
 jobs:
   build_and_deploy_to_test:
-    on: [push, workflow_dispatch] # Trigger this action manually - and temporarily on push
     container: python:latest
     steps:
       - run: bin/setup.sh
@@ -13,7 +13,6 @@ jobs:
       ROBOTS_DIRECTIVE: "noindex"
 
   build_and_deploy_to_prod:
-    on: workflow_dispatch # Trigger this action manually
     if: contains( github.ref, 'master') # Only run this action for the master branch
     container: python:latest
     variables:
