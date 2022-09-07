@@ -1,23 +1,23 @@
 name: Build and Deploy
 on: [push, workflow_dispatch] # Trigger this action manually - and temporarily on push
+env:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
 jobs:
   build_and_deploy_to_test:
     container: python:latest
-    steps:
-      - run: bin/setup.sh
-      - run: bin/deploy.sh
-    variables:
-      PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+    env:
       HTACCESS_VARIANT: .test
       ENABLE_HYPOTHESIS: "true"
       ROBOTS_DIRECTIVE: "noindex"
+    steps:
+      - run: bin/setup.sh
+      - run: bin/deploy.sh
 
   build_and_deploy_to_prod:
     if: contains( github.ref, 'master') # Only run this action for the master branch
     container: python:latest
+    env:
+      HTACCESS_VARIANT: .live
     steps:
       - run: bin/setup.sh
       - run: bin/deploy.sh
-    variables:
-      PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
-      HTACCESS_VARIANT: .live
