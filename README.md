@@ -267,3 +267,36 @@ see `.env.dist` for example settings.
 - `ENABLE_HYPOTHESIS`: if `true`: an [Hypothes.is Overlay is set up](https://web.hypothes.is/). It can be used to
   discuss handbook content within a group.
 - `ROBOTS_DIRECTIVE`: if set to `noindex` prevents search engines from indexing the site
+
+## Deployment
+
+Updated documentation can be deployed using GitHub Actions. The workflows and scripts for this are found in the
+directory `.github/`.
+
+The TEST and PROD environments can be edited in the
+[settings page](https://github.com/opendata-swiss/ogdch-handbook/settings/environments).
+Here you can add secret variables that are necessary for deployment (server addresses, credentials, etc.) and change
+which users can approve deployment.
+
+### Deploy to TEST environment
+
+Any updates that are merged to the `master` branch will be automatically deployed to the TEST website.
+The history of deployments can be seen here: https://github.com/opendata-swiss/ogdch-handbook/actions.
+
+### Deploy to PROD environment
+
+Updates merged to the `master` branch can also be deployed to the PROD website, but this requires approval from one of
+the repository contributors.
+
+- Go to the history of deployment workflows: https://github.com/opendata-swiss/ogdch-handbook/actions.
+- Select the most recent deployment (or whichever one you wish to deploy to PROD). Check that deployment to TEST was
+  successful.
+- There should be a yellow bar across the page, asking for a review to deploy to the environment `prod`. Click the
+  button marked "Review deployments", check the box for the `prod` environment, and then click "Approve and deploy".
+- See the [GitHub Actions docs](https://docs.github.com/en/actions/managing-workflow-runs/reviewing-deployments)
+  for more details.
+
+### Special cases
+
+Changes to the Apache configuration of the website and url redirection cannot be made from this repository. There is a
+separate, private repository where these details are stored.
