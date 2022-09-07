@@ -1,5 +1,9 @@
 name: Build and Deploy
-on: [push, workflow_dispatch] # Trigger this action manually - and temporarily on push
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch: ~
 env:
   PIP_CACHE_DIR: ".cache/pip"
 jobs:
@@ -29,7 +33,6 @@ jobs:
         run: ./.github/scripts/deploy.sh
 
   build_and_deploy_to_prod:
-    if: contains( github.ref, 'master') # Only run this action for the master branch
     container: python:latest
     runs-on: ubuntu-latest
     environment: prod
