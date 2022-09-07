@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Activate the virtualenv
+source venv/bin/activate
+
 # Build the documents
 make clean
 make gettext
