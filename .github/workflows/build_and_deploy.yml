@@ -1,0 +1,56 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch: ~
+env:
+  PIP_CACHE_DIR: ".cache/pip"
+jobs:
+  build_and_deploy_to_test:
+    container: python:latest
+    runs-on: ubuntu-latest
+    environment: test
+    env:
+      SSH_PORT: ${{ secrets.SSH_PORT }}
+      SSH_USER: ${{ secrets.SSH_USER }}
+      SSH_HOST: ${{ secrets.SSH_HOST }}
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      DEST_PATH: ${{ secrets.DEST_PATH }}
+      ENV: "TEST"
+      ENABLE_HYPOTHESIS: "true"
+      ROBOTS_DIRECTIVE: "noindex"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+      - name: Setup
+        run: ./.github/scripts/setup.sh
+      - name: Build
+        run: ./.github/scripts/build.sh
+      - name: Deploy
+        run: ./.github/scripts/deploy.sh
+
+  build_and_deploy_to_prod:
+    container: python:latest
+    runs-on: ubuntu-latest
+    environment: prod
+    env:
+      SSH_PORT: ${{ secrets.SSH_PORT }}
+      SSH_USER: ${{ secrets.SSH_USER }}
+      SSH_HOST: ${{ secrets.SSH_HOST }}
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      DEST_PATH: ${{ secrets.DEST_PATH }}
+      ENV: "PROD"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+      - name: Setup
+        run: ./.github/scripts/setup.sh
+      - name: Build
+        run: ./.github/scripts/build.sh
+      - name: Deploy
+        run: ./.github/scripts/deploy.sh
