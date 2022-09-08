@@ -273,10 +273,15 @@ see `.env.dist` for example settings.
 Updated documentation can be deployed using GitHub Actions. The workflows and scripts for this are found in the
 directory `.github/`.
 
-The TEST and PROD environments can be edited in the
-[settings page](https://github.com/opendata-swiss/ogdch-handbook/settings/environments).
+### Deployment environments
+
+There are two environments that can be deployed to, TEST and PROD, which are defined in the
+[environments settings page](https://github.com/opendata-swiss/ogdch-handbook/settings/environments).
 Here you can add secret variables that are necessary for deployment (server addresses, credentials, etc.) and change
 which users can approve deployment.
+
+Non-secret environment-specific settings (e.g. `ENABLE_HYPOTHESIS`) can be set in the file
+`.github/workflows/build_and_deploy.yml`.
 
 ### Deploy to TEST environment
 
