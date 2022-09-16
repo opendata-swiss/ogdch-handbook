@@ -14,12 +14,13 @@ Wie finde ich die Daten, die ich brauche?
 .. container:: Intro
 
     Um Ihnen die Suche nach Daten zu erleichtern, bietet opendata.swiss
-    ein Suchfeld an. Und das hat es in sich: Sie können mittels sogenannter
-    Querysyntax komplexe Suchanfragen auf die Daten von opendata.swiss absetzen.
-    Hier erklären wir Ihnen, worum es sich dabei genau handelt und worauf Sie
-    achten müssen. Bitte beachten Sie, dass das Dokument derzeit nur
-    in Englisch verfügbar ist.
-
+    ein Suchfeld an sowie Filtermöglichkeiten. Sie können mittels sogenannter
+    Abfragesyntax (Querysyntax) komplexe Suchanfragen gegen die Metadaten 
+    von opendata.swiss vornehmen.
+    Hier erklären wir Ihnen, wie die Suche funktioniert, geben Erläuterungen 
+    zur Abfragesyntax und bieten Ihnen hilfreiche Beispiele.
+    
+    
 Technical background
 --------------------
 
