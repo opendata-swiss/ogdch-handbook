@@ -14,14 +14,18 @@ Wie nutze ich den API-Zugriff von opendata.swiss?
 .. container:: Intro
 
     Das Portal `opendata.swiss <https://opendata.swiss/>`__ basiert auf dem Open-Source-Projekt CKAN. 
-    CKAN stellt eine umfangreiche API für die Metadaten des offenen Datenkatalogs zur Verfügung, die Applikationsentwickler_innen nutzen können. 
-    In diesem Kapitel erklären wir Ihnen, wie Sie mittels API auf die Daten von opendata.swiss zugreifen können. Werfen Sie auch einen Blick 
-    in aktuelle `Beispiele, wie OGD genutzt <https://opendata.swiss/showcase/>`__ wird.
+    CKAN stellt eine umfangreiche API für die Metadaten des offenen Datenkatalogs 
+    zur Verfügung, die Applikationsentwickler_innen nutzen können. 
+    In diesem Kapitel erklären wir Ihnen, wie Sie mittels API auf die Daten von 
+    opendata.swiss zugreifen können. Werfen Sie auch einen Blick in aktuelle 
+    `Beispiele, wie OGD genutzt <https://opendata.swiss/showcase/>`__ wird.
 
 .. admonition:: Gut zu wissen
 
-    Hier geben wir Ihnen eine Einführung zur Nutzung der API von `opendata.swiss <https://opendata.swiss/>`__. 
-    Eine ausführliche Dokumentation zur CKAN API finden Sie in der `CKAN API Dokumentation <https://docs.ckan.org/en/latest/api/>`__.
+    Hier geben wir Ihnen eine Einführung zur Nutzung der API von 
+    `opendata.swiss <https://opendata.swiss/>`__. 
+    Eine ausführliche Dokumentation zur CKAN API finden Sie in der `CKAN API 
+    Dokumentation <https://docs.ckan.org/en/latest/api/>`__.
 
 
 .. _api-nutzen-einführung:
@@ -29,7 +33,13 @@ Wie nutze ich den API-Zugriff von opendata.swiss?
 Einführung
 ^^^^^^^^^^
 
-Eine `API (Application Programming Interface <https://de.wikipedia.org/wiki/Programmierschnittstelle>`__) ermöglicht es, dass Software direkt mit einem externen System (in diesem Fall den Metadaten auf der Plattform opendata.swiss) interagiert. Während die Webseite der Plattform opendata.swiss und die `Suchfunktion <https://opendata.swiss/de/dataset>`__ auf die Nutzung durch Menschen ausgerichtet ist, bieten wir über die API eine Zugriffsmöglichkeit, die für die Automatisierung optimiert ist.
+Eine `API (Application Programming Interface 
+<https://de.wikipedia.org/wiki/Programmierschnittstelle>`__) ermöglicht es, 
+dass Software direkt mit einem externen System (in diesem Fall den Metadaten 
+auf der Plattform opendata.swiss) interagiert. Während die Webseite der 
+Plattform opendata.swiss und die `Suchfunktion 
+<https://opendata.swiss/de/dataset>`__ auf die Nutzung durch Menschen 
+ausgerichtet ist, bieten wir über die API eine Zugriffsmöglichkeit, die für die Automatisierung optimiert ist.
 
 
 Nutzung der API – so funktioniert es
@@ -54,10 +64,12 @@ Sie haben verschiedene Möglichkeiten, auf die API von opendata.swiss zuzugreife
 - über die Kommandozeile, oder durch 
 - spezialisierte Werkzeuge wie ckanapi oder Fetch-API. 
 
-Je nach Einsatzzweck eignen sich verschiedene Arten. Für den Zugriff über den Browser empfehlen wir die Nutzung eines JSON-Viewers 
-(nativ oder Plug-In), um die Lesbarkeit der Informationen zu verbessern.
+Je nach Einsatzzweck eignen sich verschiedene Arten. Für den Zugriff über den Browser 
+empfehlen wir die Nutzung eines JSON-Viewers (nativ oder Plug-In), um die Lesbarkeit 
+der Informationen zu verbessern.
 
-Die Basis-URL lautet https://ckan.opendata.swiss/api/3/action/ und wird gefolgt von der Aktion und allfälligen notwendigen Zusatzinformationen.
+Die Basis-URL lautet *https://ckan.opendata.swiss/api/3/action/* und wird gefolgt von 
+der Aktion und allfälligen notwendigen Zusatzinformationen.
 
 ..  code-block::
     :caption: API Zugriff über den Browser
@@ -79,15 +91,20 @@ Die Basis-URL lautet https://ckan.opendata.swiss/api/3/action/ und wird gefolgt 
 Action-API
 ^^^^^^^^^^
 
-Alle Zugriffe verwenden das Wort action, wie in den Beispielen oben zu beobachten ist. 
-Grundsätzlich sind die meisten Funktionen in CKAN als action programmiert, sodass sie über die API angestossen werden können. 
-Mehr dazu lesen Sie im Abschnitt `Action-API in der CKAN Dokumentation <https://docs.ckan.org/en/latest/api/#action-api-reference>`__.
+Alle Zugriffe verwenden das Wort *action*, wie in den Beispielen oben zu beobachten 
+ist. Grundsätzlich sind die meisten Funktionen in CKAN als *action* programmiert, 
+so dass sie über die API angestossen werden können. 
+Mehr dazu lesen Sie im Abschnitt `Action-API in der CKAN Dokumentation 
+<https://docs.ckan.org/en/latest/api/#action-api-reference>`__.
 
-Die Rückmeldung wird als `JSON Objekt <https://de.wikipedia.org/wiki/JavaScript_Object_Notation>`__ ausgegeben. Mehr über die Struktur von 
-JSON Objekten finden Sie `hier <https://www.w3resource.com/JSON/structures.php>`__. 
+Die Rückmeldung wird als `JSON Objekt <https://de.wikipedia.org/wiki/JavaScript_Object_Notation>`__ 
+ausgegeben. Mehr über die Struktur von JSON Objekten erfahren Sie 
+`hier <https://www.w3resource.com/JSON/structures.php>`__.
 
-Zuerst wird Ihnen eine Adresse angezeigt, unter der Sie Hintergrundinformationen zu Ihrer Anfrage erhalten (help). Darauf meldet Ihnen das 
-System, ob die Anfrage erfolgreich war (success: true oder success: false). Unter result finden Sie die Inhalte Ihrer angefragten Informationen.
+Zuerst wird Ihnen eine Adresse angezeigt, unter der Sie Hintergrundinformationen 
+zu Ihrer Anfrage erhalten (*help*). Darauf meldet Ihnen das System, ob die Anfrage 
+erfolgreich war (*success: true* oder *success: false*). Unter *result* finden 
+Sie die Inhalte Ihrer angefragten Informationen.
 
 .. _api-nutzen-beispiel-response:
 
@@ -165,7 +182,7 @@ Eine API-Abfrage über den Browser liefert Ihnen als Beispiel folgende Informati
    * - help
      - Unter der angegebenen Adresse finden Sie weitere Informationen zur Query.
    * - success
-     - War Ihre Query richtig formuliert, so dass ein Ergebniss gefunden wurde? Falls "True" ausgegeben wird, aber eine leere Liste retourniert wird, war die Syntax Ihrer Anfrage korrekt formuliert, aber keine Datensätze entsprechen Ihren Parametern.
+     - War Ihre Query richtig formuliert, so dass ein Ergebniss gefunden wurde? Falls *True* ausgegeben wird, aber eine leere Liste retourniert wird, war die Syntax Ihrer Anfrage korrekt formuliert, aber keine Datensätze entsprechen Ihren Parametern.
    * - result
      - Diese Datensätze entsprechen Ihrer Anfrage.
    * - issued
@@ -225,24 +242,38 @@ Eine API-Abfrage über den Browser liefert Ihnen als Beispiel folgende Informati
 Terminologie von CKAN in opendata.swiss
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Über die API können Sie nach sämtlichen Metadaten in opendata.swiss suchen. Die Suchsyntax entspricht Apache `Lucene <https://lucene.apache.org/>`__, da opendata.swiss auf CKAN basiert und Apache `Solr <https://solr.apache.org/>`__ als Suchmaschine benutzt. Dies ist ebenfalls in der  `CKAN-Dokumentation <https://docs.ckan.org/en/latest/user-guide.html#search-in-detail>`__ ausführlich beschrieben. 
-Arbeiten Sie mit Metadaten der Organisation, Metadaten der Datasets oder Metadaten der Ressourcen? Beachten Sie dabei die Ebenen: Die folgende Auflistung zeigt die wichtigsten Terminologien, mit welchen Sie Informationen in opendata.swiss finden können:
+Über die API können Sie nach sämtlichen Metadaten in opendata.swiss suchen. 
+Die Suchsyntax entspricht Apache `Lucene <https://lucene.apache.org/>`__, 
+da opendata.swiss auf CKAN basiert und Apache `Solr <https://solr.apache.org/>`__ als 
+Suchmaschine benutzt. 
+Dies ist ebenfalls in der 
+`CKAN-Dokumentation <https://docs.ckan.org/en/latest/user-guide.html#search-in-detail>`__ 
+ausführlich beschrieben. 
+Arbeiten Sie mit Metadaten der Organisation, Metadaten der Datasets oder Metadaten der 
+Ressourcen? Beachten Sie dabei die Ebenen: Die folgende Auflistung zeigt die wichtigsten 
+Terminologien, mit welchen Sie Informationen in opendata.swiss finden können:
 
 
 ``organization``
-   Entspricht der `datenpublizierenden Organisation <https://opendata.swiss/de/organization>`__. Jedes Dataset wird von genau einer Organisation publiziert. 
-   Eine Organisation kann jedoch Unterorganisationen haben.
+   Entspricht der `datenpublizierenden Organisation <https://opendata.swiss/de/organization>`__. 
+   Jedes Dataset wird von genau einer Organisation publiziert. Eine Organisation 
+   kann jedoch Unterorganisationen haben.
 ``package``, ``dataset``
-   Entspricht einem :term:`Dataset <Dataset>` bei opendata.swiss. Damit gemeint sind die Metadaten
-   zu einem Bündel von Ressourcen.
+   Entspricht einem :term:`Dataset <Dataset>` bei opendata.swiss. Damit gemeint sind 
+   die Metadaten zu einem Bündel von Ressourcen.
 ``id``
    Entspricht in der Regel dem :term:`Slug <Slug>` des Datasets oder der Organisation auf opendata.swiss. 
    Bei Ausnahmefällen konsultieren Sie bitte die CKAN-Dokumentation.
 ``resource``, ``distribution``
-   Entspricht einer `Ressource <https://handbook.opendata.swiss/de/content/glossar/begriffe.html#term-Distribution>`__ bei Opendata.swiss. Die Plattform opendata.swiss hostet selbst keine Datasets oder Ressourcen, stellt aber downloadUrls oder accesssUrls und teilweise auch Daten Previews zur Verfügung. Ressourcen in CKAN entsprechen dcat:Distribution im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`.
+   Entspricht einer 
+   `Ressource <https://handbook.opendata.swiss/de/content/glossar/begriffe.html#term-Distribution>`__ bei 
+   Opendata.swiss. Die Plattform opendata.swiss hostet selbst keine Datasets oder Ressourcen, 
+   stellt aber downloadUrls oder accesssUrls und teilweise auch Daten Previews zur Verfügung. 
+   Ressourcen in CKAN entsprechen dcat:Distribution 
+   im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`.
 ``group``
    Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören.
-   Entspricht dcat:theme im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`
+   Entspricht dcat:theme im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`.
 
 
 .. _api-nutzen-beispiele:
@@ -356,7 +387,11 @@ Typische Anwendungen für Datenpublizierende
 .. toggle-header::
     :header: POST
 
-    Wenn Sie über die entsprechenden Rechte verfügen, können Sie die Metadaten Ihrer Datasets auch über die API-Schnittstelle anpassen. Sie finden Ihren API-Key auf der Nutzerseite auf dem Backend von opendata.swiss. Die genaue Syntax ist u.a. von Ihrem spezifischen Betriebssystem abhängig (beispielsweise das richtige Format der Anführungszeichen)
+    Wenn Sie über die entsprechenden Rechte verfügen, können Sie die Metadaten Ihrer 
+    Datasets auch über die API-Schnittstelle anpassen. Sie finden Ihren API-Key auf 
+    der Nutzerseite auf dem Backend von opendata.swiss. Die genaue Syntax ist u.a. 
+    von Ihrem spezifischen Betriebssystem abhängig (beispielsweise 
+    das richtige Format der Anführungszeichen)
 
     .. code-block:: bash
         :caption: Senden (POST) über die API Schnittstelle: package_patch
@@ -364,7 +399,8 @@ Typische Anwendungen für Datenpublizierende
         curl -X POST https://ckan.ogdch-abnahme.clients.liip.ch/api/3/action/package_patch -H "Authorization: YOUR-PERSONAL-API-KEY" 
         -d "{""id"": ""eafa8336-3012-47f2-bc6a-bd3044687484"", ""accrual_periodicity"": ""http://publications.europa.eu/resource/authority/frequency/CONT""}"
 
-    Datasets können auch über die API neu erstellt werden. Dazu benötigen Sie Ihren API-Key und müssen die Metadaten als im JSON-Format übermitteln.
+    Datasets können auch über die API neu erstellt werden. Dazu benötigen Sie Ihren 
+    API-Key und müssen die Metadaten als im JSON-Format übermitteln.
 
     .. code-block::
         :caption: Senden (POST) über die API Schnittstelle: package_create
@@ -445,16 +481,24 @@ Typische Anwendungen für Datenpublizierende
           	}], 
         }
 
-    Bitte beachten Sie, dass die Nutzungsbedingungen auf Ebene der Ressource dem kontrollierten Vokabular entsprechen. Vgl. Sie dazu den `DCAT AP CH Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html?dcat-dataset-accrual-periodicity>`__.
+    Bitte beachten Sie, dass die Nutzungsbedingungen auf Ebene der Ressource dem 
+    kontrollierten Vokabular entsprechen. Vgl. Sie dazu den 
+    `DCAT AP CH Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html?dcat-dataset-accrual-periodicity>`__.
     
-    Zusätzlich werden die Angaben private und isopen benötigt. Mit private können Sie definieren, ob das Dataset direkt veröffentlicht wird. Ein Dataset mit private : False wird direkt auf dem Frontend publiziert. Mit isopen deklarieren Sie, ob die Nutzungsbedingungen der Definition von open gemäss der `Open Knowledge Foundation <https://okfn.org/opendata/>`__ entspricht.
+    Zusätzlich werden die Angaben *private* und *isopen* benötigt. Mit *private* können 
+    Sie definieren, ob das Dataset direkt veröffentlicht wird. Ein Dataset mit 
+    *private* : False wird direkt auf dem Frontend publiziert. Mit *isopen* deklarieren 
+    Sie, ob die Nutzungsbedingungen der Definition von open gemäss der 
+    `Open Knowledge Foundation <https://okfn.org/opendata/>`__ entspricht.
 
 
 
 Fetch-API
 ---------
 
-Es ist auch möglich, über `Fetch-API <https://developers.google.com/web/updates/2015/03/introduction-to-fetch>`__ auf opendata.swiss zuzugreifen.
+Es ist auch möglich, über 
+`Fetch-API <https://developers.google.com/web/updates/2015/03/introduction-to-fetch>`__ 
+auf opendata.swiss zuzugreifen.
 
 .. _api-nutzen-fragen:
 .. container:: support
@@ -464,10 +508,14 @@ Es ist auch möglich, über `Fetch-API <https://developers.google.com/web/update
 Noch Fragen?
 ------------
 
-Haben Sie noch Fragen zur Nutzung unserer API? Dann `nehmen Sie mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__. Bei Rückfragen zu einzelnen Datasets wenden Sie sich bitte direkt an die Datenpublizierenden. Die jeweiligen Kontaktangaben finden Sie im Dataset unter Zusätzliche Information.
+Haben Sie noch Fragen zur Nutzung unserer API? Dann 
+`nehmen Sie mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__. Bei Rückfragen 
+zu einzelnen Datasets wenden Sie sich bitte direkt an die Datenpublizierenden. 
+Die jeweiligen Kontaktangaben finden Sie im Dataset unter Zusätzliche Information.
 
-**Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns sehr freuen, davon zu erfahren und Ihr Projekt 
-in unsere `Showcases <https://opendata.swiss/showcase>`__ aufzunehmen. `Oder Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
+**Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns sehr freuen, davon zu 
+erfahren und Ihr Projekt in unsere `Showcases <https://opendata.swiss/showcase>`__ 
+aufzunehmen. `Oder Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 

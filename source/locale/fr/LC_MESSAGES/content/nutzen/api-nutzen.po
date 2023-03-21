@@ -38,34 +38,51 @@ msgstr "Comment utiliser l'accès API d'opendata.swiss ?"
 #: ../../source/content/nutzen/api-nutzen.rst:16
 msgid ""
 "Das Portal `opendata.swiss <https://opendata.swiss/>`__ basiert auf dem Open-Source-Projekt CKAN. "
-"CKAN stellt eine umfangreiche API für die Metadaten des offenen Datenkatalogs zur Verfügung, die Applikationsentwickler_innen nutzen können. "
-"In diesem Kapitel erklären wir Ihnen, wie Sie mittels API auf die Daten von opendata.swiss zugreifen können. Werfen Sie auch einen Blick "
-"in aktuelle `Beispiele, wie OGD genutzt <https://opendata.swiss/showcase/>`__ wird."
+"CKAN stellt eine umfangreiche API für die Metadaten des offenen Datenkatalogs "
+"zur Verfügung, die Applikationsentwickler_innen nutzen können. "
+"In diesem Kapitel erklären wir Ihnen, wie Sie mittels API auf die Daten von "
+"opendata.swiss zugreifen können. Werfen Sie auch einen Blick in aktuelle "
+"`Beispiele, wie OGD genutzt <https://opendata.swiss/showcase/>`__ wird."
 msgstr "Le portail `opendata.swiss <https://opendata.swiss/>`__ est basé sur le projet open-source CKAN. 
-"CKAN met à disposition une API (Application Programming Interface) complète pour les métadonnées du catalogue de données ouvertes, que les développeurs d'applications peuvent utiliser. "
-"Dans ce chapitre, nous vous expliquons comment accéder aux données d'opendata.swiss par l'API. Jetez également un coup d'oeil sur "
-"des `exemples actuelles d'utilisation de données publiques ouvertes <https://opendata.swiss/showcase/>`__."
+"CKAN met à disposition une API (Application Programming Interface) complète pour les métadonnées 
+"du catalogue de données ouvertes, que les développeurs d'applications peuvent utiliser. "
+"Dans ce chapitre, nous vous expliquons comment accéder aux données d'opendata.swiss par l'API. "
+"Jetez également un coup d'oeil sur des `exemples actuelles d'utilisation de données publiques "
+"ouvertes <https://opendata.swiss/showcase/>`__."
 
 #: ../../source/content/nutzen/api-nutzen.rst:21
 msgid "Gut zu wissen"
 msgstr "Bon à savoir"
 
 #: ../../source/content/nutzen/api-nutzen.rst:23
-msgid "Hier geben wir Ihnen eine Einführung zur Nutzung der API von `opendata.swiss <https://opendata.swiss/>`__. "
-"Eine ausführliche Dokumentation zur CKAN API finden Sie in der `CKAN API Dokumentation <https://docs.ckan.org/en/latest/api/>`__."
-msgstr "Nous vous donnons ici une introduction à l'utilisation de l'API d' `opendata.swiss <https://opendata.swiss/>`__. "
-"Vous trouverez une documentation détaillée sur l'API CKAN dans la `documentation API CKAN <https://docs.ckan.org/en/latest/api/>`__."
+msgid "Hier geben wir Ihnen eine Einführung zur Nutzung der API von "
+"`opendata.swiss <https://opendata.swiss/>`__. "
+"Eine ausführliche Dokumentation zur CKAN API finden Sie in der `CKAN API "
+"Dokumentation <https://docs.ckan.org/en/latest/api/>`__."
+msgstr "Nous vous donnons ici une introduction à l'utilisation de l'API d' `opendata.swiss"
+" <https://opendata.swiss/>`__. "
+"Vous trouverez une documentation détaillée sur l'API CKAN dans la `documentation API CKAN"
+" <https://docs.ckan.org/en/latest/api/>`__."
 
 #: ../../source/content/nutzen/api-nutzen.rst:30
 msgid "Einführung"
 msgstr "Introduction"
 
 #: ../../source/content/nutzen/api-nutzen.rst:31
-msgid "Eine `API (Application Programming Interface <https://de.wikipedia.org/wiki/Programmierschnittstelle>`__) ermöglicht es, dass Software direkt mit einem externen System (in diesem Fall den Metadaten auf der Plattform opendata.swiss) interagiert. Während die Webseite der Plattform opendata.swiss und die `Suchfunktion <https://opendata.swiss/de/dataset>`__ auf die Nutzung durch Menschen ausgerichtet ist, bieten wir über die API eine Zugriffsmöglichkeit, die für die Automatisierung optimiert ist."
-msgstr "Une `API (Application Programming Interface <https://fr.wikipedia.org/wiki/Interface_de_programmation>`__) permet "
-"à un logiciel de communiquer directement avec un système externe – ici les métadonnées sur la plateforme opendata.swiss."
-"Alors que le site web de la plate-forme `opendata.swiss et sa fonction de recherche <https://opendata.swiss/de/dataset>`__ sont conçus pour être utilisés par des humains, "
-"nous offrons une possibilité d'accès optimisé pour l'automatisation par l’API."
+msgid "Eine `API (Application Programming Interface "
+"<https://de.wikipedia.org/wiki/Programmierschnittstelle>`__) ermöglicht es, "
+"dass Software direkt mit einem externen System (in diesem Fall den Metadaten "
+"auf der Plattform opendata.swiss) interagiert. Während die Webseite der "
+"Plattform opendata.swiss und die `Suchfunktion "
+"<https://opendata.swiss/de/dataset>`__ auf die Nutzung durch Menschen "
+"ausgerichtet ist, bieten wir über die API eine Zugriffsmöglichkeit, die für "
+"die Automatisierung optimiert ist."
+msgstr "Une `API (Application Programming Interface "
+"<https://fr.wikipedia.org/wiki/Interface_de_programmation>`__) permet à un logiciel de "
+"communiquer directement avec un système externe – ici les métadonnées sur la plateforme "
+"opendata.swiss. Alors que le site web de la plate-forme `opendata.swiss et sa fonction de "
+"recherche <https://opendata.swiss/de/dataset>`__ sont conçus pour être utilisés par des "
+"humains, nous offrons une possibilité d'accès optimisé pour l'automatisation par l’API."
 
 #: ../../source/content/nutzen/api-nutzen.rst:38
 msgid "Nutzung der API – so funktioniert es"
@@ -114,14 +131,18 @@ msgid "spezialisierte Werkzeuge wie ckanapi oder Fetch-API."
 msgstr "par des outils spécialisés comme ckanapi ou Fetch-API"
 
 #: ../../source/content/nutzen/api-nutzen.rst:59
-msgid "Je nach Einsatzzweck eignen sich verschiedene Arten. Für den Zugriff über den Browser empfehlen wir die Nutzung eines JSON-Viewers "
-"(nativ oder Plug-In), um die Lesbarkeit der Informationen zu verbessern."
+msgid "Je nach Einsatzzweck eignen sich verschiedene Arten. Für den Zugriff über den Browser "
+"empfehlen wir die Nutzung eines JSON-Viewers (nativ oder Plug-In), um die Lesbarkeit "
+"der Informationen zu verbessern."
 msgstr "Les différents types d’accès conviennent aux différents besoins de l'utilisation. "
-"Pour l'accès via le navigateur, nous recommandons l'utilisation d'un visualiseur JSON (natif ou plug-in) afin d'améliorer la lisibilité des informations."
+"Pour l'accès via le navigateur, nous recommandons l'utilisation d'un visualiseur JSON "
+"(natif ou plug-in) afin d'améliorer la lisibilité des informations."
 
 #: ../../source/content/nutzen/api-nutzen.rst:62
-msgid "Die Basis-URL lautet https://ckan.opendata.swiss/api/3/action/ und wird gefolgt von der Aktion und allfälligen notwendigen Zusatzinformationen."
-msgstr "L'URL de base est https://ckan.opendata.swiss/api/3/action/ et est suivie de l'action et des éventuelles informations complémentaires nécessaires."
+msgid "Die Basis-URL lautet *https://ckan.opendata.swiss/api/3/action/* und wird gefolgt von "
+"der Aktion und allfälligen notwendigen Zusatzinformationen."
+msgstr "L'URL de base est *https://ckan.opendata.swiss/api/3/action/* et est suivie de "
+"l'action et des éventuelles informations complémentaires nécessaires."
 
 msgid "API Zugriff über den Browser"
 msgstr "Accès API via le navigateur"
@@ -137,24 +158,35 @@ msgid "Action-API"
 msgstr "Action API"
 
 #: ../../source/content/nutzen/api-nutzen.rst:85
-msgid "Alle Zugriffe verwenden das Wort action, wie in den Beispielen oben zu beobachten ist. "
-"Grundsätzlich sind die meisten Funktionen in CKAN als action programmiert, sodass sie über die API angestossen werden können. "
-"Mehr dazu lesen Sie im Abschnitt `Action-API in der CKAN Dokumentation <https://docs.ckan.org/en/latest/api/#action-api-reference>`__."
-msgstr "Tous les accès utilisent le terme "action", comme démontré dans l’exemples ci-dessus. "
-"En principe, la plupart des fonctions de CKAN sont programmées comme 'action', de sorte à ce qu’elles puissent être déclenchées via l'API. "
-"Pour en savoir plus, consultez la section API d'action de la `documentation CKAN <https://docs.ckan.org/en/latest/api/#action-api-reference>`__."
+msgid "Alle Zugriffe verwenden das Wort *action*, wie in den Beispielen oben zu beobachten "
+"ist. Grundsätzlich sind die meisten Funktionen in CKAN als *action* programmiert, "
+"so dass sie über die API angestossen werden können. "
+"Mehr dazu lesen Sie im Abschnitt `Action-API in der CKAN Dokumentation "
+"<https://docs.ckan.org/en/latest/api/#action-api-reference>`__."
+msgstr "Tous les accès utilisent le terme *action*, comme démontré dans l’exemples ci-dessus. "
+"En principe, la plupart des fonctions de CKAN sont programmées comme *action*, de sorte à "
+"ce qu’elles puissent être déclenchées via l'API. "
+"Pour en savoir plus, consultez la section API d'action de la `documentation CKAN "
+"<https://docs.ckan.org/en/latest/api/#action-api-reference>`__."
 
 #: ../../source/content/nutzen/api-nutzen.rst:89
-msgid "Die Rückmeldung wird als `JSON Objekt <https://de.wikipedia.org/wiki/JavaScript_Object_Notation>`__ ausgegeben. Mehr über die Struktur von "
-"JSON Objekten finden Sie `hier <https://www.w3resource.com/JSON/structures.php>`__."
-msgstr "La réponse à la requête est émise sous forme d'`objet JSON <https://de.wikipedia.org/wiki/JavaScript_Object_Notation>`__. Pour en savoir plus "
-"sur la structure des  JSON, cliquez `ici <https://www.w3resource.com/JSON/structures.php>`__. "
+msgid "Die Rückmeldung wird als `JSON Objekt <https://de.wikipedia.org/wiki/JavaScript_Object_Notation>`__ "
+"ausgegeben. Mehr über die Struktur von JSON Objekten erfahren Sie "
+"`hier <https://www.w3resource.com/JSON/structures.php>`__."
+msgstr "La réponse à la requête est émise sous forme d'`objet JSON "
+"<https://fr.wikipedia.org/wiki/JavaScript_Object_Notation>`__. "
+"Pour en savoir plus sur la structure des  JSON, cliquez `ici "
+"<https://www.w3resource.com/JSON/structures.php>`__. "
 
 #: ../../source/content/nutzen/api-nutzen.rst:92
-msgid "Zuerst wird Ihnen eine Adresse angezeigt, unter der Sie Hintergrundinformationen zu Ihrer Anfrage erhalten (help). Darauf meldet Ihnen das "
-"System, ob die Anfrage erfolgreich war (success: true oder success: false). Unter result finden Sie die Inhalte Ihrer angefragten Informationen."
-msgstr "Tout d'abord, une adresse s'affiche pour vous fournir des informations de base sur votre demande ('help'). Le système vous informe "
-"ensuite si la demande a été acceptée ('success : true' ou 'success : false'). Sous 'result', vous trouverez le contenu des informations que vous avez demandées."
+msgid "Zuerst wird Ihnen eine Adresse angezeigt, unter der Sie Hintergrundinformationen "
+"zu Ihrer Anfrage erhalten (*help*). Darauf meldet Ihnen das System, ob die Anfrage "
+"erfolgreich war (*success: true* oder *success: false*). Unter *result* finden Sie die "
+"Inhalte Ihrer angefragten Informationen."
+msgstr "Tout d'abord, une adresse s'affiche pour vous fournir des informations de base sur "
+"votre demande (*help*). Le système vous informe ensuite si la demande a été acceptée "
+"(*success : true* ou *success : false*). Sous *result*, vous trouverez le contenu "
+"des informations que vous avez demandées."
 
 
 #: ../../source/content/nutzen/api-nutzen.rst:100
@@ -179,8 +211,8 @@ msgid "Unter der angegebenen Adresse finden Sie weitere Informationen zur Query.
 msgstr "À l'adresse indiquée, vous trouverez des informations supplémentaires sur la requête."
 
 #: ../../source/content/nutzen/api-nutzen.rst:170
-msgid "War Ihre Query richtig formuliert, so dass ein Ergebniss gefunden wurde? Falls "True" ausgegeben wird, aber eine leere Liste retourniert wird, war die Syntax Ihrer Anfrage korrekt formuliert, aber keine Datensätze entsprechen Ihren Parametern."
-msgstr "Votre requête était-elle correctement formulée? Si le résultat est "True" mais qu'une liste vide est retournée, la syntaxe de votre requête était correcte, mais aucun enregistrement ne correspond à vos paramètres."
+msgid "War Ihre Query richtig formuliert, so dass ein Ergebniss gefunden wurde? Falls *True* ausgegeben wird, aber eine leere Liste retourniert wird, war die Syntax Ihrer Anfrage korrekt formuliert, aber keine Datensätze entsprechen Ihren Parametern."
+msgstr "Votre requête était-elle correctement formulée? Si le résultat est *True* mais qu'une liste vide est retournée, la syntaxe de votre requête était correcte, mais aucun enregistrement ne correspond à vos paramètres."
 
 #: ../../source/content/nutzen/api-nutzen.rst:172
 msgid "Diese Datensätze entsprechen Ihrer Anfrage."
@@ -236,23 +268,31 @@ msgstr "Informations au niveau resource"
 
 #: ../../source/content/nutzen/api-nutzen.rst:72
 msgid "Die ID des Datasets, zu dem die Ressourcen gehören."
-"Das Erstelldatum der Ressource."
-"Die ID der Ressource."
-"Die Adresse, unter der die Ressource heruntergeladen werden kann."
-"Das Format der Ressource."
-"Die Nutzungsbedingungen der Ressource."
-"Der Zeitpunkt, als die Ressource in der Datenbank eingerichtet wurde."
-"Die Beschreibung der Ressource."
-"Die Anzahl Ressourcen für das Dataset."
 msgstr "L'identifiant du dataset auquel appartiennent les ressources."
-"La date de création de la ressource."
-"L'ID de la ressource."
-"L'adresse à laquelle la ressource peut être téléchargée."
-"Le format de la ressource."
-"Les conditions d'utilisation de la ressource."
-"La date à laquelle la ressource a été créée dans la base de données."
-"La description de la ressource."
-"Le nombre de ressources pour le dataset."
+
+msgid "Das Erstelldatum der Ressource."
+msgstr "La date de création de la ressource."
+
+msgid "Die ID der Ressource."
+msgstr "L'ID de la ressource."
+
+msgid "Die Adresse, unter der die Ressource heruntergeladen werden kann."
+msgstr "L'adresse à laquelle la ressource peut être téléchargée."
+
+msgid "Das Format der Ressource."
+msgstr "Le format de la ressource."
+
+msgid "Die Nutzungsbedingungen der Ressource."
+msgstr "Les conditions d'utilisation de la ressource."
+
+msgid "Der Zeitpunkt, als die Ressource in der Datenbank eingerichtet wurde."
+msgstr "La date à laquelle la ressource a été créée dans la base de données."
+
+msgid "Die Beschreibung der Ressource."
+msgstr "La description de la ressource."
+
+msgid "Die Anzahl Ressourcen für das Dataset."
+msgstr "Le nombre de ressources pour le dataset."
 
 
 #: ../../source/content/nutzen/api-nutzen.rst:74
@@ -260,184 +300,203 @@ msgid "Terminologie von CKAN in opendata.swiss"
 msgstr "Terminologie CKAN dans opendata.swiss"
 
 #: ../../source/content/nutzen/api-nutzen.rst:76
-msgid "Über die API können Sie nach sämtlichen Metadaten in opendata.swiss suchen. Die Suchsyntax entspricht Apache `Lucene <https://lucene.apache.org/>`__, "
-"da opendata.swiss auf CKAN basiert und Apache `Solr <https://solr.apache.org/>`__ als Suchmaschine benutzt. "
-"Dies ist ebenfalls in der `CKAN-Dokumentation <https://docs.ckan.org/en/latest/user-guide.html#search-in-detail>`__ ausführlich beschrieben. "
-"Arbeiten Sie mit Metadaten der Organisation, Metadaten der Datasets oder Metadaten der Ressourcen? Beachten Sie dabei die Ebenen: Die folgende Auflistung zeigt die wichtigsten Terminologien, mit welchen Sie Informationen in opendata.swiss finden können:"
-msgstr "L'API permet d’effectuer une recherche dans l'ensemble des métadonnées dans opendata.swiss. La syntaxe de recherche correspond à Apache `Lucene <https://lucene.apache.org/>`__, "
-"car opendata.swiss est basé sur CKAN et utilise Apache `Solr <https://solr.apache.org/>`__ comme moteur de recherche. "
-"Ceci est également décrit en détail dans la ´documentation CKAN <https://docs.ckan.org/en/latest/user-guide.html#search-in-detail>`__. "
-"Travaillez-vous avec des métadonnées de l'organisation, des métadonnées des datasets ou des métadonnées des ressources ? "
-"Tenez compte des niveaux! La liste suivante montre les principales terminologies avec lesquelles vous pouvez trouver des informations dans opendata.swiss :"
+msgid "Über die API können Sie nach sämtlichen Metadaten in opendata.swiss suchen. "
+"Die Suchsyntax entspricht Apache `Lucene <https://lucene.apache.org/>`__, "
+"da opendata.swiss auf CKAN basiert und Apache `Solr <https://solr.apache.org/>`__ als "
+"Suchmaschine benutzt. "
+"Dies ist ebenfalls in der "
+"`CKAN-Dokumentation <https://docs.ckan.org/en/latest/user-guide.html#search-in-detail>`__ "
+"ausführlich beschrieben. "
+"Arbeiten Sie mit Metadaten der Organisation, Metadaten der Datasets oder Metadaten der "
+"Ressourcen? Beachten Sie dabei die Ebenen: Die folgende Auflistung zeigt die wichtigsten "
+"Terminologien, mit welchen Sie Informationen in opendata.swiss finden können:"
+msgstr "L'API permet d’effectuer une recherche dans l'ensemble des métadonnées dans opendata.swiss. "
+"La syntaxe de recherche correspond à Apache `Lucene <https://lucene.apache.org/>`__, "
+"car opendata.swiss est basé sur CKAN et utilise Apache `Solr <https://solr.apache.org/>`__ "
+"comme moteur de recherche. "
+"Ceci est également décrit en détail dans la "
+"`documentation CKAN <https://docs.ckan.org/en/latest/user-guide.html#search-in-detail>`__. "
+"Travaillez-vous avec des métadonnées de l'organisation, des métadonnées des datasets ou des métadonnées "
+des ressources ? Tenez compte des niveaux! La liste suivante montre les principales terminologies "
+"avec lesquelles vous pouvez trouver des informations dans opendata.swiss :"
 
 #: ../../source/content/nutzen/api-nutzen.rst:78
-msgid "Entspricht der `datenpublizierenden Organisation <https://opendata.swiss/de/organization>`__. Jedes Dataset wird von genau einer Organisation publiziert. Eine Organisation kann jedoch Unterorganisationen haben."
-"Entspricht einem :term:`Dataset <Dataset>` bei opendata.swiss. Damit gemeint sind die Metadaten zu einem Bündel von Ressourcen."
-"Entspricht in der Regel dem :term:`Slug <Slug>` des Datasets oder der Organisation auf opendata.swiss. Bei Ausnahmefällen konsultieren Sie bitte die CKAN-Dokumentation."
-"Entspricht einer `Ressource <https://handbook.opendata.swiss/de/content/glossar/begriffe.html#term-Distribution>`__ bei Opendata.swiss. Die Plattform opendata.swiss hostet selbst keinen Datasets oder Ressourcen, stellt aber downloadUrls oder accesssUrls "
-"und teilweise auch Daten Previews zur Verfügung. Ressourcen in CKAN entsprechen dcat:Distribution im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`."
-"Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören. Entspricht dcat:theme im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`"
-msgstr "correspond à l'´organisation <https://opendata.swiss/fr/organization>`__ qui publie les données . Chaque dataset est publié par une seule organisation.  Une organisation peut toutefois avoir des sous-organisations."
-"correspond à un `Dataset <Dataset>` sur opendata.swiss. Il s'agit des métadonnées relatives à un ensemble de ressources."
-"correspond en règle générale au :term:`Slug <Slug>` du dataset ou de l'organisation sur opendata.swiss. Pour les cas exceptionnels, veuillez consulter la documentation CKAN."
-"correspond à une `ressource <https://handbook.opendata.swiss/fr/content/glossar/begriffe.html#term-Distribution>`__ sur opendata.swiss. La plateforme opendata.swiss n'héberge pas elle-même des datasets ou des ressources, mais met à disposition des downloadUrls ou des accesssUrls 
-"et parfois aussi des data previews. Les ressources dans CKAN correspondent à dcat:Distribution dans le standard DCAT AP."
-"Un dataset peut appartenir à plusieurs catégories. Correspond à une catégorie sur opendata.swiss ou dcat:theme dans le :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`""
+msgid "Entspricht der `datenpublizierenden Organisation <https://opendata.swiss/de/organization>`__. "
+"Jedes Dataset wird von genau einer Organisation publiziert. Eine Organisation "
+"kann jedoch Unterorganisationen haben."
+msgstr "Correspond à l'`organisation <https://opendata.swiss/fr/organization>`__ qui publie les données. "
+"Chaque dataset est publié par une seule organisation.  Une organisation peut toutefois "
+"avoir des sous-organisations."
 
-#: ../../source/content/nutzen/api-nutzen.rst:81
-msgid "``package``, ``dataset``"
-msgstr ""
+msgid "Entspricht einem :term:`Dataset <Dataset>` bei opendata.swiss. Damit gemeint sind "
+"die Metadaten zu einem Bündel von Ressourcen."
+msgstr "Correspond à un :term:`Dataset <Dataset>` sur opendata.swiss. Il s'agit des métadonnées "
+"relatives à un ensemble de ressources."
 
-#: ../../source/content/nutzen/api-nutzen.rst:81
-msgid ""
-"Entspricht einem :term:`Dataset <Dataset>` bei opendata.swiss. Damit "
-"gemeint sind die Metadaten zu einem Bündel von Ressourcen."
-msgstr "Ce terme est synonyme de jeu de :term:`données <Dataset>` sur opendata.swiss. Il s’agit des métadonnées d’un paquet de ressources."
+msgid "Entspricht in der Regel dem :term:`Slug <Slug>` des Datasets oder der Organisation auf opendata.swiss. "
+"Bei Ausnahmefällen konsultieren Sie bitte die CKAN-Dokumentation."
+msgstr "Correspond en règle générale au :term:`Slug <Slug>` du dataset ou de l'organisation "
+"sur opendata.swiss. Pour les cas exceptionnels, veuillez consulter la documentation CKAN."
 
-#: ../../source/content/nutzen/api-nutzen.rst:86
-msgid "``resource``"
-msgstr ""
+msgid "Entspricht einer "
+"`Ressource <https://handbook.opendata.swiss/de/content/glossar/begriffe.html#term-Distribution>`__ bei "
+"Opendata.swiss. Die Plattform opendata.swiss hostet selbst keine Datasets oder Ressourcen, "
+"stellt aber downloadUrls oder accesssUrls und teilweise auch Daten Previews zur Verfügung. "
+"Ressourcen in CKAN entsprechen dcat:Distribution "
+"im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`."
+msgstr "Correspond à une "
+"`ressource <https://handbook.opendata.swiss/fr/content/glossar/begriffe.html#term-Distribution>`__ "
+"sur opendata.swiss. La plateforme opendata.swiss n'héberge pas elle-même des datasets ou des "
+"ressources, mais met à disposition des downloadUrls ou des accesssUrls et parfois aussi "
+"des data previews. Les ressources dans CKAN correspondent à dcat:Distribution dans le standard "
+"DCAT AP. Un dataset peut appartenir à plusieurs catégories."
 
-#: ../../source/content/nutzen/api-nutzen.rst:84
-msgid ""
-"Entspricht einer Ressource bei Opendata.swiss. Die Plattform "
-"opendata.swiss hostet selbst keinen Ressourcen, stellt aber "
-"«downloadUrls» oder «accesssUrls» und teilweise auch Daten Previews zur "
-"Verfügung. Ressourcen in CKAN entsprechen dcat:Distribution im :doc:`DCAT"
-" AP Standard <../glossar/bibliothek/dcat-ap-ch>`"
-msgstr "Le terme utilisé par opendata.swiss est ressource. La plateforme opendata.swiss n’héberge aucune ressource, "
-"elle se contente de mettre à disposition des «downloadUrls» (téléchargement) et des «accessUrls» (accès), "
-"en partie aussi des prévisualisations de données. Les ressources dans CKAN correspondent "
-"à dcat:Distribution dans la norme :doc:`DCAT AP <../glossar/bibliothek/dcat-ap-ch>`."
+msgid "Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien "
+"angehören. Entspricht dcat:theme im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`."
+msgstr "Correspond à une catégorie sur opendata.swiss ou dcat:theme dans "
+"le :doc:`standard DCAT AP <../glossar/bibliothek/dcat-ap-ch>` ."
 
-#: ../../source/content/nutzen/api-nutzen.rst:88
-msgid "``group``"
-msgstr ""
-
-#: ../../source/content/nutzen/api-nutzen.rst:89
-msgid ""
-"Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren "
-"Kategorien angehören."
-msgstr "Il correspond à une catégorie chez opendata.swiss. Un même dataset peut appartenir à plusieurs catégories."
-
-#: ../../source/content/nutzen/api-nutzen.rst:91
-msgid "``organization``"
-msgstr ""
-
-#: ../../source/content/nutzen/api-nutzen.rst:91
-msgid ""
-"Entspricht den Datenpublizierenden, egal ob Person oder Organisation. "
-"Jedes Dataset wird von genau einer Organisation publiziert."
-msgstr ""
-"Correspond au fournisseur de données, qu’il s’agisse d’un particulier ou d’une organisation. Chaque jeu de données est publié par une seule organisation."
-
-#: ../../source/content/nutzen/api-nutzen.rst:94
-msgid "``id``"
-msgstr ""
-
-#: ../../source/content/nutzen/api-nutzen.rst:94
-msgid "Entspricht im API dem :term:`Slug <Slug>` des Datasets."
-msgstr "Dans l’API, il s’agit de :term:`l’identifiant (slug) <Slug>` du jeu de données."
-
-#: ../../source/content/nutzen/api-nutzen.rst:99
+#: ../../source/content/nutzen/api-nutzen.rst:252
 msgid "Anwendungsbeispiele für die API"
 msgstr "Exemples d'application de l'API"
 
-#: ../../source/content/nutzen/api-nutzen.rst:101
-msgid "Status der Plattfom inkl. Version"
+#: ../../source/content/nutzen/api-nutzen.rst:255
+msgid "Typische Abfragen für Datennutzende"
+msgstr "Requêtes typiques pour les utilisateurs de données"
+
+#: ../../source/content/nutzen/api-nutzen.rst:262
+msgid "Status der Plattfrom"
 msgstr "Statut de la plateforme"
 
-#: ../../source/content/nutzen/api-nutzen.rst:103
-msgid "Anzeigen aller Organisationen"
+#: ../../source/content/nutzen/api-nutzen.rst:270
+msgid "Auflisten aller Organisationen"
 msgstr "Liste de toutes les organisations"
 
-#: ../../source/content/nutzen/api-nutzen.rst:108
+#: ../../source/content/nutzen/api-nutzen.rst:278
 msgid "Auflisten aller Datasets"
 msgstr "Liste de tous les datasets"
 
-#: ../../source/content/nutzen/api-nutzen.rst:110
-msgid "Liste aller Datasets einer bestimmten Organisation"
+#: ../../source/content/nutzen/api-nutzen.rst:286
+msgid "Anzeigen aller Datasets einer bestimmten Organisation"
 msgstr "Liste de tous les datasets d'une organisation spécifique"
 
-#: ../../source/content/nutzen/api-nutzen.rst:115
+#: ../../source/content/nutzen/api-nutzen.rst:295
 msgid "Information zu einem bestimmten Dataset"
 msgstr "Informations sur un dataset spécifique"
 
-#: ../../source/content/nutzen/api-nutzen.rst:117
-msgid "Suchen aller Datasets in deutscher Sprache"
-msgstr "Recherche de tous les datasets en allemand"
+#: ../../source/content/nutzen/api-nutzen.rst:303
+msgid "Datensätze einer Sprache"
+msgstr "Recherche de tous les datasets par langue"
 
-#: ../../source/content/nutzen/api-nutzen.rst:117
+#: ../../source/content/nutzen/api-nutzen.rst:311
 msgid "Auflistung der Kategorien"
 msgstr "Liste des catégories"
 
-#: ../../source/content/nutzen/api-nutzen.rst:117
-msgid "Suchen aller Datasets in deutscher Sprache"
-msgstr "Recherche de tous les datasets en allemand"
-
-#: ../../source/content/nutzen/api-nutzen.rst:117
+#: ../../source/content/nutzen/api-nutzen.rst:319
 msgid "Auflistung der zehn häufigsten Schlagwörter"
 msgstr "Liste des dix mots-clés les plus fréquents"
 
-#: ../../source/content/nutzen/api-nutzen.rst:117
-msgid "Suchen der "Keywords" mit aufsteigender Häufigkeit"
+#: ../../source/content/nutzen/api-nutzen.rst:327
+msgid "Geordnete Schlagwortsuche in den Datasets"
 msgstr "Recherche des mots-clés par fréquence croissante"
 
-#: ../../source/content/nutzen/api-nutzen.rst:122
-msgid ""
-"Die Suchsyntax entspricht dabei Apache Lucene, da CKAN Solr als "
-"Suchmaschine benutzt. Dies ist ebenfalls in der `CKAN-Dokumentation "
-"<https://docs.ckan.org/en/latest/user-guide.html#search-in-detail>`__ "
-"ausführlich beschrieben."
-msgstr "CKAN utilisant Solr comme moteur de recherche, la syntaxe de recherche correspond à Apache Lucene. "
-"Vous trouverez des explications détaillées dans `la documentation CKAN <https://docs.ckan.org/en/latest/user-guide.html#search-in-detail>`__."
+#: ../../source/content/nutzen/api-nutzen.rst:332
+msgid "Typische Anwendungen für Datenpublizierende"
+msgstr "Applications typiques pour les personnes publiant des données"
 
-#: ../../source/content/nutzen/api-nutzen.rst:128
+#: ../../source/content/nutzen/api-nutzen.rst:338
+msgid "Harvester-ID Ihrer Organisation finden"
+msgstr "Trouver l'identifiant Harvester de son organisation"
+
+#: ../../source/content/nutzen/api-nutzen.rst:346
+msgid "Liste der manuell hinzugefügten Daten Ihrer Organisation"
+msgstr "Liste des données ajoutées manuellement"
+
+#: ../../source/content/nutzen/api-nutzen.rst:354
+msgid "Liste der geharvesteten Daten Ihrer Organisation"
+msgstr "Liste des données harvestées de votre organisation"
+
+#: ../../source/content/nutzen/api-nutzen.rst:361
+msgid "Wenn Sie über die entsprechenden Rechte verfügen, können Sie die Metadaten Ihrer "
+"Datasets auch über die API-Schnittstelle anpassen. Sie finden Ihren API-Key auf "
+"der Nutzerseite auf dem Backend von opendata.swiss. Die genaue Syntax ist u.a. "
+"von Ihrem spezifischen Betriebssystem abhängig (beispielsweise "
+"das richtige Format der Anführungszeichen)"
+msgstr "Si vous disposez des droits nécessaires, vous pouvez également adapter les "
+"métadonnées de vos datasets via l'interface API. Vous trouverez votre clé API sur "
+"la page utilisateur sur le backend d'opendata.swiss. La syntaxe exacte dépend entre "
+"autres de votre système opérateur spécifique (par exemple le format correcte des "
+"guillements)."
+
+#: ../../source/content/nutzen/api-nutzen.rst:364
+msgid "Senden (POST) über die API Schnittstelle: package_patch"
+msgstr "Envoi (POST) via l'interface API: package_patch"
+
+#: ../../source/content/nutzen/api-nutzen.rst:369
+msgid "Datasets können auch über die API neu erstellt werden. Dazu benötigen Sie Ihren "
+"API-Key und müssen die Metadaten als im JSON-Format übermitteln."
+msgstr "Les datasets peuvent également être créés via l'API. Pour cela, vous avez besoin "
+"de votre clé API et vous devez transmettre les métadonnées au format JSON."
+
+#: ../../source/content/nutzen/api-nutzen.rst:372
+msgid "Senden (POST) über die API Schnittstelle: package_create"
+msgstr "Envoi (POST) via l'interface API: package_patch"
+
+#: ../../source/content/nutzen/api-nutzen.rst:450
+msgid "Bitte beachten Sie, dass die Nutzungsbedingungen auf Ebene der Ressource dem "
+"kontrollierten Vokabular entsprechen. Vgl. Sie dazu den "
+"`DCAT AP CH Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html?dcat-dataset-accrual-periodicity>`__."
+msgstr "Veuillez noter que les conditions d'utilisation (au niveau de la ressource) "
+"correspondent au vocabulaire contrôlé. Veuillez vérifier la norme "
+"`DCAT AP CH içi <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-rights-dcat>`__."
+
+#: ../../source/content/nutzen/api-nutzen.rst:369
+msgid "Zusätzlich werden die Angaben *private* und *isopen* benötigt. Mit *private* können Sie"
+" definieren, ob das Dataset direkt veröffentlicht wird. Ein Dataset mit "
+"*private : False* wird direkt auf dem Frontend publiziert. Mit isopen deklarieren "
+"Sie, ob die Nutzungsbedingungen der Definition von open gemäss der "
+"`Open Knowledge Foundation <https://okfn.org/opendata/>`__ entspricht."
+msgstr "Entre outres, les indications *private* et *isopen* sont obligatoire. "
+"Avec *private*, vous pouvez définir si le dataset est directement publié. Un dataset avec "
+"*private:False* est publié directement sur le frontend. Avec *isopen*, vous déclarez "
+"si les conditions d'utilisation correspondent à la définition de *open* selon l’Open Knowledge Foundation."
+
+
+#: ../../source/content/nutzen/api-nutzen.rst:456
 msgid "Fetch-API"
 msgstr "Fetch API"
 
-#: ../../source/content/nutzen/api-nutzen.rst:130
-msgid ""
-"Es ist auch möglich über `Fetch-API "
-"<https://developers.google.com/web/updates/2015/03/introduction-to-"
-"fetch>`__ auf opendata.swiss zuzugreifen."
+#: ../../source/content/nutzen/api-nutzen.rst:459
+msgid "Es ist auch möglich, über `Fetch-API <https://developers.google.com/web/updates/2015/03/introduction-to-fetch>`__ auf opendata.swiss zuzugreifen."
 msgstr "Vous pouvez aussi accéder à opendata.swiss via `Fetch API <https://developers.google.com/web/updates/2015/03/introduction-to-fetch>`__."
 
-#: ../../source/content/nutzen/api-nutzen.rst:138
+#: ../../source/content/nutzen/api-nutzen.rst:464
 msgid "Support"
 msgstr ""
 
-#: ../../source/content/nutzen/api-nutzen.rst:141
+#: ../../source/content/nutzen/api-nutzen.rst:466
 msgid "Noch Fragen?"
 msgstr "Des questions?"
 
-#: ../../source/content/nutzen/api-nutzen.rst:143
+#: ../../source/content/nutzen/api-nutzen.rst:469
 msgid ""
-"Haben Sie noch Fragen zur Nutzung unserer API? Dann `nehmen Sie mit uns "
-"Kontakt auf <mailto:opendata@bfs.admin.ch>`__. Bei Rückfragen zu "
-"einzelnen Datasets wenden Sie sich bitte direkt an die "
-"Datenpublizierenden. Die jeweiligen Kontaktangaben finden Sie im Dataset "
-"unter «Zusätzliche Information»."
-msgstr "Avez-vous des questions sur l’utilisation de notre API? "
-"N’hésitez pas à `nous écrire <mailto:opendata@bfs.admin.ch>`__. "
-"Pour toute question concernant un jeu de données spécifique, veuillez contacter le fournisseur de données. "
-"Vous trouverez les coordonnées pour chaque jeu de données sous «Informations complémentaires»."
-
-#: ../../source/content/nutzen/api-nutzen.rst:149
-msgid ""
-"**Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns sehr "
-"freuen, davon zu erfahren und Ihr Projekt in unsere Galerie von "
-"Beispielanwendungen aufzunehmen. `Schreiben Sie uns "
-"<mailto:opendata@bfs.admin.ch>`__."
+"Haben Sie noch Fragen zur Nutzung unserer API? Dann `nehmen Sie mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__. Bei Rückfragen zu einzelnen Datasets wenden Sie sich bitte direkt an die Datenpublizierenden. Die jeweiligen Kontaktangaben finden Sie im Dataset unter Zusätzliche Information."
 msgstr ""
-"**Souhaitez-vous nous soumettre un exemple d’application intéressant?** Nous serions très heureux de le découvrir et d’inclure votre projet dans notre galerie d’exemples. "
-"`Écrivez-nous <mailto:opendata@bfs.admin.ch>`__."
+"Avez-vous des questions sur l’utilisation de notre API? N'hésitez pas à `nous contacter <mailto:opendata@bfs.admin.ch>`__.  "
+"Si vous avez des questions sur les différents datasets, veuillez vous adresser directement aux les personnes qui publient les données. Vous trouverez les coordonnées dans le dataset sous "Informations complémentaires"."
 
-#: ../../source/content/nutzen/api-nutzen.rst:155
+#: ../../source/content/nutzen/api-nutzen.rst:473
+msgid ""
+"**Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns sehr freuen, davon zu erfahren und Ihr Projekt "
+"in unsere `Showcases <https://opendata.swiss/showcase>`__ aufzunehmen. `Oder Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__."
+msgstr ""
+"Vous avez un exemple d'utilisation intéressant ? Nous serions ravis d'en prendre connaissance et d'intégrer votre projet dans nos `showcases <https://opendata.swiss/showcase>`__. Vous pouvez aussi `nous écrire <mailto:opendata@bfs.admin.ch>`__."
+
+#: ../../source/content/nutzen/api-nutzen.rst:478
 msgid "Mehr zum Thema"
 msgstr "Informations complémentaires"
 
-#: ../../source/content/nutzen/api-nutzen.rst:157
+#: ../../source/content/nutzen/api-nutzen.rst:480
 msgid ""
 "`CKAN-API-Guide (Link) <https://docs.ckan.org/en/latest/api/#action-api-"
 "reference>`__  – Guidelines zur Nutzung der CKAN API"
