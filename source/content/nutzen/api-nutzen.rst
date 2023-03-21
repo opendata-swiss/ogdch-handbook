@@ -153,7 +153,7 @@ Beispiel API Response
             "id": "380fbe1f-8ddb-4bbe-bdcf-68217cd42f09", 
             "metadata_created": "2023-03-01T09:36:26.218643", 
             "relationships_as_object": [], 
-            "display_name": {
+            "display_name": { 
                 "fr": "Fichier csv des jeux de donn\u00e9es sur opendata.swiss", 
                 "en": "csv-file of the data sets on opendata.swiss", 
                 "de": "csv-File der Datens\u00e4tze auf opendata.swiss", 
@@ -270,7 +270,7 @@ Terminologien, mit welchen Sie Informationen in opendata.swiss finden können:
    Opendata.swiss. Die Plattform opendata.swiss hostet selbst keine Datasets oder Ressourcen, 
    stellt aber downloadUrls oder accesssUrls und teilweise auch Daten Previews zur Verfügung. 
    Ressourcen in CKAN entsprechen dcat:Distribution 
-   im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`.
+   im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch#dcat-ap-ch-distribution>`.
 ``group``
    Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören.
    Entspricht dcat:theme im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-theme>`.
@@ -483,7 +483,7 @@ Typische Anwendungen für Datenpublizierende
 
     Bitte beachten Sie, dass die Nutzungsbedingungen auf Ebene der Ressource dem 
     kontrollierten Vokabular entsprechen. Vgl. Sie dazu den 
-    `DCAT AP CH Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.htmldct-rights-dcat>`__.
+    `DCAT AP CH Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-rights-dcat>`__.
     
     Zusätzlich werden die Angaben *private* und *isopen* benötigt. Mit *private* können 
     Sie definieren, ob das Dataset direkt veröffentlicht wird. Ein Dataset mit 
@@ -513,9 +513,9 @@ Haben Sie noch Fragen zur Nutzung unserer API? Dann
 zu einzelnen Datasets wenden Sie sich bitte direkt an die Datenpublizierenden. 
 Die jeweiligen Kontaktangaben finden Sie im Dataset unter Zusätzliche Information.
 
-**Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns sehr freuen, davon zu 
-erfahren und Ihr Projekt in unsere `Showcases <https://opendata.swiss/showcase>`__ 
-aufzunehmen. `Oder Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
+**Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns sehr freuen, davon zu erfahren 
+und Ihr Projekt in unsere `Showcases <https://opendata.swiss/showcase>`__ aufzunehmen. 
+`Oder Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__.
 
 .. container:: materialien
 
