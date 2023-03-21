@@ -273,7 +273,7 @@ Terminologien, mit welchen Sie Informationen in opendata.swiss finden können:
    im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`.
 ``group``
    Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören.
-   Entspricht dcat:theme im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`.
+   Entspricht dcat:theme im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-theme>`.
 
 
 .. _api-nutzen-beispiele:
@@ -288,7 +288,7 @@ Typische Abfragen für Datennutzende
     :header: status_show
 
     .. code-block:: bash
-      :caption: Status der Plattfrom
+      :caption: Status der Plattform
       
        curl 'https://ckan.opendata.swiss/api/3/action/status_show'
 
@@ -483,11 +483,11 @@ Typische Anwendungen für Datenpublizierende
 
     Bitte beachten Sie, dass die Nutzungsbedingungen auf Ebene der Ressource dem 
     kontrollierten Vokabular entsprechen. Vgl. Sie dazu den 
-    `DCAT AP CH Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html?dcat-dataset-accrual-periodicity>`__.
+    `DCAT AP CH Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.htmldct-rights-dcat>`__.
     
     Zusätzlich werden die Angaben *private* und *isopen* benötigt. Mit *private* können 
     Sie definieren, ob das Dataset direkt veröffentlicht wird. Ein Dataset mit 
-    *private* : False wird direkt auf dem Frontend publiziert. Mit *isopen* deklarieren 
+    *private : False* wird direkt auf dem Frontend publiziert. Mit *isopen* deklarieren 
     Sie, ob die Nutzungsbedingungen der Definition von open gemäss der 
     `Open Knowledge Foundation <https://okfn.org/opendata/>`__ entspricht.
 

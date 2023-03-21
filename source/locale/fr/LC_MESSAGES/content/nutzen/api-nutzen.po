@@ -43,7 +43,7 @@ msgid ""
 "In diesem Kapitel erklären wir Ihnen, wie Sie mittels API auf die Daten von "
 "opendata.swiss zugreifen können. Werfen Sie auch einen Blick in aktuelle "
 "`Beispiele, wie OGD genutzt <https://opendata.swiss/showcase/>`__ wird."
-msgstr "Le portail `opendata.swiss <https://opendata.swiss/>`__ est basé sur le projet open-source CKAN. 
+msgstr "Le portail `opendata.swiss <https://opendata.swiss/>`__ est basé sur le projet open-source CKAN. " 
 "CKAN met à disposition une API (Application Programming Interface) complète pour les métadonnées 
 "du catalogue de données ouvertes, que les développeurs d'applications peuvent utiliser. "
 "Dans ce chapitre, nous vous expliquons comment accéder aux données d'opendata.swiss par l'API. "
@@ -59,7 +59,7 @@ msgid "Hier geben wir Ihnen eine Einführung zur Nutzung der API von "
 "`opendata.swiss <https://opendata.swiss/>`__. "
 "Eine ausführliche Dokumentation zur CKAN API finden Sie in der `CKAN API "
 "Dokumentation <https://docs.ckan.org/en/latest/api/>`__."
-msgstr "Nous vous donnons ici une introduction à l'utilisation de l'API d' `opendata.swiss"
+msgstr "Nous vous donnons ici une introduction à l'utilisation de `l'API d'opendata.swiss"
 " <https://opendata.swiss/>`__. "
 "Vous trouverez une documentation détaillée sur l'API CKAN dans la `documentation API CKAN"
 " <https://docs.ckan.org/en/latest/api/>`__."
@@ -173,7 +173,7 @@ msgstr "Tous les accès utilisent le terme *action*, comme démontré dans l’e
 msgid "Die Rückmeldung wird als `JSON Objekt <https://de.wikipedia.org/wiki/JavaScript_Object_Notation>`__ "
 "ausgegeben. Mehr über die Struktur von JSON Objekten erfahren Sie "
 "`hier <https://www.w3resource.com/JSON/structures.php>`__."
-msgstr "La réponse à la requête est émise sous forme d'`objet JSON "
+msgstr "La réponse à la requête est émise sous forme `d'objet JSON "
 "<https://fr.wikipedia.org/wiki/JavaScript_Object_Notation>`__. "
 "Pour en savoir plus sur la structure des  JSON, cliquez `ici "
 "<https://www.w3resource.com/JSON/structures.php>`__. "
@@ -324,7 +324,7 @@ des ressources ? Tenez compte des niveaux! La liste suivante montre les principa
 msgid "Entspricht der `datenpublizierenden Organisation <https://opendata.swiss/de/organization>`__. "
 "Jedes Dataset wird von genau einer Organisation publiziert. Eine Organisation "
 "kann jedoch Unterorganisationen haben."
-msgstr "Correspond à l'`organisation <https://opendata.swiss/fr/organization>`__ qui publie les données. "
+msgstr "Correspond à `l'organisation <https://opendata.swiss/fr/organization>`__ qui publie les données. "
 "Chaque dataset est publié par une seule organisation.  Une organisation peut toutefois "
 "avoir des sous-organisations."
 
@@ -352,9 +352,9 @@ msgstr "Correspond à une "
 "DCAT AP. Un dataset peut appartenir à plusieurs catégories."
 
 msgid "Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien "
-"angehören. Entspricht dcat:theme im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch>`."
+"angehören. Entspricht dcat:theme im :doc:`DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-theme>`."
 msgstr "Correspond à une catégorie sur opendata.swiss ou dcat:theme dans "
-"le :doc:`standard DCAT AP <../glossar/bibliothek/dcat-ap-ch>` ."
+"le :doc:`standard DCAT AP <../glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-theme>` ."
 
 #: ../../source/content/nutzen/api-nutzen.rst:252
 msgid "Anwendungsbeispiele für die API"
@@ -365,7 +365,7 @@ msgid "Typische Abfragen für Datennutzende"
 msgstr "Requêtes typiques pour les utilisateurs de données"
 
 #: ../../source/content/nutzen/api-nutzen.rst:262
-msgid "Status der Plattfrom"
+msgid "Status der Plattform"
 msgstr "Statut de la plateforme"
 
 #: ../../source/content/nutzen/api-nutzen.rst:270
@@ -445,15 +445,15 @@ msgstr "Envoi (POST) via l'interface API: package_patch"
 #: ../../source/content/nutzen/api-nutzen.rst:450
 msgid "Bitte beachten Sie, dass die Nutzungsbedingungen auf Ebene der Ressource dem "
 "kontrollierten Vokabular entsprechen. Vgl. Sie dazu den "
-"`DCAT AP CH Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html?dcat-dataset-accrual-periodicity>`__."
+"`DCAT AP CH Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.htmldct-rights-dcat>`__."
 msgstr "Veuillez noter que les conditions d'utilisation (au niveau de la ressource) "
 "correspondent au vocabulaire contrôlé. Veuillez vérifier la norme "
 "`DCAT AP CH içi <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-rights-dcat>`__."
 
 #: ../../source/content/nutzen/api-nutzen.rst:369
-msgid "Zusätzlich werden die Angaben *private* und *isopen* benötigt. Mit *private* können Sie"
-" definieren, ob das Dataset direkt veröffentlicht wird. Ein Dataset mit "
-"*private : False* wird direkt auf dem Frontend publiziert. Mit isopen deklarieren "
+msgid "Zusätzlich werden die Angaben *private* und *isopen* benötigt. Mit *private* können "
+"Sie definieren, ob das Dataset direkt veröffentlicht wird. Ein Dataset mit "
+"*private : False* wird direkt auf dem Frontend publiziert. Mit *isopen* deklarieren "
 "Sie, ob die Nutzungsbedingungen der Definition von open gemäss der "
 "`Open Knowledge Foundation <https://okfn.org/opendata/>`__ entspricht."
 msgstr "Entre outres, les indications *private* et *isopen* sont obligatoire. "
@@ -467,8 +467,11 @@ msgid "Fetch-API"
 msgstr "Fetch API"
 
 #: ../../source/content/nutzen/api-nutzen.rst:459
-msgid "Es ist auch möglich, über `Fetch-API <https://developers.google.com/web/updates/2015/03/introduction-to-fetch>`__ auf opendata.swiss zuzugreifen."
-msgstr "Vous pouvez aussi accéder à opendata.swiss via `Fetch API <https://developers.google.com/web/updates/2015/03/introduction-to-fetch>`__."
+msgid "Es ist auch möglich, über "
+"`Fetch-API <https://developers.google.com/web/updates/2015/03/introduction-to-fetch>`__ "
+"auf opendata.swiss zuzugreifen."
+msgstr "Vous pouvez aussi accéder à opendata.swiss via "
+"`Fetch API <https://developers.google.com/web/updates/2015/03/introduction-to-fetch>`__."
 
 #: ../../source/content/nutzen/api-nutzen.rst:464
 msgid "Support"
@@ -480,17 +483,26 @@ msgstr "Des questions?"
 
 #: ../../source/content/nutzen/api-nutzen.rst:469
 msgid ""
-"Haben Sie noch Fragen zur Nutzung unserer API? Dann `nehmen Sie mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__. Bei Rückfragen zu einzelnen Datasets wenden Sie sich bitte direkt an die Datenpublizierenden. Die jeweiligen Kontaktangaben finden Sie im Dataset unter Zusätzliche Information."
+"Haben Sie noch Fragen zur Nutzung unserer API? Dann "
+"`nehmen Sie mit uns Kontakt auf <mailto:opendata@bfs.admin.ch>`__. Bei Rückfragen "
+"zu einzelnen Datasets wenden Sie sich bitte direkt an die Datenpublizierenden. "
+"Die jeweiligen Kontaktangaben finden Sie im Dataset unter Zusätzliche Information."
 msgstr ""
-"Avez-vous des questions sur l’utilisation de notre API? N'hésitez pas à `nous contacter <mailto:opendata@bfs.admin.ch>`__.  "
-"Si vous avez des questions sur les différents datasets, veuillez vous adresser directement aux les personnes qui publient les données. Vous trouverez les coordonnées dans le dataset sous "Informations complémentaires"."
+"Avez-vous des questions sur l’utilisation de notre API? N'hésitez pas à `nous "
+"contacter <mailto:opendata@bfs.admin.ch>`__.  "
+"Si vous avez des questions sur les différents datasets, veuillez vous adresser directement "
+"aux les personnes qui publient les données. Vous trouverez les coordonnées dans "
+"le dataset sous "Informations complémentaires"."
 
 #: ../../source/content/nutzen/api-nutzen.rst:473
 msgid ""
-"**Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns sehr freuen, davon zu erfahren und Ihr Projekt "
-"in unsere `Showcases <https://opendata.swiss/showcase>`__ aufzunehmen. `Oder Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__."
+"**Haben Sie ein interessantes Nutzungsbeispiel?** Wir würden uns sehr freuen, davon zu erfahren"
+" und Ihr Projekt in unsere `Showcases <https://opendata.swiss/showcase>`__ aufzunehmen. "
+"`Oder Schreiben Sie uns <mailto:opendata@bfs.admin.ch>`__."
 msgstr ""
-"Vous avez un exemple d'utilisation intéressant ? Nous serions ravis d'en prendre connaissance et d'intégrer votre projet dans nos `showcases <https://opendata.swiss/showcase>`__. Vous pouvez aussi `nous écrire <mailto:opendata@bfs.admin.ch>`__."
+"Vous avez un exemple d'utilisation intéressant ? Nous serions ravis d'en prendre connaissance "
+"et d'intégrer votre projet dans nos `showcases <https://opendata.swiss/showcase>`__. Vous "
+"pouvez aussi `nous écrire <mailto:opendata@bfs.admin.ch>`__."
 
 #: ../../source/content/nutzen/api-nutzen.rst:478
 msgid "Mehr zum Thema"
