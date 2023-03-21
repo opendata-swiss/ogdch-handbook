@@ -270,7 +270,7 @@ Terminologien, mit welchen Sie Informationen in opendata.swiss finden können:
    Opendata.swiss. Die Plattform opendata.swiss hostet selbst keine Datasets oder Ressourcen, 
    stellt aber downloadUrls oder accesssUrls und teilweise auch Daten Previews zur Verfügung. 
    Ressourcen in CKAN entsprechen dcat:Distribution 
-   im `DCAT AP Standard <../glossar/bibliothek/dcat-ap-ch#dcat-ap-ch-distribution>`.
+   im `DCAT AP Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-ap-ch-distribution>`__ .
 ``group``
    Entspricht einer Kategorie bei opendata.swiss. Ein Dataset kann mehreren Kategorien angehören. 
    Entspricht `dcat:theme im DCAT AP Standard <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dcat-dataset-theme>`__.
