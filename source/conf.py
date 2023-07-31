@@ -14,6 +14,7 @@
 import os
 import sphinx_rtd_theme
 import sphinx_fontawesome
+import sphinx_toolbox
 
 from dotenv import load_dotenv
 
@@ -41,6 +42,7 @@ extensions = [
     'notfound.extension',
     'sphinx_comments',
     'sphinxcontrib.contentui',
+    'sphinx_toolbox.collapse'
 ]
 
 notfound_no_urls_prefix = True
