@@ -188,6 +188,9 @@ Sie nun Datasets aufgelistet, bei denen entweder *open* **oder** *data* im Suchi
 Wenn Sie nach der Phrase (**link zu phrasensuche**) *open data* suchen wollen, dann müssen Sie 
 die Begriffe in Anführungs- und Schlusszeichen setzen: "open data". 
 
+.. figure:: ../../_static/images/daten-suchen/suche_open-data.png
+   :alt: Suche nach Begriffen open und data ohne Operatoren
+
 Suchmodi
 --------
 **OR (||)**
@@ -196,10 +199,16 @@ Der Operator ``OR`` gibt Ihnen alle Datasets zurück, die entweder den Begriff *
 in ihrem Index enthalten. Dieser Operator ist als Standardoperator im Suchfeld implementiert. 
 Sie können daher mehrere Begriffe auch ohne ``OR`` in das Suchfeld eingeben. 
 
+.. figure:: ../../_static/images/daten-suchen/suchmodi_OR.png
+   :alt: Suche nach Begriffen open und data mit dem OR-Operator
+
 **AND (&&)**
 ^^^^^^^^^^^^
 Mit dem Operator ``AND`` werden alle Datasets angezeigt, deren Suchindex *open* und *data* enthält. 
 Datasets, die nur einen dieser Begriffe enthalten, erscheinen nicht in der Trefferliste. 
+
+.. figure:: ../../_static/images/daten-suchen/suchmodi_and.png
+   :alt: Suche nach Begriffen open und data mit dem AND-Operator
 
 **Ein- und Ausschluss von Begriffen (+)(-)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -207,37 +216,72 @@ Wenn Sie nach Datasets suchen, die den Begriff *open*, aber nicht den Begriff *d
 können Sie den gewünschten Begriff mit dem Operator ``+`` einschliessen und und den unerwünschten 
 Begriff mit dem Operator ``-`` ausschliessen.   
 
+.. figure:: ../../_static/images/daten-suchen/suchmodus_plusundminus.png
+   :alt: Suche nach Begriffen mit Plus-Zeichen vor open und Minus-Zeichen vor data 
+
 **Phrasensuche**
 ^^^^^^^^^^^^^^^^
 Mit Anführungszeichen können Sie nach Begriffen suchen, die zusammengehören. In der Trefferliste
 finden Sie mit ``"open data"`` nun Datasets, die *open data* als Phrase enthalten. Entscheidend ist 
 die Position der beiden Begriffe. Datasets, die die Phrase *data open* enthalten, erscheinen 
-nicht in der Trefferliste.  
+nicht in der Trefferliste. 
+
+.. figure:: ../../_static/images/daten-suchen/phrasensuche.png
+   :alt: Suche nach dem Begriff open data mit Anführungszeichen 
 
 **Suche in den Feldern**
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Wenn Sie nach einem Dataset suchen, in dessen Beschreibung der Begriff *open data* vorkommen soll,
 können Sie dem Begriff die Feldbezeichnung ``description`` gefolgt von einem **Doppelpunkt** ``:`` voranstellen.
 
+.. figure:: ../../_static/images/daten-suchen/suche-in-description_1.png
+   :alt: Suche in description nach Phrase open data 
+
 Wenn Sie nach einem Dataset suchen, das sowohl *open* als auch *data* in seiner Beschreibung enthalten soll, 
 können Sie eine Suchanfrage mit dem Operator ``AND`` formulieren und in Klammern hinter die Feldbezeichnung setzen. 
 Dasselbe können Sie mit dem Operator ``OR`` tun, wenn entweder der Begriff *open* oder der Begriff 
 *data* in der Beschreibung des Datasets vorkommen soll.
 
+.. figure:: ../../_static/images/daten-suchen/suche-in-description_2.png
+   :alt: Suche in description mit AND-Operator 
+
+.. figure:: ../../_static/images/daten-suchen/suche-in-description_3.png
+   :alt: Suche in description mit OR-Operator 
+
 Sie können auch Begriffe innerhalb eines bestimmten Feldes einschliessen (siehe Link to Ein und Ausschliessen): ``+{field}:{value}``.
 Wenn Sie zum Beispiel an einem Dataset interessiert sind, in dessen englischem Titelfeld der Begriff ``power`` 
 vorkommen soll. 
 
+.. figure:: ../../_static/images/daten-suchen/suche-in-title_einschliessen.png
+   :alt: +title_en:power
+
 Die gleiche Suche ist auch möglich, wenn Sie zusätzlich einen Begriff ausschliessen wollen: ``-{field}:{value}``. Sie suchen 
 zum Beispiel nach einem Dataset, in dessen englischem Titelfeld zwar der Begriff ``power`` vorkommt, nicht aber der Begriff ``hydraulic``. 
+
+.. figure:: ../../_static/images/daten-suchen/suche-in-title_auschliessen.png
+   :alt: +title_en:power -title_en:hydraulic 
 
 Weiter können Sie auch nach Datasets suchen, die bestimmte Schlüsselwörter enthalten. Sie möchten zum Beispiel alle
 Datasets mit den englischsprachigen Schlagwörtern ``geology`` und ``geophysics`` finden.  
 
+.. figure:: ../../_static/images/daten-suchen/keywords-suche.png
+   :alt: keywords_en:(geology AND geophysics) 
+
 Es ist auch möglich, mehrere Suchbegriffe mit dem Operator ``OR`` zu verknüpfen.  Zum Beispiel möchten Sie
-ein Dataset finden, das entweder von der Organisation ``Kanton Thurgau`` oder ``Stadt Zürich`` publiziert wird.
+ein Dataset finden, das entweder von der Organisation ``Kanton Thurgau`` oder ``Stadt Zürich`` publiziert wird. 
+Bei dieser Suche muss jedoch der Slug der Organisation angegeben werden. Diesen finden Sie in der URL der Organisationsseite
+der jeweiligen Organisation. In unserem Beispiel wäre das für den Kanton Thurgau ``kanton-thurgau``. 
+
+.. figure:: ../../_static/images/daten-suchen/slug-organisation.png
+   :alt: URL der Organisation Kanton Thurgau
+
+.. figure:: ../../_static/images/daten-suchen/suche-organisation.png
+   :alt: organization:(kanton-thurgau OR stadt-zurich)
 
 Diese Suche kann auch noch erweitert werden. In unserem Beispiel mit dem Suchbegriff ``karte``. 
+
+.. figure:: ../../_static/images/daten-suchen/suche-in-organisation-begriff.png
+   :alt: organization:(kanton-thurgau OR stadt-zurich)karte
 
 **Wortstämme**
 ^^^^^^^^^^^^^^
@@ -245,6 +289,9 @@ Bitte beachten Sie bei der Suche in bestimmten Feldern ((Link to Index)), dass W
 Sonderzeichen nur in den sprachspezifischen Feldern berücksichtigt werden. Damit zum Beispiel 
 das Dataset ``Luftbilder swisstopo farbig`` in der Trefferliste erscheint, können sie folgende
 Suchanfrage in das Suchfeld eingeben: ``title_de:(bild AND farbe)``. 
+
+.. figure:: ../../_static/images/daten-suchen/suche-wortstamm.png
+   :alt: title_de:(bild AND farbe)
 
 .. admonition:: Wichtig
 
@@ -254,6 +301,7 @@ Suchanfrage in das Suchfeld eingeben: ``title_de:(bild AND farbe)``.
    ergeben nur exakte Übereinstimmungen der Begriffe, wie z.B. ``Luftbilder``
    und ``farbig`` Treffer.  
    
+
 Filtern
 -------
 Duch Anklicken der entsprechenden Facetten der Filterkategorien können Sie Ihre 
@@ -261,6 +309,9 @@ Suchergebnisse verfeinern. Es kann nach *Kategorien*, *Schlagwörtern*, *Organis
 *politischen Ebenen*, *Nutzungsbedingungen* und den *Formaten* gefiltert werden. Wenn Sie 
 nach Datasets einer bestimmten Kategorie suchen, können Sie diese direkt 
 von der Startseite von `opendata.swiss <https://opendata.swiss>`__ bereits filtern.
+
+.. figure:: ../../_static/images/daten-suchen/bild-facetten.png
+   :alt: Filterfacetten
 
 In der Rubrik `Daten <https://opendata.swiss/de/dataset>`__ finden Sie alle Filtermöglichkeiten
 links neben der Trefferliste. Eine Mehrfachauswahl innerhalb einer Filterkategorie ist möglich, jedoch 
@@ -270,11 +321,15 @@ die beide Kategorien tragen gefunden werden. Nachdem Sie einen Filter gesetzt ha
 erweitern. Zum Beispiel wenn ich nur an Dataset interessiert bin, die der Kategorie *Geographie* zugehörig sind, 
 aber nur Ressourcen mit dem Format *JSON* enthalten.  
 
+
 Sortieren 
 ---------
 Sie haben die Möglichkeit, Ihre Trefferliste zu sortieren. Dazu stehen Ihnen die Sortierung nach 
 *Relevanz*, *Daten zuletzt geändert*, *Metadaten zuletzt geändert*, *Name aufsteigend* und nach 
-*Name absteigend zur Verfügung. 
+*Name absteigend* zur Verfügung. 
+
+.. figure:: ../../_static/images/daten-suchen/sortieren-nach.png
+   :alt: sortieren nach
 
 .. admonition:: Wichtig
 
