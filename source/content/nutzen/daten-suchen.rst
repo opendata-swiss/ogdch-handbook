@@ -20,7 +20,6 @@ Wie finde ich die Daten, die ich brauche?
     Hier erklären wir Ihnen, wie die Suche funktioniert, geben Erläuterungen 
     zur Abfragesyntax und bieten Ihnen hilfreiche Beispiele.
     
-
 Sie können nach Datasets auf der `Einstiegsseite von opendata.swiss <https://opendata.swiss>`__
 oder unter der Rubrik `Daten <https://opendata.swiss/de/dataset>`__ suchen. 
 Wenn Sie nur an Datasets einer bestimmten Organisation interessiert sind, so
@@ -36,7 +35,7 @@ Das Suchfeld von opendata.swiss ist so konzipiert, dass es einfache
 Phrasen (Suchbegriffe ohne komplexe Syntax) verarbeiten und nach einzelnen Begriffen
 in mehreren Metadatenfeldern mit unterschiedlicher Gewichtung suchen kann, je nach 
 Bedeutung der einzelnen Metadatenfelder. So hat beispielsweise das 
-Feld "Titel" eine stärkere Gewichtung als das Feld "Beschreibung". Die
+Feld ``Titel`` eine stärkere Gewichtung als das Feld ``Beschreibung``. Die
 Suchmaschine Solr ordnet Ihre Anfrage entsprechend ein und liefert Ihnen
 je nach Suchstrategie die passenden Treffer.
 
@@ -120,7 +119,7 @@ Stichwortsuche
 ---------------
 
 Bei der Stichwortsuche geben Sie Ihren Suchbegriff oder Ihre Suchbegriffe in das Suchfeld ein. 
-Wenn Sie Ihren Suchbegriff in das Suchfeld eingeben, erscheint unterhalb des Suchfeldes eine Auswahl von Vorschlägen ((Link zu Vorschläge fèr Suchbegriffe)).
+Wenn Sie Ihren Suchbegriff in das Suchfeld eingeben, erscheint unterhalb des Suchfeldes eine Auswahl von `Vorschlägen <https://ogdch-new-handbook.clients.liip.ch/de/content/nutzen/daten-suchen.html#vorschlage-fur-suchbegriffe>`__.
 Diese können Sie bei Bedarf anklicken. Mit der Eingabetaste (Enter-Taste) starten Sie die Suche.
 
 .. admonition:: Wichtig
@@ -136,6 +135,9 @@ Bei der Eingabe von Suchbegriffen werden Ihnen Vorschläge angezeigt,
 die Sie bei Bedarf auswählen können. Für jede Sprache wird mehrmals täglich
 ein in sich geschlossener Solr-Index aufgebaut. Das bedeutet, dass Änderungen 
 an Datasets oder neue Datasets nicht sofort in den Vorschlägen berücksichtigt werden.
+
+.. figure:: ../../_static/images/daten-suchen/suchvorschlaege.png
+   :alt: Suche auf opendata.swiss
 
 .. collapse:: Index - Vorschläge für Suchbegriffe
 
