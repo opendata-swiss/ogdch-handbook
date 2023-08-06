@@ -52,7 +52,7 @@ je nach Suchstrategie die passenden Treffer.
     Das Schema ist flach, das heisst verschachtelte Elemente wie Ressourcen müssen anders 
     gespeichert werden, damit Solr sie indizieren kann. Das Gleiche gilt für die mehrsprachigen Felder, 
     die alle mit dem dazugehörenden Sprachsuffix gespeichert werden. So enthält "keywords_en" die englischen
-    SChlüsselwörter. Standarmässig werden alle Felder, die zu einem Datensatz gehören, in ein 
+    Schlüsselwörter. Standarmässig werden alle Felder, die zu einem Datensatz gehören, in ein 
     Feld (genannt "text") kopiert, so dass der Suchprozess nur ein Feld überprüfen muss, um eine Über-
     einstimmung zu finden. Wenn also ein Benutzer eine Suche mit der Abfrage "Wetter" in das Suchfeld
     eingibt, führt Solr diese Abfrage über das Feld "text" aller Datensätze aus.
@@ -69,7 +69,7 @@ je nach Suchstrategie die passenden Treffer.
       :align: center
       :header: "Index-Name", "Name des Metadatenfeldes"
 
-      "name", "Slug des Datasets, z.B. *alleenkonzept*"
+      "name", "Slug des Datasets, z.B. *wassertemperaturen-freibader*"
       "title", "Titel des Datasets"
       "title_string", "Titel"
       "license", "Nutzungsbedingungen"
@@ -97,18 +97,19 @@ je nach Suchstrategie die passenden Treffer.
       "res_description", "Beschreibung der Ressource"
 
 
+
 .. figure:: ../../_static/images/daten-suchen/Trefferliste_de.png
    :alt: Suche auf opendata.swiss
 
 Trefferliste
 -------------
 In der Trefferliste werden Ihnen alle Datasets angezeigt, die den von Ihnen eingegebenen Suchkriterien entsprechen. Wenn
-Sie keine Suchkritieren ausgewählt haben, wird Ihnen eine Liste aller auf opendata.swiss vorhandenen Datasets angezeigt. 
+Sie keine Suchkriterien ausgewählt haben, wird Ihnen eine Liste aller auf opendata.swiss vorhandenen Datasets angezeigt. 
 
-In der Trefferliste finden Sie unterhalb des Suchfeldes die Anzahl der Datasets angegeben, die Ihrer Suchanfrage entsprechen. 
+In der Trefferliste finden Sie unterhalb des Suchfeldes die Anzahl der Datasets, die Ihrer Suchanfrage entsprechen. 
 Damit Sie sich einen schnellen Überblick über die gefundenen Datasets verschaffen können, werden diese mit folgenden Metadaten angezeigt: 
-*Titel des Datasets*, *Name der Organisation*, *Kategorien*, *Beschreibung*, *Letzte Aktualisierung der Metadaten (Ebene Dataset/Ressource)*, 
-*Formate* und *Schlagwörter*.
+``Titel des Datasets``, ``Name der Organisation``, ``Kategorien``, ``Beschreibung``, ``Letzte Aktualisierung der Metadaten (Ebene Dataset/Ressource)``, 
+``Formate`` und ``Schlagwörter``.
 
 Durch Anklicken des Dataset-Titels gelangen Sie zur Dataset-Seite. Hier finden Sie wichtige Beschreibungen (Metadaten) zum 
 entsprechenden Dataset, wie Titel, Beschreibung, Nutzungsbedingungen, etc. Die Daten können entweder direkt über eine Download-URL heruntergeladen 
@@ -160,7 +161,7 @@ an Datasets oder neue Datasets nicht sofort in den Vorschlägen berücksichtigt 
 Suchsprache
 -----------
 
-Die Syntax kommt von Apache Solr Lucene und das Vokabular stammt von opendata.swiss
+Die Syntax kommt von Solr und das Vokabular stammt von opendata.swiss
 
 .. collapse:: Tabelle Solr-Syntax
  
@@ -178,16 +179,16 @@ Die Syntax kommt von Apache Solr Lucene und das Vokabular stammt von opendata.sw
 Erweiterte Suchanfragen mithilfe von Operatoren
 -----------------------------------------------
 
-Eine Suchanfrage gliedert sich in einzelne Begriffe ("open"), Phrasen ("open data") (**link to Phrasensuche**)
-und Operatoren. Um eine komplexere Suchanfrage zu erstellen, können Sie mehrere
+Eine Suchanfrage gliedert sich in einzelne Begriffe ``open``, `Phrasen <https://ogdch-new-handbook.clients.liip.ch/de/content/nutzen/daten-suchen.html#phrasensuche>`__
+``open data`` und Operatoren. Um eine komplexere Suchanfrage zu erstellen, können Sie mehrere
 Begriffe oder Phrasen mit Suchoperatoren kombinieren. Die Suchlogik folgt der 
-Syntax von Apache Lucene `Apache Lucene/Solr <https://lucene.apache.org/core/3_6_0/queryparsersyntax.html>`__. 
-Der Standardoperator im Suchfeld ist der Operator OR (**Link zur OR Kapitel**). Das bedeutet, dass, 
+Syntax von `Apache Lucene/Solr <https://lucene.apache.org/core/3_6_0/queryparsersyntax.html>`__. 
+Der Standardoperator im Suchfeld ist der `Operator <https://ogdch-new-handbook.clients.liip.ch/de/content/nutzen/daten-suchen.html#or>`__ ``OR`` . Das bedeutet, dass, 
 wenn Sie mehrere Begriffe in das Suchfeld eingeben, die Suchanfrage als OR-Anfrage behandelt wird,
 ohne dass Sie diesen Operator eingeben müssen. Wenn Sie *open data* in das Suchfeld eingeben, 
 werden die Begriffe als Einzelbegriffe *open* und *data* behandelt. In der Trefferliste finden
-Sie nun Datasets aufgelistet, bei denen entweder *open* **oder** *data* im Suchindex gefunden wurde.
-Wenn Sie nach der Phrase (**link zu phrasensuche**) *open data* suchen wollen, dann müssen Sie 
+Sie nun Datasets aufgelistet, bei denen *open* **oder** *data* im Suchindex gefunden wurde.
+Wenn Sie nach der Phrase *open data* suchen wollen, dann müssen Sie 
 die Begriffe in Anführungs- und Schlusszeichen setzen: "open data". 
 
 .. figure:: ../../_static/images/daten-suchen/suche_open-data.png
@@ -197,7 +198,7 @@ Suchmodi
 --------
 **OR (||)**
 ^^^^^^^^^^^
-Der Operator ``OR`` gibt Ihnen alle Datasets zurück, die entweder den Begriff *open* oder *data*
+Der Operator ``OR`` gibt Ihnen alle Datasets zurück, die den Begriff *open* oder *data*
 in ihrem Index enthalten. Dieser Operator ist als Standardoperator im Suchfeld implementiert. 
 Sie können daher mehrere Begriffe auch ohne ``OR`` in das Suchfeld eingeben. 
 
@@ -215,7 +216,7 @@ Datasets, die nur einen dieser Begriffe enthalten, erscheinen nicht in der Treff
 **Ein- und Ausschluss von Begriffen (+)(-)**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Wenn Sie nach Datasets suchen, die den Begriff *open*, aber nicht den Begriff *data* enthalten sollen, 
-können Sie den gewünschten Begriff mit dem Operator ``+`` einschliessen und und den unerwünschten 
+können Sie den gewünschten Begriff mit dem Operator ``+`` einschliessen und den unerwünschten 
 Begriff mit dem Operator ``-`` ausschliessen.   
 
 .. figure:: ../../_static/images/daten-suchen/suchmodus_plusundminus.png
@@ -250,7 +251,7 @@ Dasselbe können Sie mit dem Operator ``OR`` tun, wenn entweder der Begriff *ope
 .. figure:: ../../_static/images/daten-suchen/suche-in-description_3.png
    :alt: Suche in description mit OR-Operator 
 
-Sie können auch Begriffe innerhalb eines bestimmten Feldes einschliessen (siehe Link to Ein und Ausschliessen): ``+{field}:{value}``.
+Sie können auch Begriffe innerhalb eines `bestimmten Feldes einschliessen <https://ogdch-new-handbook.clients.liip.ch/de/content/nutzen/daten-suchen.html#ein-und-ausschluss-von-begriffen>`__: ``+{field}:{value}``.
 Wenn Sie zum Beispiel an einem Dataset interessiert sind, in dessen englischem Titelfeld der Begriff ``power`` 
 vorkommen soll. 
 
@@ -272,7 +273,7 @@ Datasets mit den englischsprachigen Schlagwörtern ``geology`` und ``geophysics`
 Es ist auch möglich, mehrere Suchbegriffe mit dem Operator ``OR`` zu verknüpfen.  Zum Beispiel möchten Sie
 ein Dataset finden, das entweder von der Organisation ``Kanton Thurgau`` oder ``Stadt Zürich`` publiziert wird. 
 Bei dieser Suche muss jedoch der Slug der Organisation angegeben werden. Diesen finden Sie in der URL der Organisationsseite
-der jeweiligen Organisation. In unserem Beispiel wäre das für den Kanton Thurgau ``kanton-thurgau``. 
+der jeweiligen Organisation. In unserem Beispiel wäre das für den `Kanton Thurgau <https://opendata.swiss/organization/kanton-thurgau>`__: ``kanton-thurgau``. 
 
 .. figure:: ../../_static/images/daten-suchen/slug-organisation.png
    :alt: URL der Organisation Kanton Thurgau
@@ -287,7 +288,7 @@ Diese Suche kann auch noch erweitert werden. In unserem Beispiel mit dem Suchbeg
 
 **Wortstämme**
 ^^^^^^^^^^^^^^
-Bitte beachten Sie bei der Suche in bestimmten Feldern ((Link to Index)), dass Wortstämme und 
+Bitte beachten Sie bei der Suche in bestimmten Feldern, dass Wortstämme und 
 Sonderzeichen nur in den sprachspezifischen Feldern berücksichtigt werden. Damit zum Beispiel 
 das Dataset ``Luftbilder swisstopo farbig`` in der Trefferliste erscheint, können sie folgende
 Suchanfrage in das Suchfeld eingeben: ``title_de:(bild AND farbe)``. 
