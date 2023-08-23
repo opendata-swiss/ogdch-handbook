@@ -14,19 +14,16 @@ Wie finde ich die Daten, die ich brauche?
 .. container:: Intro
 
     Um Ihnen die Suche nach Daten zu erleichtern, bietet opendata.swiss
-    ein Suchfeld an sowie Filtermöglichkeiten. Sie können mittels sogenannter
-    Abfragesyntax (Querysyntax) komplexe Suchanfragen gegen die Metadaten 
-    von opendata.swiss vornehmen.
-    Hier erklären wir Ihnen, wie die Suche funktioniert, geben Erläuterungen 
-    zur Abfragesyntax und bieten Ihnen hilfreiche Beispiele.
+    ein Suchfeld an sowie Filtermöglichkeiten. Sie können einfache Suchanfragen stellen oder 
+    mittels sogenannter Abfragesyntax (Querysyntax) komplexere Suchanfragen formulieren.
+    Diese Seite erklärt, wie die Suche funktioniert, erläutert die Abfragesyntax  
+    und stellt hilfreiche Beispiele zur Verfügung.
     
 Sie können nach Datasets auf der `Einstiegsseite von opendata.swiss <https://opendata.swiss>`__
 oder unter der Rubrik `Daten <https://opendata.swiss/de/dataset>`__ suchen. 
-Wenn Sie nur an Datasets einer bestimmten Organisation interessiert sind, so
-können Sie diese direkt auf der betreffenden `Organisationsseite <https://opendata.swiss/de/organization>`__
+Auf der `Organisationsseite <https://opendata.swiss/de/organization>`__ können Sie nach Organisationen
 suchen. Wenn Sie an Beispielen für die Wiederverwendung von `Open Government Data <https://handbook.opendata.swiss/de/content/glossar/begriffe.html#term-Open-Government-Data>`__
-interessiert sind, finden Sie unter der Rubrik `Showcases <https://opendata.swiss/de/showcase>`__ ein Suchfeld
-in dem Sie nach Applikationen, Visualisierungen und Veranstaltungen suchen können. 
+interessiert sind, finden Sie unter der Rubrik `Showcases <https://opendata.swiss/de/showcase>`__ Applikationen, Visualisierungen und Veranstaltungen. 
 
 Wie funktioniert das Suchfeld von opendata.swiss?
 -------------------------------------------------
@@ -47,15 +44,15 @@ je nach Suchstrategie die passenden Treffer.
 
 .. collapse:: Suchindex
 
-    Der Suchindex ist im Grunde die "Datenbank", in der alle Informationen für die Suche gespeichert werden.
+    Der Suchindex ist im Grunde die *Datenbank*, in der alle Informationen für die Suche gespeichert werden.
     Es wird ein benutzerdefiniertes Schema mit allen Datensatzfeldern, die indiziert werden sollen, verwendet.
     Das Schema ist flach, das heisst verschachtelte Elemente wie Ressourcen müssen anders 
     gespeichert werden, damit Solr sie indizieren kann. Das Gleiche gilt für die mehrsprachigen Felder, 
-    die alle mit dem dazugehörenden Sprachsuffix gespeichert werden. So enthält "keywords_en" die englischen
+    die alle mit dem dazugehörenden Sprachsuffix gespeichert werden. So enthält ``keywords_en`` die englischen
     Schlüsselwörter. Standarmässig werden alle Felder, die zu einem Datensatz gehören, in ein 
-    Feld (genannt "text") kopiert, so dass der Suchprozess nur ein Feld überprüfen muss, um eine Über-
-    einstimmung zu finden. Wenn also ein Benutzer eine Suche mit der Abfrage "Wetter" in das Suchfeld
-    eingibt, führt Solr diese Abfrage über das Feld "text" aller Datensätze aus.
+    Feld (genannt ``text``) kopiert, so dass der Suchprozess nur ein Feld überprüfen muss, um eine 
+    Übereinstimmung zu finden. Wenn also ein Benutzer eine Suche mit der Abfrage ``Wetter`` in das Suchfeld
+    eingibt, führt Solr diese Abfrage über das Feld ``text`` aller Datensätze aus.
     
    .. csv-table:: URL
         :align: center
@@ -103,7 +100,7 @@ je nach Suchstrategie die passenden Treffer.
 
 Trefferliste
 -------------
-In der Trefferliste werden Ihnen alle Datasets angezeigt, die den von Ihnen eingegebenen Suchkriterien entsprechen. Wenn
+In der Trefferliste werden alle Datasets angezeigt, die den von Ihnen eingegebenen Suchkriterien entsprechen. Wenn
 Sie keine Suchkriterien ausgewählt haben, wird Ihnen eine Liste aller auf opendata.swiss vorhandenen Datasets angezeigt. 
 
 In der Trefferliste finden Sie unterhalb des Suchfeldes die Anzahl der Datasets, die Ihrer Suchanfrage entsprechen. 
@@ -111,17 +108,52 @@ Damit Sie sich einen schnellen Überblick über die gefundenen Datasets verschaf
 ``Titel des Datasets``, ``Name der Organisation``, ``Kategorien``, ``Beschreibung``, ``Letzte Aktualisierung der Metadaten (Ebene Dataset/Ressource)``, 
 ``Formate`` und ``Schlagwörter``.
 
-Durch Anklicken des Dataset-Titels gelangen Sie zur Dataset-Seite. Hier finden Sie wichtige Beschreibungen (Metadaten) zum 
-entsprechenden Dataset, wie Titel, Beschreibung, Nutzungsbedingungen, etc. Die Daten können entweder direkt über eine Download-URL heruntergeladen 
-werden oder, wenn die Daten nur über eine Landing Page verfügbar sind, über eine Zugangs-URL. Dies können Sie direkt 
+Durch Anklicken des Dataset-Titels gelangen Sie zur Dataset-Seite, mit den wichtigen Beschreibungen (Metadaten) des
+entsprechenden Datasets, wie Titel, Beschreibung, Nutzungsbedingungen, etc. Die Daten können entweder direkt über eine Download-URL heruntergeladen 
+werden oder, wenn sie nur über eine Landing Page verfügbar sind, über eine Zugangs-URL. Dies können Sie direkt 
 auf der Dataset-Seite machen oder Sie können auch weiter auf die Ressourcen-Seite navigieren.  
+
+Filtern
+-------
+Duch Anklicken der entsprechenden Facetten der Filterkategorien können Sie Ihre 
+Suchergebnisse verfeinern. Es kann nach *Kategorien*, *Schlagwörtern*, *Organisationen*,
+*politischen Ebenen*, *Nutzungsbedingungen* und den *Formaten* gefiltert werden. Wenn Sie 
+nach Datasets einer bestimmten Kategorie suchen, können Sie diese direkt 
+von der Startseite von `opendata.swiss <https://opendata.swiss>`__ bereits filtern.
+
+.. figure:: ../../_static/images/daten-suchen/bild-facetten.png
+   :alt: Filterfacetten
+
+In der Rubrik `Daten <https://opendata.swiss/de/dataset>`__ finden Sie alle Filtermöglichkeiten
+links neben der Trefferliste. Eine Mehrfachauswahl innerhalb einer Filterkategorie ist möglich, jedoch 
+nur innerhalb der gefilterten Ergebnisse in der Trefferliste (Schnittmenge). Interessieren Sie sich beispielsweise für Datasets
+aus den Kategorien *Geographie* oder *Raum und Umwelt*, müssen Sie diese einzeln nacheinander auswählen, da sonst nur Dataset,
+die beide Kategorien tragen gefunden werden. Nachdem Sie einen Filter gesetzt haben, können Sie die Trefferliste mit weiteren Filtermöglichkeiten, wie zum Beispiel *Formate* 
+erweitern. Zum Beispiel wenn ich nur an Dataset interessiert bin, die der Kategorie *Geographie* zugehörig sind, 
+aber nur Ressourcen mit dem Format *JSON* enthalten.  
+
+
+Sortieren 
+---------
+Sie haben die Möglichkeit, Ihre Trefferliste zu sortieren. Dazu stehen Ihnen die Sortierung nach 
+*Relevanz*, *Daten zuletzt geändert*, *Metadaten zuletzt geändert*, *Name aufsteigend* und nach 
+*Name absteigend* zur Verfügung. 
+
+.. figure:: ../../_static/images/daten-suchen/sortieren-nach.png
+   :alt: sortieren nach
+
+.. admonition:: Wichtig
+
+   Bei der Suche nach einem Begriff im Index, wird für jedes Dataset eine
+   Punktzahl berechnet. Mit der Option *Relevanz* werden die Ergebnisse in 
+   der Trefferliste nach der Punktzahl absteigend sortiert. 
 
 Stichwortsuche
 ---------------
 
-Bei der Stichwortsuche geben Sie Ihren Suchbegriff oder Ihre Suchbegriffe in das Suchfeld ein. 
-Wenn Sie Ihren Suchbegriff in das Suchfeld eingeben, erscheint unterhalb des Suchfeldes eine Auswahl von `Vorschlägen <https://ogdch-new-handbook.clients.liip.ch/de/content/nutzen/daten-suchen.html#vorschlage-fur-suchbegriffe>`__.
-Diese können Sie bei Bedarf anklicken. Mit der Eingabetaste (Enter-Taste) starten Sie die Suche.
+Bei der Stichwortsuche geben Sie Ihre(n) Suchbegriff oder Ihre Suchbegriffe in das Suchfeld ein. 
+Während der Eingabe erscheint unterhalb des Suchfeldes eine Auswahl von `Vorschlägen <https://ogdch-new-handbook.clients.liip.ch/de/content/nutzen/daten-suchen.html#vorschlage-fur-suchbegriffe>`__.
+Diese können Sie bei Bedarf anklicken. Mit der Eingabetaste (Enter) starten Sie die Suche.
 
 .. admonition:: Wichtig
 
@@ -161,7 +193,7 @@ an Datasets oder neue Datasets nicht sofort in den Vorschlägen berücksichtigt 
 Suchsprache
 -----------
 
-Die Syntax kommt von Solr und das Vokabular stammt von opendata.swiss
+Die Syntax kommt von Solr und das Vokabular von opendata.swiss
 
 .. collapse:: Tabelle Solr-Syntax
  
@@ -176,7 +208,7 @@ Die Syntax kommt von Solr und das Vokabular stammt von opendata.swiss
         "AND", "und", "keywords_en:(geodaten&&energy)", "Schnittmenge"
         "OR", "oder", "organization:(kanton-thurgau || stadt-zurich)", "Vereinigungsmenge" 
 
-Erweiterte Suchanfragen mithilfe von Operatoren
+Erweiterte Suche mithilfe von Operatoren
 -----------------------------------------------
 
 Eine Suchanfrage gliedert sich in einzelne Begriffe ``open``, `Phrasen <https://ogdch-new-handbook.clients.liip.ch/de/content/nutzen/daten-suchen.html#phrasensuche>`__
@@ -185,8 +217,8 @@ Begriffe oder Phrasen mit Suchoperatoren kombinieren. Die Suchlogik folgt der
 Syntax von `Apache Lucene/Solr <https://lucene.apache.org/core/3_6_0/queryparsersyntax.html>`__. 
 Der Standardoperator im Suchfeld ist der `Operator <https://ogdch-new-handbook.clients.liip.ch/de/content/nutzen/daten-suchen.html#or>`__ ``OR`` . Das bedeutet, dass, 
 wenn Sie mehrere Begriffe in das Suchfeld eingeben, die Suchanfrage als OR-Anfrage behandelt wird,
-ohne dass Sie diesen Operator eingeben müssen. Wenn Sie *open data* in das Suchfeld eingeben, 
-werden die Begriffe als Einzelbegriffe *open* und *data* behandelt. In der Trefferliste finden
+ohne dass Sie diesen Operator eingeben müssen. Wenn Sie den Begriff *open data* in das Suchfeld eingeben, 
+werden *open* und *data* als Einzelbegriffe behandelt. In der Trefferliste finden
 Sie nun Datasets aufgelistet, bei denen *open* **oder** *data* im Suchindex gefunden wurde.
 Wenn Sie nach der Phrase *open data* suchen wollen, dann müssen Sie 
 die Begriffe in Anführungs- und Schlusszeichen setzen: "open data". 
@@ -219,14 +251,14 @@ Wenn Sie nach Datasets suchen, die den Begriff *open*, aber nicht den Begriff *d
 können Sie den gewünschten Begriff mit dem Operator ``+`` einschliessen und den unerwünschten 
 Begriff mit dem Operator ``-`` ausschliessen.   
 
-.. figure:: ../../_static/images/daten-suchen/suchmodus_plusundminus.png
+.. figure:: ../../_static/images/daten-suchen/Suchmodus_plusundminus.png
    :alt: Suche nach Begriffen mit Plus-Zeichen vor open und Minus-Zeichen vor data 
 
 **Phrasensuche**
 ^^^^^^^^^^^^^^^^
 Mit Anführungszeichen können Sie nach Begriffen suchen, die zusammengehören. In der Trefferliste
 finden Sie mit ``"open data"`` nun Datasets, die *open data* als Phrase enthalten. Entscheidend ist 
-die Position der beiden Begriffe. Datasets, die die Phrase *data open* enthalten, erscheinen 
+die Reihenfolge der beiden Begriffe. Datasets, die die Phrase *data open* enthalten, erscheinen 
 nicht in der Trefferliste. 
 
 .. figure:: ../../_static/images/daten-suchen/phrasensuche.png
@@ -300,45 +332,12 @@ Suchanfrage in das Suchfeld eingeben: ``title_de:(bild AND farbe)``.
 
    Im allgemeinen Textfeld werden Wortstämme nicht berücksichtigt. 
    Wenn nur das Feld ``title`` in die Suche eingegeben wird, ohne ``_de``, 
-   wird das entsprechende Dataset nicht gefunden. Im allgemeinen Textfeld 
-   ergeben nur exakte Übereinstimmungen der Begriffe, wie z.B. ``Luftbilder``
-   und ``farbig`` Treffer.  
+   wird das entsprechende Dataset nicht gefunden.  
    
-
-Filtern
--------
-Duch Anklicken der entsprechenden Facetten der Filterkategorien können Sie Ihre 
-Suchergebnisse verfeinern. Es kann nach *Kategorien*, *Schlagwörtern*, *Organisationen*,
-*politischen Ebenen*, *Nutzungsbedingungen* und den *Formaten* gefiltert werden. Wenn Sie 
-nach Datasets einer bestimmten Kategorie suchen, können Sie diese direkt 
-von der Startseite von `opendata.swiss <https://opendata.swiss>`__ bereits filtern.
-
-.. figure:: ../../_static/images/daten-suchen/bild-facetten.png
-   :alt: Filterfacetten
-
-In der Rubrik `Daten <https://opendata.swiss/de/dataset>`__ finden Sie alle Filtermöglichkeiten
-links neben der Trefferliste. Eine Mehrfachauswahl innerhalb einer Filterkategorie ist möglich, jedoch 
-nur innerhalb der gefilterten Ergebnisse in der Trefferliste (Schnittmenge). Interessieren Sie sich beispielsweise für Datasets
-aus den Kategorien *Geographie* oder *Raum und Umwelt*, müssen Sie diese einzeln nacheinander auswählen, da sonst nur Dataset,
-die beide Kategorien tragen gefunden werden. Nachdem Sie einen Filter gesetzt haben, können Sie die Trefferliste mit weiteren Filtermöglichkeiten, wie zum Beispiel *Formate* 
-erweitern. Zum Beispiel wenn ich nur an Dataset interessiert bin, die der Kategorie *Geographie* zugehörig sind, 
-aber nur Ressourcen mit dem Format *JSON* enthalten.  
-
-
-Sortieren 
----------
-Sie haben die Möglichkeit, Ihre Trefferliste zu sortieren. Dazu stehen Ihnen die Sortierung nach 
-*Relevanz*, *Daten zuletzt geändert*, *Metadaten zuletzt geändert*, *Name aufsteigend* und nach 
-*Name absteigend* zur Verfügung. 
-
-.. figure:: ../../_static/images/daten-suchen/sortieren-nach.png
-   :alt: sortieren nach
-
 .. admonition:: Wichtig
 
-   Bei der Suche nach einem Begriff im Index, wird für jedes Dataset eine
-   Punktzahl berechnet. Mit der Option *Relevanz* werden die Ergebnisse in 
-   der Trefferliste nach der Punktzahl absteigend sortiert. 
+   Im allgemeinen Textfeld ergeben nur exakte Übereinstimmungen 
+   der Begriffe, wie z.B. ``Luftbilder`` und ``farbig`` Treffer. 
 
 SOLR-Konfiguration 
 ------------------
