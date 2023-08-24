@@ -169,7 +169,7 @@ die Sie bei Bedarf auswählen können. Für jede Sprache wird mehrmals täglich
 ein in sich geschlossener Solr-Index aufgebaut. Das bedeutet, dass Änderungen 
 an Datasets oder neue Datasets nicht sofort in den Vorschlägen berücksichtigt werden.
 
-.. figure:: ../../_static/images/daten-suchen/suchvorschlaege.png
+.. figure:: ../../_static/images/daten-suchen/Suchvorschlaege.png
    :alt: Suche auf opendata.swiss
 
 .. collapse:: Index - Vorschläge für Suchbegriffe
@@ -223,7 +223,7 @@ Sie nun Datasets aufgelistet, bei denen *open* **oder** *data* im Suchindex gefu
 Wenn Sie nach der Phrase *open data* suchen wollen, dann müssen Sie 
 die Begriffe in Anführungs- und Schlusszeichen setzen: "open data". 
 
-.. figure:: ../../_static/images/daten-suchen/suche_open-data.png
+.. figure:: ../../_static/images/daten-suchen/Suche_open-data.png
    :alt: Suche nach Begriffen open und data ohne Operatoren
 
 Suchmodi
@@ -234,7 +234,7 @@ Der Operator ``OR`` gibt Ihnen alle Datasets zurück, die den Begriff *open* ode
 in ihrem Index enthalten. Dieser Operator ist als Standardoperator im Suchfeld implementiert. 
 Sie können daher mehrere Begriffe auch ohne ``OR`` in das Suchfeld eingeben. 
 
-.. figure:: ../../_static/images/daten-suchen/suchmodi_OR.png
+.. figure:: ../../_static/images/daten-suchen/Suchmodi_OR.png
    :alt: Suche nach Begriffen open und data mit dem OR-Operator
 
 **AND (&&)**
