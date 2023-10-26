@@ -645,6 +645,25 @@ dct:relation (DCAT)
 
     .. include:: dcat-examples/dataset-relation-rdf.rst
 
+.. _dcat-dataset-documenation:
+
+dct:documentation (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-documentation.rst
+
+.. toggle-header::
+    :header: Property ``dct:documentation`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-relation-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:relation`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples/dataset-relation-rdf.rst
+
 .. _dcat-dataset-keyword:
 
 dcat:keyword (DCAT)
