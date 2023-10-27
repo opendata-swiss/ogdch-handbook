@@ -273,9 +273,9 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`related resource <dcat-dataset-relation>`
       - dct:relation
       - optional
-    * - :ref:`see also <dcat-dataset-see-also>`
-      - rdfs:seeAlso
-      - optional
+    * - :fa:`exclamation`:ref:`qualifiedRelation <dcat-dataset-qualified-relation>`
+      - dcat:qualifiedRelation
+      - optional :fa:`exclamation` replaces the property rdfs:seeAlso
 
 
 .. list-table:: Properties of dcat:Distribution
@@ -769,24 +769,34 @@ dct:accrual-periodicity (DCAT)
 
     .. include:: dcat-examples/deprecated/dataset-accrual-periodicity-rdf.rst
 
-.. _dcat-dataset-see-also:
+.. _dcat-dataset-qualified-relation:
 
-dcat:seeAlso (DCAT)
+dcat:qualifiedRelation (DCAT)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-   .. include:: dcat-definitions/dataset-see-also.rst
+   .. include:: dcat-definitions/dataset-qualified-relation.rst
 
 .. toggle-header::
-    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Turtle
+    :header: :fa:`exclamation` Property ``dcat:qualifiedRelation`` of ``dcat:Dataset`` in Turtle
 
-    .. include:: dcat-examples/dataset-see-also-ttl.rst
+    .. include:: dcat-examples/dataset-qualified-relation-ttl.rst
 
 .. toggle-header::
-    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Rdf/xml
+    :header: :fa:`exclamation` Property ``dcat:qualifiedRelation`` of ``dcat:Dataset`` in Rdf/xml
 
-    .. include:: dcat-examples/dataset-see-also-rdf.rst
+    .. include:: dcat-examples/dataset-qualified-relation-rdf.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples//deprecated/dataset-see-also-ttl.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples//deprecated/dataset-see-also-rdf.rst
 
 .. _dcat-ap-ch-distribution:
 
