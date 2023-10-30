@@ -209,7 +209,7 @@ Translatable elements are marked as such under usage notes.
 
     * - property
       - URI
-      - usage notes
+      - usage notes 
     * - :ref:`dataset <dcat-catalog-dataset>`
       - dcat:dataset
       - **mandatory**
@@ -272,10 +272,13 @@ Translatable elements are marked as such under usage notes.
       - optional, :fa:`exclamation` import format changed
     * - :ref:`related resource <dcat-dataset-relation>`
       - dct:relation
-      - optional
-    * - :fa:`exclamation`:ref:`qualifiedRelation <dcat-dataset-qualified-relation>`
+      - :fa:`exclamation` optional, **mandatory** for federal level, the legal basis must be indicated here
+    * - :fa:`exclamation` :ref:`qualifiedRelation <dcat-dataset-qualified-relation>`
       - dcat:qualifiedRelation
       - optional :fa:`exclamation` replaces the property rdfs:seeAlso
+    * - :fa:`exclamation` :ref:`documentation <dcat-dataset-documentation>`
+      - dct:documentation
+      - optional, :fa:`exclamation` new property
 
 
 .. list-table:: Properties of dcat:Distribution
@@ -307,12 +310,12 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`media type <dcat-distribution-media-type>`
       - dct:mediaType
       - conditional
-    * - :ref:`format <dcat-distribution-format>`
+    * - :fa:`exclamation` :ref:`format <dcat-distribution-format>`
       - dct:format
-      - conditional
+      - conditional, :fa:`exclamation` use a Controlled Vocabulary (CV)
     * - :fa:`exclamation` :ref:`rights <dcat-distribution-rights>`
       - dct:rights
-      - optional, for exceptional use only
+      - optional, :fa:`exclamation` for exceptional use only
     * - :ref:`language <dcat-distribution-language>`
       - dct:language
       - conditional
@@ -657,12 +660,12 @@ dct:documentation (DCAT)
 .. toggle-header::
     :header: Property ``dct:documentation`` of ``dcat:Dataset`` in Turtle
 
-    .. include:: dcat-examples/dataset-relation-ttl.rst
+    .. include:: dcat-examples/dataset-documentation-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:relation`` of ``dcat:Dataset`` in Rdf/xml
+    :header: Property ``dct:documentation`` of ``dcat:Dataset`` in Rdf/xml
 
-    .. include:: dcat-examples/dataset-relation-rdf.rst
+    .. include:: dcat-examples/dataset-documentation-rdf.rst
 
 .. _dcat-dataset-keyword:
 

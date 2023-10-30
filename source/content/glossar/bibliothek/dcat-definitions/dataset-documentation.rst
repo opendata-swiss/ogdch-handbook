@@ -1,4 +1,4 @@
-:DCAT URI: foaf:page
+:DCAT URI: dct:documentation
 :Domain: dcat:Dataset
 :Value: ``foaf:Document``
 :Requirement Level: Optional
