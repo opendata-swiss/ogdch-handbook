@@ -292,9 +292,9 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`access url <dcat-distribution-access-url>`
       - dcat:accessURL
       - **mandatory**
-    * - :ref:`rights <dcat-distribution-rights>`
-      - dct:rights
-      - **mandatory**
+    * - :fa:`exclamation` :ref:`license <dcat-distribution-license>`
+      - dcat:license
+      - **mandatory**, replaces dct:rights
     * - :ref:`title <dcat-distribution-title>`
       - dct:title
       - conditional, multilingual
@@ -310,15 +310,15 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`format <dcat-distribution-format>`
       - dct:format
       - conditional
+    * - :fa:`exclamation` :ref:`rights <dcat-distribution-rights>`
+      - dct:rights
+      - optional, for exceptional use only
     * - :ref:`language <dcat-distribution-language>`
       - dct:language
       - conditional
     * - :ref:`modified <dcat-distribution-modified>`
       - dct:modified
       - conditional
-    * - :ref:`license <dcat-distribution-license>`
-      - dcat:license
-      - optional
     * - :ref:`identifier <dcat-distribution-identifier>`
       - dct:identifier
       - optional
@@ -1078,3 +1078,13 @@ dct:license (DCAT)
 .. container:: Mapping
 
    .. include:: dcat-definitions/distribution-license.rst
+
+.. toggle-header::
+    :header: Property ``dct:license`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-license-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:license`` of ``dcat:Distribution`` in Rdf/xml
+
+    .. include:: dcat-examples/distribution-license-rdf.rst
