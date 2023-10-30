@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :emphasize-lines: 7,8,9,10
+    :emphasize-lines: 6,7,8,9,10
 
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix dcat: <http://www.w3.org/ns/dcat#> .

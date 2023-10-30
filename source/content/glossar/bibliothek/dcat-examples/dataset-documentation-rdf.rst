@@ -1,6 +1,5 @@
 .. code-block:: xml
-    :emphasize-lines: 12,13
-    :emphasize-lines: 12,13
+    :emphasize-lines: 8,9
 
     <?xml version="1.0" encoding="utf-8" ?>
     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
