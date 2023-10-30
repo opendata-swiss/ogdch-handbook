@@ -648,7 +648,7 @@ dct:relation (DCAT)
 
     .. include:: dcat-examples/dataset-relation-rdf.rst
 
-.. _dcat-dataset-documenation:
+.. _dcat-dataset-documentation:
 
 dct:documentation (DCAT)
 ^^^^^^^^^^^^^^^^^^^^^^^^
