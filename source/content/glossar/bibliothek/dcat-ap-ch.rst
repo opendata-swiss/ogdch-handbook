@@ -279,6 +279,9 @@ Translatable elements are marked as such under usage notes.
     * - :fa:`exclamation` :ref:`documentation <dcat-dataset-documentation>`
       - dct:documentation
       - optional, :fa:`exclamation` new property
+    * - :fa:`exclamation` :ref:`conforms to <dcat-dataset-conforms-to>`
+      - dct:conformsTo
+      - optional, :fa:`exclamation` new property
 
 
 .. list-table:: Properties of dcat:Distribution
@@ -676,7 +679,26 @@ foaf:page (DCAT)
     :header: Property ``foaf:page`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-documentation-rdf.rst
+        
+.. _dcat-dataset-conforms-to:
 
+dct:conformsTo (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-conforms-to.rst
+
+.. toggle-header::
+    :header: Property ``dct:conformsTo`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-conforms-to-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:conformsTo`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples/dataset-conforms-to-rdf.rst
+        
 .. _dcat-dataset-keyword:
 
 dcat:keyword (DCAT)
