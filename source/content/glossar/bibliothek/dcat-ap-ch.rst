@@ -296,7 +296,7 @@ Translatable elements are marked as such under usage notes.
       - dcat:accessURL
       - **mandatory**
     * - :fa:`exclamation` :ref:`license <dcat-distribution-license>`
-      - dcat:license
+      - dct:license
       - **mandatory**, replaces dct:rights
     * - :ref:`title <dcat-distribution-title>`
       - dct:title
@@ -308,7 +308,7 @@ Translatable elements are marked as such under usage notes.
       - dct:byteSize
       - conditional
     * - :ref:`media type <dcat-distribution-media-type>`
-      - dct:mediaType
+      - dcat:mediaType
       - conditional
     * - :fa:`exclamation` :ref:`format <dcat-distribution-format>`
       - dct:format
@@ -650,7 +650,7 @@ dct:relation (DCAT)
 
 .. _dcat-dataset-documentation:
 
-dct:documentation (DCAT)
+foaf:page (DCAT)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -658,12 +658,12 @@ dct:documentation (DCAT)
     .. include:: dcat-definitions/dataset-documentation.rst
 
 .. toggle-header::
-    :header: Property ``dct:documentation`` of ``dcat:Dataset`` in Turtle
+    :header: Property ``foaf:page`` of ``dcat:Dataset`` in Turtle
 
     .. include:: dcat-examples/dataset-documentation-ttl.rst
 
 .. toggle-header::
-    :header: Property ``dct:documentation`` of ``dcat:Dataset`` in Rdf/xml
+    :header: Property ``foaf:page`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-documentation-rdf.rst
 
