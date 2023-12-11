@@ -1,5 +1,5 @@
 .. code-block:: xml
-    :caption: The categories are selected from the EU theme vocabulary
+    :caption: The categories are selected from a Swiss controlled vocabulary
     :emphasize-lines: 6,7
 
     <?xml version="1.0" encoding="utf-8" ?>
@@ -7,8 +7,8 @@
              xmlns:dcat="http://www.w3.org/ns/dcat#">
 
       <dcat:Dataset rdf:about="https://swisstopo/123">
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:theme rdf:resource="http://opendata.swiss/themes/population"/>
+        <dcat:theme rdf:resource="http://opendata.swiss/themes/territory"/>
       </dcat:Dataset>
 
     </rdf:RDF>

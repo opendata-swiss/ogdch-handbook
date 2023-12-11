@@ -248,7 +248,7 @@ Translatable elements are marked as such under usage notes.
       - conditional
     * - :ref:`theme <dcat-dataset-theme>`
       - dcat:theme
-      - conditional
+      - conditional, :fa:`exclamation` new vocabulary to use
     * - :fa:`exclamation` :ref:`landing page <dcat-dataset-landing-page>`
       - dcat:landingPage
       - conditional,  :fa:`exclamation` import format changed
@@ -579,6 +579,16 @@ dcat:theme (DCAT)
     :header: Property ``dcat:theme`` of ``dcat:Dataset`` in Rdf/xml
 
     .. include:: dcat-examples/dataset-theme-rdf.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``dcat:theme`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/deprecated/dataset-theme-ttl.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``dcat:theme`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples/deprecated/dataset-theme-rdf.rst
 
 .. _dcat-dataset-language:
 

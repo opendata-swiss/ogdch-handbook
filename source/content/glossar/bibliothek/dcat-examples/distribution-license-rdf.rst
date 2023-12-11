@@ -9,9 +9,9 @@
 
       <dcat:Distribution rdf:about="http://stratigraphy.org/ICSchart/ChronostratChart2017-02.jpg">
         <dcat:accessURL rdf:resource="http://stratigraphy.org/ICSchart/ChronostratChart2017-02.jpg"/>
-        <dct:LicenseDocument rdf:about="http://dcat-ap.ch/vocabulary/licenses/terms_by">
+        <dct:license rdf:about="http://dcat-ap.ch/vocabulary/licenses/terms_by">
           <rdf:type rdf:resource="http://purl.org/dc/terms/RightsStatement"/>
-        </dct:LicenseDocument>
+        </dct:license>
       </dcat:Distribution>
 
     </rdf:RDF>
