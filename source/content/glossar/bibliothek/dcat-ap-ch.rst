@@ -277,7 +277,7 @@ Translatable elements are marked as such under usage notes.
       - dcat:qualifiedRelation
       - optional :fa:`exclamation` replaces the property rdfs:seeAlso
     * - :fa:`exclamation` :ref:`documentation <dcat-dataset-documentation>`
-      - dct:documentation
+      - foaf:page
       - optional, :fa:`exclamation` new property
     * - :fa:`exclamation` :ref:`conforms to <dcat-dataset-conforms-to>`
       - dct:conformsTo
@@ -334,6 +334,9 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`coverage <dcat-distribution-coverage>`
       - dct:coverage
       - optional
+    * - :fa:`exclamation` :ref:`documentation <dcat-distribution-documentation>`
+      - foaf:page
+      - optional, :fa:`exclamation` new property
 
 .. _dcat-ap-ch-catalog:
 
@@ -1123,3 +1126,22 @@ dct:license (DCAT)
     :header: Property ``dct:license`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-license-rdf.rst
+
+.. _dcat-distribution-documentation:
+
+foaf:page (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-documentation.rst
+
+.. toggle-header::
+    :header: Property ``foaf:page`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-documentation-ttl.rst
+
+.. toggle-header::
+    :header: Property ``foaf:page`` of ``dcat:Distribution`` in Rdf/xml
+
+    .. include:: dcat-examples/distribution-documentation-rdf.rst
