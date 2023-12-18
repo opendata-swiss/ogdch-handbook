@@ -1,6 +1,6 @@
 .. code-block:: Turtle
     :caption: The mediaType is used to specify the file format of a download url
-    :emphasize-lines: 8
+    :emphasize-lines: 7
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
     @prefix dct: <http://purl.org/dc/terms/> .

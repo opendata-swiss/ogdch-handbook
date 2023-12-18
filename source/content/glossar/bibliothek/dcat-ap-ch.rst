@@ -246,7 +246,7 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`modified <dcat-dataset-modified>`
       - dct:modified
       - conditional
-    * - :ref:`theme <dcat-dataset-theme>`
+    * - :fa:`exclamation` :ref:`theme <dcat-dataset-theme>`
       - dcat:theme
       - conditional, :fa:`exclamation` new vocabulary to use
     * - :fa:`exclamation` :ref:`landing page <dcat-dataset-landing-page>`
@@ -939,7 +939,7 @@ dct:rights (DCAT)
 
 .. _dcat-distribution-media-type:
 
-dct:mediaType (DCAT)
+dcat:mediaType (DCAT)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
