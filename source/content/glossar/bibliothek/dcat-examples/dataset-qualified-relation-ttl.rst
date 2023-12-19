@@ -1,5 +1,5 @@
 .. code-block:: Turtle
-    :caption: A ``dcat:Dataset`` with a ``rdfs:seeAlso`` in Turtle
+    :caption: A ``dcat:Dataset`` with a ``dcat:qualifiedRelation`` in Turtle
     :emphasize-lines:  6,7,8
 
     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .

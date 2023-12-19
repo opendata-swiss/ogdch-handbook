@@ -1,6 +1,6 @@
 .. code-block:: Turtle
     :caption: The access url is mandatory
-    :emphasize-lines: 7
+    :emphasize-lines: 6
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
     @prefix dct: <http://purl.org/dc/terms/> .

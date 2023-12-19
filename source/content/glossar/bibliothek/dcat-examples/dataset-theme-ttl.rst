@@ -7,5 +7,5 @@
 
     <https://swisstopo/123>
       a dcat:Dataset ;
-      dcat:theme <http://opendata.swiss/themes/population>,
-                 <http://opendata.swiss/themes/territory> ;
+      dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI>,
+                 <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
