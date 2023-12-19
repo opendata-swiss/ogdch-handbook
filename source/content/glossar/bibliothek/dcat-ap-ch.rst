@@ -209,7 +209,7 @@ Translatable elements are marked as such under usage notes.
 
     * - property
       - URI
-      - usage notes
+      - usage notes 
     * - :ref:`dataset <dcat-catalog-dataset>`
       - dcat:dataset
       - **mandatory**
@@ -246,9 +246,9 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`modified <dcat-dataset-modified>`
       - dct:modified
       - conditional
-    * - :ref:`theme <dcat-dataset-theme>`
+    * - :fa:`exclamation` :ref:`theme <dcat-dataset-theme>`
       - dcat:theme
-      - conditional
+      - conditional, :fa:`exclamation` new vocabulary to use
     * - :fa:`exclamation` :ref:`landing page <dcat-dataset-landing-page>`
       - dcat:landingPage
       - conditional,  :fa:`exclamation` import format changed
@@ -272,10 +272,16 @@ Translatable elements are marked as such under usage notes.
       - optional, :fa:`exclamation` import format changed
     * - :ref:`related resource <dcat-dataset-relation>`
       - dct:relation
-      - optional
-    * - :ref:`see also <dcat-dataset-see-also>`
-      - rdfs:seeAlso
-      - optional
+      - :fa:`exclamation` optional, **mandatory** for federal level, the legal basis must be indicated here
+    * - :fa:`exclamation` :ref:`qualifiedRelation <dcat-dataset-qualified-relation>`
+      - dcat:qualifiedRelation
+      - optional :fa:`exclamation` replaces the property rdfs:seeAlso
+    * - :fa:`exclamation` :ref:`documentation <dcat-dataset-documentation>`
+      - foaf:page
+      - optional, :fa:`exclamation` new property
+    * - :fa:`exclamation` :ref:`conforms to <dcat-dataset-conforms-to>`
+      - dct:conformsTo
+      - optional, :fa:`exclamation` new property
 
 
 .. list-table:: Properties of dcat:Distribution
@@ -292,9 +298,9 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`access url <dcat-distribution-access-url>`
       - dcat:accessURL
       - **mandatory**
-    * - :ref:`rights <dcat-distribution-rights>`
-      - dct:rights
-      - **mandatory**
+    * - :fa:`exclamation` :ref:`license <dcat-distribution-license>`
+      - dct:license
+      - **mandatory**, replaces dct:rights
     * - :ref:`title <dcat-distribution-title>`
       - dct:title
       - conditional, multilingual
@@ -305,20 +311,20 @@ Translatable elements are marked as such under usage notes.
       - dct:byteSize
       - conditional
     * - :ref:`media type <dcat-distribution-media-type>`
-      - dct:mediaType
+      - dcat:mediaType
       - conditional
-    * - :ref:`format <dcat-distribution-format>`
+    * - :fa:`exclamation` :ref:`format <dcat-distribution-format>`
       - dct:format
-      - conditional
+      - conditional, :fa:`exclamation` use a Controlled Vocabulary (CV)
+    * - :fa:`exclamation` :ref:`rights <dcat-distribution-rights>`
+      - dct:rights
+      - optional, :fa:`exclamation` for exceptional use only
     * - :ref:`language <dcat-distribution-language>`
       - dct:language
       - conditional
     * - :ref:`modified <dcat-distribution-modified>`
       - dct:modified
       - conditional
-    * - :ref:`license <dcat-distribution-license>`
-      - dcat:license
-      - optional
     * - :ref:`identifier <dcat-distribution-identifier>`
       - dct:identifier
       - optional
@@ -328,6 +334,9 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`coverage <dcat-distribution-coverage>`
       - dct:coverage
       - optional
+    * - :fa:`exclamation` :ref:`documentation <dcat-distribution-documentation>`
+      - foaf:page
+      - optional, :fa:`exclamation` new property
 
 .. _dcat-ap-ch-catalog:
 
@@ -577,6 +586,16 @@ dcat:theme (DCAT)
 
     .. include:: dcat-examples/dataset-theme-rdf.rst
 
+.. toggle-header::
+    :header: Deprecated: Property ``dcat:theme`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/deprecated/dataset-theme-ttl.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``dcat:theme`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples/deprecated/dataset-theme-rdf.rst
+
 .. _dcat-dataset-language:
 
 dct:language (DCAT)
@@ -645,6 +664,44 @@ dct:relation (DCAT)
 
     .. include:: dcat-examples/dataset-relation-rdf.rst
 
+.. _dcat-dataset-documentation:
+
+foaf:page (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-documentation.rst
+
+.. toggle-header::
+    :header: Property ``foaf:page`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-documentation-ttl.rst
+
+.. toggle-header::
+    :header: Property ``foaf:page`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples/dataset-documentation-rdf.rst
+        
+.. _dcat-dataset-conforms-to:
+
+dct:conformsTo (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/dataset-conforms-to.rst
+
+.. toggle-header::
+    :header: Property ``dct:conformsTo`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples/dataset-conforms-to-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:conformsTo`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples/dataset-conforms-to-rdf.rst
+        
 .. _dcat-dataset-keyword:
 
 dcat:keyword (DCAT)
@@ -750,24 +807,34 @@ dct:accrual-periodicity (DCAT)
 
     .. include:: dcat-examples/deprecated/dataset-accrual-periodicity-rdf.rst
 
-.. _dcat-dataset-see-also:
+.. _dcat-dataset-qualified-relation:
 
-dcat:seeAlso (DCAT)
+dcat:qualifiedRelation (DCAT)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-   .. include:: dcat-definitions/dataset-see-also.rst
+   .. include:: dcat-definitions/dataset-qualified-relation.rst
 
 .. toggle-header::
-    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Turtle
+    :header: :fa:`exclamation` Property ``dcat:qualifiedRelation`` of ``dcat:Dataset`` in Turtle
 
-    .. include:: dcat-examples/dataset-see-also-ttl.rst
+    .. include:: dcat-examples/dataset-qualified-relation-ttl.rst
 
 .. toggle-header::
-    :header: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Rdf/xml
+    :header: :fa:`exclamation` Property ``dcat:qualifiedRelation`` of ``dcat:Dataset`` in Rdf/xml
 
-    .. include:: dcat-examples/dataset-see-also-rdf.rst
+    .. include:: dcat-examples/dataset-qualified-relation-rdf.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Turtle
+
+    .. include:: dcat-examples//deprecated/dataset-see-also-ttl.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``rdfs:seeAlso`` of ``dcat:Dataset`` in Rdf/xml
+
+    .. include:: dcat-examples//deprecated/dataset-see-also-rdf.rst
 
 .. _dcat-ap-ch-distribution:
 
@@ -872,7 +939,7 @@ dct:rights (DCAT)
 
 .. _dcat-distribution-media-type:
 
-dct:mediaType (DCAT)
+dcat:mediaType (DCAT)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
@@ -1049,3 +1116,32 @@ dct:license (DCAT)
 .. container:: Mapping
 
    .. include:: dcat-definitions/distribution-license.rst
+
+.. toggle-header::
+    :header: Property ``dct:license`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-license-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:license`` of ``dcat:Distribution`` in Rdf/xml
+
+    .. include:: dcat-examples/distribution-license-rdf.rst
+
+.. _dcat-distribution-documentation:
+
+foaf:page (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-documentation.rst
+
+.. toggle-header::
+    :header: Property ``foaf:page`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-documentation-ttl.rst
+
+.. toggle-header::
+    :header: Property ``foaf:page`` of ``dcat:Distribution`` in Rdf/xml
+
+    .. include:: dcat-examples/distribution-documentation-rdf.rst

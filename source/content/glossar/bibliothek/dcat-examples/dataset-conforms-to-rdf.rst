@@ -1,5 +1,4 @@
 .. code-block:: xml
-    :caption: The modified date is expected in ISO Format
     :emphasize-lines: 7
 
     <?xml version="1.0" encoding="utf-8" ?>
@@ -7,8 +6,8 @@
              xmlns:dcat="http://www.w3.org/ns/dcat#"
              xmlns:dct="http://purl.org/dc/terms/">
 
-      <dcat:Distribution rdf:about="https://swisstopo/123">
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:modified>
-      </dcat:Distribution>
+      <dcat:Dataset rdf:about="https://fr.ch/strassenverkehr">
+        <dct:conformsTo rdf:resource="http://models.geo.admin.ch/ASTRA"/>    
+      </dcat:Dataset>
 
     </rdf:RDF>
