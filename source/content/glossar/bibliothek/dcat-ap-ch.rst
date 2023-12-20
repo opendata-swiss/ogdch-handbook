@@ -273,9 +273,9 @@ Translatable elements are marked as such under usage notes.
     * - :ref:`related resource <dcat-dataset-relation>`
       - dct:relation
       - :fa:`exclamation` optional, **mandatory** for federal level, the legal basis must be indicated here
-    * - :fa:`exclamation` :ref:`qualifiedRelation <dcat-dataset-qualified-relation>`
+    * - :fa:`exclamation` :ref:`qualified relation <dcat-dataset-qualified-relation>`
       - dcat:qualifiedRelation
-      - optional :fa:`exclamation` replaces the property rdfs:seeAlso
+      - optional, :fa:`exclamation` replaces the property rdfs:seeAlso
     * - :fa:`exclamation` :ref:`documentation <dcat-dataset-documentation>`
       - foaf:page
       - optional, :fa:`exclamation` new property
@@ -336,6 +336,9 @@ Translatable elements are marked as such under usage notes.
       - optional
     * - :fa:`exclamation` :ref:`documentation <dcat-distribution-documentation>`
       - foaf:page
+      - optional, :fa:`exclamation` new property
+    * - :fa:`exclamation` :ref:`temporal resolution <dcat-distribution-temporal-resolution>`
+      - dcat:temporalResolution
       - optional, :fa:`exclamation` new property
 
 .. _dcat-ap-ch-catalog:
@@ -570,7 +573,7 @@ dct-modified (DCAT)
 .. _dcat-dataset-theme:
 
 dcat:theme (DCAT)
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -810,7 +813,7 @@ dct:accrual-periodicity (DCAT)
 .. _dcat-dataset-qualified-relation:
 
 dcat:qualifiedRelation (DCAT)
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
@@ -1145,3 +1148,22 @@ foaf:page (DCAT)
     :header: Property ``foaf:page`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-documentation-rdf.rst
+
+.. _dcat-distribution-temporal-resolution:
+
+dcat:temporalResolution (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-temporal-resolution.rst
+
+.. toggle-header::
+    :header: Property ``dcat:temporalResolution`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-temporal-resolution-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:temporalResolution`` of ``dcat:Distribution`` in Rdf/xml
+
+    .. include:: dcat-examples/distribution-temporal-resolution-rdf.rst
