@@ -340,6 +340,9 @@ Translatable elements are marked as such under usage notes.
     * - :fa:`exclamation` :ref:`temporal resolution <dcat-distribution-temporal-resolution>`
       - dcat:temporalResolution
       - optional, :fa:`exclamation` new property
+    * - :fa:`exclamation` :ref:`accessService <dcat-distribution-access-service>`
+      - dcat:accessService
+      - optional, :fa:`exclamation` new property, read usage notes
 
 .. _dcat-ap-ch-catalog:
 
@@ -1167,3 +1170,22 @@ dcat:temporalResolution (DCAT)
     :header: Property ``dcat:temporalResolution`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-temporal-resolution-rdf.rst
+        
+.. _dcat-distribution-access-service:
+
+dcat:accessService (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-access-service.rst
+
+.. toggle-header::
+    :header: Property ``dcat:accessService`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-access-service-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dcat:accessService`` of ``dcat:Distribution`` in Rdf/xml
+
+    .. include:: dcat-examples/distribution-access-service-rdf.rst
