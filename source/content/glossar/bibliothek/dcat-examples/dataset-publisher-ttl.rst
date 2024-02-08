@@ -12,4 +12,4 @@
 
     <https://swisstopo>
       a foaf:Organization ;
-      foaf:name: "Landesamt für Topographie Swisstopo" .
+      foaf:name "Landesamt für Topographie Swisstopo" .
