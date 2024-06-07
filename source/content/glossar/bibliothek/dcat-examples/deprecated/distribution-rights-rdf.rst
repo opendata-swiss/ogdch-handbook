@@ -9,7 +9,7 @@
 
       <dcat:Distribution rdf:about="http://stratigraphy.org/ICSchart/ChronostratChart2017-02.jpg">
         <dcat:accessURL rdf:resource="http://stratigraphy.org/ICSchart/ChronostratChart2017-02.jpg"/>
-        <dct:rights rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
+        <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
       </dcat:Distribution>
 
     </rdf:RDF>

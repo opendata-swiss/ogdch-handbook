@@ -9,4 +9,4 @@
     <http://stratigraphy.org/ICSchart/ChronostratChart2017-02.jpg>
        a dcat:Distribution ;
        dcat:accessURL <http://stratigraphy.org/ICSchart/ChronostratChart2017-02.jpg> ;
-       dct:rights <http://dcat-ap.ch/vocabulary/licenses/terms_by> .
+       dct:rights "NonCommercialAllowed-CommercialAllowed-ReferenceRequired" .

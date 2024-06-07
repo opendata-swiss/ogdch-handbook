@@ -10,7 +10,7 @@
 
 :Usage Notes: Terms of use are no longer referenced under ``dct:rights``, but under ``dct:license``. 
             
-            Exception: If other licenses, such as CC-licenses, are used for the dataset besides the terms of use, the 
+            **Exception:** If other licenses, such as CC-licenses, are used for the dataset besides the terms of use, the 
             terms of use are referenced under dct:rights. Only the terms of use are displayed on opendata.swiss. If other
             licenses are included, they are passed on to the portal data.europa.eu.
 
@@ -21,6 +21,14 @@
 .. code-block::
     :caption: Values **acceptable** for opendata.swiss
     :emphasize-lines: 1,2,3,4
+
+    http://dcat-ap.ch/vocabulary/licenses/terms_open
+    http://dcat-ap.ch/vocabulary/licenses/terms_by
+    http://dcat-ap.ch/vocabulary/licenses/terms_ask
+    http://dcat-ap.ch/vocabulary/licenses/terms_by_ask
+
+.. code-block::
+    :caption: **Deprecated:** Values **acceptable** for opendata.swiss
 
     NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired
     NonCommercialAllowed-CommercialAllowed-ReferenceRequired

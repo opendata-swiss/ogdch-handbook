@@ -943,6 +943,16 @@ dct:rights (DCAT)
 
     .. include:: dcat-examples/distribution-rights-rdf.rst
 
+.. toggle-header::
+    :header: Deprecated: Property ``dct:rights` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/deprecated/distribution-rights-ttl.rst
+
+.. toggle-header::
+    :header: Deprecated: Property ``dct:rights`` of ``dcat:Distribution`` in Rdf/xml
+
+    .. include:: dcat-examples/deprecated/distribution-rights-rdf.rst
+
 .. _dcat-distribution-media-type:
 
 dcat:mediaType (DCAT)
