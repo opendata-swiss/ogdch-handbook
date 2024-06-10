@@ -944,7 +944,7 @@ dct:rights (DCAT)
     .. include:: dcat-examples/distribution-rights-rdf.rst
 
 .. toggle-header::
-    :header: Deprecated: Property ``dct:rights` of ``dcat:Distribution`` in Turtle
+    :header: Deprecated: Property ``dct:rights`` of ``dcat:Distribution`` in Turtle
 
     .. include:: dcat-examples/deprecated/distribution-rights-ttl.rst
 
