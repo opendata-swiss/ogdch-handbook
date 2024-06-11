@@ -6,7 +6,7 @@
 :Usage notes: Imporant: The property `dct:license <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-license-dcat>`__ with the values accepted for opendata.swiss is now 
             requiered for the `terms of use <https://opendata.swiss/de/terms-of-use>`__. 
             **Exception:** If someone uses datasets with CC-licenses in their catalogue, these can be kept under
-            dct:license, but in this case the terms of use must be entered under dct:rights. 
+            dct:rights, but in this case the terms of use must be entered under dct:license. 
 
 .. code-block::
     :caption: Values **acceptable** for opendata.swiss
