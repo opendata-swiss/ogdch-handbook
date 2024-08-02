@@ -39,9 +39,10 @@
       </vcard:Individual>
     </dcat:contactPoint>
 
+    #The categories are selected from the EU theme vocabulary
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
-    #The categories are selected from the EU theme vocabulary
+    
     <dct:language>de</dct:language>
     <dct:language>en</dct:language>
     <dct:relation>
@@ -50,12 +51,12 @@
       </rdf:Description>
     </dct:relation>
 
+    #In the field dct:relation, the federal offices must specify the legal basis.
     <dct:relation>
       <rdf:Description rdf:about="https://www.admin.ch/opc/de/classified-compilation/19920252/index.html">
         <rdfs:label>legal_basis</rdfs:label>
       </rdf:Description>
-    </dct:relation>
-    #In the field dct:relation, the federal offices must specify the legal basis.  
+    </dct:relation>  
 
     <dcat:keyword xml:lang="de">Eisenbahn</dcat:keyword>
     <dcat:keyword xml:lang="fr">Chemin-de-fer</dcat:keyword>
@@ -80,8 +81,15 @@
       </dct:PeriodOfTime>
     </dct:temporal>
 
+    #EU frequency vocabulary is used for accrual Periodicity
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
-    <rdfs:seeAlso>326@swisstopo</rdfs:seeAlso>
+
+    #Link to a related dataset on opendata.swiss. Contains the identifier of the related datasets. The perma-link must be used.
+    <dcat:qualifiedRelation>
+        <dcat:Relationship>
+           <dct:relation rdf:resource="https://opendata.swiss/perma/adb280a9-381d-4fb3-ae43-b40ace826dc7@stadt-zurich"/>
+        </dcat:Relationship>
+    </dcat:qualifiedRelation>
     <dcat:distribution>
       <dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
         <dct:identifier>ch.bafu.laerm-bahnlaerm_nacht</dct:identifier>
