@@ -117,7 +117,7 @@ Example for Download
 ^^^^^^^^^^^^^^^^^^^^
 
 Have a look at the following file for a quickstart:
-:download:`full dataset example <../../../_static/examples/ogdch_dcatap_import.rdf>`
+:download:`full dataset example <../../../_static/examples/ogdch_dcatapch_v2_import.rdf>`
 
 .. _dcat-ap-ch-namespaces:
 
