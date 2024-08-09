@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:schema="http://schema.org/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <dcat:Dataset rdf:about="http://swisstopo/325">
+    <dct:identifier>325@bundesamt-fur-landestopografie-swisstopo</dct:identifier>
+    <dct:title xml:lang="de">Eisenbahnlärm Nacht</dct:title>
+    <dct:title xml:lang="fr">Bruit ferroviaire nuit</dct:title>
+    <dct:title xml:lang="it">Rumore ferroviario notte</dct:title>
+    <dct:title xml:lang="en">Railway noise night</dct:title>
+
+    <!-- It is possible to use markdown formatting for the description text of a dataset. -->
+    <dct:description xml:lang="de">Die Karte zeigt, welcher Lärmbelastung die Bevölkerung durch den Schienenverkehr ausgesetzt ist.</dct:description>
+    <dct:description xml:lang="fr">La carte montre que la pollution sonore est suspendu par le système de rail, la population.</dct:description>
+    <dct:description xml:lang="it">La mappa mostra che l'inquinamento acustico è sospeso dal sistema ferroviario, la popolazione.</dct:description>
+    <dct:description xml:lang="en">The map shows how the population is exposed by the noise pollution of the rail system.</dct:description>
+     
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
+    <dct:publisher>
+      <foaf:Organization rdf:about="https://www.swisstopo.admin.ch/">
+        <foaf:name>Bundesamt für Landestopographie Swisstopo</foaf:name>
+      </foaf:Organization>
+    </dct:publisher>
+    <dcat:contactPoint>
+      <vcard:Organization>
+        <vcard:fn>Abteilung Lärm BAFU</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:noise@bafu.admin.ch"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
+
+    <dcat:contactPoint>
+      <vcard:Individual>
+        <vcard:fn>Maxine Muster, BAFU Dataexpert</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:maxine@bafu.admin.ch"/>
+      </vcard:Individual>
+    </dcat:contactPoint>
+
+    <!-- The categories are selected from the EU theme vocabulary. -->
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    
+    <dct:language>de</dct:language>
+    <dct:language>en</dct:language>
+    <dct:relation>
+      <rdf:Description rdf:about="http://www.bafu.admin.ch/laerm/index.html?lang=de">
+        <rdfs:label>Webseite des BAFU</rdfs:label>
+      </rdf:Description>
+    </dct:relation>
+
+    <!-- In the field dct:relation, the federal offices must specify the legal basis. -->
+    <dct:relation>
+      <rdf:Description rdf:about="https://www.admin.ch/opc/de/classified-compilation/19920252/index.html">
+        <rdfs:label>legal_basis</rdfs:label>
+      </rdf:Description>
+    </dct:relation>  
+
+    <dcat:keyword xml:lang="de">Eisenbahn</dcat:keyword>
+    <dcat:keyword xml:lang="fr">Chemin-de-fer</dcat:keyword>
+    <dcat:keyword xml:lang="it">Ferrovia</dcat:keyword>
+    <dcat:keyword xml:lang="en">Railroad</dcat:keyword>
+    <dcat:keyword xml:lang="de">Nacht</dcat:keyword>
+    <dcat:keyword xml:lang="fr">Nuit</dcat:keyword>
+    <dcat:keyword xml:lang="it">Noche</dcat:keyword>
+    <dcat:keyword xml:lang="en">Night</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://www.bafu.admin.ch/laerm/index.html"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
+        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
+        <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-05</schema:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+
+    <dct:temporal>
+      <dct:PeriodOfTime>
+        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-03-01</schema:startDate>
+        <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-05</schema:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+
+    <!-- EU frequency vocabulary is used for accrual Periodicity. -->
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
+
+    <!-- Link to a related dataset on opendata.swiss. Contains the identifier of the related datasets. The perma-link must be used. -->
+    <dcat:qualifiedRelation>
+        <dcat:Relationship>
+           <dct:relation rdf:resource="https://opendata.swiss/perma/adb280a9-381d-4fb3-ae43-b40ace826dc7@stadt-zurich"/>
+           <dcat:hadRole rdf:resource="http://www.iana.org/assignments/relation/related"/>
+        </dcat:Relationship>
+    </dcat:qualifiedRelation>
+
+    <!-- This property refers to a page or document about this dataset. If it's only for one distribution, specify it at the distribution level. -->
+    <foaf:page>
+      <foaf:Document rdf:about="https://www.covid19.admin.ch/api/data/documentation"/>
+    </foaf:page>
+
+    <!-- This property refers to an implementing rule or other specification. This property should be used to indicate the model, schema, ontology, view or profile that this representation of a dataset conforms to. -->
+    <dct:conformsTo rdf:resource="http://models.geo.admin.ch/ASTRA"/>
+  
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="http://swisstopo/325/ch.bafu.laerm-bahnlaerm_nacht">
+        <dct:identifier>ch.bafu.laerm-bahnlaerm_nacht</dct:identifier>
+        <dct:title xml:lang="de">Datenformat WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
+        <dct:title xml:lang="en">data format WMS (ch.bafu.laerm-bahnlaerm_nacht)</dct:title>
+        <dct:description xml:lang="de">Die Angaben basieren auf flächendeckenden Modellberechnungen.</dct:description>
+        <dct:description xml:lang="en">The information is based on comprehensive model calculations.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-11T00:00:00Z</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
+        <dct:language>de</dct:language>
+        <dct:language>en</dct:language>
+        <dcat:accessURL rdf:resource="http://wms.geo.admin.ch/"/>
+
+        <!-- The license statement is taken from a controlled vocabulary for the opendata.swiss terms of use. -->
+        <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_open"/>
+        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">698039.0</dcat:byteSize>
+
+        <!-- Use CV VOCAB-EU_FILE-TYPE for dct:format. If a format is not available, use media type. -->
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+
+  </dcat:Dataset>
+
+  <dcat:Dataset rdf:about="http://swisstopo/swissBOUNDARIES">
+    <dct:identifier>swissBOUNDARIES@bundesamt-fur-landestopografie-swisstopo</dct:identifier>
+    <dct:title xml:lang="de">Landesgrenzen</dct:title>
+    <dct:title xml:lang="fr">Frontières nationales</dct:title>
+    <dct:title xml:lang="it">Frontiere nazionali</dct:title>
+    <dct:title xml:lang="en">National boundaries</dct:title>
+    <dct:description xml:lang="de">swissBOUNDARIES3D Landesgrenzen umfasst die Landesgrenzen der Schweiz und des Fürstentums Liechtenstein.</dct:description>
+    <dct:description xml:lang="fr">swissBOUNDARIES3D frontières nationales comprend la frontière de la Suisse et de la Principauté de Liechtenstein.</dct:description>
+    <dct:description xml:lang="it">swissBOUNDARIES3D frontiere nazionali contiene la frontiera della Svizzera e del Principato del Liechtenstein.</dct:description>
+    <dct:description xml:lang="en">swissBOUNDARIES national boundaries constitute the borders of Switzerland and the principality of Liechtenstein.</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
+    <dct:publisher>
+      <foaf:Organization rdf:about="https://www.swisstopo.admin.ch/">
+        <foaf:name>Bundesamt für Landestopographie Swisstopo</foaf:name>
+      </foaf:Organization>
+    </dct:publisher>
+    <dcat:contactPoint>
+      <vcard:Organization>
+        <vcard:fn>Geodata Bundesamt für Landestopografie</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:geodata@swisstopo.ch"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
+
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:keyword xml:lang="de">Landesgrenze</dcat:keyword>
+    <dcat:keyword xml:lang="fr">Frontières nationales</dcat:keyword>
+    <dcat:keyword xml:lang="it">Frontiere nazionali</dcat:keyword>
+    <dcat:keyword xml:lang="en">National boundaries</dcat:keyword>
+    <dcat:keyword xml:lang="de">Verwaltungseinheiten</dcat:keyword>
+    <dcat:keyword xml:lang="fr">Unités administratives</dcat:keyword>
+    <dcat:keyword xml:lang="it">Unita amministrative</dcat:keyword>
+    <dcat:keyword xml:lang="en">Administrative units</dcat:keyword>
+    <dcat:landingPage rdf:resource="http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissBOUNDARIES3D.html"/>
+    <dct:temporal>
+      <dct:PeriodOfTime>
+        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-01</schema:startDate>
+        <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-12-31</schema:endDate>
+      </dct:PeriodOfTime>
+    </dct:temporal>
+
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:qualifiedRelation>
+      <dcat:Relationship rdf:nodeID="Nfd9c848466314e69b78bbb9063b5149c">
+        <dct:relation rdf:resource="https://ckan.opendata.swiss/perma/86cb844f-296b-40cb-b972-5b1ae8028f7c@bundesamt-fur-landestopografie-swisstopo"/>
+        <dcat:hadRole rdf:resource="http://www.iana.org/assignments/relation/related"/>
+      </dcat:Relationship>
+    </dcat:qualifiedRelation>
+
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://ckan.opendata.swiss/dataset/fb80d697-c64b-470f-88d2-a84cc63c3cb0/resource/0fabdd0f-0e57-4151-a969-3090b03bda49">
+        <dct:title xml:lang="fr">RESTful API de geo.admin.ch</dct:title>
+        <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
+        <dct:description xml:lang="de">RESTful API von geo.admin.ch</dct:description>
+        <dct:title xml:lang="en">RESTful API from geo.admin.ch</dct:title>
+        <dct:description xml:lang="it">RESTful API da geo.admin.ch</dct:description>
+        <dct:language>en</dct:language>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/REST"/>
+        <dct:language>de</dct:language>
+        <dct:description xml:lang="en">RESTful API from geo.admin.ch</dct:description>
+        <dct:title xml:lang="it">RESTful API da geo.admin.ch</dct:title>
+        <dct:description xml:lang="fr">RESTful API de geo.admin.ch</dct:description>
+        <dct:language>fr</dct:language>
+        <dct:rights rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
+        <dct:title xml:lang="de">RESTful API von geo.admin.ch</dct:title>
+        <dcat:accessURL rdf:resource="https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-land-flaeche.fill"/>
+        <dct:language>it</dct:language>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <dcat:qualifiedRelation>
+      <dcat:Relationship rdf:nodeID="Nfd9c848466314e69b78bbb9063b5149c">
+        <dct:relation rdf:resource="https://ckan.opendata.swiss/perma/86cb844f-296b-40cb-b972-5b1ae8028f7c@bundesamt-fur-landestopografie-swisstopo"/>
+        <dcat:hadRole rdf:resource="http://www.iana.org/assignments/relation/related"/>
+      </dcat:Relationship>
+    </dcat:qualifiedRelation>
+    <dcat:keyword xml:lang="en">administrative-units</dcat:keyword>
+    <foaf:page>
+      <foaf:Document rdf:about="https://www.geo.admin.ch/de/geo-dienstleistungen/geodienste/linkeddata.html"/>
+    </foaf:page>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-20T00:00:00</dct:modified>
+    <dct:relation>
+      <rdf:Description rdf:about="https://map.geo.admin.ch/">
+        <rdfs:label>map.geo.admin.ch</rdfs:label>
+      </rdf:Description>
+    </dct:relation>
+    <dcat:keyword xml:lang="it">unita-amministrative</dcat:keyword>
+    <dcat:keyword xml:lang="fr">frontiere-nationale</dcat:keyword>
+    <dct:title xml:lang="de">swissBOUNDARIES3D Landesgrenzen</dct:title>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://ckan.opendata.swiss/dataset/fb80d697-c64b-470f-88d2-a84cc63c3cb0/resource/bdc56f6d-8c97-4157-9040-7f12527df993">
+        <dct:title xml:lang="de">Linked Data</dct:title>
+        <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
+        <dcat:accessURL rdf:resource="https://geo.ld.admin.ch/data/swissBOUNDARIES3D:countries"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+        <dct:language>de</dct:language>
+        <dct:rights rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">national-border</dcat:keyword>
+    <dct:relation>
+      <rdf:Description rdf:about="https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c5bd42e6-033f-4d43-a398-320b42538798">
+        <rdfs:label>geocat.ch permalink</rdfs:label>
+      </rdf:Description>
+    </dct:relation>
+    <dct:title xml:lang="en">swissBOUNDARIES3D national boundaries</dct:title>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://ckan.opendata.swiss/dataset/fb80d697-c64b-470f-88d2-a84cc63c3cb0/resource/ced17372-31a4-4a1a-8733-86974df62012">
+        <dct:description xml:lang="de">WMTS-BGDI Dienst, Layer "Landesgrenzen"</dct:description>
+        <dct:language>it</dct:language>
+        <dct:language>de</dct:language>
+        <dct:language>fr</dct:language>
+        <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
+        <dct:title xml:lang="fr">ch.swisstopo.swissboundaries3d-land-flaeche.fill</dct:title>
+        <dct:description xml:lang="it">Servizio WMTS-IFDG, strato "Frontiere nazionali"</dct:description>
+        <dcat:accessURL rdf:resource="https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml?lang=de"/>
+        <dct:language>en</dct:language>
+        <dct:rights rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
+        <dct:title xml:lang="de">ch.swisstopo.swissboundaries3d-land-flaeche.fill</dct:title>
+        <dct:description xml:lang="en">WMTS-FSDI service, layer "National boundaries"</dct:description>
+        <dct:description xml:lang="fr">Service WMTS-IFDG, couche , Layer "Frontières nationales"</dct:description>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/WMTS_SRVC"/>
+        <dct:title xml:lang="it">ch.swisstopo.swissboundaries3d-land-flaeche.fill</dct:title>
+        <dct:title xml:lang="en">ch.swisstopo.swissboundaries3d-land-flaeche.fill</dct:title>
+      </dcat:Distribution>
+    </dcat:distribution>
+
+  </dcat:Dataset>
+
+  <dcat:Catalog rdf:nodeID="genid7">
+    <dcat:dataset rdf:resource="http://swisstopo/325"/>
+    <dcat:dataset rdf:resource="http://swisstopo/swissBOUNDARIES"/>
+  </dcat:Catalog>
+
+</rdf:RDF>
