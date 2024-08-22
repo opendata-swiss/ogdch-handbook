@@ -1,0 +1,28 @@
+# The Docker image that will be used to build your app
+image: alpine
+# Functions that should be executed before the build script is run
+before_script:
+  - mkdir -p public
+  - apk add --update --no-cache make python3 py3-virtualenv py3-pip && ln -sf
+    python3 /usr/bin/python
+  - python -V
+  - virtualenv venv
+  - source venv/bin/activate
+  - pip3 install --no-cache --upgrade pip setuptools
+  - pip3 install -r requirements.txt
+pages:
+  script:
+    - make clean
+    - make gettext
+    - make -e SPHINXOPTS="-D language='de'" BUILDDIR="build/de" html
+    - make -e SPHINXOPTS="-D language='fr'" BUILDDIR="build/fr" html
+    - mv build/de/html public/de
+    - mv build/fr/html public/fr
+  artifacts:
+    paths:
+      # The folder that contains the files to be exposed at the Page URL
+      - public
+  rules:
+    # This ensures that only pushes to the default branch will trigger
+    # a pages deploy
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
