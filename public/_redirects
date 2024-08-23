@@ -46,6 +46,18 @@
 /ogdch-handbook-ci/:lang/library/dcat-dataset.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
 /ogdch-handbook-ci/:lang/library/dcat-distribution.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
 
+# Redirect paths with no language code to equivalent in DE
+# Old
+/ogdch-handbook-ci/category/* /ogdch-handbook-ci/de/:splat
+/ogdch-handbook-ci/identify/* /ogdch-handbook-ci/de/:splat
+/ogdch-handbook-ci/legal-notice/* /ogdch-handbook-ci/de/:splat
+/ogdch-handbook-ci/library/* /ogdch-handbook-ci/de/:splat
+/ogdch-handbook-ci/pages/* /ogdch-handbook-ci/de/:splat
+/ogdch-handbook-ci/prepare/* /ogdch-handbook-ci/de/:splat
+/ogdch-handbook-ci/publish/* /ogdch-handbook-ci/de/:splat
+/ogdch-handbook-ci/support/* /ogdch-handbook-ci/de/:splat
+# New
+/ogdch-handbook-ci/content/* /ogdch-handbook-ci/de/:splat
 
 # Redirect EN and IT addresses to equivalent in DE
 /ogdch-handbook-ci/en/* /ogdch-handbook-ci/de/:splat
