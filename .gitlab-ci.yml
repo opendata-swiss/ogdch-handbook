@@ -2,7 +2,6 @@ pages:
   tags: [docker]
   image: alpine
   before_script:
-    - mkdir -p public
     - apk add --update --no-cache make python3 py3-virtualenv py3-pip && ln -sf
       python3 /usr/bin/python
     - python -V
