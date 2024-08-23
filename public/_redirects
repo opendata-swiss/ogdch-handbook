@@ -1,57 +1,57 @@
 # Redirects for previous content
-/ogdch-handbook-ci/:lang/category/identify /ogdch-handbook-ci/:lang/content/vorbereiten/vorbereiten.html
-/ogdch-handbook-ci/:lang/category/prepare /ogdch-handbook-ci/:lang/content/vorbereiten/vorbereiten.html
-/ogdch-handbook-ci/:lang/pages/about /ogdch-handbook-ci/:lang/content/ueberdashandbuch/ueber-das-handbuch.html
-/ogdch-handbook-ci/:lang/pages/contribute /ogdch-handbook-ci/:lang/content/ueberdashandbuch/ueber-das-handbuch.html
-/ogdch-handbook-ci/:lang/category/support /ogdch-handbook-ci/:lang/content/ueberdashandbuch/ueber-das-handbuch.html
-/ogdch-handbook-ci/:lang/legal-notice /ogdch-handbook-ci/:lang/content/ueberdashandbuch/rechtliche-hinweise.html
-/ogdch-handbook-ci/:lang/pages/index /ogdch-handbook-ci/:lang/
-/ogdch-handbook-ci/:lang/identify/identifying.html /ogdch-handbook-ci/:lang/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.html
-/ogdch-handbook-ci/:lang/identify/inventory.html /ogdch-handbook-ci/:lang/content/vorbereiten/erstpublizierende/dateninventar-erstellen.html
-/ogdch-handbook-ci/:lang/identify/opengovdata.html /ogdch-handbook-ci/:lang/content/vorbereiten/erstpublizierende/dateninventar-erstellen.html
-/ogdch-handbook-ci/:lang/prepare/frameworks.html /ogdch-handbook-ci/:lang/content/vorbereiten/dataset/rechtlicher-check.html
-/ogdch-handbook-ci/:lang/prepare/hosting.html /ogdch-handbook-ci/:lang/content/glossar/bibliothek/hosting.html
-/ogdch-handbook-ci/:lang/prepare/terms.html /ogdch-handbook-ci/:lang/content/vorbereiten/dataset/rechtlicher-check.html#auswahl-der-nutzungsbedingungen
-/ogdch-handbook-ci/:lang/category/publish /ogdch-handbook-ci/:lang/content/publizieren/publizieren.html
-/ogdch-handbook-ci/:lang/publish/harvester.html /ogdch-handbook-ci/:lang/content/publizieren/publikationsvarianten/harvesting.html
-/ogdch-handbook-ci/:lang/publish/opendata-swiss.html /ogdch-handbook-ci/:lang/content/publizieren/publikationsprozess.html
-/ogdch-handbook-ci/:lang/publish/options.html /ogdch-handbook-ci/:lang/content/publizieren/publikationsvariante.html
-/ogdch-handbook-ci/:lang/publish/prepare.html /ogdch-handbook-ci/:lang/content/publizieren/publizieren.html
-/ogdch-handbook-ci/:lang/publish/swiss.html /ogdch-handbook-ci/:lang/content/publizieren/publikationsprozess.html
-/ogdch-handbook-ci/:lang/publish/prepare.html /ogdch-handbook-ci/:lang/content/publizieren/publizieren.html
-/ogdch-handbook-ci/:lang/library/advanced-search.html /ogdch-handbook-ci/:lang/content/nutzen/daten-suchen.html
-/ogdch-handbook-ci/:lang/library/ch-dcat-ap.html /ogdch-handbook-ci/:lang/content/glossar/bibliothek/dcat-ap-ch.html
-/ogdch-handbook-ci/:lang/library/ckan-api.html /ogdch-handbook-ci/:lang/content/nutzen/api-nutzen.html
-/ogdch-handbook-ci/:lang/library/embed.html /ogdch-handbook-ci/:lang/content/glossar/bibliothek/embed.html
-/ogdch-handbook-ci/:lang/library/empfehlungen-formate.html /ogdch-handbook-ci/:lang/content/glossar/bibliothek/formate-ressourcen.html
-/ogdch-handbook-ci/:lang/library/opendataswiss-userguide.html /ogdch-handbook-ci/:lang/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.html
-/ogdch-handbook-ci/:lang/library/iso-19139-che-dcat.html /ogdch-handbook-ci/:lang/content/glossar/bibliothek/geocat-mapping.html
-/ogdch-handbook-ci/:lang/library/linked-open-data.html /ogdch-handbook-ci/:lang/content/glossar/bibliothek/linked-open-data.html
-/ogdch-handbook-ci/:lang/library/geodaten-publikation.html /ogdch-handbook-ci/:lang/content/publizieren/publikationsvarianten/geodaten.html
-/ogdch-handbook-ci/:lang/support/api.html /ogdch-handbook-ci/:lang/content/nutzen/api-nutzen.html
+/:lang/category/identify /:lang/content/vorbereiten/vorbereiten.html
+/:lang/category/prepare /:lang/content/vorbereiten/vorbereiten.html
+/:lang/pages/about /:lang/content/ueberdashandbuch/ueber-das-handbuch.html
+/:lang/pages/contribute /:lang/content/ueberdashandbuch/ueber-das-handbuch.html
+/:lang/category/support /:lang/content/ueberdashandbuch/ueber-das-handbuch.html
+/:lang/legal-notice /:lang/content/ueberdashandbuch/rechtliche-hinweise.html
+/:lang/pages/index /:lang/
+/:lang/identify/identifying.html /:lang/content/vorbereiten/erstpublizierende/opendata-swiss-verstehen.html
+/:lang/identify/inventory.html /:lang/content/vorbereiten/erstpublizierende/dateninventar-erstellen.html
+/:lang/identify/opengovdata.html /:lang/content/vorbereiten/erstpublizierende/dateninventar-erstellen.html
+/:lang/prepare/frameworks.html /:lang/content/vorbereiten/dataset/rechtlicher-check.html
+/:lang/prepare/hosting.html /:lang/content/glossar/bibliothek/hosting.html
+/:lang/prepare/terms.html /:lang/content/vorbereiten/dataset/rechtlicher-check.html#auswahl-der-nutzungsbedingungen
+/:lang/category/publish /:lang/content/publizieren/publizieren.html
+/:lang/publish/harvester.html /:lang/content/publizieren/publikationsvarianten/harvesting.html
+/:lang/publish/opendata-swiss.html /:lang/content/publizieren/publikationsprozess.html
+/:lang/publish/options.html /:lang/content/publizieren/publikationsvariante.html
+/:lang/publish/prepare.html /:lang/content/publizieren/publizieren.html
+/:lang/publish/swiss.html /:lang/content/publizieren/publikationsprozess.html
+/:lang/publish/prepare.html /:lang/content/publizieren/publizieren.html
+/:lang/library/advanced-search.html /:lang/content/nutzen/daten-suchen.html
+/:lang/library/ch-dcat-ap.html /:lang/content/glossar/bibliothek/dcat-ap-ch.html
+/:lang/library/ckan-api.html /:lang/content/nutzen/api-nutzen.html
+/:lang/library/embed.html /:lang/content/glossar/bibliothek/embed.html
+/:lang/library/empfehlungen-formate.html /:lang/content/glossar/bibliothek/formate-ressourcen.html
+/:lang/library/opendataswiss-userguide.html /:lang/content/publizieren/publikationsvarianten/metadaten-manuell-erfassen.html
+/:lang/library/iso-19139-che-dcat.html /:lang/content/glossar/bibliothek/geocat-mapping.html
+/:lang/library/linked-open-data.html /:lang/content/glossar/bibliothek/linked-open-data.html
+/:lang/library/geodaten-publikation.html /:lang/content/publizieren/publikationsvarianten/geodaten.html
+/:lang/support/api.html /:lang/content/nutzen/api-nutzen.html
 
 # Redirects for previous content now on other sites
-/ogdch-handbook-ci/:lang/library/textbausteine-standardformulierungen.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147090.html
-/ogdch-handbook-ci/:lang/library/geodaten-leitfaden.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.13267666.html
-/ogdch-handbook-ci/:lang/library/konzept-rechtliche-rahmen.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147095.html
-/ogdch-handbook-ci/:lang/library/bericht-abgrenzung-leistungen.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147081.html
-/ogdch-handbook-ci/:lang/library/bericht-datenbestaende-bund.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147084.html
-/ogdch-handbook-ci/:lang/library/entscheidgrundlage-nutzungsbedingungen.html https://bar-files.opendata.swiss/owncloud/index.php/s/9ADZtcmjFepukFf
-/ogdch-handbook-ci/:lang/library/fragen-gebuehrenproblematik.html https://bar-files.opendata.swiss/owncloud/index.php/s/UTbrVUc99ZRfbe1
-/ogdch-handbook-ci/:lang/library/rechtliche-grundlagen-disclaimer.html https://bar-files.opendata.swiss/owncloud/index.php/s/7Mgtwk6nw9Idtup
-/ogdch-handbook-ci/:lang/library/entscheid-rechtsgrundlagen.html https://bar-files.opendata.swiss/owncloud/index.php/s/lnDaahw9qOuVUHo
-/ogdch-handbook-ci/:lang/library/arbeitshilfe-publikation.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html
-/ogdch-handbook-ci/:lang/library/dcat-application.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
-/ogdch-handbook-ci/:lang/library/dcat-catalog.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
-/ogdch-handbook-ci/:lang/library/dcat-dataset.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
-/ogdch-handbook-ci/:lang/library/dcat-distribution.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
+/:lang/library/textbausteine-standardformulierungen.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147090.html
+/:lang/library/geodaten-leitfaden.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.13267666.html
+/:lang/library/konzept-rechtliche-rahmen.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147095.html
+/:lang/library/bericht-abgrenzung-leistungen.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147081.html
+/:lang/library/bericht-datenbestaende-bund.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147084.html
+/:lang/library/entscheidgrundlage-nutzungsbedingungen.html https://bar-files.opendata.swiss/owncloud/index.php/s/9ADZtcmjFepukFf
+/:lang/library/fragen-gebuehrenproblematik.html https://bar-files.opendata.swiss/owncloud/index.php/s/UTbrVUc99ZRfbe1
+/:lang/library/rechtliche-grundlagen-disclaimer.html https://bar-files.opendata.swiss/owncloud/index.php/s/7Mgtwk6nw9Idtup
+/:lang/library/entscheid-rechtsgrundlagen.html https://bar-files.opendata.swiss/owncloud/index.php/s/lnDaahw9qOuVUHo
+/:lang/library/arbeitshilfe-publikation.html https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/ogd/dokumentation.assetdetail.11147071.html
+/:lang/library/dcat-application.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
+/:lang/library/dcat-catalog.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
+/:lang/library/dcat-dataset.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
+/:lang/library/dcat-distribution.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
 
 # Redirect EN and IT addresses to equivalent in DE with 302 (in case we get this content in the future)
-/ogdch-handbook-ci/en/* /ogdch-handbook-ci/de/:splat 302
-/ogdch-handbook-ci/it/* /ogdch-handbook-ci/de/:splat 302
+/en/* /de/:splat 302
+/it/* /de/:splat 302
 
 # Redirect urls with no language to equivalent in DE
-/ogdch-handbook-ci/content/* /ogdch-handbook-ci/de/content/:splat
+/content/* /de/content/:splat
 
 # Redirect homepage to DE homepage
-/ogdch-handbook-ci/ /ogdch-handbook-ci/de/
+/ /de/
