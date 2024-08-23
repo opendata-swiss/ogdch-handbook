@@ -1,16 +1,3 @@
-# Redirect paths with no language code to equivalent in DE
-# Old
-/ogdch-handbook-ci/category/* /ogdch-handbook-ci/de/:splat
-/ogdch-handbook-ci/identify/* /ogdch-handbook-ci/de/:splat
-/ogdch-handbook-ci/legal-notice/* /ogdch-handbook-ci/de/:splat
-/ogdch-handbook-ci/library/* /ogdch-handbook-ci/de/:splat
-/ogdch-handbook-ci/pages/* /ogdch-handbook-ci/de/:splat
-/ogdch-handbook-ci/prepare/* /ogdch-handbook-ci/de/:splat
-/ogdch-handbook-ci/publish/* /ogdch-handbook-ci/de/:splat
-/ogdch-handbook-ci/support/* /ogdch-handbook-ci/de/:splat
-# New
-/ogdch-handbook-ci/content/* /ogdch-handbook-ci/de/:splat
-
 # Redirects for previous content
 /ogdch-handbook-ci/:lang/category/identify /ogdch-handbook-ci/:lang/content/vorbereiten/vorbereiten.html
 /ogdch-handbook-ci/:lang/category/prepare /ogdch-handbook-ci/:lang/content/vorbereiten/vorbereiten.html
@@ -59,9 +46,12 @@
 /ogdch-handbook-ci/:lang/library/dcat-dataset.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
 /ogdch-handbook-ci/:lang/library/dcat-distribution.html https://www.ech.ch/de/dokument/85dffcd6-6bda-4b60-a028-9c2fd8a8573a
 
-# Redirect EN and IT addresses to equivalent in DE
-/ogdch-handbook-ci/en/* /ogdch-handbook-ci/de/:splat
-/ogdch-handbook-ci/it/* /ogdch-handbook-ci/de/:splat
+# Redirect EN and IT addresses to equivalent in DE with 302 (in case we get this content in the future)
+/ogdch-handbook-ci/en/* /ogdch-handbook-ci/de/:splat 302
+/ogdch-handbook-ci/it/* /ogdch-handbook-ci/de/:splat 302
+
+# Redirect urls with no language to equivalent in DE
+/ogdch-handbook-ci/content/* /ogdch-handbook-ci/de/content/:splat
 
 # Redirect homepage to DE homepage
 /ogdch-handbook-ci/ /ogdch-handbook-ci/de/
