@@ -24,12 +24,17 @@ Wie erfasse ich Metadaten manuell im Webformular?
 
     Wie Sie :term:`Datensätze <Dataset>` über das Webinterface beschreiben, erklären wir Ihnen hier Schritt für Schritt. 
 
+.. collapse:: Infobox: Gemeinsamer Input-Bereich i14y.ch und opendata.swiss
+
+   Damit die Metadaten nicht auf zwei Plattformen bewirtschaftet werden müssen, bieten opendata.swiss und die Interoperabilitätsplattform i14y.ch
+   einen gemeinsamen Input-Bereich an. 
+
 Die Schritte auf einen Blick
 ----------------------------
 
-- :ref:`Datensatz erstellen <manuell-datensatz-erstellen>`
+- :ref:`Beschreibung eines Datensatzes erstellen <manuell-datensatz-erstellen>`
 - :ref:`Metadaten eingeben <manuell-metadaten-eingeben>`
-- :ref:`Distributionen hinzufügen <manuell-distribution-hinzufuegen>`
+- :ref:`Beschreibung der Distributionen erstellen <manuell-distribution-hinzufuegen>`
 - :ref:`Datensatz prüfen <manuell-vorschau-pruefen>`
 - :ref:`Datensatz veröffentlichen <manuell-datensatz-veroeffentlichen>`
 - :ref:`Datensatz im Frontend prüfen <manuell-datensatz-frontend>`
@@ -59,12 +64,12 @@ Sie befinden sich nun im Input-Bereich. Hier sehen Sie drei Kacheln, über die S
 **Katalog pflegen**, **Konzepte pflegen** und **I14Y-Interoperabilitätsplattform**. 
 Unterhalb dieser Kacheln finden Sie die Kachel **Meine Daten**. Dort werden Aufgaben aufgelistet, die Sie betreffen.
 
-Um einen Datensatz in ihrem Katalog zu erfassen, klicken Sie auf die Kachel **Katalog pflegen**.
+Um einen Datensatz in ihrem Katalog zu erfassen, klicken Sie in der Kachel **Daten meiner Organisation** auf **Dataset**.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/benutzer-uebersicht-kacheln-de.png
    :alt: Benutzerübersicht im Input-Bereich von I14Y. Zu sehen sind sechs Kacheln.
 
-Sie gelangen nun in den Arbeitsbereich **«I14Y-Metadatenkatalog»**. Hier sehen Sie eine Liste der Datensätze Ihrer Organisation/Herausgeber sowie alle öffentlich publizierten Einträge anderer Organisationen. Diese Liste ist entsprechend leer, wenn Ihre Organisation zum ersten Mal publiziert. 
+Sie gelangen nun in den Arbeitsbereich **«I14Y-Metadatenkatalog»**. Hier sehen Sie eine Liste der Datensätze Ihrer Organisation/Herausgeber. Diese Liste ist entsprechend leer, wenn Ihre Organisation zum ersten Mal publiziert. 
 Für jeden Datensatz werden der Titel, Identifikator, Herausgeber, Typ, Status und die Publikation angezeigt. 
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/benutzer-uebersicht-i14ymetadatenkatalog-de.png
@@ -104,15 +109,6 @@ Für die Beschreibung eines Datensatzes wählen Sie die Option **«Neue Datensam
 Um sicherzustellen, dass der Datensatz gefunden und wiederverwendet werden kann, werden verschiedene Metadaten zum Datensatz erfasst und auf I14Y sowie opendata.swiss veröffentlicht. 
 **Metadatenfelder, die mit einem Stern** ``*`` **gekennzeichnet sind, müssen ausgefüllt werden.** 
 **Bitte beachten Sie:** Je mehr Informationen Sie in den Metadaten angeben, desto leichter wird der Datensatz gefunden und desto besser kann er wiederverwendet werden.
-
-.. collapse:: Infobox: Warum Metadaten wichtig sind und was es dabei zu beachten gilt
-
-   Auf dem Portal opendata.swiss und auf der Interoperabilitätsplattform I14Y werden Datensätze
-   gemäss den Vorgaben des DCAT-Standards in der aktuell gültigen Version mit dem Applikationsprofil für die Schweiz beschrieben `(DCAT-AP CH 2.0)  <https://dcat-ap.ch/>`__. 
-   Die I14Y bietet einige optionale Zusatzfelder an, die im aktuellen DCAT-Standard nicht vorgesehen sind. Damit lassen sich die Datenangebote noch detaillierter beschreiben. 
-   Darüber hinaus können in I14Y auch die Struktur sowie die einzelnen Datenkonzepte beschrieben werden. 
-
-| 
 
 Details
 ^^^^^^^^
@@ -295,7 +291,7 @@ Im Pfad der URL sehen Sie ``perma`` gefolgt vom entsprechenden ``Identifier`` de
 Verwandte Ressourcen
 ^^^^^^^^^^^^^^^^^^^^^
 In diesem Bereich werden allfällige gesetzliche Grundlagen zum betreffenden Datenangebot erfasst, also etwa Gesetze und Verordnungen. **Handelt es sich um die gesetzliche Grundlage, setzen sie bitte in die Sprachfelder die folgende Terme: "Rechtliche Grundlagen"(DE), "Base légale"(FR), "Basi legali" (IT) und "legal basis"(EN)**. 
-Setzen Sie dazu einen Link zum betreffenden Dokument auf `Fedlex <https://www.fedlex.admin.ch/de/>`__` oder auf die entsprechende Online-Ressource, die den Text enthält. 
+Setzen Sie dazu einen Link zum betreffenden Dokument auf `Fedlex <https://www.fedlex.admin.ch/de/>`__ oder auf die entsprechende Online-Ressource, die den Text enthält. 
 Zudem lassen sich verwandte Ressourcen verlinken, die nicht zum Feld Qualifizierte Beziehungen passen, etwa zusätzliches Material wie einen Artikel, ein Beispiel oder eine Dokumentation.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-relation-de.png
@@ -334,7 +330,7 @@ Beschreibung der Distribution erstellen
 ---------------------------------------
 
 Wenn Sie die Eingabe der Metadaten für Ihren Datensatz abgeschlossen haben, müssen Sie als Nächstes eine oder mehrere Distributionen zu Ihrem Datensatz hinzufügen. 
-Speichern Sie die Metadaten des Datensatzes, wählen Sie den Reiter **Distributionen** und klicken Sie auf die Schaltfläche **Erstellen**, um zum Webformular für die Beschreibung der Distribution zu gelangen.
+Speichern und schliessen Sie die Metadaten des Datensatzes, wählen Sie den Reiter **Distributionen** und klicken Sie auf die Schaltfläche **Erstellen**, um zum Webformular für die Beschreibung der Distribution zu gelangen.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-distribution-de.png
    :alt: Reiter Distribution
@@ -466,7 +462,7 @@ Datensatz veröffentlichen
 ---------------------------
 
 Ob der Datensatz auf I14Y veröffentlicht wurde, erkennen Sie rechts oben am Status der Publikation. Dieser wird als **Aktuell I14Y** angezeigt.
-Nun kann der Datensatz von opendata.swiss geharvested werden. Bitte geben Sie dem  `Team der Geschäftsstelle OGD Bescheid <Mailto: opendata@bfs.admin.ch>`__, wenn Ihre Datensätze für die Erstpublikation auf opendata.swiss bereit sind.
+Nun kann der Datensatz von opendata.swiss geharvested werden. Bitte geben Sie dem  `Team der Geschäftsstelle OGD <Mailto: opendata@bfs.admin.ch>`__ Bescheid, wenn Ihre Datensätze für die Erstpublikation auf opendata.swiss bereit sind.
   
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/status-publiziert-de.png
    :alt: Ansicht Status Publikation Aktuell I14Y
@@ -478,7 +474,7 @@ Datensatz im Frontend prüfen
 
 Sobald Ihr Datensatz auf I14Y publiziert und von opendata.swiss geharvested wurde, kann er auch im Frontend von  `opendata.swiss <https://opendata.swiss/de/>`__ angesehen werden. 
 Wenn Sie Ihre Datensätze zum ersten Mal auf opendata.swiss publizieren, haben Sie die Möglichkeit, diese zuerst in der Abnahmeumgebung aufzuschalten und zu begutachten.
-Besprechen Sie mit dem `Team der Geschäftsstelle OGD Bescheid <Mailto: opendata@bfs.admin.ch>`__, ob die Datensätze direkt auf der Produktionsumgebung oder zuerst auf der Abnahmeumgebung aufgeschaltet werden. 
+Besprechen Sie mit dem `Team der Geschäftsstelle OGD <Mailto: opendata@bfs.admin.ch>`__, ob die Datensätze direkt auf der Produktionsumgebung oder zuerst auf der Abnahmeumgebung aufgeschaltet werden. 
 Sie finden Ihre Datensätze unter Ihrer `Organisation auf opendata.swiss <https://opendata.swiss/de/organization>`__.
 
 .. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-frontend-de.png
