@@ -66,13 +66,13 @@ Unterhalb dieser Kacheln finden Sie die Kachel **Meine Daten**. Dort werden Aufg
 
 Um einen Datensatz in ihrem Katalog zu erfassen, klicken Sie in der Kachel **Daten meiner Organisation** auf **Dataset**.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/benutzer-uebersicht-kacheln-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/benutzer-uebersicht-kacheln.png
    :alt: Benutzerübersicht im Input-Bereich von I14Y. Zu sehen sind sechs Kacheln.
 
 Sie gelangen nun in den Arbeitsbereich **«I14Y-Metadatenkatalog»**. Hier sehen Sie eine Liste der Datensätze Ihrer Organisation/Herausgeber. Diese Liste ist entsprechend leer, wenn Ihre Organisation zum ersten Mal publiziert. 
 Für jeden Datensatz werden der Titel, Identifikator, Herausgeber, Typ, Status und die Publikation angezeigt. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/benutzer-uebersicht-i14ymetadatenkatalog-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/benutzer-uebersicht-i14ymetadatenkatalog.png
    :alt: Arbeitsbereich I14Y-Metadatenkatalog. 
 
 .. _manuell-metadaten-eingeben:
@@ -103,7 +103,7 @@ Metadaten eingeben
 Klicken Sie nun auf die Schaltfläche **«Erstellen»**. Es öffnet sich ein Dropdown-Menü mit drei verschiedenen Auswahlmöglichkeiten. 
 Für die Beschreibung eines Datensatzes wählen Sie die Option **«Neue Datensammlung erfassen»**.
     
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-erfassen-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-erfassen.png
    :alt: Abbildung Dropdown mit Schaltfläche neue Datensammlung erfassen
 
 Um sicherzustellen, dass der Datensatz gefunden und wiederverwendet werden kann, werden verschiedene Metadaten zum Datensatz erfasst und auf I14Y sowie opendata.swiss veröffentlicht. 
@@ -117,7 +117,7 @@ Für die **Bundesstellen** sind diese Angaben in **zwei Landessprachen obligator
 Eine Beschreibung auf Englisch erleichtert das Auffinden Ihres Datensatzes auf dem
 :term:`europäischen Datenportal <Europäisches Datenportal>`.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-details-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-details.png
    :alt: Webformular Datensatz erstellen mit den Details zum Datensatz
 
 Im Feld **Identifikatior** geben Sie den Identifikator des Datensatzes ein. Sie können dafür die ID aus Ihrem Quellsystem verwenden oder eine beliebige ID definieren. 
@@ -130,7 +130,7 @@ Informationen zu den **Rollen** finden Sie `hier  <https://i14y-ch.github.io/han
 Das Feld **Publikationsdatum** muss ausgefüllt werden. Es handelt sich um das Datum der ersten Publikation im Quellsystem dieses Datensatzes. Ist dieses nicht bekannt, ist das Datum der geplanten Erstpublikation auf `opendata.swiss  <https://opendata.swiss/de>`__ / `i14y.ch  <https://www.i14y.admin.ch/de/home>`__  zu verwenden.
 Im Feld **Änderungsdatum** wird nach der Publikation das Datum der letzten Aktualisierung oder Änderung des Datensatzes angegeben.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-details-identifikator-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-details-identifikator.png
    :alt: Ausschnitt aus Details Identifikator bis Änderungsdatum
 
 .. container:: important
@@ -143,7 +143,7 @@ Kontaktstellen
 In diesem Bereich können Sie die Kontaktstelle hinterlegen, die bei Fragen zum vorliegenden Datensatz zuständig ist. 
 Für die Publikation auf opendata.swiss muss mindestens das Feld **Organisation** in zwei Landessprachen (Bund) oder in mindestens einer Sprache (Andere) ausgefüllt sowie eine E-Mailadresse hinterlegt werden. Wenn Sie weitere Kontakstellen hinzufügen möchten, können Sie dies über die Schaltfläche **+ Neue Kontaktstelle** tun.  
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-kontaktstellen-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-kontaktstellen.png
    :alt: Felder zum Beschreiben der Kontaktstelle
 
 Sprachen
@@ -152,7 +152,7 @@ Dieses Feld zeigt an, in welchen Sprachen der Datensatz verfügbar ist.
 Zur Auswahl stehen die Sprachen Deutsch, Französisch, Italienisch, Rätoromanisch (wird auf opendata.swiss nicht angezeigt) und Englisch. 
 Ist der Datensatz sprachunabhängig, lassen Sie das Feld leer. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-sprachen-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-sprachen.png
    :alt: Felder zum Ankreuzen der Sprache
 
 Katalog und Themen
@@ -166,7 +166,7 @@ Klicken Sie dazu auf die Schaltfläche **Speichern und schliessen**, die im unte
 Um den Opendata-Katalog hinzuzufügen, öffnen Sie die Beschreibung Ihres Datensatzes, indem Sie auf die Schaltfläche **Bearbeiten** klicken. Kehren Sie zum Bereich **Kataloge und Themen** zurück.
 Klicken Sie nun auf die Schaltfläche **Katalog verknüpfen**. Der Opendata-Katalog Ihrer Organisation ``Opendata + Name der Organisation`` erscheint. Wählen Sie diesen aus.  
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-katalog-verknuepfen-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-katalog-verknuepfen.png
    :alt: Auswahl des Opendata-Katalogs über die Schaltfläche Katalog verknüpfen
 
 Im Bereich **Kataloge und Themen** erscheint nun ein weiteres Feld mit Ihrem Opendata-Katalog. Klicken Sie auf das Dropdown-Menü und wählen Sie den entsprechenden Bereich aus der Liste der Opendata-Themen. 
@@ -174,12 +174,12 @@ Es handelt sich dabei um die `EU-Themenliste, die im Standard DCAT-AP CH Version
 Die Themenvokabulare von I14Y und opendata.swiss unterscheiden sich in einigen Punkten sowie in der Anzahl der Auswahlmöglichkeiten. 
 Kategorisierung und Anzahl der Bereiche sind daher nicht deckungsgleich.   
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-verknuepfter-katalog-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-verknuepfter-katalog.png
    :alt: Neues Auswahlfeld für die Themen des Opendata-Katalogs
 
 Ihr Datensatz wurde jetzt erfolgreich mit Ihrem Opendata-Katalog verknüpft, so dass der Datensatz auf opendata.swiss angezeigt wird.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-themen-opendataswiss-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-themen-opendataswiss.png
    :alt: Ansicht der Themen des I14Y-Katalogs und des Opendata-Katalogs
 
 Schutzbedarf
@@ -187,7 +187,7 @@ Schutzbedarf
 Die Felder im Bereich **Schutzbedarf** sind für die Publikation auf I14Y relevant. 
 Informationen zum Ausfüllen dieser Felder finden Sie im `Handbuch von I14Y <https://i14y-ch.github.io/handbook/de/6_anhang/eingabefelder/>`__. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-schutzbedarf-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-schutzbedarf.png
    :alt: Ansicht der Felder im Bereich Schutzbedarf
 
 Schlüsselwörter
@@ -197,7 +197,7 @@ Fügen Sie weitere Schlüsselwörter hinzu, indem Sie auf das Plus-Symbol klicke
 Um Schlüsselwörter zu löschen, wählen Sie das Papierkorb—Symbol. 
 Vergessen Sie nicht, die entsprechende Zeile zu markieren.   
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-schluesselwoerter-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-schluesselwoerter.png
    :alt: Eingabefeld von Schlüsselwörtern
 
 .. collapse:: Infobox: Warum Schlüsselwörter wichtig sind und was es dabei zu beachten gilt
@@ -216,7 +216,7 @@ Landing page
 ^^^^^^^^^^^^
 Tragen Sie hier den Link zu der Webseite Ihrer Organisation ein, auf der weitere Informationen zu dem betreffenden Datenangebot zu finden sind oder über die die Originaldaten abgerufen werden können. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-landingpage-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-landingpage.png
    :alt: Eingabefeld von «Landing Page»
 
 Räumliche Abdeckung
@@ -227,7 +227,7 @@ Für Gebiete, die in den folgenden Vokabularen enthalten sind, müssen die entsp
 `VOCAB-EU-PLACE <https://publications.europa.eu/resource/authority/place>`__, `GEONAMES <http://sws.geonames.org/>`__. 
 Das Feld **GeoIV ID** wird nicht auf opendata.swiss angezeigt. Informationen zu diesem Feld finden Sie im `Handbuch von I14Y <https://i14y-ch.github.io/handbook/de/6_anhang/eingabefelder/>`__:
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-raumliche-abdeckung-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-raumliche-abdeckung.png
    :alt: Eingabefelder räumliche Abdeckung und GeoIV-ID
 
 Zeitliche Abdeckung
@@ -235,7 +235,7 @@ Zeitliche Abdeckung
 Im Feld **Zeitliche Abdeckung** können Sie den Zeitraum angeben, den der Datensatz umfasst. Wählen Sie dazu im Kalender das Datum «Von» und «Bis». 
 Im Feld **Frequenz** können Sie aus der Dropdown-Liste die Häufigkeit auswählen, mit der der Datensatz aktualisiert wird. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-zeitliche-abdeckung-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-zeitliche-abdeckung.png
    :alt: Eingabefelder zeitliche Abdeckung und Frequenz
 
 Konform zu
@@ -243,14 +243,14 @@ Konform zu
 Im Feld «Konform zu» werden technische Spezifikationen erfasst. 
 Setzen Sie dazu einen Link auf das entsprechende Dokument, z.B. auf die Beschreibung eines Standards bei eCH. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-konformzu-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-konformzu.png
    :alt: Eingabefeld Konform zu
 
 Dokumente
 ^^^^^^^^^^
 Im Feld **Dokumente** können Sie weitere Dokumente eintragen, die in direktem Zusammenhang mit Ihrem Angebot stehen, z.B. einen Link zu einem wissenschaftlichen Artikel, einer Anleitung oder einem Hintergrundtext.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-dokumente-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-dokumente.png
    :alt: Eingabefeld Dokumente
 
 Wird referenziert von
@@ -258,7 +258,7 @@ Wird referenziert von
 **Beachten Sie: Dieses Feld wird nicht auf opendata.swiss angezeigt.** 
 In diesem Feld können Ressourcen erfasst werden, die sich auf den beschriebenen Datensatz beziehen – etwa eine Publikation, die auf Grundlage der Daten verfasst wurde.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-referenziertvon-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-referenziertvon.png
    :alt: Eingabefeld wird referenziert von
 
 Qualifizierte Rollenzuordnung
@@ -266,7 +266,7 @@ Qualifizierte Rollenzuordnung
 **Beachten Sie: Dieses Feld wird nicht auf opendata.swiss angezeigt.**
 Falls weitere Organisationen für Teilbereiche des Datensatzes verantwortlich sind, können Sie diese hier hinterlegen. Wählen Sie die Rolle aus der Liste aus, die am besten passt. Und wählen Sie in einem zweiten Schritt die beteiligte Organisation aus. Hinterlegt sind alle Organisationen, die die I14Y-Interoperabilitätsplattform nutzen.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-rollenzuordnung-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-rollenzuordnung.png
    :alt: Eingabefeld Qualifizierte Rollenzuordnung
 
 Verweis auf verwandte Datensätze
@@ -275,7 +275,7 @@ Im Feld **Qualifizierte Beziehung** können Sie aus allen auf opendata.swiss ver
 Dadurch können Datennutzende über Ihren Datensatz auf andere Datensätze aufmerksam gemacht werden, die für sie von Interesse sein könnten. 
 Wählen Sie in der Dropdown-Liste «Hatte Rolle» die Option «Verwandt».  
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-qualifizierte-beziehung-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-qualifizierte-beziehung.png
    :alt: Eingabefeld qualifizierte Beziehung
 
 Im Feld **URL** geben Sie den **Perma-Link des Datensatzes** an, auf den Sie verlinken möchten. 
@@ -285,7 +285,7 @@ Unter **Zusätzliche Informationen** finden Sie das Feld **Identifier**. Bewegen
 Geben Sie diesen im Eingabefeld «URL» ein. Der Perma-Link hat die Form ``[https://opendata.swiss/perma/lustat-grwahlen-lu@lustat]``. 
 Im Pfad der URL sehen Sie ``perma`` gefolgt vom entsprechenden ``Identifier`` des Datensatzes.  
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-zusatzliche-info-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-zusatzliche-info.png
    :alt: Permalink des Datensatzes im Feld Identifier im Bereich zusätzliche Informationen auf opendata.swiss 
 
 Verwandte Ressourcen
@@ -294,7 +294,7 @@ In diesem Bereich werden allfällige gesetzliche Grundlagen zum betreffenden Dat
 Setzen Sie dazu einen Link zum betreffenden Dokument auf `Fedlex <https://www.fedlex.admin.ch/de/>`__ oder auf die entsprechende Online-Ressource, die den Text enthält. 
 Zudem lassen sich verwandte Ressourcen verlinken, die nicht zum Feld Qualifizierte Beziehungen passen, etwa zusätzliches Material wie einen Artikel, ein Beispiel oder eine Dokumentation.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-relation-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-relation.png
    :alt: Eingabefeld verwandte Ressourcen mit Link auf Fedlex-Artikel
 
 Bild
@@ -303,7 +303,7 @@ Bild
 Links zu Minibildern, die den Inhalt des Datensatzes illustrieren. 
 Pro Datensatz können Links zu höchstens drei Bildern hinzugefügt werden.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-bild-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-bild.png
    :alt: Eingabefeld Bild
 
 Version
@@ -313,7 +313,7 @@ Unter dem Feld **Version** können Sie die Versionsnummer Ihres Datensatzes eint
 Beim Feld **Versionshinweise** können Sie zusätzliche Informationen zum betreffenden Datensatzes erfassen. 
 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-version-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-version.png
    :alt: Eingabefelder für die Version
 
 | 
@@ -332,7 +332,7 @@ Beschreibung der Distribution erstellen
 Wenn Sie die Eingabe der Metadaten für Ihren Datensatz abgeschlossen haben, müssen Sie als Nächstes eine oder mehrere Distributionen zu Ihrem Datensatz hinzufügen. 
 Speichern und schliessen Sie die Metadaten des Datensatzes, wählen Sie den Reiter **Distributionen** und klicken Sie auf die Schaltfläche **Erstellen**, um zum Webformular für die Beschreibung der Distribution zu gelangen.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-distribution-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-distribution.png
    :alt: Reiter Distribution
 
 Details zur Distribution
@@ -342,7 +342,7 @@ Für die Sprachversionen gelten die gleichen Regeln wie beim Datensatz: Alle Bun
 Andere Organisationen müssen Titel und Beschreibung in mindestens einer Sprache eingeben. Falls die Distribution sprachunabhängig ist, wählen Sie unter dem Feld **Sprache** keine Sprache aus. 
 Auch hier ist im Pflichtfeld **Publikationsdatum** das Veröffentlichungsdatum der Distribution anzugeben. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-details-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-details.png
    :alt: Eingabefelder für die Beschreibung der Distribution im Bereich Details
 
 .. container:: important
@@ -363,14 +363,14 @@ Klicken Sie hierzu auf das Kästchen bei **Download-URL**. Optional kann die **G
 Bei Bedarf kann der Medientyp (früher MIME-Typ) spezifiziert werden. Die Felder **Komprimierungsformat**, **Prüfsummenalgorithmus**, und **Prüfsumme** werden derzeit nicht auf opendata.swiss angezeigt.
 Weitere Informationen zu diesen Feldern finden Sie `Handbuch von I14Y <https://i14y-ch.github.io/handbook/de/6_anhang/eingabefelder/>`__.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-zugangs-url-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-zugangs-url.png
    :alt: Eingabefelder im ereich Zugangs-URL
 
 Im Feld **Lizenz** müssen Sie die Nutzungsbedingung des Datensatzes gemäss den `Nutzungsbedingungen von opendata.swiss <https://opendata.swiss/de/terms-of-use>`__ angeben.
 Diese stehen Ihnen in der Dropdown-Liste zur Auswahl. Wählen Sie den zutreffenden, mit «Opendata» gekennzeichneten Menüpunkt aus. Die Felder **Rights** und **Verfügbarkeit** werden nicht auf opendata.swiss angezeigt. 
 Weitere Informationen zu den Feldern finden Sie im  `Handbuch von I14Y <https://i14y-ch.github.io/handbook/de/6_anhang/eingabefelder/>`__. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-lizenz-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-lizenz.png
    :alt: Eingabefelder im ereich Zugangs-URL
 
 Abdeckung
@@ -381,7 +381,7 @@ Im Feld **Zeitliche Auflösung** kann der Mindestzeitraum erfasst werden, der in
 Bei anderen Arten von Datensätzen gibt diese Eigenschaft in der Regel die kleinste zeitliche Differenz zwischen den Elementen im Datensatz an. 
 Bevorzugt wird eine einheitliche Notation gemäss `https://www.w3.org/TR/xmlschema11-2/#duration <https://www.w3.org/TR/xmlschema11-2/#duration>`__, z.B.: P1D (Auflösung 1 Tag), P1M (ein Monat), P1Y (ein Jahr).
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-abdeckung-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-abdeckung.png
    :alt: Eingabefelder im Bereich Abdeckung
 
 Konform zu
@@ -389,14 +389,14 @@ Konform zu
 Im Feld **Konform zu** werden technische Spezifikationen zur entsprechenden Distribution erfasst. 
 Setzen Sie dazu einen Link auf das entsprechende Dokument, z.B. auf die Beschreibung eines Standards bei eCH. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-konformzu-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-konformzu.png
    :alt: Eingabefeld Konform zu
 
 Dokumente
 ^^^^^^^^^^
 Im Feld **Dokumente** können Sie weitere Dokumente eintragen, die in direktem Zusammenhang mit der entsprechenden Distribution stehen, z.B. einen Link zu einem wissenschaftlichen Artikel, einer Anleitung oder einem Hintergrundtext. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-dokumente-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-dokumente.png
    :alt: Eingabefeld Dokumente
 
 .. container:: important
@@ -408,7 +408,7 @@ Beschreibung der Distribution beenden und weitere hinzufügen
 Sie haben nun Ihre erste Distribution erstellt und können entweder über die Schaltfläche **Speichern und schliessen** die Distribution speichern. 
 Weitere Distributionen können Sie über die Schaltfläche **Erstellen** hinzufügen. Das Hinzufügen weiterer Distributionen ist jederzeit möglich. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-uebersicht-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/distribution-uebersicht.png
    :alt: Reiter Distribution mit einer Übersicht der erstellten Distributionen
 
 .. _manuell-vorschau-pruefen:
@@ -418,7 +418,7 @@ Datensatz prüfen und veröffentlichen
 
 Schauen Sie sich die Beschreibung des Datensatzes und seiner Distributionen in der Detailansicht an: Wenn alle Felder wie erwartet ausgefüllt sind, können Sie Ihren Datensatz veröffentlichen. 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-beschreibung-pruefen-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-beschreibung-pruefen.png
    :alt: Ansicht der beschriebenen Felder des Datensatzes
 
 | 
@@ -435,19 +435,19 @@ Schauen Sie sich die Beschreibung des Datensatzes und seiner Distributionen in d
 In der Detailansicht sehen Sie den Status Ihrer Beschreibung. Der aktuelle Status ist **Initial**. 
 Sie müssen diesen Status ändern, indem Sie auf die Schaltfläche **Registrierungsstatus vorschlagen** klicken und die Option **Kandidat** auswählen.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/status-kandidat-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/status-kandidat.png
    :alt: Ansicht Auswahl Status Kandidat
 
 Danach kann der Eintrag auf **Registriert** gesetzt werden. Schlagen Sie nun die Publikation auf I14Y vor, 
 indem Sie den Kanal von **Intern** auf **I14Y** umstellen. Die Interoperabilitätsstelle wird die Metadaten prüfen und dann freischalten.
 Bei Problemen oder Verzögerungen kontaktieren Sie die `Interoperabilitätsstelle <Mailto: i14y@bfs.admin.ch>`__.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/status-i14y-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/status-i14y.png
    :alt: Ansicht Auswahl Status I14Y
 
 | 
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/status-uebersicht-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/status-uebersicht.png
    :alt: Ansicht Auswahl Status I14Y
 
 Bitte informieren Sie `uns <Mailto: opendata@bfs.admin.ch>`__, wenn die Datensätze zur Begutachtung bereit sind. 
@@ -464,7 +464,7 @@ Datensatz veröffentlichen
 Ob der Datensatz auf I14Y veröffentlicht wurde, erkennen Sie rechts oben am Status der Publikation. Dieser wird als **Aktuell I14Y** angezeigt.
 Nun kann der Datensatz von opendata.swiss geharvested werden. Bitte geben Sie dem  `Team der Geschäftsstelle OGD <Mailto: opendata@bfs.admin.ch>`__ Bescheid, wenn Ihre Datensätze für die Erstpublikation auf opendata.swiss bereit sind.
   
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/status-publiziert-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/status-publiziert.png
    :alt: Ansicht Status Publikation Aktuell I14Y
 
 .. _manuell-datensatz-frontend:
@@ -477,7 +477,7 @@ Wenn Sie Ihre Datensätze zum ersten Mal auf opendata.swiss publizieren, haben S
 Besprechen Sie mit dem `Team der Geschäftsstelle OGD <Mailto: opendata@bfs.admin.ch>`__, ob die Datensätze direkt auf der Produktionsumgebung oder zuerst auf der Abnahmeumgebung aufgeschaltet werden. 
 Sie finden Ihre Datensätze unter Ihrer `Organisation auf opendata.swiss <https://opendata.swiss/de/organization>`__.
 
-.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-frontend-de.png
+.. figure:: ../../../_static/images/publizieren/manuelle-datenerfassung/dataset-frontend.png
    :alt: Ansicht eines Datensatzes auf opendata.swiss
 
 .. container:: support
