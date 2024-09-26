@@ -11,5 +11,5 @@
       a dcat:Dataset ;
       dct:publisher [
          a rdf:Description ;
-         rdfs:label: "Bundesamt für Landestopografie swisstopo"
+         rdfs:label "Bundesamt für Landestopografie swisstopo"
       ] .
