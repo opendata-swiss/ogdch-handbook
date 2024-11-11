@@ -429,35 +429,35 @@ Dataset
     .. include:: geocat-mappings/dataset-qualified-relation.rst
 
 .. toggle-header::
-    :header: Definition of ``dcat:qualifiedRelation`` in DCAT-AP CH
+    :header: Example for geocat mapping to ``dcat:qualifiedRelation``
 
     .. include:: geocat-examples/dataset-qualified-relation.rst
 
 .. _geocat-dataset-documentation:
 
 ``//gmd:distributionInfo/gmd:MD_Distribution`` to ``foaf:page``
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
     .. include:: geocat-mappings/dataset-documentation.rst
 
 .. toggle-header::
-    :header: Definition of ``foaf:page`` in DCAT-AP CH
+    :header: Example for geocat mapping to ``foaf:page``
 
     .. include:: geocat-examples/dataset-documentation.rst
 
 .. _geocat-dataset-conforms-to:
 
 ``//che:dataModel//che:LocalisedURL`` to ``dct:conformsTo``
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
     .. include:: geocat-mappings/dataset-conforms-to.rst
 
 .. toggle-header::
-    :header: Definition of ``dct:conformsTo`` in DCAT-AP CH
+    :header: Example for geocat mapping to  ``dct:conformsTo``
 
     .. include:: geocat-examples/dataset-conforms-to.rst
 

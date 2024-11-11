@@ -1,12 +1,12 @@
 :DCAT: :ref:`foaf:page <dcat-dataset-documentation>`
 :XPATH: ``//gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource``
-:Protocol: ``WWW:LINK``, ``WWW:LINK-1.0-http--link``
+:Protocol: ``WWW:LINK``
 :Value: ``.//gmd:linkage/gmd:URL/text()``
 :Fallback-Value: ``'.//che:LocalisedURL`` for any language
-:Usage Notes: The protocol ``WWW:LINK-1.0-http--link`` is deprecated, please use ``WWW:LINK`` instead
+:Usage Notes: The first resource with WWW:LINK protocol is mapped as dcat:landingPage. All other resources with WWW:LINK protocol are mapped as foaf:page.
 
 .. code-block:: xml
-    :caption: ISO-19139_che XPath for geocat distribution
+    :caption: ISO-19139_che XPath for foaf:page
 
     //gmd:distributionInfo/gmd:MD_Distribution//gmd:transferOptions//gmd:CI_OnlineResource
 

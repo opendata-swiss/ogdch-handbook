@@ -1,10 +1,15 @@
 :DCAT: :ref:`dct:conformsTo <dcat-dataset-conforms-to>`
 :XPATH: ``che:CHEMD_Metadata/gmd:contentInfo/che:CHE_MD_FeatureCatalogueDescription/che:dataModel/``
-:Value: ``.//che:PTFreeURL/che:URLGroup/che:LocalisedURL <string-length(text()) > 0><0>``
+:Value: ``.//gmd:contentInfo//che:CHE_MD_FeatureCatalogueDescription//che:dataModel/text()``
 :Usage Notes: 
 
 .. code-block:: xml
-    :caption: ISO-19139_che XPath for geocat distribution
+    :caption: ISO-19139_che XPath for dct:conforms to
 
-    che:CHEMD_Metadata/gmd:contentInfo/che:CHE_MD_FeatureCatalogueDescription/che:dataModel/che:PTFreeURL/che:URLGroup/che:LocalisedURL <string-length(text()) > 0><0>
+   
+    .//gmd:contentInfo//che:CHE_MD_FeatureCatalogueDescription//che:dataModel//che:PT_FreeURL//che:URLGroup//che:LocalisedURL[@locale="#DE"]/text()
+    .//gmd:contentInfo//che:CHE_MD_FeatureCatalogueDescription//che:dataModel//che:PT_FreeURL//che:URLGroup//che:LocalisedURLL[@locale="#FR"]/text()
+    .//gmd:contentInfo//che:CHE_MD_FeatureCatalogueDescription//che:dataModel//che:PT_FreeURL//che:URLGroup//che:LocalisedURL[@locale="#EN"]/text()
+    .//gmd:contentInfo//che:CHE_MD_FeatureCatalogueDescription//che:dataModel//che:PT_FreeURL//che:URLGroup//che:LocalisedURL[@locale="#IT"]/text()
+    .//gmd:contentInfo//che:CHE_MD_FeatureCatalogueDescription//che:dataModel//che:PT_FreeURL//che:URLGroup//che:LocalisedURL/text()
 
