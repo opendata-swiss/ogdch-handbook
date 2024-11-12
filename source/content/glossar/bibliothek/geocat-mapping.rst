@@ -122,9 +122,15 @@ Mapping to dcat:Dataset
     * - :ref:`accrual periodicity <dcat-dataset-accrual-periodicity>`
       - :ref:`//gmd:identificationInfo//che:CHE_MD_MaintenanceInformation <geocat-dataset-accrual-periodicity>`
       -
-    * - :ref:`see also <dcat-dataset-see-also>`
-      - :ref:`//gmd:identificationInfo//gmd:aggregationInfo <geocat-dataset-see-also>`
-      -
+    * - :ref:`qualified relation <dcat-dataset-qualified-relation>`
+      - :ref:`//gmd:identificationInfo//gmd:aggregationInfo <geocat-dataset-qualified-relation>`
+      - 
+    * - :ref:`documentation <dcat-dataset-documentation>`
+      - :ref:`//gmd:distributionInfo/gmd:MD_Distribution <geocat-dataset-documentation>`
+      - new property, depends on gmd:protocol
+    * - :ref:`conforms to <dcat-dataset-conforms-to>`
+      - :ref:`//gmd:contentInfo/che:CHE_MD_FeatureCatalogueDescription/che:dataModel <geocat-dataset-conforms-to>`
+      - new property
 
 .. _iso_19139_che-distribution-mapping:
 
@@ -413,19 +419,47 @@ Dataset
 
     .. include:: geocat-examples/dataset-accrual-periodicity.rst
 
-.. _geocat-dataset-see-also:
+.. _geocat-dataset-qualified-relation:
 
-``//gmd:identificationInfo//gmd:aggregationInfo`` to ``dct:seeAlso``
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``//gmd:identificationInfo//gmd:aggregationInfo`` to ``dcat:qualifiedRelation``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. container:: Mapping
 
-    .. include:: geocat-mappings/dataset-see-also.rst
+    .. include:: geocat-mappings/dataset-qualified-relation.rst
 
 .. toggle-header::
-    :header: Definition of ``dcat:seeAlso`` in DCAT-AP CH
+    :header: Example for geocat mapping to ``dcat:qualifiedRelation``
 
-    .. include:: geocat-examples/dataset-see-also.rst
+    .. include:: geocat-examples/dataset-qualified-relation.rst
+
+.. _geocat-dataset-documentation:
+
+``//gmd:distributionInfo/gmd:MD_Distribution`` to ``foaf:page``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-documentation.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to ``foaf:page``
+
+    .. include:: geocat-examples/dataset-documentation.rst
+
+.. _geocat-dataset-conforms-to:
+
+``//che:dataModel//che:LocalisedURL`` to ``dct:conformsTo``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: geocat-mappings/dataset-conforms-to.rst
+
+.. toggle-header::
+    :header: Example for geocat mapping to  ``dct:conformsTo``
+
+    .. include:: geocat-examples/dataset-conforms-to.rst
 
 .. _iso_19139_che-distribution:
 
