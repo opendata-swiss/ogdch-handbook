@@ -13,7 +13,7 @@
             **Exception:** If other licenses, such as CC-licenses, are used for the dataset besides the terms of use, they must be referenced under dct:rights. Only the terms of use from the list below are displayed on opendata.swiss. If other
             licenses are included, they should be referenced under ``dct:rights`` to pass on to the portal data.europa.eu.
 
-            Terms of use values to be used: `DCAT-AP CH license vocabulary <https://dcat-ap.ch/vocabulary/licenses/20210623.html>`__
+            Terms of use values to be used: `DCAT-AP CH license vocabulary <https://dcat-ap.ch/vocabulary/licenses/20240716.html>`__
 
             This field ensures compatibility to other metadata standards such as DCAT-AP.
 
