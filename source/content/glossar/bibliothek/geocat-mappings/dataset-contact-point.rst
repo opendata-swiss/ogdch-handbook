@@ -1,7 +1,9 @@
 :DCAT: :ref:`dcat:contactPoint <dcat-dataset-contact-point>`
-:XPATH: ``//gmd:identificationInfo/gmd:pointOfContact or //gmd:contact``
+:XPATH: ``//gmd:identificationInfo/gmd:pointOfContact or //gmd:contact`` (fallback value) 
 :Value: ``gmd:electronicMailAddress/gco:CharacterString``
-:Usage Notes: Only one contact email is taken. A corresponding name is not taken.
+:Usage Notes: Only one contact email is taken. A corresponding name is not taken. 
+              
+              gmd:contact is the metadata contact registered in geocat.ch and is only used as a fallback value.
 
 .. code-block:: xml
     :caption: ISO-19139_che XPath for ``dcat:contactPoint``: the first is taken in the following order
