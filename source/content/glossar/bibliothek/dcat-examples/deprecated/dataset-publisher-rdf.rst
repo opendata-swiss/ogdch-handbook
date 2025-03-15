@@ -12,7 +12,7 @@
         <dct:publisher>
           <rdf:Description>
             <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Description"/>
-            <rdfs:label:>Bundesamt für Landestopografie swisstopo</rdfs:label:>
+            <rdfs:label>Bundesamt für Landestopografie swisstopo</rdfs:label>
           </rdf:Description>
         </dct:publisher>
 
