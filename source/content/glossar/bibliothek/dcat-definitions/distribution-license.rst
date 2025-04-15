@@ -8,14 +8,13 @@
               Does it need to be referenced, when it is used? Must permission be obtained for commercial use. 
               These conditions are included in the terms of use statements. See the list below for the exact values.
 
-:Usage Notes: Terms of use are no longer referenced under ``dct:rights``, but under ``dct:license``. 
+:Usage Notes: * Terms of use are no longer referenced under ``dct:rights``, but under ``dct:license``. 
             
-            **Exception:** If other licenses, such as CC-licenses, are used for the dataset besides the terms of use, they must be referenced under dct:rights. Only the terms of use from the list below are displayed on opendata.swiss. If other
-            licenses are included, they should be referenced under ``dct:rights`` to pass on to the portal data.europa.eu.
+            * **Exception:** If a CC-license is used for the dataset in addition to the terms of use, it must be referenced under `dct:rights <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-rights-dcat>`__. Only the terms of use from the list below are displayed on opendata.swiss. If CC-licenses are included, they should be referenced under ``dct:rights`` to pass on to the portal data.europa.eu.
 
-            Terms of use values to be used: `DCAT-AP CH license vocabulary <https://dcat-ap.ch/vocabulary/licenses/20240716.html>`__
+            * CV to be used for the terms of use: `DCAT-AP CH license vocabulary <https://dcat-ap.ch/vocabulary/licenses/20240716.html>`__
 
-            This field ensures compatibility to other metadata standards such as DCAT-AP.
+            * This field ensures compatibility to other metadata standards such as DCAT-AP.
 
 .. code-block::
     :caption: Values **acceptable** for opendata.swiss
