@@ -1,10 +1,9 @@
 :DCAT URI: dct:title
 :Domain: dcat:Distribution
 :Value: ``rdfs:Literal`` http://www.w3.org/TR/rdf-schema/#ch_literal
-:Requirement Level: mandatory
+:Requirement Level: conditional
 :Cardinality: 0..4 (one for each language)
 :Description: The title of the distribution
-:Usage Notes: The title is mandatory if the distribution contains only a part
-              of the content covered by the dataset: for example if it contains
-              only the data for one year, whereas the dataset covers several years
-              in total.
+:Usage Notes: * The title is mandatory if the distribution contains only a part of the content covered by the dataset: for example if it contains only the data for one year, whereas the dataset covers several years in total.
+              * The title must be provided as language-tagged strings in at least one of the languages ``en``, ``de``, ``fr``, ``it``.
+              * Federal offices must provide the title in at least two official languages (``de``, ``fr``, ``it``). Cantons are required to provide it in at least one official language. All others must make it available in at least one of the four languages (``en``, ``de``, ``fr``, ``it``). Whenever possible, it should be provided in all four languages.
