@@ -4,19 +4,17 @@
 :Requirement Level: Recommended
 :Cardinality: 0..1
 :Description: This property refers to a statement that specifies rights associated with the Distribution. Only used in exceptional cases (see usage notes below).
-:Usage notes: Imporant: The property `dct:license <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-license-dcat>`__ with the values accepted for opendata.swiss is now 
-            requiered for the `terms of use <https://opendata.swiss/de/terms-of-use>`__. 
-            **Exception:** If someone uses datasets with CC-licenses in their catalogue, these can be kept under
-            dct:rights, but in this case the terms of use must be entered under dct:license. 
+:Usage notes: * **Important!** The `dct:licence <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html#dct-license-dcat>`__ property is required to specify the `terms of use <https://opendata.swiss/de/terms-of-use>`__ of opendata.swiss. 
+            * **Exception:** dct:rights is therefore only used if a publisher uses datasets with CC licences in its catalogue, which it wants to forward to data.europa.eu. These can then be specified under dct:rights. On opendata.swiss, only the three CC licences specified below are imported under dct:rights and forwarded to the portal data.europa.eu. The CC licences are not displayed on opendata.swiss. 
+            * CV to be used for the CC-License: `DCAT-AP CH license vocabulary <https://dcat-ap.ch/vocabulary/licenses/20240716.html>`__
 
 .. code-block::
-    :caption: Values **acceptable** for opendata.swiss
-    :emphasize-lines: 1,2,3,4
+    :caption: dct:rights values **acceptable** for opendata.swiss
+    :emphasize-lines: 1,2,3
 
-    http://dcat-ap.ch/vocabulary/licenses/terms_open
-    http://dcat-ap.ch/vocabulary/licenses/terms_by
-    http://dcat-ap.ch/vocabulary/licenses/terms_ask
-    http://dcat-ap.ch/vocabulary/licenses/terms_by_ask
+    https://creativecommons.org/publicdomain/zero/1.0/
+    https://creativecommons.org/licenses/by/4.0/
+    https://creativecommons.org/licenses/by-sa/4.0/
 
 .. code-block::
     :caption: **Deprecated:** Values **acceptable** for opendata.swiss

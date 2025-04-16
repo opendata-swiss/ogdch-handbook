@@ -9,7 +9,7 @@ DCAT-AP CH
 **********
 
 Der Schweizer Metadatenstandard
-=====================================
+================================
 
 .. container:: Intro
 
@@ -343,6 +343,9 @@ Translatable elements are marked as such under usage notes.
     * - :fa:`exclamation` :ref:`accessService <dcat-distribution-access-service>`
       - dcat:accessService
       - optional, :fa:`exclamation` new property, read usage notes
+    * - :fa:`exclamation` :ref:`conforms to <dcat-distribution-conforms-to>`
+      - dct:conformsTo
+      - optional, :fa:`exclamation` new property
 
 .. _dcat-ap-ch-catalog:
 
@@ -1199,3 +1202,22 @@ dcat:accessService (DCAT)
     :header: Property ``dcat:accessService`` of ``dcat:Distribution`` in Rdf/xml
 
     .. include:: dcat-examples/distribution-access-service-rdf.rst
+
+.. _dcat-distribution-conforms-to:
+
+dct:conformsTo (DCAT)
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. container:: Mapping
+
+    .. include:: dcat-definitions/distribution-conforms-to.rst
+
+.. toggle-header::
+    :header: Property ``dct:conformsTo`` of ``dcat:Distribution`` in Turtle
+
+    .. include:: dcat-examples/distribution-conforms-to-ttl.rst
+
+.. toggle-header::
+    :header: Property ``dct:conformsTo`` of ``dcat:Distribution`` in Rdf/xml
+
+    .. include:: dcat-examples/distribution-conforms-to-rdf.rst

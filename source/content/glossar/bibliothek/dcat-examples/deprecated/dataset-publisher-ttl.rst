@@ -1,15 +1,15 @@
 .. code-block:: Turtle
-    :caption: Publisher of a dataset in Turtle
-    :emphasize-lines: 7,9
+    :caption: publisher as foaf:Organization which is a subtype of foaf:Agent
+    :emphasize-lines: 8, 10, 11, 12
 
     @prefix dcat: <http://www.w3.org/ns/dcat#> .
     @prefix dct: <http://purl.org/dc/terms/> .
-    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
     <https://swisstopo/123>
       a dcat:Dataset ;
-      dct:publisher [
-         a rdf:Description ;
-         rdfs:label: "Bundesamt für Landestopografie swisstopo"
-      ] .
+      dct:publisher <https://swisstopo> .
+
+    <https://swisstopo>
+      a foaf:Organization ;
+      foaf:name: "Landesamt für Topographie Swisstopo" .

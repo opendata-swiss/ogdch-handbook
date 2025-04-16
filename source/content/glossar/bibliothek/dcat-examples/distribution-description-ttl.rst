@@ -7,4 +7,4 @@
 
     <https://swisstopo/123456>
       a dcat:Distribution ;
-      dct:description "Railway noises at night"@en, "Eisenbahnlärm in der Nacht"@de .
+      dct:description "Current Measurement Values (csv, GeoJSON)"@en, "Aktuelle Messwerte (csv, GeoJSON)"@de, "Valeurs actuelles (csv, GeoJSON)"@fr, "Valori attuali (csv, GeoJSON) (csv, GeoJSON)"@it .
