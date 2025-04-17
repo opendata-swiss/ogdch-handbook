@@ -8,8 +8,8 @@
              xmlns:dct="http://purl.org/dc/terms/">
 
       <dcat:Dataset rdf:about="https://swisstopo/123">
-        <dct:language>de</dct:language>
-        <dct:language>fr</dct:language>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
       </dcat:Dataset>
 
     </rdf:RDF>
