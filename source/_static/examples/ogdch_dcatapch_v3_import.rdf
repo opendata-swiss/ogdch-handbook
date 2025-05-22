@@ -23,9 +23,12 @@
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
     <dct:publisher>
-      <foaf:Organization rdf:about="https://www.swisstopo.admin.ch/">
-        <foaf:name>Bundesamt für Landestopographie Swisstopo</foaf:name>
-      </foaf:Organization>
+      <foaf:Agent rdf:about="https://swisstopo.ch">
+        <foaf:name xml:lang="de">Bundesamt für Landestopografie swisstopo</foaf:name>
+        <foaf:name xml:lang="fr">Office fédéral de topographie swisstopo</foaf:name>
+        <foaf:name xml:lang="it">Ufficio federale di topografia swisstopo</foaf:name>
+        <foaf:name xml:lang="en">Federal Office of Topography swisstopo</foaf:name>
+      </foaf:Agent>
     </dct:publisher>
     <dcat:contactPoint>
       <vcard:Organization>
@@ -45,8 +48,9 @@
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
     <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
     
-    <dct:language>de</dct:language>
-    <dct:language>en</dct:language>
+    <!-- The languages are selected from the EU language vocabulary.  -->
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
     <dct:relation>
       <rdf:Description rdf:about="http://www.bafu.admin.ch/laerm/index.html?lang=de">
         <rdfs:label>Webseite des BAFU</rdfs:label>
@@ -68,6 +72,9 @@
     <dcat:keyword xml:lang="fr">Nuit</dcat:keyword>
     <dcat:keyword xml:lang="it">Noche</dcat:keyword>
     <dcat:keyword xml:lang="en">Night</dcat:keyword>
+	<dct:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/CHE"/>
+    <dct:spatial>Bern</dct:spatial>
+	<dct:coverage>2021-04-26</dct:coverage>
     <dcat:landingPage rdf:resource="http://www.bafu.admin.ch/laerm/index.html"/>
     <dct:temporal>
       <dct:PeriodOfTime>
@@ -111,16 +118,20 @@
         <dct:description xml:lang="en">The information is based on comprehensive model calculations.</dct:description>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-11T00:00:00Z</dct:issued>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
-        <dct:language>de</dct:language>
-        <dct:language>en</dct:language>
-        <dcat:accessURL rdf:resource="http://wms.geo.admin.ch/"/>
 
+    <!-- The languages are selected from the EU language vocabulary.  -->
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dcat:accessURL rdf:resource="https://data.geo.admin.ch/ch.swisstopo.swissboundaries3d/swissboundaries3d_2025-04/swissboundaries3d_2025-04_2056_5728.gdb.zip"/>
+		<dcat:downloadURL rdf:resource="https://data.geo.admin.ch/ch.swisstopo.swissboundaries3d/swissboundaries3d_2025-04/swissboundaries3d_2025-04_2056_5728.gdb.zip"/>
+		
         <!-- The license statement is taken from a controlled vocabulary for the opendata.swiss terms of use. -->
         <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_open"/>
-        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">698039.0</dcat:byteSize>
+        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">698039.0</dcat:byteSize> -->
+		<dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/zip"/>
 
         <!-- Use CV VOCAB-EU_FILE-TYPE for dct:format. If a format is not available, use media type. -->
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
       </dcat:Distribution>
     </dcat:distribution>
 
@@ -139,9 +150,12 @@
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-04-26T01:00:00Z</dct:issued>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-26T00:00:00Z</dct:modified>
     <dct:publisher>
-      <foaf:Organization rdf:about="https://www.swisstopo.admin.ch/">
-        <foaf:name>Bundesamt für Landestopographie Swisstopo</foaf:name>
-      </foaf:Organization>
+      <foaf:Agent rdf:about="https://swisstopo.ch">
+        <foaf:name xml:lang="de">Bundesamt für Landestopografie swisstopo</foaf:name>
+        <foaf:name xml:lang="fr">Office fédéral de topographie swisstopo</foaf:name>
+        <foaf:name xml:lang="it">Ufficio federale di topografia swisstopo</foaf:name>
+        <foaf:name xml:lang="en">Federal Office of Topography swisstopo</foaf:name>
+      </foaf:Agent>
     </dct:publisher>
     <dcat:contactPoint>
       <vcard:Organization>
@@ -182,17 +196,17 @@
         <dct:description xml:lang="de">RESTful API von geo.admin.ch</dct:description>
         <dct:title xml:lang="en">RESTful API from geo.admin.ch</dct:title>
         <dct:description xml:lang="it">RESTful API da geo.admin.ch</dct:description>
-        <dct:language>en</dct:language>
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
         <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/REST"/>
-        <dct:language>de</dct:language>
-        <dct:description xml:lang="en">RESTful API from geo.admin.ch</dct:description>
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
         <dct:title xml:lang="it">RESTful API da geo.admin.ch</dct:title>
         <dct:description xml:lang="fr">RESTful API de geo.admin.ch</dct:description>
-        <dct:language>fr</dct:language>
-        <dct:rights rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+		<dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dct:title xml:lang="de">RESTful API von geo.admin.ch</dct:title>
         <dcat:accessURL rdf:resource="https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-land-flaeche.fill"/>
-        <dct:language>it</dct:language>
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+		<dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</dcat:temporalResolution>
       </dcat:Distribution>
     </dcat:distribution>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
@@ -221,9 +235,9 @@
         <dct:title xml:lang="de">Linked Data</dct:title>
         <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
         <dcat:accessURL rdf:resource="https://geo.ld.admin.ch/data/swissBOUNDARIES3D:countries"/>
-        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
-        <dct:language>de</dct:language>
-        <dct:rights rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+		<dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
       </dcat:Distribution>
     </dcat:distribution>
     <dcat:keyword xml:lang="en">national-border</dcat:keyword>
@@ -234,17 +248,17 @@
     </dct:relation>
     <dct:title xml:lang="en">swissBOUNDARIES3D national boundaries</dct:title>
     <dcat:distribution>
-      <dcat:Distribution rdf:about="https://ckan.opendata.swiss/dataset/fb80d697-c64b-470f-88d2-a84cc63c3cb0/resource/ced17372-31a4-4a1a-8733-86974df62012">
+      <dcat:Distribution rdf:about="https://opendata.swiss/dataset/fb80d697-c64b-470f-88d2-a84cc63c3cb0/resource/ced17372-31a4-4a1a-8733-86974df62012">
         <dct:description xml:lang="de">WMTS-BGDI Dienst, Layer "Landesgrenzen"</dct:description>
-        <dct:language>it</dct:language>
-        <dct:language>de</dct:language>
-        <dct:language>fr</dct:language>
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/> 
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/> 
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
         <dct:license rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
         <dct:title xml:lang="fr">ch.swisstopo.swissboundaries3d-land-flaeche.fill</dct:title>
         <dct:description xml:lang="it">Servizio WMTS-IFDG, strato "Frontiere nazionali"</dct:description>
         <dcat:accessURL rdf:resource="https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml?lang=de"/>
-        <dct:language>en</dct:language>
-        <dct:rights rdf:resource="http://dcat-ap.ch/vocabulary/licenses/terms_by"/>
+		<dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+		<dct:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dct:title xml:lang="de">ch.swisstopo.swissboundaries3d-land-flaeche.fill</dct:title>
         <dct:description xml:lang="en">WMTS-FSDI service, layer "National boundaries"</dct:description>
         <dct:description xml:lang="fr">Service WMTS-IFDG, couche , Layer "Frontières nationales"</dct:description>
@@ -261,4 +275,4 @@
     <dcat:dataset rdf:resource="http://swisstopo/swissBOUNDARIES"/>
   </dcat:Catalog>
 
-</rdf:RDF>
+</rdf:RDF> 
