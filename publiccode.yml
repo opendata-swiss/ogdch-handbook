@@ -1,0 +1,53 @@
+publiccodeYmlVersion: 0.5.0
+name: ogdch-handbook
+url: https://github.com/opendata-swiss/ogdch-handbook
+releaseDate: 2021-02-21
+logo: https://opendata.swiss/images/logo_horizontal.png
+platforms:
+  - web
+categories:
+  - other
+organisation:
+  uri: https://opendata.swiss
+usedBy:
+  - Swiss Federal Statistical Office
+developmentStatus: stable
+softwareType: addon
+dependsOn:
+  open:
+    - name: CKAN
+      versionMin: "2.11"
+    - name: ckanext-dcat
+      versionMin: "2.4.2"
+    - name: ckanext-harvest
+      versionMin: "1.6.2"
+description:
+  en:
+    localisedName: Handbook opendata.swiss
+    shortDescription: Handbook is provides documentation and guidelines to publish data on opendata.swiss
+    longDescription: Handbook for opendata.swiss serves as documentation and provides guidelines for data publishers in 
+      the process of publishing their data on opendata.swiss. Data users can find instructions on how to search for data
+      efficiently and how to make use of the data via API.
+    features:
+      - provide guidance for publishing data on opendata.swiss
+      - support data users to search for data on opendata.swiss
+      - support data users to query data on opendata.swiss via API
+legal:
+  license: AGPL-3.0-or-later
+maintenance:
+  type: contract
+  contractors:
+    - name: Liip AG
+      until: 2030-12-01
+      email: opendata@liip.ch
+      website: https://www.liip.ch/
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - de
+    - fr
+intendedAudience:
+  scope:
+    - government
+    - local-authorities
+    - research
