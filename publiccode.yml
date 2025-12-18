@@ -20,8 +20,8 @@ dependsOn:
 description:
   en:
     localisedName: Handbook opendata.swiss
-    shortDescription: Handbook is provides documentation and guidelines to publish data on opendata.swiss
-    longDescription: Handbook for opendata.swiss serves as documentation and provides guidelines for data publishers in 
+    shortDescription: Handbook provides documentation and guidelines to publish and consume data on opendata.swiss
+    longDescription: [Handbook](https://handbook.opendata.swiss) for opendata.swiss serves as documentation and provides guidelines for data publishers in 
       the process of publishing their data on opendata.swiss. Data users can find instructions on how to search for data
       efficiently and how to make use of the data via API.
     features:
