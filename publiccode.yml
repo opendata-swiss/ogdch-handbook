@@ -12,15 +12,11 @@ organisation:
 usedBy:
   - Swiss Federal Statistical Office
 developmentStatus: stable
-softwareType: addon
+softwareType: standalone/web
 dependsOn:
   open:
-    - name: CKAN
-      versionMin: "2.11"
-    - name: ckanext-dcat
-      versionMin: "2.4.2"
-    - name: ckanext-harvest
-      versionMin: "1.6.2"
+    - name: Sphinx
+      versionMin: "4.2"
 description:
   en:
     localisedName: Handbook opendata.swiss
