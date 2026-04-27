@@ -2,13 +2,13 @@ publiccodeYmlVersion: 0.5.0
 name: ogdch-handbook
 url: https://github.com/opendata-swiss/ogdch-handbook
 releaseDate: 2021-02-21
-logo: https://opendata.swiss/images/logo_horizontal.png
 platforms:
   - web
 categories:
   - other
 organisation:
-  uri: https://opendata.swiss
+  uri: https://ld.admin.ch/office/II.1.7
+  name: Federal Statistical Office (FSO)
 usedBy:
   - Swiss Federal Statistical Office
 developmentStatus: stable
@@ -21,9 +21,11 @@ description:
   en:
     localisedName: Handbook opendata.swiss
     shortDescription: Handbook provides documentation and guidelines to publish and consume data on opendata.swiss
-    longDescription: [Handbook](https://handbook.opendata.swiss) for opendata.swiss serves as documentation and provides guidelines for data publishers in 
-      the process of publishing their data on opendata.swiss. Data users can find instructions on how to search for data
-      efficiently and how to make use of the data via API.
+    longDescription: >
+      The handbook for opendata.swiss (https://handbook.opendata.swiss) serves as documentation and
+      provides guidelines for data publishers in the process of publishing their data on opendata.swiss.
+      Data users can find instructions on how to search for data efficiently and how to make use of the
+      data via API.
     features:
       - provide guidance for publishing data on opendata.swiss
       - support data users to search for data on opendata.swiss
